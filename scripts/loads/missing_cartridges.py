@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""List load-file cartridge names that do not resolve to the library.
+"""List load-file cartridge names whose cartridge is absent from the library.
 
 The match is the same rule as src/lib/cartridges.ts: aliasKey, looseAliasKey,
-then resolveCartridge. This script only reads data/cartridges/cartridges.json.
-It does not edit the library.
+then resolveCartridge. A published string is omitted when that rule resolves
+it, when a trailing " - Pistol" or " +P" leaves a name that resolves, or when
+the alias-matching comment already names it as a spelling of a library
+cartridge. This script only reads data/cartridges/cartridges.json. It does
+not edit the library or the load rows.
 
 Usage:
   python3 scripts/loads/missing_cartridges.py
@@ -102,6 +105,39 @@ def source_counts() -> tuple[list[str], dict[str, dict[str, int]]]:
     return slugs, counts
 
 
+# Spellings already tied to a library cartridge in
+# data/loads/comments/2026-10-27-cartridge-alias-matching.md. The rows keep
+# the posted text. Bare words that match more than one cartridge stay out of
+# this absent list too.
+_NAMED_SPELLINGS = frozenset(
+    {
+        "300wm",
+        "28N",
+        "7RM",
+        "Creedmoor",
+        "creedmoore",
+        "prc",
+        "WSM",
+        "win mag",
+    }
+)
+
+
+def is_library_spelling(name: str, lookup: dict[str, str], loose: dict[str, str]) -> bool:
+    if resolve_cartridge(name, lookup, loose):
+        return True
+    if name.endswith(" - Pistol"):
+        base = name[: -len(" - Pistol")].strip()
+        if base and resolve_cartridge(base, lookup, loose):
+            return True
+    for suffix in (" +P", " +p"):
+        if name.endswith(suffix):
+            base = name[: -len(suffix)].strip()
+            if base and resolve_cartridge(base, lookup, loose):
+                return True
+    return name in _NAMED_SPELLINGS
+
+
 def unresolved_rows(
     slugs: list[str],
     counts: dict[str, dict[str, int]],
@@ -112,6 +148,21 @@ def unresolved_rows(
     for name, by_source in counts.items():
         if resolve_cartridge(name, lookup, loose) is None:
             rows.append((name, by_source, sum(by_source.values())))
+    rows.sort(key=lambda item: (-item[2], item[0]))
+    return rows
+
+
+def absent_rows(
+    slugs: list[str],
+    counts: dict[str, dict[str, int]],
+    lookup: dict[str, str],
+    loose: dict[str, str],
+):
+    rows = []
+    for name, by_source in counts.items():
+        if is_library_spelling(name, lookup, loose):
+            continue
+        rows.append((name, by_source, sum(by_source.values())))
     rows.sort(key=lambda item: (-item[2], item[0]))
     return rows
 
@@ -130,8 +181,8 @@ def main() -> int:
     library = json.loads(LIBRARY_PATH.read_text(encoding="utf-8"))
     lookup, loose = _indexes(library)
     slugs, counts = source_counts()
-    rows = unresolved_rows(slugs, counts, lookup, loose)
-    print(f"{len(rows)} unresolved cartridge names")
+    rows = absent_rows(slugs, counts, lookup, loose)
+    print(f"{len(rows)} cartridges absent from the library")
     print(markdown_table(slugs, rows))
     return 0
 
