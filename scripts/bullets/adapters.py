@@ -2444,6 +2444,16 @@ def scrape_sellier_bellot() -> dict:
     return catalog("Sellier & Bellot", bullets)
 
 
+def scrape_fiocchi() -> dict:
+    raise TermsForbid(
+        "fiocchi: The Fiocchi terms (https://fiocchi.com/en/terms-and-conditions) "
+        "allow only private, non-commercial, temporary copies of site content. "
+        "Reproduction for economic purposes needs the company's express authorization. "
+        "No rows were fetched. fiocchiusa.com publishes loaded ammunition, not a "
+        "component-bullet specification table, and was not used."
+    )
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -2478,4 +2488,5 @@ ADAPTERS = {
     "sako": scrape_sako,
     "rmr": scrape_rmr,
     "sellier-bellot": scrape_sellier_bellot,
+    "fiocchi": scrape_fiocchi,
 }
