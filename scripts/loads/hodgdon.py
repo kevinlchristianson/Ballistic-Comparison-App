@@ -157,7 +157,11 @@ def _pressure(token) -> tuple[int | float | None, str | None, str | None]:
     if len(parts) == 2 and parts[1].lower() in {"psi", "cup", "bar", "mpa"}:
         number_token = parts[0]
         # 53,000 is thousands. 61,00 is a broken token, not a pressure to guess.
+        # 57.600 sits beside comma-thousands on the same page. It is not stored
+        # as 57.6, and it is not rewritten to 57600.
         if "," in number_token and not re.fullmatch(r"\d{1,3}(?:,\d{3})+", number_token):
+            return None, None, text
+        if re.fullmatch(r"\d{1,3}\.\d{3}", number_token):
             return None, None, text
         number = parse_published_number(number_token)
         if number is None:
@@ -229,6 +233,10 @@ def _from_cartridge(path: Path, stats: dict) -> list[dict]:
             start_pressure, start_unit, start_pressure_note = _pressure(load.get("StartingPressure"))
             max_pressure, max_unit, max_pressure_note = _pressure(load.get("MaximumPressure"))
             coal = _length_inches(load.get("Col"))
+            # "2610"" does not fit the schema maximum of 500. Leave it null.
+            # The printed token stays in notes. Do not guess 2.610.
+            if isinstance(coal, (int, float)) and coal > 500:
+                coal = None
             diameter = _length_inches(load.get("BulletDiameter") or group.get("Diameter"))
             if isinstance(diameter, (int, float)) and diameter > 1:
                 diameter = None
