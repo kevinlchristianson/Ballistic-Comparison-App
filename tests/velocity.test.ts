@@ -37,7 +37,9 @@ describe("physics-v1", () => {
     const e = physics.estimate({ cartridgeId: "6-5-creedmoor", bulletWeightGr: 140, barrelLengthIn: 24 });
     expect(e.lowFps!).toBeLessThan(e.estimateFps!);
     expect(e.highFps!).toBeGreaterThan(e.estimateFps!);
-    expect(e.flags).toEqual(expect.arrayContaining(["assumes_max_pressure", "physics_estimate", "unverified_cartridge_data"]));
+    expect(e.flags).toEqual(expect.arrayContaining(["assumes_max_pressure", "physics_estimate"]));
+    // 6.5 Creedmoor is verified against SAAMI Z299.4-2025, so no unverified-data flag.
+    expect(e.flags).not.toContain("unverified_cartridge_data");
     expect(e.support.loadCount).toBe(0);
   });
 

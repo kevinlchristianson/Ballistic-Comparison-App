@@ -34,7 +34,7 @@ Coverage is weakest on classic cartridges and some magnums. The allowed forums t
 
 | Source | URL | Used for | Terms checked |
 | --- | --- | --- | --- |
-| ANSI/SAAMI Z299.4-2025, Centerfire Rifle | https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf | SAAMI dimensions and MAP (verification pending) | No |
+| ANSI/SAAMI Z299.4-2025, Centerfire Rifle | https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf | SAAMI dimensions and MAP (checked 2026-10-27, see `data/cartridges/SAAMI-CHECK.md`) | No |
 | C.I.P. Tables of Dimensions of Cartridges and Chambers | https://bobp.cip-bobp.org/en/tdcc | C.I.P. cartridges (verification pending) | No |
 
-All cartridge values are currently unverified. See [`data/cartridges/README.md`](cartridges/README.md).
+SAAMI cartridge dimensions and MAP were checked against Z299.4-2025 on 2026-10-27 ([`data/cartridges/SAAMI-CHECK.md`](cartridges/SAAMI-CHECK.md)). Case capacities, C.I.P. and wildcat values are still unverified. See [`data/cartridges/README.md`](cartridges/README.md).
