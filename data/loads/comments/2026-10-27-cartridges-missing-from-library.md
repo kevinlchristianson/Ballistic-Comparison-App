@@ -33,7 +33,7 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 
 ### Cartridges absent from the library
 
-226 names remain after the cartridges and aliases in `bots/loads.json` resolve. A cell is the number of load records. An empty cell is zero. The list is this snapshot, with the spellings above left out. `python3 scripts/loads/missing_cartridges.py` prints it again after the next Hodgdon normalize. The Hodgdon rifle fetch is still running. Handgun names stay in this list and stay out of `loads.json`. Rifle names still here have no dimension page cited in this pass.
+225 names remain after the cartridges and aliases in `bots/loads.json` resolve. `.338 Norma Magnum` was added after this table's first pass and is no longer in the list. A cell is the number of load records. An empty cell is zero. The list is this snapshot, with the spellings above left out. `python3 scripts/loads/missing_cartridges.py` prints it again after the next Hodgdon normalize. The Hodgdon rifle fetch process has exited. Its cache holds 318 cartridge files. Handgun names stay in this list and stay out of `loads.json`. Rifle names still here have no dimension page cited in this pass.
 
 | Cartridge | community-245gr-30cal | community-berger-elite-hunter-25cal-133gr | community-berger-elite-hunter-270cal-170gr | community-berger-elite-hunter-30cal-180gr | community-berger-elite-hunter-30cal-205gr | community-berger-elite-hunter-30cal-217gr | community-berger-elite-hunter-30cal-245gr | community-berger-elite-hunter-338cal-250gr | community-berger-elite-hunter-338cal-300gr | community-berger-elite-hunter-65mm-140gr | community-berger-elite-hunter-65mm-156gr | community-berger-elite-hunter-6mm-108gr | community-berger-elite-hunter-7mm-175gr | community-berger-elite-hunter-7mm-195gr | hodgdon | shootersworld | vihtavuori | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -242,7 +242,6 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 | 270/338 RUM |  |  | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |
 | 32 S&W |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  |  | 2 |
 | 32 Smith & Wesson Long NP |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  | 2 |
-| 338 Norma Magnum |  |  |  |  |  |  |  |  | 2 |  |  |  |  |  |  |  |  | 2 |
 | 38-55 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  | 2 |
 | 40-65 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  | 2 |
 | 6.35 Browning (25 Auto) (25 ACP) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 |  | 2 |
@@ -281,3 +280,5 @@ Answered on 2026-10-27. `BOTS.md` after PR #55 says to add these in `data/cartri
 Load rows that resolve with this file and did not resolve against `cartridges.json` alone: 2,063 of 60,039. Hodgdon 26,027 to 28,082 (+2,055). Community +8 (26 Nosler 4, 27 Nosler 3, 33 Nosler 1). Vihtavuori 0. Shooters World 0. Of that gain, the four Noslers are 674 rows (Hodgdon 666, community 8) and the later names are 1,389 Hodgdon rows: 7mm Rem. S.A. Ultra Mag. 358, 22 ARC 334, 300 Ruger Compact Magnum 250, 300 Remington S.A. Ultra Mag. 201, 6.5 WBY RPM 124, 30 AR Remington 122.
 
 Handgun names stay unmatched. Rifle names still unmatched include 22 GT, 6 x 45mm (6mm-223), 6X47MM Lapua, 7.62 x 39mm Russian, 6mm-250, 7.62 x 54R, and 6.5mm BR, because this pass had no page that prints their dimensions. 6X47MM Lapua stays off 6.5x47 Lapua. Hodgdon sections of a cartridge the library already has, such as M1 Garand Service Rifle and a trailing ` - Pistol`, stay unmatched.
+
+`.338 Norma Magnum` was added on 2026-10-27 from the metric-origin drawing in ANSI/SAAMI Z299.4-2025. The two community rows under that name now resolve. The spelling `338 norma` stays unmatched.

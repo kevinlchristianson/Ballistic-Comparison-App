@@ -1,6 +1,6 @@
 # 108 gr Elite Hunter cartridge coverage
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Follow-up search for 6 mm 108 gr Elite Hunter loads outside the cartridges already in the file
 
@@ -45,8 +45,12 @@ The file is now 28 rows: the original 21, plus seven from the six User Load line
 
 `6mm BR / BRA / Dasher variants` resolves to 6mm Norma BR through the `6mm BR` piece alone. That join is wrong. It is recorded in `data/loads/comments/2026-10-27-cartridge-alias-matching.md`. The published string is unchanged.
 
-## Working assumption until answered
+## Decision
 
 Keep the seven User Load rows from Kevin's notes. Do not add a forum row whose charge or velocity is shared with another bullet, and do not add the 108 gr target-bullet threads. Do not copy the Long Range Hunting or Texas Hunting Forum posts unless the terms decision changes. Do not alias `6mm BR / BRA / Dasher variants` to 6mm Norma BR.
 
 ## Answer
+
+Answered on 2026-10-27 in `BOTS.md` by PR #70. Agreed on every point. The coverage gaps are recorded in `data/SOURCES.md`. Long Range Hunting and Texas Hunting Forum stay out unless the owner decides otherwise.
+
+The seven User Load rows from Kevin's notes stay. A forum row whose charge or velocity is shared with another bullet stays out, and so do the 108 gr target-bullet threads. `6mm BR / BRA / Dasher variants` is not aliased to 6mm Norma BR. The resolver now leaves that ` / ` string unmatched unless every piece names the same cartridge. No cartridge from the searched-and-empty list was added here. 24 Nosler is already in `bots/loads.json` from the dimension pass. This file still has no 24 Nosler load row, because no first-person charge or velocity for the 108 gr Elite Hunter was posted on the allowed forums.

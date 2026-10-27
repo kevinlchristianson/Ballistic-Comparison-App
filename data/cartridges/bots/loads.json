@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 8,
+  "cartridgeCount": 9,
   "aliasCount": 3,
   "cartridges": [
     {
@@ -196,6 +196,30 @@
         "retrievedOn": "2026-10-27"
       },
       "note": "Drawing title is 30 REMINGTON AR [30 REM AR]. Bullet .309 - .003, case 1.530 - .020, COAL 2.000 min to 2.260 max, rim .492 - .010, shoulder basic 25°. Transducer MAP printed 550 psi/100. Crusher not established."
+    },
+    {
+      "id": "338-norma-magnum",
+      "name": ".338 Norma Magnum",
+      "kind": "saami",
+      "aliases": ["338 Norma Magnum", "338 NM"],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.6,
+      "caseLength": 63.3,
+      "trimLength": null,
+      "maxCoal": 93.5,
+      "rimDiameter": 14.93,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.5,
+      "rimType": null,
+      "pressure": { "value": 62500, "unit": "psi", "method": "piezo" },
+      "source": {
+        "name": "ANSI/SAAMI Z299.4-2025, 338 Norma Magnum cartridge drawing",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-27"
+      },
+      "note": "Metric-origin drawing. Bullet 8.60 - 0.076 mm (.3386 - .0030), case 63.30 - 0.51 mm (2.492 - .0200), COAL 90.33 mm min to 93.50 mm max, rim 14.93 - 0.25 mm (.588 - .010), shoulder basic 20° 30'. Stored lengths are the metric maxima. Transducer MAP is 625 psi/100. Crusher not established. Inch figures on the drawing are calculated from the metric."
     }
   ],
   "aliases": [
