@@ -58,27 +58,54 @@ export interface CartridgeLibrary {
 }
 
 /**
- * Reduces a cartridge name to a comparison key: lowercase, with dots,
- * commas (European decimal marks), spaces, hyphens, slashes, apostrophes
- * and underscores removed, and a few
- * common long words shortened. "6.5 Creedmoor", "6.5mm Creedmoor" and
- * "6.5 CM" do not all collapse to one key; the alias list covers those.
+ * Forum and catalog shorthand, word by word, applied before names are
+ * compared. Keeps "6 creed", "6 CM" and "6mm Creedmoor" on one key, and
+ * "300 WM" with "300 Win Mag".
+ */
+const WORD_SYNONYMS: [RegExp, string][] = [
+  [/\bremington\b/g, "rem"],
+  [/\bwinchester\b/g, "win"],
+  [/\bweatherby\b/g, "wby"],
+  [/\bmagnum\b/g, "mag"],
+  [/\bgovernment\b/g, "govt"],
+  [/\b(springfield|sprg|spfd)\b/g, ""],
+  [/\b(creed|cm)\b/g, "creedmoor"],
+  [/\bwm\b/g, "win mag"],
+  [/\brm\b/g, "rem mag"],
+  [/\blm\b/g, "lapua mag"],
+  [/\bnm\b/g, "norma mag"],
+  [/\bblk\b/g, "blackout"],
+  [/\baac\b/g, ""],
+  [/\bswede\b/g, "swedish"],
+];
+
+/**
+ * Reduces a cartridge name to a comparison key: lowercase, shorthand words
+ * expanded (WORD_SYNONYMS), "mm" after a number dropped ("6mm Creedmoor" and
+ * "6 Creedmoor" match), and dots, commas (European decimal marks), spaces,
+ * hyphens, slashes, apostrophes and underscores removed. The alias list covers
+ * the rest.
  */
 export function aliasKey(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/×/g, "x")
-    .replace(/\bremington\b/g, "rem")
-    .replace(/\bwinchester\b/g, "win")
-    .replace(/\bweatherby\b/g, "wby")
-    .replace(/\bmagnum\b/g, "mag")
-    .replace(/\bgovernment\b/g, "govt")
-    .replace(/\bspringfield\b/g, "sprg")
-    .replace(/[.,\s\-_'/]+/g, "");
+  let s = name.toLowerCase().replace(/×/g, "x");
+  for (const [re, to] of WORD_SYNONYMS) s = s.replace(re, to);
+  return s.replace(/(\d)\s*mm\b/g, "$1").replace(/[.,\s\-_'/]+/g, "");
+}
+
+/** Maker words forums often leave off ("6.5 PRC", "300 Win" for .300 Win Mag is not covered). */
+const MAKER_WORDS = /\b(rem|win|wby|norma|nosler|hornady|lapua)\b/g;
+
+/** A looser key without maker words, used only when the strict key finds nothing. */
+export function looseAliasKey(name: string): string {
+  let s = name.toLowerCase().replace(/×/g, "x");
+  for (const [re, to] of WORD_SYNONYMS) s = s.replace(re, to);
+  return aliasKey(s.replace(MAKER_WORDS, " "));
 }
 
 export interface AliasIndex {
   lookup: Map<string, string>;
+  /** Keys without maker words; only keys that point at one cartridge. */
+  loose: Map<string, string>;
   /** Keys claimed by more than one cartridge. These are ambiguous and not resolved. */
   collisions: Map<string, string[]>;
 }
@@ -99,7 +126,18 @@ export function buildAliasIndex(cartridges: Cartridge[]): AliasIndex {
     if (ids.size === 1) lookup.set(key, [...ids][0]!);
     else collisions.set(key, [...ids].sort());
   }
-  return { lookup, collisions };
+  const looseOwners = new Map<string, Set<string>>();
+  for (const c of cartridges) {
+    for (const name of [c.name, ...c.aliases]) {
+      const key = looseAliasKey(name);
+      if (!key) continue;
+      if (!looseOwners.has(key)) looseOwners.set(key, new Set());
+      looseOwners.get(key)!.add(c.id);
+    }
+  }
+  const loose = new Map<string, string>();
+  for (const [key, ids] of looseOwners) if (ids.size === 1) loose.set(key, [...ids][0]!);
+  return { lookup, loose, collisions };
 }
 
 /**
@@ -109,7 +147,7 @@ export function buildAliasIndex(cartridges: Cartridge[]): AliasIndex {
  * different cartridges resolve to nothing rather than a guess.
  */
 export function resolveCartridge(name: string, index: AliasIndex): string | null {
-  const whole = index.lookup.get(aliasKey(name));
+  const whole = index.lookup.get(aliasKey(name)) ?? index.loose.get(looseAliasKey(name));
   if (whole) return whole;
   const parts = new Set<string>();
   for (const piece of name.split(/\s+\/\s+/)) {
