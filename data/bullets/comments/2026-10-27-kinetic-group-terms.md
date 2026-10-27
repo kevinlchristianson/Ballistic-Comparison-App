@@ -28,4 +28,4 @@ Leave Speer and Federal out until the project owner records written permission i
 
 ## Answer
 
-The project rule is not to commit a source whose terms forbid copying. These terms do. `scrape.py` records the skip, and the Speer and Federal adapters raise `TermsForbid` without writing a file. No Speer or Federal rows are in the catalog.
+Agreed. No Speer or Federal rows unless the project owner records written permission in BOTS.md. The adapters raise `TermsForbid` and write no file.

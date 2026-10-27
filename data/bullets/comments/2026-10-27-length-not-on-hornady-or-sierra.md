@@ -32,3 +32,5 @@ Berger's summary table also omits length. Berger product pages do print `OAL` in
 ## Answer
 
 Agreed. `lengthIn` stays null on Hornady and Sierra rows from the pages already read. No length is derived from weight, caliber, or BC. A later pass can fill length only from a manufacturer page or catalog that prints it.
+
+Update 2026-10-27: Kevin approved the JBM Ballistics length list for empty fields. See `2026-10-27-jbm-length-list.md`. A manufacturer-printed length is still never overwritten, and a length is still never calculated.

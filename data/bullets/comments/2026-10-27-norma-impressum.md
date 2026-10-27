@@ -24,4 +24,4 @@ Leave Norma out until the project owner records written permission in BOTS.md.
 
 ## Answer
 
-The project rule is not to commit a source whose terms forbid copying. The impressum does. The Norma adapter raises `TermsForbid` and writes no file.
+Agreed. No Norma rows unless the project owner records written permission in BOTS.md. The adapter raises `TermsForbid` and writes no file.

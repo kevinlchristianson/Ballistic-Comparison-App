@@ -16,6 +16,10 @@ then scripts/bullets/normalize.py rebuilds data/bullets/bullets.json.
 
 When two sources disagree, keep the manufacturer-published value and
 record the other value on conflicts. Leave unknown fields null.
+
+Null lengths from the JBM Ballistics length list are applied by
+jbm_lengths.py, not by a manufacturer adapter. That script never
+replaces a length the manufacturer already printed.
 """
 
 from __future__ import annotations

@@ -204,7 +204,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.936,
       "construction": [
         "open_tip_match"
       ],
@@ -221,10 +221,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.936 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Scenar L (Litz)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.936 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Scenar L (Litz).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -269,7 +275,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.043,
       "construction": [
         "open_tip_match"
       ],
@@ -286,10 +292,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.043 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, Scenar L (Litz)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.043 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, Scenar L (Litz).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -388,7 +400,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.094,
       "construction": [
         "open_tip_match"
       ],
@@ -405,10 +417,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.094 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 90 gr, Scenar L (Litz)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.094 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 90 gr, Scenar L (Litz).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -453,7 +471,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.252,
       "construction": [
         "open_tip_match"
       ],
@@ -470,10 +488,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.252 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.252 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -509,7 +533,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.836,
       "construction": [
         "fmj"
       ],
@@ -526,10 +550,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.836 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.836 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Full Metal Jacket.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -677,7 +707,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.836,
       "construction": [
         "fmj"
       ],
@@ -694,10 +724,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.836 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Full Metal Jacket Cutting Edge."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.836 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Full Metal Jacket Cutting Edge.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -807,7 +843,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.3,
       "construction": [
         "open_tip_match"
       ],
@@ -824,10 +860,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.3 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 108 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.3 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 108 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1046,7 +1088,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.298,
       "construction": [
         "open_tip_match"
       ],
@@ -1063,10 +1105,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.298 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 123 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.298 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 123 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1102,7 +1150,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.906,
       "construction": [
         "fmj"
       ],
@@ -1119,10 +1167,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.906 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 123 gr, Full Metal Jacket (CD)."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.311 copied from the printed caliber label: 7.62 mm (.311).",
+      "notes": "Diameter 0.311 copied from the printed caliber label: 7.62 mm (.311). lengthIn 0.906 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 123 gr, Full Metal Jacket (CD).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1158,7 +1212,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.892,
       "construction": [
         "fmj"
       ],
@@ -1175,10 +1229,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.892 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 123 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.892 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 123 gr, Full Metal Jacket.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1288,7 +1348,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.364,
       "construction": [
         "open_tip_match"
       ],
@@ -1305,10 +1365,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.364 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 139 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.364 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 139 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1344,7 +1410,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.291,
       "construction": [],
       "material": null,
       "intendedUse": [
@@ -1359,10 +1425,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.291 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Naturalis."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.291 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Naturalis.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1648,7 +1720,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.943,
       "construction": [
         "soft_point"
       ],
@@ -1665,10 +1737,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.943 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Mega."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.943 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Mega.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1825,7 +1903,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.046,
       "construction": [],
       "material": null,
       "intendedUse": [
@@ -1840,10 +1918,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.046 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 156 gr, Naturalis."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.046 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 156 gr, Naturalis.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1951,7 +2035,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.236,
       "construction": [
         "open_tip_match"
       ],
@@ -1968,10 +2052,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.236 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 167 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.236 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 167 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2016,7 +2106,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.25,
       "construction": [],
       "material": null,
       "intendedUse": [
@@ -2031,10 +2121,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Naturalis (CD)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Naturalis (CD).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2079,7 +2175,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.201,
       "construction": [
         "fmj",
         "boattail"
@@ -2097,10 +2193,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.201 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Lock Base."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.201 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Lock Base.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2210,7 +2312,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.316,
       "construction": [
         "open_tip_match"
       ],
@@ -2227,10 +2329,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.316 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Scenar-L (G1)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.316 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Scenar-L (G1).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2403,7 +2511,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.315,
       "construction": [
         "open_tip_match"
       ],
@@ -2420,10 +2528,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 185 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 185 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2525,7 +2639,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.126,
       "construction": [
         "soft_point"
       ],
@@ -2542,10 +2656,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.126 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 185 gr, Mega."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.126 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 185 gr, Mega.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2627,7 +2747,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.213,
       "construction": [
         "soft_point"
       ],
@@ -2644,10 +2764,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.213 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Mega."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.213 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Mega.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2824,7 +2950,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.563,
       "construction": [
         "open_tip_match"
       ],
@@ -2841,10 +2967,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.563 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Scenar L."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.563 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Scenar L.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2880,7 +3012,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.35,
       "construction": [],
       "material": null,
       "intendedUse": [
@@ -2895,10 +3027,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 231 gr, Naturalis."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 231 gr, Naturalis.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3006,7 +3144,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.457,
       "construction": [
         "fmj",
         "boattail"
@@ -3024,10 +3162,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.457 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, Lock Base."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.457 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, Lock Base.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3128,7 +3272,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.181,
       "construction": [
         "soft_point"
       ],
@@ -3145,10 +3289,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.181 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 285 gr, Mega."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.181 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 285 gr, Mega.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3193,7 +3343,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.733,
       "construction": [
         "open_tip_match"
       ],
@@ -3210,10 +3360,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Lapua",
           "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.733 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 300 gr, Scenar."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.733 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 300 gr, Scenar.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
