@@ -1,6 +1,6 @@
 # Cartridge strings the alias resolver does not match
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Community shorthand and other published cartridge strings that miss the library
 
@@ -311,4 +311,10 @@ The 300 gr file's strings `338 Edge`, `338 RUM`, and `.338 LM` already resolve. 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
 ## Answer
+
+Answered on 2026-10-27 in `BOTS.md` by PR #70. The resolver was fixed in general, not string by string. (1) Shorthand right after the number now expands: `300wm`, `338wm`, `7RM`, `6cm`, and `28N` (a trailing `N` after a number is Nosler). (2) `338 norma` no longer joins .338 Lapua: a loose match may drop a maker word but not swap it for another maker's. (3) A ` / ` string resolves only when every piece names the same cartridge, so `6mm BR / BRA / Dasher variants` is unmatched. (4) `6.5x284 Norma +P` is an alias of 6.5-284 Norma. Across the load files these changed only the strings listed in this comment. Bare `prc`, `Creedmoor`, `WSM`, `win mag`, `creedmoore`, `6.5/260`, `25 PRC/Saum`, and the ` - Pistol` sections stay unmatched, as this comment proposed.
+
+Cartridges the library lacked can be added in `data/cartridges/bots/loads.json` with a source that prints dimensions. `.338 Norma Magnum` is now in that file, copied from the metric-origin drawing in ANSI/SAAMI Z299.4-2025 (bullet 8.60 mm, case 63.30 mm, COAL max 93.50 mm, rim 14.93 mm, shoulder 20° 30', transducer MAP 62,500 psi). The drawing's bracket name is `338 NM`. The forum spelling `338 norma` is not an alias. This comment asked that it not be one, and the resolver change is what keeps it off .338 Lapua.
+
+24, 26, 27, and 33 Nosler were added earlier, from SAAMI drawings or, for 24 Nosler, the SAAMI catalog page. No page in hand prints case length, bullet diameter, and maximum COAL for these wildcats, so they stay out: 25 SAUM, 25 SST, 25 Sherman Short Tactical, 25-7prc, 257 Blackbird, 6.5 Sherman Max, 7SS, 270-7PRC, `270/ 7RUM`, 270/338 RUM, 7mm-300 Weatherby Mag, 30 Sherman, 30-338 Lapua Improved, 300 Terminator, and 338-375 Ruger. `25 PRC/Saum` stays unmatched because the string names two cartridges. Weatherby's page for 224 Weatherby Magnum prints bullet diameter .224 in and max case 1.925 in and does not print maximum COAL, so that cartridge is not added. Hodgdon names such as 7mm IHMSA, 22 K Hornet, and 219 Zipper are not in the Z299.4-2025 PDF used here.
 
