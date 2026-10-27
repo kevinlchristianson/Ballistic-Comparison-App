@@ -45,6 +45,12 @@ SOURCES: tuple[Source, ...] = (
         "Public get_loads service for one cartridge at a time. Also the IMR, Winchester, Ramshot, and Accurate data in that center. Crawl-delay 10; this script waits 12s. No shotshells.",
     ),
     Source(
+        "lazzeroni",
+        "Lazzeroni Arms Company",
+        "https://www.lazzeroni.com/",
+        "Public handloader-profile PDFs. Normalize with scripts/loads/lazzeroni.py. Four seconds between downloads. No login.",
+    ),
+    Source(
         "loaddevelopment",
         "LoadDevelopment.com",
         "https://loaddevelopment.com/load-data/",
@@ -73,6 +79,14 @@ def scrape_source(source: Source, dry_run: bool) -> int:
             print("  dry-run: no request sent")
             return 0
         print("  vihtavuori fetch is not repeated. Run scripts/loads/vihtavuori.py to normalize the cache.")
+        return 0
+    if source.slug == "lazzeroni":
+        if dry_run:
+            print("  dry-run: would GET the handloader PDFs, 4s apart")
+            return 0
+        from lazzeroni import fetch
+
+        fetch()
         return 0
     if source.slug == "hodgdon":
         if dry_run:
