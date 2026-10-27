@@ -2444,6 +2444,15 @@ def scrape_sellier_bellot() -> dict:
     return catalog("Sellier & Bellot", bullets)
 
 
+def scrape_remington() -> dict:
+    raise TermsForbid(
+        "remington: The Remington orders page (https://www.remington.com/orders.html) "
+        "prints The Kinetic Group terms. They forbid copying product information and "
+        "forbid robots or data gathering. The about page names Remington as a Kinetic Group brand. "
+        "No rows were fetched."
+    )
+
+
 def scrape_winchester() -> dict:
     raise TermsForbid(
         "winchester: The Winchester terms (https://winchester.com/Terms-Of-Use) "
@@ -2499,4 +2508,5 @@ ADAPTERS = {
     "sellier-bellot": scrape_sellier_bellot,
     "fiocchi": scrape_fiocchi,
     "winchester": scrape_winchester,
+    "remington": scrape_remington,
 }
