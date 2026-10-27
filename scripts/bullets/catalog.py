@@ -19,7 +19,7 @@ MANUFACTURERS_DIR = DATA_DIR / "manufacturers"
 RAW_DIR = DATA_DIR / "raw"
 COMBINED_PATH = DATA_DIR / "bullets.json"
 
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.1.0"
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 URI_RE = re.compile(r"^https?://\S+$")
 

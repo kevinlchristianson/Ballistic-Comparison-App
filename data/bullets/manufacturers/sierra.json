@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "manufacturer": "Sierra",
   "generatedOn": "2026-10-27",
   "bulletCount": 199,
@@ -62,7 +62,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1571",
@@ -120,7 +126,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1755",
@@ -180,7 +192,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2175",
@@ -238,7 +256,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2231",
@@ -298,7 +322,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1725",
@@ -358,7 +388,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1385",
@@ -406,7 +442,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4682",
@@ -464,7 +506,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7188",
@@ -523,7 +571,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4110",
@@ -582,7 +636,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2120",
@@ -630,7 +690,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9350t",
@@ -690,7 +756,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1981",
@@ -750,7 +822,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4681t",
@@ -809,7 +887,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1510",
@@ -857,7 +941,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2136",
@@ -907,7 +997,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1913",
@@ -956,7 +1052,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2140",
@@ -1014,7 +1116,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1100",
@@ -1060,7 +1168,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7430",
@@ -1119,7 +1233,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2420",
@@ -1177,7 +1297,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1502",
@@ -1228,7 +1354,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1355",
@@ -1286,7 +1418,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2315",
@@ -1346,7 +1484,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1925",
@@ -1404,7 +1548,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2269",
@@ -1465,7 +1615,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2237",
@@ -1525,7 +1681,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1345",
@@ -1573,7 +1735,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1455",
@@ -1634,7 +1802,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1560",
@@ -1692,7 +1866,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1730",
@@ -1750,7 +1930,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1834",
@@ -1808,7 +1994,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1530",
@@ -1866,7 +2058,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1997",
@@ -1926,7 +2124,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1830",
@@ -1974,7 +2178,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2650",
@@ -2034,7 +2244,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1976",
@@ -2092,7 +2308,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7450",
@@ -2151,7 +2373,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1380",
@@ -2211,7 +2439,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1610",
@@ -2259,7 +2493,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4345",
@@ -2317,7 +2557,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1605",
@@ -2368,7 +2614,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2124",
@@ -2418,7 +2670,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1036",
@@ -2469,7 +2727,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1930",
@@ -2520,7 +2784,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1330",
@@ -2568,7 +2838,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2130",
@@ -2616,7 +2892,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2155",
@@ -2676,7 +2958,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2277",
@@ -2737,7 +3025,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4580",
@@ -2795,7 +3089,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1507",
@@ -2846,7 +3146,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2180",
@@ -2893,7 +3199,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9362",
@@ -2953,7 +3265,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1210",
@@ -2999,7 +3317,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9380",
@@ -3059,7 +3383,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7169",
@@ -3118,7 +3448,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1720",
@@ -3166,7 +3502,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1396",
@@ -3226,7 +3568,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9631mp",
@@ -3287,7 +3635,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1895",
@@ -3335,7 +3689,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2210",
@@ -3395,7 +3755,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1625",
@@ -3453,7 +3819,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2310",
@@ -3501,7 +3873,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1820",
@@ -3559,7 +3937,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1039",
@@ -3610,7 +3994,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-8760",
@@ -3655,7 +4045,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2116",
@@ -3705,7 +4101,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1390",
@@ -3763,7 +4165,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4540c",
@@ -3819,7 +4227,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2232",
@@ -3877,7 +4291,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2850",
@@ -3935,7 +4355,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1728",
@@ -3993,7 +4419,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1835",
@@ -4051,7 +4483,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2145",
@@ -4109,7 +4547,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4625",
@@ -4158,7 +4602,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1845",
@@ -4216,7 +4666,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2230",
@@ -4276,7 +4732,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7170",
@@ -4335,7 +4797,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2160",
@@ -4393,7 +4861,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1740",
@@ -4454,7 +4928,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2020",
@@ -4502,7 +4982,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1628",
@@ -4560,7 +5046,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2800",
@@ -4599,7 +5091,13 @@
       "conflicts": [
         "Item number 2800 is also published on another Sierra bullet (40 CAL 200 GR JHP PRO-HUNTER; 35 CAL 200 GR RN PRO-HUNTER). sku left null."
       ],
-      "notes": "Published item number 2800 is shared with another bullet, so sku is null."
+      "notes": "Published item number 2800 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2415",
@@ -4657,7 +5155,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1920",
@@ -4715,7 +5219,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7768",
@@ -4774,7 +5284,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4610gt",
@@ -4832,7 +5348,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2125",
@@ -4890,7 +5412,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1340",
@@ -4938,7 +5466,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1370",
@@ -4984,7 +5518,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2600",
@@ -5042,7 +5582,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7334",
@@ -5101,7 +5647,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1983",
@@ -5161,7 +5713,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9377t",
@@ -5222,7 +5780,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2251",
@@ -5282,7 +5846,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-8900",
@@ -5329,7 +5899,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7160",
@@ -5388,7 +5964,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1032",
@@ -5440,7 +6022,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1940",
@@ -5498,7 +6086,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7331",
@@ -5537,7 +6131,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4100t",
@@ -5596,7 +6196,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2900",
@@ -5641,7 +6247,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2800-2",
@@ -5691,7 +6303,13 @@
         "id collided with another row; stored as sierra-2800-2.",
         "Item number 2800 is also published on another Sierra bullet (40 CAL 200 GR JHP PRO-HUNTER; 35 CAL 200 GR RN PRO-HUNTER). sku left null."
       ],
-      "notes": "Published item number 2800 is shared with another bullet, so sku is null."
+      "notes": "Published item number 2800 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1450",
@@ -5751,7 +6369,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1537",
@@ -5811,7 +6435,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7775",
@@ -5870,7 +6500,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7407",
@@ -5929,7 +6565,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4540",
@@ -5985,7 +6627,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2200",
@@ -6045,7 +6693,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2620",
@@ -6093,7 +6747,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1200",
@@ -6139,7 +6799,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1365",
@@ -6197,7 +6863,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4695",
@@ -6236,7 +6908,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7720",
@@ -6295,7 +6973,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1575",
@@ -6356,7 +7040,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2400",
@@ -6404,7 +7094,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1975",
@@ -6462,7 +7158,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4340",
@@ -6511,7 +7213,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1900",
@@ -6559,7 +7267,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7795",
@@ -6618,7 +7332,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9290t",
@@ -6678,7 +7398,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2156",
@@ -6738,7 +7464,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2100",
@@ -6785,7 +7517,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1815",
@@ -6843,7 +7581,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1616",
@@ -6903,7 +7647,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2110",
@@ -6951,7 +7701,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1710",
@@ -6999,7 +7755,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2305",
@@ -7047,7 +7809,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9377gt",
@@ -7107,7 +7875,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7660",
@@ -7166,7 +7940,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1505",
@@ -7226,7 +8006,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4330t",
@@ -7285,7 +8071,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4062",
@@ -7344,7 +8136,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2190",
@@ -7404,7 +8202,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2170",
@@ -7451,7 +8255,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2165",
@@ -7509,7 +8319,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4440t",
@@ -7570,7 +8386,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7725",
@@ -7620,7 +8442,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2000",
@@ -7666,7 +8494,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9240t",
@@ -7726,7 +8560,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2950",
@@ -7784,7 +8624,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1440",
@@ -7835,7 +8681,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1515",
@@ -7893,7 +8745,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1410",
@@ -7953,7 +8811,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-8950",
@@ -8000,7 +8864,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1711c",
@@ -8058,7 +8928,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2275",
@@ -8118,7 +8994,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1727",
@@ -8178,7 +9060,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2755",
@@ -8225,7 +9113,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1565",
@@ -8285,7 +9179,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1912",
@@ -8343,7 +9243,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4210",
@@ -8401,7 +9307,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7295",
@@ -8460,7 +9372,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2610",
@@ -8518,7 +9436,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1715",
@@ -8578,7 +9502,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2236",
@@ -8638,7 +9568,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4665t",
@@ -8697,7 +9633,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1743",
@@ -8755,7 +9697,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1570",
@@ -8816,7 +9764,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1905",
@@ -8874,7 +9828,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2121",
@@ -8924,7 +9884,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-3000",
@@ -8982,7 +9948,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2010",
@@ -9028,7 +10000,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7216",
@@ -9087,7 +10065,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1360",
@@ -9135,7 +10119,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2410",
@@ -9183,7 +10173,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1742",
@@ -9244,7 +10240,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4680t",
@@ -9303,7 +10305,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4550t",
@@ -9362,7 +10370,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7755",
@@ -9421,7 +10435,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1980",
@@ -9472,7 +10492,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9390t",
@@ -9532,7 +10558,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7177",
@@ -9591,7 +10623,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1540",
@@ -9639,7 +10677,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1310",
@@ -9687,7 +10731,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1110",
@@ -9733,7 +10783,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1375",
@@ -9781,7 +10837,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7685",
@@ -9840,7 +10902,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2300",
@@ -9888,7 +10956,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4565t",
@@ -9947,7 +11021,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1500",
@@ -9995,7 +11075,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1729",
@@ -10047,7 +11133,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2135",
@@ -10094,7 +11186,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7207",
@@ -10153,7 +11251,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1400",
@@ -10203,7 +11307,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1785",
@@ -10263,7 +11373,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-9300t",
@@ -10323,7 +11439,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1395",
@@ -10381,7 +11503,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2115",
@@ -10439,7 +11567,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1630",
@@ -10497,7 +11631,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1520",
@@ -10545,7 +11685,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1915",
@@ -10605,7 +11751,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1833",
@@ -10663,7 +11815,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4320",
@@ -10721,7 +11879,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-2240",
@@ -10781,7 +11945,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-4475",
@@ -10839,7 +12009,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1910",
@@ -10887,7 +12063,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-1615",
@@ -10945,7 +12127,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "sierra-7171",
@@ -11004,7 +12192,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     }
   ]
 }

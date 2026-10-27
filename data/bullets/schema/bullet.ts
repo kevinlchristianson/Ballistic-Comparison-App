@@ -1,5 +1,5 @@
 /**
- * Rifle bullet catalog contract, schemaVersion 1.0.0.
+ * Rifle bullet catalog contract, schemaVersion 1.1.0.
  *
  * Mirrors data/bullets/schema/bullet.schema.json. Application code should
  * import these types and reject catalogs whose schemaVersion is not
@@ -9,7 +9,7 @@
  * Unknown measurements are null or empty arrays. Do not invent values.
  */
 
-export const SCHEMA_VERSION = "1.0.0" as const;
+export const SCHEMA_VERSION = "1.1.0" as const;
 
 export type SchemaVersion = typeof SCHEMA_VERSION;
 
@@ -131,6 +131,24 @@ export interface Bullet {
   sectionalDensity: number | null;
   /** Bullet length in inches. Null when unpublished. */
   lengthIn: number | null;
+  /** Bearing surface length in inches. Null when unpublished. */
+  bearingSurfaceIn: number | null;
+  /**
+   * Ogive length in inches. Null when unpublished.
+   * A published nose length or base-to-ogive length is not this field.
+   */
+  ogiveLengthIn: number | null;
+  /** Boat tail length in inches. Null when unpublished or when the source marks a flat base. */
+  boattailLengthIn: number | null;
+  /** Meplat diameter in inches. Null when unpublished. */
+  meplatIn: number | null;
+  /** Ogive style as published. Null when unpublished. */
+  ogiveType: "tangent" | "secant" | "hybrid" | null;
+  /**
+   * True when the source marks the bullet discontinued.
+   * Null when the source does not say. A current listing is not recorded as false.
+   */
+  discontinued: boolean | null;
   /** Snake_case construction tokens parsed from the published description. */
   construction: string[];
   /** Material as published. Null when unpublished. */
