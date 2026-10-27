@@ -2444,6 +2444,15 @@ def scrape_sellier_bellot() -> dict:
     return catalog("Sellier & Bellot", bullets)
 
 
+def scrape_winchester() -> dict:
+    raise TermsForbid(
+        "winchester: The Winchester terms (https://winchester.com/Terms-Of-Use) "
+        "are Olin Corporation terms. They prohibit copying, reproducing, or publishing "
+        "any website content without Olin's express prior written permission. "
+        "No rows were fetched."
+    )
+
+
 def scrape_fiocchi() -> dict:
     raise TermsForbid(
         "fiocchi: The Fiocchi terms (https://fiocchi.com/en/terms-and-conditions) "
@@ -2489,4 +2498,5 @@ ADAPTERS = {
     "rmr": scrape_rmr,
     "sellier-bellot": scrape_sellier_bellot,
     "fiocchi": scrape_fiocchi,
+    "winchester": scrape_winchester,
 }
