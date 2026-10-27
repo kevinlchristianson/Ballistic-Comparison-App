@@ -2,7 +2,7 @@
 
 Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/load.ts`](schema/load.ts) and reject a file whose `schemaVersion` is anything else.
 
-[`sources/vihtavuori.json`](sources/vihtavuori.json) is the first manufacturer catalog. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) stays an empty envelope: this bot does not scrape that site, and the owner will supply that file later. Questions for the app agent are in [`comments/`](comments/). The answers from PR #3 are copied into the files whose status is `answered`.
+[`sources/vihtavuori.json`](sources/vihtavuori.json) is the first manufacturer catalog. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) stays an empty envelope: this bot does not scrape that site, and the owner will supply that file later. What this bot is doing now is in [`STATUS.md`](STATUS.md). Questions for the app agent are in [`comments/`](comments/). The answers from PR #3 are copied into the files whose status is `answered`.
 
 Charges in this library are published numbers kept for traceability. They are not a recommended load.
 
@@ -11,6 +11,7 @@ Charges in this library are published numbers kept for traceability. They are no
 ```
 data/loads/
   README.md                    This file.
+  STATUS.md                    What this bot is doing, what is next, and known data issues.
   comments/                    One markdown file per question for the app agent.
   schema/load.schema.json      JSON Schema, draft 2020-12. Field contract.
   schema/load.ts               TypeScript types for the same contract.
