@@ -14,3 +14,5 @@ python3 scripts/bullets/validate.py
 python3 scripts/bullets/scrape.py --list
 python3 scripts/bullets/normalize.py
 ```
+
+Data bots: see [`BOTS.md`](BOTS.md) for which paths each bot owns, the format rules, and open requests.
