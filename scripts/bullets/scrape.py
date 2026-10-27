@@ -59,7 +59,7 @@ SOURCES: tuple[Source, ...] = (
     Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, Raptor, and related component bullets. G1, G7, and OAL come from the product spec block."),
     Source("hammer", "Hammer Bullets", "https://hammerbullets.com/", "boutique", "Lathe-turned copper bullets."),
     Source("badlands", "Badlands Precision", "https://badlandsprecisionbullets.com/", "boutique", "Bulldozer and related mono-metal lines."),
-    Source("warner", "Warner Tool Company", "https://warner-tool.com/", "boutique", "Flatline bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("warner", "Warner Tool Company", "https://www.warner-tool.com/terms-and-conditions/", "boutique", "Flatline bullets. The terms forbid copying site content or posting it to other websites. No rows are committed."),
     Source("lehigh", "Lehigh Defense", "https://lehighdefense.com/", "boutique", "Controlled-fracturing and solid copper bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/terms-and-conditions/", "boutique", "VLR and bushmaster monometal bullets. The terms forbid reproducing site content without written approval. No rows are committed."),
     Source("gs-custom", "GS Custom", "https://www.gsgroup.co.za/", "boutique", "GS Custom turned solids."),
