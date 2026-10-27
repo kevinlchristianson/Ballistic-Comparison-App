@@ -1495,6 +1495,16 @@ def scrape_peregrine() -> dict:
     )
 
 
+def scrape_warner() -> dict:
+    raise TermsForbid(
+        "warner: The Warner Tool terms (https://www.warner-tool.com/terms-and-conditions/) "
+        "say the user agrees not to copy, reproduce, publish, or store site content, and not "
+        "to post that content to other websites, without prior written consent. Occasional "
+        "noncommercial sharing of an insubstantial portion is not a license to commit a catalog. "
+        "No rows were fetched."
+    )
+
+
 def scrape_norma() -> dict:
     raise TermsForbid(
         "norma: The Norma impressum (https://www.norma-ammunition.com/about-norma/impressum) says "
@@ -1529,5 +1539,5 @@ ADAPTERS = {
     "cutting-edge": scrape_cutting_edge,
     "lehigh": lambda: scrape_zima("lehigh"),
     "peregrine": scrape_peregrine,
-    "warner": lambda: scrape_zima("warner"),
+    "warner": scrape_warner,
 }
