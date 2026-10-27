@@ -23,6 +23,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-25cal-133gr.json` | 23 | 12 | 11 |
 | `community-berger-elite-hunter-65mm-140gr.json` | 26 | 26 | 0 |
 | `community-berger-elite-hunter-65mm-156gr.json` | 113 | 102 | 11 |
+| `community-berger-elite-hunter-270cal-170gr.json` | 47 | 38 | 9 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -32,7 +33,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 
 ### Community strings that miss
 
-`community-245gr-30cal.json` resolves all 22 rows. The 108 gr misses are still `6 creed` and `6 CM`. Kevin's 6 mm 108 gr notes added seven rows; six of those strings resolve, and `6mm BR / BRA / Dasher variants` resolves to the wrong cartridge, described below. The 133 gr file adds `25 creed`, which is the same kind of miss. Rows stay worded as posted.
+`community-245gr-30cal.json` resolves all 22 rows. The 108 gr misses are still `6 creed` and `6 CM`. Kevin's 6 mm 108 gr notes added seven rows. `6mm Creedmoor`, `6mm XC`, `6mm BR Norma`, and `6mm GT` resolve. `6mm BR / BRA / Dasher variants` resolves to the wrong cartridge, described below. The 133 gr file adds `25 creed`, which is the same kind of miss. Rows stay worded as posted.
 
 | Rows | Published string | Library cartridge | Ambiguous? |
 | --- | --- | --- | --- |
@@ -55,6 +56,15 @@ The 156 gr file's strings `6.5 PRC`, `6.5 prc`, `6.5-284`, `6.5 x 284`, `6.5 sau
 | 2 | `Creedmoor` | 6.5 Creedmoor | Yes, as a bare word. Scdogman's two rows are his daughter's rifle in the 6.5 EOL thread. `Creedmoor` also matches 6mm, .22, and .25 Creedmoor. Do not alias the bare word. |
 | 1 | `creedmoore` | 6.5 Creedmoor | Yes. Rydalch's spelling in the same 6.5 thread. The extra `e` misses `Creedmoor`, and a typo alias would still be ambiguous across Creedmoor cartridges. |
 | 1 | `6.5/260` | None | Yes. woods89 wrote both names in one string. `aliasKey` strips the slash, so this is not the parenthetical split. It is not clearly .260 Remington and not clearly 6.5 Creedmoor. Do not pick. |
+
+The 170 gr file's strings `270 Win`, `270 win`, `270 wsm`, `270wsm`, and `6.8 Western` already resolve. These do not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 3 | `27 Nosler` | None | No library cartridge. Yoteklr's 26 inch rifle. Do not map it to .28 Nosler or 26 Nosler. |
+| 2 | `270-7PRC` | None | No library cartridge. 270vld's wildcat on a 7 PRC case. Do not map it to 7mm PRC. |
+| 2 | `270/ 7RUM` | None | No library cartridge. Darkside's reamer name. The thread title is `270 RUM.` Do not map it to 7mm Remington Ultra Magnum. |
+| 2 | `270/338 RUM` | None | No library cartridge. yorketransport also writes `27/338 RUM improved` for the same barrels. Do not map it to .338 Lapua Magnum or 7mm RUM. |
 
 `25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
 
@@ -238,6 +248,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 4. Do not alias the near misses in the table above. Handgun names and rifle names with no library entry stay unmatched until the library grows.
 5. From the 156 gr file, leave `6.5 Sherman max` and `26 Nosler` unmatched until the library has those cartridges. On 6.5-284 Norma, an alias `6.5x284 Norma +P` matches the `.300 PRC` / `300 PRC +P` treatment. Do not alias bare `prc`, bare `Creedmoor`, or the `creedmoore` typo. Leave `6.5/260` unmatched.
 6. `6mm BR / BRA / Dasher variants` currently joins 6mm Norma BR because only the `6mm BR` piece matches. That join is wrong. Do not add an alias for the whole string. A resolver change that refuses a single-piece win when another ` / ` piece is unmatched would leave this string unresolved. Do not make that change from this bot.
+7. From the 170 gr file, leave `27 Nosler`, `270-7PRC`, `270/ 7RUM`, and `270/338 RUM` unmatched until the library has those cartridges. Do not map them onto a nearby Nosler, PRC, or RUM.
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
