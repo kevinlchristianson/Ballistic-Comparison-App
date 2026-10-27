@@ -10,7 +10,7 @@ This file is the community-line status. It is not a question. [`../STATUS.md`](.
 
 Community-reported loads for every Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet.
 
-The bullet in this pull request is the 7 mm 184 gr F-Open Hybrid Target, part 28408.
+The bullet in this pull request is the 7 mm 184 gr F-Open Hybrid Target, part 28408 — [#93](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/93).
 
 ## Done
 
