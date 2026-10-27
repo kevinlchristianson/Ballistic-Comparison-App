@@ -1242,6 +1242,109 @@ def scrape_zima(slug: str) -> dict:
     )
 
 
+# --- Swift -------------------------------------------------------------------
+
+SWIFT_PRODUCTS = "https://www.swiftbullets.com/products.json"
+SWIFT_RIFLE_TYPES = {
+    "Rifle Bullet",
+    "Heavy Rifle Bullet",
+    "Break-Away Solids",
+    "Muzzle Loader Bullets",
+}
+
+
+def _swift_specs(page: str) -> dict[str, str]:
+    blocks = re.findall(r't4s-pr__custom-liquid"\s*>(.*?)</div>', page, flags=re.S | re.I)
+    specs: dict[str, str] = {}
+    for block in blocks:
+        if "Caliber" not in block and "Diameter" not in block and "Ballistic" not in block:
+            continue
+        for line in re.split(r"<br\s*/?>", block, flags=re.I):
+            text = strip_html(line)
+            if ":" not in text:
+                continue
+            key, value = text.split(":", 1)
+            key = key.strip()
+            value = value.strip()
+            if key and value:
+                specs[key] = value
+    return specs
+
+
+def scrape_swift() -> dict:
+    print("swift: shopify rifle bullets")
+    products = []
+    page_no = 1
+    while page_no < 6:
+        url = f"{SWIFT_PRODUCTS}?limit=250&page={page_no}"
+        batch = json.loads(fetch(url, headers={"Accept": "application/json"}).decode("utf-8")).get("products") or []
+        print(f"  products.json page {page_no}: {len(batch)}")
+        products.extend(batch)
+        if len(batch) < 250:
+            break
+        page_no += 1
+        time.sleep(0.6)
+    rifle = [item for item in products if item.get("product_type") in SWIFT_RIFLE_TYPES]
+    print(f"  rifle component products: {len(rifle)}")
+    bullets = []
+    for index, product in enumerate(rifle):
+        handle = product.get("handle")
+        if not handle:
+            continue
+        url = f"https://www.swiftbullets.com/products/{handle}"
+        if index:
+            time.sleep(0.6)
+        try:
+            page = fetch_text(url)
+        except Exception as exc:  # noqa: BLE001 - keep the products we could read
+            print(f"  skip {handle}: {exc}")
+            continue
+        specs = _swift_specs(page)
+        name = strip_html(product.get("title")) or handle
+        bullet = blank_bullet(
+            "Swift",
+            name,
+            url,
+            "Swift Bullet Company",
+            "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. "
+            "The terms-of-service and privacy-policy bodies were empty when checked.",
+        )
+        vendor = strip_html(product.get("vendor"))
+        bullet["productLine"] = vendor or product.get("product_type") or None
+        bullet["caliber"] = specs.get("Caliber") or None
+        bullet["diameterIn"] = as_number(parse_number(specs.get("Diameter")))
+        weight = specs.get("Weight") or ""
+        grains = re.search(r"(\d+(?:\.\d+)?)", weight)
+        bullet["weightGr"] = as_number(parse_number(grains.group(1) if grains else None))
+        bullet["sectionalDensity"] = as_number(parse_number(specs.get("Density")))
+        profile = specs.get("Profile") or ""
+        add_construction(bullet, f"{name} {profile} {vendor or ''}")
+        add_uses(bullet, f"{name} {vendor or ''} {product.get('product_type') or ''}")
+        ballistic_key = next((key for key in specs if key.lower().startswith("ballistic") or key.upper() == "BC"), None)
+        ballistic = specs.get(ballistic_key) if ballistic_key else None
+        labeled = ballistic_key or ""
+        if ballistic and re.search(r"\bG1\b", labeled, flags=re.I):
+            add_bc(bullet, "G1", ballistic, "manufacturer", url, labeled)
+        elif ballistic and re.search(r"\bG7\b", labeled, flags=re.I):
+            add_bc(bullet, "G7", ballistic, "manufacturer", url, labeled)
+        elif ballistic and parse_number(ballistic):
+            value = parse_number(ballistic)
+            if value and value > 0:
+                bullet["bcUnlabeled"] = {"value": as_number(value), "label": labeled or "Ballistic"}
+                note = f"Swift prints {labeled or 'Ballistic'}: {ballistic} with no G1 or G7 label."
+                bullet["notes"] = note
+        if profile:
+            extra = f"Profile printed as {profile}."
+            bullet["notes"] = f"{bullet['notes']} {extra}".strip() if bullet.get("notes") else extra
+        if product.get("product_type") == "Muzzle Loader Bullets":
+            extra = "Product type is Muzzle Loader Bullets."
+            bullet["notes"] = f"{bullet['notes']} {extra}".strip() if bullet.get("notes") else extra
+        bullets.append(bullet)
+        if (index + 1) % 20 == 0:
+            print(f"  read {index + 1}/{len(rifle)}")
+    return catalog("Swift", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -1260,7 +1363,7 @@ ADAPTERS = {
     "woodleigh": scrape_woodleigh,
     "hammer": scrape_hammer,
     "speer": lambda: scrape_kinetic("speer"),
-    "swift": lambda: scrape_zima("swift"),
+    "swift": scrape_swift,
     "federal": lambda: scrape_kinetic("federal"),
     "norma": lambda: scrape_zima("norma"),
     "rws": lambda: scrape_zima("rws"),
