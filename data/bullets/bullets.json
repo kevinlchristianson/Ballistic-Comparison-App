@@ -83439,7 +83439,7 @@
       "sku": "30531",
       "alternateSkus": [],
       "caliber": "17 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.172,
       "weightGr": 20,
       "bcG1": 0.183,
       "bcG7": null,
@@ -83475,7 +83475,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83548,7 +83548,7 @@
       "sku": "29066",
       "alternateSkus": [],
       "caliber": "17 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.172,
       "weightGr": 20,
       "bcG1": 0.119,
       "bcG7": null,
@@ -83583,7 +83583,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83602,7 +83602,7 @@
       "sku": "32851",
       "alternateSkus": [],
       "caliber": "20 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.204,
       "weightGr": 32,
       "bcG1": 0.204,
       "bcG7": null,
@@ -83638,7 +83638,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.204 copied from the product description: \"0.204 Diameter 32 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83823,7 +83823,7 @@
       "sku": "39573",
       "alternateSkus": [],
       "caliber": "204 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.204,
       "weightGr": 32,
       "bcG1": 0.206,
       "bcG7": null,
@@ -83861,7 +83861,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.204 copied from the product description: \"0.204 Diameter 32 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83937,7 +83937,7 @@
       "sku": "39521",
       "alternateSkus": [],
       "caliber": "204 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.204,
       "weightGr": 40,
       "bcG1": 0.239,
       "bcG7": null,
@@ -83975,7 +83975,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.204 copied from the product description: \"0.204 Diameter 40 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83994,7 +83994,7 @@
       "sku": "48377gB",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 34,
       "bcG1": null,
       "bcG7": null,
@@ -84016,10 +84016,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84094,7 +84100,7 @@
         "36763"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 35,
       "bcG1": 0.12,
       "bcG7": null,
@@ -84136,7 +84142,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 35 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84322,7 +84328,7 @@
         "39555"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 40,
       "bcG1": 0.221,
       "bcG7": null,
@@ -84366,7 +84372,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 40 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84442,7 +84448,7 @@
         "17230"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 40,
       "bcG1": 0.211,
       "bcG7": null,
@@ -84484,7 +84490,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 40 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84617,7 +84623,7 @@
         "15190"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 50,
       "bcG1": 0.238,
       "bcG7": null,
@@ -84667,7 +84673,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 50 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84686,7 +84692,7 @@
       "sku": "17223",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 50,
       "bcG1": 0.238,
       "bcG7": null,
@@ -84722,7 +84728,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 50 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84799,7 +84805,7 @@
         "53294"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 52,
       "bcG1": 0.22,
       "bcG7": null,
@@ -84847,7 +84853,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 52 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84866,7 +84872,7 @@
       "sku": "36524",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 53,
       "bcG1": 0.303,
       "bcG7": null,
@@ -84902,7 +84908,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 53 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85042,7 +85048,7 @@
         "39526"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 55,
       "bcG1": 0.267,
       "bcG7": null,
@@ -85092,7 +85098,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 55 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85229,7 +85235,7 @@
         "17270"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 55,
       "bcG1": 0.255,
       "bcG7": null,
@@ -85271,7 +85277,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 55 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85290,7 +85296,7 @@
       "sku": "48520gB",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 55,
       "bcG1": null,
       "bcG7": null,
@@ -85312,10 +85318,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85391,7 +85403,7 @@
       "sku": "39473",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 60,
       "bcG1": 0.27,
       "bcG7": null,
@@ -85429,7 +85441,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 60 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85563,7 +85575,7 @@
       "sku": "36522",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 62,
       "bcG1": 0.251,
       "bcG7": null,
@@ -85598,7 +85610,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 62 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85730,7 +85742,7 @@
         "17101"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 69,
       "bcG1": 0.305,
       "bcG7": null,
@@ -85778,7 +85790,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 69 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85923,7 +85935,7 @@
       "sku": "53067",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 70,
       "bcG1": 0.416,
       "bcG7": 0.211,
@@ -85965,10 +85977,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86058,7 +86076,7 @@
         "19254"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 77,
       "bcG1": 0.34,
       "bcG7": null,
@@ -86100,7 +86118,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 77 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86189,7 +86207,7 @@
       "sku": "54612",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 77,
       "bcG1": 0.454,
       "bcG7": 0.228,
@@ -86231,10 +86249,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86310,7 +86334,7 @@
         "49563"
       ],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 80,
       "bcG1": 0.415,
       "bcG7": null,
@@ -86352,7 +86376,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 80 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86441,7 +86465,7 @@
       "sku": "54601",
       "alternateSkus": [],
       "caliber": "22 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.224,
       "weightGr": 85,
       "bcG1": 0.498,
       "bcG7": 0.245,
@@ -86483,10 +86507,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86625,7 +86655,7 @@
       "sku": "59456",
       "alternateSkus": [],
       "caliber": "25 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.257,
       "weightGr": 100,
       "bcG1": 0.409,
       "bcG7": null,
@@ -86667,7 +86697,7 @@
         }
       ],
       "conflicts": [],
-      "notes": "Same SKU 59456 is also listed at https://www.nosler.com/25-caliber-100gr-expansion-tip-lead-free-50ct-blem.html.",
+      "notes": "Same SKU 59456 is also listed at https://www.nosler.com/25-caliber-100gr-expansion-tip-lead-free-50ct-blem.html. Diameter 0.257 copied from the product description: \"0.257 Diameter 100 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -87872,7 +87902,7 @@
       "sku": "54827",
       "alternateSkus": [],
       "caliber": "270 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.277,
       "weightGr": 165,
       "bcG1": 0.62,
       "bcG7": 0.312,
@@ -87917,7 +87947,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.277 copied from the product description: \"0.277 Diameter 165 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -87936,7 +87966,7 @@
       "sku": "28135",
       "alternateSkus": [],
       "caliber": "270 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.277,
       "weightGr": 170,
       "bcG1": 0.56,
       "bcG7": null,
@@ -87971,10 +88001,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 270 Caliber / .277\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.277 copied from the Nosler load-data caliber heading 270 Caliber / .277\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -88054,7 +88090,7 @@
       "sku": "52165",
       "alternateSkus": [],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 125,
       "bcG1": 0.366,
       "bcG7": null,
@@ -88096,7 +88132,7 @@
         }
       ],
       "conflicts": [],
-      "notes": "Same SKU 52165 is also listed at https://www.nosler.com/30-caliber-125gr-accubond-50ct-blem.html.",
+      "notes": "Same SKU 52165 is also listed at https://www.nosler.com/30-caliber-125gr-accubond-50ct-blem.html. Diameter 0.308 copied from the product description: \"0.308 Diameter 125 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -88698,7 +88734,7 @@
         "53155"
       ],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 155,
       "bcG1": 0.45,
       "bcG7": null,
@@ -88740,7 +88776,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 155 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -88944,7 +88980,7 @@
       "sku": "38026GB",
       "alternateSkus": [],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 165,
       "bcG1": 0.442,
       "bcG7": null,
@@ -88977,10 +89013,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 30 Caliber / .308\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -89357,7 +89399,7 @@
         "65934"
       ],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 168,
       "bcG1": 0.462,
       "bcG7": null,
@@ -89405,7 +89447,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 168 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -89557,7 +89599,7 @@
         "53952"
       ],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 175,
       "bcG1": 0.505,
       "bcG7": null,
@@ -89599,7 +89641,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 175 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -89743,7 +89785,7 @@
       "sku": "53171",
       "alternateSkus": [],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 175,
       "bcG1": 0.536,
       "bcG7": 0.27,
@@ -89785,10 +89827,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 30 Caliber / .308\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90298,7 +90346,7 @@
         "59156"
       ],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 190,
       "bcG1": 0.53,
       "bcG7": null,
@@ -90346,7 +90394,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 190 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90676,7 +90724,7 @@
       "sku": "53506",
       "alternateSkus": [],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 210,
       "bcG1": 0.707,
       "bcG7": 0.348,
@@ -90718,10 +90766,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 30 Caliber / .308\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90740,7 +90794,7 @@
       "sku": "53154",
       "alternateSkus": [],
       "caliber": "30 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 220,
       "bcG1": 0.69,
       "bcG7": null,
@@ -90782,7 +90836,7 @@
         }
       ],
       "conflicts": [],
-      "notes": "Same SKU 53154 is also listed at https://www.nosler.com/30-caliber-220gr-hpbt-custom-competition-100ct-blem.html.",
+      "notes": "Same SKU 53154 is also listed at https://www.nosler.com/30-caliber-220gr-hpbt-custom-competition-100ct-blem.html. Diameter 0.308 copied from the product description: \"0.308 Diameter 220 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -91585,7 +91639,7 @@
       "sku": "57520",
       "alternateSkus": [],
       "caliber": "338 Caliber",
-      "diameterIn": null,
+      "diameterIn": 0.338,
       "weightGr": 250,
       "bcG1": 0.59,
       "bcG7": null,
@@ -91618,10 +91672,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 338 Caliber / .338\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.338 copied from the Nosler load-data caliber heading 338 Caliber / .338\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93339,7 +93399,7 @@
       "sku": "53440",
       "alternateSkus": [],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 123,
       "bcG1": 0.51,
       "bcG7": null,
@@ -93372,10 +93432,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93650,7 +93716,7 @@
       "sku": "54722",
       "alternateSkus": [],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 130,
       "bcG1": 0.615,
       "bcG7": 0.307,
@@ -93692,10 +93758,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93883,7 +93955,7 @@
         "49823"
       ],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 140,
       "bcG1": 0.529,
       "bcG7": null,
@@ -93925,7 +93997,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the product description: \"0.264 Diameter 140 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94063,7 +94135,7 @@
       "sku": "49825",
       "alternateSkus": [],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 140,
       "bcG1": 0.658,
       "bcG7": 0.33,
@@ -94105,10 +94177,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94184,7 +94262,7 @@
       "sku": "49826gB",
       "alternateSkus": [],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 140,
       "bcG1": 0.658,
       "bcG7": null,
@@ -94217,10 +94295,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94375,7 +94459,7 @@
       "sku": "49826",
       "alternateSkus": [],
       "caliber": "6.5mm",
-      "diameterIn": null,
+      "diameterIn": 0.264,
       "weightGr": 150,
       "bcG1": 0.67,
       "bcG7": 0.342,
@@ -94417,10 +94501,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94666,7 +94756,7 @@
       "sku": "39565",
       "alternateSkus": [],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 55,
       "bcG1": 0.276,
       "bcG7": null,
@@ -94704,7 +94794,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the product description: \"0.243 Diameter 55 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94778,7 +94868,7 @@
       "sku": "28115",
       "alternateSkus": [],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 55,
       "bcG1": 0.252,
       "bcG7": null,
@@ -94814,7 +94904,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the product description: \"0.243 Diameter 55 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94890,7 +94980,7 @@
       "sku": "39570",
       "alternateSkus": [],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 70,
       "bcG1": 0.31,
       "bcG7": null,
@@ -94928,7 +95018,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the product description: \"0.243 Diameter 70 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94947,7 +95037,7 @@
       "sku": "25075",
       "alternateSkus": [],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 70,
       "bcG1": 0.305,
       "bcG7": null,
@@ -94980,10 +95070,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -95691,7 +95787,7 @@
       "sku": "53411",
       "alternateSkus": [],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 105,
       "bcG1": 0.571,
       "bcG7": 0.28,
@@ -95733,10 +95829,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -95818,7 +95920,7 @@
         "53518"
       ],
       "caliber": "6mm",
-      "diameterIn": null,
+      "diameterIn": 0.243,
       "weightGr": 115,
       "bcG1": 0.634,
       "bcG7": 0.312,
@@ -95866,10 +95968,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -96811,7 +96919,7 @@
       "sku": "16326gB",
       "alternateSkus": [],
       "caliber": "7mm",
-      "diameterIn": null,
+      "diameterIn": 0.284,
       "weightGr": 150,
       "bcG1": 0.456,
       "bcG7": null,
@@ -96848,7 +96956,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.284 copied from the product description: \"0.284 Diameter 150 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -97342,7 +97450,7 @@
       "sku": "53504",
       "alternateSkus": [],
       "caliber": "7mm",
-      "diameterIn": null,
+      "diameterIn": 0.284,
       "weightGr": 185,
       "bcG1": 0.719,
       "bcG7": 0.357,
@@ -97384,10 +97492,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://www.nosler.com/load-data/caliber-and-cartridge-data.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Nosler",
+          "notes": "Caliber index heading: 7mm Caliber / .284\" Diameter."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.284 copied from the Nosler load-data caliber heading 7mm Caliber / .284\" Diameter.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -97406,7 +97520,7 @@
       "sku": "32180",
       "alternateSkus": [],
       "caliber": "8mm",
-      "diameterIn": null,
+      "diameterIn": 0.323,
       "weightGr": 180,
       "bcG1": 0.394,
       "bcG7": null,
@@ -97444,7 +97558,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.323 copied from the product description: \"0.323 Diameter 180 Grain\".",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,

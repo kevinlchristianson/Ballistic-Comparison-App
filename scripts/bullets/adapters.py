@@ -973,6 +973,123 @@ def _nosler_links() -> list[str]:
     return links
 
 
+_NOSLER_DESC_DIA = re.compile(
+    r"(0?\.\d{3,4})\s*Diameter\s+(\d+(?:\.\d+)?)\s*Grain",
+    flags=re.I,
+)
+NOSLER_CALIBER_INDEX = "https://www.nosler.com/load-data/caliber-and-cartridge-data.html"
+
+
+def _nosler_meta_description(page: str) -> str:
+    parts: list[str] = []
+    for match in re.finditer(r"<meta\b[^>]*>", page, flags=re.I):
+        tag = match.group(0)
+        key = re.search(r'(?:name|property)\s*=\s*["\']([^"\']+)["\']', tag, flags=re.I)
+        content = re.search(r'content\s*=\s*["\']([^"\']*)["\']', tag, flags=re.I)
+        if not key or not content or "description" not in key.group(1).lower():
+            continue
+        parts.append(html.unescape(content.group(1)))
+    return " ".join(parts)
+
+
+def _nosler_description_diameter(description: str, weight) -> tuple[float, str] | None:
+    """A product description that prints ``0.224 Diameter 80 Grain`` for this weight."""
+    if not description or weight is None:
+        return None
+    try:
+        expected = float(weight)
+    except (TypeError, ValueError):
+        return None
+    for match in _NOSLER_DESC_DIA.finditer(strip_html(description)):
+        dia = parse_number(match.group(1))
+        grains = parse_number(match.group(2))
+        if dia is None or grains is None or not (0.17 <= dia <= 0.80):
+            continue
+        if abs(grains - expected) > 0.01:
+            continue
+        return dia, re.sub(r"\s+", " ", match.group(0)).strip()
+    return None
+
+
+def _nosler_caliber_headings(page: str) -> list[tuple[str, float, str]]:
+    """Load-data headings such as ``22 Caliber / .224" Diameter``.
+
+    The same caliber label with two diameters (35 Caliber is both .355 and
+    .358) is kept as two rows so the filler can refuse it.
+    """
+    headings: list[tuple[str, float, str]] = []
+    for raw in re.findall(r"<h3[^>]*>(.*?)</h3>", page, flags=re.I | re.S):
+        text = strip_html(raw).replace("”", '"').replace("“", '"').replace("″", '"')
+        text = re.sub(r"\s+", " ", text).strip()
+        match = re.search(
+            r"^(.+?)\s*/\s*(\.?[0-9]*\.?[0-9]{3,4})\s*\"?\s*Diameter\b",
+            text,
+            flags=re.I,
+        )
+        if not match:
+            continue
+        dia = parse_number(match.group(2))
+        if dia is None or not (0.17 <= dia <= 0.80):
+            continue
+        label = match.group(1).strip()
+        quote = f'{label} / {match.group(2).strip()}" Diameter'
+        headings.append((label, dia, quote))
+    return headings
+
+
+def _nosler_index_diameter(caliber, headings: list[tuple[str, float, str]]) -> tuple[float, str] | None:
+    if not isinstance(caliber, str) or not caliber.strip():
+        return None
+    wanted = {caliber.casefold(), f"{caliber} caliber".casefold()}
+    hits = [(dia, quote) for label, dia, quote in headings if label.casefold() in wanted]
+    if len(hits) != 1:
+        return None
+    return hits[0]
+
+
+def _nosler_apply_description_diameter(bullet: dict, description: str) -> bool:
+    if bullet.get("diameterIn") is not None:
+        return False
+    found = _nosler_description_diameter(description, bullet.get("weightGr"))
+    if not found:
+        return False
+    dia, phrase = found
+    bullet["diameterIn"] = as_number(dia)
+    note = f'Diameter {bullet["diameterIn"]} copied from the product description: "{phrase}".'
+    bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    return True
+
+
+def _nosler_fill_index_diameters(bullets: list[dict], page: str | None = None) -> int:
+    pending = [bullet for bullet in bullets if bullet.get("diameterIn") is None and bullet.get("caliber")]
+    if not pending:
+        return 0
+    if page is None:
+        page = fetch_text(NOSLER_CALIBER_INDEX)
+    headings = _nosler_caliber_headings(page)
+    filled = 0
+    for bullet in pending:
+        found = _nosler_index_diameter(bullet.get("caliber"), headings)
+        if not found:
+            continue
+        dia, quote = found
+        bullet["diameterIn"] = as_number(dia)
+        note = f"Diameter {bullet['diameterIn']} copied from the Nosler load-data caliber heading {quote}."
+        bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+        known = {item.get("url") for item in bullet.get("sources") or []}
+        if NOSLER_CALIBER_INDEX not in known:
+            bullet.setdefault("sources", []).append(
+                {
+                    "url": NOSLER_CALIBER_INDEX,
+                    "retrievedOn": RETRIEVED_ON,
+                    "publisher": "Nosler",
+                    "notes": f"Caliber index heading: {quote}.",
+                }
+            )
+        filled += 1
+    return filled
+
+
 def _nosler_page(url: str) -> dict | None:
     text = fetch_text(url)
     pairs = re.findall(r"<th[^>]*>(.*?)</th>\s*<td[^>]*>(.*?)</td>", text, flags=re.S | re.I)
@@ -998,6 +1115,8 @@ def _nosler_page(url: str) -> dict | None:
     bullet["caliber"] = caliber
     bullet["diameterIn"] = as_number(parse_number(attrs.get("Diameter")))
     bullet["weightGr"] = as_number(parse_number(attrs.get("Bullet Weight")))
+    if bullet["diameterIn"] is None:
+        _nosler_apply_description_diameter(bullet, _nosler_meta_description(text))
     bullet["sectionalDensity"] = as_number(parse_number(attrs.get("Sectional Density (SD.)") or attrs.get("Sectional Density")))
     bullet["lengthIn"] = as_number(parse_number(attrs.get("Overall Length (OAL) (in.)") or attrs.get("Overall Length")))
     add_construction(bullet, " ".join(part for part in (attrs.get("Bullet Base"), attrs.get("Bullet Profile"), attrs.get("Bullet Type"), name) if part))
@@ -1080,7 +1199,9 @@ def scrape_nosler() -> dict:
         for source in bullet["sources"]:
             if source["url"] not in {item["url"] for item in kept["sources"]}:
                 kept["sources"].append(source)
-    return catalog("Nosler", list(grouped.values()))
+    rows = list(grouped.values())
+    _nosler_fill_index_diameters(rows)
+    return catalog("Nosler", rows)
 
 
 # --- Woodleigh ---------------------------------------------------------------
