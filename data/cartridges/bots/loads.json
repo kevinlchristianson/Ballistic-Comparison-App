@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 9,
-  "aliasCount": 11,
+  "aliasCount": 12,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -319,6 +319,15 @@
       "source": {
         "name": "Shooters' Forum, 120 Hybrid Dasher thread",
         "url": "https://forum.accurateshooter.com/threads/tried-the-new-120-hybrid-in-my-6-dasher-today.4181942/page-8",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6-5-creedmoor",
+      "alias": "6.5 creeds",
+      "source": {
+        "name": "Shooters' Forum, 6.5 Creedmoor 140 Hybrid 26414",
+        "url": "https://forum.accurateshooter.com/threads/starting-point-for-6-5-creedmoor-lapua-brass-140g-berger-hybrid-26414-fed-sr-match-primers-h4350.3957774/",
         "retrievedOn": "2026-10-27"
       }
     }
