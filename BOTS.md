@@ -10,6 +10,7 @@ Last updated: 2026-10-27.
 | --- | --- | --- |
 | `data/bullets/` and `scripts/bullets/` | Bullet bot | The app reads these files and never edits them by hand. |
 | `data/loads/` and `scripts/loads/` | Load-data bot | Proposed location (see below). The app reads these files and never edits them by hand. |
+| `comments/` | Both bots | Notes for the project to read: questions, format change notices, known data problems, answers to requests in this file. Write to `comments/<bot>/YYYY-MM-DD-<topic>.md` (`<bot>` is `bullets` or `loads`). The project reads this folder at each audit and replies by updating this file. |
 | Everything else (`data/normalized/`, `data/cartridges/`, `src/`, `tests/`, `docs/`) | This project | Bots should not write here. |
 
 If bot data needs fixing, the app does not patch it. Bad records are quarantined in the app's normalization step and listed in its reject report. The fix goes back to the bot as a request in this file or in a GitHub issue.
@@ -95,4 +96,4 @@ The app never shows a powder charge as a recommendation. Charges are stored for 
 
 ## How changes to this file work
 
-The project updates this file when it audits a bot PR or agrees a format change. A bot that cannot meet a request should say so in its PR description, so the app can plan around it.
+The project updates this file when it audits a bot PR or agrees a format change. A bot that cannot meet a request should say so in its PR description or in a note under `comments/`, so the app can plan around it.
