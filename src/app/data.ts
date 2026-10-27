@@ -51,9 +51,16 @@ export interface SiteMeta {
   excludedLoadSources: string[];
   cartridgesWithLoadFits: number;
   physicsParams: PhysicsParams;
+  /** Present when the site publishes load rows. */
+  loadRows: LoadRowIndex | null;
+  /** Whether published rows include powder and charge. */
+  loadRowsFull: boolean;
 }
 
-/** A load the user typed in. Kept in this browser only. There is no charge field on purpose. */
+/**
+ * A load the user entered. Kept in this browser only and shown only to them.
+ * Powder and charge are the user's own records; the site never publishes them.
+ */
 export interface UserLoad {
   id: string;
   cartridgeId: string;
@@ -61,7 +68,43 @@ export interface UserLoad {
   velocityFps: number;
   barrelLengthIn: number;
   note: string;
+  bulletDescription?: string | null;
+  powder?: string | null;
+  chargeGr?: number | null;
+  primer?: string | null;
+  case?: string | null;
+  coalIn?: number | null;
+  /** `max` loads feed velocity estimates; `start` and `other` are records only. */
+  chargeLevel?: "start" | "max" | "other" | null;
+  date?: string | null;
 }
+
+/**
+ * A published load row as the site ships it. Powder, charge, primer and case
+ * are present only when the build publishes full rows (`loadRows: "full"`).
+ */
+export interface SiteLoadRow {
+  id: string;
+  bullet: string | null;
+  bulletWeightGr: number;
+  level: "start" | "max" | "other" | null;
+  velocityFps: number;
+  barrelLengthIn: number | null;
+  barrelFromSource: boolean;
+  pressure: { value: number; unit: "psi" | "cup"; method: string } | null;
+  coalIn: number | null;
+  powder?: string | null;
+  chargeGr?: number | null;
+  compressed?: boolean | null;
+  primer?: string | null;
+  case?: string | null;
+  sourceName: string;
+  sourceUrl: string;
+  flags: string[];
+}
+
+/** Index of published load rows: cartridge id to row count. Rows load per cartridge on demand. */
+export type LoadRowIndex = Record<string, number>;
 
 export interface UserData {
   bullets: SiteBullet[];
@@ -120,12 +163,12 @@ export function toNormalizedLoad(l: UserLoad): NormalizedLoad {
     cartridgeId: l.cartridgeId,
     bulletDiameterIn: 0,
     bulletWeightGr: l.bulletWeightGr,
-    bulletDescription: null,
+    bulletDescription: l.bulletDescription ?? null,
     bulletManufacturer: null,
     bulletSku: null,
     powder: null,
     chargeGr: null,
-    chargeLevel: "max",
+    chargeLevel: l.chargeLevel ?? "max",
     compressed: null,
     primer: null,
     case: null,
@@ -157,4 +200,20 @@ export function bulletLabel(b: SiteBullet): string {
 
 export function newId(prefix: string): string {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+const rowCache = new Map<string, Promise<SiteLoadRow[]>>();
+
+/** Published load rows for one cartridge, fetched on first use. */
+export function loadRowsFor(cartridgeId: string): Promise<SiteLoadRow[]> {
+  if (!rowCache.has(cartridgeId)) {
+    rowCache.set(
+      cartridgeId,
+      getJson<SiteLoadRow[]>(`data/load-rows/${encodeURIComponent(cartridgeId)}.json`).catch((e) => {
+        rowCache.delete(cartridgeId);
+        throw e;
+      }),
+    );
+  }
+  return rowCache.get(cartridgeId)!;
 }

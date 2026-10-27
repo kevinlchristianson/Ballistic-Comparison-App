@@ -1,6 +1,6 @@
 # Data sources
 
-Every record in this repo cites its source. This file lists the sources by dataset. **Check each site's terms before redistributing its data.** Where the terms are unclear, raw data stays out of the published site and only derived results are published. This was agreed on 2026-10-27: the published site never includes raw load rows.
+Every record in this repo cites its source. This file lists the sources by dataset. **Check each site's terms before redistributing its data.** On 2026-10-27 the project owner chose to publish load rows in full, including powder and charge, on the Load data tab, with a link to each source. `loadRows` in `data/site-config.json` can turn that off.
 
 ## Bullets (bullet bot)
 
@@ -16,8 +16,8 @@ The catalogs come from the manufacturers' own sites: Barnes, Berger, Cutting Edg
 
 | Source | URL | Rows | Terms | How the site uses it |
 | --- | --- | --- | --- | --- |
-| Vihtavuori reloading data tool | https://vihtavuori.com/reloading-data/reloading-data-tool/ | 13,472 published (11,404 match a rifle cartridge in the library) | The [legal notice](https://vihtavuori.com/company/disclaimers/legal-notice/) prohibits duplication of site content without consent; the bot read it as covering logos and pictures. Flagged to the owner. | Fitted velocity curves only, with a link back. No rows, powders or charges are published. Decided by the project owner on 2026-10-27. |
-| Shooters World data table | https://shootersworldpowder.com/data-table/ | 2,964 published | No terms page found (bot survey, 2026-10-27). | Fitted velocity curves only, with a link back. No rows, powders or charges are published. |
+| Vihtavuori reloading data tool | https://vihtavuori.com/reloading-data/reloading-data-tool/ | 13,472 published (11,404 match a rifle cartridge in the library) | The [legal notice](https://vihtavuori.com/company/disclaimers/legal-notice/) prohibits duplication of site content without consent; the bot read it as covering logos and pictures. Flagged to the owner. | Fitted velocity curves, and every row in full (including powder and charge) on the Load data tab with a link back. Decided by the project owner on 2026-10-27, after the terms question was raised. |
+| Shooters World data table | https://shootersworldpowder.com/data-table/ | 2,964 published | No terms page found (bot survey, 2026-10-27). | Fitted velocity curves, and every row in full on the Load data tab with a link back. |
 | LoadDevelopment.com | https://loaddevelopment.com/load-data/ | 0 | [Terms](https://loaddevelopment.com/terms/) forbid copying. | Not used. |
 
 The load bot's terms survey for other sources (Hodgdon, Barnes and others) is in `data/loads/comments/2026-10-27-source-terms-survey.md`. Development and tests use synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
