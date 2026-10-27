@@ -1,0 +1,5886 @@
+{
+  "schemaVersion": "1.0.0",
+  "manufacturer": "Berger",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 108,
+  "bullets": [
+    {
+      "id": "berger-17308",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "17 Caliber 25 Grain FB Varmint",
+      "sku": "17308",
+      "alternateSkus": [],
+      "caliber": "17 Caliber",
+      "diameterIn": null,
+      "weightGr": 25,
+      "bcG1": 0.152,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.152,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/17-caliber-25-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-20303",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "20 Caliber 35 Grain FB Varmint",
+      "sku": "20303",
+      "alternateSkus": [],
+      "caliber": "20 Caliber",
+      "diameterIn": null,
+      "weightGr": 35,
+      "bcG1": 0.179,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.179,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/20-caliber-35-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-20304",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "20 Caliber 40 Grain BT Varmint",
+      "sku": "20304",
+      "alternateSkus": [],
+      "caliber": "20 Caliber",
+      "diameterIn": null,
+      "weightGr": 40,
+      "bcG1": 0.227,
+      "bcG7": 0.116,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.227,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.116,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/20-caliber-40-grain-bt-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22303",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "22 Caliber 40 Grain FB Varmint",
+      "sku": "22303",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 40,
+      "bcG1": 0.151,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.151,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 15,
+      "twistRateNote": "1:15\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-40-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22408",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "22 Caliber 52 Grain FB Target",
+      "sku": "22408",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 52,
+      "bcG1": 0.235,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.235,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-52-grain-fb-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22309",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "22 Caliber 52 Grain FB Varmint",
+      "sku": "22309",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 52,
+      "bcG1": 0.201,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.201,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-52-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22410",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "22 Caliber 55 Grain FB Target",
+      "sku": "22410",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 55,
+      "bcG1": 0.254,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.254,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-55-grain-fb-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22311",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "22 Caliber 55 Grain FB Varmint",
+      "sku": "22311",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 55,
+      "bcG1": 0.209,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.209,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-55-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22312",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "22 Caliber 60 Grain FB Varmint",
+      "sku": "22312",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 60,
+      "bcG1": 0.271,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.271,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-60-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22418",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "22 Caliber 70 Grain Very Low Drag (VLD) Target",
+      "sku": "22418",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 70,
+      "bcG1": 0.374,
+      "bcG7": 0.191,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.374,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.191,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-70-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22420",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "22 Caliber 73 Grain BT Target",
+      "sku": "22420",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 73,
+      "bcG1": 0.348,
+      "bcG7": 0.178,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.348,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.178,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-73-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22421",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "22 Caliber 75 Grain Very Low Drag (VLD) Target",
+      "sku": "22421",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 75,
+      "bcG1": 0.421,
+      "bcG7": 0.216,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.421,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.216,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-75-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22101",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "22 Caliber 77 Grain OTM Tactical",
+      "sku": "22101",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 77,
+      "bcG1": 0.374,
+      "bcG7": 0.192,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.374,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.192,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-77-grain-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22422",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "22 Caliber 80 Grain Very Low Drag (VLD) Target",
+      "sku": "22422",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 80,
+      "bcG1": 0.455,
+      "bcG7": 0.233,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.455,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.233,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-80-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22427",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "22 Caliber 80.5 Grain FULLBORE Target",
+      "sku": "22427",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 80.5,
+      "bcG1": 0.441,
+      "bcG7": 0.226,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.441,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.226,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-80.5-grain-fullbore-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "22 Caliber 85.5 Grain Long Range Hybrid Target",
+      "sku": "22485",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 85.5,
+      "bcG1": 0.524,
+      "bcG7": 0.268,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.524,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.268,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-85.5-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-22423",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "22 Caliber 90 Grain Very Low Drag (VLD) Target",
+      "sku": "22423",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": null,
+      "weightGr": 90,
+      "bcG1": 0.534,
+      "bcG7": 0.274,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.534,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.274,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "1:7\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-90-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24407",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm BR COLUMN Target",
+      "sku": "24407",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": null,
+      "weightGr": null,
+      "bcG1": 0.231,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.231,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-br-column-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24408",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm 65 Grain BT Target",
+      "sku": "24408",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 65,
+      "bcG1": 0.281,
+      "bcG7": 0.144,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.281,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.144,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-65-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24411",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm 68 Grain FB Target",
+      "sku": "24411",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 68,
+      "bcG1": 0.255,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.255,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-68-grain-fb-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24321",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "6 mm 80 Grain FB Varmint",
+      "sku": "24321",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 80,
+      "bcG1": 0.3,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.3,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-80-grain-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24524",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6 mm 87 Grain Very Low Drag (VLD) Hunting",
+      "sku": "24524",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 87,
+      "bcG1": 0.427,
+      "bcG7": 0.219,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.427,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.219,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-87-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24323",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "6 mm 88 Grain High BC FB Varmint",
+      "sku": "24323",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 88,
+      "bcG1": 0.38,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.38,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-88-grain-high-bc-fb-varmint/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24425",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm 90 Grain BT Target",
+      "sku": "24425",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 90,
+      "bcG1": 0.409,
+      "bcG7": 0.21,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.409,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.21,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-90-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24570",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "6 mm 95 Grain Classic Hunter",
+      "sku": "24570",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 95,
+      "bcG1": 0.434,
+      "bcG7": 0.223,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.434,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.223,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-95-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24527",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6 mm 95 Grain Very Low Drag (VLD) Hunting",
+      "sku": "24527",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 95,
+      "bcG1": 0.467,
+      "bcG7": 0.239,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.467,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.239,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-95-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24427",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "6 mm 95 Grain Very Low Drag (VLD) Target",
+      "sku": "24427",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 95,
+      "bcG1": 0.467,
+      "bcG7": 0.24,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.467,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.24,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-95-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24428",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm 105 Grain BT Target",
+      "sku": "24428",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 105,
+      "bcG1": 0.494,
+      "bcG7": 0.253,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.494,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.253,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-105-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24433",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "6 mm 105 Grain Hybrid Target",
+      "sku": "24433",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 105,
+      "bcG1": 0.536,
+      "bcG7": 0.275,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.536,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.275,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-105-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24528",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6 mm 105 Grain Very Low Drag (VLD) Hunting",
+      "sku": "24528",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 105,
+      "bcG1": 0.545,
+      "bcG7": 0.278,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.545,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.278,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-105-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24429",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "6 mm 105 Grain Very Low Drag (VLD) Target",
+      "sku": "24429",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 105,
+      "bcG1": 0.517,
+      "bcG7": 0.265,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.517,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.265,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-105-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24431",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6 mm 108 Grain BT Target",
+      "sku": "24431",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 108,
+      "bcG1": 0.522,
+      "bcG7": 0.268,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.522,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.268,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-108-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24556",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "6 mm 108 Grain Elite Hunter",
+      "sku": "24556",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 108,
+      "bcG1": 0.559,
+      "bcG7": 0.287,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.559,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.287,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-108-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "6 mm 109 Grain Long Range Hybrid Target",
+      "sku": "24485",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 109,
+      "bcG1": 0.568,
+      "bcG7": 0.292,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.568,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.292,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-109-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24530",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6 mm 115 Grain Very Low Drag (VLD) Hunting",
+      "sku": "24530",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 115,
+      "bcG1": 0.568,
+      "bcG7": 0.291,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.568,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.291,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "1:7\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-115-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-24430",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "6 mm 115 Grain Very Low Drag (VLD) Target",
+      "sku": "24430",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": null,
+      "weightGr": 115,
+      "bcG1": 0.563,
+      "bcG7": 0.289,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.563,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.289,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "1:7\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6-mm-115-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-25513",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "25 Caliber 115 Grain Very Low Drag (VLD) Hunting",
+      "sku": "25513",
+      "alternateSkus": [],
+      "caliber": "25 Caliber",
+      "diameterIn": null,
+      "weightGr": 115,
+      "bcG1": 0.483,
+      "bcG7": 0.247,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.483,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.247,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/25-caliber-115-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-25586",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "25 Caliber 133 Grain Elite Hunter",
+      "sku": "25586",
+      "alternateSkus": [],
+      "caliber": "25 Caliber",
+      "diameterIn": null,
+      "weightGr": 133,
+      "bcG1": 0.613,
+      "bcG7": 0.315,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.613,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.315,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/25-caliber-133-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-25485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "25 Caliber 135 Grain Long Range Hybrid Target",
+      "sku": "25485",
+      "alternateSkus": [],
+      "caliber": "25 Caliber",
+      "diameterIn": null,
+      "weightGr": 135,
+      "bcG1": 0.65,
+      "bcG7": 0.334,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.65,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.334,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/25-caliber-135-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26402",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6.5 mm 120 Grain BT Target",
+      "sku": "26402",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 120,
+      "bcG1": 0.468,
+      "bcG7": 0.24,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.468,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.24,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-120-grain-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26195",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "6.5 mm 130 Grain AR Hybrid OTM Tactical",
+      "sku": "26195",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 130,
+      "bcG1": 0.56,
+      "bcG7": 0.287,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.56,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.287,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match",
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-130-grain-ar-hybrid-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26503",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6.5 mm 130 Grain Very Low Drag (VLD) Hunting",
+      "sku": "26503",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 130,
+      "bcG1": 0.562,
+      "bcG7": 0.288,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.562,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.288,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-130-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26403",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "6.5 mm 130 Grain Very Low Drag (VLD) Target",
+      "sku": "26403",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 130,
+      "bcG1": 0.562,
+      "bcG7": 0.288,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.562,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.288,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-130-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26571",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "6.5 mm 135 Grain Classic Hunter",
+      "sku": "26571",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 135,
+      "bcG1": 0.584,
+      "bcG7": 0.303,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.584,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.303,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-135-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26409",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "6.5 mm 140 Grain Long Range BT Target",
+      "sku": "26409",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.593,
+      "bcG7": 0.304,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.593,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.304,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-140-grain-long-range-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26552",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "6.5 mm 140 Grain Elite Hunter",
+      "sku": "26552",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.606,
+      "bcG7": 0.31,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.606,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.31,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-140-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26414",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "6.5 mm 140 Grain Hybrid Target",
+      "sku": "26414",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.607,
+      "bcG7": 0.311,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.607,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.311,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-140-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26504",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "6.5 mm 140 Grain Very Low Drag (VLD) Hunting",
+      "sku": "26504",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.6,
+      "bcG7": 0.307,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.6,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.307,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-140-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26401",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "6.5 mm 140 Grain Very Low Drag (VLD) Target",
+      "sku": "26401",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.593,
+      "bcG7": 0.304,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.593,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.304,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-140-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "6.5 mm 144 Grain Long Range Hybrid Target",
+      "sku": "26485",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 144,
+      "bcG1": 0.655,
+      "bcG7": 0.336,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.655,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.336,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-144-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26486",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "6.5 mm 153.5 Grain Long Range Hybrid Target",
+      "sku": "26486",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 153.5,
+      "bcG1": 0.694,
+      "bcG7": 0.356,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.694,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.356,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-153-5-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-26550",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "6.5 mm 156 Grain Extreme Outer Limits (EOL) Elite Hunter",
+      "sku": "26550",
+      "alternateSkus": [],
+      "caliber": "6.5 mm",
+      "diameterIn": null,
+      "weightGr": 156,
+      "bcG1": 0.679,
+      "bcG7": 0.347,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.679,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.347,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/6.5-mm-156-grain-extreme-outer-limits-eol-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27570",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "270 Caliber 130 Grain Classic Hunter",
+      "sku": "27570",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 130,
+      "bcG1": 0.49,
+      "bcG7": 0.251,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.49,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.251,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-130-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27501",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "270 Caliber 130 Grain Very Low Drag (VLD) Hunting",
+      "sku": "27501",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 130,
+      "bcG1": 0.462,
+      "bcG7": 0.236,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.462,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.236,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-130-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27571",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "270 Caliber 140 Grain Classic Hunter",
+      "sku": "27571",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.528,
+      "bcG7": 0.271,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.528,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.271,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-140-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27502",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "270 Caliber 140 Grain Very Low Drag (VLD) Hunting",
+      "sku": "27502",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.504,
+      "bcG7": 0.258,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.504,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.258,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-140-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27503",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "270 Caliber 150 Grain Very Low Drag (VLD) Hunting",
+      "sku": "27503",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 150,
+      "bcG1": 0.518,
+      "bcG7": 0.265,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.518,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.265,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-150-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-27575",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "270 Caliber 170 Grain Extreme Outer Limits (EOL) Elite Hunter",
+      "sku": "27575",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": null,
+      "weightGr": 170,
+      "bcG1": 0.662,
+      "bcG7": 0.339,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.662,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.339,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-170-grain-extreme-outer-limits-eol-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28503",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "7 mm 140 Grain Very Low Drag (VLD) Hunting",
+      "sku": "28503",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 140,
+      "bcG1": 0.5,
+      "bcG7": 0.256,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.5,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.256,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-140-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28571",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "7 mm 150 Grain Classic Hunter",
+      "sku": "28571",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 150,
+      "bcG1": 0.505,
+      "bcG7": 0.258,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.505,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.258,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-150-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28570",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "7 mm 168 Grain Classic Hunter",
+      "sku": "28570",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.566,
+      "bcG7": 0.29,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.566,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.29,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-168-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28501",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "7 mm 168 Grain Very Low Drag (VLD) Hunting",
+      "sku": "28501",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.618,
+      "bcG7": 0.316,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.618,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.316,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-168-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28401",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "7 mm 168 Grain Very Low Drag (VLD) Target",
+      "sku": "28401",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.628,
+      "bcG7": 0.322,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.628,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.322,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-168-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28554",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "7 mm 175 Grain Elite Hunter",
+      "sku": "28554",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.656,
+      "bcG7": 0.336,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.656,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.336,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-175-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28407",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "7 mm 180 Grain Hybrid Target",
+      "sku": "28407",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 180,
+      "bcG1": 0.68,
+      "bcG7": 0.349,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.68,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.349,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-180-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28502",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "7 mm 180 Grain Very Low Drag (VLD) Hunting",
+      "sku": "28502",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 180,
+      "bcG1": 0.673,
+      "bcG7": 0.345,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.673,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.345,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-180-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28405",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "7 mm 180 Grain Very Low Drag (VLD) Target",
+      "sku": "28405",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 180,
+      "bcG1": 0.683,
+      "bcG7": 0.35,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.683,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.35,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-180-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28408",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "7 mm 184 Grain F-Open Hybrid Target",
+      "sku": "28408",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 184,
+      "bcG1": 0.695,
+      "bcG7": 0.356,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.695,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.356,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-184-grain-f-open-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "7 mm 190 Grain Long Range Hybrid Target",
+      "sku": "28485",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 190,
+      "bcG1": 0.751,
+      "bcG7": 0.384,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.751,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.384,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-190-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-28550",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "7 mm 195 Grain Extreme Outer Limits (EOL) Elite Hunter",
+      "sku": "28550",
+      "alternateSkus": [],
+      "caliber": "7 mm",
+      "diameterIn": null,
+      "weightGr": 195,
+      "bcG1": 0.755,
+      "bcG7": 0.387,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.755,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.387,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/7-mm-195-grain-extreme-outer-limits-eol-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30421",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "30 Caliber 115 Grain FB Target",
+      "sku": "30421",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 115,
+      "bcG1": 0.289,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.289,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 19,
+      "twistRateNote": "1:19\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-115-grain-fb-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30407",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "30 Caliber 150 Grain FB Target",
+      "sku": "30407",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 150,
+      "bcG1": 0.393,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.393,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 15,
+      "twistRateNote": "1:15\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-150-grain-fb-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30426",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 155 Grain Hybrid Target",
+      "sku": "30426",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 155,
+      "bcG1": 0.478,
+      "bcG7": 0.245,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.478,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.245,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-155-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30508",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 155 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30508",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 155,
+      "bcG1": 0.464,
+      "bcG7": 0.238,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.464,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.238,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-155-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30416",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "30 Caliber 155.5 Grain FULLBORE Target",
+      "sku": "30416",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 155.5,
+      "bcG1": 0.473,
+      "bcG7": 0.242,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.473,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.242,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-155.5-grain-fullbore-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30570",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "30 Caliber 168 Grain Classic Hunter",
+      "sku": "30570",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.489,
+      "bcG7": 0.251,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.489,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.251,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-168-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30425",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 168 Grain Hybrid Target",
+      "sku": "30425",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.515,
+      "bcG7": 0.264,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.515,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.264,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-168-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30510",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 168 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30510",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.498,
+      "bcG7": 0.255,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.498,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.255,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-168-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30410",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "30 Caliber 168 Grain Very Low Drag (VLD) Target",
+      "sku": "30410",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 168,
+      "bcG1": 0.507,
+      "bcG7": 0.26,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.507,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.26,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-168-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30420",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "30 Caliber 175 Grain Long Range BT Target",
+      "sku": "30420",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.512,
+      "bcG7": 0.262,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.512,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.262,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-175-grain-long-range-bt-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30105",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "30 Caliber 175 Grain OTM Tactical",
+      "sku": "30105",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.512,
+      "bcG7": 0.263,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.512,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.263,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-175-grain-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30512",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 175 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30512",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.518,
+      "bcG7": 0.265,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.518,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.265,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-175-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30412",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "30 Caliber 175 Grain Very Low Drag (VLD) Target",
+      "sku": "30412",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.512,
+      "bcG7": 0.262,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.512,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.262,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 13,
+      "twistRateNote": "1:13\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-175-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30554",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "30 Caliber 180 Grain Elite Hunter",
+      "sku": "30554",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 180,
+      "bcG1": 0.576,
+      "bcG7": 0.295,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.576,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.295,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-180-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30418",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "30 Caliber 185 Grain Juggernaut Target",
+      "sku": "30418",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.555,
+      "bcG7": 0.284,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.555,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.284,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-juggernaut-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30571",
+      "manufacturer": "Berger",
+      "productLine": "Classic Hunter",
+      "name": "30 Caliber 185 Grain Classic Hunter",
+      "sku": "30571",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.533,
+      "bcG7": 0.273,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.533,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.273,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-classic-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30424",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 185 Grain Hybrid Target",
+      "sku": "30424",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.576,
+      "bcG7": 0.295,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.576,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.295,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30107",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "30 Caliber 185 Grain Juggernaut OTM Tactical",
+      "sku": "30107",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.552,
+      "bcG7": 0.283,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.552,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.283,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-juggernaut-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30513",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 185 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30513",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.558,
+      "bcG7": 0.286,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.558,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.286,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30413",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "30 Caliber 185 Grain Very Low Drag (VLD) Target",
+      "sku": "30413",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 185,
+      "bcG1": 0.543,
+      "bcG7": 0.278,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.543,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.278,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-185-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30514",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 190 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30514",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 190,
+      "bcG1": 0.566,
+      "bcG7": 0.29,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.566,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.29,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-190-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30427",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 200 Grain Hybrid Target",
+      "sku": "30427",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 200,
+      "bcG1": 0.616,
+      "bcG7": 0.316,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.616,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.316,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-200-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30417",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 200.20x Hybrid Target",
+      "sku": "30417",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": null,
+      "weightGr": null,
+      "bcG1": 0.64,
+      "bcG7": 0.328,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.64,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.328,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-200.20x-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30555",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "30 Caliber 205 Grain Elite Hunter",
+      "sku": "30555",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 205,
+      "bcG1": 0.631,
+      "bcG7": 0.324,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.631,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.324,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-205-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30485",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "30 Caliber 208 Grain Long Range Hybrid Target",
+      "sku": "30485",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 208,
+      "bcG1": 0.689,
+      "bcG7": 0.354,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.689,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.354,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-208-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30515",
+      "manufacturer": "Berger",
+      "productLine": "VLD Hunting",
+      "name": "30 Caliber 210 Grain Very Low Drag (VLD) Hunting",
+      "sku": "30515",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 210,
+      "bcG1": 0.625,
+      "bcG7": 0.32,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.625,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.32,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-210-grain-very-low-drag-vld-hunting/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30415",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "30 Caliber 210 Grain Very Low Drag (VLD) Target",
+      "sku": "30415",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 210,
+      "bcG1": 0.621,
+      "bcG7": 0.318,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.621,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.318,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-210-grain-very-low-drag-vld-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30429",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 215 Grain Hybrid Target",
+      "sku": "30429",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 215,
+      "bcG1": 0.691,
+      "bcG7": 0.354,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.691,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.354,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-215-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30486",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "30 Caliber 220 Grain Long Range Hybrid Target",
+      "sku": "30486",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 220,
+      "bcG1": 0.717,
+      "bcG7": 0.369,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.717,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.369,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-220-grain-long-range-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30112",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "30 Caliber 230 Grain Hybrid OTM Tactical",
+      "sku": "30112",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 230,
+      "bcG1": 0.71,
+      "bcG7": 0.364,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.71,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.364,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match",
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-230-grain-hybrid-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30430",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "30 Caliber 230 Grain Hybrid Target",
+      "sku": "30430",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 230,
+      "bcG1": 0.717,
+      "bcG7": 0.368,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.717,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.368,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-230-grain-hybrid-target/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-30560",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "30 Caliber 245 Grain Extreme Outer Limits (EOL) Elite Hunter",
+      "sku": "30560",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": null,
+      "weightGr": 245,
+      "bcG1": 0.807,
+      "bcG7": 0.413,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.807,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.413,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-245-grain-extreme-outer-limits-eol-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-33554",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "338 Caliber 250 Grain Elite Hunter",
+      "sku": "33554",
+      "alternateSkus": [],
+      "caliber": "338 Caliber",
+      "diameterIn": null,
+      "weightGr": 250,
+      "bcG1": 0.685,
+      "bcG7": 0.351,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.685,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.351,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/338-caliber-250-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-33107",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "338 Caliber 250 Grain Hybrid OTM Tactical",
+      "sku": "33107",
+      "alternateSkus": [],
+      "caliber": "338 Caliber",
+      "diameterIn": null,
+      "weightGr": 250,
+      "bcG1": 0.682,
+      "bcG7": 0.349,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.682,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.349,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match",
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/338-caliber-250-grain-hybrid-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-33556",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "338 Caliber 300 Grain Elite Hunter",
+      "sku": "33556",
+      "alternateSkus": [],
+      "caliber": "338 Caliber",
+      "diameterIn": null,
+      "weightGr": 300,
+      "bcG1": 0.814,
+      "bcG7": 0.417,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.814,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.417,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/338-caliber-300-grain-elite-hunter/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-33109",
+      "manufacturer": "Berger",
+      "productLine": "OTM Tactical",
+      "name": "338 Caliber 300 Grain Hybrid OTM Tactical",
+      "sku": "33109",
+      "alternateSkus": [],
+      "caliber": "338 Caliber",
+      "diameterIn": null,
+      "weightGr": 300,
+      "bcG1": 0.822,
+      "bcG7": 0.421,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.822,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.421,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match",
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/338-caliber-300-grain-hybrid-otm-tactical/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-37379",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "375 Caliber 379 Grain ELR Match Solid Bullets",
+      "sku": "37379",
+      "alternateSkus": [],
+      "caliber": "375 Caliber",
+      "diameterIn": null,
+      "weightGr": 379,
+      "bcG1": 0.951,
+      "bcG7": 0.487,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.951,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.487,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "solid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8″",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/375-caliber-379-grain-elr-match-solid-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    },
+    {
+      "id": "berger-37407",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "375 Caliber 407 Grain ELR Match Solid Bullets",
+      "sku": "37407",
+      "alternateSkus": [],
+      "caliber": "375 Caliber",
+      "diameterIn": null,
+      "weightGr": 407,
+      "bcG1": 1.022,
+      "bcG7": 0.523,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 1.022,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.523,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "solid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8″",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/375-caliber-407-grain-elr-match-solid-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1, G7, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+    }
+  ]
+}
