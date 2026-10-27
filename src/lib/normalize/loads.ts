@@ -147,7 +147,7 @@ export function normalizeLoads(file: RawLoadFile, fileName: string, cartridges: 
     }
 
     // Units
-    if (raw.velocityUnit == null || !VELOCITY_UNITS.has(raw.velocityUnit)) reasons.push("bad_velocity_unit");
+    if (raw.velocity != null && (raw.velocityUnit == null || !VELOCITY_UNITS.has(raw.velocityUnit))) reasons.push("bad_velocity_unit");
     if (raw.charge != null && (raw.chargeUnit == null || !MASS_UNITS.has(raw.chargeUnit))) reasons.push("bad_charge_unit");
     if (raw.coal != null && (raw.coalUnit == null || !LENGTH_UNITS.has(raw.coalUnit))) reasons.push("bad_coal_unit");
     if (raw.barrelLength != null && (raw.barrelLengthUnit == null || !LENGTH_UNITS.has(raw.barrelLengthUnit))) {
@@ -159,7 +159,7 @@ export function normalizeLoads(file: RawLoadFile, fileName: string, cartridges: 
 
     // Required values
     if (raw.bulletWeightGr == null || !(raw.bulletWeightGr > 0)) reasons.push("missing_weight");
-    if (raw.velocity == null || !(raw.velocity > 0)) reasons.push("missing_velocity");
+    if (raw.velocity != null && !(raw.velocity > 0)) reasons.push("missing_velocity");
 
     if (reasons.length) {
       rejects.push({ kind: "load", file: fileName, ref, reasons, record: raw });
@@ -167,13 +167,23 @@ export function normalizeLoads(file: RawLoadFile, fileName: string, cartridges: 
     }
     const c = cartridge!;
 
-    // Velocity
-    let velocityFps = raw.velocity!;
-    if (raw.velocityUnit === "mps") {
-      velocityFps = round(toFps(raw.velocity!, "mps"), 1);
+    // Velocity. A row without one is kept for display (flag no_velocity) but
+    // never feeds an estimate. A range or "~" value the source wrote in its
+    // notes ("Velocity_fps: 2770–2803") becomes its midpoint, flagged.
+    let velocityFps: number | null = raw.velocity;
+    if (velocityFps != null && raw.velocityUnit === "mps") {
+      velocityFps = round(toFps(velocityFps, "mps"), 1);
       conversions.push(`velocity: ${raw.velocity} mps -> ${velocityFps} fps`);
     }
-    if (velocityFps < PLAUSIBLE_FPS.min || velocityFps > PLAUSIBLE_FPS.max) reasons.push("implausible_velocity");
+    if (velocityFps == null) {
+      const fromNote = velocityFromNotes(raw.notes);
+      if (fromNote) {
+        velocityFps = fromNote.fps;
+        flags.push(fromNote.range ? "velocity_range_midpoint" : "velocity_approximate");
+        conversions.push(`velocity: "${fromNote.text}" in notes -> ${fromNote.fps} fps`);
+      } else flags.push("no_velocity");
+    }
+    if (velocityFps != null && (velocityFps < PLAUSIBLE_FPS.min || velocityFps > PLAUSIBLE_FPS.max)) reasons.push("implausible_velocity");
 
     // Bullet diameter
     let bulletDiameterIn = raw.bulletDiameterIn ?? null;
@@ -294,10 +304,26 @@ export function normalizeLoads(file: RawLoadFile, fileName: string, cartridges: 
         page: raw.sourcePage ?? null,
         retrievedOn: file.source.retrievedOn,
       },
+      notes: raw.notes ?? null,
       conversions,
       flags,
     });
   });
 
   return { loads, rejects };
+}
+
+/**
+ * Reads a velocity written as text in a row's notes, as the load bot does for
+ * values its schema can't hold: "Velocity_fps: ~2950", "Velocity_fps: 2770–2803"
+ * or "Velocity_fps: ~2100–2360". Ranges give their midpoint, rounded to 1 fps.
+ */
+export function velocityFromNotes(notes: string | null | undefined): { fps: number; text: string; range: boolean } | null {
+  const m = notes?.match(/Velocity_fps:\s*([^;]+)/);
+  if (!m) return null;
+  const text = m[1]!.trim();
+  const nums = [...text.matchAll(/\d{3,4}(?:\.\d+)?/g)].map((x) => Number(x[0]));
+  if (nums.length === 0 || nums.length > 2) return null;
+  const fps = Math.round(nums.reduce((a, b) => a + b, 0) / nums.length);
+  return { fps, text, range: nums.length === 2 };
 }

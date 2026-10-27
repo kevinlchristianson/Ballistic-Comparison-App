@@ -10,7 +10,8 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 - **Find a cartridge.** For a bullet, barrel length and target velocity, lists the cartridges that can get there (comfortable, likely, stretch, short), with the estimate's range, the model behind it, and the data supporting it. It also checks seating depth and magazine fit, and says when a custom chamber would be needed.
 - **Bullets.** Browse and filter the bullet library, each with a link to the maker's page. Add your own bullets.
 - **Cartridges.** The cartridge library, plus your own wildcats.
-- **Load data.** Every published load in the library for a cartridge (bullet, powder, charge, velocity, barrel, pressure, COAL, source link), and your own loads with the same fields. Your loads stay in your browser, with JSON export and import, and your max loads feed that cartridge's velocity estimates.
+- **Load data.** Every published load in the library for a cartridge (bullet, powder, charge, velocity, barrel, pressure, COAL, source link), and your own loads with the same fields. Your loads stay in your browser, with JSON export and import, and your max loads feed that cartridge's velocity estimates. Community reports (forum compilations, user submissions) carry a "community report" tag.
+- **Send to library.** Your own loads, bullets and wildcats can be sent to the public library. The button opens a prefilled GitHub issue. The **Library submission** workflow commits the owner's submissions to `data/user/submissions/` and redeploys; anyone else's wait for a maintainer to add the `approved` label.
 
 ## How the numbers are made
 
@@ -32,7 +33,8 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 | `data/*/comments/` | Bots | The bots' questions, answered in [`BOTS.md`](BOTS.md) |
 | `data/cartridges/` | This project | Cartridge library and aliases. Every entry is still **unverified** against SAAMI/C.I.P. |
 | `data/calibration/` | This project | Factory velocities the physics model is fitted to |
-| `data/site-config.json` | This project | Which load sources the site may use, and the barrel range for precomputed fits |
+| `data/site-config.json` | This project | Which load sources the site may use, which count as community reports, and the barrel range for precomputed fits |
+| `data/user/submissions/` | Library submission workflow | Entries people sent from the site, one file per GitHub issue |
 | `data/normalized/` | Generated | Output of `npm run normalize`. Not committed. |
 
 Sources and terms are listed in [`data/SOURCES.md`](data/SOURCES.md). The data bots work from [`BOTS.md`](BOTS.md). The bots' own tooling (Python, under `scripts/bullets/` and `scripts/loads/`) is documented in [`data/bullets/README.md`](data/bullets/README.md) and [`data/loads/README.md`](data/loads/README.md).

@@ -1,71 +1,12 @@
 /** Export and import of everything the user added in this browser. */
-import type { Cartridge } from "../lib/cartridges.ts";
-import { refresh, type AppData, type SiteBullet, type UserData, type UserLoad } from "./data.ts";
+import { refresh, type AppData } from "./data.ts";
 import { download, h, pickFile } from "./dom.ts";
+import { describeCounts, exportPayload, parseUserData, REPO_URL, submissionIssue, unsubmitted } from "./submission.ts";
 
-export const EXPORT_FORMAT = "ballistic-comparison-user-data";
-export const EXPORT_VERSION = 1;
+export { EXPORT_FORMAT, EXPORT_VERSION, parseUserData } from "./submission.ts";
 
 export function exportUserData(data: AppData): void {
-  download(`ballistic-comparison-my-data-${new Date().toISOString().slice(0, 10)}.json`, {
-    format: EXPORT_FORMAT,
-    version: EXPORT_VERSION,
-    exportedOn: new Date().toISOString(),
-    ...data.user,
-  });
-}
-
-const num = (x: unknown): number | null => (typeof x === "number" && Number.isFinite(x) ? x : null);
-const str = (x: unknown): string | null => (typeof x === "string" && x.trim() ? x.trim() : null);
-
-/** Validates an imported file. Returns the cleaned data and a list of skipped entries. */
-export function parseUserData(text: string): { data: UserData; skipped: string[] } {
-  const raw = JSON.parse(text) as Record<string, unknown>;
-  if (raw.format !== EXPORT_FORMAT) throw new Error("This file was not exported from this app.");
-  const skipped: string[] = [];
-  const bullets: SiteBullet[] = [];
-  for (const b of (raw.bullets as Record<string, unknown>[] | undefined) ?? []) {
-    const ok = str(b.id) && str(b.name) && num(b.diameterIn) && num(b.weightGr);
-    if (!ok) {
-      skipped.push(`bullet ${String(b.name ?? b.id ?? "?")}`);
-      continue;
-    }
-    bullets.push({ ...(b as unknown as SiteBullet), custom: true });
-  }
-  const cartridges: Cartridge[] = [];
-  for (const c of (raw.cartridges as Record<string, unknown>[] | undefined) ?? []) {
-    if (!str(c.id) || !str(c.name) || !num(c.bulletDiameterIn)) {
-      skipped.push(`cartridge ${String(c.name ?? c.id ?? "?")}`);
-      continue;
-    }
-    cartridges.push({ ...(c as unknown as Cartridge), kind: "user", userAdded: true });
-  }
-  const loads: UserLoad[] = [];
-  for (const l of (raw.loads as Record<string, unknown>[] | undefined) ?? []) {
-    if (!str(l.id) || !str(l.cartridgeId) || !num(l.bulletWeightGr) || !num(l.velocityFps) || !num(l.barrelLengthIn)) {
-      skipped.push(`load ${String(l.id ?? "?")}`);
-      continue;
-    }
-    // Only known fields are kept. These are the user's own records and stay in their browser.
-    const level = l.chargeLevel === "start" || l.chargeLevel === "max" || l.chargeLevel === "other" ? l.chargeLevel : "max";
-    loads.push({
-      id: String(l.id),
-      cartridgeId: String(l.cartridgeId),
-      bulletWeightGr: Number(l.bulletWeightGr),
-      velocityFps: Number(l.velocityFps),
-      barrelLengthIn: Number(l.barrelLengthIn),
-      note: str(l.note) ?? "",
-      bulletDescription: str(l.bulletDescription),
-      powder: str(l.powder),
-      chargeGr: num(l.chargeGr),
-      primer: str(l.primer),
-      case: str(l.case),
-      coalIn: num(l.coalIn),
-      chargeLevel: level,
-      date: str(l.date),
-    });
-  }
-  return { data: { bullets, cartridges, loads }, skipped };
+  download(`ballistic-comparison-my-data-${new Date().toISOString().slice(0, 10)}.json`, exportPayload(data.user));
 }
 
 export async function importUserData(data: AppData, onDone: () => void): Promise<void> {
@@ -93,5 +34,49 @@ export function userDataBar(data: AppData, onDone: () => void): HTMLElement {
     h("span", { class: "muted" }, `Your data in this browser: ${data.user.bullets.length} bullets, ${data.user.cartridges.length} cartridges, ${data.user.loads.length} loads.`),
     h("button", { onclick: () => exportUserData(data), disabled: n === 0 }, "Export"),
     h("button", { onclick: () => importUserData(data, onDone) }, "Import"),
+    sendButton(data),
+  );
+}
+
+/** GitHub's new-issue links stop working somewhere past 8,000 characters. */
+const MAX_ISSUE_URL = 7000;
+
+/**
+ * Sends the entries not yet in the library as a prefilled GitHub issue. A
+ * workflow commits the repository owner's submissions to data/user/ and the
+ * next deploy publishes them; anyone else's wait for the owner's approval.
+ */
+function sendButton(data: AppData): HTMLElement {
+  const pending = unsubmitted(data.user, data.meta.submitted);
+  const n = pending.bullets.length + pending.cartridges.length + pending.loads.length;
+  return h(
+    "button",
+    {
+      disabled: n === 0,
+      title: n ? `Send ${describeCounts(pending)} to the public library` : "Everything you entered is already in the library.",
+      onclick: async () => {
+        const ok = confirm(
+          `Send ${describeCounts(pending)} to the library?\n\nThis opens a GitHub issue with your entries filled in (you need a GitHub account). ` +
+            "After you press Submit there, they are committed to the repository and shown to everyone on this site, including powder and charge. " +
+            "The repository owner's submissions go live in a minute or two; others wait for approval.",
+        );
+        if (!ok) return;
+        const { title, body } = submissionIssue(pending);
+        const url = (b: string) => `${REPO_URL}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(b)}`;
+        if (url(body).length <= MAX_ISSUE_URL) {
+          window.open(url(body), "_blank", "noopener");
+          return;
+        }
+        try {
+          await navigator.clipboard.writeText(body);
+        } catch {
+          alert("Too many entries to send at once, and the clipboard is blocked. Delete some entries, or export them and send the file to the repository owner.");
+          return;
+        }
+        alert("That is too much to fit in a link, so it was copied to your clipboard. On the GitHub page that opens, paste it into the description box, replacing the text there, then press Submit.");
+        window.open(url("Paste the copied submission here, replacing this line."), "_blank", "noopener");
+      },
+    },
+    n ? `Send to library (${n})` : "All in library",
   );
 }

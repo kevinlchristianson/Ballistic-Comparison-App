@@ -24,6 +24,7 @@ export const FLAG_TEXT: Record<string, string> = {
   thin_data: "Fewer than 3 published loads behind this estimate.",
   extrapolated_weight: "Bullet weight is a little outside the published weights.",
   near_saami_max: "Some supporting loads are near SAAMI maximum pressure.",
+  community_data: "Some supporting loads are community reports (forums or user submissions), not published by a powder or bullet maker. They have no pressure data.",
   outside_weight_range: "Bullet weight is too far outside the published weights.",
   no_data: "No estimate.",
   "fallback_from_loglog-v1": "No published loads cover this, so the physics model answered.",

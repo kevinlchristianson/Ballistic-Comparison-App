@@ -65,9 +65,12 @@ export interface NormalizedLoad {
   coalIn: number | null;
   barrelLengthIn: number | null;
   barrelLengthOrigin: "row" | "source_default" | null;
-  velocityFps: number;
+  /** Null when the source gave none; such rows are shown but never feed an estimate. */
+  velocityFps: number | null;
   pressure: Pressure | null;
   source: { name: string; url: string; page: string | null; retrievedOn: string };
+  /** The source row's free-text notes, as the bot recorded them. */
+  notes?: string | null;
   /** Each conversion applied, e.g. "velocity: 860 mps -> 2821.5 fps". */
   conversions: string[];
   flags: string[];

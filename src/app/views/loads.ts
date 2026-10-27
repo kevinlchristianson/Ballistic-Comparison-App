@@ -1,7 +1,7 @@
 /**
  * Load data tab: every published load for a cartridge, as the build publishes
- * it (see `loadRows` in data/site-config.json), and the user's own loads,
- * which are kept in this browser only.
+ * it (see `loadRows` in data/site-config.json), including loads users sent
+ * to the library, and the user's own loads in this browser.
  */
 import { loadRowsFor, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
@@ -58,12 +58,13 @@ export function loadsView(data: AppData): HTMLElement {
   function renderMine(): void {
     clear(mineEl);
     const mine = data.user.loads.filter((l) => l.cartridgeId === st.cartridgeId);
+    const sentLoads = new Set(data.meta.submitted?.loads ?? []);
     mineEl.append(
       h(
         "div",
         { class: "card" },
         h("h3", {}, `Your loads for ${name(st.cartridgeId)}`),
-        h("p", { class: "hint" }, "Saved in this browser only and shown only to you. Your max loads also feed this cartridge's velocity estimates."),
+        h("p", { class: "hint" }, "Saved in this browser. Your max loads feed this cartridge's velocity estimates. Use Send to library to publish them for everyone, with all their fields."),
         mine.length
           ? h(
               "div",
@@ -71,7 +72,7 @@ export function loadsView(data: AppData): HTMLElement {
               h(
                 "table",
                 { class: "data compact" },
-                h("thead", {}, h("tr", {}, ["Bullet", "Weight", "Powder", "Charge", "Level", "Velocity", "Barrel", "COAL", "Primer / case", "Note", ""].map((x) => h("th", {}, x)))),
+                h("thead", {}, h("tr", {}, ["Bullet", "Weight", "Powder", "Charge", "Level", "Velocity", "Barrel", "COAL", "Primer / case", "Note", "Library", ""].map((x) => h("th", {}, x)))),
                 h(
                   "tbody",
                   {},
@@ -92,6 +93,7 @@ export function loadsView(data: AppData): HTMLElement {
                         h("td", {}, fmt.in(l.coalIn)),
                         h("td", { class: "wrap" }, [l.primer, l.case].filter(Boolean).join(" / ") || "—"),
                         h("td", { class: "muted" }, [l.date, l.note].filter(Boolean).join(" · ")),
+                        h("td", {}, sentLoads.has(l.id) ? h("span", { class: "tag" }, "in library") : h("span", { class: "muted" }, "only here")),
                         h("td", {}, h("button", { class: "link danger", onclick: () => ((data.user.loads = data.user.loads.filter((x) => x.id !== l.id)), refresh(data), renderAll()) }, "delete")),
                       ),
                     ),
@@ -193,6 +195,7 @@ export function loadsView(data: AppData): HTMLElement {
     const full = data.meta.loadRowsFull;
     const sources = [...new Set(rows.map((r) => r.sourceName))].sort();
     const shown = rows.filter((r) => weightOk(r.bulletWeightGr) && (!st.level || r.level === st.level) && (!st.source || r.sourceName === st.source));
+    const withNotes = shown.some((r) => r.note);
     clear(publishedEl);
     publishedEl.append(
       h(
@@ -212,7 +215,7 @@ export function loadsView(data: AppData): HTMLElement {
               "Makers revise their data, and a copy can be out of date or mistyped. Before loading, confirm every charge against the source's current data (linked on each row), start at the published start load, and work up with care. Rows marked above SAAMI max are shown as published and are never used in estimates.",
             )
           : h("p", { class: "hint" }, "Powder and charge are not shown. For the full recipe, open the source and use its current data."),
-        h("p", { class: "hint" }, "Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed."),
+        h("p", { class: "hint" }, "Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates."),
         h(
           "div",
           { class: "scroll-x" },
@@ -222,7 +225,7 @@ export function loadsView(data: AppData): HTMLElement {
             h(
               "thead",
               {},
-              h("tr", {}, ["Bullet", "Weight", ...(full ? ["Powder", "Charge"] : []), "Level", "Velocity", "Barrel", "Pressure", "COAL", ...(full ? ["Primer / case"] : []), "Source"].map((x) => h("th", {}, x))),
+              h("tr", {}, ["Bullet", "Weight", ...(full ? ["Powder", "Charge"] : []), "Level", "Velocity", "Barrel", "Pressure", "COAL", ...(full ? ["Primer / case"] : []), "Source", ...(withNotes ? ["Note"] : [])].map((x) => h("th", {}, x))),
             ),
             h(
               "tbody",
@@ -235,12 +238,19 @@ export function loadsView(data: AppData): HTMLElement {
                   h("td", {}, `${r.bulletWeightGr} gr`),
                   full ? [h("td", {}, r.powder ?? "—"), h("td", {}, r.chargeGr != null ? `${r.chargeGr} gr${r.compressed ? " C" : ""}` : "—")] : null,
                   h("td", {}, r.level ?? "—"),
-                  h("td", {}, fmt.fps(r.velocityFps)),
+                  h("td", {}, r.velocityFps == null ? "—" : `${r.flags.includes("velocity_range_midpoint") || r.flags.includes("velocity_approximate") ? "~" : ""}${fmt.fps(r.velocityFps)}`),
                   h("td", {}, r.barrelLengthIn != null ? `${r.barrelLengthIn}″${r.barrelFromSource ? "*" : ""}` : "—"),
-                  h("td", { class: r.flags.length ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
+                  h("td", { class: r.flags.some((f) => f.endsWith("saami_max")) ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
                   h("td", {}, fmt.in(r.coalIn)),
                   full ? h("td", { class: "wrap" }, [r.primer, r.case].filter(Boolean).join(" / ") || "—") : null,
-                  h("td", {}, r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName),
+                  h(
+                    "td",
+                    {},
+                    r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName,
+                    r.sourcePage ? ` (${r.sourcePage})` : "",
+                    r.flags.includes("community_report") ? h("span", { class: "tag", title: "Reported on a forum or by a user, not published by a maker. No pressure data." }, "community report") : null,
+                  ),
+                  withNotes ? h("td", { class: "wrap muted" }, r.note ?? "") : null,
                 ),
               ),
             ),

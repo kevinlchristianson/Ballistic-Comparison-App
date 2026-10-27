@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "cartridgeCount": 147,
+  "cartridgeCount": 149,
   "sources": {
     "saami-z299.4-2025": {
       "title": "ANSI/SAAMI Z299.4-2025, Centerfire Rifle",
@@ -2424,7 +2424,8 @@
       "category": "centerfire_rifle",
       "aliases": [
         "300 PRC",
-        ".300 Precision Rifle Cartridge"
+        ".300 Precision Rifle Cartridge",
+        "300 PRC +P"
       ],
       "parentCase": ".375 Ruger",
       "bulletDiameterIn": 0.308,
@@ -2447,7 +2448,8 @@
       },
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
-        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp.",
+        "aliases": "\"300 PRC +P\" (a longer-throat 300 PRC chamber, as named in community reports) is treated as 300 PRC."
       },
       "userAdded": false
     },
@@ -3802,7 +3804,8 @@
       "aliases": [
         "300 Norma",
         "300 Norma Mag",
-        ".300 NM"
+        ".300 NM",
+        "300 Norma Mag (factory)"
       ],
       "parentCase": ".338 Norma Magnum",
       "bulletDiameterIn": 0.308,
@@ -3824,6 +3827,40 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-nmi",
+      "name": ".300 Norma Magnum Improved (300 NMI)",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 NMI",
+        "300 NMI (Improved)",
+        "300 Norma Mag Improved",
+        "300 Norma Magnum Improved"
+      ],
+      "parentCase": ".300 Norma Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.492,
+      "trimLengthIn": 2.482,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.588,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Added on 2026-10-27 for community-reported loads. Entered from reference knowledge; values left null where not known. Not yet checked against a standard or chamber drawing."
+      },
+      "fieldNotes": {
+        "caseLengthIn": "Same as the parent .300 Norma Magnum; improving changes the body and shoulder, not the length.",
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
       },
       "userAdded": false
@@ -3968,6 +4005,41 @@
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
         "mapPsi": "C.I.P. Pmax 3400 bar converted to psi; C.I.P. and SAAMI measure pressure differently.",
         "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-r-blaser",
+      "name": ".30 R Blaser",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        ".30 R Blaser",
+        "30 R Blaser",
+        "30R Blaser"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.677,
+      "trimLengthIn": 2.667,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": null,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Added on 2026-10-27 for community-reported loads. Entered from reference knowledge; values left null where not known. Not yet checked against a standard or chamber drawing."
+      },
+      "fieldNotes": {
+        "caseLengthIn": "68 mm case, converted.",
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
       },
       "userAdded": false
     },

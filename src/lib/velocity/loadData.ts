@@ -23,6 +23,8 @@ import type { NormalizedLoad } from "../normalize/types.ts";
 import { NO_SUPPORT, type DataSupport, type VelocityEstimate, type VelocityEstimator, type VelocityQuery } from "./types.ts";
 
 export const DEFAULT_FPS_PER_INCH = 25;
+/** Marks a load reported by the community (forums, user submissions) rather than published by a maker. */
+export const COMMUNITY_FLAG = "community_report";
 export const DEFAULT_LOGLOG_SLOPE = -0.4;
 export const WEIGHT_MARGIN = 0.1;
 export const MIN_RELATIVE_SPREAD = 0.02;
@@ -82,7 +84,12 @@ function noData(model: string, reason: string, support: DataSupport = { ...NO_SU
 /** Loads the fit may use: not start loads, not above SAAMI max, with a weight and velocity. */
 export function usableLoads(loads: NormalizedLoad[]): NormalizedLoad[] {
   return loads.filter(
-    (l) => l.chargeLevel !== "start" && !l.flags.includes("above_saami_max") && l.velocityFps > 0 && l.bulletWeightGr > 0,
+    (l) =>
+      l.chargeLevel !== "start" &&
+      !l.flags.includes("above_saami_max") &&
+      // The middle of a reported range mixes light and full loads, so it is shown but not fitted.
+      !l.flags.includes("velocity_range_midpoint") &&
+      l.velocityFps != null && l.velocityFps > 0 && l.bulletWeightGr > 0,
   );
 }
 
@@ -102,7 +109,7 @@ export function fitLoads(cartridgeId: string, loads: NormalizedLoad[], barrelLen
   // Fastest load per (weight, source, barrel), adjusted to the requested barrel.
   const best = new Map<string, Point>();
   for (const l of usable) {
-    let v = l.velocityFps;
+    let v = l.velocityFps!;
     if (l.barrelLengthIn == null) flags.add("barrel_length_unknown");
     else if (l.barrelLengthIn !== barrelLengthIn) {
       const adj = slopeFor(l.bulletWeightGr) * (barrelLengthIn - l.barrelLengthIn);
@@ -145,6 +152,7 @@ export function fitLoads(cartridgeId: string, loads: NormalizedLoad[], barrelLen
   const sd = Math.sqrt(resid.reduce((s, r) => s + r * r, 0) / dof);
   if (points.length < 3) flags.add("thin_data");
   if (points.some((p) => p.load.flags.includes("near_saami_max"))) flags.add("near_saami_max");
+  if (points.some((p) => p.load.flags.includes(COMMUNITY_FLAG))) flags.add("community_data");
 
   return {
     cartridgeId,

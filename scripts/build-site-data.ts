@@ -10,24 +10,30 @@
  *   the Load data tab: "full" includes powder and charge as the source printed
  *   them (the project owner's choice, 2026-10-27), "without_charges" leaves
  *   out powder, charge and primer, "none" publishes no rows.
+ * - Entries users sent to the library (data/user/submissions/, committed by
+ *   .github/workflows/library-submission.yml): bullets, cartridges and loads,
+ *   each linking to its GitHub issue.
  * - The normalization report (counts only).
  *
  * Output goes to src/app/public/data/, which is not committed.
  */
-import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
 import type { NormalizedBullet, NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { physicsFpsPerInch } from "../src/lib/velocity/index.ts";
-import { buildFitTable } from "../src/lib/velocity/loadData.ts";
+import { buildFitTable, COMMUNITY_FLAG } from "../src/lib/velocity/loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
+import { mergeSubmissions, type SubmissionFile } from "../src/app/submission.ts";
 
 const OUT = "src/app/public/data";
 const readJson = <T>(p: string): T => JSON.parse(readFileSync(p, "utf8")) as T;
 
 type LoadRowsMode = "full" | "without_charges" | "none";
-const config = readJson<{ excludedLoadSources: string[]; barrelRangeIn: [number, number]; loadRows?: LoadRowsMode }>("data/site-config.json");
+const config = readJson<{ excludedLoadSources: string[]; barrelRangeIn: [number, number]; loadRows?: LoadRowsMode; communitySourcePattern?: string; communityLoadsInEstimates?: boolean }>(
+  "data/site-config.json",
+);
 const rowsMode: LoadRowsMode = config.loadRows ?? "none";
 if (!["full", "without_charges", "none"].includes(rowsMode)) {
   console.error(`site-config loadRows must be "full", "without_charges" or "none", not ${JSON.stringify(rowsMode)}.`);
@@ -88,10 +94,31 @@ const bullets: SiteBullet[] = bulletEnv.records
     flags: b.flags,
   }));
 
+// User submissions join the library: their cartridges first, so their loads resolve.
+const SUBMISSIONS = "data/user/submissions";
+const submissionFiles: SubmissionFile[] = existsSync(SUBMISSIONS)
+  ? readdirSync(SUBMISSIONS)
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => readJson<SubmissionFile>(join(SUBMISSIONS, f)))
+  : [];
+const libraryIds = new Set(lib.cartridges.map((c) => c.id));
+const submitted = mergeSubmissions(submissionFiles, libraryIds);
+lib.cartridges.push(...submitted.cartridges.filter((c) => !libraryIds.has(c.id)));
+lib.cartridgeCount = lib.cartridges.length;
+const bulletIds = new Set(bullets.map((b) => b.id));
+bullets.push(...submitted.bullets.filter((b) => !bulletIds.has(b.id)));
+
 const excluded = new Set(config.excludedLoadSources);
-const loads = loadEnv.records.filter((l) => !excluded.has(l.source.name));
+// Community reports (forum compilations, user submissions) are labeled as such
+// in the Load data tab and in any estimate they support.
+const communityPattern = config.communitySourcePattern ? new RegExp(config.communitySourcePattern) : null;
+const loads = [...loadEnv.records, ...submitted.loads]
+  .filter((l) => !excluded.has(l.source.name))
+  .map((l) => (communityPattern?.test(l.source.name) && !l.flags.includes(COMMUNITY_FLAG) ? { ...l, flags: [...l.flags, COMMUNITY_FLAG] } : l));
+const isCommunity = (l: NormalizedLoad) => l.flags.includes(COMMUNITY_FLAG);
 const physics = createPhysicsEstimator(lib.cartridges);
-const fits = buildFitTable(loads, config.barrelRangeIn, physicsFpsPerInch(physics));
+const fitLoadsInput = config.communityLoadsInEstimates === false ? loads.filter((l) => !isCommunity(l)) : loads;
+const fits = buildFitTable(fitLoadsInput, config.barrelRangeIn, physicsFpsPerInch(physics));
 
 // Load rows for the Load data tab, one file per cartridge.
 const rowIndex: LoadRowIndex | null = rowsMode === "none" ? null : {};
@@ -110,14 +137,16 @@ if (rowIndex) {
       coalIn: l.coalIn,
       sourceName: l.source.name,
       sourceUrl: l.source.url,
-      flags: l.flags.filter((f) => f === "above_saami_max" || f === "near_saami_max"),
+      sourcePage: isCommunity(l) ? l.source.page : null,
+      note: isCommunity(l) ? communityNote(l) : null,
+      flags: l.flags.filter((f) => f === "above_saami_max" || f === "near_saami_max" || f === "user_submitted" || f === COMMUNITY_FLAG || f === "velocity_range_midpoint" || f === "velocity_approximate" || f === "no_velocity"),
     };
     if (rowsMode === "full") Object.assign(row, { powder: l.powder, chargeGr: l.chargeGr, compressed: l.compressed, primer: l.primer, case: l.case });
     if (!rowsByCartridge.has(l.cartridgeId)) rowsByCartridge.set(l.cartridgeId, []);
     rowsByCartridge.get(l.cartridgeId)!.push(row);
   }
   for (const [id, rows] of rowsByCartridge) {
-    rows.sort((a, b) => a.bulletWeightGr - b.bulletWeightGr || (a.bullet ?? "").localeCompare(b.bullet ?? "") || a.velocityFps - b.velocityFps);
+    rows.sort((a, b) => a.bulletWeightGr - b.bulletWeightGr || (a.bullet ?? "").localeCompare(b.bullet ?? "") || (a.velocityFps ?? 0) - (b.velocityFps ?? 0));
     rowIndex[id] = rows.length;
   }
 }
@@ -137,6 +166,7 @@ const meta: SiteMeta = {
   physicsParams: PHYSICS_PARAMS,
   loadRows: rowIndex,
   loadRowsFull: rowsMode === "full",
+  submitted: submitted.ids,
 };
 
 mkdirSync(OUT, { recursive: true });
@@ -179,8 +209,31 @@ console.log(
     `load fits for ${meta.cartridgesWithLoadFits} cartridges from ${sourceNames.join(", ") || "no sources"}` +
     (excluded.size ? ` (excluded: ${[...excluded].join(", ")})` : "") +
     (rowIndex ? `, ${Object.values(rowIndex).reduce((a, b) => a + b, 0)} load rows (${rowsMode === "full" ? "with charges" : "without charges"})` : "") +
+    (submissionFiles.length ? `, ${submitted.ids.loads.length} loads, ${submitted.ids.bullets.length} bullets and ${submitted.ids.cartridges.length} cartridges from ${submissionFiles.length} user submissions` : "") +
     ` -> ${OUT}/`,
 );
+
+/**
+ * The parts of a community row's notes worth showing: what the reporter said,
+ * and any value the schema couldn't hold (a charge or velocity range). Drops
+ * the bot's provenance boilerplate, which the source link already covers.
+ */
+function communityNote(l: NormalizedLoad): string | null {
+  const parts = (l.notes ?? "")
+    .split(/;\s*/)
+    .map((x) => x.trim().replace(/\.$/, ""))
+    .filter((x) => x && !/^(Community-reported|Compiler-stated|Reported on|.*\bare Berger lines$)/i.test(x))
+    .map((x) =>
+      x
+        .replace(/^Velocity_fps:\s*/i, "Velocity reported as ")
+        .replace(/^Charge_gr:\s*/i, "Charge reported as ")
+        .replace(/^COAL_or_Jump:\s*/i, "Seating: ")
+        .replace(/^Notes:\s*/i, ""),
+    );
+  if (l.flags.includes("velocity_range_midpoint")) parts.unshift("Velocity shown is the middle of the reported range");
+  const text = [...new Set(parts)].join("; ");
+  return text ? text.slice(0, 300) : null;
+}
 
 /** Every object key anywhere in `value` that matches `pattern`. */
 export function findKeys(value: unknown, pattern: RegExp, out: string[] = []): string[] {

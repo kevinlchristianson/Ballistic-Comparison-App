@@ -9,10 +9,10 @@ Every entry is currently marked `verification.status: "unverified"`. The values 
 | Kind | Count | Verify against |
 | --- | --- | --- |
 | `saami` | 108 | [ANSI/SAAMI Z299.4-2025, Centerfire Rifle](https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf) |
-| `cip` | 8 | [C.I.P. TDCC](https://bobp.cip-bobp.org/en/tdcc) |
-| `wildcat` | 31 | The reamer print for the chamber in question. Wildcats have no standard COAL. |
+| `cip` | 9 | [C.I.P. TDCC](https://bobp.cip-bobp.org/en/tdcc) |
+| `wildcat` | 32 | The reamer print for the chamber in question. Wildcats have no standard COAL. |
 
-Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcats. Handgun and rimfire are out of scope for now. A few C.I.P. cartridges are included because they are common in load data. On 2026-10-27 the 7x64, 7x65R, 9.3x62, 9.3x74R and .277 SIG Fury were added because Vihtavuori publishes loads for them. Their C.I.P. pressure limits are converted from bar, and C.I.P. and SAAMI measure pressure differently.
+Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcats. Handgun and rimfire are out of scope for now. A few C.I.P. cartridges are included because they are common in load data. On 2026-10-27 the 7x64, 7x65R, 9.3x62, 9.3x74R and .277 SIG Fury were added because Vihtavuori publishes loads for them. The .30 R Blaser and the 300 NMI (wildcat) were added the same day for community-reported loads, and "300 PRC +P" (a longer-throat chamber) is an alias of .300 PRC. Their C.I.P. pressure limits are converted from bar, and C.I.P. and SAAMI measure pressure differently.
 
 ## Fields
 
