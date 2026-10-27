@@ -1,0 +1,1216 @@
+{
+  "schemaVersion": "1.2.0",
+  "manufacturer": "Bear Creek Ballistics",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 22,
+  "bullets": [
+    {
+      "id": "bear-creek-ballistics-cu358-175hv-rl",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": ".358 Caliber - 175 Grain Bullets HV",
+      "sku": "CU358.175HV.RL",
+      "alternateSkus": [],
+      "caliber": ".358 (.3581\") 35 WHELEN",
+      "diameterIn": 0.3581,
+      "weightGr": 175,
+      "bcG1": 0.295,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.295,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/358-caliber-175-grain-bullets-50-count/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.215,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 20,
+      "twistRateNote": "Min. Twist Rate: 1:20",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/358-caliber-175-grain-bullets-50-count/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 175 Grain. Pack counts are not stored. Technical information caliber printed as .358 (.3581\") 35 WHELEN. Diameter 0.3581 copied from the printed caliber .3581. Length printed as 1.215\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .295 (G1). Profile printed as HV - POINTED PERFORMANCE TIP."
+    },
+    {
+      "id": "bear-creek-ballistics-cu308-132rl",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "AL-HV",
+      "name": "308 Bullets 132 Grain AL-HV",
+      "sku": "CU308.132RL",
+      "alternateSkus": [],
+      "caliber": ".308\"",
+      "diameterIn": 0.308,
+      "weightGr": 132,
+      "bcG1": 0.36,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.36,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/308-bullets-132gr-copper-al-hv/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.199,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "boattail",
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12\" or faster",
+      "minimumExpansionVelocityFps": 1525,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/308-bullets-132gr-copper-al-hv/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 132 Grains. Pack counts are not stored. Technical information caliber printed as .308\". Diameter 0.308 copied from the printed caliber .308. Minimum expansion velocity printed as Expands down to 1,525 fps. Sectional density printed as .199. G1 printed as .360 and as .36 (G1). Tip printed as AL-HV machined aluminum. Profile printed as Boat-tail."
+    },
+    {
+      "id": "bear-creek-ballistics-350-legend-357-max-3560-140-35-caliber-140-grain-bullets-hv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "35 Caliber -140 Grain Bullets HV",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "350 Legend & 357 MAX (.3560\")",
+      "diameterIn": 0.356,
+      "weightGr": 140,
+      "bcG1": 0.21,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.21,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/35-caliber-140-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.063,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/35-caliber-140-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number CU355.140RL is also published on another Bear Creek Ballistics bullet (35 Caliber -140 Grain Bullets HV; 35 Caliber -140 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 140 Grain. Pack counts are not stored. Technical information caliber printed as 350 Legend & 357 MAX (.3560\"). Diameter 0.356 copied from the printed caliber .3560. Length printed as HV:1.063\"/ AR: 0.902\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .21 (G1) / AR: .18 (G1). Profile printed as HV - Pointed Performance Tip. Published item number CU355.140RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-350-legend-357-max-3560-140-35-caliber-140-grain-bullets-ar",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "35 Caliber -140 Grain Bullets AR",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "350 Legend & 357 MAX (.3560\")",
+      "diameterIn": 0.356,
+      "weightGr": 140,
+      "bcG1": 0.18,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.18,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/35-caliber-140-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.902,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/35-caliber-140-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number CU355.140RL is also published on another Bear Creek Ballistics bullet (35 Caliber -140 Grain Bullets HV; 35 Caliber -140 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 140 Grain. Pack counts are not stored. Technical information caliber printed as 350 Legend & 357 MAX (.3560\"). Diameter 0.356 copied from the printed caliber .3560. Length printed as HV:1.063\"/ AR: 0.902\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .21 (G1) / AR: .18 (G1). Profile printed as AR - Rounded Performance Tip. Published item number CU355.140RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-cu355-160",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "35 Caliber -160 Grain Bullets AR",
+      "sku": "CU355.160",
+      "alternateSkus": [],
+      "caliber": "350 Legend & 357 MAX (.3560\")",
+      "diameterIn": 0.356,
+      "weightGr": 160,
+      "bcG1": 0.17,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.17,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/35-caliber-160-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.005,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/35-caliber-160-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 160 Grain. Pack counts are not stored. Technical information caliber printed as 350 Legend & 357 MAX (.3560\"). Diameter 0.356 copied from the printed caliber .3560. Length printed as AR: 1.005\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .17 (G1). Profile printed as AR - Rounded Performance Tip."
+    },
+    {
+      "id": "bear-creek-ballistics-cu357-115lv-rl-100-no-1",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-LV",
+      "name": "357 Caliber - 115 Grain Bullets LV",
+      "sku": "CU357.115LV.RL-100-NO-1",
+      "alternateSkus": [],
+      "caliber": ".357 (.3571\")",
+      "diameterIn": 0.3571,
+      "weightGr": 115,
+      "bcG1": 0.13,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.13,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/357-caliber-115-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.695,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 38,
+      "twistRateNote": "Min. Twist Rate: 1:38",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/357-caliber-115-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 115 Grain. Pack counts are not stored. Technical information caliber printed as .357 (.3571\"). Diameter 0.3571 copied from the printed caliber .3571. Length printed as .695\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .13 (G1). Profile printed as LV - LEVER ACTION & REVOLVERS."
+    },
+    {
+      "id": "bear-creek-ballistics-400-legend-4001-165-40-caliber-165-grain-bullets-hv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "40 Caliber - 165 Grain Bullets HV",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "400 Legend (.4001\")",
+      "diameterIn": 0.4001,
+      "weightGr": 165,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": {
+        "value": 0.21,
+        "label": "Ballistic Coefficient"
+      },
+      "sectionalDensity": null,
+      "lengthIn": 1.028,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/40-caliber-165-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 400.165RL is also published on another Bear Creek Ballistics bullet (40 Caliber - 165 Grain Bullets HV; 40 Caliber - 165 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 165 Grain. Pack counts are not stored. Technical information caliber printed as 400 Legend (.4001\"). Diameter 0.4001 copied from the printed caliber .4001. Length printed as HV:1.028\"/ AR: 0.853\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. Ballistic coefficient printed as HV: .21 / AR: .18. The cell does not name G1 or G7. Profile printed as HV - Pointed Performance Tip. Published item number 400.165RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-400-legend-4001-165-40-caliber-165-grain-bullets-ar",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "40 Caliber - 165 Grain Bullets AR",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "400 Legend (.4001\")",
+      "diameterIn": 0.4001,
+      "weightGr": 165,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": {
+        "value": 0.18,
+        "label": "Ballistic Coefficient"
+      },
+      "sectionalDensity": null,
+      "lengthIn": 0.853,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/40-caliber-165-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 400.165RL is also published on another Bear Creek Ballistics bullet (40 Caliber - 165 Grain Bullets HV; 40 Caliber - 165 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 165 Grain. Pack counts are not stored. Technical information caliber printed as 400 Legend (.4001\"). Diameter 0.4001 copied from the printed caliber .4001. Length printed as HV:1.028\"/ AR: 0.853\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. Ballistic coefficient printed as HV: .21 / AR: .18. The cell does not name G1 or G7. Profile printed as AR - Rounded Performance Tip. Published item number 400.165RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-cu400-185hv-rl-25-no",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "40 Caliber - 185 Grain Bullets HV",
+      "sku": "CU400.185HV.RL-25-NO",
+      "alternateSkus": [],
+      "caliber": ".40 (.4001\")",
+      "diameterIn": 0.4001,
+      "weightGr": 185,
+      "bcG1": 0.26,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.26,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/40-caliber-185-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.105,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/40-caliber-185-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 185 Grain. Pack counts are not stored. Technical information caliber printed as .40 (.4001\"). Diameter 0.4001 copied from the printed caliber .4001. Length printed as 1.105\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .26 (G1). Profile printed as HV - POINTED PERFORMANCE TIP."
+    },
+    {
+      "id": "bear-creek-ballistics-41-caliber-4101-175-41-caliber-175-grain-bullets-hv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "41 Caliber - 175 Grain Bullets HV",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "41 Caliber (.4101\")",
+      "diameterIn": 0.4101,
+      "weightGr": 175,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": {
+        "value": 0.21,
+        "label": "Ballistic Coefficient"
+      },
+      "sectionalDensity": null,
+      "lengthIn": 1.037,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/41-caliber-175-grain-bullets-50-count/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 410.175RL is also published on another Bear Creek Ballistics bullet (41 Caliber - 175 Grain Bullets HV; 41 Caliber - 175 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 175 Grain. Pack counts are not stored. Technical information caliber printed as 41 Caliber (.4101\"). Diameter 0.4101 copied from the printed caliber .4101. Length printed as HV:1.037\"/ AR: 0.870\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. Ballistic coefficient printed as HV: .21 / AR: .18. The cell does not name G1 or G7. Profile printed as HV - Pointed Performance Tip. Published item number 410.175RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-41-caliber-4101-175-41-caliber-175-grain-bullets-ar",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "41 Caliber - 175 Grain Bullets AR",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "41 Caliber (.4101\")",
+      "diameterIn": 0.4101,
+      "weightGr": 175,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": {
+        "value": 0.18,
+        "label": "Ballistic Coefficient"
+      },
+      "sectionalDensity": null,
+      "lengthIn": 0.87,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/41-caliber-175-grain-bullets-50-count/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 410.175RL is also published on another Bear Creek Ballistics bullet (41 Caliber - 175 Grain Bullets HV; 41 Caliber - 175 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 175 Grain. Pack counts are not stored. Technical information caliber printed as 41 Caliber (.4101\"). Diameter 0.4101 copied from the printed caliber .4101. Length printed as HV:1.037\"/ AR: 0.870\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. Ballistic coefficient printed as HV: .21 / AR: .18. The cell does not name G1 or G7. Profile printed as AR - Rounded Performance Tip. Published item number 410.175RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-410-200hvrl",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "41 Caliber - 200 Grain Bullets HV",
+      "sku": "410.200HVRL",
+      "alternateSkus": [],
+      "caliber": "41 Caliber (.4101\")",
+      "diameterIn": 0.4101,
+      "weightGr": 200,
+      "bcG1": 0.27,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.27,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/41-caliber-200-grain-bullets-50-count/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.15,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/41-caliber-200-grain-bullets-50-count/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 200 Grain. Pack counts are not stored. Technical information caliber printed as 41 Caliber (.4101\"). Diameter 0.4101 copied from the printed caliber .4101. Length printed as 1.150\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .27 (G1). Profile printed as HV - Pointed Performance Tip."
+    },
+    {
+      "id": "bear-creek-ballistics-410-230hvrl230",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "41 Caliber - 230 Grain Bullets HV",
+      "sku": "410.230HVRL230",
+      "alternateSkus": [],
+      "caliber": "41 Caliber (.4101\")",
+      "diameterIn": 0.4101,
+      "weightGr": 230,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.035,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "boattail",
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1250,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/41-caliber-230-grain-bullets-50-count/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 230 Grain. Pack counts are not stored. Technical information caliber printed as 41 Caliber (.4101\"). Diameter 0.4101 copied from the printed caliber .4101. Length printed as 1.035\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,250 fps. Ballistic coefficient printed as .31 - .33 (G1) Estimated*. The page prints a range, so no single coefficient is stored. The page does not explain the asterisk. Profile printed as HV - Pointed Performance Tip."
+    },
+    {
+      "id": "bear-creek-ballistics-cu430-162lvr",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-LV",
+      "name": "44 Caliber - 162 Grain Bullets LV",
+      "sku": "CU430.162LVR",
+      "alternateSkus": [],
+      "caliber": "44 Cal. (.4301\")",
+      "diameterIn": 0.4301,
+      "weightGr": 162,
+      "bcG1": 0.13,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.13,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/44-caliber-162-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.693,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 38,
+      "twistRateNote": "Min. Twist Rate: 1:38",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/44-caliber-162-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 162 Grain. Pack counts are not stored. Technical information caliber printed as 44 Cal. (.4301\"). Diameter 0.4301 copied from the printed caliber .4301. The description caliber prints 44 Cal. (.430\"). Length printed as .693\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .13 (G1). Profile printed as LV - LEVER ACTION & REVOLVERS."
+    },
+    {
+      "id": "bear-creek-ballistics-cu430-205lv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-LV",
+      "name": "44 Caliber - 205 Grain Bullets LV",
+      "sku": "CU430.205LV",
+      "alternateSkus": [],
+      "caliber": "44 Cal. (.4301\")",
+      "diameterIn": 0.4301,
+      "weightGr": 205,
+      "bcG1": 0.14,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.14,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/44-caliber-205-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.835,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 38,
+      "twistRateNote": "Min. Twist Rate: 1:38",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/44-caliber-205-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 205 Grain. Pack counts are not stored. Technical information caliber printed as 44 Cal. (.4301\"). Diameter 0.4301 copied from the printed caliber .4301. The description caliber prints 44 Cal. (.430\"). Length printed as 0.835\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .14 (G1). Profile printed as LV - LEVER ACTION & REVOLVERS."
+    },
+    {
+      "id": "bear-creek-ballistics-429hv-225-rl",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "44 Caliber - 225 Grain Bullets HV",
+      "sku": "429HV.225.RL",
+      "alternateSkus": [],
+      "caliber": "44 Caliber (.4292\")",
+      "diameterIn": 0.4292,
+      "weightGr": 225,
+      "bcG1": 0.285,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.285,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/44-caliber-225-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.164,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/44-caliber-225-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 225 Grains. Pack counts are not stored. Technical information caliber printed as 44 Caliber (.4292\"). Diameter 0.4292 copied from the printed caliber .4292. Length printed as HV: 1.164\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .285 (G1). Profile printed as HV - Pointed Performance Tip."
+    },
+    {
+      "id": "bear-creek-ballistics-45-cal-4512-200-45-caliber-200-grain-bullets-hv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "45 Caliber - 200 Grain Bullets HV",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "45 Cal. (.4512\")",
+      "diameterIn": 0.4512,
+      "weightGr": 200,
+      "bcG1": 0.21,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.21,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/45-caliber-200-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.016,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/45-caliber-200-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 451.200RL is also published on another Bear Creek Ballistics bullet (45 Caliber - 200 Grain Bullets HV; 45 Caliber - 200 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 200 Grain. Pack counts are not stored. Technical information caliber printed as 45 Cal. (.4512\"). Diameter 0.4512 copied from the printed caliber .4512. Length printed as HV:1.016\"/ AR: 0.855\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .21 (G1) / AR: .14 (G1). Profile printed as HV - Pointed Performance Tip. Published item number 451.200RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-45-cal-4512-200-45-caliber-200-grain-bullets-ar",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "45 Caliber - 200 Grain Bullets AR",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "45 Cal. (.4512\")",
+      "diameterIn": 0.4512,
+      "weightGr": 200,
+      "bcG1": 0.14,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.14,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/45-caliber-200-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.855,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 28,
+      "twistRateNote": "Min. Twist Rate: 1:28",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/45-caliber-200-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 451.200RL is also published on another Bear Creek Ballistics bullet (45 Caliber - 200 Grain Bullets HV; 45 Caliber - 200 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 200 Grain. Pack counts are not stored. Technical information caliber printed as 45 Cal. (.4512\"). Diameter 0.4512 copied from the printed caliber .4512. Length printed as HV:1.016\"/ AR: 0.855\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .21 (G1) / AR: .14 (G1). Profile printed as AR - Rounded Performance Tip. Published item number 451.200RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-45-caliber-4512-240-45-caliber-240-grain-bullets-hv",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "45 Caliber - 240 Grain Bullets HV",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "45 Caliber (.4512\")",
+      "diameterIn": 0.4512,
+      "weightGr": 240,
+      "bcG1": 0.23,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.23,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/45-caliber-240-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.128,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/45-caliber-240-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 451.240.RL is also published on another Bear Creek Ballistics bullet (45 Caliber - 240 Grain Bullets HV; 45 Caliber - 240 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 240 Grains. Pack counts are not stored. Technical information caliber printed as 45 Caliber (.4512\"). Diameter 0.4512 copied from the printed caliber .4512. Length printed as HV: 1.128\" / AR: 0.965\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .23 (G1) / AR: .18 (G1). Profile printed as HV - Pointed Performance Tip. Published item number 451.240.RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-45-caliber-4512-240-45-caliber-240-grain-bullets-ar",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-AR",
+      "name": "45 Caliber - 240 Grain Bullets AR",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "45 Caliber (.4512\")",
+      "diameterIn": 0.4512,
+      "weightGr": 240,
+      "bcG1": 0.18,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.18,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/45-caliber-240-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.965,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/45-caliber-240-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [
+        "Item number 451.240.RL is also published on another Bear Creek Ballistics bullet (45 Caliber - 240 Grain Bullets HV; 45 Caliber - 240 Grain Bullets AR). sku left null."
+      ],
+      "notes": "Weight printed as 240 Grains. Pack counts are not stored. Technical information caliber printed as 45 Caliber (.4512\"). Diameter 0.4512 copied from the printed caliber .4512. Length printed as HV: 1.128\" / AR: 0.965\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as HV: .23 (G1) / AR: .18 (G1). Profile printed as AR - Rounded Performance Tip. Published item number 451.240.RL is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "bear-creek-ballistics-cu458-245lv-rl50",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-LV",
+      "name": "458 Caliber - 245 Grain Bullets LV",
+      "sku": "CU458.245LV.RL50",
+      "alternateSkus": [],
+      "caliber": ".458 (.4581\")",
+      "diameterIn": 0.4581,
+      "weightGr": 245,
+      "bcG1": 0.21,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.21,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/458-caliber-245-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.9,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1250,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/458-caliber-245-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 245 Grain. Pack counts are not stored. Technical information caliber printed as .458 (.4581\"). Diameter 0.4581 copied from the printed caliber .4581. Length printed as .900\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,250 fps. G1 printed as .21 (G1). Profile printed as LV - Designed to optimize lever action & revolver firearms."
+    },
+    {
+      "id": "bear-creek-ballistics-cu458-250hv-rl50",
+      "manufacturer": "Bear Creek Ballistics",
+      "productLine": "BCB-HV",
+      "name": "458 Caliber - 250 Grain Bullets HV",
+      "sku": "CU458.250HV.RL50",
+      "alternateSkus": [],
+      "caliber": ".458 (.4581\")",
+      "diameterIn": 0.4581,
+      "weightGr": 250,
+      "bcG1": 0.24,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.24,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.bearcreekballistics.com/458-caliber-250-grain-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.156,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 24,
+      "twistRateNote": "Min. Twist Rate: 1:24",
+      "minimumExpansionVelocityFps": 1150,
+      "sources": [
+        {
+          "url": "https://www.bearcreekballistics.com/458-caliber-250-grain-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Bear Creek Ballistics",
+          "notes": "Component bullet page. Pack counts of the same bullet are one row. Loaded ammunition, powder charges, and cartridge overall length are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 250 Grain. Pack counts are not stored. Technical information caliber printed as .458 (.4581\"). Diameter 0.4581 copied from the printed caliber .4581. Length printed as 1.156\". Minimum expansion velocity printed as Min. Expansion Velocity: 1,150 fps. G1 printed as .24 (G1). Profile printed as HV - POINTED PERFORMANCE TIP."
+    }
+  ]
+}
