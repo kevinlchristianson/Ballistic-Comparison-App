@@ -148,8 +148,13 @@ describe("precomputed fit table (what the site ships)", () => {
   });
 
   it("holds fitted curves only, never load rows or charges", () => {
-    const json = JSON.stringify(table);
-    expect(json).not.toMatch(/charge|powder|velocityFps/i);
+    const keys = new Set<string>();
+    const walk = (v: unknown): void => {
+      if (Array.isArray(v)) v.forEach(walk);
+      else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) (keys.add(k), walk(x));
+    };
+    walk(table);
+    for (const k of ["chargeGr", "powder", "primer", "velocityFps", "loads", "coalIn"]) expect(keys.has(k)).toBe(false);
   });
 
   it("rounds barrel length to the inch and refuses barrels outside its range", () => {

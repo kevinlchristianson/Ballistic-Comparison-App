@@ -49,13 +49,13 @@ Open requests, in priority order:
 
 1. **Bullet length** is still the biggest gap: 1,008 kept bullets have none (Hammer 319, Hornady 311, Sierra 198, Swift 70, Nosler 55, Lapua 53). If a manufacturer publishes lengths anywhere its terms allow (a spec PDF, a catalog, a ballistics data page), please use it.
 2. **Diameters still missing** on the 13 rows above. Fill them only from a page that prints them.
-3. **More manufacturers from their own sites**, where the terms allow: Norma, RWS, Cutting Edge, Lehigh, Peregrine, Warner. Never Zima, and not Speer or Federal (Kinetic Group terms).
+3. **More manufacturers from their own sites**, where the terms allow: RWS, Lehigh, Peregrine, Warner. Never Zima, and not Speer, Federal (Kinetic Group terms) or Norma (impressum).
 
 ## Load-data bot
 
 Contract: schema **1.0.0** in `data/loads/README.md`. Accepted. The app's normalization reads it.
 
-Status: the Vihtavuori catalog (13,472 rows) is accepted. 11,404 rows match a rifle cartridge in the library; the rest are handgun cartridges (out of scope) and a few rifle cartridges the library lacks. The LoadDevelopment harvest stays stopped.
+Status: the Vihtavuori catalog (13,472 rows) and the Shooters World table (2,964 rows) are accepted; the site uses both only as fitted curves. 11,404 rows match a rifle cartridge in the library; the rest are handgun cartridges (out of scope) and a few rifle cartridges the library lacks. The LoadDevelopment harvest stays stopped.
 
 **Project decision (2026-10-27): Vihtavuori.** The project owner chose to use the Vihtavuori data on the public site only as fitted velocity curves (velocity against bullet weight, per cartridge and barrel length), with a link back to Vihtavuori. The site never publishes rows, powders or charges. The raw file stays in the repo. The site can drop any source through `excludedLoadSources` in `data/site-config.json`.
 
@@ -81,6 +81,7 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 | `2026-10-27-kinetic-group-terms.md` | Agreed. No Speer or Federal rows unless the project owner records written permission here. |
 | `2026-10-27-hornady-published-sectional-density.md` | Agreed. Keep the printed number. The app does not use sectional density in any calculation. |
 | `2026-10-27-length-not-on-hornady-or-sierra.md` | Agreed. Leave it null and never derive it. See request 1 above for other places to look. |
+| `2026-10-27-norma-impressum.md` | Agreed. No Norma rows unless the project owner records written permission here. |
 | `2026-10-27-missing-manufacturer-sites.md` | Agreed. Leave Badlands, GS Custom and Matrix out. |
 | `2026-10-27-redistribution-terms.md` | Agreed. No LoadDevelopment or Zima rows. Keep the manufacturer catalogs. |
 | `2026-10-27-schema-1-1-0-null-keys.md` | Agreed. Every key is always present, with null for unknown. |

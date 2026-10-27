@@ -109,10 +109,12 @@ write("velocity-fits.json", fits);
 write("meta.json", meta);
 writeFileSync(join(OUT, "report.md"), readFileSync("data/normalized/REPORT.md", "utf8"));
 
-// Guard: nothing that looks like a load row may be published.
-const published = readFileSync(join(OUT, "velocity-fits.json"), "utf8");
-if (/charge|powder|"velocityFps"/i.test(published)) {
-  console.error("velocity-fits.json contains load-row fields. Refusing to publish.");
+// Guard: nothing that looks like a load row may be published. Checks keys,
+// not text, since source names and URLs can contain words like "powder".
+const ROW_KEYS = /^(charge|chargeGr|powder|primer|velocityFps|coalIn|loads?)$/i;
+const rowKeys = findKeys(JSON.parse(readFileSync(join(OUT, "velocity-fits.json"), "utf8")), ROW_KEYS);
+if (rowKeys.length) {
+  console.error(`velocity-fits.json contains load-row fields (${[...new Set(rowKeys)].join(", ")}). Refusing to publish.`);
   process.exit(1);
 }
 
@@ -122,3 +124,15 @@ console.log(
     (excluded.size ? ` (excluded: ${[...excluded].join(", ")})` : "") +
     ` -> ${OUT}/`,
 );
+
+/** Every object key anywhere in `value` that matches `pattern`. */
+export function findKeys(value: unknown, pattern: RegExp, out: string[] = []): string[] {
+  if (Array.isArray(value)) for (const v of value) findKeys(v, pattern, out);
+  else if (value && typeof value === "object") {
+    for (const [k, v] of Object.entries(value)) {
+      if (pattern.test(k)) out.push(k);
+      findKeys(v, pattern, out);
+    }
+  }
+  return out;
+}
