@@ -73,6 +73,7 @@ SOURCES: tuple[Source, ...] = (
     Source("rmr", "Rocky Mountain Reloading", "https://www.rmrbullets.com/product-category/bullets/rifle/", "boutique", "In-house rifle bullets only. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications. The footer is a copyright notice."),
     Source("sellier-bellot", "Sellier & Bellot", "https://www.sellier-bellot.cz/en/products/components/bullets/", "manufacturer", "Rifle rows from the Czech component table. Grain weight, inch diameter, and G1 are printed. The pistol table is omitted. sellierbellot.us forbids copying its site and is not used."),
     Source("fiocchi", "Fiocchi", "https://fiocchi.com/en/terms-and-conditions", "manufacturer", "Component bullets are listed on fiocchi.com. The terms allow only private, non-commercial, temporary copies. No rows are committed. fiocchiusa.com publishes loaded ammunition, not a component-bullet specification table."),
+    Source("winchester", "Winchester", "https://winchester.com/Terms-Of-Use", "manufacturer", "Component bullets are listed on winchester.com. The Olin terms prohibit copying or publishing site content without written permission. No rows are committed."),
     Source(
         "loaddevelopment",
         "LoadDevelopment.com",
