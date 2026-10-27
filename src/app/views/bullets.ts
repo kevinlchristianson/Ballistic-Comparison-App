@@ -1,5 +1,6 @@
 /** Bullet library browser, and the user's own bullets. */
-import { refresh, newId, type AppData, type SiteBullet } from "../data.ts";
+import { bulletLoadQuery, loadBulletIndex, refresh, newId, type AppData, type SiteBullet } from "../data.ts";
+import { openLoadsForBullet } from "./loads.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { flagText } from "../labels.ts";
 import { load, save } from "../store.ts";
@@ -96,10 +97,16 @@ export function bulletsView(data: AppData): HTMLElement {
   }
 
   function bulletRow(b: SiteBullet): HTMLElement[] {
-    const detail = h("tr", { class: "detail", hidden: true }, h("td", { colspan: 8 }, bulletDetail(b)));
+    // Built on first open, so the load-data search runs only for bullets you look at.
+    const cell = h("td", { colspan: 8 });
+    const detail = h("tr", { class: "detail", hidden: true }, cell);
+    const toggle = () => {
+      if (!cell.firstChild) cell.append(bulletDetail(b));
+      detail.hidden = !detail.hidden;
+    };
     const row = h(
       "tr",
-      { class: "clickable", onclick: () => (detail.hidden = !detail.hidden) },
+      { class: "clickable", onclick: toggle },
       h("td", {}, b.manufacturer, b.custom ? h("span", { class: "tag" }, "yours") : null),
       h("td", {}, b.name, b.discontinued ? h("span", { class: "tag" }, "discontinued") : null),
       h("td", {}, fmt.in(b.diameterIn), b.diameterDerived ? h("sup", { title: flagText("diameter_derived") }, "*") : null),
@@ -140,6 +147,7 @@ export function bulletsView(data: AppData): HTMLElement {
         {},
         b.sourceUrl ? ["Source: ", link(b.sourceUrl, hostOf(b.sourceUrl)), b.retrievedOn ? `, retrieved ${b.retrievedOn}` : ""] : b.custom ? "Entered by you." : null,
       ),
+      loadsLink(b),
       b.custom
         ? h(
             "button",
@@ -155,6 +163,35 @@ export function bulletsView(data: AppData): HTMLElement {
           )
         : null,
     );
+  }
+
+  /** "Load data for this bullet" with a count, filled in once the bullet index loads. */
+  function loadsLink(b: SiteBullet): HTMLElement {
+    const el = h("p", { class: "muted" }, "Looking for load data…");
+    if (!data.meta.loadRows) {
+      el.textContent = "";
+      return el;
+    }
+    loadBulletIndex()
+      .then((index) => {
+        const found = bulletLoadQuery(b, index);
+        el.textContent = "";
+        if (!found) {
+          el.append("No published loads name this bullet yet.");
+          return;
+        }
+        el.classList.remove("muted");
+        el.append(
+          h(
+            "a",
+            { href: "#loads", onclick: (e: Event) => (e.preventDefault(), openLoadsForBullet(found.query)) },
+            `Load data for this bullet: ${found.rows.toLocaleString()} load${found.rows === 1 ? "" : "s"} in ${found.cartridges} cartridge${found.cartridges === 1 ? "" : "s"}`,
+          ),
+          h("span", { class: "muted" }, ` (search: ${found.query.replace(/\|[^\s]+/g, "")})`),
+        );
+      })
+      .catch(() => (el.textContent = ""));
+    return el;
   }
 
   function renderForm(): void {

@@ -248,3 +248,63 @@ export function loadBulletIndex(): Promise<BulletIndex> {
   });
   return bulletIndex;
 }
+
+/**
+ * Whether a load row's bullet matches a search. Every word must appear in the
+ * bullet name or its weight ("Berger 245" finds "Berger Hybrid Target", 245 gr);
+ * a word written "a|b" matches either.
+ */
+export function matchesBulletQuery(label: string | null | undefined, weight: number, query: string): boolean {
+  const text = `${label ?? ""} ${weight} ${weight}gr`.toLowerCase();
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  return words.length > 0 && words.every((w) => w.split("|").some((alt) => alt && text.includes(alt)));
+}
+
+/** Short names some sources print for bullet makers. */
+const MAKER_ALIASES: Record<string, string[]> = {
+  hornady: ["hdy"],
+  nosler: ["nos"],
+  sierra: ["sie", "smk"],
+  berger: ["ber"],
+  barnes: ["bar"],
+  speer: ["spr"],
+  lapua: ["lap"],
+};
+
+/**
+ * The most specific search that finds this library bullet in the load rows,
+ * and how many rows and cartridges it finds. Load sources name bullets their
+ * own way ("Berger 245 EOL Elite Hunter", "140 gr Berger Hybrid Target"), so
+ * this tries the maker, weight and product words, then falls back to fewer words.
+ */
+export function bulletLoadQuery(b: SiteBullet, index: BulletIndex): { query: string; rows: number; cartridges: number } | null {
+  const maker = b.manufacturer.toLowerCase().split(/\s+/)[0] ?? "";
+  const makerWord = [maker, ...(MAKER_ALIASES[maker] ?? [])].join("|");
+  const abbrev = [...b.name.matchAll(/\(([A-Za-z0-9-]{2,8})\)/g)].map((m) => m[1]!.toLowerCase());
+  const product = b.name
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\b[\d.,]+\s*(mm|caliber|cal)\b/gi, " ")
+    .replace(/\b[\d.]+\s*(grain|grains|gr)\b\.?/gi, " ")
+    .replace(/\b\d+(\.\d+)?\b/g, " ")
+    .toLowerCase()
+    .split(/[\s,]+/)
+    .filter((w) => w.length > 1 && w !== maker);
+  const base = `${makerWord} ${b.weightGr}`;
+  const candidates = [
+    [...product],
+    [...abbrev, ...product.slice(-2)],
+    product.slice(-2),
+    product.slice(-1),
+    [],
+  ].map((words) => `${base} ${words.join(" ")}`.trim());
+  for (const query of [...new Set(candidates)]) {
+    let rows = 0;
+    const cartridges = new Set<string>();
+    for (const [label, weight, byCartridge] of index) {
+      if (weight !== b.weightGr || !matchesBulletQuery(label, weight, query)) continue;
+      for (const [id, n] of Object.entries(byCartridge)) ((rows += n), cartridges.add(id));
+    }
+    if (rows) return { query, rows, cartridges: cartridges.size };
+  }
+  return null;
+}

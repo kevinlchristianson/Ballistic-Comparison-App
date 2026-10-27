@@ -3,7 +3,7 @@
  * it (see `loadRows` in data/site-config.json), including loads users sent
  * to the library, and the user's own loads in this browser.
  */
-import { loadBulletIndex, loadRowsFor, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
+import { loadBulletIndex, loadRowsFor, matchesBulletQuery, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { load, save } from "../store.ts";
 import { userDataBar } from "../userdata.ts";
@@ -22,6 +22,13 @@ interface State {
 }
 
 const KEY = "bca.loads.v1";
+
+/** Opens the Load data tab on one bullet's loads across all cartridges. */
+export function openLoadsForBullet(query: string): void {
+  const st = load<Partial<State>>(KEY, {});
+  save(KEY, { ...st, mode: "bullet", bulletQuery: query, source: "", minWeight: null, maxWeight: null });
+  location.hash = "#loads";
+}
 
 export function loadsView(data: AppData): HTMLElement {
   const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "", mode: "cartridge", bulletQuery: "", sortKey: "", sortDesc: false });
@@ -61,7 +68,7 @@ export function loadsView(data: AppData): HTMLElement {
 
   let searchTimer: ReturnType<typeof setTimeout> | undefined;
   function bulletSearch(): HTMLInputElement {
-    const el = h("input", { type: "search", placeholder: "e.g. Berger 245 Hybrid", value: st.bulletQuery });
+    const el = h("input", { type: "search", placeholder: "e.g. Berger 245 Hybrid (a|b matches either)", value: st.bulletQuery });
     el.addEventListener("input", () => {
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => ((st.bulletQuery = el.value), (st.source = ""), persist(), void renderPublished()), 300);
@@ -198,11 +205,7 @@ export function loadsView(data: AppData): HTMLElement {
   type Row = SiteLoadRow & { cartridgeId: string; yours?: boolean };
 
   const words = (q: string) => q.toLowerCase().split(/\s+/).filter(Boolean);
-  // Words match the bullet name or its weight, so "Berger 245" finds "Berger Hybrid Target", 245 gr.
-  const bulletMatches = (label: string | null | undefined, weight: number, q: string[]) => {
-    const text = `${label ?? ""} ${weight} ${weight}gr`.toLowerCase();
-    return q.every((w) => text.includes(w));
-  };
+  const bulletMatches = (label: string | null | undefined, weight: number, q: string[]) => matchesBulletQuery(label, weight, q.join(" "));
 
   function userRow(l: UserLoad): Row {
     return {
@@ -240,7 +243,7 @@ export function loadsView(data: AppData): HTMLElement {
       }
       const published = (await Promise.all([...cartridges].map(async (id) => (await loadRowsFor(id)).map((r): Row => ({ ...r, cartridgeId: id }))))).flat();
       const mine = data.user.loads.filter((l) => bulletMatches(l.bulletDescription, l.bulletWeightGr, q)).map(userRow);
-      return { rows: [...mine, ...published.filter((r) => bulletMatches(r.bullet, r.bulletWeightGr, q))], title: `Loads for bullets matching "${st.bulletQuery.trim()}"`, empty: null };
+      return { rows: [...mine, ...published.filter((r) => bulletMatches(r.bullet, r.bulletWeightGr, q))], title: `Loads for bullets matching "${st.bulletQuery.trim().replace(/\|\S+/g, "")}"`, empty: null };
     }
     const count = index[st.cartridgeId] ?? 0;
     if (!count) return { rows: [], title: "", empty: `No published loads for ${name(st.cartridgeId)}.` };
