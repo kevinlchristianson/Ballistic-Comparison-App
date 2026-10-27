@@ -20,6 +20,8 @@ The catalogs come from the manufacturers' own sites: Barnes, Berger, Cutting Edg
 | Shooters World data table | https://shootersworldpowder.com/data-table/ | 2,964 published | No terms page found (bot survey, 2026-10-27). | Fitted velocity curves, and every row in full on the Load data tab with a link back. |
 | LoadDevelopment.com | https://loaddevelopment.com/load-data/ | 0 | [Terms](https://loaddevelopment.com/terms/) forbid copying. | Not used. |
 
+Hodgdon's Terms of Service limit the Reloading Data Center to personal, non-commercial use and forbid republishing it or collecting it with scrapers without written consent (quoted in the survey below). The project owner was shown those terms on 2026-10-27 and chose to keep publishing Hodgdon rows; `excludedLoadSources` in `data/site-config.json` turns them off.
+
 The load bot's terms survey for other sources (Hodgdon, Barnes and others) is in `data/loads/comments/2026-10-27-source-terms-survey.md`. Development and tests use synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
 
 ## Cartridges (this project)
