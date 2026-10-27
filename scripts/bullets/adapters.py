@@ -2563,6 +2563,254 @@ def scrape_fiocchi() -> dict:
     )
 
 
+BCB_BULLETS = "https://www.bearcreekballistics.com/bullets"
+_BCB_PRODUCT = re.compile(
+    r"https://www\.bearcreekballistics\.com/([a-z0-9-]*bullet[a-z0-9-]*)/",
+    flags=re.I,
+)
+_BCB_PROFILE = re.compile(r"\b(HV|AR)\s*:\s*(\.\d+|\d+\.\d+)")
+_BCB_LENGTH = re.compile(
+    r"Bullet Lengths?:\s*(.+?)(?:Min\.|Load [Dd]ata|Suggested|$)",
+    flags=re.I,
+)
+_BCB_LENGTH_VALUE = re.compile(r"(?:(HV|AR|LV)\s*:\s*)?(\d*\.\d+)\"")
+
+
+def _bcb_tab(html: str, tab_id: str) -> str:
+    match = re.search(rf'id="{tab_id}"(.*?)(?=<div class="tab-content"|$)', html, flags=re.S)
+    return match.group(1) if match else ""
+
+
+def _bcb_inch(text: str | None) -> tuple[str, float] | None:
+    """Longest printed inch decimal in a caliber cell.
+
+    ".358 (.3581\\")" prints both .358 and .3581. The longer token is the
+    diameter.
+    """
+    if not text:
+        return None
+    best: tuple[str, float] | None = None
+    for match in _INCH_DIAMETER.finditer(text):
+        token = match.group(1)
+        value = parse_number(token)
+        if value is None or not 0.17 <= value <= 0.80:
+            continue
+        if best is None or len(token) > len(best[0]):
+            best = (token, value)
+    return best
+
+
+def _bcb_profiles(description: str, bc_text: str) -> list[str | None]:
+    if _BCB_PROFILE.search(bc_text) and re.search(r"\bHV\b", bc_text) and re.search(r"\bAR\b", bc_text):
+        return ["HV", "AR"]
+    if re.search(r"BCB-HV\s*/\s*BCB-AR", description):
+        return ["HV", "AR"]
+    typed = re.search(r"Bullet Type:\s*(BCB-(?:HV|AR|LV))", description)
+    if typed:
+        return [typed.group(1).split("-")[1]]
+    if re.search(r"\bAL-HV\b", description):
+        return ["AL-HV"]
+    return [None]
+
+
+def _bcb_length(description: str, profile: str | None) -> str | None:
+    match = _BCB_LENGTH.search(description)
+    if not match:
+        return None
+    chunk = match.group(1)
+    labeled = {
+        code: value
+        for code, value in _BCB_LENGTH_VALUE.findall(chunk)
+        if code
+    }
+    if profile in labeled:
+        return labeled[profile]
+    if profile in {"HV", "AR", "LV"} and labeled:
+        return None
+    plain = _BCB_LENGTH_VALUE.search(chunk)
+    if plain and not plain.group(1):
+        return plain.group(2)
+    return None
+
+
+def _bcb_product(url: str, html: str) -> list[dict]:
+    description_html = _bcb_tab(html, "tab-description")
+    description = strip_html(description_html)
+    title = strip_html(re.search(r"<h1[^>]*>(.*?)</h1>", html, flags=re.S).group(1))
+    title = re.sub(r"\s*\(\d[\d,]*\s*count\)", "", title, flags=re.I).strip()
+    sku_match = re.search(r'data-product-sku>([^<]*)', html)
+    sku = strip_html(sku_match.group(1)) if sku_match else ""
+    tech = {
+        strip_html(label): strip_html(value)
+        for label, value in re.findall(
+            r'tech-info-item--title">(.*?)</p>\s*<p>(.*?)</p>',
+            _bcb_tab(html, "tab-technical-information"),
+            flags=re.S,
+        )
+    }
+    table = {
+        strip_html(label): strip_html(value)
+        for label, value in re.findall(
+            r"<td[^>]*>\s*([^<]+?)\s*</td>\s*<td[^>]*>\s*([^<]+?)\s*</td>",
+            description_html,
+            flags=re.S,
+        )
+    }
+    weight = parse_number(tech.get("Weight"))
+    if weight is None:
+        raise RuntimeError(f"bear-creek: {url} has no printed weight")
+    caliber = tech.get("Caliber") or None
+    bc_text = tech.get("Ballistic Coefficient") or ""
+    profiles = _bcb_profiles(description, bc_text)
+    rows: list[dict] = []
+    for profile in profiles:
+        label = title if profile in {None, "AL-HV"} or (profile and profile in title) else f"{title} {profile}"
+        bullet = blank_bullet(
+            "Bear Creek Ballistics",
+            label,
+            url,
+            "Bear Creek Ballistics",
+            "Component bullet page. Pack counts of the same bullet are one row. "
+            "Loaded ammunition, powder charges, and cartridge overall length are not stored.",
+        )
+        bullet["caliber"] = caliber
+        bullet["weightGr"] = as_number(weight)
+        bullet["material"] = "copper"
+        if profile == "AL-HV":
+            bullet["productLine"] = "AL-HV"
+        elif profile in {"HV", "AR", "LV"}:
+            bullet["productLine"] = f"BCB-{profile}"
+        construction = ["solid copper"]
+        if re.search(r"\bmonolithic\b", description, flags=re.I):
+            construction.append("monolithic")
+        if re.search(r"boat\s*-?\s*tail", description, flags=re.I):
+            construction.append("boat tail")
+        add_construction(bullet, " ".join(construction))
+        if re.search(r"\b(hunt\w*|game)\b", description, flags=re.I):
+            add_uses(bullet, "hunting")
+        notes = [
+            f"Weight printed as {tech.get('Weight')}.",
+            "Pack counts are not stored.",
+        ]
+        if caliber:
+            notes.append(f"Technical information caliber printed as {caliber}.")
+        printed_diameter = _bcb_inch(caliber)
+        if printed_diameter:
+            bullet["diameterIn"] = as_number(printed_diameter[1])
+            notes.append(
+                f"Diameter {bullet['diameterIn']} copied from the printed caliber {printed_diameter[0]}."
+            )
+        described = re.search(r"Caliber:\s*(.+?)(?:\s+Weight:|$)", description)
+        if described and printed_diameter:
+            other = _bcb_inch(described.group(1))
+            if other and abs(other[1] - printed_diameter[1]) > 0.00005:
+                notes.append(f"The description caliber prints {described.group(1).strip()}.")
+        length = _bcb_length(description, None if profile == "AL-HV" else profile)
+        if length:
+            bullet["lengthIn"] = as_number(parse_number(length))
+            length_sentence = _BCB_LENGTH.search(description)
+            printed_length = length_sentence.group(1).strip() if length_sentence else length
+            notes.append(f"Length printed as {printed_length.rstrip(' .')}.")
+        expansion = re.search(
+            r"Min\. Expansion Velocity:\s*([\d,]+)\s*fps",
+            description,
+            flags=re.I,
+        ) or re.search(r"Expands down to\s*([\d,]+)\s*fps", description, flags=re.I)
+        if expansion:
+            bullet["minimumExpansionVelocityFps"] = as_number(parse_number(expansion.group(1)))
+            notes.append(f"Minimum expansion velocity printed as {expansion.group(0).strip()}.")
+        twist = re.search(r"Min\. Twist Rate:\s*(1\s*:\s*\d+)", description, flags=re.I)
+        if twist:
+            set_twist(bullet, f"Min. Twist Rate: {twist.group(1).replace(' ', '')}")
+        elif table.get("Recommended twist"):
+            set_twist(bullet, table["Recommended twist"])
+        sectional = table.get("Sectional density")
+        if sectional:
+            bullet["sectionalDensity"] = as_number(parse_number(sectional))
+            notes.append(f"Sectional density printed as {sectional}.")
+        profile_bc = None
+        labeled_g1 = False
+        ranged = re.search(r"\.\d+\s*-\s*\.\d+", bc_text) and not _BCB_PROFILE.search(bc_text)
+        if ranged:
+            notes.append(
+                f"Ballistic coefficient printed as {bc_text}. "
+                "The page prints a range, so no single coefficient is stored."
+            )
+            if "*" in bc_text:
+                notes.append("The page does not explain the asterisk.")
+        elif profile in {"HV", "AR"} and re.search(rf"\b{profile}\s*:", bc_text):
+            found = re.search(rf"\b{profile}\s*:\s*(\.\d+|\d+\.\d+)", bc_text)
+            if found:
+                profile_bc = found.group(1)
+                labeled_g1 = bool(re.match(r"\s*\(G1\)", bc_text[found.end():]))
+        else:
+            found = re.search(r"(\.\d+|\d+\.\d+)", bc_text)
+            if found:
+                profile_bc = found.group(1)
+                labeled_g1 = "(G1)" in bc_text
+            table_g1 = table.get("G1 BC")
+            if table_g1 and profile_bc and abs((parse_number(table_g1) or 0) - (parse_number(profile_bc) or 0)) < 0.0001:
+                notes.append(f"G1 printed as {table_g1} and as {bc_text}.")
+                profile_bc = table_g1
+                labeled_g1 = True
+        if profile_bc and labeled_g1:
+            add_bc(bullet, "G1", profile_bc, "manufacturer", url, "G1")
+            if not any(note.startswith("G1 printed as") for note in notes):
+                notes.append(f"G1 printed as {bc_text}.")
+        elif profile_bc:
+            bullet["bcUnlabeled"] = {"value": as_number(parse_number(profile_bc)), "label": "Ballistic Coefficient"}
+            notes.append(
+                f"Ballistic coefficient printed as {bc_text}. The cell does not name G1 or G7."
+            )
+        if sku:
+            bullet["sku"] = sku
+        option = (
+            re.search(
+                rf"\b{profile}\s*-\s*(.+?)(?:\s+bullet\b|\s+Material\b|\s*:|$)",
+                description,
+                flags=re.I,
+            )
+            if profile
+            else None
+        )
+        if option:
+            notes.append(f"Profile printed as {profile} - {option.group(1).strip()}.")
+        if table.get("Tip"):
+            notes.append(f"Tip printed as {table['Tip']}.")
+        if table.get("Profile"):
+            notes.append(f"Profile printed as {table['Profile']}.")
+        bullet["notes"] = " ".join(notes)
+        rows.append(bullet)
+    return rows
+
+
+def scrape_bear_creek() -> dict:
+    """Rifle component bullets from Bear Creek Ballistics.
+
+    The terms ask the reader to respect intellectual property. They do not
+    forbid copying specifications. Loaded ammunition is not collected.
+    """
+    print("bear-creek: bullet listing")
+    listing = fetch_text(BCB_BULLETS)
+    urls = []
+    seen: set[str] = set()
+    for match in _BCB_PRODUCT.finditer(listing):
+        slug = match.group(1).lower()
+        if slug == "bullets" or slug in seen:
+            continue
+        if not re.search(r"grain|gr-|caliber", slug):
+            continue
+        seen.add(slug)
+        urls.append(f"https://www.bearcreekballistics.com/{slug}/")
+    print(f"  product pages: {len(urls)}")
+    bullets: list[dict] = []
+    for url in urls:
+        time.sleep(0.5)
+        bullets.extend(_bcb_product(url, fetch_text(url)))
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Bear Creek Ballistics", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -2601,4 +2849,5 @@ ADAPTERS = {
     "winchester": scrape_winchester,
     "remington": scrape_remington,
     "american-copper": scrape_american_copper,
+    "bear-creek": scrape_bear_creek,
 }
