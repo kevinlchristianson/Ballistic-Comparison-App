@@ -27,7 +27,7 @@
         "url": "https://www.theballisticassistant.com/saami-rifle-cartridge-catalog/",
         "retrievedOn": "2026-10-27"
       },
-      "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler's 55 gr load sheet prints 6mm (.243\") and maximum SAAMI O.A.C.L. 2.260\"."
+      "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler CASE HOLDS under the bullet differs by sheet: 55 gr 29.0, 70 gr 28.8, 80 gr 27.1, 85/90 gr 26.5, 105 gr 25.8."
     },
     {
       "id": "26-nosler",
@@ -42,7 +42,7 @@
       "maxCoal": 3.34,
       "rimDiameter": 0.534,
       "neckLength": null,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 93,
       "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
@@ -51,7 +51,7 @@
         "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
         "retrievedOn": "2026-10-27"
       },
-      "note": "Drawing prints bullet .2645 - .0030, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+      "note": "Drawing prints bullet .2645 - .0030, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints a useable case capacity of 93 grains of water: https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 94.3 (120 gr), 95.0 (123/125 gr), 93.0 (130 and 140 gr); those are not stored."
     },
     {
       "id": "27-nosler",
@@ -66,7 +66,7 @@
       "maxCoal": 3.34,
       "rimDiameter": 0.534,
       "neckLength": null,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 98.4,
       "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
@@ -75,7 +75,7 @@
         "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
         "retrievedOn": "2026-10-27"
       },
-      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints fireformed overflow to the neck as 98.4 gr H2O: https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 91.5 (150 gr) and 87.8 (165 gr); those are not stored."
     },
     {
       "id": "33-nosler",
@@ -99,7 +99,7 @@
         "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
         "retrievedOn": "2026-10-27"
       },
-      "note": "Drawing prints bullet .3390 - .0030, case 2.460 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+      "note": "Drawing prints bullet .3390 - .0030, case 2.460 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler CASE HOLDS under the bullet differs by sheet: 225 gr 82.0, 250 gr 81.4, 300 gr 76.8. No single capacity is printed, so this stays null."
     },
     {
       "id": "22-arc",

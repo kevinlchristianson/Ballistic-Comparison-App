@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "cartridgeCount": 179,
+  "cartridgeCount": 180,
   "sources": {
     "saami-z299.4-2025": {
       "title": "ANSI/SAAMI Z299.4-2025, Centerfire Rifle",
@@ -4953,6 +4953,43 @@
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
         "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-nosler",
+      "name": ".25 Nosler",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25 Nosler",
+        ".25 Nosler"
+      ],
+      "parentCase": ".26 Nosler",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.59,
+      "trimLengthIn": 2.58,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": 92.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Added 2026-10-27 at Kevin's request: the .26 Nosler case necked to .257. Case length is the .26 Nosler's SAAMI maximum (verified). Capacity, pressure, rim and shoulder are estimates; check the reamer print and fired brass."
+      },
+      "fieldNotes": {
+        "caseCapacityGrH2O": "Estimate. Starts from the .28 Nosler's 93.0 gr (same body, length and shoulder position) and subtracts the smaller neck's volume: pi/4 x (0.284^2 - 0.257^2) x about 0.30 in neck = 0.0034 cu in, about 0.9 gr. Rounded to 92 gr.",
+        "mapPsi": "Assumed equal to the parent .26 Nosler's SAAMI MAP (65,000 psi). A wildcat has no standard pressure limit.",
+        "trimLengthIn": "Case length minus 0.010 in, by convention.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question.",
+        "rimDiameterIn": "Same head as the other Nosler cartridges (.28 Nosler entry, reference knowledge).",
+        "shoulderAngleDeg": "Assumed the same 35 degree shoulder as the .28 Nosler entry.",
+        "velocityEstimates": "physics-v1 estimates at max pressure, 26 in barrel (24 in in brackets), about +/-4%: 100 gr 3,600 (3,520); 110 gr 3,470 (3,390); 115 gr 3,410 (3,330); 120 gr 3,350 (3,270); 133 gr 3,210 (3,140) fps. Not load data; the app computes these live from the values above."
       },
       "userAdded": false
     },

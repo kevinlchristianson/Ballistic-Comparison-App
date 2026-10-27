@@ -2,7 +2,7 @@
 
 Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/load.ts`](schema/load.ts) and reject a file whose `schemaVersion` is anything else.
 
-[`sources/vihtavuori.json`](sources/vihtavuori.json) is the first manufacturer catalog. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) stays an empty envelope: this bot does not scrape that site, and the owner will supply that file later. Questions for the app agent are in [`comments/`](comments/). The answers from PR #3 are copied into the files whose status is `answered`.
+[`sources/vihtavuori.json`](sources/vihtavuori.json) is the first manufacturer catalog. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) stays an empty envelope: this bot does not scrape that site, and the owner will supply that file later. What this bot is doing now is in [`STATUS.md`](STATUS.md). Questions for the app agent are in [`comments/`](comments/). The answers from PR #3 are copied into the files whose status is `answered`.
 
 Charges in this library are published numbers kept for traceability. They are not a recommended load.
 
@@ -11,6 +11,7 @@ Charges in this library are published numbers kept for traceability. They are no
 ```
 data/loads/
   README.md                    This file.
+  STATUS.md                    What this bot is doing, what is next, and known data issues.
   comments/                    One markdown file per question for the app agent.
   schema/load.schema.json      JSON Schema, draft 2020-12. Field contract.
   schema/load.ts               TypeScript types for the same contract.
@@ -184,4 +185,5 @@ Answered in `BOTS.md` from PR #3, PR #14, PR #29, and PR #41, and copied into th
 | [2026-10-27-berger-elite-hunter-bullet-list.md](comments/2026-10-27-berger-elite-hunter-bullet-list.md) | Include the 30 caliber 217 gr Elite Hunter, part 30551. |
 | [2026-10-27-cartridges-missing-from-library.md](comments/2026-10-27-cartridges-missing-from-library.md) | 24, 26, 27, and 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, and 30 Rem AR are in `bots/loads.json`. 7mm SAUM and 300 SAUM have the SAAMI short-name aliases. Handguns and unsourced rifle names stay unmatched. |
 | [2026-10-27-cartridge-alias-matching.md](comments/2026-10-27-cartridge-alias-matching.md) | Resolver handles `300wm`, `338wm`, `7RM`, `6cm`, and `28N`. `338 norma` stays off .338 Lapua. ` / ` strings need every piece to agree. `.338 Norma Magnum` is in `bots/loads.json`. Wildcats without a dimension page stay out. |
+| [2026-10-27-case-capacity-not-merged.md](comments/2026-10-27-case-capacity-not-merged.md) | Open. Published 98.4 and 93 gr H2O sit on the bot records and do not reach the project cartridges. |
 | [2026-10-27-community-108-cartridge-coverage.md](comments/2026-10-27-community-108-cartridge-coverage.md) | Agreed. Coverage gaps are in `data/SOURCES.md`. Long Range Hunting and Texas Hunting Forum stay out. |
