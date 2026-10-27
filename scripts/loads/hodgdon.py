@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -154,7 +155,11 @@ def _pressure(token) -> tuple[int | float | None, str | None, str | None]:
         return None, None, None
     parts = text.split()
     if len(parts) == 2 and parts[1].lower() in {"psi", "cup", "bar", "mpa"}:
-        number = parse_published_number(parts[0])
+        number_token = parts[0]
+        # 53,000 is thousands. 61,00 is a broken token, not a pressure to guess.
+        if "," in number_token and not re.fullmatch(r"\d{1,3}(?:,\d{3})+", number_token):
+            return None, None, text
+        number = parse_published_number(number_token)
         if number is None:
             return None, None, text
         return number, parts[1].lower(), None
@@ -176,6 +181,11 @@ def _length_inches(token) -> int | float | None:
     text = text_or_none(token)
     if not text:
         return None
+    bare = text.replace("″", "").replace("”", "").replace('"', "").strip()
+    # 2,090" is a decimal inch on this service, beside rows printed 2.090".
+    comma_decimal = re.fullmatch(r"(\d{1,2}),(\d{3})", bare)
+    if comma_decimal:
+        return parse_published_number(f"{comma_decimal.group(1)}.{comma_decimal.group(2)}")
     return parse_published_number(text)
 
 
@@ -220,6 +230,8 @@ def _from_cartridge(path: Path, stats: dict) -> list[dict]:
             max_pressure, max_unit, max_pressure_note = _pressure(load.get("MaximumPressure"))
             coal = _length_inches(load.get("Col"))
             diameter = _length_inches(load.get("BulletDiameter") or group.get("Diameter"))
+            if isinstance(diameter, (int, float)) and diameter > 1:
+                diameter = None
             notes = join_notes(
                 [
                     f"powder manufacturer {text_or_none(load.get('ManufacturerName'))}",
@@ -233,8 +245,16 @@ def _from_cartridge(path: Path, stats: dict) -> list[dict]:
                     f"maximum grains printed {text_or_none(load.get('MaximumGrains'))}",
                     f"starting pressure printed {text_or_none(load.get('StartingPressure'))}",
                     f"maximum pressure printed {text_or_none(load.get('MaximumPressure'))}",
-                    f"starting density {text_or_none(load.get('StartingDensity'))}",
-                    f"maximum density {text_or_none(load.get('MaximumDensity'))}",
+                    (
+                        f"starting density {text_or_none(load.get('StartingDensity'))}"
+                        if text_or_none(load.get("StartingDensity"))
+                        else None
+                    ),
+                    (
+                        f"maximum density {text_or_none(load.get('MaximumDensity'))}"
+                        if text_or_none(load.get("MaximumDensity"))
+                        else None
+                    ),
                     start_pressure_note,
                     max_pressure_note,
                     f"service total {total}" if total else None,
