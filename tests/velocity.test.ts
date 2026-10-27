@@ -174,3 +174,18 @@ describe("precomputed fit table (what the site ships)", () => {
     expect(other.model).toBe("physics-v1");
   });
 });
+
+describe("community loads", () => {
+  it("marks fits that rely on community reports", async () => {
+    const { fitLoads, COMMUNITY_FLAG } = await import("../src/lib/velocity/loadData.ts");
+    const base = {
+      cartridgeRaw: "x", cartridgeId: "x", bulletDiameterIn: 0.308, bulletDescription: null, bulletManufacturer: null, bulletSku: null,
+      powder: null, chargeGr: null, chargeLevel: "max" as const, compressed: null, primer: null, case: null, coalIn: null,
+      barrelLengthIn: 24, barrelLengthOrigin: "row" as const, pressure: null, conversions: [],
+    };
+    const pub = { ...base, id: "a", bulletWeightGr: 168, velocityFps: 2700, source: { name: "Maker", url: "https://m", page: null, retrievedOn: "" }, flags: [] };
+    const com = { ...base, id: "b", bulletWeightGr: 200, velocityFps: 2500, source: { name: "Community", url: "https://c", page: null, retrievedOn: "" }, flags: [COMMUNITY_FLAG] };
+    expect(fitLoads("x", [pub], 24)!.flags).not.toContain("community_data");
+    expect(fitLoads("x", [pub, com], 24)!.flags).toContain("community_data");
+  });
+});

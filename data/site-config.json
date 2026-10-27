@@ -1,9 +1,11 @@
 {
-  "_comment": "Settings for scripts/build-site-data.ts. Owned by this project. excludedLoadSources lists load source names (as in each load file's source.name) whose data the published site must not use. barrelRangeIn is the barrel range, in whole inches, that published-load fits are precomputed for. loadRows sets what the Load data tab publishes: \"full\" (every field the source printed, including powder and charge; chosen by the project owner on 2026-10-27), \"without_charges\" (no powder, charge or primer), or \"none\" (fitted curves only).",
+  "_comment": "Settings for scripts/build-site-data.ts. Owned by this project. excludedLoadSources lists load source names (as in each load file's source.name) whose data the published site must not use. barrelRangeIn is the barrel range, in whole inches, that published-load fits are precomputed for. loadRows sets what the Load data tab publishes: \"full\" (every field the source printed, including powder and charge; chosen by the project owner on 2026-10-27), \"without_charges\" (no powder, charge or primer), or \"none\" (fitted curves only). communitySourcePattern is a regular expression on source names whose loads are community reports (forum compilations, user submissions): they are tagged in the Load data tab and in estimates. communityLoadsInEstimates false keeps them out of velocity estimates.",
   "excludedLoadSources": [],
   "barrelRangeIn": [
     14,
     34
   ],
-  "loadRows": "full"
+  "loadRows": "full",
+  "communitySourcePattern": "^(Community|Submitted by )",
+  "communityLoadsInEstimates": true
 }

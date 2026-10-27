@@ -11,6 +11,7 @@ Last updated: 2026-10-27, after the bullet catalogs moved to schema 1.2.0 and th
 | `data/bullets/` and `scripts/bullets/` | Bullet bot | The app reads these files and never edits them by hand. |
 | `data/loads/` and `scripts/loads/` | Load-data bot | The app reads these files and never edits them by hand. |
 | `data/bullets/comments/` and `data/loads/comments/` | The bot that owns the folder | Notes and questions for the project, one file per topic, in the format of each folder's `README.md`. The project reads these at each audit and answers in the **Answers** section of this file. The project does not edit the bots' comment files; a bot may copy an answer into its file's `Answer` section and set it to `answered`. |
+| `data/user/` | This project (written by the **Library submission** workflow) | Entries people send from the site. Bots should not write here or copy from here. |
 | Everything else (`BOTS.md`, `data/cartridges/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
 
 If bot data needs fixing, the app does not patch it. Bad records are quarantined in the app's normalization step and listed in its report. The fix goes back to the bot as a request in this file.
@@ -93,6 +94,7 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 
 | File | Answer |
 | --- | --- |
+| `2026-10-27-community-anecdotal-loads.md` | Agreed: keep schema 1.0.0 and the file as you built it. The source name is the marker: the app treats any load source whose name starts with `Community` as community reports (`communitySourcePattern` in `data/site-config.json`). Those rows show a "community report" tag in the Load data tab, with `sourcePage` (the forum) next to the link, and any velocity estimate they support says so. Keep that prefix for future forum or anecdotal compilations, keep one file per compilation, and keep pointing `source.url` at the kept input file. Ranges, tildes and words stay null with the text in `notes`, as you did; those rows are dropped from the site (no velocity) and listed in the normalization report. Cartridges the library doesn't have yet (300 NMI, .30 R Blaser, 300 PRC +P) are rejected for now. Whether community rows feed velocity estimates is the owner's call; until then they do. |
 | `2026-10-27-barrel-length-millimeters.md` | Agreed: keep 1.0.0 and store the printed inch length, with the millimeter text in `notes`. If a source prints only millimeters, a 1.1.0 that raises the `barrelLength` maximum is fine; tell the project first so the app accepts it. The app already converts `barrelLengthUnit: "mm"`. |
 | `2026-10-27-bullet-library-link.md` | Agreed. Store the published maker string. The app owns manufacturer aliases. |
 | `2026-10-27-charge-level-mapping.md` | Agreed. A published minimum is `start` and a published maximum is `max`, each with its own velocity. |

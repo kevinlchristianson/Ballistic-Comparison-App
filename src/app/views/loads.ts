@@ -1,7 +1,7 @@
 /**
  * Load data tab: every published load for a cartridge, as the build publishes
- * it (see `loadRows` in data/site-config.json), and the user's own loads,
- * which are kept in this browser only.
+ * it (see `loadRows` in data/site-config.json), including loads users sent
+ * to the library, and the user's own loads in this browser.
  */
 import { loadRowsFor, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
@@ -58,12 +58,13 @@ export function loadsView(data: AppData): HTMLElement {
   function renderMine(): void {
     clear(mineEl);
     const mine = data.user.loads.filter((l) => l.cartridgeId === st.cartridgeId);
+    const sentLoads = new Set(data.meta.submitted?.loads ?? []);
     mineEl.append(
       h(
         "div",
         { class: "card" },
         h("h3", {}, `Your loads for ${name(st.cartridgeId)}`),
-        h("p", { class: "hint" }, "Saved in this browser only and shown only to you. Your max loads also feed this cartridge's velocity estimates."),
+        h("p", { class: "hint" }, "Saved in this browser. Your max loads feed this cartridge's velocity estimates. Use Send to library to publish them for everyone, with all their fields."),
         mine.length
           ? h(
               "div",
@@ -71,7 +72,7 @@ export function loadsView(data: AppData): HTMLElement {
               h(
                 "table",
                 { class: "data compact" },
-                h("thead", {}, h("tr", {}, ["Bullet", "Weight", "Powder", "Charge", "Level", "Velocity", "Barrel", "COAL", "Primer / case", "Note", ""].map((x) => h("th", {}, x)))),
+                h("thead", {}, h("tr", {}, ["Bullet", "Weight", "Powder", "Charge", "Level", "Velocity", "Barrel", "COAL", "Primer / case", "Note", "Library", ""].map((x) => h("th", {}, x)))),
                 h(
                   "tbody",
                   {},
@@ -92,6 +93,7 @@ export function loadsView(data: AppData): HTMLElement {
                         h("td", {}, fmt.in(l.coalIn)),
                         h("td", { class: "wrap" }, [l.primer, l.case].filter(Boolean).join(" / ") || "—"),
                         h("td", { class: "muted" }, [l.date, l.note].filter(Boolean).join(" · ")),
+                        h("td", {}, sentLoads.has(l.id) ? h("span", { class: "tag" }, "in library") : h("span", { class: "muted" }, "only here")),
                         h("td", {}, h("button", { class: "link danger", onclick: () => ((data.user.loads = data.user.loads.filter((x) => x.id !== l.id)), refresh(data), renderAll()) }, "delete")),
                       ),
                     ),
@@ -237,10 +239,16 @@ export function loadsView(data: AppData): HTMLElement {
                   h("td", {}, r.level ?? "—"),
                   h("td", {}, fmt.fps(r.velocityFps)),
                   h("td", {}, r.barrelLengthIn != null ? `${r.barrelLengthIn}″${r.barrelFromSource ? "*" : ""}` : "—"),
-                  h("td", { class: r.flags.length ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
+                  h("td", { class: r.flags.some((f) => f.endsWith("saami_max")) ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
                   h("td", {}, fmt.in(r.coalIn)),
                   full ? h("td", { class: "wrap" }, [r.primer, r.case].filter(Boolean).join(" / ") || "—") : null,
-                  h("td", {}, r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName),
+                  h(
+                    "td",
+                    {},
+                    r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName,
+                    r.sourcePage ? ` (${r.sourcePage})` : "",
+                    r.flags.includes("community_report") ? h("span", { class: "tag", title: "Reported on a forum or by a user, not published by a maker. No pressure data." }, "community report") : null,
+                  ),
                 ),
               ),
             ),

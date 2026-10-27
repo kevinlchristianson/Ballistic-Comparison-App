@@ -10,6 +10,7 @@ import type { PhysicsParams } from "../lib/velocity/physics.ts";
 import { createSiteEstimator } from "../lib/velocity/index.ts";
 import type { VelocityEstimator } from "../lib/velocity/types.ts";
 import { load, save } from "./store.ts";
+import type { SubmittedIds } from "./submission.ts";
 
 /** A bullet as the site publishes it: catalog fields the app uses, with a source link. */
 export interface SiteBullet {
@@ -41,6 +42,8 @@ export interface SiteBullet {
   flags: string[];
   /** True for a bullet the user entered in this browser. */
   custom?: boolean;
+  /** GitHub login of whoever submitted this bullet to the library. */
+  submittedBy?: string;
 }
 
 export interface SiteMeta {
@@ -55,11 +58,13 @@ export interface SiteMeta {
   loadRows: LoadRowIndex | null;
   /** Whether published rows include powder and charge. */
   loadRowsFull: boolean;
+  /** Ids of entries users submitted to the library (data/user/). */
+  submitted?: SubmittedIds;
 }
 
 /**
- * A load the user entered. Kept in this browser only and shown only to them.
- * Powder and charge are the user's own records; the site never publishes them.
+ * A load the user entered. Kept in this browser until the user sends it to
+ * the library (see submission.ts), which publishes it with all its fields.
  */
 export interface UserLoad {
   id: string;
@@ -100,6 +105,8 @@ export interface SiteLoadRow {
   case?: string | null;
   sourceName: string;
   sourceUrl: string;
+  /** Where in the source, e.g. a page, table or forum name. */
+  sourcePage?: string | null;
   flags: string[];
 }
 
@@ -154,8 +161,12 @@ export async function loadAppData(): Promise<AppData> {
 
 /** Recomputes merged lists and the estimator after user data changes, and saves it. */
 export function refresh(data: AppData): void {
-  data.bullets = [...data.user.bullets, ...data.publishedBullets];
-  data.cartridges = [...data.library.cartridges, ...data.user.cartridges];
+  // Entries already sent to the library appear once, as published entries.
+  const sent = data.meta.submitted;
+  const sentBullets = new Set(sent?.bullets ?? []);
+  const sentCartridges = new Set(sent?.cartridges ?? []);
+  data.bullets = [...data.user.bullets.filter((b) => !sentBullets.has(b.id)), ...data.publishedBullets];
+  data.cartridges = [...data.library.cartridges, ...data.user.cartridges.filter((c) => !sentCartridges.has(c.id))];
   data.estimator = createSiteEstimator(data.cartridges, data.fits, data.user.loads.map(toNormalizedLoad));
   save(USER_KEY, data.user);
 }

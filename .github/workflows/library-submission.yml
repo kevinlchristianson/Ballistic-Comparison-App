@@ -1,0 +1,116 @@
+# Commits entries users send from the site ("Send to library") to data/user/submissions/.
+#
+# The site opens a GitHub issue titled "[Library submission] ..." with the
+# entries as JSON. Issues from the repository owner (or a collaborator) are
+# committed right away. Anyone else's wait until a maintainer adds the
+# `approved` label. The issue body is untrusted: it is passed to the script
+# through an environment variable, never pasted into a shell command, and only
+# known, range-checked fields are kept (src/app/submission.ts).
+name: Library submission
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+# One at a time, so two submissions never race on the push.
+concurrency:
+  group: library-submission
+  cancel-in-progress: false
+
+jobs:
+  await-approval:
+    if: >-
+      github.event.action == 'opened' &&
+      startsWith(github.event.issue.title, '[Library submission]') &&
+      !contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh label create approved --repo "$GITHUB_REPOSITORY" --color 0e8a16 --description "Library submission approved by a maintainer" 2>/dev/null || true
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Thanks! A maintainer will review this. Adding the \`approved\` label commits it to the library."
+
+  ingest:
+    if: >-
+      startsWith(github.event.issue.title, '[Library submission]') &&
+      github.event.issue.state == 'open' &&
+      (
+        (github.event.action == 'opened' && contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)) ||
+        (github.event.action == 'labeled' && github.event.label.name == 'approved')
+      )
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Read the submission
+        id: ingest
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          SUMMARY_FILE: ${{ runner.temp }}/summary.md
+        run: npx tsx scripts/ingest-submission.ts
+
+      # Make sure the site still builds with the new entries before committing them.
+      - name: Check the site builds
+        run: |
+          npm run normalize && npm run site-data || {
+            echo "The site would not build with these entries, so nothing was committed." > "$RUNNER_TEMP/summary.md"
+            exit 1
+          }
+
+      - name: Commit
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+          AUTHOR: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/user/submissions
+          if git diff --cached --quiet; then echo "Nothing new to commit."; exit 0; fi
+          git commit -m "Add library submission #$ISSUE from $AUTHOR"
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+
+      # Pushes made with this workflow's token don't start other workflows, so start the deploy here.
+      - name: Deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main
+
+      - name: Close the issue
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY" --comment "$(cat "$RUNNER_TEMP/summary.md")"
+
+      - name: Report a problem
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          msg="$(cat "$RUNNER_TEMP/summary.md" 2>/dev/null || echo "Could not add this submission.")"
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "$msg
+
+          Details: $RUN_URL"
