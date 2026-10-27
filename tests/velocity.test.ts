@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
-import { createDefaultEstimator } from "../src/lib/velocity/index.ts";
-import { createLoadDataEstimator, DEFAULT_LOGLOG_SLOPE } from "../src/lib/velocity/loadData.ts";
+import { createDefaultEstimator, createSiteEstimator, physicsFpsPerInch, USER_LOADS_MODEL } from "../src/lib/velocity/index.ts";
+import { buildFitTable, createFitTableEstimator, createLoadDataEstimator, DEFAULT_LOGLOG_SLOPE } from "../src/lib/velocity/loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { cartridges, fixtureLoads } from "./helpers.ts";
@@ -127,5 +127,50 @@ describe("default estimator", () => {
     const perInch = (at26 - at22) / 4;
     expect(perInch).toBeGreaterThan(15);
     expect(perInch).toBeLessThan(40);
+  });
+});
+
+describe("precomputed fit table (what the site ships)", () => {
+  const fpsPerInch = physicsFpsPerInch(physics);
+  const table = buildFitTable(fixtureLoads, [16, 30], fpsPerInch);
+  const direct = createLoadDataEstimator(fixtureLoads, { fpsPerInch });
+  const fromTable = createFitTableEstimator(table);
+
+  it("gives the same answers as fitting the loads directly", () => {
+    for (const [w, b] of [[150, 22], [168, 24], [185, 20], [175, 26]] as const) {
+      const q = { cartridgeId: "308-win", bulletWeightGr: w, barrelLengthIn: b };
+      const x = direct.estimate(q);
+      const y = fromTable.estimate(q);
+      expect(y.estimateFps).toBeCloseTo(x.estimateFps!, 6);
+      expect(y.lowFps).toBeCloseTo(x.lowFps!, 6);
+      expect(y.flags.sort()).toEqual(x.flags.sort());
+    }
+  });
+
+  it("holds fitted curves only, never load rows or charges", () => {
+    const keys = new Set<string>();
+    const walk = (v: unknown): void => {
+      if (Array.isArray(v)) v.forEach(walk);
+      else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) (keys.add(k), walk(x));
+    };
+    walk(table);
+    for (const k of ["chargeGr", "powder", "primer", "velocityFps", "loads", "coalIn"]) expect(keys.has(k)).toBe(false);
+  });
+
+  it("rounds barrel length to the inch and refuses barrels outside its range", () => {
+    const e = fromTable.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 22.4 });
+    expect(e.flags).toContain("barrel_rounded");
+    expect(fromTable.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 40 }).estimateFps).toBeNull();
+  });
+
+  it("lets the user's own loads answer first", () => {
+    const mine = fixtureLoads
+      .filter((l) => l.cartridgeId === "308-win" && l.chargeLevel === "max" && l.barrelLengthIn === 22)
+      .map((l) => ({ ...l, velocityFps: l.velocityFps + 100 }));
+    const site = createSiteEstimator(cartridges, table, mine);
+    const e = site.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 22 });
+    expect(e.model).toBe(USER_LOADS_MODEL);
+    const other = site.estimate({ cartridgeId: "308-win", bulletWeightGr: 230, barrelLengthIn: 24 });
+    expect(other.model).toBe("physics-v1");
   });
 });

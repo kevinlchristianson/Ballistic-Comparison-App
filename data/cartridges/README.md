@@ -8,11 +8,11 @@ Every entry is currently marked `verification.status: "unverified"`. The values 
 
 | Kind | Count | Verify against |
 | --- | --- | --- |
-| `saami` | 107 | [ANSI/SAAMI Z299.4-2025, Centerfire Rifle](https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf) |
-| `cip` | 4 | [C.I.P. TDCC](https://bobp.cip-bobp.org/en/tdcc) |
+| `saami` | 108 | [ANSI/SAAMI Z299.4-2025, Centerfire Rifle](https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf) |
+| `cip` | 8 | [C.I.P. TDCC](https://bobp.cip-bobp.org/en/tdcc) |
 | `wildcat` | 31 | The reamer print for the chamber in question. Wildcats have no standard COAL. |
 
-Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcats. Handgun and rimfire are out of scope for now. A few C.I.P. cartridges are included because they are common in load data.
+Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcats. Handgun and rimfire are out of scope for now. A few C.I.P. cartridges are included because they are common in load data. On 2026-10-27 the 7x64, 7x65R, 9.3x62, 9.3x74R and .277 SIG Fury were added because Vihtavuori publishes loads for them. Their C.I.P. pressure limits are converted from bar, and C.I.P. and SAAMI measure pressure differently.
 
 ## Fields
 
@@ -21,7 +21,7 @@ Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcat
 | `id` | slug | Stable. Load data links to this. |
 | `name` | text | Common full name. |
 | `kind` | `saami`, `cip`, `wildcat`, `user` | `user` is reserved for cartridges added in the app. |
-| `aliases` | text[] | Other names seen in load data. Matching ignores case, dots, spaces and hyphens. |
+| `aliases` | text[] | Other names seen in load data. Matching ignores case, dots, commas, spaces and hyphens. A name like `6,5 x 55 SE / 6,5 x 55 SKAN` or `7,62 x 53R (7,62 Russian)` is also tried part by part. |
 | `parentCase` | text | |
 | `bulletDiameterIn` | in | |
 | `caseLengthIn` | in | Maximum case length. |
@@ -42,7 +42,7 @@ These SAAMI centerfire rifle cartridges are likely in the standard but not yet i
 
 .22 Savage High-Power, 5.45x39mm, .22 ARC, .26 Nosler, .27 Nosler, .33 Nosler, 6.5 Weatherby RPM, 7mm Backcountry, .300 Ruger Compact Magnum, .338 Ruger Compact Magnum, .338 Marlin Express, .338-378 Weatherby Magnum, .30 Remington, .30 Remington AR, .32 Winchester Special, .32-20 Winchester, .32-40 Winchester, .348 Winchester, .375 Winchester, .375 Weatherby Magnum, .38-40 Winchester, .38-55 Winchester, .44-40 Winchester, .360 Buckhammer, .400 Legend, .458 SOCOM, .460 Weatherby Magnum, .470 Nitro Express, 7.62x54R.
 
-Other gaps: `neckLengthIn` is filled for only 2 cartridges, `caseCapacityGrH2O` for 61, and `mapPsi` is null for 24 SAAMI entries. The physics velocity model needs both capacity and MAP, so it answers "no data" for cartridges missing either.
+Other gaps: `neckLengthIn` is filled for only 2 cartridges, `caseCapacityGrH2O` for 65, and `mapPsi` is null for 24 SAAMI entries. The physics velocity model needs both capacity and MAP, so it answers "no data" for cartridges missing either.
 
 ## How to add or fix a cartridge
 

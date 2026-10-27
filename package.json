@@ -6,12 +6,14 @@
   "description": "Static, client-side app for comparing bullet/velocity combinations and estimating which cartridges can reach them.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run normalize && npm run site-data && vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "normalize": "tsx scripts/normalize.ts",
-    "normalize:fixtures": "tsx scripts/normalize.ts --fixtures"
+    "normalize:fixtures": "tsx scripts/normalize.ts --fixtures",
+    "site-data": "tsx scripts/build-site-data.ts",
+    "calibrate": "tsx scripts/calibrate-physics.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",

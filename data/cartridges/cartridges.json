@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "cartridgeCount": 142,
+  "cartridgeCount": 147,
   "sources": {
     "saami-z299.4-2025": {
       "title": "ANSI/SAAMI Z299.4-2025, Centerfire Rifle",
@@ -1111,7 +1111,9 @@
         "6.5x55",
         "6.5x55 Swede",
         "6.5x55 SE",
-        "6.5x55mm Swedish Mauser"
+        "6.5x55mm Swedish Mauser",
+        "6.5x55 Swedish Mauser",
+        "6.5x55 SKAN"
       ],
       "parentCase": null,
       "bulletDiameterIn": 0.264,
@@ -1478,6 +1480,43 @@
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
         "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "277-sig-fury",
+      "name": "277 SIG Fury",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        ".277 SIG Fury",
+        "277 Fury",
+        ".277 Fury",
+        "6.8x51",
+        "6.8x51mm"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 80000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27, added because Vihtavuori publishes loads for it. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Not known; the physics velocity model cannot estimate this cartridge until it is filled."
       },
       "userAdded": false
     },
@@ -2691,7 +2730,9 @@
         "8x57",
         "8x57JS",
         "8mm Mauser",
-        "7.92x57"
+        "7.92x57",
+        "8x57 IS",
+        "8x57IS"
       ],
       "parentCase": null,
       "bulletDiameterIn": 0.323,
@@ -3619,7 +3660,9 @@
       "aliases": [
         "50 BMG",
         ".50 BMG",
-        "12.7x99"
+        "12.7x99",
+        ".50 Browning",
+        "50 Browning"
       ],
       "parentCase": null,
       "bulletDiameterIn": 0.51,
@@ -3782,6 +3825,149 @@
       },
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7x64",
+      "name": "7x64",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7x64",
+        "7x64mm",
+        "7x64 Brenneke"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.52,
+      "trimLengthIn": 2.51,
+      "maxCoalIn": 3.307,
+      "caseCapacityGrH2O": 68.0,
+      "mapPsi": 60190,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.47,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27, added because Vihtavuori publishes loads for it. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "mapPsi": "C.I.P. Pmax 4150 bar converted to psi; C.I.P. and SAAMI measure pressure differently.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7x65r",
+      "name": "7x65R",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7x65R",
+        "7x65R Brenneke"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.559,
+      "trimLengthIn": 2.549,
+      "maxCoalIn": 3.307,
+      "caseCapacityGrH2O": 68.0,
+      "mapPsi": 55840,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.521,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27, added because Vihtavuori publishes loads for it. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "mapPsi": "C.I.P. Pmax 3850 bar converted to psi; C.I.P. and SAAMI measure pressure differently.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "9-3x62",
+      "name": "9.3x62",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "9.3x62",
+        "9,3x62",
+        "9.3x62mm",
+        "9.3x62 Mauser"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.366,
+      "caseLengthIn": 2.441,
+      "trimLengthIn": 2.431,
+      "maxCoalIn": 3.287,
+      "caseCapacityGrH2O": 74.0,
+      "mapPsi": 56560,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27, added because Vihtavuori publishes loads for it. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "mapPsi": "C.I.P. Pmax 3900 bar converted to psi; C.I.P. and SAAMI measure pressure differently.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "9-3x74r",
+      "name": "9.3x74R",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "9.3x74R",
+        "9,3x74R"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.366,
+      "caseLengthIn": 2.917,
+      "trimLengthIn": 2.907,
+      "maxCoalIn": 3.74,
+      "caseCapacityGrH2O": 85.0,
+      "mapPsi": 49310,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.524,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27, added because Vihtavuori publishes loads for it. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "mapPsi": "C.I.P. Pmax 3400 bar converted to psi; C.I.P. and SAAMI measure pressure differently.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3989,7 +4175,9 @@
       "aliases": [
         "6 PPC",
         "6mm PPC",
-        "6PPC"
+        "6PPC",
+        "6mm PPC-USA",
+        "6 PPC-USA"
       ],
       "parentCase": ".220 Russian",
       "bulletDiameterIn": 0.243,

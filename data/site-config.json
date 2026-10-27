@@ -1,0 +1,5 @@
+{
+  "_comment": "Settings for scripts/build-site-data.ts. Owned by this project. excludedLoadSources lists load source names (as in each load file's source.name) whose data the published site must not use. barrelRangeIn is the barrel range, in whole inches, that published-load fits are precomputed for.",
+  "excludedLoadSources": [],
+  "barrelRangeIn": [14, 34]
+}

@@ -1,0 +1,26 @@
+# Runs on every pull request, including the data bots' PRs: type check, tests,
+# and a full build, which normalizes the bots' data and fails on an unknown schema version.
+name: Check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - name: Normalization report
+        if: always()
+        run: cat data/normalized/REPORT.md >> "$GITHUB_STEP_SUMMARY" || true

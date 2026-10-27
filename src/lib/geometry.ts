@@ -171,14 +171,14 @@ export function seatingGeometry(input: GeometryInput): GeometryResult {
     const extra = lossVol / ((Math.PI / 4) * b.diameterIn ** 2);
     depthLimits.push({ v: neck + extra, why: `bullet displaces ${MAX_CAPACITY_LOSS * 100}% of the ${c.caseCapacityGrH2O} gr capacity below the neck` });
   } else {
-    depthLimits.push({ v: neck + b.diameterIn, why: "one caliber below the neck (no case capacity in the library)" });
+    depthLimits.push({ v: neck + b.diameterIn, why: "bullet base is one caliber below the neck (no case capacity in the library)" });
     flags.push("capacity_unknown");
   }
-  if (b.bearingSurfaceIn != null) depthLimits.push({ v: boattail + b.bearingSurfaceIn, why: "deeper and the neck would grip the ogive, not the shank" });
+  if (b.bearingSurfaceIn != null) depthLimits.push({ v: boattail + b.bearingSurfaceIn, why: "neck would start to grip the ogive instead of the shank" });
   else flags.push("bearing_surface_unknown");
   const maxDepthLimit = depthLimits.reduce((m, x) => (x.v < m.v ? x : m));
   const maxDepth = maxDepthLimit.v;
-  steps.push({ label: "Maximum seating depth", valueIn: r3(maxDepth), detail: `Limited where the ${maxDepthLimit.why}.` });
+  steps.push({ label: "Maximum seating depth", valueIn: r3(maxDepth), detail: `Limited to where the ${maxDepthLimit.why}.` });
 
   const capacityLoss = (depth: number) =>
     Math.max(depth - neck, 0) * (Math.PI / 4) * b.diameterIn ** 2 * GRAINS_WATER_PER_CUBIC_INCH;

@@ -110,4 +110,21 @@ describe("normalizeBullets", () => {
       expect(r.rejects[1]!.record).toMatchObject({ id: "no-weight" });
     });
   });
+
+  it("reads schema 1.2.0 and keeps an unlabeled BC out of G1 and G7", () => {
+    const wood: RawBullet = { ...base, bcG1: null, bcG7: null, ballisticCoefficients: [], bcUnlabeled: { value: 0.42, label: "BC" }, baseToOgiveIn: 0.9, noseLengthIn: 0.6 };
+    const { bullets, rejects } = normalizeBullets(withBullets([wood], "1.2.0"), "x");
+    expect(rejects).toEqual([]);
+    const b = bullets[0]!;
+    expect(b.bcUnlabeled).toEqual({ value: 0.42, label: "BC" });
+    expect(b.bcG1).toBeNull();
+    expect(b.bcG7).toBeNull();
+    expect(b.flags).toEqual(expect.arrayContaining(["no_bc", "bc_unlabeled_only"]));
+    expect([b.baseToOgiveIn, b.noseLengthIn]).toEqual([0.9, 0.6]);
+  });
+
+  it("fills the 1.2.0 fields with null on older files", () => {
+    const { bullets } = normalizeBullets(withBullets([base], "1.0.0"), "x");
+    expect([bullets[0]!.bcUnlabeled, bullets[0]!.baseToOgiveIn, bullets[0]!.noseLengthIn]).toEqual([null, null, null]);
+  });
 });

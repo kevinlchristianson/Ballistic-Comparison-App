@@ -59,7 +59,8 @@ export interface CartridgeLibrary {
 
 /**
  * Reduces a cartridge name to a comparison key: lowercase, with dots,
- * spaces, hyphens, slashes, apostrophes and underscores removed, and a few
+ * commas (European decimal marks), spaces, hyphens, slashes, apostrophes
+ * and underscores removed, and a few
  * common long words shortened. "6.5 Creedmoor", "6.5mm Creedmoor" and
  * "6.5 CM" do not all collapse to one key; the alias list covers those.
  */
@@ -73,7 +74,7 @@ export function aliasKey(name: string): string {
     .replace(/\bmagnum\b/g, "mag")
     .replace(/\bgovernment\b/g, "govt")
     .replace(/\bspringfield\b/g, "sprg")
-    .replace(/[.\s\-_'/]+/g, "");
+    .replace(/[.,\s\-_'/]+/g, "");
 }
 
 export interface AliasIndex {
@@ -101,8 +102,26 @@ export function buildAliasIndex(cartridges: Cartridge[]): AliasIndex {
   return { lookup, collisions };
 }
 
+/**
+ * Finds the library id for a published cartridge name. Tries the whole name
+ * first, then, for names like "6,5 x 55 SE / 6,5 x 55 SKAN" or
+ * "7,62 x 53R (7,62 Russian)", each part on its own. Parts that point at
+ * different cartridges resolve to nothing rather than a guess.
+ */
 export function resolveCartridge(name: string, index: AliasIndex): string | null {
-  return index.lookup.get(aliasKey(name)) ?? null;
+  const whole = index.lookup.get(aliasKey(name));
+  if (whole) return whole;
+  const parts = new Set<string>();
+  for (const piece of name.split(/\s+\/\s+/)) {
+    parts.add(piece.replace(/\([^)]*\)/g, "").trim());
+    for (const m of piece.matchAll(/\(([^)]*)\)/g)) parts.add(m[1]!.trim());
+  }
+  const found = new Set<string>();
+  for (const p of parts) {
+    const id = p ? index.lookup.get(aliasKey(p)) : undefined;
+    if (id) found.add(id);
+  }
+  return found.size === 1 ? [...found][0]! : null;
 }
 
 export interface CartridgeIssue {

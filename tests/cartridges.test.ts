@@ -33,8 +33,18 @@ describe("alias resolution", () => {
     ["7mm Rem Mag", "7mm-rem-mag"],
     ["22-250 Remington", "22-250-rem"],
     ["6.5x55 Swede", "6-5x55-swedish"],
+    // Vihtavuori's European spellings
+    ["6,5 Creedmoor", "6-5-creedmoor"],
+    ["6,5 - 284 Norma", "6-5-284-norma"],
+    ["6,5 x 55 SE / 6,5 x 55 SKAN", "6-5x55-swedish"],
+    ["9,3 x 62", "9-3x62"],
+    [".50 Browning", "50-bmg"],
   ])("%s -> %s", (name, id) => {
     expect(resolveCartridge(name, index)).toBe(id);
+  });
+
+  it("resolves nothing when the parts of a compound name disagree", () => {
+    expect(resolveCartridge(".308 Winchester / .30-06 Springfield", index)).toBeNull();
   });
 
   it("does not resolve unknown names", () => {

@@ -4,10 +4,11 @@ import type { BcBand, NormalizedBullet, Reject } from "./types.ts";
 
 /**
  * Bullet catalog versions this step reads. 1.1.0 adds optional shape fields
- * (bearing surface, ogive, boat tail, meplat, ogive type, discontinued) and
- * changes nothing else, so 1.0.0 files are still accepted.
+ * (bearing surface, ogive, boat tail, meplat, ogive type, discontinued).
+ * 1.2.0 adds base-to-ogive, nose length and an unlabeled BC. Neither
+ * changes an earlier field, so older files are still accepted.
  */
-export const SUPPORTED_BULLET_SCHEMA_VERSIONS = ["1.0.0", "1.1.0"] as const;
+export const SUPPORTED_BULLET_SCHEMA_VERSIONS = ["1.0.0", "1.1.0", "1.2.0"] as const;
 
 /** Fields added in bullet schema 1.1.0. Absent on 1.0.0 records. */
 export interface BulletShapeFields {
@@ -19,7 +20,16 @@ export interface BulletShapeFields {
   discontinued: boolean | null;
 }
 
-export type RawBullet = Bullet & Partial<BulletShapeFields>;
+/** Fields added in bullet schema 1.2.0. Absent on older records. */
+export interface BulletShape12Fields {
+  baseToOgiveIn: number | null;
+  noseLengthIn: number | null;
+  bcUnlabeled: { value: number; label: string } | null;
+}
+
+export type RawBullet = Omit<Bullet, keyof BulletShapeFields | keyof BulletShape12Fields> &
+  Partial<BulletShapeFields> &
+  Partial<BulletShape12Fields>;
 
 export interface RawBulletCatalog {
   schemaVersion: string;
@@ -42,7 +52,7 @@ function bands(list: BallisticCoefficient[], model: "G1" | "G7"): BcBand[] {
 }
 
 /**
- * Converts a bullet catalog in the bot's schema 1.0.0 or 1.1.0 into
+ * Converts a bullet catalog in the bot's schema 1.0.0, 1.1.0 or 1.2.0 into
  * normalized bullets.
  *
  * Rejects: wrong schema version (whole file), duplicate id, missing weight.
@@ -92,7 +102,11 @@ export function normalizeBullets(catalog: RawBulletCatalog, file: string): Bulle
     if (raw.bcG7 == null) flags.push("no_g7");
     if (raw.bcG1 == null) flags.push("no_g1");
     // Kept for the library browser and geometry, but the solver needs a BC.
-    if (raw.bcG1 == null && raw.bcG7 == null) flags.push("no_bc");
+    if (raw.bcG1 == null && raw.bcG7 == null) {
+      flags.push("no_bc");
+      // A BC printed without a drag model is shown, but never used as G1 or G7.
+      if (raw.bcUnlabeled) flags.push("bc_unlabeled_only");
+    }
     if (raw.bearingSurfaceIn == null) flags.push("no_bearing_surface");
 
     bullets.push({
@@ -106,6 +120,9 @@ export function normalizeBullets(catalog: RawBulletCatalog, file: string): Bulle
       meplatIn: raw.meplatIn ?? null,
       ogiveType: raw.ogiveType ?? null,
       discontinued: raw.discontinued ?? null,
+      baseToOgiveIn: raw.baseToOgiveIn ?? null,
+      noseLengthIn: raw.noseLengthIn ?? null,
+      bcUnlabeled: raw.bcUnlabeled ?? null,
       bcBands: { G1: bands(raw.ballisticCoefficients, "G1"), G7: bands(raw.ballisticCoefficients, "G7") },
       flags,
     });
