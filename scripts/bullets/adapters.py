@@ -1477,6 +1477,15 @@ def scrape_cutting_edge() -> dict:
     return catalog("Cutting Edge Bullets", bullets)
 
 
+def scrape_norma() -> dict:
+    raise TermsForbid(
+        "norma: The Norma impressum (https://www.norma-ammunition.com/about-norma/impressum) says "
+        "all texts, software, and images on the site are Norma's property and may not be used without "
+        "express written permission. Download-section data is limited to non-commercial personal use. "
+        "No rows were fetched."
+    )
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -1497,7 +1506,7 @@ ADAPTERS = {
     "speer": lambda: scrape_kinetic("speer"),
     "swift": scrape_swift,
     "federal": lambda: scrape_kinetic("federal"),
-    "norma": lambda: scrape_zima("norma"),
+    "norma": scrape_norma,
     "rws": lambda: scrape_zima("rws"),
     "cutting-edge": scrape_cutting_edge,
     "lehigh": lambda: scrape_zima("lehigh"),
