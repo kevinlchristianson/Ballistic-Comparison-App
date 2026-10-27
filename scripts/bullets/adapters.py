@@ -207,10 +207,14 @@ def printed_inch_diameter(text: str | None) -> float | None:
 
 
 def copy_printed_diameter(bullet: dict) -> None:
-    """Copy a decimal inch already printed in the caliber label or the name."""
+    """Copy a decimal inch already printed in the caliber label, name, or SKU.
+
+    "22 Caliber", "50 CAL", and "5.7 Cal" are caliber names, not diameters.
+    A SKU such as "MZL M.400" prints the inch diameter, so that decimal is copied.
+    """
     if bullet.get("diameterIn") is not None:
         return
-    for field, origin in (("caliber", "caliber label"), ("name", "name")):
+    for field, origin in (("caliber", "caliber label"), ("name", "name"), ("sku", "SKU")):
         text = bullet.get(field)
         value = printed_inch_diameter(text if isinstance(text, str) else None)
         if value is None:
