@@ -84,7 +84,12 @@ function noData(model: string, reason: string, support: DataSupport = { ...NO_SU
 /** Loads the fit may use: not start loads, not above SAAMI max, with a weight and velocity. */
 export function usableLoads(loads: NormalizedLoad[]): NormalizedLoad[] {
   return loads.filter(
-    (l) => l.chargeLevel !== "start" && !l.flags.includes("above_saami_max") && l.velocityFps > 0 && l.bulletWeightGr > 0,
+    (l) =>
+      l.chargeLevel !== "start" &&
+      !l.flags.includes("above_saami_max") &&
+      // The middle of a reported range mixes light and full loads, so it is shown but not fitted.
+      !l.flags.includes("velocity_range_midpoint") &&
+      l.velocityFps != null && l.velocityFps > 0 && l.bulletWeightGr > 0,
   );
 }
 
@@ -104,7 +109,7 @@ export function fitLoads(cartridgeId: string, loads: NormalizedLoad[], barrelLen
   // Fastest load per (weight, source, barrel), adjusted to the requested barrel.
   const best = new Map<string, Point>();
   for (const l of usable) {
-    let v = l.velocityFps;
+    let v = l.velocityFps!;
     if (l.barrelLengthIn == null) flags.add("barrel_length_unknown");
     else if (l.barrelLengthIn !== barrelLengthIn) {
       const adj = slopeFor(l.bulletWeightGr) * (barrelLengthIn - l.barrelLengthIn);

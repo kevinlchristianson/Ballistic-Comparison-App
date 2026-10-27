@@ -2,7 +2,7 @@ import libJson from "../data/cartridges/cartridges.json";
 import fixtureA from "./fixtures/loads/fixture-source-a.json";
 import fixtureB from "./fixtures/loads/fixture-source-b.json";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
-import { normalizeLoads, type RawLoad, type RawLoadFile } from "../src/lib/normalize/loads.ts";
+import { normalizeLoads, velocityFromNotes, type RawLoad, type RawLoadFile } from "../src/lib/normalize/loads.ts";
 
 const cartridges = (libJson as unknown as CartridgeLibrary).cartridges;
 const A = fixtureA as unknown as RawLoadFile;
@@ -23,13 +23,14 @@ describe("normalizeLoads on fixture A", () => {
   const r = normalizeLoads(A, "a.json", cartridges);
 
   it("keeps good rows and rejects each planted error with its reason", () => {
-    expect(r.loads).toHaveLength(23);
+    // A row with no velocity is kept for display (flag no_velocity), not rejected.
+    expect(r.loads).toHaveLength(24);
+    expect(r.loads.filter((l) => l.flags.includes("no_velocity")).map((l) => l.velocityFps)).toEqual([null]);
     expect(r.rejects.map((x) => x.reasons)).toEqual([
       ["duplicate"],
       ["unknown_cartridge"],
       ["missing_cartridge"],
       ["missing_weight"],
-      ["missing_velocity"],
       ["bad_velocity_unit"],
       ["implausible_velocity"],
       ["diameter_mismatch"],
@@ -129,5 +130,24 @@ describe("normalizeLoads rejection cases", () => {
   it("stores charges for traceability, converting grams to grains", () => {
     const l = one({ charge: 2.8, chargeUnit: "g" }).loads[0]!;
     expect(l.chargeGr).toBeCloseTo(43.21, 2);
+  });
+});
+
+describe("velocities written as text in notes", () => {
+  it("reads single, approximate and range values", () => {
+    expect(velocityFromNotes("Reported on X.; Velocity_fps: ~2950; Notes: y")).toEqual({ fps: 2950, text: "~2950", range: false });
+    expect(velocityFromNotes("Velocity_fps: 2770–2803")).toEqual({ fps: 2787, text: "2770–2803", range: true });
+    expect(velocityFromNotes("Charge_gr: 45–56 range; Velocity_fps: ~2100–2360")!.fps).toBe(2230);
+    expect(velocityFromNotes("Velocity_fps: fast")).toBeNull();
+    expect(velocityFromNotes(null)).toBeNull();
+  });
+
+  it("uses the midpoint of a range and flags it, and keeps rows with no velocity", () => {
+    const ranged = one({ velocity: null, velocityUnit: null, notes: "Velocity_fps: 2770–2803" });
+    expect(ranged.loads[0]).toMatchObject({ velocityFps: 2787 });
+    expect(ranged.loads[0]!.flags).toContain("velocity_range_midpoint");
+    const none = one({ velocity: null, velocityUnit: null });
+    expect(none.loads[0]!.velocityFps).toBeNull();
+    expect(none.loads[0]!.flags).toContain("no_velocity");
   });
 });

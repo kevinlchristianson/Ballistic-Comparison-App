@@ -138,14 +138,15 @@ if (rowIndex) {
       sourceName: l.source.name,
       sourceUrl: l.source.url,
       sourcePage: isCommunity(l) ? l.source.page : null,
-      flags: l.flags.filter((f) => f === "above_saami_max" || f === "near_saami_max" || f === "user_submitted" || f === COMMUNITY_FLAG),
+      note: isCommunity(l) ? communityNote(l) : null,
+      flags: l.flags.filter((f) => f === "above_saami_max" || f === "near_saami_max" || f === "user_submitted" || f === COMMUNITY_FLAG || f === "velocity_range_midpoint" || f === "velocity_approximate" || f === "no_velocity"),
     };
     if (rowsMode === "full") Object.assign(row, { powder: l.powder, chargeGr: l.chargeGr, compressed: l.compressed, primer: l.primer, case: l.case });
     if (!rowsByCartridge.has(l.cartridgeId)) rowsByCartridge.set(l.cartridgeId, []);
     rowsByCartridge.get(l.cartridgeId)!.push(row);
   }
   for (const [id, rows] of rowsByCartridge) {
-    rows.sort((a, b) => a.bulletWeightGr - b.bulletWeightGr || (a.bullet ?? "").localeCompare(b.bullet ?? "") || a.velocityFps - b.velocityFps);
+    rows.sort((a, b) => a.bulletWeightGr - b.bulletWeightGr || (a.bullet ?? "").localeCompare(b.bullet ?? "") || (a.velocityFps ?? 0) - (b.velocityFps ?? 0));
     rowIndex[id] = rows.length;
   }
 }
@@ -211,6 +212,28 @@ console.log(
     (submissionFiles.length ? `, ${submitted.ids.loads.length} loads, ${submitted.ids.bullets.length} bullets and ${submitted.ids.cartridges.length} cartridges from ${submissionFiles.length} user submissions` : "") +
     ` -> ${OUT}/`,
 );
+
+/**
+ * The parts of a community row's notes worth showing: what the reporter said,
+ * and any value the schema couldn't hold (a charge or velocity range). Drops
+ * the bot's provenance boilerplate, which the source link already covers.
+ */
+function communityNote(l: NormalizedLoad): string | null {
+  const parts = (l.notes ?? "")
+    .split(/;\s*/)
+    .map((x) => x.trim().replace(/\.$/, ""))
+    .filter((x) => x && !/^(Community-reported|Compiler-stated|Reported on|.*\bare Berger lines$)/i.test(x))
+    .map((x) =>
+      x
+        .replace(/^Velocity_fps:\s*/i, "Velocity reported as ")
+        .replace(/^Charge_gr:\s*/i, "Charge reported as ")
+        .replace(/^COAL_or_Jump:\s*/i, "Seating: ")
+        .replace(/^Notes:\s*/i, ""),
+    );
+  if (l.flags.includes("velocity_range_midpoint")) parts.unshift("Velocity shown is the middle of the reported range");
+  const text = [...new Set(parts)].join("; ");
+  return text ? text.slice(0, 300) : null;
+}
 
 /** Every object key anywhere in `value` that matches `pattern`. */
 export function findKeys(value: unknown, pattern: RegExp, out: string[] = []): string[] {

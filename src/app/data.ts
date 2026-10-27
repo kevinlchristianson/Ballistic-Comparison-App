@@ -93,7 +93,8 @@ export interface SiteLoadRow {
   bullet: string | null;
   bulletWeightGr: number;
   level: "start" | "max" | "other" | null;
-  velocityFps: number;
+  /** Null when the source gave no velocity. */
+  velocityFps: number | null;
   barrelLengthIn: number | null;
   barrelFromSource: boolean;
   pressure: { value: number; unit: "psi" | "cup"; method: string } | null;
@@ -107,6 +108,8 @@ export interface SiteLoadRow {
   sourceUrl: string;
   /** Where in the source, e.g. a page, table or forum name. */
   sourcePage?: string | null;
+  /** What a community report said beyond the fields, e.g. a velocity range. */
+  note?: string | null;
   flags: string[];
 }
 

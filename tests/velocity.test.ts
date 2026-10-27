@@ -166,7 +166,7 @@ describe("precomputed fit table (what the site ships)", () => {
   it("lets the user's own loads answer first", () => {
     const mine = fixtureLoads
       .filter((l) => l.cartridgeId === "308-win" && l.chargeLevel === "max" && l.barrelLengthIn === 22)
-      .map((l) => ({ ...l, velocityFps: l.velocityFps + 100 }));
+      .map((l) => ({ ...l, velocityFps: l.velocityFps! + 100 }));
     const site = createSiteEstimator(cartridges, table, mine);
     const e = site.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 22 });
     expect(e.model).toBe(USER_LOADS_MODEL);

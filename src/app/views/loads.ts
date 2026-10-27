@@ -195,6 +195,7 @@ export function loadsView(data: AppData): HTMLElement {
     const full = data.meta.loadRowsFull;
     const sources = [...new Set(rows.map((r) => r.sourceName))].sort();
     const shown = rows.filter((r) => weightOk(r.bulletWeightGr) && (!st.level || r.level === st.level) && (!st.source || r.sourceName === st.source));
+    const withNotes = shown.some((r) => r.note);
     clear(publishedEl);
     publishedEl.append(
       h(
@@ -214,7 +215,7 @@ export function loadsView(data: AppData): HTMLElement {
               "Makers revise their data, and a copy can be out of date or mistyped. Before loading, confirm every charge against the source's current data (linked on each row), start at the published start load, and work up with care. Rows marked above SAAMI max are shown as published and are never used in estimates.",
             )
           : h("p", { class: "hint" }, "Powder and charge are not shown. For the full recipe, open the source and use its current data."),
-        h("p", { class: "hint" }, "Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed."),
+        h("p", { class: "hint" }, "Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates."),
         h(
           "div",
           { class: "scroll-x" },
@@ -224,7 +225,7 @@ export function loadsView(data: AppData): HTMLElement {
             h(
               "thead",
               {},
-              h("tr", {}, ["Bullet", "Weight", ...(full ? ["Powder", "Charge"] : []), "Level", "Velocity", "Barrel", "Pressure", "COAL", ...(full ? ["Primer / case"] : []), "Source"].map((x) => h("th", {}, x))),
+              h("tr", {}, ["Bullet", "Weight", ...(full ? ["Powder", "Charge"] : []), "Level", "Velocity", "Barrel", "Pressure", "COAL", ...(full ? ["Primer / case"] : []), "Source", ...(withNotes ? ["Note"] : [])].map((x) => h("th", {}, x))),
             ),
             h(
               "tbody",
@@ -237,7 +238,7 @@ export function loadsView(data: AppData): HTMLElement {
                   h("td", {}, `${r.bulletWeightGr} gr`),
                   full ? [h("td", {}, r.powder ?? "—"), h("td", {}, r.chargeGr != null ? `${r.chargeGr} gr${r.compressed ? " C" : ""}` : "—")] : null,
                   h("td", {}, r.level ?? "—"),
-                  h("td", {}, fmt.fps(r.velocityFps)),
+                  h("td", {}, r.velocityFps == null ? "—" : `${r.flags.includes("velocity_range_midpoint") || r.flags.includes("velocity_approximate") ? "~" : ""}${fmt.fps(r.velocityFps)}`),
                   h("td", {}, r.barrelLengthIn != null ? `${r.barrelLengthIn}″${r.barrelFromSource ? "*" : ""}` : "—"),
                   h("td", { class: r.flags.some((f) => f.endsWith("saami_max")) ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
                   h("td", {}, fmt.in(r.coalIn)),
@@ -249,6 +250,7 @@ export function loadsView(data: AppData): HTMLElement {
                     r.sourcePage ? ` (${r.sourcePage})` : "",
                     r.flags.includes("community_report") ? h("span", { class: "tag", title: "Reported on a forum or by a user, not published by a maker. No pressure data." }, "community report") : null,
                   ),
+                  withNotes ? h("td", { class: "wrap muted" }, r.note ?? "") : null,
                 ),
               ),
             ),
