@@ -1486,6 +1486,15 @@ def scrape_rws() -> dict:
     )
 
 
+def scrape_peregrine() -> dict:
+    raise TermsForbid(
+        "peregrine: The Peregrine terms (https://peregrinebullets.com/terms-and-conditions/) "
+        "say site content remains Peregrine's property. Personal storage, printing, and display "
+        "are allowed. Publishing, distributing, or otherwise reproducing the content, and using "
+        "it for a business, require written approval. No rows were fetched."
+    )
+
+
 def scrape_norma() -> dict:
     raise TermsForbid(
         "norma: The Norma impressum (https://www.norma-ammunition.com/about-norma/impressum) says "
@@ -1519,6 +1528,6 @@ ADAPTERS = {
     "rws": scrape_rws,
     "cutting-edge": scrape_cutting_edge,
     "lehigh": lambda: scrape_zima("lehigh"),
-    "peregrine": lambda: scrape_zima("peregrine"),
+    "peregrine": scrape_peregrine,
     "warner": lambda: scrape_zima("warner"),
 }

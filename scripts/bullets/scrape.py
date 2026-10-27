@@ -61,7 +61,7 @@ SOURCES: tuple[Source, ...] = (
     Source("badlands", "Badlands Precision", "https://badlandsprecisionbullets.com/", "boutique", "Bulldozer and related mono-metal lines."),
     Source("warner", "Warner Tool Company", "https://warner-tool.com/", "boutique", "Flatline bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("lehigh", "Lehigh Defense", "https://lehighdefense.com/", "boutique", "Controlled-fracturing and solid copper bullets. Not committed yet. Zima's terms forbid copying that library."),
-    Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/", "boutique", "VLR and bushmaster monometal bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/terms-and-conditions/", "boutique", "VLR and bushmaster monometal bullets. The terms forbid reproducing site content without written approval. No rows are committed."),
     Source("gs-custom", "GS Custom", "https://www.gsgroup.co.za/", "boutique", "GS Custom turned solids."),
     Source("matrix", "Matrix Ballistics", "https://matrixballistics.com/", "boutique", "Match and hunting bullets."),
     Source(
