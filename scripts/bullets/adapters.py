@@ -1477,6 +1477,15 @@ def scrape_cutting_edge() -> dict:
     return catalog("Cutting Edge Bullets", bullets)
 
 
+def scrape_rws() -> dict:
+    raise TermsForbid(
+        "rws: The RWS impressum (https://rws-ammunition.com/de/impressum) says all texts, "
+        "software, and images on the site are the property of RWS GmbH and may not be used "
+        "without express written permission. Download-section data is limited to non-commercial "
+        "personal use. No rows were fetched."
+    )
+
+
 def scrape_norma() -> dict:
     raise TermsForbid(
         "norma: The Norma impressum (https://www.norma-ammunition.com/about-norma/impressum) says "
@@ -1507,7 +1516,7 @@ ADAPTERS = {
     "swift": scrape_swift,
     "federal": lambda: scrape_kinetic("federal"),
     "norma": scrape_norma,
-    "rws": lambda: scrape_zima("rws"),
+    "rws": scrape_rws,
     "cutting-edge": scrape_cutting_edge,
     "lehigh": lambda: scrape_zima("lehigh"),
     "peregrine": lambda: scrape_zima("peregrine"),
