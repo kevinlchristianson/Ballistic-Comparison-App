@@ -1242,6 +1242,14 @@ def scrape_zima(slug: str) -> dict:
     )
 
 
+def scrape_kinetic(slug: str) -> dict:
+    raise TermsForbid(
+        f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
+        "linked from the manufacturer site, forbid copying site content and product information "
+        "and forbid robots or data gathering. No rows were fetched."
+    )
+
+
 ADAPTERS = {
     "hornady": scrape_hornady,
     "sierra": scrape_sierra,
@@ -1251,9 +1259,9 @@ ADAPTERS = {
     "lapua": scrape_lapua,
     "woodleigh": scrape_woodleigh,
     "hammer": scrape_hammer,
-    "speer": lambda: scrape_zima("speer"),
+    "speer": lambda: scrape_kinetic("speer"),
     "swift": lambda: scrape_zima("swift"),
-    "federal": lambda: scrape_zima("federal"),
+    "federal": lambda: scrape_kinetic("federal"),
     "norma": lambda: scrape_zima("norma"),
     "rws": lambda: scrape_zima("rws"),
     "cutting-edge": lambda: scrape_zima("cutting-edge"),
