@@ -157,7 +157,7 @@ Do not add, remove, rename, or retype a field in place. Bump `schemaVersion` in 
 
 ## Questions
 
-Answered in `BOTS.md` from PR #3, PR #14, and PR #29, and copied into the comment file:
+Answered in `BOTS.md` from PR #3, PR #14, PR #29, and PR #41, and copied into the comment file:
 
 | File | Decision |
 | --- | --- |
@@ -175,4 +175,7 @@ Answered in `BOTS.md` from PR #3, PR #14, and PR #29, and copied into the commen
 | [2026-10-27-source-terms-survey.md](comments/2026-10-27-source-terms-survey.md) | Hodgdon goes ahead. Shooters World waits for its own column units. |
 | [2026-10-27-barrel-length-millimeters.md](comments/2026-10-27-barrel-length-millimeters.md) | Keep 1.0.0. Store the printed inch length. |
 | [2026-10-27-community-anecdotal-loads.md](comments/2026-10-27-community-anecdotal-loads.md) | Source name starts with `Community`. Keep the notes labels. One file per compilation. |
+| [2026-10-27-community-cartridge-strings-6mm-108.md](comments/2026-10-27-community-cartridge-strings-6mm-108.md) | Keep the posted strings. The app matches the shorthand. |
+| [2026-10-27-community-forum-terms.md](comments/2026-10-27-community-forum-terms.md) | Shooters' Forum, Rokslide, Long Range Only, and 24hourcampfire may be collected. |
+| [2026-10-27-berger-elite-hunter-bullet-list.md](comments/2026-10-27-berger-elite-hunter-bullet-list.md) | Include the 30 caliber 217 gr Elite Hunter, part 30551. |
 | [2026-10-27-cartridges-missing-from-library.md](comments/2026-10-27-cartridges-missing-from-library.md) | Open. 24, 26, 27, and 33 Nosler need library ids. |

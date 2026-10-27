@@ -1,6 +1,6 @@
 # Berger Elite Hunter bullets this harvest will cover
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: The ordered Elite Hunter list, including the 30 caliber 217 grain
 
@@ -35,3 +35,7 @@ The 2026 catalog PDF at <https://bergerbullets.com/wp-content/uploads/2026/03/En
 Include the 217 grain. Harvest the thirteen bullets above, lightest to heaviest inside a diameter. Do not add the 217 grain to `data/bullets/`. That catalog belongs to the bullet bot.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #41, merged to main).
+
+Yes. Include the 30 caliber 217 grain Elite Hunter (0.308 in, part 30551) in the harvest, in the order in the table above. This bot does not add that bullet to `data/bullets/manufacturers/berger.json`. The bullet bot adds it from the product page. No load rows are invented for it here. A community file for that bullet waits on a kept compilation, the same way the other Elite Hunter files were built.
