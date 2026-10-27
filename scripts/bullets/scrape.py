@@ -63,6 +63,7 @@ SOURCES: tuple[Source, ...] = (
     Source("lehigh", "Lehigh Defense", "https://wilsoncombat.com/lehigh-defense/", "boutique", "Component bullets. lehighdefense.com redirects to this Wilson Combat storefront. Rifle Firearm Type only. The terms page does not forbid copying specifications."),
     Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/terms-and-conditions/", "boutique", "VLR and bushmaster monometal bullets. The terms forbid reproducing site content without written approval. No rows are committed."),
     Source("north-fork", "North Fork", "https://www.northforkbullets.com/terms-condition-1.html", "boutique", "SS, CPS, and related copper bullets. The terms forbid reproducing or redistributing site intellectual property. No rows are committed."),
+    Source("pva", "Patriot Valley Arms", "https://patriotvalleyarms.com/custom-rifle-bullets/", "boutique", "Cayuga and Seneca turned-copper rifle bullets. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."),
     Source("gs-custom", "GS Custom", "https://www.gsgroup.co.za/", "boutique", "GS Custom turned solids."),
     Source("matrix", "Matrix Ballistics", "https://matrixballistics.com/", "boutique", "Match and hunting bullets."),
     Source("ppu", "Prvi Partizan", "https://www.prvipartizan.com/rifle_bullets.php", "manufacturer", "Rifle and rifle-match component bullets. The search prints diameter in inches and weight in grams and grains. No separate terms page was found."),

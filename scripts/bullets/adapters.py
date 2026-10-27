@@ -52,7 +52,7 @@ CONSTRUCTION_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
 
 USE_RULES: tuple[tuple[str, tuple[str, ...]], ...] = (
     (r"varmint", ("varmint",)),
-    (r"match", ("match",)),
+    (r"match|competition", ("match",)),
     (r"target", ("target",)),
     (r"tactical", ("tactical",)),
     (r"hunt|game", ("hunting",)),
@@ -1787,6 +1787,159 @@ def scrape_peregrine() -> dict:
     )
 
 
+PVA_SITEMAP = "https://patriotvalleyarms.com/xmlsitemap.php?type=products&page=1"
+_PVA_CALIBER = re.compile(r"^(?:FLM\s+)?(\.?\d+(?:\.\d+)?(?:mm|c|cal)?)\b", re.I)
+_PVA_GRAIN = re.compile(r"(\d+(?:\.\d+)?)\s*gr\b", re.I)
+_PVA_LENGTH = re.compile(r"(?:Bullet\s+)?Length:\s*(\d+(?:\.\d+)?)\s*[\"″]", re.I)
+_PVA_G1 = re.compile(r"G1 BC average\s*=\s*(\d+(?:\.\d+)?)|BC:\s*(\d+(?:\.\d+)?)\s*G1\b", re.I)
+_PVA_G7 = re.compile(r"G7 BC average\s*=\s*(\d+(?:\.\d+)?)|BC:\s*(\d+(?:\.\d+)?)\s*G7\b", re.I)
+_PVA_UPDATED = re.compile(
+    r"The\s+(\d+(?:\.\d+)?)gr\b[^.]*updated version of the\s+(\d+(?:\.\d+)?)gr\b",
+    re.I,
+)
+
+
+def _pva_coefficient(match: re.Match | None) -> float | None:
+    """A printed coefficient such as 0.54. A token with no decimal, such as 0840, is not stored."""
+    if not match:
+        return None
+    token = match.group(1) or match.group(2)
+    if not token or "." not in token:
+        return None
+    value = parse_number(token)
+    if value is None or not (0 < value <= 2):
+        return None
+    return value
+
+
+def _pva_description(page: str) -> str:
+    start = page.find('id="tab-description"')
+    end = page.find('id="tab-videos"', start if start >= 0 else 0)
+    if start < 0 or end < 0:
+        return ""
+    return strip_html(page[start:end])
+
+
+def _pva_title(page: str) -> str:
+    match = re.search(r'<h1 class="productView-title">(.*?)</h1>', page, flags=re.S | re.I)
+    title = strip_html(match.group(1) if match else "")
+    title = re.sub(r"\s+-\s+\d+\s*ct\s*$", "", title, flags=re.I).strip()
+    return title
+
+
+def _pva_page(url: str) -> dict | None:
+    page = fetch_text(url)
+    name = _pva_title(page)
+    description = _pva_description(page)
+    if not name or not description:
+        print(f"  skip {url}: no title or description")
+        return None
+    updated = _PVA_UPDATED.search(description)
+    bullet_weight = re.search(r"Bullet weight:\s*(\d+(?:\.\d+)?)\s*gr\b", description, flags=re.I)
+    if updated:
+        weight = parse_number(updated.group(1))
+    elif bullet_weight:
+        weight = parse_number(bullet_weight.group(1))
+    else:
+        grains = _PVA_GRAIN.findall(name)
+        weight = parse_number(grains[0]) if len(grains) == 1 else None
+    if weight is None:
+        print(f"  skip {url}: weight was not a single printed grain weight")
+        return None
+    bullet = blank_bullet(
+        "Patriot Valley Arms",
+        name,
+        url,
+        "Patriot Valley Arms",
+        "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. "
+        "Optimal freebore is quoted in notes and is not stored as a length. "
+        "Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications.",
+    )
+    caliber = _PVA_CALIBER.match(name)
+    bullet["caliber"] = caliber.group(1) if caliber else None
+    bullet["weightGr"] = as_number(weight)
+    if re.search(r"\bcayuga\b", name, flags=re.I):
+        bullet["productLine"] = "Cayuga"
+    elif re.search(r"\bseneca\b", name, flags=re.I):
+        bullet["productLine"] = "Seneca"
+    length = _PVA_LENGTH.search(description)
+    if length and not re.search(r"load length", length.group(0), flags=re.I):
+        bullet["lengthIn"] = as_number(parse_number(length.group(1)))
+    g1 = _PVA_G1.search(description)
+    g7 = _PVA_G7.search(description)
+    g1_value = _pva_coefficient(g1)
+    g7_value = _pva_coefficient(g7)
+    if g1_value is not None:
+        add_bc(bullet, "G1", g1_value, "manufacturer", url, label="average" if "average" in g1.group(0).lower() else None)
+    if g7_value is not None:
+        add_bc(bullet, "G7", g7_value, "manufacturer", url, label="average" if "average" in g7.group(0).lower() else None)
+    twist = re.search(
+        r"(Minimum Twist Rate:[^.]+|requires a 1:\d+(?:\.\d+)?tw barrel)",
+        description,
+        flags=re.I,
+    )
+    if twist:
+        set_twist(bullet, twist.group(1).strip())
+    if re.search(r"turned copper|copper projectile", description, flags=re.I):
+        bullet["material"] = "copper"
+    # The description ends in a tag list (Varmint, Hunting, Lehigh Defense). Use the product name only.
+    add_uses(bullet, name)
+    notes: list[str] = []
+    if updated:
+        notes.append(
+            f"The page says the {updated.group(1)}gr bullet is an updated version of the "
+            f"{updated.group(2)}gr bullet. The printed length and BCs are the updated figures."
+        )
+    freebore = re.search(r"Optimal Freebore:\s*(\d[^A-Za-z]+)", description)
+    if freebore:
+        notes.append(f"Optimal freebore printed as {freebore.group(1).strip().rstrip('.')}.")
+    measured = re.search(r"\*The average BC was measured.*?nominal manner\.", description)
+    if measured:
+        notes.append(re.sub(r"\s+", " ", measured.group(0)).strip())
+    for match, stored in ((g1, g1_value), (g7, g7_value)):
+        if match and stored is None:
+            printed = re.sub(r"\s+", " ", match.group(0)).strip()
+            if description[match.end():match.end() + 1] == "*":
+                printed += "*"
+            notes.append(f'BC line printed as "{printed}" and was not stored because it has no decimal point.')
+    if not measured and (g1_value is not None or g7_value is not None):
+        lines = []
+        if g1 and g1_value is not None:
+            lines.append(re.sub(r"\s+", " ", g1.group(0)).strip())
+        if g7 and g7_value is not None:
+            lines.append(re.sub(r"\s+", " ", g7.group(0)).strip())
+        if lines:
+            notes.append("Printed BC: " + "; ".join(lines) + ".")
+    bullet["notes"] = " ".join(notes) or None
+    return bullet
+
+
+def scrape_pva() -> dict:
+    print("pva: Cayuga and Seneca rifle bullets")
+    sitemap = fetch_text(PVA_SITEMAP)
+    urls = []
+    for loc in re.findall(r"<loc>(.*?)</loc>", sitemap):
+        lowered = loc.lower()
+        if "bullet" not in lowered:
+            continue
+        if any(word in lowered for word in ("pistol", "bonecrusher", "shockstopper")):
+            continue
+        urls.append(loc)
+    print(f"  {len(urls)} rifle bullet pages")
+    bullets = []
+    for index, url in enumerate(urls):
+        if index:
+            time.sleep(0.5)
+        try:
+            bullet = _pva_page(url)
+        except Exception as exc:  # noqa: BLE001 - keep the pages that loaded
+            print(f"  skip {url}: {exc}")
+            continue
+        if bullet:
+            bullets.append(bullet)
+    return catalog("Patriot Valley Arms", bullets)
+
+
 def scrape_north_fork() -> dict:
     raise TermsForbid(
         "north-fork: The North Fork terms (https://www.northforkbullets.com/terms-condition-1.html) "
@@ -1933,6 +2086,7 @@ ADAPTERS = {
     "lehigh": scrape_lehigh,
     "peregrine": scrape_peregrine,
     "north-fork": scrape_north_fork,
+    "pva": scrape_pva,
     "warner": scrape_warner,
     "ppu": scrape_ppu,
 }
