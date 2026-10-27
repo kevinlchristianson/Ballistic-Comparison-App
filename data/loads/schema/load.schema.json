@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kevinlchristianson/ballistic-comparison-app/blob/main/data/loads/schema/load.schema.json",
+  "title": "LoadCatalog",
+  "description": "Published handloading records, schemaVersion 1.0.0. One file per source. Do not add, remove, rename, or retype a field without bumping schemaVersion and calling the change out. Values are copied as published. Unknown values are null. Do not convert units or invent charges.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "generatedOn", "loadCount", "source", "loads"],
+  "properties": {
+    "schemaVersion": {
+      "description": "Catalog contract version. Application code should reject other versions.",
+      "const": "1.0.0"
+    },
+    "generatedOn": {
+      "description": "ISO date (YYYY-MM-DD) the file was generated. Null if unknown.",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "loadCount": {
+      "description": "Must equal loads.length.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "source": {
+      "description": "The publication this file was read from. Not the upstream manual unless that manual is what was read.",
+      "$ref": "#/$defs/source"
+    },
+    "loads": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/load" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "retrievedOn", "testBarrelIn"],
+      "properties": {
+        "name": {
+          "description": "Publisher name as cited, for example LoadDevelopment.com.",
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "description": "Entry URL for this source.",
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "retrievedOn": {
+          "description": "ISO date this source was read.",
+          "type": "string",
+          "format": "date"
+        },
+        "testBarrelIn": {
+          "description": "One test-barrel length in inches when the source states a single barrel in inches. Null when it does not. Do not convert from another unit.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 200
+        }
+      }
+    },
+    "load": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cartridge",
+        "bulletDiameterIn",
+        "bulletWeightGr",
+        "bulletDescription",
+        "bulletManufacturer",
+        "bulletSku",
+        "powder",
+        "charge",
+        "chargeUnit",
+        "chargeLevel",
+        "compressed",
+        "primer",
+        "case",
+        "coal",
+        "coalUnit",
+        "barrelLength",
+        "barrelLengthUnit",
+        "barrelLengthOrigin",
+        "velocity",
+        "velocityUnit",
+        "pressure",
+        "pressureUnit",
+        "pressureMethod",
+        "sourceUrl",
+        "sourcePage",
+        "notes"
+      ],
+      "properties": {
+        "cartridge": {
+          "description": "Cartridge name exactly as published. The app keeps its own alias map.",
+          "type": "string",
+          "minLength": 1
+        },
+        "bulletDiameterIn": {
+          "description": "Bullet diameter in inches as published. Null when the source does not print a diameter. Do not derive it from the cartridge name.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "bulletWeightGr": {
+          "description": "Bullet weight in grains as published. Required. A row with no published weight is omitted rather than stored as 0.",
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 2000
+        },
+        "bulletDescription": {
+          "description": "Bullet brand, line, and type as published. Null when the source does not describe the bullet.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "bulletManufacturer": {
+          "description": "Bullet maker as published, including abbreviations. Null when unpublished. Not rewritten to a bullet-library name.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "bulletSku": {
+          "description": "Bullet part number as published. Null when unpublished. Together with bulletManufacturer this is the link to the bullet library id {manufacturer}-{sku}.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "powder": {
+          "description": "Powder name as published. Null when unpublished.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "charge": {
+          "description": "One charge weight in the source unit. A published min and max are two records, not a range. Null when unpublished.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 2000
+        },
+        "chargeUnit": {
+          "description": "Unit the source used for charge. Null when charge is null.",
+          "type": ["string", "null"],
+          "enum": ["gr", "g", null]
+        },
+        "chargeLevel": {
+          "description": "How the source labeled this charge. Null when unlabeled.",
+          "type": ["string", "null"],
+          "enum": ["start", "max", "other", null]
+        },
+        "compressed": {
+          "description": "True or false when the source marks the charge compressed or not. Null when the source does not say.",
+          "type": ["boolean", "null"]
+        },
+        "primer": {
+          "description": "Primer as published. Null when unpublished.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "case": {
+          "description": "Case brand or description as published. Null when unpublished.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "coal": {
+          "description": "Cartridge overall length in the source unit. Null when unpublished. A separate maximum OAL, when printed, stays in notes.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 500
+        },
+        "coalUnit": {
+          "description": "Unit the source used for coal. Null when coal is null.",
+          "type": ["string", "null"],
+          "enum": ["in", "mm", null]
+        },
+        "barrelLength": {
+          "description": "Barrel length in the source unit. Null when unknown.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 200
+        },
+        "barrelLengthUnit": {
+          "description": "Unit the source used for barrelLength. Null when barrelLength is null.",
+          "type": ["string", "null"],
+          "enum": ["in", "mm", null]
+        },
+        "barrelLengthOrigin": {
+          "description": "row when this length was printed on the load. source_default when it was taken from the source's stated test barrel. Null when no length is recorded.",
+          "type": ["string", "null"],
+          "enum": ["row", "source_default", null]
+        },
+        "velocity": {
+          "description": "Velocity in the source unit for this charge. Null when unpublished.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 20000
+        },
+        "velocityUnit": {
+          "description": "Unit the source used for velocity. Null when velocity is null.",
+          "type": ["string", "null"],
+          "enum": ["fps", "mps", null]
+        },
+        "pressure": {
+          "description": "Pressure in the source unit. Null when unpublished. Never a mix of PSI and CUP.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 500000
+        },
+        "pressureUnit": {
+          "description": "Unit the source used for pressure. Null when pressure is null. Do not convert between these.",
+          "type": ["string", "null"],
+          "enum": ["psi", "cup", "bar", "mpa", null]
+        },
+        "pressureMethod": {
+          "description": "How the source said pressure was measured. Null when no pressure is published. unknown only when a pressure number is published and the method is not identified.",
+          "type": ["string", "null"],
+          "enum": ["piezo", "crusher", "quickload", "estimated", "unknown", null]
+        },
+        "sourceUrl": {
+          "description": "Page or PDF URL this load was read from.",
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "sourcePage": {
+          "description": "Page or table reference inside a manual, as published. Null when the source has none.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "notes": {
+          "description": "Source text that has no field of its own, plus a short parsing note when a value was split or labeled. Null when there is nothing to add.",
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

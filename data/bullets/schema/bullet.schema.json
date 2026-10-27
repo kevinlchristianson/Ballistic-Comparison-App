@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/kevinlchristianson/ballistic-comparison-app/blob/main/data/bullets/schema/bullet.schema.json",
   "title": "BulletCatalog",
-  "description": "Rifle bullet ballistic catalog, schemaVersion 1.0.0. Do not add, remove, or rename fields without bumping schemaVersion and calling the change out. Unknown values are null or empty arrays. Do not invent measurements.",
+  "description": "Rifle bullet ballistic catalog, schemaVersion 1.1.0. Do not add, remove, or rename fields without bumping schemaVersion and calling the change out. Unknown values are null or empty arrays. Do not invent measurements. 1.1.0 adds bearingSurfaceIn, ogiveLengthIn, boattailLengthIn, meplatIn, ogiveType, and discontinued. They are null when the source does not publish them.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "manufacturer", "generatedOn", "bulletCount", "bullets"],
   "properties": {
     "schemaVersion": {
       "description": "Catalog contract version. Application code should reject other versions.",
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "manufacturer": {
       "description": "Set on a single-manufacturer file. Null on the combined catalog and on the examples file.",
@@ -51,6 +51,12 @@
         "bcSource",
         "sectionalDensity",
         "lengthIn",
+        "bearingSurfaceIn",
+        "ogiveLengthIn",
+        "boattailLengthIn",
+        "meplatIn",
+        "ogiveType",
+        "discontinued",
         "construction",
         "material",
         "intendedUse",
@@ -143,6 +149,39 @@
           "type": ["number", "null"],
           "exclusiveMinimum": 0,
           "maximum": 3
+        },
+        "bearingSurfaceIn": {
+          "description": "Bearing surface length in inches, as published. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "ogiveLengthIn": {
+          "description": "Ogive length in inches, as published. Null when not published. Do not copy a nose length or a base-to-ogive length into this field.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "boattailLengthIn": {
+          "description": "Boat tail length in inches, as published. Null when not published or when the source marks a flat base instead of a length.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "meplatIn": {
+          "description": "Meplat diameter in inches, as published. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "ogiveType": {
+          "description": "Ogive style as published. Null when not published.",
+          "type": ["string", "null"],
+          "enum": ["tangent", "secant", "hybrid", null]
+        },
+        "discontinued": {
+          "description": "True when the source marks the bullet discontinued. Null when the source does not say. A current listing is not recorded as false.",
+          "type": ["boolean", "null"]
         },
         "construction": {
           "description": "Open snake_case vocabulary parsed from the published description. Recommended tokens: flat_base, boattail, rebated_boattail, polymer_tip, hollow_point, open_tip_match, soft_point, spitzer, round_nose, vld, hybrid, monolithic, bonded, partition, solid, fmj, cup_and_core, lathe_turned, frangible, expanding. Empty when the source does not say.",

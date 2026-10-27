@@ -1,0 +1,3069 @@
+{
+  "schemaVersion": "1.1.0",
+  "manufacturer": "Lapua",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 53,
+  "bullets": [
+    {
+      "id": "lapua-n-pl-5001",
+      "manufacturer": "Lapua",
+      "productLine": "N566",
+      "name": "3,2 g / 50 gr Naturalis N566",
+      "sku": "N PL 5001",
+      "alternateSkus": [],
+      "caliber": "5.69 mm (.224)",
+      "diameterIn": 0.224,
+      "weightGr": 50,
+      "bcG1": 0.197,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.197,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-naturalis-hunting-bullet-n566-32-g-50-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/224-naturalis-hunting-bullet-n566-32-g-50-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-5017",
+      "manufacturer": "Lapua",
+      "productLine": "S569",
+      "name": "3,6 g / 55 gr FMJ S569",
+      "sku": "4 PL/HL 5017",
+      "alternateSkus": [],
+      "caliber": "5.69 mm (.224)",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": 0.255,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.255,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-fmj-bullet-s569-36g-55gr-2/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/224-fmj-bullet-s569-36g-55gr-2/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-5006",
+      "manufacturer": "Lapua",
+      "productLine": "E539",
+      "name": "3,6 g / 55 gr Soft Point E539",
+      "sku": "4 PL 5006",
+      "alternateSkus": [],
+      "caliber": "5.69 mm (.224)",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": 0.185,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.185,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-cal-soft-point-bullet-e539-36-g-55-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/224-cal-soft-point-bullet-e539-36-g-55-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-5015",
+      "manufacturer": "Lapua",
+      "productLine": "GB544",
+      "name": "4,5 g / 69 gr Scenar-L OTM GB544",
+      "sku": "4 PL/HL 5015",
+      "alternateSkus": [],
+      "caliber": "5.69 mm (.224)",
+      "diameterIn": 0.224,
+      "weightGr": 69,
+      "bcG1": 0.341,
+      "bcG7": 0.171,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.341,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-scenar-l-bullet-gb544-45-g-69-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.171,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-scenar-l-bullet-gb544-45-g-69-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/224-scenar-l-bullet-gb544-45-g-69-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-5016",
+      "manufacturer": "Lapua",
+      "productLine": "GB545",
+      "name": "5,0 g / 77 gr Scenar-L OTM GB545",
+      "sku": "4 PL/HL 5016",
+      "alternateSkus": [],
+      "caliber": "5.69 mm (.224)",
+      "diameterIn": 0.224,
+      "weightGr": 77,
+      "bcG1": 0.386,
+      "bcG7": 0.193,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.386,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-scenar-l-bullet-gb545-50-g-77gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.193,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/224-scenar-l-bullet-gb545-50-g-77gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/224-scenar-l-bullet-gb545-50-g-77gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-6201",
+      "manufacturer": "Lapua",
+      "productLine": "N509",
+      "name": "5,8 g / 90 gr Naturalis N509",
+      "sku": "N PL 6201",
+      "alternateSkus": [],
+      "caliber": "6 mm (.243)",
+      "diameterIn": 0.243,
+      "weightGr": 90,
+      "bcG1": 0.23,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.23,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/243-naturalis-bullet-n509-5-8-g-90-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/243-naturalis-bullet-n509-5-8-g-90-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6055",
+      "manufacturer": "Lapua",
+      "productLine": "GB543",
+      "name": "5,8 g / 90 gr Scenar-L OTM GB543",
+      "sku": "4 PL/HL 6055",
+      "alternateSkus": [],
+      "caliber": "6 mm (.243)",
+      "diameterIn": 0.243,
+      "weightGr": 90,
+      "bcG1": 0.434,
+      "bcG7": 0.216,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.434,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-mm-cal-scenar-l-bullet-gb543-58-g-90-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.216,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-mm-cal-scenar-l-bullet-gb543-58-g-90-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/6-mm-cal-scenar-l-bullet-gb543-58-g-90-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6033",
+      "manufacturer": "Lapua",
+      "productLine": "GB504",
+      "name": "6,5 g / 100 gr Scenar OTM GB504",
+      "sku": "4 PL/HL 6033",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 100,
+      "bcG1": 0.424,
+      "bcG7": 0.212,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.424,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb504-65-g-100-gr-otm-2/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.212,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb504-65-g-100-gr-otm-2/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-scenar-bullet-gb504-65-g-100-gr-otm-2/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6014",
+      "manufacturer": "Lapua",
+      "productLine": "S341",
+      "name": "6,5 g / 100 gr FMJ S341",
+      "sku": "4 PL/HL 6014",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 100,
+      "bcG1": 0.25,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.25,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-fmj-bullet-s341-65-g-100-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-fmj-bullet-s341-65-g-100-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7224",
+      "manufacturer": "Lapua",
+      "productLine": "G477",
+      "name": "6,5 g / 100 gr OT Cutting Edge G477",
+      "sku": "4 PL/HL 7224",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 100,
+      "bcG1": 0.17,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.17,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-cutting-edge-bullet-g477-65-g-100-gr-hp/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-cutting-edge-bullet-g477-65-g-100-gr-hp/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7225",
+      "manufacturer": "Lapua",
+      "productLine": "G580",
+      "name": "6,5 g / 100 gr Open Tip G580",
+      "sku": "4 PL/HL 7225",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 100,
+      "bcG1": 0.2,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.2,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-open-tip-bullet-g580-65-g-100-gr-ot/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-open-tip-bullet-g580-65-g-100-gr-ot/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6015",
+      "manufacturer": "Lapua",
+      "productLine": "S496",
+      "name": "6,5 g / 100 gr FMJ Cutting Edge S496",
+      "sku": "4 PL/HL 6015",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 100,
+      "bcG1": 0.25,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.25,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/264-cal-fmj-cutting-edge-bullet-s496-65-g-100-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/264-cal-fmj-cutting-edge-bullet-s496-65-g-100-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6050",
+      "manufacturer": "Lapua",
+      "productLine": "GB542",
+      "name": "6,8 g / 105 gr Scenar-L OTM GB542",
+      "sku": "4 PL/HL 6050",
+      "alternateSkus": [],
+      "caliber": "6 mm (.243)",
+      "diameterIn": 0.243,
+      "weightGr": 105,
+      "bcG1": 0.472,
+      "bcG7": 0.236,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.472,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-mm-scenar-l-bullet-gb542-68-g-105-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.236,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-mm-scenar-l-bullet-gb542-68-g-105-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/6-mm-scenar-l-bullet-gb542-68-g-105-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6020",
+      "manufacturer": "Lapua",
+      "productLine": "GB464",
+      "name": "7,0 g / 108 gr Scenar OTM GB464",
+      "sku": "4 PL/HL 6020",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 108,
+      "bcG1": 0.465,
+      "bcG7": 0.231,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.465,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb464-70-g-108-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.231,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb464-70-g-108-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-scenar-bullet-gb464-70-g-108-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6021",
+      "manufacturer": "Lapua",
+      "productLine": "GB547",
+      "name": "7,8 g / 120 gr Scenar-L OTM GB547",
+      "sku": "4 PL/HL 6021",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.497,
+      "bcG7": 0.246,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.497,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-l-bullet-gb547-78-g-120-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.246,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-l-bullet-gb547-78-g-120-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-scenar-l-bullet-gb547-78-g-120-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-npl6204",
+      "manufacturer": "Lapua",
+      "productLine": "N583",
+      "name": "7.8 g / 120 gr TRX N583",
+      "sku": "NPL6204",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.428,
+      "bcG7": 0.212,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.428,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7-8-g-120-gr-truerange-expanding-hunting-bullet-n583/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.212,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7-8-g-120-gr-truerange-expanding-hunting-bullet-n583/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/7-8-g-120-gr-truerange-expanding-hunting-bullet-n583/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-8001",
+      "manufacturer": "Lapua",
+      "productLine": "G573",
+      "name": "7,85 g / 120 gr Open Tip G573",
+      "sku": "4 PL/HL 8001",
+      "alternateSkus": [],
+      "caliber": "8 mm (.323)",
+      "diameterIn": 0.323,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/8-mm-cal-open-tip-bullet-g573-78-g-120-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6032",
+      "manufacturer": "Lapua",
+      "productLine": "GB489",
+      "name": "8,0 g / 123 gr Scenar OTM GB489",
+      "sku": "4 PL/HL 6032",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 123,
+      "bcG1": 0.527,
+      "bcG7": 0.263,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.527,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb489-80-g-123-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.263,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-scenar-bullet-gb489-80-g-123-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-scenar-bullet-gb489-80-g-123-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7045",
+      "manufacturer": "Lapua",
+      "productLine": "S405",
+      "name": "8,0 g / 123 gr FMJ S405",
+      "sku": "4 PL/HL 7045",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.311)",
+      "diameterIn": null,
+      "weightGr": 123,
+      "bcG1": 0.257,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.257,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/311-cal-fmj-bullet-s405-8-0-g-123-gr-fmj/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/311-cal-fmj-bullet-s405-8-0-g-123-gr-fmj/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7003",
+      "manufacturer": "Lapua",
+      "productLine": "S374",
+      "name": "8,0 g / 123 gr FMJ S374",
+      "sku": "4 PL/HL 7003",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 123,
+      "bcG1": 0.27,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.27,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-fmj-bullet-s374-80-g-123-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-fmj-bullet-s374-80-g-123-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6019",
+      "manufacturer": "Lapua",
+      "productLine": "GB546",
+      "name": "8,8 g / 136 gr Scenar-L OTM GB546",
+      "sku": "4 PL/HL 6019",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 136,
+      "bcG1": 0.545,
+      "bcG7": 0.274,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.545,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-cal-scenar-l-bullet-gb546-88-g-136-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.274,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-cal-scenar-l-bullet-gb546-88-g-136-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-cal-scenar-l-bullet-gb546-88-g-136-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6018",
+      "manufacturer": "Lapua",
+      "productLine": "GB458",
+      "name": "9,0 g / 139 gr Scenar OTM GB458",
+      "sku": "4 PL/HL 6018",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 139,
+      "bcG1": 0.578,
+      "bcG7": 0.29,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.578,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-cal-scenar-bullet-gb458-90-g-139-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.29,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-cal-scenar-bullet-gb458-90-g-139-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-cal-scenar-bullet-gb458-90-g-139-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-6203",
+      "manufacturer": "Lapua",
+      "productLine": "N563",
+      "name": "9,1 g / 140 gr Naturalis N563",
+      "sku": "N PL 6203",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 140,
+      "bcG1": 0.201,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.201,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-cal-naturalis-hunting-bullet-n563-91-g-140-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-cal-naturalis-hunting-bullet-n563-91-g-140-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-6022",
+      "manufacturer": "Lapua",
+      "productLine": "GB582",
+      "name": "9.3 g / 144 gr MaxRange Target OTM GB582",
+      "sku": "4 PL 6022",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 144,
+      "bcG1": 0.67,
+      "bcG7": 0.335,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.67,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-5-mm-175-gr-maxrange-target-bullet-otm-gb582/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.335,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/6-5-mm-175-gr-maxrange-target-bullet-otm-gb582/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/6-5-mm-175-gr-maxrange-target-bullet-otm-gb582/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-6000",
+      "manufacturer": "Lapua",
+      "productLine": "B343",
+      "name": "9,3 g / 144 gr FMJ B343",
+      "sku": "4 PL/HL 6000",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 144,
+      "bcG1": 0.636,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.636,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-fmjbt-bullet-b343-93-g-144-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-fmjbt-bullet-b343-93-g-144-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-npl7251",
+      "manufacturer": "Lapua",
+      "productLine": "N585",
+      "name": "9.7 g / 150 gr TRX N585",
+      "sku": "NPL7251",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.384,
+      "bcG7": 0.19,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.384,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/9-7-g-150-gr-trx-hunting-bullet-n585/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.19,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/9-7-g-150-gr-trx-hunting-bullet-n585/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/9-7-g-150-gr-trx-hunting-bullet-n585/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7400",
+      "manufacturer": "Lapua",
+      "productLine": "GB553",
+      "name": "9.7 g / 150 gr Scenar-L OTM GB553",
+      "sku": "4 PL/HL 7400",
+      "alternateSkus": [],
+      "caliber": "7 mm (.284)",
+      "diameterIn": 0.284,
+      "weightGr": 150,
+      "bcG1": 0.526,
+      "bcG7": 0.26,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.526,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb553-97-g-150-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.26,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb553-97-g-150-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb553-97-g-150-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-7057",
+      "manufacturer": "Lapua",
+      "productLine": "E469",
+      "name": "9,7 g / 150 gr Mega SP E469",
+      "sku": "4 PL 7057",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.33,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.33,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e469-97-g-150-gr-sp/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e469-97-g-150-gr-sp/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7063",
+      "manufacturer": "Lapua",
+      "productLine": "GB552",
+      "name": "10,0 g / 155 gr Scenar-L OTM GB552",
+      "sku": "4 PL/HL 7063",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 155,
+      "bcG1": 0.46,
+      "bcG7": 0.23,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.46,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-scenar-l-bullet-gb552-100-g-155-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.23,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-scenar-l-bullet-gb552-100-g-155-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-scenar-l-bullet-gb552-100-g-155-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-6010",
+      "manufacturer": "Lapua",
+      "productLine": "E471",
+      "name": "10,1 g / 156 gr Mega SP E471",
+      "sku": "4 PL 6010",
+      "alternateSkus": [],
+      "caliber": "6.5 mm (.264)",
+      "diameterIn": 0.264,
+      "weightGr": 155,
+      "bcG1": 0.377,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.377,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/65-mm-mega-bullet-e471/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/65-mm-mega-bullet-e471/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-7027",
+      "manufacturer": "Lapua",
+      "productLine": "N564",
+      "name": "10,1 g / 156 gr Naturalis N564",
+      "sku": "N PL 7027",
+      "alternateSkus": [],
+      "caliber": "7 mm (.284)",
+      "diameterIn": 0.284,
+      "weightGr": 156,
+      "bcG1": 0.28,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.28,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7-mm-cal-naturalis-hunting-bullet-n564-101-g-156-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/7-mm-cal-naturalis-hunting-bullet-n564-101-g-156-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-npl7250",
+      "manufacturer": "Lapua",
+      "productLine": "N584",
+      "name": "10.7 g / 165 gr TRX N584",
+      "sku": "NPL7250",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 165,
+      "bcG1": 0.49,
+      "bcG7": 0.243,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.49,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/10-7-g-165-gr-trx-hunting-bullet-n584/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.243,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/10-7-g-165-gr-trx-hunting-bullet-n584/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/10-7-g-165-gr-trx-hunting-bullet-n584/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7069",
+      "manufacturer": "Lapua",
+      "productLine": "GB422",
+      "name": "10,85 g / 167 gr Scenar OTM GB422",
+      "sku": "4 PL/HL 7069",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 167,
+      "bcG1": 0.446,
+      "bcG7": 0.223,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.446,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-bullet-gb422-1085-g-167-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.223,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-bullet-gb422-1085-g-167-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-scenar-bullet-gb422-1085-g-167-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-7105",
+      "manufacturer": "Lapua",
+      "productLine": "N558",
+      "name": "11,0 g / 170 gr Naturalis N558",
+      "sku": "N PL 7105",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 170,
+      "bcG1": 0.354,
+      "bcG7": 0.177,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.354,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-naturalis-hunting-bullet-n558-11-0-g-170-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.177,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-naturalis-hunting-bullet-n558-11-0-g-170-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-naturalis-hunting-bullet-n558-11-0-g-170-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7086",
+      "manufacturer": "Lapua",
+      "productLine": "B476",
+      "name": "11,0 g / 170 gr Lock Base B476",
+      "sku": "4 PL/HL 7086",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 170,
+      "bcG1": 0.498,
+      "bcG7": 0.249,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.498,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-lock-base-bullet-b476-110-g-170-gr-fmjbt/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.249,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-lock-base-bullet-b476-110-g-170-gr-fmjbt/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-lock-base-bullet-b476-110-g-170-gr-fmjbt/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4pl-7080",
+      "manufacturer": "Lapua",
+      "productLine": "GB581",
+      "name": "11.3 g / 175 gr MaxRange Target OTM GB581",
+      "sku": "4PL 7080",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": null,
+      "weightGr": 175,
+      "bcG1": 0.581,
+      "bcG7": 0.286,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.581,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30cal-175-gr-maxrange-target-bullet-otm-gb581/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.286,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30cal-175-gr-maxrange-target-bullet-otm-gb581/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30cal-175-gr-maxrange-target-bullet-otm-gb581/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7061",
+      "manufacturer": "Lapua",
+      "productLine": "GB550",
+      "name": "11,3 g / 175 gr Scenar-L OTM GB550",
+      "sku": "4 PL/HL 7061",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 175,
+      "bcG1": 0.49,
+      "bcG7": 0.247,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.49,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-l-bullet-gb550-113-g-175-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.247,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-l-bullet-gb550-113-g-175-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-scenar-l-bullet-gb550-113-g-175-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7401",
+      "manufacturer": "Lapua",
+      "productLine": "GB554",
+      "name": "11,7 g / 180 gr Scenar-L OTM GB554",
+      "sku": "4 PL/HL 7401",
+      "alternateSkus": [],
+      "caliber": "7 mm (.284)",
+      "diameterIn": 0.284,
+      "weightGr": 180,
+      "bcG1": 0.661,
+      "bcG7": 0.332,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.661,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb554-117-g-180-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.332,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb554-117-g-180-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/7mm-cal-scenar-l-bullet-gb554-117-g-180-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-8009",
+      "manufacturer": "Lapua",
+      "productLine": "N559",
+      "name": "11,7 g / 180 gr Naturalis N559",
+      "sku": "N PL 8009",
+      "alternateSkus": [],
+      "caliber": "8 mm (.323)",
+      "diameterIn": 0.323,
+      "weightGr": 180,
+      "bcG1": 0.357,
+      "bcG7": 0.179,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.357,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/8mm-cal-naturalis-leadfree-hunting-bullet-n559-11-7-g-180-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.179,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/8mm-cal-naturalis-leadfree-hunting-bullet-n559-11-7-g-180-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/8mm-cal-naturalis-leadfree-hunting-bullet-n559-11-7-g-180-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7071",
+      "manufacturer": "Lapua",
+      "productLine": "GB432",
+      "name": "12,0 g / 185 gr Scenar OTM GB432",
+      "sku": "4 PL/HL 7071",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 185,
+      "bcG1": 0.482,
+      "bcG7": 0.242,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.482,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-scenar-bullet-gb432-120-g-185-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.242,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-scenar-bullet-gb432-120-g-185-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-scenar-bullet-gb432-120-g-185-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7019",
+      "manufacturer": "Lapua",
+      "productLine": "D46",
+      "name": "12,0 g / 185 gr D46 FMJBT",
+      "sku": "4 PL/HL 7019",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 185,
+      "bcG1": 0.506,
+      "bcG7": 0.254,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.506,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-d46-fmjbt-bullet-120-g-185-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.254,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-d46-fmjbt-bullet-120-g-185-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-d46-fmjbt-bullet-120-g-185-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-7213",
+      "manufacturer": "Lapua",
+      "productLine": "E415",
+      "name": "12,0 g / 185 gr Mega SP E415",
+      "sku": "4 PL 7213",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 185,
+      "bcG1": 0.319,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.319,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e415-120-g-185-gr-sp/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e415-120-g-185-gr-sp/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-9018",
+      "manufacturer": "Lapua",
+      "productLine": "G574",
+      "name": "12,0 g / 185 gr Open Tip G574",
+      "sku": "4 PL/HL 9018",
+      "alternateSkus": [],
+      "caliber": "9.3 mm (.366)",
+      "diameterIn": 0.366,
+      "weightGr": 185,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/93-mm-open-tip-bullet-g574-120-g-185-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-7047",
+      "manufacturer": "Lapua",
+      "productLine": "E401",
+      "name": "13,0 g / 200 gr Mega SP E401",
+      "sku": "4 PL 7047",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 200,
+      "bcG1": 0.344,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.344,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e401-130-g-200-gr-sp/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-mega-hunting-bullet-e401-130-g-200-gr-sp/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-7060",
+      "manufacturer": "Lapua",
+      "productLine": "B416",
+      "name": "13,0 g / 200 gr Subsonic FMJBT B416",
+      "sku": "4 PL 7060",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 200,
+      "bcG1": 0.518,
+      "bcG7": 0.235,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.518,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-fmjbt-subsonic-bullet-b416-130-g-200-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.235,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-cal-fmjbt-subsonic-bullet-b416-130-g-200-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-cal-fmjbt-subsonic-bullet-b416-130-g-200-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7005",
+      "manufacturer": "Lapua",
+      "productLine": "D166",
+      "name": "13,0 g / 200 gr D166 FMJBT",
+      "sku": "4 PL/HL 7005",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.310)",
+      "diameterIn": 0.31,
+      "weightGr": 200,
+      "bcG1": 0.448,
+      "bcG7": 0.224,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.448,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/762-cal-d166-fmjbt-bullet-130-g-200-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.224,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/762-cal-d166-fmjbt-bullet-130-g-200-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/762-cal-d166-fmjbt-bullet-130-g-200-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-7062",
+      "manufacturer": "Lapua",
+      "productLine": "GB551",
+      "name": "14,3 g / 220 gr Scenar-L OTM GB551",
+      "sku": "4 PL/HL 7062",
+      "alternateSkus": [],
+      "caliber": "7.62 mm (.308)",
+      "diameterIn": 0.308,
+      "weightGr": 220,
+      "bcG1": 0.647,
+      "bcG7": 0.324,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.647,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-l-bullet-gb551-143-g-220-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.324,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/30-scenar-l-bullet-gb551-143-g-220-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/30-scenar-l-bullet-gb551-143-g-220-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-8020",
+      "manufacturer": "Lapua",
+      "productLine": "N508",
+      "name": "15,0 g / 231 gr Naturalis N508",
+      "sku": "N PL 8020",
+      "alternateSkus": [],
+      "caliber": "8.61 mm (.338)",
+      "diameterIn": 0.338,
+      "weightGr": 231,
+      "bcG1": 0.373,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.373,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-naturalis-leadfree-hunting-bullet-n508-15-0-g-231-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/338-cal-naturalis-leadfree-hunting-bullet-n508-15-0-g-231-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-n-pl-9204",
+      "manufacturer": "Lapua",
+      "productLine": "N560",
+      "name": "16,2 g / 250 gr Naturalis N560",
+      "sku": "N PL 9204",
+      "alternateSkus": [],
+      "caliber": "9.3 mm (.366)",
+      "diameterIn": 0.366,
+      "weightGr": 250,
+      "bcG1": 0.419,
+      "bcG7": 0.215,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.419,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/93-mm-cal-naturalis-leadfree-hunting-bullet-n560-16-2-g-250-gr/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.215,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/93-mm-cal-naturalis-leadfree-hunting-bullet-n560-16-2-g-250-gr/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/93-mm-cal-naturalis-leadfree-hunting-bullet-n560-16-2-g-250-gr/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-hl-8012",
+      "manufacturer": "Lapua",
+      "productLine": "B408",
+      "name": "16,2 g / 250 gr Lock Base FMJBT B408",
+      "sku": "4 PL/HL 8012",
+      "alternateSkus": [],
+      "caliber": "8.61 mm (.338)",
+      "diameterIn": 0.338,
+      "weightGr": 250,
+      "bcG1": 0.625,
+      "bcG7": 0.31,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.625,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-lock-base-bullet-b408-162-g-250-gr-fmjbt/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.31,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-lock-base-bullet-b408-162-g-250-gr-fmjbt/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "fmj",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/338-cal-lock-base-bullet-b408-162-g-250-gr-fmjbt/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-8017",
+      "manufacturer": "Lapua",
+      "productLine": "GB488",
+      "name": "16,2 g / 250 gr Scenar OTM GB488",
+      "sku": "4 PL 8017",
+      "alternateSkus": [],
+      "caliber": "8.61 mm (.338)",
+      "diameterIn": 0.338,
+      "weightGr": 250,
+      "bcG1": 0.648,
+      "bcG7": 0.322,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.648,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-scenar-bullet-gb488-162-g-250-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.322,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-scenar-bullet-gb488-162-g-250-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/338-cal-scenar-bullet-gb488-162-g-250-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-9017",
+      "manufacturer": "Lapua",
+      "productLine": "E433",
+      "name": "18,54 g / 285 gr Mega SP E433",
+      "sku": "4 PL 9017",
+      "alternateSkus": [],
+      "caliber": "9.3 mm (.366)",
+      "diameterIn": 0.366,
+      "weightGr": 285,
+      "bcG1": 0.339,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.339,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/93-mm-cal-mega-hunting-bullet-e433-1854-g-285-gr-sp/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/93-mm-cal-mega-hunting-bullet-e433-1854-g-285-gr-sp/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    },
+    {
+      "id": "lapua-4-pl-8013",
+      "manufacturer": "Lapua",
+      "productLine": "GB528",
+      "name": "19,4 g / 300 gr Scenar OTM GB528",
+      "sku": "4 PL 8013",
+      "alternateSkus": [],
+      "caliber": "8.61 mm (.338)",
+      "diameterIn": 0.338,
+      "weightGr": 300,
+      "bcG1": 0.736,
+      "bcG7": 0.368,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.736,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-scenar-bullet-gb528-194-g-300-gr-otm/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.368,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://www.lapua.com/product/338-cal-scenar-bullet-gb528-194-g-300-gr-otm/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "tactical"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.lapua.com/product/338-cal-scenar-bullet-gb528-194-g-300-gr-otm/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lapua",
+          "notes": "WooCommerce store API attributes for the Bullet category, handgun and rimfire excluded."
+        }
+      ],
+      "conflicts": [],
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
+    }
+  ]
+}

@@ -173,9 +173,9 @@ def semantic_checks(catalog: dict) -> tuple[list[str], list[str]]:
                 abs_delta = abs(computed - sectional)
                 rel = abs_delta / sectional if sectional else abs_delta
                 if abs_delta > SD_MATCH_ABS and rel > SD_MATCH_REL:
-                    errors.append(
-                        f"{path}: published sectional density {sectional} does not match "
-                        f"weight/diameter ({computed:.4f})"
+                    warnings.append(
+                        f"{path}: published sectional density {sectional} differs from "
+                        f"weight/diameter ({computed:.4f}); the published value is kept"
                     )
 
     return errors, warnings

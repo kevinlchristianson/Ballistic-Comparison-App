@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Scrape public rifle-bullet specifications into schema 1.0.0 catalogs.
 
-Framework skeleton. Adapters are registered with the public URL they will
-read, and they refuse to invent rows. A later data revision implements
-fetch/parse without changing the schema.
+Adapters read the public URL registered for each source and refuse to
+invent rows. Zima and LoadDevelopment are not fetched: their terms forbid
+copying the content.
 
 Usage:
   python3 scripts/bullets/scrape.py --list
@@ -24,7 +24,8 @@ import argparse
 import sys
 from dataclasses import dataclass
 
-from catalog import MANUFACTURERS_DIR, RAW_DIR
+from adapters import ADAPTERS, TermsForbid
+from catalog import MANUFACTURERS_DIR, RAW_DIR, dump_json
 
 
 @dataclass(frozen=True)
@@ -44,19 +45,19 @@ SOURCES: tuple[Source, ...] = (
     Source("nosler", "Nosler", "https://www.nosler.com/products/bullets/", "manufacturer", "Partition, AccuBond, Ballistic Tip, RDF, and related lines."),
     Source("barnes", "Barnes", "https://www.barnesbullets.com/bullets/", "manufacturer", "TSX, TTSX, LRX, and other copper solids."),
     Source("berger", "Berger Bullets", "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/", "manufacturer", "Single table of part number, description, G1, G7, and minimum twist. The committed examples were read from this page on 2026-10-27."),
-    Source("speer", "Speer", "https://www.speer.com/bullets/", "manufacturer", "Hot-Cor, Gold Dot, and TNT component bullets."),
+    Source("speer", "Speer", "https://www.speer.com/bullets/", "manufacturer", "Hot-Cor, Gold Dot, and TNT. Not committed yet. The Zima library page is not a substitute; its terms forbid copying."),
     Source("lapua", "Lapua", "https://www.lapua.com/bullets/", "manufacturer", "Scenar, Scenar-L, FMJ, and naturalis. Some SKUs also have Doppler CD data."),
-    Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame and Scirocco."),
-    Source("federal", "Federal", "https://www.federalpremium.com/products/bullets", "manufacturer", "Component bullets, not loaded ammunition, when the page separates them."),
-    Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/", "manufacturer", "Weldcore and hydrostatically stabilized solids."),
-    Source("norma", "Norma", "https://www.norma-ammunition.com/en-us/products/components/bullets", "manufacturer", "Component bullets."),
-    Source("rws", "RWS", "https://rws-ammunition.com/", "manufacturer", "Component bullets where published separately from loaded cartridges."),
-    Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, and related solid copper lines."),
+    Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame and Scirocco. Not committed yet. Zima's terms forbid copying that library."),
+    Source("federal", "Federal", "https://www.federalpremium.com/products/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is stored in notes, not as G1."),
+    Source("norma", "Norma", "https://www.norma-ammunition.com/en-us/products/components/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("rws", "RWS", "https://rws-ammunition.com/", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, and related solids. Not committed yet. Zima's terms forbid copying that library."),
     Source("hammer", "Hammer Bullets", "https://hammerbullets.com/", "boutique", "Lathe-turned copper bullets."),
     Source("badlands", "Badlands Precision", "https://badlandsprecisionbullets.com/", "boutique", "Bulldozer and related mono-metal lines."),
-    Source("warner", "Warner Tool Company", "https://warner-tool.com/", "boutique", "Flatline bullets."),
-    Source("lehigh", "Lehigh Defense", "https://lehighdefense.com/", "boutique", "Controlled-fracturing and solid copper bullets."),
-    Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/", "boutique", "VLR and bushmaster monometal bullets."),
+    Source("warner", "Warner Tool Company", "https://warner-tool.com/", "boutique", "Flatline bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("lehigh", "Lehigh Defense", "https://lehighdefense.com/", "boutique", "Controlled-fracturing and solid copper bullets. Not committed yet. Zima's terms forbid copying that library."),
+    Source("peregrine", "Peregrine Bullets", "https://peregrinebullets.com/", "boutique", "VLR and bushmaster monometal bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("gs-custom", "GS Custom", "https://www.gsgroup.co.za/", "boutique", "GS Custom turned solids."),
     Source("matrix", "Matrix Ballistics", "https://matrixballistics.com/", "boutique", "Match and hunting bullets."),
     Source(
@@ -64,7 +65,7 @@ SOURCES: tuple[Source, ...] = (
         "LoadDevelopment.com",
         "https://loaddevelopment.com/bullet-database/",
         "aggregator",
-        "Public compiled BC list. The page embeds https://trajek.app/library. Use it to find gaps, then confirm numbers on the manufacturer page before committing.",
+        "Terms of Use forbid copying the material. No rows are committed from this site.",
     ),
 )
 
@@ -90,7 +91,14 @@ def scrape_source(source: Source, dry_run: bool) -> int:
     if dry_run:
         print("  dry-run: no request sent")
         return 0
-    raise AdapterNotImplemented(source)
+    adapter = ADAPTERS.get(source.slug)
+    if adapter is None:
+        raise AdapterNotImplemented(source)
+    payload = adapter()
+    out_path = MANUFACTURERS_DIR / f"{source.slug}.json"
+    dump_json(out_path, payload)
+    print(f"  wrote {payload['bulletCount']} bullets to {out_path}")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -117,6 +125,11 @@ def main(argv: list[str] | None = None) -> int:
             scrape_source(source, dry_run=args.dry_run)
         except AdapterNotImplemented as exc:
             print(f"  not implemented: {exc}", file=sys.stderr)
+            failures += 1
+        except TermsForbid as exc:
+            print(f"  skipped: {exc}")
+        except Exception as exc:  # noqa: BLE001 - one source should not discard the others
+            print(f"  failed: {source.slug}: {exc}", file=sys.stderr)
             failures += 1
     if failures:
         return 2
