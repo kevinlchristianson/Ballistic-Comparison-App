@@ -56,6 +56,8 @@ SOURCES: tuple[Source, ...] = (
     Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is bcUnlabeled, not G1."),
     Source("norma", "Norma", "https://www.norma-ammunition.com/products/components/hunting-bullets", "manufacturer", "Component bullets. The impressum forbids using site texts without written permission. No rows are committed."),
     Source("rws", "RWS", "https://rws-ammunition.com/de/impressum", "manufacturer", "Component bullets. The impressum forbids using site texts without written permission. No rows are committed."),
+    Source("geco", "GECO", "https://geco-ammunition.com/en/editorial", "manufacturer", "Rifle component bullets. The impressum is RWS GmbH and forbids using site texts without written consent. No rows are committed."),
+    Source("rottweil", "Rottweil", "https://rottweil-ammunition.com/legal-notice", "manufacturer", "Shotshell catalog. The legal notice forbids using site texts without written permission. No rifle component rows are committed."),
     Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, Raptor, and related component bullets. G1, G7, and OAL come from the product spec block."),
     Source("hammer", "Hammer Bullets", "https://hammerbullets.com/", "boutique", "Lathe-turned copper bullets."),
     Source("badlands", "Badlands Precision", "https://badlandsprecisionbullets.com/", "boutique", "Bulldozer and related mono-metal lines."),

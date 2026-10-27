@@ -1778,6 +1778,25 @@ def scrape_rws() -> dict:
     )
 
 
+def scrape_geco() -> dict:
+    raise TermsForbid(
+        "geco: The GECO impressum (https://geco-ammunition.com/en/editorial) says all texts, "
+        "software, and images on the site are the property of RWS GmbH and are not to be used "
+        "without express written consent. Download-area data is limited to non-commercial "
+        "personal use. No rows were fetched."
+    )
+
+
+def scrape_rottweil() -> dict:
+    raise TermsForbid(
+        "rottweil: The Rottweil legal notice (https://rottweil-ammunition.com/legal-notice) says "
+        "all texts, software, and images are the property of Hexagon Ammunition Zrt. and may not "
+        "be used without express written permission. Download-area data is limited to "
+        "non-commercial personal use. The public catalog is shotshells, not rifle component bullets. "
+        "No rows were fetched."
+    )
+
+
 def scrape_peregrine() -> dict:
     raise TermsForbid(
         "peregrine: The Peregrine terms (https://peregrinebullets.com/terms-and-conditions/) "
@@ -2082,6 +2101,8 @@ ADAPTERS = {
     "federal": lambda: scrape_kinetic("federal"),
     "norma": scrape_norma,
     "rws": scrape_rws,
+    "geco": scrape_geco,
+    "rottweil": scrape_rottweil,
     "cutting-edge": scrape_cutting_edge,
     "lehigh": scrape_lehigh,
     "peregrine": scrape_peregrine,
