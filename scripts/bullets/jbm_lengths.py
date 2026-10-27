@@ -43,6 +43,7 @@ SHAPE_REQUIRED = frozenset(
         "fmj",
         "fmj-cutting-edge",
         "gameking",
+        "sp",
         "hp-match",
         "interlock",
         "lrx",
@@ -59,6 +60,17 @@ SHAPE_REQUIRED = frozenset(
 )
 
 FAMILY_RULES: tuple[tuple[str, str], ...] = (
+    ("gamehead-varmint", r"gamehead\s+varmint"),
+    ("super-hammerhead", r"super\s+hammerhead"),
+    ("super-range", r"super\s+range"),
+    ("powerhead", r"powerhead"),
+    ("racehead", r"racehead"),
+    ("arrowhead", r"arrowhead"),
+    ("hammerhead", r"\bhammerhead\b"),
+    ("gamehead", r"\bgamehead\b"),
+    ("speedhead", r"\bspeedhead\b"),
+    ("blade-x", r"blade[\s-]*x"),
+    ("blade", r"\bblade\b"),
     ("eld-vt", r"eld[\s-]*vt"),
     ("eld-x", r"eld[\s-]*x|extremely low drag\s*-\s*expanding"),
     ("eld-match", r"eld[\s-]*match|eld[\s-]*m\b|extremely low drag match"),
@@ -124,7 +136,9 @@ FAMILY_RULES: tuple[tuple[str, str], ...] = (
     ("fmj", r"\bfmj\b|full metal jacket"),
     ("pro-hunter", r"pro[\s-]*hunter"),
     ("varmintking", r"varmintking|\bsvk\b|varminter"),
-    ("bthp", r"\bbthp\b|boat\s*tail hollow|boattail hollow|\bhpbt\b"),
+    ("bthp", r"\bbthp\b|boat\s*tail hollow|boattail hollow|hollow\s*point\s*boat\s*tail|\bhp\s*bt\b|\bhpbt\b"),
+    ("spce", r"\bspce\b|soft\s*point\s*ce\b"),
+    ("sp", r"soft point|\bsp\b"),
 )
 
 
@@ -146,7 +160,7 @@ def as_length(value: float):
 
 def manufacturer_key(name: str) -> str:
     text = name.lower()
-    for word in ("bullets", "bullet", "company", "tool"):
+    for word in ("bullets", "bullet", "company", "tool", "and"):
         text = re.sub(rf"\b{word}\b", " ", text)
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
@@ -194,7 +208,7 @@ def shape_of(text: str) -> str:
         return "btsp"
     if re.search(r"fmj[\s-]*bt|full metal jacket boat\s*tail|full metal jacket boattail", text):
         return "fmjbt"
-    if re.search(r"\bhpbt\b|\bbthp\b|boat\s*tail hollow|boattail hollow", text):
+    if re.search(r"\bhpbt\b|\bbthp\b|boat\s*tail hollow|boattail hollow|hollow\s*point\s*boat\s*tail|\bhp\s*bt\b", text):
         return "hpbt"
     if re.search(r"\bsbt\b|spitzer boat\s*tail|spitzer boattail", text):
         return "sbt"
@@ -411,17 +425,26 @@ def fill_catalogs(jbm_rows: list[JbmRow], dry_run: bool) -> dict[str, int]:
             label = " ".join(
                 part for part in (bullet.get("productLine") or "", bullet.get("name") or "") if part
             )
+            # Prvi Partizan's JBM descriptions carry the article number, such as (B-419).
+            # The catalog stores that number as the SKU, so the match includes it.
+            sku = bullet.get("sku") or ""
+            if manufacturer_key(catalog.get("manufacturer") or "") == "prvi partizan" and re.fullmatch(r"B-\d+", sku):
+                label = f"{label} ({sku})"
             identity = identity_of(label)
             if identity is None:
                 continue
             name = bullet.get("name") or ""
             named_weight = re.search(r"(\d+(?:\.\d+)?)\s*gr\b", name, flags=re.I)
+            # A catalog part code such as E539 or B-419 has to be on the JBM row.
+            # A generic JBM description is not a match for a numbered bullet.
+            codes = part_codes(label)
             matches = [
                 row
                 for row in maker_rows
                 if row.identity == identity
                 and abs(row.weight - float(weight)) <= WEIGHT_TOLERANCE_GR
                 and abs(row.diameter - float(diameter)) <= DIAMETER_TOLERANCE_IN
+                and (not codes or codes & part_codes(row.description))
                 and (
                     named_weight is None
                     or abs(float(named_weight.group(1)) - row.weight) <= 0.5

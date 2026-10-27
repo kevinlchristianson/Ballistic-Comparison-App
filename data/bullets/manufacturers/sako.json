@@ -249,7 +249,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.224,
-      "lengthIn": null,
+      "lengthIn": 1.024,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -274,10 +274,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.024 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Gamehead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.024 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Gamehead."
     },
     {
       "id": "sako-153a",
@@ -419,7 +425,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.269,
-      "lengthIn": null,
+      "lengthIn": 1.114,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -443,10 +449,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.114 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 11.7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 11.7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.114 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Hammerhead."
     },
     {
       "id": "sako-227a",
@@ -474,7 +486,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.299,
-      "lengthIn": null,
+      "lengthIn": 1.233,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -498,10 +510,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.233 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 13g/200gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 13g/200gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.233 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Hammerhead."
     },
     {
       "id": "sako-228a",
@@ -584,7 +602,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.224,
-      "lengthIn": null,
+      "lengthIn": 1.033,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -608,10 +626,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.033 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Super Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.033 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Super Hammerhead."
     },
     {
       "id": "sako-236a",
@@ -639,7 +663,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.269,
-      "lengthIn": null,
+      "lengthIn": 1.178,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -663,10 +687,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.178 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Super Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.178 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Super Hammerhead."
     },
     {
       "id": "sako-656a",

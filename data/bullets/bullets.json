@@ -83456,7 +83456,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.555,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -83472,10 +83472,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.555 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.172, weight 20 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\".",
+      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\". lengthIn 0.555 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.172, weight 20 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83565,7 +83571,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.5,
       "construction": [
         "hollow_point"
       ],
@@ -83580,10 +83586,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.5 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.172, weight 20 gr, Varmageddon FBHP."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\".",
+      "notes": "Diameter 0.172 copied from the product description: \"0.172 Diameter 20 Grain\". lengthIn 0.5 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.172, weight 20 gr, Varmageddon FBHP.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -83619,7 +83631,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.6,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -83635,10 +83647,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.6 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.204, weight 32 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.204 copied from the product description: \"0.204 Diameter 32 Grain\".",
+      "notes": "Diameter 0.204 copied from the product description: \"0.204 Diameter 32 Grain\". lengthIn 0.6 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.204, weight 32 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84117,7 +84135,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.52,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -84139,10 +84157,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.52 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 35 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 35 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 35 Grain\". lengthIn 0.52 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 35 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84465,7 +84489,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.665,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -84487,10 +84511,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.665 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 40 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 40 Grain\". lengthIn 0.665 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84822,7 +84852,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.717,
       "construction": [
         "hollow_point",
         "boattail"
@@ -84850,10 +84880,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.717 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 52 gr, Custom Competition HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 52 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 52 Grain\". lengthIn 0.717 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 52 gr, Custom Competition HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -84889,7 +84925,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.83,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -84905,10 +84941,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.83 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 53 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 53 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 53 Grain\". lengthIn 0.83 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 53 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85252,7 +85294,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.795,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -85274,10 +85316,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.795 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 55 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 55 Grain\". lengthIn 0.795 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85759,7 +85807,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.9,
       "construction": [
         "hollow_point",
         "boattail"
@@ -85787,10 +85835,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.9 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Custom Competition HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 69 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 69 Grain\". lengthIn 0.9 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Custom Competition HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -85961,7 +86015,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.965,
       "construction": [
         "hollow_point",
         "boattail"
@@ -85983,10 +86037,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.965 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 70 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter. lengthIn 0.965 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 70 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86233,7 +86293,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.07,
       "construction": [
         "hollow_point",
         "boattail"
@@ -86255,10 +86315,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.07 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter. lengthIn 1.07 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86351,7 +86417,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.065,
       "construction": [
         "hollow_point",
         "boattail"
@@ -86373,10 +86439,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.065 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 80 gr, Custom Competition HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 80 Grain\".",
+      "notes": "Diameter 0.224 copied from the product description: \"0.224 Diameter 80 Grain\". lengthIn 1.065 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 80 gr, Custom Competition HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -86491,7 +86563,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.135,
       "construction": [
         "hollow_point",
         "boattail"
@@ -86513,10 +86585,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 22 Caliber / .224\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.135 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 85 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter.",
+      "notes": "Diameter 0.224 copied from the Nosler load-data caliber heading 22 Caliber / .224\" Diameter. lengthIn 1.135 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 85 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -88751,7 +88829,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.145,
       "construction": [
         "hollow_point",
         "boattail"
@@ -88773,10 +88851,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.145 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, Custom Competition™ HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 155 Grain\".",
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 155 Grain\". lengthIn 1.145 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, Custom Competition™ HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -89616,7 +89700,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.25,
       "construction": [
         "hollow_point",
         "boattail"
@@ -89638,10 +89722,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Custom Competition™ HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 175 Grain\".",
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 175 Grain\". lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Custom Competition™ HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -89811,7 +89901,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.33,
       "construction": [
         "hollow_point",
         "boattail"
@@ -89833,10 +89923,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 30 Caliber / .308\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.33 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter.",
+      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter. lengthIn 1.33 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90363,7 +90459,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.343,
       "construction": [
         "hollow_point",
         "boattail"
@@ -90391,10 +90487,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.343 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 190 gr, Custom Competition HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 190 Grain\".",
+      "notes": "Diameter 0.308 copied from the product description: \"0.308 Diameter 190 Grain\". lengthIn 1.343 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 190 gr, Custom Competition HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90750,7 +90852,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.516,
       "construction": [
         "hollow_point",
         "boattail"
@@ -90772,10 +90874,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 30 Caliber / .308\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.516 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 210 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter.",
+      "notes": "Diameter 0.308 copied from the Nosler load-data caliber heading 30 Caliber / .308\" Diameter. lengthIn 1.516 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 210 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -90811,7 +90919,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.53,
       "construction": [
         "hollow_point",
         "boattail"
@@ -90833,10 +90941,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.53 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Custom Competition™ HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Same SKU 53154 is also listed at https://www.nosler.com/30-caliber-220gr-hpbt-custom-competition-100ct-blem.html. Diameter 0.308 copied from the product description: \"0.308 Diameter 220 Grain\".",
+      "notes": "Same SKU 53154 is also listed at https://www.nosler.com/30-caliber-220gr-hpbt-custom-competition-100ct-blem.html. Diameter 0.308 copied from the product description: \"0.308 Diameter 220 Grain\". lengthIn 1.53 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Custom Competition™ HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93416,7 +93530,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.2,
       "construction": [
         "hollow_point",
         "boattail"
@@ -93438,10 +93552,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 123 gr, Custom Competition™ HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter. lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 123 gr, Custom Competition™ HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93742,7 +93862,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.333,
       "construction": [
         "hollow_point",
         "boattail"
@@ -93764,10 +93884,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.333 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter. lengthIn 1.333 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -93972,7 +94098,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.316,
       "construction": [
         "hollow_point",
         "boattail"
@@ -93994,10 +94120,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.316 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Custom Competition™ HPBT."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.264 copied from the product description: \"0.264 Diameter 140 Grain\".",
+      "notes": "Diameter 0.264 copied from the product description: \"0.264 Diameter 140 Grain\". lengthIn 1.316 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Custom Competition™ HPBT.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94161,7 +94293,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.42,
       "construction": [
         "hollow_point",
         "boattail"
@@ -94183,10 +94315,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6.5mm Caliber / .264\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.42 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter.",
+      "notes": "Diameter 0.264 copied from the Nosler load-data caliber heading 6.5mm Caliber / .264\" Diameter. lengthIn 1.42 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -94885,7 +95023,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.75,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -94901,10 +95039,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.75 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 55 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.243 copied from the product description: \"0.243 Diameter 55 Grain\".",
+      "notes": "Diameter 0.243 copied from the product description: \"0.243 Diameter 55 Grain\". lengthIn 0.75 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 55 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -95054,7 +95198,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.875,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -95076,10 +95220,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.875 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 70 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter. lengthIn 0.875 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 70 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -95813,7 +95963,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.25,
       "construction": [
         "hollow_point",
         "boattail"
@@ -95835,10 +95985,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 105 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter. lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 105 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -95946,7 +96102,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.35,
       "construction": [
         "hollow_point",
         "boattail"
@@ -95974,10 +96130,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Caliber index heading: 6mm Caliber / .243\" Diameter."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 115 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter.",
+      "notes": "Diameter 0.243 copied from the Nosler load-data caliber heading 6mm Caliber / .243\" Diameter. lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 115 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -99459,7 +99621,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.532,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -99482,10 +99644,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.532 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.222, weight 45 gr, Soft Point (B-193)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 2.90 g and 45 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 2.90 g and 45 gr. lengthIn 0.532 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.222, weight 45 gr, Soft Point (B-193)."
     },
     {
       "id": "prvi-partizan-b-032",
@@ -99503,7 +99671,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.63,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -99526,10 +99694,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.63 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Soft Point (B-032)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 3.24 g and 50 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 3.24 g and 50 gr. lengthIn 0.63 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Soft Point (B-032)."
     },
     {
       "id": "prvi-partizan-b-212",
@@ -99725,7 +99899,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.811,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -99749,10 +99923,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.811 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 62 gr, Full Metal Jacket Boat Tail (B-419)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 4.00 g and 62 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 4.00 g and 62 gr. lengthIn 0.811 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 62 gr, Full Metal Jacket Boat Tail (B-419)."
     },
     {
       "id": "prvi-partizan-b-399",
@@ -99770,7 +99950,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.928,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -99794,10 +99974,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.928 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Hollow Point Boat Tail (B-399)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.47 g and 69 gr."
+      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.47 g and 69 gr. lengthIn 0.928 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Hollow Point Boat Tail (B-399)."
     },
     {
       "id": "prvi-partizan-b-535",
@@ -99905,7 +100091,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.972,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -99929,10 +100115,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Hollow Point Boat Tail (B-495)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.86 g and 75 gr."
+      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.86 g and 75 gr. lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Hollow Point Boat Tail (B-495)."
     },
     {
       "id": "prvi-partizan-b-046",
@@ -100389,7 +100581,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.125,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -100413,10 +100605,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.125 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 145 gr, Full Metal Jacket Boat Tail (B-119)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 9.40 g and 145 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 9.40 g and 145 gr. lengthIn 1.125 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 145 gr, Full Metal Jacket Boat Tail (B-119)."
     },
     {
       "id": "prvi-partizan-b-099",
@@ -100742,7 +100940,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.243,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -100766,10 +100964,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.243 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-363)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 10.90 g and 168 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 10.90 g and 168 gr. lengthIn 1.243 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-363)."
     },
     {
       "id": "prvi-partizan-b-496",
@@ -100787,7 +100991,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.193,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -100811,10 +101015,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.193 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-496)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 30. Weight printed as 10.90 g and 168 gr."
+      "notes": "Rifle match bullet search for caliber 30. Weight printed as 10.90 g and 168 gr. lengthIn 1.193 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-496)."
     },
     {
       "id": "prvi-partizan-b-200",
@@ -100874,7 +101084,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.305,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -100898,10 +101108,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.305 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 174 gr, Full Metal Jacket Boat Tail (B-345)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.30 g and 174 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.30 g and 174 gr. lengthIn 1.305 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 174 gr, Full Metal Jacket Boat Tail (B-345)."
     },
     {
       "id": "prvi-partizan-b-428",
@@ -101008,7 +101224,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.327,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -101032,10 +101248,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.327 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-449)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.34 g and 175 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.34 g and 175 gr. lengthIn 1.327 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-449)."
     },
     {
       "id": "prvi-partizan-b-500",
@@ -101053,7 +101275,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.308,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -101077,10 +101299,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.308 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-500)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 30. Weight printed as 11.34 g and 175 gr."
+      "notes": "Rifle match bullet search for caliber 30. Weight printed as 11.34 g and 175 gr. lengthIn 1.308 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-500)."
     },
     {
       "id": "prvi-partizan-b-592",
@@ -101367,7 +101595,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.001,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -101391,10 +101619,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.001 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Soft Point Boat Tail (B-382)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 303. Weight printed as 9.70 g and 150 gr."
+      "notes": "Rifle bullet search for caliber 303. Weight printed as 9.70 g and 150 gr. lengthIn 1.001 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Soft Point Boat Tail (B-382)."
     },
     {
       "id": "prvi-partizan-b-437",
@@ -103764,7 +103998,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.321,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -103788,10 +104022,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.321 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 198 gr, Full Metal Jacket Boat Tail (B-001)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 8 mm. Weight printed as 12.85 g and 198 gr."
+      "notes": "Rifle bullet search for caliber 8 mm. Weight printed as 12.85 g and 198 gr. lengthIn 1.321 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 198 gr, Full Metal Jacket Boat Tail (B-001)."
     },
     {
       "id": "prvi-partizan-b-022",
@@ -104785,7 +105025,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.224,
-      "lengthIn": null,
+      "lengthIn": 1.024,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -104810,10 +105050,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.024 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Gamehead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.024 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Gamehead."
     },
     {
       "id": "sako-235a",
@@ -104841,7 +105087,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.224,
-      "lengthIn": null,
+      "lengthIn": 1.033,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -104865,10 +105111,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.033 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Super Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.033 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Super Hammerhead."
     },
     {
       "id": "sako-656a",
@@ -105060,7 +105312,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.269,
-      "lengthIn": null,
+      "lengthIn": 1.114,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -105084,10 +105336,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.114 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 11.7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 11.7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.114 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Hammerhead."
     },
     {
       "id": "sako-236a",
@@ -105115,7 +105373,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.269,
-      "lengthIn": null,
+      "lengthIn": 1.178,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -105139,10 +105397,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.178 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Super Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.178 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Super Hammerhead."
     },
     {
       "id": "sako-227a",
@@ -105170,7 +105434,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": 0.299,
-      "lengthIn": null,
+      "lengthIn": 1.233,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -105194,10 +105458,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sako",
           "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.233 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Hammerhead."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 13g/200gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+      "notes": "Weight printed as 13g/200gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag. lengthIn 1.233 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Hammerhead."
     },
     {
       "id": "sako-228a",
@@ -105989,7 +106259,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.752,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -106012,10 +106282,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2903. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,259."
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2903. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,259. lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338272",
@@ -106043,7 +106319,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.741,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -106066,10 +106342,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.741 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Soft Point."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2914. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,207."
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2914. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,207. lengthIn 0.741 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Soft Point."
     },
     {
       "id": "sellier-bellot-v338332",
@@ -106637,7 +106919,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.1,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -106660,10 +106942,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 147 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 147 grs and 9,55 g. Bullet No 2908. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+      "notes": "Weight printed as 147 grs and 9,55 g. Bullet No 2908. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308. lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 147 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338782",
@@ -107117,7 +107405,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.27,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -107140,10 +107428,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2957. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,498."
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2957. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,498. lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338702",
@@ -107226,7 +107520,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.142,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -107249,10 +107543,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.142 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Soft Point."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2937. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,298."
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2937. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,298. lengthIn 1.142 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Soft Point."
     },
     {
       "id": "sellier-bellot-v339722",
@@ -107922,7 +108222,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.244,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -107945,10 +108245,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.244 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2905. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,263."
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2905. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,263. lengthIn 1.244 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338572",

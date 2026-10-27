@@ -1257,7 +1257,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.752,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1280,10 +1280,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2903. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,259."
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2903. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,259. lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338322",
@@ -1365,7 +1371,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.244,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1388,10 +1394,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.244 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2905. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,263."
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2905. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,263. lengthIn 1.244 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v339132",
@@ -1635,7 +1647,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.1,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1658,10 +1670,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 147 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 147 grs and 9,55 g. Bullet No 2908. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+      "notes": "Weight printed as 147 grs and 9,55 g. Bullet No 2908. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308. lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 147 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v338782",
@@ -1743,7 +1761,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.27,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1766,10 +1784,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Full Metal Jacket."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2957. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,498."
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2957. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,498. lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Full Metal Jacket."
     },
     {
       "id": "sellier-bellot-v339052",
@@ -2229,7 +2253,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.741,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2252,10 +2276,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.741 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Soft Point."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2914. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,207."
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2914. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,207. lengthIn 0.741 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Soft Point."
     },
     {
       "id": "sellier-bellot-v338372",
@@ -2823,7 +2853,7 @@
       "bcSource": "manufacturer",
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.142,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2846,10 +2876,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sellier & Bellot",
           "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.142 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Soft Point."
         }
       ],
       "conflicts": [],
-      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2937. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,298."
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2937. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,298. lengthIn 1.142 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Soft Point."
     },
     {
       "id": "sellier-bellot-v338942",

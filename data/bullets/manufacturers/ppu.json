@@ -65,7 +65,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.811,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -89,10 +89,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.811 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 62 gr, Full Metal Jacket Boat Tail (B-419)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 4.00 g and 62 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 4.00 g and 62 gr. lengthIn 0.811 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 62 gr, Full Metal Jacket Boat Tail (B-419)."
     },
     {
       "id": "prvi-partizan-b-616",
@@ -245,7 +251,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.532,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -268,10 +274,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.532 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.222, weight 45 gr, Soft Point (B-193)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 2.90 g and 45 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 2.90 g and 45 gr. lengthIn 0.532 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.222, weight 45 gr, Soft Point (B-193)."
     },
     {
       "id": "prvi-partizan-b-032",
@@ -289,7 +301,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.63,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -312,10 +324,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.63 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Soft Point (B-032)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 22. Weight printed as 3.24 g and 50 gr."
+      "notes": "Rifle bullet search for caliber 22. Weight printed as 3.24 g and 50 gr. lengthIn 0.63 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Soft Point (B-032)."
     },
     {
       "id": "prvi-partizan-b-132",
@@ -1925,7 +1943,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.327,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1949,10 +1967,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.327 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-449)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.34 g and 175 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.34 g and 175 gr. lengthIn 1.327 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-449)."
     },
     {
       "id": "prvi-partizan-b-119",
@@ -1970,7 +1994,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.125,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1994,10 +2018,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.125 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 145 gr, Full Metal Jacket Boat Tail (B-119)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 9.40 g and 145 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 9.40 g and 145 gr. lengthIn 1.125 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 145 gr, Full Metal Jacket Boat Tail (B-119)."
     },
     {
       "id": "prvi-partizan-b-009",
@@ -2105,7 +2135,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.305,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2129,10 +2159,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.305 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 174 gr, Full Metal Jacket Boat Tail (B-345)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.30 g and 174 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 11.30 g and 174 gr. lengthIn 1.305 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 174 gr, Full Metal Jacket Boat Tail (B-345)."
     },
     {
       "id": "prvi-partizan-b-366",
@@ -2414,7 +2450,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.243,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2438,10 +2474,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.243 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-363)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 30. Weight printed as 10.90 g and 168 gr."
+      "notes": "Rifle bullet search for caliber 30. Weight printed as 10.90 g and 168 gr. lengthIn 1.243 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-363)."
     },
     {
       "id": "prvi-partizan-b-273",
@@ -3078,7 +3120,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.001,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3102,10 +3144,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.001 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Soft Point Boat Tail (B-382)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 303. Weight printed as 9.70 g and 150 gr."
+      "notes": "Rifle bullet search for caliber 303. Weight printed as 9.70 g and 150 gr. lengthIn 1.001 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Soft Point Boat Tail (B-382)."
     },
     {
       "id": "prvi-partizan-b-125",
@@ -3303,7 +3351,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.321,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3327,10 +3375,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.321 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 198 gr, Full Metal Jacket Boat Tail (B-001)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle bullet search for caliber 8 mm. Weight printed as 12.85 g and 198 gr."
+      "notes": "Rifle bullet search for caliber 8 mm. Weight printed as 12.85 g and 198 gr. lengthIn 1.321 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 198 gr, Full Metal Jacket Boat Tail (B-001)."
     },
     {
       "id": "prvi-partizan-b-564",
@@ -4100,7 +4154,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.928,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -4124,10 +4178,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.928 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Hollow Point Boat Tail (B-399)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.47 g and 69 gr."
+      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.47 g and 69 gr. lengthIn 0.928 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Hollow Point Boat Tail (B-399)."
     },
     {
       "id": "prvi-partizan-b-495",
@@ -4145,7 +4205,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.972,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -4169,10 +4229,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Hollow Point Boat Tail (B-495)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.86 g and 75 gr."
+      "notes": "Rifle match bullet search for caliber 22. Weight printed as 4.86 g and 75 gr. lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Hollow Point Boat Tail (B-495)."
     },
     {
       "id": "prvi-partizan-b-540",
@@ -4280,7 +4346,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.308,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -4304,10 +4370,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.308 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-500)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 30. Weight printed as 11.34 g and 175 gr."
+      "notes": "Rifle match bullet search for caliber 30. Weight printed as 11.34 g and 175 gr. lengthIn 1.308 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Full Metal Jacket Boat Tail (B-500)."
     },
     {
       "id": "prvi-partizan-b-496",
@@ -4325,7 +4397,7 @@
       "bcSource": null,
       "bcUnlabeled": null,
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.193,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -4349,10 +4421,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Prvi Partizan",
           "notes": "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. Weight is stored from the grains column. The gram column is quoted in notes. The site footer is a copyright notice. No separate terms page was found."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.193 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-496)."
         }
       ],
       "conflicts": [],
-      "notes": "Rifle match bullet search for caliber 30. Weight printed as 10.90 g and 168 gr."
+      "notes": "Rifle match bullet search for caliber 30. Weight printed as 10.90 g and 168 gr. lengthIn 1.193 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Hollow Point Boat Tail (B-496)."
     },
     {
       "id": "prvi-partizan-b-497",
