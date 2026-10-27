@@ -24,6 +24,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-65mm-140gr.json` | 26 | 26 | 0 |
 | `community-berger-elite-hunter-65mm-156gr.json` | 113 | 102 | 11 |
 | `community-berger-elite-hunter-270cal-170gr.json` | 47 | 38 | 9 |
+| `community-berger-elite-hunter-7mm-175gr.json` | 102 | 100 | 2 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -65,6 +66,13 @@ The 170 gr file's strings `270 Win`, `270 win`, `270 wsm`, `270wsm`, and `6.8 We
 | 2 | `270-7PRC` | None | No library cartridge. 270vld's wildcat on a 7 PRC case. Do not map it to 7mm PRC. |
 | 2 | `270/ 7RUM` | None | No library cartridge. Darkside's reamer name. The thread title is `270 RUM.` Do not map it to 7mm Remington Ultra Magnum. |
 | 2 | `270/338 RUM` | None | No library cartridge. yorketransport also writes `27/338 RUM improved` for the same barrels. Do not map it to .338 Lapua Magnum or 7mm RUM. |
+
+The 175 gr file's strings `28 Nosler`, `280ai`, `7 PRC`, `7PRC`, `7mm PRC`, `7 SAUM`, `7 saum`, `7 WSM`, `7wsm`, and `7mm Rem Mag` already resolve. These do not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 1 | `28N` | 28 Nosler | No. rhovee's shorthand in the 28 Nosler thread. Alias `28 Nosler` keeps the full word. |
+| 1 | `7RM` | 7mm Remington Magnum | No. Same gap as `7 RM`. The post is a 7mm Remington Magnum load. |
 
 `25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
 
@@ -249,6 +257,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 5. From the 156 gr file, leave `6.5 Sherman max` and `26 Nosler` unmatched until the library has those cartridges. On 6.5-284 Norma, an alias `6.5x284 Norma +P` matches the `.300 PRC` / `300 PRC +P` treatment. Do not alias bare `prc`, bare `Creedmoor`, or the `creedmoore` typo. Leave `6.5/260` unmatched.
 6. `6mm BR / BRA / Dasher variants` currently joins 6mm Norma BR because only the `6mm BR` piece matches. That join is wrong. Do not add an alias for the whole string. A resolver change that refuses a single-piece win when another ` / ` piece is unmatched would leave this string unresolved. Do not make that change from this bot.
 7. From the 170 gr file, leave `27 Nosler`, `270-7PRC`, `270/ 7RUM`, and `270/338 RUM` unmatched until the library has those cartridges. Do not map them onto a nearby Nosler, PRC, or RUM.
+8. From the 175 gr file, on 28 Nosler add alias `28N`. On 7mm Remington Magnum add alias `7RM`, the same kind of fix as `7 RM`.
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
