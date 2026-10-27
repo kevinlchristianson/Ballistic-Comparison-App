@@ -30,6 +30,7 @@ function render(data: AppData): void {
   clear(nav);
   nav.append(...ROUTES.map((r) => h("a", { href: `#${r.id}`, class: r.id === id ? "active" : "", "aria-current": r.id === id ? "page" : null }, r.label)));
   clear(main);
+  main.classList.toggle("wide", id === "loads");
   main.append(ROUTES.find((r) => r.id === id)!.view(data));
   window.scrollTo(0, 0);
 }

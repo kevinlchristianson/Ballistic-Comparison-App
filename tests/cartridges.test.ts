@@ -66,3 +66,29 @@ describe("alias resolution", () => {
     expect(idx.collisions.get("samename")).toEqual(["a", "b"]);
   });
 });
+
+describe("forum shorthand", () => {
+  const index = buildAliasIndex((libJson as unknown as CartridgeLibrary).cartridges);
+  it.each([
+    ["6 creed", "6mm-creedmoor"],
+    ["6 CM", "6mm-creedmoor"],
+    ["6xc", "6xc"],
+    ["6mm creedmoor", "6mm-creedmoor"],
+    ["6.5 cm", "6-5-creedmoor"],
+    ["300 WM", "300-win-mag"],
+    ["7mm RM", "7mm-rem-mag"],
+    ["7 mag", "7mm-rem-mag"],
+    ["338 LM", "338-lapua"],
+    ["300 NM", "300-norma-mag"],
+    ["300 BLK", "300-blackout"],
+    ["30-06 Springfield", "30-06"],
+    ["7 PRC", "7mm-prc"],
+    ["6.5 Swede", "6-5x55-swedish"],
+  ])("%s -> %s", (name, id) => {
+    expect(resolveCartridge(name, index)).toBe(id);
+  });
+
+  it("keeps the library free of ambiguous keys", () => {
+    expect([...index.collisions.keys()]).toEqual([]);
+  });
+});

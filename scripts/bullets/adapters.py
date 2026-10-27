@@ -2858,6 +2858,200 @@ def scrape_rmr() -> dict:
     return catalog("Rocky Mountain Reloading", bullets)
 
 
+SB_BULLETS = "https://www.sellier-bellot.cz/en/products/components/bullets/"
+_SB_LINES = {"EDGE", "TXRG", "SPCE"}
+
+
+def _sb_rifle_rows(page: str) -> list[list[str]]:
+    start = page.find("<h2>Bullets for rifle cartridges</h2>")
+    if start < 0:
+        raise RuntimeError("Sellier & Bellot rifle component table was not found")
+    table = page[start:page.find("</table>", start)]
+    rows = []
+    for row in re.findall(r"<tr>(.*?)</tr>", table, flags=re.S):
+        cells = [strip_html(cell) for cell in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S)]
+        if len(cells) < 9:
+            continue
+        rows.append(cells)
+    if not rows:
+        raise RuntimeError("Sellier & Bellot rifle component table had no data rows")
+    return rows
+
+
+def _sb_bullet(cells: list[str]) -> dict:
+    product, bullet_no, kind, grains, grams, caliber, dia_mm, dia_in, g1 = cells[:9]
+    weight = as_number(parse_number(grains))
+    if weight is None:
+        raise RuntimeError(f"Sellier & Bellot {product} has no grain weight")
+    bullet = blank_bullet(
+        "Sellier & Bellot",
+        f"{kind} {weight} gr",
+        SB_BULLETS,
+        "Sellier & Bellot",
+        "Rifle component row from the Czech Sellier & Bellot component table. "
+        "The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used.",
+    )
+    bullet["sku"] = product or None
+    if kind in _SB_LINES:
+        bullet["productLine"] = kind
+    bullet["caliber"] = caliber or None
+    bullet["weightGr"] = weight
+    add_construction(bullet, kind)
+    add_bc(bullet, "G1", g1, "manufacturer", SB_BULLETS, "G1")
+    diameter = parse_number(dia_in)
+    if diameter is not None and 0.17 <= diameter <= 0.80:
+        bullet["diameterIn"] = as_number(diameter)
+    notes = [
+        f"Weight printed as {grains} grs and {grams} g.",
+        f"Bullet No {bullet_no}.",
+    ]
+    if bullet["diameterIn"] is not None:
+        notes.append(
+            f"Diameter {bullet['diameterIn']} copied from the printed inch column {dia_in}. "
+            f"The row also prints {dia_mm} mm."
+        )
+    else:
+        notes.append(f"Inch diameter cell printed as {dia_in or 'blank'}. Millimeter cell printed as {dia_mm}.")
+    if g1:
+        notes.append(f"G1 printed as {g1}.")
+    if caliber and "*" in caliber:
+        notes.append(f"Caliber is printed as {caliber}. The page does not explain the asterisk.")
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_sellier_bellot() -> dict:
+    """Rifle component bullets from the Czech Sellier & Bellot table.
+
+    sellierbellot.us forbids copying that site. The Czech component page
+    has no terms page and no reproduction ban. Pistol rows are omitted.
+    """
+    print("sellier-bellot: Czech rifle component table")
+    page = fetch_text(SB_BULLETS)
+    bullets = [_sb_bullet(cells) for cells in _sb_rifle_rows(page)]
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Sellier & Bellot", bullets)
+
+
+def scrape_remington() -> dict:
+    raise TermsForbid(
+        "remington: The Remington orders page (https://www.remington.com/orders.html) "
+        "prints The Kinetic Group terms. They forbid copying product information and "
+        "forbid robots or data gathering. The about page names Remington as a Kinetic Group brand. "
+        "No rows were fetched."
+    )
+
+
+ACB_PRODUCTS = "https://americancopperbulletscorp.com/wp-json/wc/store/v1/products?per_page=100"
+ACB_ADVANTAGES = "https://americancopperbulletscorp.com/copper-advantages/"
+_ACB_RIFLE = ".223 Solid Copper Boat Tail (55g)"
+_ACB_COUNT = re.compile(r"\s*\(([\d,]+)\s*Count\)\s*$", flags=re.I)
+_ACB_GRAIN = re.compile(
+    r"tolerance on all projectiles of \+/- 1 grain",
+    flags=re.I,
+)
+
+
+def _acb_rifle_bullet(products: list[dict], advantages: str) -> dict:
+    """One row for the .223 solid. Pack counts are the same bullet."""
+    packs: list[tuple[int, str]] = []
+    for product in products:
+        name = strip_html(product.get("name"))
+        base = _ACB_COUNT.sub("", name).strip()
+        if base != _ACB_RIFLE:
+            continue
+        text = strip_html(
+            f"{product.get('short_description') or ''} {product.get('description') or ''}"
+        )
+        if re.search(r"\b(bc|g1|g7|length|diameter)\b", text, flags=re.I):
+            raise RuntimeError(f"american-copper: {name} prints a spec the adapter does not store")
+        count = _ACB_COUNT.search(name)
+        if count is None:
+            raise RuntimeError(f"american-copper: {name} has no pack count")
+        permalink = product.get("permalink") or ""
+        packs.append((int(count.group(1).replace(",", "")), permalink))
+    if not packs:
+        raise RuntimeError("american-copper: the .223 rifle bullet was not on the shop")
+    packs.sort()
+    permalink = next((url for _count, url in packs if url.rstrip("/").endswith("55g")), packs[0][1])
+    bullet = blank_bullet(
+        "American Copper Bullets",
+        _ACB_RIFLE,
+        permalink,
+        "American Copper Bullets",
+        "WooCommerce product for the .223 solid copper boat tail. "
+        "Pack counts of this bullet are one row. Handgun products and Coming Soon "
+        "placeholders are omitted. copperonlyprojectiles.com does not resolve. "
+        "Opal Ammunition of Wyoming is loaded pistol ammunition and was not copied.",
+    )
+    bullet["caliber"] = ".223"
+    bullet["material"] = "copper"
+    add_construction(bullet, _ACB_RIFLE)
+    grain = _ACB_GRAIN.search(strip_html(advantages))
+    notes = [
+        "Weight is printed as 55g.",
+        "No length or ballistic coefficient is printed on the product page.",
+        "Pack counts "
+        + ", ".join(f"{count:,}" for count, _url in packs)
+        + " are the same bullet and are not stored.",
+    ]
+    if grain:
+        bullet["weightGr"] = 55
+        notes.insert(
+            1,
+            "The advantages page says American Copper Bullets have a tolerance on all "
+            "projectiles of +/- 1 grain, so the printed 55g is 55 grains.",
+        )
+        bullet["sources"].append(
+            {
+                "url": ACB_ADVANTAGES,
+                "retrievedOn": RETRIEVED_ON,
+                "publisher": "American Copper Bullets",
+                "notes": "Site-wide weight tolerance printed as +/- 1 grain.",
+            }
+        )
+    else:
+        notes.insert(1, "The advantages page did not print a grain tolerance, so weightGr is null.")
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_american_copper() -> dict:
+    """Rifle component bullet from the American Copper Bullets shop.
+
+    The footer is a copyright notice. No terms page was found. Handgun
+    rows and Coming Soon placeholders are omitted.
+    """
+    print("american-copper: store products")
+    products = json.loads(fetch_text(ACB_PRODUCTS))
+    if not isinstance(products, list):
+        raise RuntimeError("american-copper: store response was not a product list")
+    time.sleep(0.5)
+    advantages = fetch_text(ACB_ADVANTAGES)
+    bullet = _acb_rifle_bullet(products, advantages)
+    print(f"  rifle component bullets: 1 ({bullet['name']})")
+    return catalog("American Copper Bullets", [bullet])
+
+
+def scrape_winchester() -> dict:
+    raise TermsForbid(
+        "winchester: The Winchester terms (https://winchester.com/Terms-Of-Use) "
+        "are Olin Corporation terms. They prohibit copying, reproducing, or publishing "
+        "any website content without Olin's express prior written permission. "
+        "No rows were fetched."
+    )
+
+
+def scrape_fiocchi() -> dict:
+    raise TermsForbid(
+        "fiocchi: The Fiocchi terms (https://fiocchi.com/en/terms-and-conditions) "
+        "allow only private, non-commercial, temporary copies of site content. "
+        "Reproduction for economic purposes needs the company's express authorization. "
+        "No rows were fetched. fiocchiusa.com publishes loaded ammunition, not a "
+        "component-bullet specification table, and was not used."
+    )
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -2891,4 +3085,9 @@ ADAPTERS = {
     "ppu": scrape_ppu,
     "sako": scrape_sako,
     "rmr": scrape_rmr,
+    "sellier-bellot": scrape_sellier_bellot,
+    "fiocchi": scrape_fiocchi,
+    "winchester": scrape_winchester,
+    "remington": scrape_remington,
+    "american-copper": scrape_american_copper,
 }
