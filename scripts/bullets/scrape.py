@@ -78,6 +78,7 @@ SOURCES: tuple[Source, ...] = (
     Source("american-copper", "American Copper Bullets", "https://americancopperbulletscorp.com/wp-json/wc/store/v1/products?per_page=100", "boutique", "One .223 solid copper boat tail. Pack counts are the same bullet. Handgun rows and Coming Soon placeholders are omitted. The footer is a copyright notice. copperonlyprojectiles.com does not resolve."),
     Source("bear-creek", "Bear Creek Ballistics", "https://www.bearcreekballistics.com/bullets", "boutique", "In-house copper component bullets. HV and AR profiles are separate rows. Pack counts are not. Loaded ammunition is omitted. The terms do not forbid copying specifications."),
     Source("hawk", "Hawk Bullets", "https://hawkbullets.com/bullet-selection.html", "boutique", "Rifle rows from the master list. Diameter is the heading's dia. value. Jacket thickness is not a diameter. The pistol section, 50 AE, and 500 S&W are omitted. The footer is a copyright notice."),
+    Source("maker", "Maker Bullets", "https://makerbullets.com/products.php?cat=3&scri=43", "boutique", "Rifle-filtered solid copper component bullets. The Ballistic Coefficient column has no G1 or G7 label. A zero specification cell is not stored. Pistol, handgun, and shotgun filters are omitted. The terms page is a purchase agreement."),
     Source(
         "loaddevelopment",
         "LoadDevelopment.com",

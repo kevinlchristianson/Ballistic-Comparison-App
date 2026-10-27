@@ -9,6 +9,7 @@ the page that was retrieved.
 from __future__ import annotations
 
 import html
+import http.client
 import json
 import re
 import time
@@ -76,7 +77,12 @@ def fetch(url: str, headers: dict | None = None, timeout: int = 45, retries: int
             last_error = exc
             if exc.code not in {429, 500, 502, 503, 504} or attempt == retries - 1:
                 raise
-        except (urllib.error.URLError, TimeoutError) as exc:
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            http.client.IncompleteRead,
+            http.client.RemoteDisconnected,
+        ) as exc:
             last_error = exc
             if attempt == retries - 1:
                 raise
@@ -3477,6 +3483,252 @@ def scrape_hawk() -> dict:
     return payload
 
 
+MAKER_LIST = "https://makerbullets.com/products.php?cat=3&scri=43&perpage=5"
+MAKER_TERMS = "https://makerbullets.com/terms.php"
+_MAKER_DELAY = 10.0
+
+
+def _maker_spec_table(html: str) -> dict[str, str]:
+    for table in re.findall(r"<table\b[\s\S]*?</table>", html, flags=re.I):
+        if "Grain Weight" not in table:
+            continue
+        specs: dict[str, str] = {}
+        for row in re.findall(r"<tr\b[\s\S]*?</tr>", table, flags=re.I):
+            cells = [strip_html(cell) for cell in re.findall(r"<td\b[\s\S]*?</td>", row, flags=re.I)]
+            if len(cells) >= 2 and cells[0]:
+                specs[cells[0]] = cells[1]
+        return specs
+    return {}
+
+
+def _maker_spec(specs: dict[str, str], pattern: str) -> tuple[str, str]:
+    for key, value in specs.items():
+        if re.search(pattern, key, flags=re.I):
+            return key, value
+    return "", ""
+
+
+def _maker_positive(cell: str, maximum: float) -> float | None:
+    if not cell or re.search(r"\bmm\b", cell, flags=re.I):
+        return None
+    value = parse_number(cell)
+    if value is None or value <= 0 or value > maximum:
+        return None
+    return value
+
+
+def _maker_product_ids() -> list[str]:
+    ids: list[str] = []
+    seen: set[str] = set()
+    page = 1
+    while page <= 20:
+        url = MAKER_LIST if page == 1 else f"{MAKER_LIST}&pg={page}"
+        if page > 1:
+            time.sleep(_MAKER_DELAY)
+        try:
+            html = fetch_text(url)
+        except Exception as exc:  # noqa: BLE001 - a missing page ends the list
+            print(f"  rifle list page {page}: {exc}")
+            break
+        found = re.findall(r"proddetail\.php\?prod=([^\"&#]+)", html)
+        added = 0
+        for prod in found:
+            if prod in seen:
+                continue
+            seen.add(prod)
+            ids.append(prod)
+            added += 1
+        print(f"  rifle list page {page}: {added} new")
+        linked = [int(number) for number in re.findall(r"[?&]pg=(\d+)", html)]
+        if added == 0 or (linked and page >= max(linked)):
+            break
+        page += 1
+    return ids
+
+
+def _maker_bullet(prod: str, html: str) -> dict | None:
+    url = f"https://makerbullets.com/proddetail.php?prod={prod}"
+    title = re.search(r'itemprop="name">(.*?)</h1>', html, flags=re.S)
+    full_name = strip_html(title.group(1) if title else "")
+    if not full_name:
+        return None
+    if re.search(r"shot\s*gun|shotshell|\bairgun\b|\bair\s*gun\b|\bair\s*rifle\b", full_name, flags=re.I):
+        return None
+    if re.search(r"loaded ammunition|loaded ammo", full_name, flags=re.I) and not re.search(
+        r"not loaded", full_name, flags=re.I
+    ):
+        return None
+    grain = re.search(r"\d+(?:\.\d+)?\s*Grains?\b.*", full_name, flags=re.I)
+    name = re.split(r"\s*\(Box Qty|\s*!{2,}", grain.group(0) if grain else full_name, maxsplit=1)[0].strip()
+    while True:
+        cleaned = re.sub(
+            r"\s*(?:\((?:qty\b[^)]*|ea(?:\s*,\s*bulk pack)?|each)\)|sold as single unit(?:\s*\(ea\))?)\s*$",
+            "",
+            name,
+            flags=re.I,
+        ).strip()
+        if cleaned == name:
+            break
+        name = cleaned
+    sku_match = re.search(r'itemprop="sku">([^<]+)', html)
+    sku = strip_html(sku_match.group(1) if sku_match else "")
+    description_match = re.search(r'id="ecttab1Panel"(.*?)<div id="ecttab2Panel"', html, flags=re.S)
+    description = strip_html(description_match.group(1) if description_match else "")
+    specs = _maker_spec_table(html)
+    _weight_label, weight_cell = _maker_spec(specs, r"grain weight")
+    _dia_label, dia_cell = _maker_spec(specs, r"bullet diameter")
+    _length_label, length_cell = _maker_spec(specs, r"^length$")
+    _sd_label, sd_cell = _maker_spec(specs, r"sectional density")
+    _bc_label, bc_cell = _maker_spec(specs, r"ballistic coefficient")
+    _twist_label, twist_cell = _maker_spec(specs, r"twist")
+    weight = _maker_positive(weight_cell, 2000)
+    named_weight = re.search(r"(\d+(?:\.\d+)?)\s*grains?\b", name, flags=re.I)
+    notes = [f"The product title is printed as {full_name}."]
+    if weight is None and named_weight:
+        weight = _maker_positive(named_weight.group(1), 2000)
+        if weight is not None:
+            notes.append(
+                f"The Grain Weight cell prints {weight_cell or 'blank'}. "
+                f"weightGr is the grain number in the product name."
+            )
+    if weight is None:
+        return None
+    bullet = blank_bullet(
+        "Maker Bullets",
+        name,
+        url,
+        "Maker Bullets",
+        "Rifle-filtered product page. The Ballistic Coefficient column does not name G1 or G7. "
+        "A zero specification cell is not stored. Pistol, handgun, and shotgun filters were not used. "
+        "Prices and box counts are not stored.",
+    )
+    bullet["weightGr"] = as_number(weight)
+    if _maker_positive(weight_cell, 2000) is not None:
+        notes.append(f"Grain Weight printed as {weight_cell}.")
+    bullet["sku"] = sku or None
+    if prod and prod != sku:
+        notes.append(f"Product ID printed as {prod}.")
+    inch = _INCH_DIAMETER.search(name)
+    if inch:
+        bullet["caliber"] = inch.group(1)
+    diameter = _maker_positive(dia_cell, 1)
+    if diameter is not None:
+        bullet["diameterIn"] = as_number(diameter)
+        notes.append(f"Bullet Diameter printed as {dia_cell}.")
+    elif dia_cell.strip() in {"0", "0.0", "0.00"} or not dia_cell.strip():
+        copied = printed_inch_diameter(name)
+        if copied is not None:
+            bullet["diameterIn"] = as_number(copied)
+            shown = dia_cell.strip() or "blank"
+            notes.append(
+                f"Bullet Diameter cell prints {shown}. "
+                f"Diameter {bullet['diameterIn']} copied from the printed name: {name}."
+            )
+    if length_cell:
+        if re.search(r"\bmm\b", length_cell, flags=re.I):
+            notes.append(f"Length cell printed as {length_cell}. Millimeters are not converted.")
+        else:
+            length = _maker_positive(length_cell, 3)
+            if length is not None:
+                bullet["lengthIn"] = as_number(length)
+                notes.append(f"Length printed as {length_cell}.")
+            elif length_cell.strip() not in {"0", "0.0"}:
+                notes.append(f"Length cell printed as {length_cell}, so lengthIn is null.")
+            else:
+                notes.append("The length cell prints 0, so lengthIn is null.")
+    sd = _maker_positive(sd_cell, 1)
+    if sd is not None:
+        bullet["sectionalDensity"] = as_number(sd)
+        notes.append(f"Sectional density printed as {sd_cell}.")
+    elif sd_cell.strip() in {"0", "0.0", "0.00"}:
+        notes.append("The sectional density cell prints 0, so sectionalDensity is null.")
+    if bc_cell and re.search(r"\d\s*[-–]\s*\.?\d", bc_cell):
+        notes.append(
+            f"Ballistic coefficient printed as {bc_cell}. The cell prints a range, so no single coefficient is stored."
+        )
+    else:
+        bc_value = _maker_positive(bc_cell, 2)
+        if bc_value is not None and re.search(r"\bG7\b", bc_cell):
+            add_bc(bullet, "G7", bc_cell, "manufacturer", url, "G7")
+            notes.append(f"G7 printed as {bc_cell}.")
+        elif bc_value is not None and re.search(r"\bG1\b", bc_cell):
+            add_bc(bullet, "G1", bc_cell, "manufacturer", url, "G1")
+            notes.append(f"G1 printed as {bc_cell}.")
+        elif bc_value is not None:
+            bullet["bcUnlabeled"] = {"value": as_number(bc_value), "label": "Ballistic Coefficient (BC)"}
+            notes.append(
+                f"Ballistic coefficient printed as {bc_cell}. The column does not name G1 or G7."
+            )
+        elif bc_cell.strip() in {"0", "0.0", "0.00"}:
+            notes.append("The ballistic coefficient cell prints 0, so no coefficient is stored.")
+    if re.search(r"1\s*:\s*\d+", twist_cell):
+        set_twist(bullet, twist_cell)
+        notes.append(f"Recommended barrel twist printed as {twist_cell}.")
+    elif twist_cell.strip() in {"0", "0.0", "0.00"}:
+        notes.append("The twist cell prints 0, so twist is null.")
+    line = re.search(r"\bThe Maker ([A-Z]+(?:-[A-Z]+)?) bullets\b", description)
+    if line:
+        bullet["productLine"] = line.group(1)
+    if re.search(r"solid copper", description, flags=re.I) or re.search(r"solid copper", name, flags=re.I):
+        bullet["material"] = "solid copper"
+    add_construction(bullet, description)
+    add_construction(bullet, name)
+    add_uses(bullet, name)
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_maker() -> dict:
+    """Rifle component bullets from Maker Bullets.
+
+    terms.php is a purchase and liability agreement. It does not forbid
+    copying specifications. robots.txt asks for a 10 second crawl delay.
+    The rifle attribute filter is scri=43. A zero specification cell is
+    not a measurement.
+    """
+    print("maker: rifle component bullets")
+    ids = _maker_product_ids()
+    print(f"  product pages: {len(ids)}")
+    bullets = []
+    for prod in ids:
+        time.sleep(_MAKER_DELAY)
+        try:
+            page = fetch_text(f"https://makerbullets.com/proddetail.php?prod={prod}")
+        except Exception as exc:  # noqa: BLE001 - keep the pages that responded
+            print(f"  skip {prod}: {exc}")
+            continue
+        bullet = _maker_bullet(prod, page)
+        if bullet is not None:
+            bullets.append(bullet)
+        if len(bullets) and len(bullets) % 20 == 0:
+            print(f"  kept {len(bullets)}")
+    print(f"  rifle component bullets: {len(bullets)}")
+    folded: dict[str, dict] = {}
+    order: list[dict] = []
+    for bullet in bullets:
+        sku = bullet.get("sku")
+        if not isinstance(sku, str) or not sku.strip():
+            order.append(bullet)
+            continue
+        key = sku.casefold()
+        previous = folded.get(key)
+        if previous is None:
+            folded[key] = bullet
+            order.append(bullet)
+            continue
+        same_bullet = (
+            previous.get("name") == bullet.get("name")
+            and previous.get("weightGr") == bullet.get("weightGr")
+            and previous.get("diameterIn") == bullet.get("diameterIn")
+        )
+        if same_bullet:
+            extra = bullet["sources"][0]["url"]
+            previous["notes"] = f"{previous.get('notes') or ''} Also listed at {extra}.".strip()
+            continue
+        order.append(bullet)
+    return catalog("Maker Bullets", order)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -3517,4 +3769,5 @@ ADAPTERS = {
     "american-copper": scrape_american_copper,
     "bear-creek": scrape_bear_creek,
     "hawk": scrape_hawk,
+    "maker": scrape_maker,
 }
