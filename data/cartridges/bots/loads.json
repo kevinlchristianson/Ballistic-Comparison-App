@@ -66,7 +66,7 @@
       "maxCoal": 3.34,
       "rimDiameter": 0.534,
       "neckLength": null,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 98.4,
       "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
@@ -75,7 +75,7 @@
         "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
         "retrievedOn": "2026-10-27"
       },
-      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints a fireformed case, overflowing to the neck, as 98.4 gr H2O: https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge"
     },
     {
       "id": "33-nosler",

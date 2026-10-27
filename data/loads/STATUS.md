@@ -1,14 +1,24 @@
 # Load-data bot status
 
-Last updated: 2026-10-27 23:10 UTC
+Last updated: 2026-10-27 23:18 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Nothing is being harvested. The Lazzeroni handloader profiles are on main ([#82](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/82)).
+Published case capacity for the cartridges in `data/cartridges/bots/loads.json`. No load harvest is running.
+
+## Case capacity
+
+The bullet bot estimates capacities for cartridges that have none, in its own file, and it is asking the coding agent how to store estimates. This bot does not write estimates, and it does not keep [`comments/2026-10-27-case-capacity-estimates.md`](comments/2026-10-27-case-capacity-estimates.md).
+
+Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". `sources/hammer.json` is not on main, so Hammer's figures wait until that file or the community bot's list lands. A figure that is not an overflow to the mouth stays null, and the bullet bot's estimates cover it.
+
+Nosler's 27 Nosler page prints a fireformed overflow to the neck of 98.4 gr H2O. That number is on the `27-nosler` record in `loads.json`. The project library already has `27-nosler`, so the bot record is left out of the merge and the live capacity stays null. This bot does not edit `data/cartridges/cartridges.json`. Nosler load sheets print "CASE HOLDS" as water under a seated bullet (24 Nosler 85/90 gr sheet 26.5 gr, 26 Nosler 123/125 gr sheet 95.0 gr, 33 Nosler 300 gr sheet 76.8 gr). The 26 Nosler cartridge page prints a useable capacity of 93 gr. Those are not overflow to the mouth, so they are not stored. The Lazzeroni handloader profiles do not print a water capacity. The other cartridges in `loads.json` have no maker overflow figure, so they stay null.
 
 ## Next
+
+The community bot's status file is [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md). It is not in the tree yet. The unmatched community cartridge names handed over with it are still open.
 
 1. Hodgdon pistol loads, then shotshells. The rifle list is already complete (318 cartridges in [#74](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/74)). Pistol and shotshell were left out of that file.
 2. Shooters World stays paused until the website's own column labels confirm grains and feet per second. See [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
