@@ -1,6 +1,6 @@
 # Load cartridge names the library does not resolve
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Cartridge names in the load files with no library id
 
@@ -33,7 +33,7 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 
 ### Cartridges absent from the library
 
-232 names, after the four Nosler cartridges above resolve. A cell is the number of load records. An empty cell is zero. The list is this snapshot, with the spellings above left out. `python3 scripts/loads/missing_cartridges.py` prints it again after the next Hodgdon normalize. The Hodgdon rifle fetch is still running. Handgun names stay in this list and stay out of `loads.json`.
+226 names remain after the cartridges and aliases in `bots/loads.json` resolve. A cell is the number of load records. An empty cell is zero. The list is this snapshot, with the spellings above left out. `python3 scripts/loads/missing_cartridges.py` prints it again after the next Hodgdon normalize. The Hodgdon rifle fetch is still running. Handgun names stay in this list and stay out of `loads.json`. Rifle names still here have no dimension page cited in this pass.
 
 | Cartridge | community-245gr-30cal | community-berger-elite-hunter-25cal-133gr | community-berger-elite-hunter-270cal-170gr | community-berger-elite-hunter-30cal-180gr | community-berger-elite-hunter-30cal-205gr | community-berger-elite-hunter-30cal-217gr | community-berger-elite-hunter-30cal-245gr | community-berger-elite-hunter-338cal-250gr | community-berger-elite-hunter-338cal-300gr | community-berger-elite-hunter-65mm-140gr | community-berger-elite-hunter-65mm-156gr | community-berger-elite-hunter-6mm-108gr | community-berger-elite-hunter-7mm-175gr | community-berger-elite-hunter-7mm-195gr | hodgdon | shootersworld | vihtavuori | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -47,8 +47,6 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 | 45 Colt |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 422 | 31 |  | 453 |
 | 9 mm Luger / 9x19 mm |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 446 | 446 |
 | 10mm Auto |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 325 | 54 |  | 379 |
-| 7mm Rem. S.A. Ultra Mag. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 358 |  |  | 358 |
-| 22 ARC |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 334 |  |  | 334 |
 | 9mm Luger +P |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 333 |  |  | 333 |
 | 500 S&W Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 310 |  |  | 310 |
 | 22 GT |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 306 |  |  | 306 |
@@ -56,14 +54,12 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 | 6 x 45mm (6mm-223) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 264 |  |  | 264 |
 | 41 Remington Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 253 | 8 |  | 261 |
 | 380 Auto |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 232 | 20 |  | 252 |
-| 300 Ruger Compact Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 250 |  |  | 250 |
 | 357 SIG |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 209 | 40 |  | 249 |
 | 327 Federal Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 244 |  |  | 244 |
 | 38 Special +P |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 238 | 4 |  | 242 |
 | .45 Auto / .45 ACP |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 224 | 224 |
 | 44 S&W Special |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 220 |  |  | 220 |
 | .38 Special |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 212 | 212 |
-| 300 Remington S.A. Ultra Mag. |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 201 |  |  | 201 |
 | 32 H&R Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 196 |  |  | 196 |
 | 460 S&W MAGNUM |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 192 |  |  | 192 |
 | 45 Colt (Ruger, Freedom Arms & T/C only) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 190 |  |  | 190 |
@@ -79,8 +75,6 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 | 7.62 x 54R |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 130 |  |  | 130 |
 | 6.5mm BR |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 128 |  |  | 128 |
 | 45 GAP (Glock Auto) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 126 |  |  | 126 |
-| 6.5 WBY RPM |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 124 |  |  | 124 |
-| 30 AR Remington |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 122 |  |  | 122 |
 | 357 Magnum |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 120 |  | 120 |
 | 7mm IHMSA |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 118 |  |  | 118 |
 | 7,62 x 53R (7,62 Russian) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 112 | 112 |
@@ -270,15 +264,20 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 | 7SS |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  |  |  | 1 |
 | 9mm +P |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  | 1 |
 
-## Working assumption until answered
+## Decision
 
-Keep every cartridge string as published. Do not map 24, 26, 27, or 33 Nosler onto 22, 28, or 30 Nosler. The rows stay in the load files. The app already quarantines a name it cannot resolve.
+Keep every cartridge string as published. 24, 26, 27, and 33 Nosler each have their own library id. The rows stay in the load files. The app quarantines a name it cannot resolve.
 
 ## Answer
 
-Answered in part on 2026-10-27. `BOTS.md` after PR #55 says to add these in `data/cartridges/bots/loads.json`.
+Answered on 2026-10-27. `BOTS.md` after PR #55 says to add these in `data/cartridges/bots/loads.json`.
 
-24, 26, 27, and 33 Nosler are in that file. 26, 27, and 33 Nosler are copied from the cartridge drawings in ANSI/SAAMI Z299.4-2025. 24 Nosler is not in that PDF. Its case length, COAL, bullet-diameter range, head diameter, and 55,000 psi MAP are the figures printed by the SAAMI Rifle Cartridge Catalog at The Ballistic Assistant. Nosler's own 55 gr load sheet prints `6mm (.243")` and maximum SAAMI O.A.C.L. `2.260"`, which agrees on the overall length. Trim length is left null because the printed trim figures disagree (1.580 and 1.590).
+24, 26, 27, and 33 Nosler, 22 Advanced Rifle Cartridge, 300 Ruger Compact Magnum, 6.5 Weatherby Rebated Precision Magnum, and 30 Remington AR are in that file. 26, 27, and 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, and 30 Remington AR are copied from the cartridge drawings in ANSI/SAAMI Z299.4-2025 (PDF dated 2026-04-27). Stored lengths are the drawing maxima (the number before the minus tolerance). COAL is the printed maximum. Transducer MAP is the psi/100 column times 100 (piezo). Those drawings print crusher as not established, so no CUP is stored. Trim length, neck length, and water capacity are null.
 
-Those four names now resolve. 674 load rows that did not resolve before do now: Hodgdon 666, community 8, Vihtavuori 0, Shooters World 0. Handgun names and the other absent rifle names are still open.
+24 Nosler has no drawing in that PDF. Its max case 1.600, COAL 2.135 to 2.260, bullet diameter .2435 to .2415, head diameter .378, and MAP 55,000 psi are the figures printed by the SAAMI Rifle Cartridge Catalog at The Ballistic Assistant. The stored bullet diameter is .2435, the high figure of that printed range, and the stored COAL is 2.260. Nosler's 55 gr load sheet prints `6mm (.243")` and maximum SAAMI O.A.C.L. `2.260"`. Trim length is null: the catalog prints 1.580, and Hodgdon and Handloader print 1.590.
 
+7mm Remington Short Action Ultra Magnum and 300 Remington Short Action Ultra Magnum were already `7mm-saum` and `300-saum`. The file adds the bracket names from those SAAMI drawings, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`. Hodgdon's `7mm Rem. S.A. Ultra Mag.` and `300 Remington S.A. Ultra Mag.` share those keys. `30 AR Remington` is an alias on `30-rem-ar` because that is the name Hodgdon prints; the drawing's bracket `30 REM AR` is a different key.
+
+Load rows that resolve with this file and did not resolve against `cartridges.json` alone: 2,063 of 60,039. Hodgdon 26,027 to 28,082 (+2,055). Community +8 (26 Nosler 4, 27 Nosler 3, 33 Nosler 1). Vihtavuori 0. Shooters World 0. Of that gain, the four Noslers are 674 rows (Hodgdon 666, community 8) and the later names are 1,389 Hodgdon rows: 7mm Rem. S.A. Ultra Mag. 358, 22 ARC 334, 300 Ruger Compact Magnum 250, 300 Remington S.A. Ultra Mag. 201, 6.5 WBY RPM 124, 30 AR Remington 122.
+
+Handgun names stay unmatched. Rifle names still unmatched include 22 GT, 6 x 45mm (6mm-223), 6X47MM Lapua, 7.62 x 39mm Russian, 6mm-250, 7.62 x 54R, and 6.5mm BR, because this pass had no page that prints their dimensions. 6X47MM Lapua stays off 6.5x47 Lapua. Hodgdon sections of a cartridge the library already has, such as M1 Garand Service Rifle and a trailing ` - Pistol`, stay unmatched.
