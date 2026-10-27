@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Convert Kevin's 245 gr .30-cal community CSV into schema 1.0.0.
 
-The input is a user-compiled list of forum and anecdote reports, not a
-manufacturer table. A dash means unknown. A range, a tilde, or any other
-non-number stays null in the numeric field and is copied verbatim into
-notes. COAL is filled only when the cell is a plain OAL in inches.
+This file is the pattern for later community compilations (BOTS.md, PR #29).
+The source name starts with "Community". One catalog per compilation.
+source.url points at the kept CSV under data/loads/inputs/. Do not read
+data/user/. A dash means unknown. A range, a tilde, or any other non-number
+stays null and is copied into notes as "Charge_gr: <text>" or
+"Velocity_fps: <text>", joined with "; ". COAL is filled only when the cell
+is a plain OAL in inches. A cartridge the library lacks is named in a
+comment file and is not renamed here.
 
 Usage:
   python3 scripts/loads/community_245gr_30cal.py
