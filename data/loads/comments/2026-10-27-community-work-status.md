@@ -10,7 +10,7 @@ This file is the community-line status. It is not a question. [`../STATUS.md`](.
 
 Community-reported loads for every Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet.
 
-The bullet in this pull request is the 7 mm 184 gr F-Open Hybrid Target, part 28408 — [#93](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/93).
+The bullet in this pull request is the 7 mm 190 gr Long Range Hybrid Target, part 28485.
 
 ## Done
 
@@ -25,25 +25,25 @@ Merged community files, with the pull request number:
 - 6.5 mm 144 gr Long Range Hybrid Target, part 26485 — [#83](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/83)
 - 6.5 mm 153.5 gr Long Range Hybrid Target, part 26486 — [#85](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/85)
 - 7 mm 180 gr Hybrid Target, part 28407 — [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90)
+- 7 mm 184 gr F-Open Hybrid Target, part 28408 — [#93](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/93)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 184 gr file merges:
+After the 190 gr file merges:
 
-1. 7 mm 190 gr Long Range Hybrid Target, part 28485
-2. 30 cal 155 gr Hybrid Target, part 30426
-3. 30 cal 168 gr Hybrid Target, part 30425
-4. 30 cal 185 gr Hybrid Target, part 30424
-5. 30 cal 200 gr Hybrid Target, part 30427
-6. 30 cal 200.20x Hybrid Target, part 30417 (catalog weight is blank; store the printed 200.20)
-7. 30 cal 208 gr Long Range Hybrid Target, part 30485
-8. 30 cal 215 gr Hybrid Target, part 30429
-9. 30 cal 220 gr Long Range Hybrid Target, part 30486
-10. 30 cal 230 gr Hybrid Target, part 30430
-11. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
-12. 375 cal 410 gr Hybrid Target, part 37401
+1. 30 cal 155 gr Hybrid Target, part 30426
+2. 30 cal 168 gr Hybrid Target, part 30425
+3. 30 cal 185 gr Hybrid Target, part 30424
+4. 30 cal 200 gr Hybrid Target, part 30427
+5. 30 cal 200.20x Hybrid Target, part 30417 (catalog weight is blank; store the printed 200.20)
+6. 30 cal 208 gr Long Range Hybrid Target, part 30485
+7. 30 cal 215 gr Hybrid Target, part 30429
+8. 30 cal 220 gr Long Range Hybrid Target, part 30486
+9. 30 cal 230 gr Hybrid Target, part 30430
+10. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
+11. 375 cal 410 gr Hybrid Target, part 37401
 
 ## Upcoming, not started
 
@@ -65,9 +65,19 @@ These spellings are in the merged Hybrid Target community files and still do not
 - 6mm Needmore
 - 6x47L
 - Creed
+- 7-300wsm
+- 7/300 wsm
+- 7/300wsm
 - 7mm RSAUM
+- 7mm SAUM AI
+- 7mm-300 wsm
+- Straight 284
+- Straight .284
+- straight .284
 - TAC 40
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
-The 7 mm 184 gr file adds `7mm RSAUM`. Its other names resolve: `284 Win`, `.284 WIN`, `.284`, `284 Shehane`, `7 SAUM`, `7saum`, `7Saum`, `280AI`, `.280AI`, and `280 AI`.
+The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`, `Straight .284`, `straight .284`, `7mm SAUM AI`, `7-300wsm`, `7/300 wsm`, `7/300wsm`, and `7mm-300 wsm`.
+
+`7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
