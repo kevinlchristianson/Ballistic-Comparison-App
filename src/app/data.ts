@@ -128,8 +128,12 @@ export interface AppData {
 
 const USER_KEY = "bca.user.v1";
 
+// The bots update the data every hour, so always ask the server whether a data
+// file changed instead of trusting the browser's cached copy.
+const FRESH: RequestInit = { cache: "no-cache" };
+
 async function getJson<T>(path: string): Promise<T> {
-  const res = await fetch(path);
+  const res = await fetch(path, FRESH);
   if (!res.ok) throw new Error(`Could not load ${path} (${res.status}).`);
   return (await res.json()) as T;
 }
@@ -140,7 +144,7 @@ export async function loadAppData(): Promise<AppData> {
     getJson<CartridgeLibrary>("data/cartridges.json"),
     getJson<FitTable>("data/velocity-fits.json"),
     getJson<SiteBullet[]>("data/bullets.json"),
-    fetch("data/report.md").then((r) => (r.ok ? r.text() : "")),
+    fetch("data/report.md", FRESH).then((r) => (r.ok ? r.text() : "")),
   ]);
   const user = load<UserData>(USER_KEY, { bullets: [], cartridges: [], loads: [] });
   const data = { meta, library, fits, report, publishedBullets, user } as AppData;
