@@ -22,7 +22,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--source",
-        choices=("vihtavuori", "hodgdon", "loaddevelopment"),
+        choices=("vihtavuori", "hodgdon", "shootersworld", "loaddevelopment"),
         help="Which cached source to normalize.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Parse and print counts when the adapter supports it.")
@@ -45,6 +45,12 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.source == "vihtavuori":
         from vihtavuori import write_catalog
+
+        write_catalog(dry_run=args.dry_run)
+        return 0
+
+    if args.source == "shootersworld":
+        from shootersworld import write_catalog
 
         write_catalog(dry_run=args.dry_run)
         return 0
