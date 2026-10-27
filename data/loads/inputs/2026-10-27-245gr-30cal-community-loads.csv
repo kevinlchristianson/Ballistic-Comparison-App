@@ -1,0 +1,23 @@
+Cartridge,Bullet,Powder,Charge_gr,Velocity_fps,Barrel_in,Twist,COAL_or_Jump,Primer,Notes,Source
+300 PRC,245 EOL Elite Hunter,N570,81.0,2899,28,1:8,".002"" off lands",—,Accurate; later sped up to ~2970 with 82.0 gr,LongRangeOnly
+300 PRC,245 EOL Elite Hunter,N570,82.0,2970,28,1:8,"CBTO 2.894"" / OAL 3.754""",—,1/4–1/2 MOA to 1000 yd,LongRangeOnly
+300 PRC +P,245 EOL Elite Hunter,N570,—,2994,—,—,—,—,Single-digit ES/SD,LongRangeOnly
+300 PRC,245 EOL Elite Hunter,H1000,76.1,2750,—,—,—,—,"0.314"" group",LongRangeOnly
+300 PRC,245 LRHT,H1000,75.0–79.5,—,28,—,".05"" off lands",CCI 250,ADG brass; no pressure yet at 79.5,Reddit
+300 PRC,245 EOL Elite Hunter,N570,82.0,2939,26,—,—,—,+P throat,LongRangeOnly
+300 Norma Mag,245 EOL Elite Hunter,N570,82.0,2970,—,—,"-0.025"" CBTO",—,0.296 MOA,LongRangeOnly
+300 Norma Mag,245 LRHT,N570 / Retumbo,85,—,Barrett MRAD,—,—,—,Testing around 2830–2900 fps range,YouTube (Southern ELR)
+300 Norma Mag (factory),245 LRHT,—,—,2770–2803,—,—,—,—,Berger factory ammo (Lapua + VV),Berger / Graf
+300 RUM,245 EOL Elite Hunter,N570,92.0,2996,25,1:9,"3.975"" OAL",Federal 215M,"Norma cases; 4"" vertical at 1000 yd",Nosler Forum
+300 RUM,245 EOL Elite Hunter,N570,89.5,~2950,—,—,"3.975"" / .010"" off",Federal 215,Nosler brass,LongRangeOnly
+300 RUM,245 EOL Elite Hunter,Retumbo,88.0,2950,28,—,—,—,Moa rifle / Benchmark barrel,LongRangeOnly
+300 RUM,245 EOL Elite Hunter,H1000,85.5,2835,—,—,".030"" off",—,Low node preferred,LongRangeOnly
+300 RUM,245 EOL Elite Hunter,N570,85–90,—,26–27,—,—,Federal 215,Work-up range,LongRangeOnly / Nosler
+300 Win Mag,245 EOL Elite Hunter,N570,81.0,2944,30,1:8,—,—,1 MOA; not fully tuned,LongRangeOnly
+300 Win Mag,245 EOL Elite Hunter,Retumbo,—,2800–2820,28,—,—,—,Best results reported,AccurateShooter
+300 Win Mag,245 EOL Elite Hunter,H1000,~71.4,~2660,24,—,—,—,QuickLoad estimate near SAAMI max (compressed),AccurateShooter
+300 NMI (Improved),245 EOL / LRHT,Retumbo,88.2,—,30,—,".075"" jump",—,0.4 MOA,AccurateShooter
+300 NMI,245,N570,88.6–89.4,—,—,—,—,CCI 250,Lapua cases; very tight vertical,AccurateShooter
+300 NMI,245,N568,heavy charge,~3100,32,—,".010"" jam",—,Under 0.2 MOA,AccurateShooter
+30-06,245 EOL Elite Hunter,Various (see XXL),~39–52 range,~2000–2300,24,—,—,—,Published tables (many powders),XXL Reloading
+.30 R Blaser,245 EOL Elite Hunter,Various,45–56 range,~2100–2360,23.6,—,—,—,Published tables,XXL Reloading
