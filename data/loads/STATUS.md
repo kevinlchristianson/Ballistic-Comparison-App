@@ -6,7 +6,7 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## In progress
 
-Published case capacity for the cartridges in `data/cartridges/bots/loads.json`. No load harvest is running.
+No load harvest is running. The published case-capacity pass for `loads.json` is recorded below. Estimates stay with the bullet bot.
 
 ## Case capacity
 
