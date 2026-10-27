@@ -20,6 +20,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | --- | ---: | ---: | ---: |
 | `community-245gr-30cal.json` | 22 | 22 | 0 |
 | `community-berger-elite-hunter-6mm-108gr.json` | 21 | 18 | 3 |
+| `community-berger-elite-hunter-25cal-133gr.json` | 23 | 12 | 11 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -29,12 +30,26 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 
 ### Community strings that miss
 
-Both are in `community-berger-elite-hunter-6mm-108gr.json`. `community-245gr-30cal.json` resolves all 22 rows. Rows stay worded as posted.
+`community-245gr-30cal.json` resolves all 22 rows. The 108 gr misses are `6 creed` and `6 CM`. The 133 gr file adds `25 creed`, which is the same kind of miss. Rows stay worded as posted.
 
 | Rows | Published string | Library cartridge | Ambiguous? |
 | --- | --- | --- | --- |
 | 2 | `6 creed` | 6mm Creedmoor | No. Alias `6 Creedmoor` keeps the full word, and alias `6mm Creed` keeps the `mm`. `6 creed` is neither. |
 | 1 | `6 CM` | 6mm Creedmoor | No. `6mm CM` is an alias. `6 CM` / `6CM` drops the `mm`, so the key is `6cm`, not `6mmcm`. |
+| 1 | `25 creed` | .25 Creedmoor | No. Same gap as `6 creed`. Alias `25 Creedmoor` keeps the full word. `25 CM` already resolves. |
+
+`25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 1 | `25 SST` | None | No library cartridge. hereinaz also calls it `25 Sherman Short Tactical`. Do not map it to 6.5 SAUM or 7mm SAUM. |
+| 1 | `25SST` | None | Same cartridge as `25 SST`, different spacing. `25SST` is Lance Kenyon's 26 inch rifle at 3240 fps. |
+| 1 | `25 Sherman Short Tactical` | None | The long name of the same wildcat. Not in the library. |
+| 1 | `257 Blackbird` | None | No library cartridge. |
+| 1 | `25-7prc` | None | No library cartridge. Not 7mm PRC and not 6.5 PRC. |
+| 1 | `25 SAUM` | None | No library cartridge. Not 7mm Remington SAUM and not 6.5 SAUM. |
+| 3 | `25 saum` | None | Same as `25 SAUM`. Case already folds; the cartridge is still absent. |
+| 1 | `25 PRC/Saum` | None | Yes. Shooter264 wrote both names in one string. The next reply treated the rifle as 25 SAUM experience. Do not pick one, and neither name is in the library. |
 
 ### Hodgdon ` - Pistol` sections that would resolve if the suffix were removed
 
@@ -199,7 +214,7 @@ Keep every community `cartridge` exactly as posted, including shorthand and name
 
 The fitting change is aliases on cartridges the library already has, not a schema change and not a global rewrite of `aliasKey`. Case, spaces, hyphens, and the existing `magnum` → `mag` shortening already run.
 
-1. On 6mm Creedmoor, add aliases `6 creed`, `6 CM`, and `6CM`. That covers the three community rows above. A global `creed` → `creedmoor` swap would also do it, and today every `creed` key in the library is a Creedmoor, but a later non-Creedmoor name would make that swap wrong. A global `CM` → `Creedmoor` swap would fix `6 CM` and would also rewrite any future `CM` that is not Creedmoor. Explicit aliases are the smaller fix.
+1. On 6mm Creedmoor, add aliases `6 creed`, `6 CM`, and `6CM`. On .25 Creedmoor, add `25 creed`. That covers the community rows those strings are on. A global `creed` → `creedmoor` swap would also do it, and today every `creed` key in the library is a Creedmoor, but a later non-Creedmoor name would make that swap wrong. A global `CM` → `Creedmoor` swap would fix `6 CM` and would also rewrite any future `CM` that is not Creedmoor. Explicit aliases are the smaller fix. The 25 SST, 25 Sherman Short Tactical, 257 Blackbird, 25-7prc, and 25 SAUM strings need library cartridges before they can resolve. Leave `25 PRC/Saum` unmatched.
 2. Do not add a trailing `M` → magnum rule. `300 WM` already matches. `7 RM` does not, and a bare `M` rule collides with `CM`. If a post uses `7 RM`, add that alias on 7mm Remington Magnum. Leave `7 mag` and `7mm mag` unmatched until the cartridge is named.
 3. Do not strip Hodgdon's ` - Pistol` suffix.
 4. Do not alias the near misses in the table above. Handgun names and rifle names with no library entry stay unmatched until the library grows.
