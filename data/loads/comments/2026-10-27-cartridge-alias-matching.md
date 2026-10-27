@@ -22,6 +22,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-6mm-108gr.json` | 21 | 18 | 3 |
 | `community-berger-elite-hunter-25cal-133gr.json` | 23 | 12 | 11 |
 | `community-berger-elite-hunter-65mm-140gr.json` | 26 | 26 | 0 |
+| `community-berger-elite-hunter-65mm-156gr.json` | 80 | 77 | 3 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -40,6 +41,14 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | 1 | `25 creed` | .25 Creedmoor | No. Same gap as `6 creed`. Alias `25 Creedmoor` keeps the full word. `25 CM` already resolves. |
 
 The 140 gr file's strings `6.5 CM`, `6.5 Creedmoor`, `6.5x47`, and `6.5 PRC` already resolve. Nothing from that file is added below.
+
+The 156 gr file's strings `6.5 PRC`, `6.5 prc`, `6.5-284`, `6.5 x 284`, and `6.5 saum` already resolve. These three do not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 1 | `6.5 Sherman max` | None | No library cartridge. khuber84's 26 inch 8-twist Bartlein at 65.3 gr N570. Do not map it to 6.5 SAUM or 6.5 PRC. |
+| 1 | `6.5x284 Norma +P` | 6.5-284 Norma | The base name resolves. `aliasKey` does not strip `+`, so `+P` misses. `.300 PRC` already aliases `300 PRC +P` as the same cartridge with a longer throat. An explicit alias is the same kind of fix. A global `+P` strip would be a broader rule than this one row needs. |
+| 1 | `prc` | 6.5 PRC | Yes, as a bare word. Bauer's sentence is a Ridgeline and a 156 EOL, which is the 6.5 bullet, so this row means 6.5 PRC. `prc` also matches 7mm PRC and .300 PRC. Do not alias the bare word. |
 
 `25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
 
@@ -221,6 +230,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 2. Do not add a trailing `M` → magnum rule. `300 WM` already matches. `7 RM` does not, and a bare `M` rule collides with `CM`. If a post uses `7 RM`, add that alias on 7mm Remington Magnum. Leave `7 mag` and `7mm mag` unmatched until the cartridge is named.
 3. Do not strip Hodgdon's ` - Pistol` suffix.
 4. Do not alias the near misses in the table above. Handgun names and rifle names with no library entry stay unmatched until the library grows.
+5. From the 156 gr file, leave `6.5 Sherman max` unmatched until the library has that wildcat. On 6.5-284 Norma, an alias `6.5x284 Norma +P` matches the `.300 PRC` / `300 PRC +P` treatment. Do not alias bare `prc`.
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
