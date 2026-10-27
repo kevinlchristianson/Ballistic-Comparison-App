@@ -26,6 +26,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-270cal-170gr.json` | 47 | 38 | 9 |
 | `community-berger-elite-hunter-7mm-175gr.json` | 102 | 100 | 2 |
 | `community-berger-elite-hunter-7mm-195gr.json` | 71 | 56 | 15 |
+| `community-berger-elite-hunter-30cal-180gr.json` | 16 | 16 | 0 |
 | `community-berger-elite-hunter-30cal-205gr.json` | 38 | 36 | 2 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
