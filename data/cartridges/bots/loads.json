@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 9,
-  "aliasCount": 3,
+  "aliasCount": 6,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -247,6 +247,33 @@
       "source": {
         "name": "Hodgdon Reloading Data Center",
         "url": "https://hodgdonreloading.com/rldc/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-dasher",
+      "alias": "6mm Dashers",
+      "source": {
+        "name": "Shooters' Forum, 6 Dasher powders",
+        "url": "https://forum.accurateshooter.com/threads/6-dasher-powders.3800783/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-dasher",
+      "alias": "dasher",
+      "source": {
+        "name": "Shooters' Forum, 6 Dasher powder",
+        "url": "https://forum.accurateshooter.com/threads/6-dasher-powder.3913184/page-2",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-arc",
+      "alias": "s6 ARC",
+      "source": {
+        "name": "Rokslide, 6gt or 6creed",
+        "url": "https://rokslide.com/forums/threads/6gt-or-6creed.433061/",
         "retrievedOn": "2026-10-27"
       }
     }
