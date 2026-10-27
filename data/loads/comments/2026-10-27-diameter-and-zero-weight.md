@@ -1,6 +1,6 @@
 # Diameter tokens and a weight of 0
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Diameter parsing and weight 0
 
@@ -17,4 +17,6 @@ Should an inch token in `bullet_caliber` become `bulletDiameterIn`, and should a
 When rows are allowed, `.264"` is `bulletDiameterIn` 0.264 because the source printed inches, and the original token is repeated in `notes`. A null caliber stays null. Diameter is not derived from the cartridge name. Weight `0` or blank is unpublished, not a 0-grain bullet, and the row is omitted.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. Copy a printed inch diameter and quote the original token. Omit a row whose weight is 0 or blank. Do not derive a diameter from the cartridge name.
 

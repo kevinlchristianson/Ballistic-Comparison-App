@@ -1,6 +1,6 @@
 # One source file for the whole site
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: One source file or one file per cartridge
 
@@ -17,4 +17,6 @@ Should every LoadDevelopment cartridge land in one `loaddevelopment.json`, or sh
 One file for this site. `cartridge` is copied exactly as published, including a longer manual-specific name. Those names are not merged. The app keeps its own alias map.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. One file per source, with cartridge names as published. The app keeps its own alias map.
 

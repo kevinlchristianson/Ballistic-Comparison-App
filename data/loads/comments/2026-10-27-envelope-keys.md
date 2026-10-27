@@ -1,6 +1,6 @@
 # Envelope property names
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Envelope property names
 
@@ -17,4 +17,6 @@ Are `loadCount` and `loads` the keys the app will read?
 `loadCount` and `loads`. `loadCount` must equal `loads.length`. `source.testBarrelIn` is a number of inches, or null when the source does not state one test barrel in inches. A millimeter default is not converted into that field.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. The app reads `loadCount` and `loads`, and `source.testBarrelIn` in inches or null.
 

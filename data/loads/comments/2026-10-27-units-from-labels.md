@@ -1,6 +1,6 @@
 # Units taken from page labels
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Units the JSON does not print
 
@@ -17,4 +17,6 @@ The anonymous row stores bare strings for charge, velocity, and COAL. The page c
 When rows are allowed, those four units are copied from the page labels and the inch mark, not converted from another unit. A JSON number cannot keep trailing zeros, so `notes` would quote the published token. A barrel printed as `24"` would be `barrelLength` 24, unit `in`, origin `row`. `source.testBarrelIn` stays null when length is per row rather than one test barrel for the file.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. Units taken from the page's column labels, or from a named column such as `StartloadGrains`, are published units.
 

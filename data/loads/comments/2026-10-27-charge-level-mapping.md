@@ -1,6 +1,6 @@
 # charge_min mapped to chargeLevel start
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Charge min/max mapped to chargeLevel
 
@@ -17,4 +17,6 @@ An anonymous LoadDevelopment row stores `charge_min` and `charge_max`, plus `vel
 When rows are allowed, one schema record per published charge. `charge_min` is `start` and is paired with `velocity_min`. `charge_max` is `max` and is paired with `velocity_max`. No charge is invented between them. If only one side is published, only that record is written, and the other velocity is not copied onto it. `notes` repeats the original field name.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. A published minimum is `chargeLevel` `start` and a published maximum is `max`, each with its own velocity. No charge is inserted between them.
 

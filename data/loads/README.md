@@ -2,7 +2,7 @@
 
 Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/load.ts`](schema/load.ts) and reject a file whose `schemaVersion` is anything else.
 
-This revision is the contract and the tooling. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) is an empty envelope: the site's terms do not allow the load rows to be copied into git. Open questions for the app agent are in [`comments/`](comments/).
+[`sources/vihtavuori.json`](sources/vihtavuori.json) is the first manufacturer catalog. [`sources/loaddevelopment.json`](sources/loaddevelopment.json) stays an empty envelope: this bot does not scrape that site, and the owner will supply that file later. Questions for the app agent are in [`comments/`](comments/). The answers from PR #3 are copied into the files whose status is `answered`.
 
 Charges in this library are published numbers kept for traceability. They are not a recommended load.
 
@@ -17,8 +17,11 @@ data/loads/
   sources/<source-slug>.json   One catalog per source.
   raw/                         Scratch downloads. Gitignored. Not a source of truth.
 scripts/loads/
-  scrape.py                    Source registry. Does not fetch in this revision.
-  normalize.py                 Would turn a raw cache into a source file. Not implemented.
+  scrape.py                    Source registry. Fetches Hodgdon. Does not fetch LoadDevelopment.
+  normalize.py                 Writes a source file from a cached manufacturer download.
+  vihtavuori.py                Normalizes the cached Vihtavuori JSON.
+  hodgdon.py                   Resumable Reloading Data Center fetch, then normalize.
+  rows.py                      Shared parsing for published numbers and notes.
   validate.py                  Schema, duplicate, and sanity checks.
   catalog.py                   Paths and the schema checker the scripts share.
 ```
@@ -105,24 +108,24 @@ The anonymous row on 2026-10-27 had `cartridge`, `bullet_make`, `bullet_name`, `
 
 The bullet catalog id is `{manufacturer}-{sku}` when the manufacturer published a SKU (`berger-22418`). This schema has no separate bullet-id field. Fill `bulletManufacturer` and `bulletSku` only from the load source. Do not look a SKU up in `data/bullets/` to fill a blank. The anonymous rows inspected on 2026-10-27 had no part number, so they would not have resolved to a bullet id. Manufacturer aliases belong to the app.
 
-## Source file
+## Source files
 
-[`sources/loaddevelopment.json`](sources/loaddevelopment.json) records the source and zero loads. The cartridge page embedded by <https://loaddevelopment.com/load-data/> was read on 2026-10-27 far enough to see the row shape. The rows themselves are not in the file. See licensing below.
+[`sources/vihtavuori.json`](sources/vihtavuori.json) is the public Vihtavuori reload database read on 2026-10-27 (database 0.2, dated 14.9.2026). 6,736 published lines became 13,472 records: one start and one max. Grain, feet per second, and inch columns are the structured fields. The metric tokens are quoted in `notes` and are not converted. `source.testBarrelIn` is null. Per-cartridge barrel length is the inch length printed in the barrel string, because a millimeter number such as 630 does not fit the schema maximum of 200. See [`comments/2026-10-27-barrel-length-millimeters.md`](comments/2026-10-27-barrel-length-millimeters.md). The database has 112 cartridge rows and 107 unique names. `.357 Magnum`, `.38 Special`, and `.44 S&W Special` are each published with two barrel lengths, and both are kept. No bullet part number is in the database, so `bulletSku` is null. `BulletId` is an internal id and stays in `notes`.
+
+[`sources/loaddevelopment.json`](sources/loaddevelopment.json) records the source and zero loads. This bot does not scrape that site. There is no LoadDevelopment parser under `scripts/loads/`.
 
 ## Licensing
 
-[Terms of Use](https://loaddevelopment.com/terms/), last updated June 01, 2020, allow personal display on one device and otherwise prohibit copying, reproducing, or distributing the site's Material without authorization. They also limit automated collection to a human pace. The [copyright policy](https://loaddevelopment.com/copyright/) is a DMCA process, not a data license. `robots.txt` does not disallow the load-data pages, and that is not permission to republish them.
+LoadDevelopment [Terms of Use](https://loaddevelopment.com/terms/) (June 01, 2020) forbid copying the site's Material. No LoadDevelopment rows are committed. The project agreed in `BOTS.md`. See [`comments/2026-10-27-terms-block-full-tables.md`](comments/2026-10-27-terms-block-full-tables.md).
 
-Because of that, this revision commits no load rows, including the short anonymous preview, and the scraper does not fetch. The open question is [`comments/2026-10-27-terms-block-full-tables.md`](comments/2026-10-27-terms-block-full-tables.md).
+Vihtavuori's [legal notice](https://vihtavuori.com/company/disclaimers/legal-notice/) says site content is owned by Nammo Vihtavuori Oy and prohibits duplication of trademarks, logos, illustrations, and pictures without written consent. The catalog copies published load numbers, not logos or pictures. The notice is quoted in [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
 
 ## How to update
 
-1. Resolve the licensing question before any bulk fetch.
-2. `python3 scripts/loads/scrape.py --list` prints the registered source. `--dry-run` prints paths and sends nothing. A real run exits 2 until an adapter exists.
-3. Cache raw HTML or JSON under `data/loads/raw/` (gitignored).
-4. Write `data/loads/sources/<slug>.json` in this schema. One file per source.
-5. `python3 scripts/loads/normalize.py` is the hook for that write. It is not implemented and exits 2.
-6. `python3 scripts/loads/validate.py`. `--strict` fails on range warnings.
+1. `python3 scripts/loads/scrape.py --list` prints registered sources. LoadDevelopment is listed and is not fetched.
+2. Cache raw downloads under `data/loads/raw/` (gitignored). Hodgdon: `python3 scripts/loads/hodgdon.py fetch` (one cartridge per request, 12 seconds apart). Vihtavuori's JSON is already cached.
+3. `python3 scripts/loads/normalize.py --source vihtavuori` or `--source hodgdon`.
+4. `python3 scripts/loads/validate.py --strict`. Warnings fail the script. The warning band is wider than the first draft where a published value sits outside it: grain charges through 300 and a 45 inch barrel (`.50 Browning`), and velocity down to 400 fps (a published `.38 Special` start of 410). Those bounds are not schema limits.
 
 `validate.py` checks, with no extra Python packages:
 
@@ -140,17 +143,27 @@ Hard bounds live in the schema. Do not relax them without a schema version bump.
 
 Do not add, remove, rename, or retype a field in place. Bump `schemaVersion` in `load.schema.json` and `SCHEMA_VERSION` in `load.ts` together, update this file, and call the change out in the pull request. Additive optional fields are still a version bump because the app will be coded against 1.0.0.
 
-## Open questions
+## Questions
+
+Answered in `BOTS.md` from PR #3, and copied into the comment file:
+
+| File | Decision |
+| --- | --- |
+| [2026-10-27-terms-block-full-tables.md](comments/2026-10-27-terms-block-full-tables.md) | Nothing from LoadDevelopment. |
+| [2026-10-27-harvest-stopped.md](comments/2026-10-27-harvest-stopped.md) | Stays stopped unless written permission is recorded in `BOTS.md`. |
+| [2026-10-27-envelope-keys.md](comments/2026-10-27-envelope-keys.md) | `loadCount` and `loads`. |
+| [2026-10-27-typescript-types.md](comments/2026-10-27-typescript-types.md) | Keep `load.ts`. |
+| [2026-10-27-charge-level-mapping.md](comments/2026-10-27-charge-level-mapping.md) | Published minimum is `start`, maximum is `max`. |
+| [2026-10-27-units-from-labels.md](comments/2026-10-27-units-from-labels.md) | Column labels are published units. |
+| [2026-10-27-diameter-and-zero-weight.md](comments/2026-10-27-diameter-and-zero-weight.md) | Copy a printed inch diameter. Omit weight 0. |
+| [2026-10-27-bullet-library-link.md](comments/2026-10-27-bullet-library-link.md) | Keep the published maker string. The app owns aliases. |
+| [2026-10-27-fields-without-columns.md](comments/2026-10-27-fields-without-columns.md) | Extra published text goes in `notes`. |
+| [2026-10-27-citation-urls.md](comments/2026-10-27-citation-urls.md) | Entry URL on `source.url`, row URL on `sourceUrl`. |
+| [2026-10-27-source-file-layout.md](comments/2026-10-27-source-file-layout.md) | One file per source. |
+
+Still open:
 
 | File | Topic |
 | --- | --- |
-| [2026-10-27-terms-block-full-tables.md](comments/2026-10-27-terms-block-full-tables.md) | No load rows are committed. |
-| [2026-10-27-envelope-keys.md](comments/2026-10-27-envelope-keys.md) | `loadCount` and `loads`. |
-| [2026-10-27-typescript-types.md](comments/2026-10-27-typescript-types.md) | `load.ts` beside the JSON Schema. |
-| [2026-10-27-charge-level-mapping.md](comments/2026-10-27-charge-level-mapping.md) | `charge_min` recorded as `start`. |
-| [2026-10-27-units-from-labels.md](comments/2026-10-27-units-from-labels.md) | `gr`, `fps`, and `in` taken from page labels. |
-| [2026-10-27-diameter-and-zero-weight.md](comments/2026-10-27-diameter-and-zero-weight.md) | `.264"` parsed; weight `0` omitted. |
-| [2026-10-27-bullet-library-link.md](comments/2026-10-27-bullet-library-link.md) | No SKU, so no bullet id. |
-| [2026-10-27-fields-without-columns.md](comments/2026-10-27-fields-without-columns.md) | Twist, max COAL, and powder maker in `notes`. |
-| [2026-10-27-citation-urls.md](comments/2026-10-27-citation-urls.md) | Parent URL versus cartridge URL. |
-| [2026-10-27-source-file-layout.md](comments/2026-10-27-source-file-layout.md) | One `loaddevelopment.json` for the site. |
+| [2026-10-27-source-terms-survey.md](comments/2026-10-27-source-terms-survey.md) | Manufacturer terms, including the Vihtavuori legal notice. |
+| [2026-10-27-barrel-length-millimeters.md](comments/2026-10-27-barrel-length-millimeters.md) | Schema maximum 200 cannot store a 630 mm barrel. Not changed. |
