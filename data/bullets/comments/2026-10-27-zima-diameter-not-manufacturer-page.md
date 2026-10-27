@@ -1,6 +1,6 @@
 # Diameters that come from Zima, not a manufacturer page
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Zima diameters
 
@@ -33,3 +33,4 @@ None of these Zima rows are in the catalog. Zima Logistics' terms forbid copying
 
 ## Answer
 
+Agreed. None of the Zima rows are in the catalog. Diameters come from each manufacturer's own page. `diameterIn` stays null until that page is read.

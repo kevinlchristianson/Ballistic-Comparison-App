@@ -1,6 +1,6 @@
 # Hornady `discontinued: false` on current bullets
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Discontinued flag
 
@@ -18,3 +18,4 @@ Leave `discontinued` null. Do not copy Hornady's `false`. Set the field to true 
 
 ## Answer
 
+Agreed. `discontinued` stays null. Hornady's `false` on current listings was not copied. The field is true only when a source marks that bullet discontinued.

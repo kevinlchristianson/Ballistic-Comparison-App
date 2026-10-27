@@ -1,6 +1,6 @@
 # Ballistic coefficients published without a drag model
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Unlabeled ballistic coefficient
 
@@ -23,3 +23,4 @@ Leave `bcG1` and `bcG7` null when the source does not name a drag model. Put the
 
 ## Answer
 
+Agreed for 1.1.0: `bcG1` and `bcG7` stay null when the source does not name a drag model. Schema 1.2.0 adds `bcUnlabeled` as `{ "value": number, "label": string }`. Woodleigh's column is stored there with label `BC`, and the printed number remains quoted in `notes`. It is not stored as G1.

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": null,
   "generatedOn": "2026-10-27",
   "bulletCount": 4,
@@ -55,7 +55,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "berger-20303",
@@ -108,7 +111,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "berger-22418",
@@ -170,7 +176,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "berger-24433",
@@ -232,7 +241,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Hornady",
   "generatedOn": "2026-10-27",
   "bulletCount": 311,
@@ -53,7 +53,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-21710",
@@ -104,7 +107,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-17105",
@@ -155,7 +161,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22000",
@@ -206,7 +215,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22004",
@@ -257,7 +269,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22006",
@@ -308,7 +323,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22606",
@@ -359,7 +377,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2207",
@@ -410,7 +431,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22240",
@@ -461,7 +485,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22252",
@@ -512,7 +539,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22241",
@@ -563,7 +593,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22416",
@@ -614,7 +647,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2229",
@@ -667,7 +703,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2230",
@@ -718,7 +757,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2240",
@@ -771,7 +813,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2245",
@@ -824,7 +869,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22261",
@@ -875,7 +923,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22616",
@@ -926,7 +977,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22402",
@@ -978,7 +1032,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-224034",
@@ -1030,7 +1087,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22491",
@@ -1082,7 +1142,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2249",
@@ -1134,7 +1197,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2249b",
@@ -1186,7 +1252,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2249c",
@@ -1238,7 +1307,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2250",
@@ -1292,7 +1364,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2250b",
@@ -1346,7 +1421,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22265",
@@ -1397,7 +1475,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2260",
@@ -1450,7 +1531,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2265",
@@ -1503,7 +1587,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2266",
@@ -1557,7 +1644,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2266b",
@@ -1610,7 +1700,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22271",
@@ -1661,7 +1754,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22716",
@@ -1712,7 +1808,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22272",
@@ -1763,7 +1862,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2267",
@@ -1819,7 +1921,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2267b",
@@ -1875,7 +1980,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22671",
@@ -1931,7 +2039,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2263b",
@@ -1988,7 +2099,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22672",
@@ -2044,7 +2158,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2270",
@@ -2097,7 +2214,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22281",
@@ -2148,7 +2268,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22760b",
@@ -2202,7 +2325,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22762",
@@ -2264,7 +2390,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22765",
@@ -2315,7 +2444,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2278",
@@ -2367,7 +2499,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22785",
@@ -2419,7 +2554,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2278b",
@@ -2471,7 +2609,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2278c",
@@ -2523,7 +2664,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22772",
@@ -2576,7 +2720,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-227711",
@@ -2631,7 +2778,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22771",
@@ -2686,7 +2836,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22813",
@@ -2737,7 +2890,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22774",
@@ -2798,7 +2954,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22791",
@@ -2859,7 +3018,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22791b",
@@ -2920,7 +3082,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2279",
@@ -2972,7 +3137,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22796",
@@ -3024,7 +3192,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2279b",
@@ -3076,7 +3247,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2279c",
@@ -3128,7 +3302,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22799",
@@ -3189,7 +3366,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-227771",
@@ -3244,7 +3424,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22777",
@@ -3299,7 +3482,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22833",
@@ -3359,7 +3545,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22831",
@@ -3420,7 +3609,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22834",
@@ -3481,7 +3673,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22834b",
@@ -3542,7 +3737,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2286",
@@ -3603,7 +3801,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22411",
@@ -3654,7 +3855,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22415",
@@ -3705,7 +3909,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22420",
@@ -3756,7 +3963,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-243704",
@@ -3807,7 +4017,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24372",
@@ -3869,7 +4082,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2442",
@@ -3920,7 +4136,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22440",
@@ -3971,7 +4190,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2441",
@@ -4031,7 +4253,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2446",
@@ -4070,7 +4295,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24444",
@@ -4123,7 +4351,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24532",
@@ -4174,7 +4405,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2453",
@@ -4225,7 +4459,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24550",
@@ -4285,7 +4522,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2458",
@@ -4337,7 +4577,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24585",
@@ -4389,7 +4632,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-245731",
@@ -4441,7 +4687,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24573",
@@ -4493,7 +4742,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24561",
@@ -4554,7 +4806,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24561b",
@@ -4615,7 +4870,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-245301",
@@ -4676,7 +4934,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24531",
@@ -4737,7 +4998,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-245312",
@@ -4798,7 +5062,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-24568",
@@ -4859,7 +5126,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2510",
@@ -4912,7 +5182,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22520",
@@ -4963,7 +5236,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-254104",
@@ -5014,7 +5290,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-25412",
@@ -5067,7 +5346,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-25418",
@@ -5127,7 +5409,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2543",
@@ -5188,7 +5473,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2550",
@@ -5241,7 +5529,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2552",
@@ -5292,7 +5583,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-25522",
@@ -5343,7 +5637,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-25417",
@@ -5405,7 +5702,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2561",
@@ -5466,7 +5766,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2562",
@@ -5527,7 +5830,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26111",
@@ -5580,7 +5886,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22601",
@@ -5631,7 +5940,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26100",
@@ -5692,7 +6004,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26103",
@@ -5754,7 +6069,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26175",
@@ -5815,7 +6133,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-261104",
@@ -5866,7 +6187,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26112",
@@ -5917,7 +6241,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26176",
@@ -5978,7 +6305,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26174",
@@ -6030,7 +6360,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26173",
@@ -6081,7 +6414,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2620",
@@ -6134,7 +6470,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26202",
@@ -6185,7 +6524,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26177",
@@ -6246,7 +6588,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26178",
@@ -6297,7 +6642,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26179",
@@ -6358,7 +6706,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-261792",
@@ -6419,7 +6770,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26331",
@@ -6480,7 +6834,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26331b",
@@ -6541,7 +6898,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-263311",
@@ -6583,7 +6943,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2630",
@@ -6636,7 +6999,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26335",
@@ -6688,7 +7054,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26302",
@@ -6739,7 +7108,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-263364",
@@ -6790,7 +7162,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-263031",
@@ -6842,7 +7217,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26303",
@@ -6894,7 +7272,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2635",
@@ -6954,7 +7335,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26333",
@@ -7015,7 +7399,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26333b",
@@ -7076,7 +7463,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-263331",
@@ -7118,7 +7508,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2638",
@@ -7179,7 +7572,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-26382",
@@ -7221,7 +7617,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2640",
@@ -7274,7 +7673,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-271904",
@@ -7325,7 +7727,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-27200",
@@ -7377,7 +7782,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22721",
@@ -7428,7 +7836,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2716",
@@ -7479,7 +7890,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2730",
@@ -7532,7 +7946,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-27302",
@@ -7583,7 +8000,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-273704",
@@ -7634,7 +8054,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2735",
@@ -7685,7 +8108,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-27352",
@@ -7736,7 +8162,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-27356",
@@ -7796,7 +8225,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2740",
@@ -7849,7 +8281,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-27402",
@@ -7900,7 +8335,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2749",
@@ -7941,7 +8379,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-22810",
@@ -7992,7 +8433,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2820",
@@ -8045,7 +8489,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2825",
@@ -8096,7 +8543,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28202",
@@ -8147,7 +8597,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-282704",
@@ -8198,7 +8651,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2826",
@@ -8258,7 +8714,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28284",
@@ -8309,7 +8768,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28214",
@@ -8362,7 +8824,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2830",
@@ -8415,7 +8880,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28302",
@@ -8466,7 +8934,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2837",
@@ -8517,7 +8988,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2840",
@@ -8577,7 +9051,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28403",
@@ -8638,7 +9115,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2845",
@@ -8689,7 +9169,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28452",
@@ -8740,7 +9223,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2836",
@@ -8801,7 +9287,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2841",
@@ -8861,7 +9350,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-2850",
@@ -8914,7 +9406,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28503",
@@ -8975,7 +9470,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28504",
@@ -9017,7 +9515,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-285041",
@@ -9059,7 +9560,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-28506",
@@ -9120,7 +9624,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3010",
@@ -9173,7 +9680,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-23010",
@@ -9224,7 +9734,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3017",
@@ -9277,7 +9790,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3017b",
@@ -9331,7 +9847,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-301914",
@@ -9382,7 +9901,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3019",
@@ -9433,7 +9955,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30192",
@@ -9487,7 +10012,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30196",
@@ -9541,7 +10069,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-301944",
@@ -9592,7 +10123,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3027",
@@ -9643,7 +10177,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30310",
@@ -9653,7 +10190,7 @@
       "sku": "30310",
       "alternateSkus": [],
       "caliber": "30 Cal. .308\" (30-30 Win)",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 140,
       "bcG1": 0.295,
       "bcG7": null,
@@ -9688,13 +10225,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.308 copied from the printed caliber label: 30 Cal. .308\" (30-30 Win).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3031",
@@ -9747,7 +10287,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3033",
@@ -9798,7 +10341,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3035",
@@ -9851,7 +10397,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3031-75",
@@ -9896,7 +10445,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30302",
@@ -9947,7 +10499,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30303",
@@ -9957,7 +10512,7 @@
       "sku": "30303",
       "alternateSkus": [],
       "caliber": "30 Cal .308\" (300 Savage)",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 150,
       "bcG1": 0.37,
       "bcG7": null,
@@ -9992,13 +10547,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.308 copied from the printed caliber label: 30 Cal .308\" (300 Savage).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3037",
@@ -10053,7 +10611,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3037b",
@@ -10108,7 +10669,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30371",
@@ -10163,7 +10727,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-303704",
@@ -10214,7 +10781,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30372",
@@ -10265,7 +10835,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30313",
@@ -10326,7 +10899,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3039",
@@ -10378,7 +10954,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3039b",
@@ -10430,7 +11009,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3039c",
@@ -10482,7 +11064,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30395",
@@ -10492,7 +11077,7 @@
       "sku": "30395",
       "alternateSkus": [],
       "caliber": "30 Cal. 0.308\" (30-30)",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 160,
       "bcG1": 0.33,
       "bcG7": null,
@@ -10527,13 +11112,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.308 copied from the printed caliber label: 30 Cal. 0.308\" (30-30).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30396",
@@ -10543,7 +11131,7 @@
       "sku": "30396",
       "alternateSkus": [],
       "caliber": "30 Cal. .308\" (Marlin Express)",
-      "diameterIn": null,
+      "diameterIn": 0.308,
       "weightGr": 160,
       "bcG1": 0.395,
       "bcG7": null,
@@ -10578,13 +11166,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.308 copied from the printed caliber label: 30 Cal. .308\" (Marlin Express).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3040",
@@ -10637,7 +11228,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3045",
@@ -10688,7 +11282,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30452",
@@ -10739,7 +11336,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-304704",
@@ -10790,7 +11390,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-304714",
@@ -10843,7 +11446,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30506",
@@ -10904,7 +11510,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30506b",
@@ -10965,7 +11574,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30501",
@@ -11017,7 +11629,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-305016",
@@ -11069,7 +11684,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30501b",
@@ -11121,7 +11739,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-305071",
@@ -11176,7 +11797,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30507",
@@ -11231,7 +11855,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3060",
@@ -11282,7 +11909,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30620",
@@ -11344,7 +11974,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30718",
@@ -11397,7 +12030,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-307191",
@@ -11452,7 +12088,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30719",
@@ -11507,7 +12146,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30717",
@@ -11568,7 +12210,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30741",
@@ -11629,7 +12274,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3074",
@@ -11689,7 +12337,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30713",
@@ -11750,7 +12401,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30715",
@@ -11802,7 +12456,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30715b",
@@ -11854,7 +12511,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3070",
@@ -11907,7 +12567,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3072",
@@ -11958,7 +12621,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3075",
@@ -12011,7 +12677,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30702",
@@ -12062,7 +12731,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-301934",
@@ -12113,7 +12785,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30730",
@@ -12166,7 +12841,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30738",
@@ -12217,7 +12895,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30951",
@@ -12278,7 +12959,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3076",
@@ -12338,7 +13022,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30731",
@@ -12399,7 +13086,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30733",
@@ -12460,7 +13150,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3077",
@@ -12520,7 +13213,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3078",
@@ -12580,7 +13276,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3090",
@@ -12633,7 +13332,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-30904",
@@ -12694,7 +13396,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3091",
@@ -12755,7 +13460,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3092",
@@ -12816,7 +13524,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3140",
@@ -12870,7 +13581,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3140b",
@@ -12924,7 +13638,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3142",
@@ -12976,7 +13693,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3147b",
@@ -13030,7 +13750,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3148",
@@ -13040,7 +13763,7 @@
       "sku": "3148",
       "alternateSkus": [],
       "caliber": "7.62x39mm",
-      "diameterIn": null,
+      "diameterIn": 0.3115,
       "weightGr": 255,
       "bcG1": 0.365,
       "bcG7": null,
@@ -13076,13 +13799,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Personal Defense.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Personal Defense. Diameter 0.3115 copied from the printed name: 7.62x39mm .3115 255 gr Sub‑X ®.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3131",
@@ -13137,7 +13863,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3120",
@@ -13190,7 +13919,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3130",
@@ -13243,7 +13975,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-32005",
@@ -13294,7 +14029,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3210",
@@ -13345,7 +14083,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3232",
@@ -13398,7 +14139,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3235",
@@ -13451,7 +14195,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3233",
@@ -13502,7 +14249,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-32314",
@@ -13553,7 +14303,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3236",
@@ -13606,7 +14359,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-332704",
@@ -13657,7 +14413,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33272",
@@ -13708,7 +14467,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33104",
@@ -13718,7 +14480,7 @@
       "sku": "33104",
       "alternateSkus": [],
       "caliber": "338 Cal. .338\" (Marlin Express)",
-      "diameterIn": null,
+      "diameterIn": 0.338,
       "weightGr": 200,
       "bcG1": 0.43,
       "bcG7": null,
@@ -13753,13 +14515,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.338 copied from the printed caliber label: 338 Cal. .338\" (Marlin Express).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33102",
@@ -13810,7 +14575,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3320",
@@ -13863,7 +14631,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33202",
@@ -13914,7 +14685,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-332014",
@@ -13965,7 +14739,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33210",
@@ -14025,7 +14802,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33283",
@@ -14076,7 +14856,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3330",
@@ -14129,7 +14912,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3335",
@@ -14182,7 +14968,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33371",
@@ -14242,7 +15031,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33381",
@@ -14303,7 +15095,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33389",
@@ -14364,7 +15159,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-33394",
@@ -14415,7 +15213,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3502",
@@ -14468,7 +15269,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3501",
@@ -14519,7 +15323,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3503",
@@ -14570,7 +15377,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-35105",
@@ -14621,7 +15431,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3510",
@@ -14674,7 +15487,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3515",
@@ -14727,7 +15543,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3520",
@@ -14780,7 +15599,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-35614",
@@ -14831,7 +15653,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3560",
@@ -14884,7 +15709,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3565",
@@ -14935,7 +15763,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-37084",
@@ -14986,7 +15817,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3711",
@@ -15041,7 +15875,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3727",
@@ -15092,7 +15929,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-37214",
@@ -15145,7 +15985,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-3729",
@@ -15206,7 +16049,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4103",
@@ -15257,7 +16103,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-41044",
@@ -15310,7 +16159,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-41051",
@@ -15363,7 +16215,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4167",
@@ -15414,7 +16269,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-41694",
@@ -15467,7 +16325,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-41697",
@@ -15530,7 +16391,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4241",
@@ -15581,7 +16445,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-42404",
@@ -15634,7 +16501,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4305",
@@ -15644,7 +16514,7 @@
       "sku": "4305",
       "alternateSkus": [],
       "caliber": "44 Cal. .430\" (444 Marlin)",
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 265,
       "bcG1": 0.225,
       "bcG7": null,
@@ -15679,13 +16549,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.43 copied from the printed caliber label: 44 Cal. .430\" (444 Marlin).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45204",
@@ -15736,7 +16609,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45201",
@@ -15746,7 +16622,7 @@
       "sku": "45201",
       "alternateSkus": [],
       "caliber": "45 Cal. .452\" (450 Bushmaster)",
-      "diameterIn": null,
+      "diameterIn": 0.452,
       "weightGr": 250,
       "bcG1": 0.21,
       "bcG7": null,
@@ -15781,13 +16657,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs. Diameter 0.452 copied from the printed caliber label: 45 Cal. .452\" (450 Bushmaster).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45031",
@@ -15838,7 +16717,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45010",
@@ -15889,7 +16771,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4500",
@@ -15942,7 +16827,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45015",
@@ -15993,7 +16881,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4502",
@@ -16046,7 +16937,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4503",
@@ -16097,7 +16991,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45052",
@@ -16148,7 +17045,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45033",
@@ -16158,7 +17058,7 @@
       "sku": "45033",
       "alternateSkus": [],
       "caliber": "45 Cal. .458\" (450 Nitro Express 3 1/2)",
-      "diameterIn": null,
+      "diameterIn": 0.458,
       "weightGr": 480,
       "bcG1": 0.285,
       "bcG7": null,
@@ -16193,13 +17093,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game. Diameter 0.458 copied from the printed caliber label: 45 Cal. .458\" (450 Nitro Express 3 1/2).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45034",
@@ -16252,7 +17155,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4507",
@@ -16303,7 +17209,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-45054",
@@ -16356,7 +17265,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-4748",
@@ -16407,7 +17319,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-47474",
@@ -16460,7 +17375,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-5051",
@@ -16470,7 +17388,7 @@
       "sku": "5051",
       "alternateSkus": [],
       "caliber": "505 Cal. .505\" (505 Gibbs)",
-      "diameterIn": null,
+      "diameterIn": 0.505,
       "weightGr": 525,
       "bcG1": 0.27,
       "bcG7": null,
@@ -16505,13 +17423,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game. Diameter 0.505 copied from the printed caliber label: 505 Cal. .505\" (505 Gibbs).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-5050",
@@ -16521,7 +17442,7 @@
       "sku": "5050",
       "alternateSkus": [],
       "caliber": "505 Cal. .505\" (505 Gibbs)",
-      "diameterIn": null,
+      "diameterIn": 0.505,
       "weightGr": 525,
       "bcG1": 0.27,
       "bcG7": null,
@@ -16556,13 +17477,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game. Diameter 0.505 copied from the printed caliber label: 505 Cal. .505\" (505 Gibbs).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-5155",
@@ -16613,7 +17537,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-51504",
@@ -16666,7 +17593,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hornady-5165",
@@ -16718,7 +17648,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     }
   ]
 }

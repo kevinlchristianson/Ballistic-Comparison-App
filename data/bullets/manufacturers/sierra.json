@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Sierra",
   "generatedOn": "2026-10-27",
   "bulletCount": 199,
@@ -68,7 +68,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1571",
@@ -132,7 +135,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1755",
@@ -198,7 +204,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2175",
@@ -262,7 +271,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2231",
@@ -328,7 +340,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1725",
@@ -394,7 +409,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1385",
@@ -448,7 +466,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4682",
@@ -512,7 +533,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7188",
@@ -577,7 +601,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4110",
@@ -642,7 +669,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2120",
@@ -696,7 +726,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9350t",
@@ -762,7 +795,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1981",
@@ -828,7 +864,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4681t",
@@ -893,7 +932,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1510",
@@ -947,7 +989,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2136",
@@ -1003,7 +1048,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1913",
@@ -1058,7 +1106,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2140",
@@ -1122,7 +1173,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1100",
@@ -1174,7 +1228,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7430",
@@ -1239,7 +1296,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2420",
@@ -1303,7 +1363,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1502",
@@ -1360,7 +1423,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1355",
@@ -1424,7 +1490,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2315",
@@ -1490,7 +1559,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1925",
@@ -1554,7 +1626,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2269",
@@ -1621,7 +1696,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2237",
@@ -1687,7 +1765,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1345",
@@ -1741,7 +1822,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1455",
@@ -1808,7 +1892,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1560",
@@ -1872,7 +1959,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1730",
@@ -1936,7 +2026,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1834",
@@ -2000,7 +2093,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1530",
@@ -2064,7 +2160,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1997",
@@ -2130,7 +2229,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1830",
@@ -2184,7 +2286,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2650",
@@ -2250,7 +2355,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1976",
@@ -2314,7 +2422,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7450",
@@ -2379,7 +2490,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1380",
@@ -2445,7 +2559,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1610",
@@ -2499,7 +2616,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4345",
@@ -2563,7 +2683,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1605",
@@ -2620,7 +2743,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2124",
@@ -2676,7 +2802,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1036",
@@ -2733,7 +2862,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1930",
@@ -2790,7 +2922,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1330",
@@ -2844,7 +2979,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2130",
@@ -2898,7 +3036,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2155",
@@ -2964,7 +3105,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2277",
@@ -3031,7 +3175,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4580",
@@ -3095,7 +3242,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1507",
@@ -3152,7 +3302,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2180",
@@ -3205,7 +3358,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9362",
@@ -3271,7 +3427,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1210",
@@ -3323,7 +3482,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9380",
@@ -3389,7 +3551,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7169",
@@ -3454,7 +3619,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1720",
@@ -3508,7 +3676,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1396",
@@ -3574,7 +3745,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9631mp",
@@ -3641,7 +3815,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1895",
@@ -3695,7 +3872,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2210",
@@ -3761,7 +3941,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1625",
@@ -3825,7 +4008,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2310",
@@ -3879,7 +4065,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1820",
@@ -3943,7 +4132,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1039",
@@ -4000,7 +4192,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-8760",
@@ -4051,7 +4246,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2116",
@@ -4107,7 +4305,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1390",
@@ -4171,7 +4372,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4540c",
@@ -4233,7 +4437,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2232",
@@ -4297,7 +4504,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2850",
@@ -4361,7 +4571,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1728",
@@ -4425,7 +4638,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1835",
@@ -4489,7 +4705,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2145",
@@ -4553,7 +4772,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4625",
@@ -4608,7 +4830,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1845",
@@ -4672,7 +4897,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2230",
@@ -4738,7 +4966,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7170",
@@ -4803,7 +5034,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2160",
@@ -4867,7 +5101,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1740",
@@ -4934,7 +5171,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2020",
@@ -4988,7 +5228,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1628",
@@ -5052,7 +5295,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2800",
@@ -5097,7 +5343,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2415",
@@ -5161,7 +5410,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1920",
@@ -5225,7 +5477,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7768",
@@ -5290,7 +5545,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4610gt",
@@ -5354,7 +5612,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2125",
@@ -5418,7 +5679,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1340",
@@ -5472,7 +5736,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1370",
@@ -5524,7 +5791,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2600",
@@ -5588,7 +5858,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7334",
@@ -5653,7 +5926,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1983",
@@ -5719,7 +5995,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9377t",
@@ -5786,7 +6065,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2251",
@@ -5852,7 +6134,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-8900",
@@ -5905,7 +6190,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7160",
@@ -5970,7 +6258,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1032",
@@ -6028,7 +6319,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1940",
@@ -6092,7 +6386,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7331",
@@ -6137,7 +6434,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4100t",
@@ -6202,7 +6502,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2900",
@@ -6253,7 +6556,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2800-2",
@@ -6309,7 +6615,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1450",
@@ -6375,7 +6684,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1537",
@@ -6441,7 +6753,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7775",
@@ -6506,7 +6821,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7407",
@@ -6571,7 +6889,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4540",
@@ -6633,7 +6954,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2200",
@@ -6699,7 +7023,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2620",
@@ -6753,7 +7080,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1200",
@@ -6805,7 +7135,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1365",
@@ -6869,7 +7202,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4695",
@@ -6914,7 +7250,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7720",
@@ -6979,7 +7318,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1575",
@@ -7046,7 +7388,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2400",
@@ -7100,7 +7445,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1975",
@@ -7164,7 +7512,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4340",
@@ -7219,7 +7570,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1900",
@@ -7273,7 +7627,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7795",
@@ -7338,7 +7695,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9290t",
@@ -7404,7 +7764,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2156",
@@ -7470,7 +7833,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2100",
@@ -7523,7 +7889,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1815",
@@ -7587,7 +7956,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1616",
@@ -7653,7 +8025,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2110",
@@ -7707,7 +8082,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1710",
@@ -7761,7 +8139,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2305",
@@ -7815,7 +8196,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9377gt",
@@ -7881,7 +8265,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7660",
@@ -7946,7 +8333,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1505",
@@ -8012,7 +8402,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4330t",
@@ -8077,7 +8470,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4062",
@@ -8142,7 +8538,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2190",
@@ -8208,7 +8607,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2170",
@@ -8261,7 +8663,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2165",
@@ -8325,7 +8730,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4440t",
@@ -8392,7 +8800,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7725",
@@ -8448,7 +8859,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2000",
@@ -8500,7 +8914,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9240t",
@@ -8566,7 +8983,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2950",
@@ -8630,7 +9050,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1440",
@@ -8687,7 +9110,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1515",
@@ -8751,7 +9177,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1410",
@@ -8817,7 +9246,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-8950",
@@ -8870,7 +9302,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1711c",
@@ -8934,7 +9369,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2275",
@@ -9000,7 +9438,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1727",
@@ -9066,7 +9507,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2755",
@@ -9119,7 +9563,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1565",
@@ -9185,7 +9632,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1912",
@@ -9249,7 +9699,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4210",
@@ -9313,7 +9766,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7295",
@@ -9378,7 +9834,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2610",
@@ -9442,7 +9901,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1715",
@@ -9508,7 +9970,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2236",
@@ -9574,7 +10039,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4665t",
@@ -9639,7 +10107,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1743",
@@ -9703,7 +10174,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1570",
@@ -9770,7 +10244,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1905",
@@ -9834,7 +10311,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2121",
@@ -9890,7 +10370,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-3000",
@@ -9954,7 +10437,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2010",
@@ -10006,7 +10492,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7216",
@@ -10071,7 +10560,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1360",
@@ -10125,7 +10617,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2410",
@@ -10179,7 +10674,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1742",
@@ -10246,7 +10744,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4680t",
@@ -10311,7 +10812,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4550t",
@@ -10376,7 +10880,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7755",
@@ -10441,7 +10948,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1980",
@@ -10498,7 +11008,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9390t",
@@ -10564,7 +11077,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7177",
@@ -10629,7 +11145,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1540",
@@ -10683,7 +11202,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1310",
@@ -10737,7 +11259,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1110",
@@ -10789,7 +11314,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1375",
@@ -10843,7 +11371,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7685",
@@ -10908,7 +11439,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2300",
@@ -10962,7 +11496,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4565t",
@@ -11027,7 +11564,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1500",
@@ -11081,7 +11621,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1729",
@@ -11139,7 +11682,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2135",
@@ -11192,7 +11738,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7207",
@@ -11257,7 +11806,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1400",
@@ -11313,7 +11865,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1785",
@@ -11379,7 +11934,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-9300t",
@@ -11445,7 +12003,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1395",
@@ -11509,7 +12070,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2115",
@@ -11573,7 +12137,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1630",
@@ -11637,7 +12204,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1520",
@@ -11691,7 +12261,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1915",
@@ -11757,7 +12330,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1833",
@@ -11821,7 +12397,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4320",
@@ -11885,7 +12464,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-2240",
@@ -11951,7 +12533,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-4475",
@@ -12015,7 +12600,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1910",
@@ -12069,7 +12657,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-1615",
@@ -12133,7 +12724,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "sierra-7171",
@@ -12198,7 +12792,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     }
   ]
 }

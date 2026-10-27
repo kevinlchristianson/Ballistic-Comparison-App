@@ -1,6 +1,6 @@
 # Hornady diameter printed inside the caliber label
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Diameter inside the caliber label
 
@@ -37,3 +37,4 @@ Leave `diameterIn` null on all eleven. The caliber text stays as printed. SKU 31
 
 ## Answer
 
+Yes. A decimal inch printed in the caliber label or the name is copied into `diameterIn`, and the original text is quoted in `notes`. That includes the ten caliber labels in the table and SKU 3148's `.3115` from the name. Caliber names that are not a decimal inch, such as `22 Caliber` or `50 CAL`, are not converted.

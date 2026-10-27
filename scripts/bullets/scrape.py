@@ -49,7 +49,7 @@ SOURCES: tuple[Source, ...] = (
     Source("lapua", "Lapua", "https://www.lapua.com/bullets/", "manufacturer", "Scenar, Scenar-L, FMJ, and naturalis. Some SKUs also have Doppler CD data."),
     Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame and Scirocco. Not committed yet. Zima's terms forbid copying that library."),
     Source("federal", "Federal", "https://www.federalpremium.com/products/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
-    Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is stored in notes, not as G1."),
+    Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is bcUnlabeled, not G1."),
     Source("norma", "Norma", "https://www.norma-ammunition.com/en-us/products/components/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("rws", "RWS", "https://rws-ammunition.com/", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, and related solids. Not committed yet. Zima's terms forbid copying that library."),

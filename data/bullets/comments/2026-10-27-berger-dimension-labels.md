@@ -1,6 +1,6 @@
 # Berger product-page dimensions vs schema 1.1.0 names
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Berger dimension labels
 
@@ -49,3 +49,4 @@ Copy only the labels that match the field names above. Nose length and base-to-o
 
 ## Answer
 
+Agreed in BOTS.md on 2026-10-27. The mapping above is what the catalog uses. Schema 1.2.0 stores the printed nose length in `noseLengthIn` and the printed base-to-ogive length in `baseToOgiveIn`. Neither fills `ogiveLengthIn`. A boat-tail cell of `FB` still leaves `boattailLengthIn` null. `meplatIn` stays null. Existing Berger rows were filled from the product-page values already quoted in `notes`.

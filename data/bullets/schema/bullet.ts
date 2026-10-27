@@ -1,5 +1,5 @@
 /**
- * Rifle bullet catalog contract, schemaVersion 1.1.0.
+ * Rifle bullet catalog contract, schemaVersion 1.2.0.
  *
  * Mirrors data/bullets/schema/bullet.schema.json. Application code should
  * import these types and reject catalogs whose schemaVersion is not
@@ -9,7 +9,7 @@
  * Unknown measurements are null or empty arrays. Do not invent values.
  */
 
-export const SCHEMA_VERSION = "1.1.0" as const;
+export const SCHEMA_VERSION = "1.2.0" as const;
 
 export type SchemaVersion = typeof SCHEMA_VERSION;
 
@@ -125,6 +125,12 @@ export interface Bullet {
   /** Provenance of the headline bcG1 and bcG7. Null when both are null. */
   bcSource: BcSource | null;
   /**
+   * BC printed with no drag model. Null when every published BC names a
+   * model, or when no BC is published. Do not treat this as G1 or G7.
+   * Added in 1.2.0.
+   */
+  bcUnlabeled: { value: number; label: string } | null;
+  /**
    * Sectional density in lb/in^2 as published.
    * Do not calculate a value to fill a blank.
    */
@@ -138,6 +144,10 @@ export interface Bullet {
    * A published nose length or base-to-ogive length is not this field.
    */
   ogiveLengthIn: number | null;
+  /** Base-to-ogive length in inches. Null when unpublished. Added in 1.2.0. */
+  baseToOgiveIn: number | null;
+  /** Nose length in inches. Null when unpublished. Added in 1.2.0. */
+  noseLengthIn: number | null;
   /** Boat tail length in inches. Null when unpublished or when the source marks a flat base. */
   boattailLengthIn: number | null;
   /** Meplat diameter in inches. Null when unpublished. */

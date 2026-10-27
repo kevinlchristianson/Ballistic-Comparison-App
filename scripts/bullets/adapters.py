@@ -159,10 +159,13 @@ def blank_bullet(manufacturer: str, name: str, source_url: str, publisher: str, 
         "bcG7": None,
         "ballisticCoefficients": [],
         "bcSource": None,
+        "bcUnlabeled": None,
         "sectionalDensity": None,
         "lengthIn": None,
         "bearingSurfaceIn": None,
         "ogiveLengthIn": None,
+        "baseToOgiveIn": None,
+        "noseLengthIn": None,
         "boattailLengthIn": None,
         "meplatIn": None,
         "ogiveType": None,
@@ -184,6 +187,38 @@ def blank_bullet(manufacturer: str, name: str, source_url: str, publisher: str, 
         "conflicts": [],
         "notes": None,
     }
+
+
+_INCH_DIAMETER = re.compile(r"(?<!\d)((?:0)?\.\d{3,4})(?!\d)")
+
+
+def printed_inch_diameter(text: str | None) -> float | None:
+    """Decimal inch diameter printed in a caliber label or product name.
+
+    "22 Caliber", "50 CAL", and "5.7 Cal" are caliber names, not diameters.
+    """
+    if not text:
+        return None
+    for match in _INCH_DIAMETER.finditer(text):
+        value = parse_number(match.group(1))
+        if value is not None and 0.17 <= value <= 0.80:
+            return value
+    return None
+
+
+def copy_printed_diameter(bullet: dict) -> None:
+    """Copy a decimal inch already printed in the caliber label or the name."""
+    if bullet.get("diameterIn") is not None:
+        return
+    for field, origin in (("caliber", "caliber label"), ("name", "name")):
+        text = bullet.get(field)
+        value = printed_inch_diameter(text if isinstance(text, str) else None)
+        if value is None:
+            continue
+        bullet["diameterIn"] = as_number(value)
+        note = f"Diameter {bullet['diameterIn']} copied from the printed {origin}: {text}."
+        bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+        return
 
 
 def add_bc(bullet: dict, drag_model: str, value, source: str, source_url: str, label: str | None = None) -> None:
@@ -241,6 +276,7 @@ def add_uses(bullet: dict, text: str) -> None:
 
 
 def finish(bullet: dict) -> dict:
+    copy_printed_diameter(bullet)
     if bullet["bcG1"] is not None and bullet["bcG7"] is not None and bullet["bcG7"] >= bullet["bcG1"]:
         published = bullet["bcG7"]
         bullet["conflicts"].append(
@@ -389,6 +425,7 @@ def scrape_hornady() -> dict:
         bullet["sku"] = str(row["sku"]).strip() if row.get("sku") else None
         bullet["caliber"] = strip_html(row.get("caliber")) or None
         bullet["diameterIn"] = as_number(parse_number(row.get("caliberdiameter")))
+        copy_printed_diameter(bullet)
         bullet["weightGr"] = as_number(parse_number(row.get("weight")))
         bullet["sectionalDensity"] = as_number(parse_number(row.get("sectional_density")))
         set_twist(bullet, row.get("twist"))
@@ -523,13 +560,19 @@ def _apply_berger_page(bullet: dict) -> dict:
     elif printed_style:
         note = f"Ogive style {printed_style!r} is not tangent, secant, or hybrid, so ogiveType is null."
         bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    bullet["noseLengthIn"] = as_number(parse_number(attrs.get("Nose Length")))
+    bullet["baseToOgiveIn"] = as_number(parse_number(attrs.get("Base to Ogive")))
     extras = []
-    if attrs.get("Nose Length"):
+    if bullet["noseLengthIn"] is not None:
         extras.append(f"Nose Length {attrs['Nose Length']}")
-    if attrs.get("Base to Ogive"):
+    if bullet["baseToOgiveIn"] is not None:
         extras.append(f"Base to Ogive {attrs['Base to Ogive']}")
     if extras:
-        note = "Product page also prints " + ", ".join(extras) + ". Those values are not stored as ogiveLengthIn."
+        note = (
+            "Product page also prints "
+            + ", ".join(extras)
+            + ". Those values are noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
+        )
         bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
     if bullet.get("sources"):
         bullet["sources"][0]["notes"] = (
@@ -1141,7 +1184,9 @@ def scrape_woodleigh() -> dict:
                 add_construction(bullet, desc)
                 notes = []
                 bc = _cell(row, bc_i)
-                if bc and bc not in {"-", "–"}:
+                bc_value = parse_number(bc) if bc and bc not in {"-", "–"} else None
+                if bc_value is not None and bc_value > 0:
+                    bullet["bcUnlabeled"] = {"value": as_number(bc_value), "label": "BC"}
                     notes.append(f"Woodleigh prints BC {bc} with no G1 or G7 label.")
                 velocity = _cell(row, vel_i)
                 if velocity and velocity not in {"-", "–"}:
