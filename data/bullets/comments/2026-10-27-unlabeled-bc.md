@@ -10,17 +10,16 @@ Where should a BC go when the source prints a number and does not say G1 or G7? 
 
 ## Context
 
-Zima cards use the badge "BC (model unclear)" and a chip that says `BC`, not `G1` or `G7`. Examples read on 2026-10-27:
+Zima cards use the badge "BC (model unclear)" and a chip that says `BC`, not `G1` or `G7`. Examples read on 2026-10-27, and not copied into the catalog (see the redistribution note):
 
-- Speer, `https://zimaballistics.com/bullets/speer/` — "TNT Bullet, .204, 39 Grain", diameter `0.204"`, `39gr`, BC `0.202`. All 101 Speer cards on that page are tier `unspecified`.
-- Swift, `https://zimaballistics.com/bullets/swift/` — "Scirocco Rifle Bullets Cal. 224 | 62 Gr", `0.224"`, `62gr`, BC `0.307`. All 32 Swift cards are tier `unspecified`.
-- Woodleigh (53 cards) is the same tier. Federal has 24 `unspecified` cards and 5 that are labeled G7 only, for example "Terminal Ascent Component Bullet, .264, 130 Grain", G7 `0.263`, no G1 on the card.
+- Speer, `https://zimaballistics.com/bullets/speer/` — "TNT Bullet, .204, 39 Grain", diameter `0.204"`, `39gr`, BC `0.202`.
+- Swift, `https://zimaballistics.com/bullets/swift/` — "Scirocco Rifle Bullets Cal. 224 | 62 Gr", `0.224"`, `62gr`, BC `0.307`.
 
-`bcSource` would be `other` if we keep a Zima number, because the page retrieved was Zima, not the manufacturer.
+Woodleigh's own lists do the same thing. The column header is `BC`, with no G1 or G7. Example from `https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list`, CAT 80: 6.5mm .264" 140gr PP SN, BC `.444`. That number is in `notes` (`Woodleigh prints BC .444 with no G1 or G7 label.`). `bcG1` and `bcG7` are null on all 158 Woodleigh rows.
 
 ## Working assumption until answered
 
-Leave `bcG1` and `bcG7` null when the card does not name a drag model. Put the printed number in `notes` with the words "BC (model unclear)". A card that names G7 only keeps that value in `bcG7` and leaves `bcG1` null.
+Leave `bcG1` and `bcG7` null when the source does not name a drag model. Put the printed number in `notes`. Do not store it as G1.
 
 ## Answer
 

@@ -2,13 +2,13 @@
 
 Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else.
 
-This revision is the contract and the tooling. The combined catalog [`bullets.json`](bullets.json) is intentionally empty. Four Berger rows in [`examples/examples.json`](examples/examples.json) show the shape. They are real rows from Berger's public table, not a sample of the full line. Manufacturer files and the filled combined catalog land in a follow-up change that does not alter this schema.
+The combined catalog [`bullets.json`](bullets.json) is rebuilt from the manufacturer files. Four Berger rows in [`examples/examples.json`](examples/examples.json) show the shape and are not merged into `bullets.json`.
 
 ## Layout
 
 ```
 data/bullets/
-  bullets.json                 Combined catalog the app reads. Empty until normalize runs.
+  bullets.json                 Combined catalog the app reads. Rebuilt by normalize.py.
   examples/examples.json       A few sourced rows for development against the schema.
   manufacturers/<slug>.json    One catalog per manufacturer. Empty in this revision.
   raw/                         Scratch downloads. Gitignored. Not a source of truth.
@@ -82,11 +82,11 @@ Planned sources, in the order `scrape.py --list` prints them:
 - Boutique: Cutting Edge Bullets, Hammer Bullets, Badlands, Warner Flatline, Lehigh Defense, Peregrine, GS Custom, Matrix.
 - Aggregator, for discovery and cross-check only: [LoadDevelopment.com bullet database](https://loaddevelopment.com/bullet-database/), which embeds the [Trajek library](https://trajek.app/library).
 
-The only rows recorded so far are the four Berger examples. They were read on 2026-10-27 from <https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/>. That table publishes part number, description, G1 BC, G7 BC, and minimum twist. Empty G7 cells are `null`. Diameter, length, sectional density, material, and expansion velocity were not on the table, so those fields are `null`.
+Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, and Woodleigh. Berger's file is the summary table (part, description, G1, G7, minimum twist), so diameter and length are null there. No rows are copied from LoadDevelopment or Zima; see `comments/2026-10-27-redistribution-terms.md`.
 
 ## How to update
 
-1. Implement or run a source adapter: `python3 scripts/bullets/scrape.py --source berger`. Adapters in this revision are registered and not implemented; `--dry-run` prints the URL and output path, and a real run exits 2 until the adapter exists.
+1. Run a source adapter: `python3 scripts/bullets/scrape.py --source berger`. `--dry-run` prints the URL and output path. Sources whose terms forbid copying are skipped and write nothing.
 2. Write `data/bullets/manufacturers/<slug>.json` in this schema. One file per manufacturer. Keep raw HTML or JSON under `data/bullets/raw/` (gitignored).
 3. Rebuild the combined file: `python3 scripts/bullets/normalize.py`. Add `--include-examples` only when you deliberately want the sample rows in the app catalog.
 4. Check the result: `python3 scripts/bullets/validate.py`. Use `--strict` to fail on range warnings.
@@ -97,7 +97,7 @@ The only rows recorded so far are the four Berger examples. They were read on 20
 - `bulletCount`, unique `id`, unique manufacturer+SKU.
 - Headline BC is one of the published bands for that drag model.
 - G7 is lower than G1 when both exist.
-- Weight and diameter, when both exist, imply a sectional density between 0.04 and 0.60, and they agree with a published sectional density within 0.002 or 1%.
+- Weight and diameter, when both exist, imply a sectional density between 0.04 and 0.60. A published sectional density that differs by more than 0.002 and 1% is a warning; the published value is kept.
 - Warnings for BCs, weights, diameters, lengths, twist, and expansion velocity outside ordinary rifle ranges. Warnings do not fail the script unless `--strict`.
 
 Hard bounds live in the schema (for example a BC above 0 and at most 2). Do not relax them without a schema version bump.

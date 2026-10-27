@@ -1,0 +1,5411 @@
+{
+  "schemaVersion": "1.0.0",
+  "manufacturer": "Woodleigh",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 158,
+  "bullets": [
+    {
+      "id": "woodleigh-80",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "6.5mm .264\" 140gr PP SN",
+      "sku": "80",
+      "alternateSkus": [],
+      "caliber": "6.5mm .264\"",
+      "diameterIn": 0.264,
+      "weightGr": 140,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.287,
+      "lengthIn": 1.24,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .444 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-80a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "6.5mm .264\" 160gr PP SN",
+      "sku": "80A",
+      "alternateSkus": [],
+      "caliber": "6.5mm .264\"",
+      "diameterIn": 0.264,
+      "weightGr": 160,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.328,
+      "lengthIn": 1.381,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-80b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "6.5mm .264\" 160gr RN SN",
+      "sku": "80B",
+      "alternateSkus": [],
+      "caliber": "6.5mm .264\"",
+      "diameterIn": 0.264,
+      "weightGr": 160,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.328,
+      "lengthIn": null,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .285 with no G1 or G7 label. Recommended impact velocity: 2000-2800 fps."
+    },
+    {
+      "id": "woodleigh-72",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "270 Win .277\" 130gr PP SN",
+      "sku": "72",
+      "alternateSkus": [],
+      "caliber": "270 Win .277\"",
+      "diameterIn": 0.277,
+      "weightGr": 130,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.242,
+      "lengthIn": 1.087,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .409 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-73",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "270 Win .277\" 150gr PP SN",
+      "sku": "73",
+      "alternateSkus": [],
+      "caliber": "270 Win .277\"",
+      "diameterIn": 0.277,
+      "weightGr": 150,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.279,
+      "lengthIn": 1.209,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .463 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-73a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "270 Win .277\" 180gr PP SN",
+      "sku": "73A",
+      "alternateSkus": [],
+      "caliber": "270 Win .277\"",
+      "diameterIn": 0.277,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.334,
+      "lengthIn": 1.391,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .513 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-74",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "7mm .284\" 140gr PP SN",
+      "sku": "74",
+      "alternateSkus": [],
+      "caliber": "7mm .284\"",
+      "diameterIn": 0.284,
+      "weightGr": 140,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.248,
+      "lengthIn": 1.112,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .436 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-75",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "7mm .284\" 160gr PP SN",
+      "sku": "75",
+      "alternateSkus": [],
+      "caliber": "7mm .284\"",
+      "diameterIn": 0.284,
+      "weightGr": 160,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.283,
+      "lengthIn": 1.232,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .486 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-76",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "7mm .284\" 175gr PP SN",
+      "sku": "76",
+      "alternateSkus": [],
+      "caliber": "7mm .284\"",
+      "diameterIn": 0.284,
+      "weightGr": 175,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.31,
+      "lengthIn": 1.314,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .510 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-77",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "275 H&H .287\" 160gr PP SN",
+      "sku": "77",
+      "alternateSkus": [],
+      "caliber": "275 H&H .287\"",
+      "diameterIn": 0.287,
+      "weightGr": 160,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.223,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .474 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-78",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "275 H&H .287\" 175gr PP SN",
+      "sku": "78",
+      "alternateSkus": [],
+      "caliber": "275 H&H .287\"",
+      "diameterIn": 0.287,
+      "weightGr": 175,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.304,
+      "lengthIn": 1.31,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-65i",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "308 Cal 308\" 130gr PP SN",
+      "sku": "65I",
+      "alternateSkus": [],
+      "caliber": "308 Cal 308\"",
+      "diameterIn": 0.308,
+      "weightGr": 130,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.189,
+      "lengthIn": 0.902,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.189 differs from weight and diameter (0.196). The published value was kept."
+      ],
+      "notes": "Woodleigh prints BC .302 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-65f",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "308 Cal 308\" 150gr PP SN",
+      "sku": "65F",
+      "alternateSkus": [],
+      "caliber": "308 Cal 308\"",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.226,
+      "lengthIn": 1.043,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-65a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "308 Cal 308\" 165gr PP SN",
+      "sku": "65A",
+      "alternateSkus": [],
+      "caliber": "308 Cal 308\"",
+      "diameterIn": 0.308,
+      "weightGr": 165,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.248,
+      "lengthIn": 1.08,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .320 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-65b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "308 Cal 308\" 180gr PP SN",
+      "sku": "65B",
+      "alternateSkus": [],
+      "caliber": "308 Cal 308\"",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.271,
+      "lengthIn": 1.153,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .376 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-65c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "308 Cal 308\" 220gr RN SN",
+      "sku": "65C",
+      "alternateSkus": [],
+      "caliber": "308 Cal 308\"",
+      "diameterIn": 0.308,
+      "weightGr": 220,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.331,
+      "lengthIn": 1.275,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .367 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-65h",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "30-30 .308\" 150gr FN SN",
+      "sku": "65H",
+      "alternateSkus": [],
+      "caliber": "30-30 .308\"",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.226,
+      "lengthIn": 0.916,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .246 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-65g",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "30/06 .308\" 240gr PP SN",
+      "sku": "65G",
+      "alternateSkus": [],
+      "caliber": "30/06 .308\"",
+      "diameterIn": 0.308,
+      "weightGr": 240,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.361,
+      "lengthIn": 1.428,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-65d",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "300 Win Mag .308\" 180gr PP SN",
+      "sku": "65D",
+      "alternateSkus": [],
+      "caliber": "300 Win Mag .308\"",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.271,
+      "lengthIn": 1.19,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .435 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-65e",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "300 Win Mag .308\" 200gr PP SN",
+      "sku": "65E",
+      "alternateSkus": [],
+      "caliber": "300 Win Mag .308\"",
+      "diameterIn": 0.308,
+      "weightGr": 200,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.301,
+      "lengthIn": 1.278,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-68a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "303 British .312\" 174gr PP SN",
+      "sku": "68A",
+      "alternateSkus": [],
+      "caliber": "303 British .312\"",
+      "diameterIn": 0.312,
+      "weightGr": 174,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.255,
+      "lengthIn": 1.098,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .362 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-68",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "303 British .312\" 215gr RN SN",
+      "sku": "68",
+      "alternateSkus": [],
+      "caliber": "303 British .312\"",
+      "diameterIn": 0.312,
+      "weightGr": 215,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.316,
+      "lengthIn": 1.235,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+    },
+    {
+      "id": "woodleigh-68b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "303/7.62mm x 39mm .312\" 130gr PP SN",
+      "sku": "68B",
+      "alternateSkus": [],
+      "caliber": "303/7.62mm x 39mm .312\"",
+      "diameterIn": 0.312,
+      "weightGr": 130,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.18,
+      "lengthIn": 0.914,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.18 differs from weight and diameter (0.191). The published value was kept."
+      ],
+      "notes": "Woodleigh prints BC .295 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+    },
+    {
+      "id": "woodleigh-64b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "8mm .323\" 196gr RN SN",
+      "sku": "64B",
+      "alternateSkus": [],
+      "caliber": "8mm .323\"",
+      "diameterIn": 0.323,
+      "weightGr": 196,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.268,
+      "lengthIn": 1.128,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-64c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "8mm .323\" 220gr RN SN",
+      "sku": "64C",
+      "alternateSkus": [],
+      "caliber": "8mm .323\"",
+      "diameterIn": 0.323,
+      "weightGr": 220,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.301,
+      "lengthIn": 1.233,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-64d",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "8mm .323\" 250gr RN SN",
+      "sku": "64D",
+      "alternateSkus": [],
+      "caliber": "8mm .323\"",
+      "diameterIn": 0.323,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.343,
+      "lengthIn": 1.356,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .403 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-64f",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "325 Win (8mm) .323\"/8 x 57 IS 200gr PP SN",
+      "sku": "64F",
+      "alternateSkus": [],
+      "caliber": "325 Win (8mm) .323\"/8 x 57 IS",
+      "diameterIn": 0.323,
+      "weightGr": 200,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.274,
+      "lengthIn": 1.24,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .406 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-64g",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "325 Win (8mm) .323\"/8 x 57 IS 220gr PP SN",
+      "sku": "64G",
+      "alternateSkus": [],
+      "caliber": "325 Win (8mm) .323\"/8 x 57 IS",
+      "diameterIn": 0.323,
+      "weightGr": 220,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.301,
+      "lengthIn": 1.33,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .448 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-64e",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "8 x 57 I .318\" 200gr RN SN",
+      "sku": "64E",
+      "alternateSkus": [],
+      "caliber": "8 x 57 I .318\"",
+      "diameterIn": 0.318,
+      "weightGr": 200,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.283,
+      "lengthIn": 1.152,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .331 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-63",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "318 Westly Richards .330\" 250gr RN SN",
+      "sku": "63",
+      "alternateSkus": [],
+      "caliber": "318 Westly Richards .330\"",
+      "diameterIn": 0.33,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.328,
+      "lengthIn": 1.302,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .420 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-60",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "333 Jeffery .333\" 250gr RN SN",
+      "sku": "60",
+      "alternateSkus": [],
+      "caliber": "333 Jeffery .333\"",
+      "diameterIn": 0.333,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.322,
+      "lengthIn": 1.244,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-61",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "333 Jeffery .333\" 300gr RN SN",
+      "sku": "61",
+      "alternateSkus": [],
+      "caliber": "333 Jeffery .333\"",
+      "diameterIn": 0.333,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.386,
+      "lengthIn": 1.459,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .418 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-56c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Fed 338/06 .338\" 180gr PP SN",
+      "sku": "56C",
+      "alternateSkus": [],
+      "caliber": "338 Fed 338/06 .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.226,
+      "lengthIn": 1.033,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .361 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-56d",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Fed 338/06 .338\" 200gr PP SN",
+      "sku": "56D",
+      "alternateSkus": [],
+      "caliber": "338 Fed 338/06 .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 200,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.251,
+      "lengthIn": 1.113,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-56e",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "33 Win .338\" 200gr FN SN",
+      "sku": "56E",
+      "alternateSkus": [],
+      "caliber": "33 Win .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 200,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": 1.035,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .234 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+    },
+    {
+      "id": "woodleigh-56a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Mag .338\" 225gr PP SN",
+      "sku": "56A",
+      "alternateSkus": [],
+      "caliber": "338 Mag .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 225,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.281,
+      "lengthIn": 1.189,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .425 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+    },
+    {
+      "id": "woodleigh-56",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Mag .338\" 250gr RN SN",
+      "sku": "56",
+      "alternateSkus": [],
+      "caliber": "338 Mag .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.226,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .332 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-56b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Mag .338\" 250gr PP SN",
+      "sku": "56B",
+      "alternateSkus": [],
+      "caliber": "338 Mag .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.288,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .431 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-58",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "338 Mag .338\" 300gr RN SN",
+      "sku": "58",
+      "alternateSkus": [],
+      "caliber": "338 Mag .338\"",
+      "diameterIn": 0.338,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.375,
+      "lengthIn": 1.43,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .416 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-348",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "348 Win .348\" 250gr FN SN",
+      "sku": "348",
+      "alternateSkus": [],
+      "caliber": "348 Win .348\"",
+      "diameterIn": 0.348,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.295,
+      "lengthIn": 1.161,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-51",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 225gr RN SN",
+      "sku": "51",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 225,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.251,
+      "lengthIn": 1.043,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .263 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-51a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 225gr PP SN",
+      "sku": "51A",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 225,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.251,
+      "lengthIn": 1.131,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .372 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+    },
+    {
+      "id": "woodleigh-53",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 250gr RN SN",
+      "sku": "53",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.279,
+      "lengthIn": 1.125,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+    },
+    {
+      "id": "woodleigh-53a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 250gr PP SN",
+      "sku": "53A",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.279,
+      "lengthIn": 1.219,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+    },
+    {
+      "id": "woodleigh-53b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 275gr PP SN",
+      "sku": "53B",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 275,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.307,
+      "lengthIn": 1.312,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+    },
+    {
+      "id": "woodleigh-54",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "358 Cal .358\" 310gr RN SN",
+      "sku": "54",
+      "alternateSkus": [],
+      "caliber": "358 Cal .358\"",
+      "diameterIn": 0.358,
+      "weightGr": 310,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.346,
+      "lengthIn": 1.352,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .458 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+    },
+    {
+      "id": "woodleigh-47d",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 232gr PP SN",
+      "sku": "47D",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 232,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": 1.16,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-47a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 250gr RN SN",
+      "sku": "47A",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.267,
+      "lengthIn": 1.083,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-47c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 250gr PP SN",
+      "sku": "47C",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 250,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.267,
+      "lengthIn": 1.21,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .381 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+    },
+    {
+      "id": "woodleigh-47",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 286gr RN SN",
+      "sku": "47",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 286,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.209,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .321 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+    },
+    {
+      "id": "woodleigh-47b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 286gr PP SN",
+      "sku": "47B",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 286,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.323,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .396 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+    },
+    {
+      "id": "woodleigh-49",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 320gr RN SN",
+      "sku": "49",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 320,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.341,
+      "lengthIn": 1.323,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+    },
+    {
+      "id": "woodleigh-49a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "9.3 Cal .366\" 320gr PP SN",
+      "sku": "49A",
+      "alternateSkus": [],
+      "caliber": "9.3 Cal .366\"",
+      "diameterIn": 0.366,
+      "weightGr": 320,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.341,
+      "lengthIn": 1.441,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .457 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+    },
+    {
+      "id": "woodleigh-42a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 235gr PP SN",
+      "sku": "42A",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 235,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.239,
+      "lengthIn": 1.013,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1900-2800 fps."
+    },
+    {
+      "id": "woodleigh-42",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 270gr RN SN",
+      "sku": "42",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 270,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.274,
+      "lengthIn": 1.088,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-43a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 270gr PP SN",
+      "sku": "43A",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 270,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.274,
+      "lengthIn": 1.13,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .370 with no G1 or G7 label. Recommended impact velocity: 1900-2700 fps."
+    },
+    {
+      "id": "woodleigh-44hd",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" Heavy Duty 300gr RN SN",
+      "sku": "44HD",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.218,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2550 fps."
+    },
+    {
+      "id": "woodleigh-44",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 300gr RN SN",
+      "sku": "44",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.184,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-45a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 300gr PP SN",
+      "sku": "45A",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.232,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .380 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps."
+    },
+    {
+      "id": "woodleigh-46",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 300gr FMJ",
+      "sku": "46",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": 1.253,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .275 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-46bhd",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" Heavy Duty 350gr RN SN",
+      "sku": "46BHD",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.356,
+      "lengthIn": 1.378,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .323 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps."
+    },
+    {
+      "id": "woodleigh-46c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 350gr PP SN",
+      "sku": "46C",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.356,
+      "lengthIn": 1.408,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps."
+    },
+    {
+      "id": "woodleigh-46d",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "375 Mag .375\" 350gr FMJ",
+      "sku": "46D",
+      "alternateSkus": [],
+      "caliber": "375 Mag .375\"",
+      "diameterIn": 0.375,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.356,
+      "lengthIn": 1.447,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/338-375-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-81",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "400 Purdey .405\" 230gr RN SN",
+      "sku": "81",
+      "alternateSkus": [],
+      "caliber": "400 Purdey .405\"",
+      "diameterIn": 0.405,
+      "weightGr": 230,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.2,
+      "lengthIn": 0.81,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .181 with no G1 or G7 label. Recommended impact velocity: 2050 fps."
+    },
+    {
+      "id": "woodleigh-40a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "450/400 Nitro .408\" 400gr RN SN",
+      "sku": "40A",
+      "alternateSkus": [],
+      "caliber": "450/400 Nitro .408\"",
+      "diameterIn": 0.408,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.344,
+      "lengthIn": 1.308,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-40",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".411\" 400gr RN SN",
+      "sku": "40",
+      "alternateSkus": [],
+      "caliber": ".411\"",
+      "diameterIn": 0.411,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.338,
+      "lengthIn": 1.298,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-40b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "450/400 3\" for Ruger .410\" 400gr RN SN",
+      "sku": "40B",
+      "alternateSkus": [],
+      "caliber": "450/400 3\" for Ruger .410\"",
+      "diameterIn": 0.41,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.338,
+      "lengthIn": 1.305,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-41a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".408\" Temp not available 400gr FMJ",
+      "sku": "41A",
+      "alternateSkus": [],
+      "caliber": ".408\" Temp not available",
+      "diameterIn": 0.408,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.344,
+      "lengthIn": 1.412,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-41",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".410\" for Ruger Temp not available 400gr FMJ",
+      "sku": "41",
+      "alternateSkus": [],
+      "caliber": ".410\" for Ruger Temp not available",
+      "diameterIn": 0.41,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.338,
+      "lengthIn": 1.412,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-71",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "405 Win .412\" 300gr RN SN",
+      "sku": "71",
+      "alternateSkus": [],
+      "caliber": "405 Win .412\"",
+      "diameterIn": 0.412,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.252,
+      "lengthIn": 0.985,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .194 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-39",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Rigby .416\" 340gr PP SN",
+      "sku": "39",
+      "alternateSkus": [],
+      "caliber": "416 Rigby .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 340,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.281,
+      "lengthIn": 1.197,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps."
+    },
+    {
+      "id": "woodleigh-37a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Rigby .416\" 410gr RN SN",
+      "sku": "37A",
+      "alternateSkus": [],
+      "caliber": "416 Rigby .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 410,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.338,
+      "lengthIn": 1.334,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-38",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Rigby .416\" 410gr FMJ",
+      "sku": "38",
+      "alternateSkus": [],
+      "caliber": "416 Rigby .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 410,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.338,
+      "lengthIn": 1.399,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-37b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Rigby .416\" 450gr RN SN",
+      "sku": "37B",
+      "alternateSkus": [],
+      "caliber": "416 Rigby .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.371,
+      "lengthIn": 1.437,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-38b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Rigby .416\" 450gr FMJ",
+      "sku": "38B",
+      "alternateSkus": [],
+      "caliber": "416 Rigby .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.371,
+      "lengthIn": 1.51,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-37c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Remington .416\" 400gr RN SN",
+      "sku": "37C",
+      "alternateSkus": [],
+      "caliber": "416 Remington .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.33,
+      "lengthIn": 1.303,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .305 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-38c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Remington .416\" 400gr FMJ",
+      "sku": "38C",
+      "alternateSkus": [],
+      "caliber": "416 Remington .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.33,
+      "lengthIn": 1.37,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-37n",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Remington .416\" 450gr RN SN",
+      "sku": "37N",
+      "alternateSkus": [],
+      "caliber": "416 Remington .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.371,
+      "lengthIn": 1.437,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-38n",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "416 Remington .416\" 450gr FMJ",
+      "sku": "38N",
+      "alternateSkus": [],
+      "caliber": "416 Remington .416\"",
+      "diameterIn": 0.416,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.371,
+      "lengthIn": 1.51,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-35",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "404 Jeffery .422\" 350gr RN SN",
+      "sku": "35",
+      "alternateSkus": [],
+      "caliber": "404 Jeffery .422\"",
+      "diameterIn": 0.422,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.281,
+      "lengthIn": 1.128,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .293 with no G1 or G7 label. Recommended impact velocity: 1800-2600 fps."
+    },
+    {
+      "id": "woodleigh-33a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "404 Jeffery .422\" 400gr RN SN",
+      "sku": "33A",
+      "alternateSkus": [],
+      "caliber": "404 Jeffery .422\"",
+      "diameterIn": 0.422,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.321,
+      "lengthIn": 1.282,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+    },
+    {
+      "id": "woodleigh-34",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "404 Jeffery .422\" 400gr FMJ",
+      "sku": "34",
+      "alternateSkus": [],
+      "caliber": "404 Jeffery .422\"",
+      "diameterIn": 0.422,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.321,
+      "lengthIn": 1.347,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-33b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "404 Jeffery .422\" 450gr RN SN",
+      "sku": "33B",
+      "alternateSkus": [],
+      "caliber": "404 Jeffery .422\"",
+      "diameterIn": 0.422,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.361,
+      "lengthIn": 1.416,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+    },
+    {
+      "id": "woodleigh-34b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "404 Jeffery .422\" 450gr FMJ",
+      "sku": "34B",
+      "alternateSkus": [],
+      "caliber": "404 Jeffery .422\"",
+      "diameterIn": 0.422,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.361,
+      "lengthIn": 1.491,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-36",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "10.75 x 68mm .423\" 347gr RN SN",
+      "sku": "36",
+      "alternateSkus": [],
+      "caliber": "10.75 x 68mm .423\"",
+      "diameterIn": 0.423,
+      "weightGr": 347,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.116,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .290 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+    },
+    {
+      "id": "woodleigh-36a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "10.75 x 68mm .423\" 347gr FMJ",
+      "sku": "36A",
+      "alternateSkus": [],
+      "caliber": "10.75 x 68mm .423\"",
+      "diameterIn": 0.423,
+      "weightGr": 347,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.188,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .288 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-444",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "444 Martin .430\" 280gr FN SN",
+      "sku": "444",
+      "alternateSkus": [],
+      "caliber": "444 Martin .430\"",
+      "diameterIn": 0.43,
+      "weightGr": 280,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.216,
+      "lengthIn": 0.828,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .186 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-31",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "425 Westly Richards .435\" 410gr RN SN",
+      "sku": "31",
+      "alternateSkus": [],
+      "caliber": "425 Westly Richards .435\"",
+      "diameterIn": 0.435,
+      "weightGr": 410,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.31,
+      "lengthIn": 1.177,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .222 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+    },
+    {
+      "id": "woodleigh-32",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "425 Westly Richards .435\" 410gr FMJ",
+      "sku": "32",
+      "alternateSkus": [],
+      "caliber": "425 Westly Richards .435\"",
+      "diameterIn": 0.435,
+      "weightGr": 410,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.31,
+      "lengthIn": 1.263,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .221 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-67",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "11.2 Schuler .440\" 401gr RN SN",
+      "sku": "67",
+      "alternateSkus": [],
+      "caliber": "11.2 Schuler .440\"",
+      "diameterIn": 0.44,
+      "weightGr": 401,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.296,
+      "lengthIn": 1.167,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+    },
+    {
+      "id": "woodleigh-30",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 400gr PP SN",
+      "sku": "30",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.272,
+      "lengthIn": 1.152,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1900-2250 fps."
+    },
+    {
+      "id": "woodleigh-24a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 480gr RN SN",
+      "sku": "24A",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.327,
+      "lengthIn": 1.126,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-25a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 480gr FMJ",
+      "sku": "25A",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.327,
+      "lengthIn": 1.34,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-26",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 500gr RN SN",
+      "sku": "26",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.341,
+      "lengthIn": 1.305,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-26a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 500gr PP SN",
+      "sku": "26A",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.341,
+      "lengthIn": 1.355,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .378 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+    },
+    {
+      "id": "woodleigh-28",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 500gr FMJ",
+      "sku": "28",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.341,
+      "lengthIn": 1.388,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-27",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 550gr RN SN",
+      "sku": "27",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 550,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.375,
+      "lengthIn": 1.414,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-29",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "458 Mag .458\" 550gr FMJ",
+      "sku": "29",
+      "alternateSkus": [],
+      "caliber": "458 Mag .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 550,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.375,
+      "lengthIn": 1.521,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .326 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-30a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "450 BPE .458\" 350gr RN SN",
+      "sku": "30A",
+      "alternateSkus": [],
+      "caliber": "450 BPE .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.238,
+      "lengthIn": 0.949,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+    },
+    {
+      "id": "woodleigh-30b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "45/70 .458\" 405gr FN SN",
+      "sku": "30B",
+      "alternateSkus": [],
+      "caliber": "45/70 .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 405,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.276,
+      "lengthIn": 1.02,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .204 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+    },
+    {
+      "id": "woodleigh-30c",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "45/70 .458\" 300gr FN SN",
+      "sku": "30C",
+      "alternateSkus": [],
+      "caliber": "45/70 .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.205,
+      "lengthIn": 0.792,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .196 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps."
+    },
+    {
+      "id": "woodleigh-24",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "450 Nitro .458\" 480gr RN SN",
+      "sku": "24",
+      "alternateSkus": [],
+      "caliber": "450 Nitro .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.327,
+      "lengthIn": 1.261,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-25",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "450 Nitro .458\" 480gr FMJ",
+      "sku": "25",
+      "alternateSkus": [],
+      "caliber": "450 Nitro .458\"",
+      "diameterIn": 0.458,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.327,
+      "lengthIn": 1.34,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/405-458-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-22",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "465 Nitro .468\" 480gr RN SN",
+      "sku": "22",
+      "alternateSkus": [],
+      "caliber": "465 Nitro .468\"",
+      "diameterIn": 0.468,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.225,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .334 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-23",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "465 Nitro .468\" 480gr FMJ",
+      "sku": "23",
+      "alternateSkus": [],
+      "caliber": "465 Nitro .468\"",
+      "diameterIn": 0.468,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.316,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-20",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "470 Nitro .474\" 500gr RN SN",
+      "sku": "20",
+      "alternateSkus": [],
+      "caliber": "470 Nitro .474\"",
+      "diameterIn": 0.474,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.318,
+      "lengthIn": 1.247,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .374 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-21",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "470 Nitro .474\" 500gr FMJ",
+      "sku": "21",
+      "alternateSkus": [],
+      "caliber": "470 Nitro .474\"",
+      "diameterIn": 0.474,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.318,
+      "lengthIn": 1.341,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .370 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-18",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "476 Westly Richards .476\" 520gr RN SN",
+      "sku": "18",
+      "alternateSkus": [],
+      "caliber": "476 Westly Richards .476\"",
+      "diameterIn": 0.476,
+      "weightGr": 520,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.328,
+      "lengthIn": 1.287,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .385 with no G1 or G7 label. Recommended impact velocity: 1800-220 fps."
+    },
+    {
+      "id": "woodleigh-19",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "476 Westly Richards .476\" 520gr FMJ",
+      "sku": "19",
+      "alternateSkus": [],
+      "caliber": "476 Westly Richards .476\"",
+      "diameterIn": 0.476,
+      "weightGr": 520,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.328,
+      "lengthIn": 1.288,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .380 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-15",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "475 No. 2 .483\" 480gr RN SN",
+      "sku": "15",
+      "alternateSkus": [],
+      "caliber": "475 No. 2 .483\"",
+      "diameterIn": 0.483,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.156,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .309 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-16",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "475 No. 2 .483\" 480gr FMJ",
+      "sku": "16",
+      "alternateSkus": [],
+      "caliber": "475 No. 2 .483\"",
+      "diameterIn": 0.483,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.258,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-13",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "475 No. 2 Jeffery .488\" 500gr RN SN",
+      "sku": "13",
+      "alternateSkus": [],
+      "caliber": "475 No. 2 Jeffery .488\"",
+      "diameterIn": 0.488,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.3,
+      "lengthIn": 1.184,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-14",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "475 No. 2 Jeffery .488\" 500gr FMJ",
+      "sku": "14",
+      "alternateSkus": [],
+      "caliber": "475 No. 2 Jeffery .488\"",
+      "diameterIn": 0.488,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.3,
+      "lengthIn": 1.284,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-83",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 S&W Mag .500\" 400gr FN SN",
+      "sku": "83",
+      "alternateSkus": [],
+      "caliber": "500 S&W Mag .500\"",
+      "diameterIn": 0.5,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.229,
+      "lengthIn": 0.816,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .182 with no G1 or G7 label. Recommended impact velocity: 1500-2000 fps."
+    },
+    {
+      "id": "woodleigh-11",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "505 Gibbs .505\" 525gr RN SN",
+      "sku": "11",
+      "alternateSkus": [],
+      "caliber": "505 Gibbs .505\"",
+      "diameterIn": 0.505,
+      "weightGr": 525,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.197,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .345 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-12",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "505 Gibbs .505\" 525gr FMJ",
+      "sku": "12",
+      "alternateSkus": [],
+      "caliber": "505 Gibbs .505\"",
+      "diameterIn": 0.505,
+      "weightGr": 525,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.271,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-11a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "505 Gibbs .505\" 600gr PP SN",
+      "sku": "11A",
+      "alternateSkus": [],
+      "caliber": "505 Gibbs .505\"",
+      "diameterIn": 0.505,
+      "weightGr": 600,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.336,
+      "lengthIn": 1.289,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-12a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "505 Gibbs .505\" 600gr FMJ",
+      "sku": "12A",
+      "alternateSkus": [],
+      "caliber": "505 Gibbs .505\"",
+      "diameterIn": 0.505,
+      "weightGr": 600,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.336,
+      "lengthIn": 1.411,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-9",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Jeffery .510\" 535gr RN SN",
+      "sku": "9",
+      "alternateSkus": [],
+      "caliber": "500 Jeffery .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 535,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.199,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-9a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Jeffery .510\" 535gr PP SN",
+      "sku": "9A",
+      "alternateSkus": [],
+      "caliber": "500 Jeffery .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 535,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.158,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-10",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Jeffery .510\" 535gr FMJ",
+      "sku": "10",
+      "alternateSkus": [],
+      "caliber": "500 Jeffery .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 535,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.267,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-10b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Jeffery .510\" 600gr PP SN",
+      "sku": "10B",
+      "alternateSkus": [],
+      "caliber": "500 Jeffery .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 600,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.33,
+      "lengthIn": 1.268,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+    },
+    {
+      "id": "woodleigh-10a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Jeffery .510\" 600gr FMJ",
+      "sku": "10A",
+      "alternateSkus": [],
+      "caliber": "500 Jeffery .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 600,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.33,
+      "lengthIn": 1.396,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-8",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 BP .510\" 440gr RN SN",
+      "sku": "8",
+      "alternateSkus": [],
+      "caliber": "500 BP .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 440,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.242,
+      "lengthIn": 0.991,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .255 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+    },
+    {
+      "id": "woodleigh-82",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "50 Alaskan & 50/110 Win .510\" 500gr FN SN",
+      "sku": "82",
+      "alternateSkus": [],
+      "caliber": "50 Alaskan & 50/110 Win .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.275,
+      "lengthIn": 0.986,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .219 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps."
+    },
+    {
+      "id": "woodleigh-06a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Nitro .510\" 450gr RN SN",
+      "sku": "06A",
+      "alternateSkus": [],
+      "caliber": "500 Nitro .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 450,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.247,
+      "lengthIn": 0.984,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .257 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-6",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Nitro .510\" 570gr RN SN",
+      "sku": "6",
+      "alternateSkus": [],
+      "caliber": "500 Nitro .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 570,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.258,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .368 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+    },
+    {
+      "id": "woodleigh-7",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "500 Nitro .510\" 570gr FMJ",
+      "sku": "7",
+      "alternateSkus": [],
+      "caliber": "500 Nitro .510\"",
+      "diameterIn": 0.51,
+      "weightGr": 570,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.336,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-5",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "577 BP Express .585\" 650gr RN SN",
+      "sku": "5",
+      "alternateSkus": [],
+      "caliber": "577 BP Express .585\"",
+      "diameterIn": 0.585,
+      "weightGr": 650,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.271,
+      "lengthIn": 1.084,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+    },
+    {
+      "id": "woodleigh-3a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "577 Nitro .585\" 650gr RN SN",
+      "sku": "3A",
+      "alternateSkus": [],
+      "caliber": "577 Nitro .585\"",
+      "diameterIn": 0.585,
+      "weightGr": 650,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.271,
+      "lengthIn": 1.112,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+    },
+    {
+      "id": "woodleigh-4a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".584\" Temp not available 650gr FMJ",
+      "sku": "4A",
+      "alternateSkus": [],
+      "caliber": ".584\" Temp not available",
+      "diameterIn": 0.584,
+      "weightGr": 650,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.272,
+      "lengthIn": 1.155,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-3",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".585\" 750gr RN SN",
+      "sku": "3",
+      "alternateSkus": [],
+      "caliber": ".585\"",
+      "diameterIn": 0.585,
+      "weightGr": 750,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.313,
+      "lengthIn": 1.249,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .346 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+    },
+    {
+      "id": "woodleigh-4",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": ".584\" Temp not available 750gr FMJ",
+      "sku": "4",
+      "alternateSkus": [],
+      "caliber": ".584\" Temp not available",
+      "diameterIn": 0.584,
+      "weightGr": 750,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.314,
+      "lengthIn": 1.307,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .351 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-1",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "600 Nitro .620\" 900gr RN SN",
+      "sku": "1",
+      "alternateSkus": [],
+      "caliber": "600 Nitro .620\"",
+      "diameterIn": 0.62,
+      "weightGr": 900,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.334,
+      "lengthIn": 1.292,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .371 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+    },
+    {
+      "id": "woodleigh-2",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "600 Nitro .620\" 900gr FMJ",
+      "sku": "2",
+      "alternateSkus": [],
+      "caliber": "600 Nitro .620\"",
+      "diameterIn": 0.62,
+      "weightGr": 900,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.334,
+      "lengthIn": 1.282,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .334 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-a",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "700 Nitro .700\" 1000gr RN SN",
+      "sku": "A",
+      "alternateSkus": [],
+      "caliber": "700 Nitro .700\"",
+      "diameterIn": 0.7,
+      "weightGr": 1000,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.292,
+      "lengthIn": 1.172,
+      "construction": [
+        "round_nose"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+    },
+    {
+      "id": "woodleigh-b",
+      "manufacturer": "Woodleigh",
+      "productLine": null,
+      "name": "700 Nitro .700\" 1000gr FMJ",
+      "sku": "B",
+      "alternateSkus": [],
+      "caliber": "700 Nitro .700\"",
+      "diameterIn": 0.7,
+      "weightGr": 1000,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": 0.292,
+      "lengthIn": 1.223,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/traditional/468-700-list",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table. A blank calibre cell, HEAVY DUTY, or Temp not available repeats the previous calibre."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+    },
+    {
+      "id": "woodleigh-h7mm",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "7mm 140gr Hydrostatically Stabilised",
+      "sku": "H7mm",
+      "alternateSkus": [],
+      "caliber": "7mm",
+      "diameterIn": 0.284,
+      "weightGr": 140,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.17,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h308",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "308 180gr Hydrostatically Stabilised",
+      "sku": "H308",
+      "alternateSkus": [],
+      "caliber": "308",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.25,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h308a",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "308 150gr Hydrostatically Stabilised",
+      "sku": "H308A",
+      "alternateSkus": [],
+      "caliber": "308",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.06,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h338",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "338 225gr Hydrostatically Stabilised",
+      "sku": "H338",
+      "alternateSkus": [],
+      "caliber": "338",
+      "diameterIn": 0.338,
+      "weightGr": 225,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.279,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h358",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "358 225gr Hydrostatically Stabilised",
+      "sku": "H358",
+      "alternateSkus": [],
+      "caliber": "358",
+      "diameterIn": 0.358,
+      "weightGr": 225,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.146,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h9-3",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "9.3 286gr Hydrostatically Stabilised",
+      "sku": "H9.3",
+      "alternateSkus": [],
+      "caliber": "9.3",
+      "diameterIn": 0.366,
+      "weightGr": 286,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.376,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h375",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "375 300gr Hydrostatically Stabilised",
+      "sku": "H375",
+      "alternateSkus": [],
+      "caliber": "375",
+      "diameterIn": 0.375,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.39,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-450-400-400-450-400-400gr-hydrostatically-stabilised",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "450/400 400gr Hydrostatically Stabilised",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "450/400",
+      "diameterIn": 0.41,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.523,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [
+        "Item number H450/400 is also published on another Woodleigh bullet (450/400 400gr Hydrostatically Stabilised; 3\" 400gr Hydrostatically Stabilised). sku left null."
+      ],
+      "notes": "Published item number H450/400 is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "woodleigh-3-400-3-400gr-hydrostatically-stabilised",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "3\" 400gr Hydrostatically Stabilised",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "3\"",
+      "diameterIn": 0.41,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.523,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [
+        "Item number H450/400 is also published on another Woodleigh bullet (450/400 400gr Hydrostatically Stabilised; 3\" 400gr Hydrostatically Stabilised). sku left null."
+      ],
+      "notes": "Published item number H450/400 is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "woodleigh-h416",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "416 400gr Hydrostatically Stabilised",
+      "sku": "H416",
+      "alternateSkus": [],
+      "caliber": "416",
+      "diameterIn": 0.416,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.514,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-404-400-404-400gr-hydrostatically-stabilised",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "404 400gr Hydrostatically Stabilised",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "404",
+      "diameterIn": 0.422,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.467,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [
+        "Item number H404 is also published on another Woodleigh bullet (404 400gr Hydrostatically Stabilised; Jeffery 400gr Hydrostatically Stabilised). sku left null."
+      ],
+      "notes": "Published item number H404 is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "woodleigh-jeffery-400-jeffery-400gr-hydrostatically-stabilised",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "Jeffery 400gr Hydrostatically Stabilised",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "Jeffery",
+      "diameterIn": 0.422,
+      "weightGr": 400,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.467,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [
+        "Item number H404 is also published on another Woodleigh bullet (404 400gr Hydrostatically Stabilised; Jeffery 400gr Hydrostatically Stabilised). sku left null."
+      ],
+      "notes": "Published item number H404 is shared with another bullet, so sku is null."
+    },
+    {
+      "id": "woodleigh-h450bpe",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "450 325gr Hydrostatically Stabilised",
+      "sku": "H450BPE",
+      "alternateSkus": [],
+      "caliber": "450",
+      "diameterIn": 0.458,
+      "weightGr": 325,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.02,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h458",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "458 480gr Hydrostatically Stabilised",
+      "sku": "H458",
+      "alternateSkus": [],
+      "caliber": "458",
+      "diameterIn": 0.458,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.466,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h465",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "465 480gr Hydrostatically Stabilised",
+      "sku": "H465",
+      "alternateSkus": [],
+      "caliber": "465",
+      "diameterIn": 0.468,
+      "weightGr": 480,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.412,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h470",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "470 500gr Hydrostatically Stabilised",
+      "sku": "H470",
+      "alternateSkus": [],
+      "caliber": "470",
+      "diameterIn": 0.474,
+      "weightGr": 500,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.438,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h500",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "500 570gr Hydrostatically Stabilised",
+      "sku": "H500",
+      "alternateSkus": [],
+      "caliber": "500",
+      "diameterIn": 0.51,
+      "weightGr": 570,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.426,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h505",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "505 525gr Hydrostatically Stabilised",
+      "sku": "H505",
+      "alternateSkus": [],
+      "caliber": "505",
+      "diameterIn": 0.505,
+      "weightGr": 525,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.322,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h577",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "577 750gr Hydrostatically Stabilised",
+      "sku": "H577",
+      "alternateSkus": [],
+      "caliber": "577",
+      "diameterIn": 0.585,
+      "weightGr": 750,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.424,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-h600",
+      "manufacturer": "Woodleigh",
+      "productLine": "Hydrostatically Stabilised",
+      "name": "600 900gr Hydrostatically Stabilised",
+      "sku": "H600",
+      "alternateSkus": [],
+      "caliber": "600",
+      "diameterIn": 0.62,
+      "weightGr": 900,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.5,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/hydrostatically-stabilised",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "woodleigh-vld50bmg",
+      "manufacturer": "Woodleigh",
+      "productLine": "VLD Brass Solid",
+      "name": "50BMG 700gr VLD Brass Solid",
+      "sku": "VLD50BMG",
+      "alternateSkus": [],
+      "caliber": "50BMG",
+      "diameterIn": 0.51,
+      "weightGr": 700,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "sectionalDensity": null,
+      "lengthIn": 2.457,
+      "construction": [
+        "vld",
+        "solid"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.woodleighbullets.com.au/bullet-lists/vld-brass-solids",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Woodleigh Bullets",
+          "notes": "Manufacturer bullet-list table."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    }
+  ]
+}

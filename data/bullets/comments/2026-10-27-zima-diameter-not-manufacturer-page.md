@@ -29,7 +29,7 @@ Manufacturer feeds already used for Hornady, Sierra, Nosler, Barnes, Berger, Lap
 
 ## Working assumption until answered
 
-Keep the Zima diameters. `sourceUrl` and the publisher stay Zima, so these are not labeled as manufacturer-page measurements. `diameterIn` stays null on cards that do not print one. `lengthIn` stays null.
+None of these Zima rows are in the catalog. Zima Logistics' terms forbid copying the site content; see the redistribution note. The diameter question stays open for a later scrape of each manufacturer's own page. `diameterIn` stays null until that page is read.
 
 ## Answer
 
