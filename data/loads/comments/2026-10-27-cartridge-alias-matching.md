@@ -19,7 +19,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | File | Loads | Resolved | Unresolved |
 | --- | ---: | ---: | ---: |
 | `community-245gr-30cal.json` | 22 | 22 | 0 |
-| `community-berger-elite-hunter-6mm-108gr.json` | 21 | 18 | 3 |
+| `community-berger-elite-hunter-6mm-108gr.json` | 28 | 25 | 3 |
 | `community-berger-elite-hunter-25cal-133gr.json` | 23 | 12 | 11 |
 | `community-berger-elite-hunter-65mm-140gr.json` | 26 | 26 | 0 |
 | `community-berger-elite-hunter-65mm-156gr.json` | 113 | 102 | 11 |
@@ -32,13 +32,15 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 
 ### Community strings that miss
 
-`community-245gr-30cal.json` resolves all 22 rows. The 108 gr misses are `6 creed` and `6 CM`. The 133 gr file adds `25 creed`, which is the same kind of miss. Rows stay worded as posted.
+`community-245gr-30cal.json` resolves all 22 rows. The 108 gr misses are still `6 creed` and `6 CM`. Kevin's 6 mm 108 gr notes added seven rows; six of those strings resolve, and `6mm BR / BRA / Dasher variants` resolves to the wrong cartridge, described below. The 133 gr file adds `25 creed`, which is the same kind of miss. Rows stay worded as posted.
 
 | Rows | Published string | Library cartridge | Ambiguous? |
 | --- | --- | --- | --- |
 | 2 | `6 creed` | 6mm Creedmoor | No. Alias `6 Creedmoor` keeps the full word, and alias `6mm Creed` keeps the `mm`. `6 creed` is neither. |
 | 1 | `6 CM` | 6mm Creedmoor | No. `6mm CM` is an alias. `6 CM` / `6CM` drops the `mm`, so the key is `6cm`, not `6mmcm`. |
 | 1 | `25 creed` | .25 Creedmoor | No. Same gap as `6 creed`. Alias `25 Creedmoor` keeps the full word. `25 CM` already resolves. |
+
+`6mm BR / BRA / Dasher variants` is two rows in the 108 gr file, from `data/loads/inputs/2026-10-27-kevin-6mm-108-eh-notes.csv`. It is not unresolved. `resolveCartridge` splits on ` / `, `6mm BR` matches the 6mm Norma BR alias, `BRA` does not match 6 BRA, and `Dasher variants` does not match 6mm Dasher. One matching piece wins, so both rows join 6mm Norma BR. That is the wrong cartridge: the note also names 6 BRA and the Dasher. Do not alias the whole string to 6mm Norma BR. The counts above include these two rows in the resolved column.
 
 The 140 gr file's strings `6.5 CM`, `6.5 Creedmoor`, `6.5x47`, and `6.5 PRC` already resolve. Nothing from that file is added below.
 
@@ -235,6 +237,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 3. Do not strip Hodgdon's ` - Pistol` suffix.
 4. Do not alias the near misses in the table above. Handgun names and rifle names with no library entry stay unmatched until the library grows.
 5. From the 156 gr file, leave `6.5 Sherman max` and `26 Nosler` unmatched until the library has those cartridges. On 6.5-284 Norma, an alias `6.5x284 Norma +P` matches the `.300 PRC` / `300 PRC +P` treatment. Do not alias bare `prc`, bare `Creedmoor`, or the `creedmoore` typo. Leave `6.5/260` unmatched.
+6. `6mm BR / BRA / Dasher variants` currently joins 6mm Norma BR because only the `6mm BR` piece matches. That join is wrong. Do not add an alias for the whole string. A resolver change that refuses a single-piece win when another ` / ` piece is unmatched would leave this string unresolved. Do not make that change from this bot.
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
