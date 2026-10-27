@@ -50,6 +50,16 @@ export const FLAG_TEXT: Record<string, string> = {
   insufficient_data: "Not enough data.",
 };
 
+/** "104 of 179 verified" style summary of the library's verification state. */
+export function verificationSummary(cartridges: { verification: { status: string }; kind: string }[]): string {
+  const lib = cartridges.filter((c) => c.kind !== "user");
+  const verified = lib.filter((c) => c.verification.status === "verified").length;
+  const partial = lib.filter((c) => c.verification.status === "partial").length;
+  if (verified === lib.length) return "All are verified";
+  if (verified === 0 && partial === 0) return "None is verified yet; every value is marked unverified until it is checked";
+  return `${verified} of ${lib.length} are verified${partial ? ` and ${partial} partly verified` : ""}; the rest are marked unverified until they are checked`;
+}
+
 export function flagText(f: string): string {
   return FLAG_TEXT[f] ?? f.replace(/_/g, " ");
 }

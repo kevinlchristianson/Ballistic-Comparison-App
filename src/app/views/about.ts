@@ -1,9 +1,10 @@
 /** How it works, where the data comes from, and what it cannot do. */
 import type { AppData } from "../data.ts";
 import { h, link } from "../dom.ts";
+import { verificationSummary } from "../labels.ts";
 
 export const KNOWN_LIMITATIONS: string[] = [
-  "Cartridge dimensions, capacities and pressure limits were entered from reference knowledge and are all marked unverified until checked against SAAMI or C.I.P. documents.",
+  "Cartridge values not yet checked against SAAMI or C.I.P. documents are marked unverified on the Cartridges tab. Case capacity is not part of either standard and is a typical figure.",
   "The physics velocity model is fitted to 27 factory velocities and assumes a maximum-pressure load with a suitable powder. Real rifles vary by 2–5% or more.",
   "Published-load estimates mix powders, bullets and test barrels. Their ranges are wide on purpose.",
   "Barrel-length adjustment is a straight fps-per-inch rule; it is less reliable far from the test barrel.",
@@ -94,9 +95,9 @@ export function aboutView(data: AppData): HTMLElement {
       h(
         "li",
         {},
-        `${m.cartridgeCount} cartridges, checked against `,
+        `${m.cartridgeCount} cartridges. ${verificationSummary(data.library.cartridges)} against `,
         Object.values(data.library.sources).map((s, i) => [i ? " and " : "", link(s.url, s.title)]),
-        " (verification pending).",
+        ".",
       ),
       m.loadSources.length
         ? m.loadSources.map((s) => h("li", {}, `${s.name}: ${s.loadCount.toLocaleString()} published loads across ${s.cartridgeCount} cartridges, used for fitted velocity curves and listed in full on the Load data tab with a link to the source.`))

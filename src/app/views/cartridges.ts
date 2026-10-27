@@ -2,6 +2,7 @@
 import type { Cartridge } from "../../lib/cartridges.ts";
 import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
+import { verificationSummary } from "../labels.ts";
 import { userDataBar } from "../userdata.ts";
 import { openLoadsForCartridge } from "./loads.ts";
 
@@ -204,7 +205,7 @@ export function cartridgesView(data: AppData): HTMLElement {
       h(
         "p",
         {},
-        `${data.library.cartridges.length} centerfire rifle cartridges. Every value is still marked unverified until it is checked against `,
+        `${data.library.cartridges.length} centerfire rifle cartridges. ${verificationSummary(data.library.cartridges)} against `,
         Object.values(sources).map((s, i) => [i ? " and " : "", link(s.url, s.title)]),
         ".",
       ),
