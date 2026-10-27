@@ -189,3 +189,37 @@ describe("community loads", () => {
     expect(fitLoads("x", [pub, com], 24)!.flags).toContain("community_data");
   });
 });
+
+describe("short-barrel ranges (regression)", () => {
+  // Many loads per weight that collapse to a few fitted points, all from a 24 in barrel.
+  const base = fixtureLoads.find((l) => l.cartridgeId === "308-win" && l.velocityFps != null)!;
+  const loads: NormalizedLoad[] = [];
+  for (const w of [150, 165, 180]) {
+    for (let i = 0; i < 30; i++) {
+      loads.push({ ...base, id: `x${w}-${i}`, bulletWeightGr: w, barrelLengthIn: 24, velocityFps: 2900 - (w - 150) * 8 - i, chargeLevel: "max", flags: [] });
+    }
+  }
+  const fpsPerInch = physicsFpsPerInch(physics);
+
+  it("averages the barrel adjustment over the fitted points, not over every load", () => {
+    const est = createLoadDataEstimator(loads, { fpsPerInch });
+    const e = est.estimate({ cartridgeId: "308-win", bulletWeightGr: 165, barrelLengthIn: 14 });
+    // Physics puts 24 to 14 in at a few hundred fps; the range must stay near that, not thousands.
+    expect(e.estimateFps!).toBeGreaterThan(2000);
+    expect(e.lowFps!).toBeGreaterThan(0);
+    expect(e.highFps! - e.lowFps!).toBeLessThan(0.3 * e.estimateFps! + 1);
+  });
+
+  it("caps the range at 15% and flags wide ranges as low confidence", () => {
+    const noisy = loads.map((l, i) => ({ ...l, source: { ...l.source, url: `https://example.com/${i}` }, velocityFps: l.velocityFps! + (i % 2 ? 600 : -600) }));
+    const e = createLoadDataEstimator(noisy, { fpsPerInch }).estimate({ cartridgeId: "308-win", bulletWeightGr: 165, barrelLengthIn: 24 });
+    expect(e.highFps! / e.estimateFps!).toBeLessThanOrEqual(1.15 + 1e-9);
+    expect(e.flags).toContain("low_confidence");
+  });
+
+  it("uses the average physics slope across the span", () => {
+    const slope = fpsPerInch("308-win", 165, 24, 14)!;
+    const v = (b: number) => physics.estimate({ cartridgeId: "308-win", bulletWeightGr: 165, barrelLengthIn: b }).estimateFps!;
+    expect(slope).toBeCloseTo((v(14) - v(24)) / (14 - 24), 6);
+  });
+});

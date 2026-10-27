@@ -6,6 +6,7 @@
 import { loadBulletIndex, loadRowsFor, matchesBulletQuery, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { load, save } from "../store.ts";
+import { cartridgePicker } from "../cartridgePicker.ts";
 import { userDataBar } from "../userdata.ts";
 
 interface State {
@@ -30,6 +31,13 @@ export function openLoadsForBullet(query: string): void {
   location.hash = "#loads";
 }
 
+/** Opens the Load data tab on one cartridge. */
+export function openLoadsForCartridge(cartridgeId: string): void {
+  const st = load<Partial<State>>(KEY, {});
+  save(KEY, { ...st, mode: "cartridge", cartridgeId, source: "", minWeight: null, maxWeight: null });
+  location.hash = "#loads";
+}
+
 export function loadsView(data: AppData): HTMLElement {
   const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "", mode: "cartridge", bulletQuery: "", sortKey: "", sortDesc: false });
   const persist = () => save(KEY, st);
@@ -39,14 +47,22 @@ export function loadsView(data: AppData): HTMLElement {
   const publishedEl = h("div", {});
   const name = (id: string) => data.cartridges.find((c) => c.id === id)?.name ?? id;
 
-  const cartridgeOptions = (): [string, string][] => {
-    const counts = new Map<string, number>(Object.entries(index));
-    for (const l of data.user.loads) counts.set(l.cartridgeId, counts.get(l.cartridgeId) ?? 0);
-    const withData = [...counts.keys()].sort((a, b) => name(a).localeCompare(name(b)));
+  // Built once and kept, so the search text survives re-renders.
+  let picker: HTMLElement | null = null;
+  const cartridgeSelect = (): HTMLElement => {
+    if (picker) return picker;
     const mine = (id: string) => data.user.loads.filter((l) => l.cartridgeId === id).length;
-    const label = (id: string) => `${name(id)} (${[index[id] ? `${index[id]} published` : "", mine(id) ? `${mine(id)} yours` : ""].filter(Boolean).join(", ")})`;
-    const rest = data.cartridges.filter((c) => !counts.has(c.id)).sort((a, b) => a.name.localeCompare(b.name));
-    return [...withData.map((id): [string, string] => [id, label(id)]), ...rest.map((c): [string, string] => [c.id, `${c.name} (no loads)`])];
+    picker = cartridgePicker({
+      cartridges: data.cartridges,
+      value: st.cartridgeId,
+      hasData: (c) => !!index[c.id] || mine(c.id) > 0,
+      note: (c) => {
+        const parts = [index[c.id] ? `${index[c.id]!.toLocaleString()} published` : "", mine(c.id) ? `${mine(c.id)} yours` : ""].filter(Boolean);
+        return parts.length ? `(${parts.join(", ")})` : "(no loads)";
+      },
+      onChange: (v) => ((st.cartridgeId = v), (st.source = ""), persist(), renderAll()),
+    });
+    return picker;
   };
 
   function renderPicker(): void {
@@ -58,7 +74,7 @@ export function loadsView(data: AppData): HTMLElement {
         field("Browse by", select(st.mode, [["cartridge", "Cartridge"], ["bullet", "Bullet, across cartridges"]], (v) => ((st.mode = v), (st.source = ""), persist(), renderAll()))),
         st.mode === "bullet"
           ? field("Bullet", bulletSearch())
-          : field("Cartridge", select(st.cartridgeId, cartridgeOptions(), (v) => ((st.cartridgeId = v), (st.source = ""), persist(), renderAll()))),
+          : field("Cartridge", cartridgeSelect()),
         field("Min weight (gr)", numberInput(st.minWeight, { min: 0, step: 1, onInput: (v) => ((st.minWeight = v), persist(), renderPublished()) })),
         field("Max weight (gr)", numberInput(st.maxWeight, { min: 0, step: 1, onInput: (v) => ((st.maxWeight = v), persist(), renderPublished()) })),
         field("Level", select(st.level, [["", "Start and max"], ["max", "Max only"], ["start", "Start only"]], (v) => ((st.level = v), persist(), renderPublished()))),

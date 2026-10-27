@@ -191,3 +191,6 @@ table.data tr.yours td { background: rgba(127,127,127,0.08); }
 main.wide { max-width: none; }
 .table-frame { max-height: 75vh; overflow: auto; border: 1px solid var(--border); border-radius: 6px; }
 .table-frame table.data thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; }
+.picker { display: flex; flex-direction: column; gap: 6px; }
+.grid > :has(.picker) { grid-column: span 2; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }

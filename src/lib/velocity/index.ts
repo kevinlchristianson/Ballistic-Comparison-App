@@ -14,10 +14,13 @@ export * from "./types.ts";
 
 /** Barrel-length slope (fps per inch) taken from the physics model, for adjusting published loads. */
 export function physicsFpsPerInch(physics: VelocityEstimator): FpsPerInch {
-  return (cartridgeId, weight, barrel) => {
-    const lo = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: barrel - 1 }).estimateFps;
-    const hi = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: barrel + 1 }).estimateFps;
-    return lo != null && hi != null ? (hi - lo) / 2 : null;
+  // The average slope over the whole span, not the local slope at one end:
+  // velocity gain per inch falls as the barrel gets longer.
+  return (cartridgeId, weight, from, to) => {
+    if (from === to) return null;
+    const a = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: from }).estimateFps;
+    const b = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: to }).estimateFps;
+    return a != null && b != null ? (b - a) / (to - from) : null;
   };
 }
 
