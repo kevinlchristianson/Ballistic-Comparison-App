@@ -1,0 +1,73 @@
+﻿Always start low and work up. Hammer Bullets is not responsible for your load process, equipment, and choices.
+ 
+Note on Loading Hammer Bullets
+Our method of load development: There are lots of methods out there for load development that are effective. Our method is conservative on components. We would rather you spend time practicing in the field than shooting hundreds of rounds at the bench trying to find a good load. We utilize a one shot one charge ladder starting with the listed start load in increments relative to the cartridge size. Most standard hunting cartridges are good with half to one grain increments. Utilize a target at 100 yards or farther (farther is better) and aim all the ladder shots at the same spot. Often we will see a ladder produce near moa grouping even though there has been a velocity spread of a couple hundred fps. A nice tight target group during the ladder almost always produces a great load. Reading this target can help with finding a sweet spot in the ladder. Usually where top vel and pressure signs begin to appear is a good high end load. At the point of pressure signs the load should be backed off accordingly to remain safe and functional in varying temperatures encountered in the field. Once we have reached the top working load, then we will load several rounds there and shoot for velocity average and accuracy. Almost always at this point we see a solid accuracy load and will zero the rifle and confirm drops and accuracy at long range. If accuracy at this point is not as good as expected then a seating depth test or change in components would be in order. Using this method usually results in a solid sub moa load and confirmed in less than twenty shots. Always load with caution. Start low and work up! Along with data we have provided, use other reputable ammunition loading manuals for comparison. Always follow good loading practices. Use premium cases, dies, measuring tools, etc. to achieve best results. 
+ 
+Twist Rate
+Each of our bullets has a required minimum twist rate (TR) that is calculated at sea level using the Miller Twist Formula. We use sea level as the standard to ensure that there is enough rotation per minute (rpm’s) for proper terminal performance. While the Miller Formula calculates stability for ballistic flight, we are most concerned with hunting performance and ensuring that there is enough stability for proper terminal performance. The required minimum twist rate is based on a gyroscopic stability factor (SG) of 1.5. An SG of 1.5 or higher is needed to achieve full ballistic coefficient (BC) value and expected terminal ballistics. In our impact testing for terminal performance, we have found that marginal SG (less than 1.5sg calculated at sea level) hinders a bullet's ability to stay on track and open reliably for proper terminal performance. SG factor of 1.5 or higher will keep a bullet oriented point first on impact and promote proper deformation of the frontal area for good terminal performance. We have never seen a downside to running with a faster twist than the minimum required twist. In fact, extra stability is always a good thing. When referring to a rifle's twist rate, note that a 1-8″ twist is faster than a 1-10″ twist.
+If hunting at low elevation and cold temperatures it is recommended to run faster than minimum required twist rates. Hunting with less than listed minimum twist rate can result in poor terminal performance and should not be done. We have noted in our load data in orange when the twist rate is faster than standard twist rate per cartridge.
+
+
+Old Rifles & AR’s
+When doing load development for older firearms, AR15, AR10, modern sporting rifles, other gas operated firearms, non-premium cases, or old chambers, we suggest starting below our listed start charge then work up.
+
+
+Powder Selection
+After reviewing our data and comparing it with other reloading manuals we recommend looking for a powder showing fairly high load density, but not compressed. We like to use powders that show a 90-95% load density. Some loads have multiple bullets that are near the same bullet weight that may use the same charge weight. We note (†) which bullets may reach velocity max sooner. It is advisable to start 1.0 or 2.0 grains under suggested start charge. We highlight in light green the powders that yielded the best field results.
+ 
+Pressure
+Use of a chronograph to watch muzzle velocity. Muzzle velocity is an indication of pressure. Always watch for known pressure indicators such as heavy bolt lift, notable recoil, flat primers, ejector shine or marks on the case. Approach velocity at max with extreme caution.
+ 
+Seating Depth
+We have found that Hammer Bullets are not sensitive to seating depth. Cartridge overall length (COAL) is measured off the bullet shoulder to avoid jamming a bullet into the throat of a rifle. Seating to magazine length or just off the lands will generally work very well without need to adjust for better accuracy. If we can reach the lands we like .020 off as a starting point. To get the most out of a Hammer bullet you may find loading beyond SAAMI COAL beneficial but do this at your own risk. Load development should be easy. Find your seating depth, choose your powder and primer, use suggested start load data and work up your load to desired velocity. Keep good notes during your load process. If you trim your case lower than SAAMI specs, reduce your start charge weight; if you seat the bullet deeper, if you crimp the bullet, etc. reduce your start charge weight. Pay attention to case fill %. Compressed loads can produce unexpected pressure spikes.  Also compressed loads may tend to push the bullet out of the case.  Use caution if compressing loads. Sight it in and have fun hitting it with a Hammer.
+ 
+10% Variable
+Our load data is a guide. There are so many variables that are not uniform when reloading ammo. Shooting environment, equipment, and components are not 100% repeatable. Components, we have no control of, may also change over time such as bullet case volume, powder design, and primer materials. At minimal expect a 10% variation, if not more. Due to these different variables we are giving you a start charge weight, case fill percentage, velocity start, and velocity at max that your shooting components and shooting system may or may not be able to reach. 
+ 
+Our Data
+Cartridge
+Barrel Length used for velocity
+Bullet
+Minimum twist rate or faster.
+SAAMI Case
+Suggested COAL
+Powder brand, name, and/or number
+Suggested start charge weight in grains
+Start case fill %
+Start FPS (Feet per second)
+Velocity at max
+ 
+Key
+¡ Bullet weight adjustment
+* COAL length shorter than SAAMI
+** COAL length longer than SAAMI
+c Compressed loads (use with caution)
+• Long drop tube for compressed load (use with caution) † Bullets will reach max velocity sooner. Use 1.0 or 2.0 grains under suggested Start Charge
+¥ Notes on twist rate needs
+
+
+Types of Bullets
+Hammer HHT is our line of polymer tipped bullets.  After a year of extensive testing on animals around the world for proper terminal performance, we launched the line of HHT’s summer of 2023.  The Hammer HHT has proven to be our most effective hunting bullet yet.  This is saying something since we set the standard with our previous lines of bullets.  Along with improved terminal performance they add some additional ballistic coefficient as well as protection of the meplat from accidental damage from rough handling of ammunition in the field, which could cause poor terminal performance.  The added durability and stellar terminal performance are all the reasons needed to upgrade your ammunition to the Hammer HHT line of bullets.
+
+Shock Hammers are our line of bullets that we designed for normal range hunting, where bc is inconsequential. So for most cartridges 400y or less. The Shock Hammer line is approximately an 80% weight retention bullet that has a larger hollow point for super quick opening on game with high retention for long straight penetration.
+
+
+Hammer Hunter line is our long range or high bc line of bullets. This was the original line of bullets. These bullets all have 1.5mm hollow point and are typically 60%-70% weight retention. There is no drop off in terminal performance from the Shock Hammers. The only difference that we see on game is the Shock Hammer will open up slightly quicker. We designed the Hammer Hunter with the 1.5mm hp as it was the smallest that we could get reliable expansion. We tried 1mm hp but it would not always do what we wanted on game. Failure is not an option. As far as we know there is no report of a failure of the Hammer Hunter to expand on the game. There is always that chance and the larger hollow point on the Shock Hammers reduces that risk.
+
+
+I will be changing the name of the Heavy Hammers to Hammer Hunters. They are for all intents and purposes the same. They are bullets that we came up with for customers that had slow for caliber twist rifles. The goal here was to make as heavy a bullet as we could that still has the 1.5mm hollow point and still get as much bc as we could and maintain proper stability for good terminal performance. They typically have shortened boat tails and more bearing surface to increase the weight to length ratio.
+
+
+DeadBlow Hammers are Hammer Hunters that are designed to retain 40%-50% on impact. They simply have a very deep hollow point that causes them to shed much larger nose petals. We have a full line of these ready to go. I just have not had the time to get them up on the website. We hunted with these bullets last fall in MT and had very good results. I’ll be honest, it is not exactly what we think a bullet should be, but we are looking to satisfy those who like a frangible  bullet. Because they are pure copper they do not disintegrate like lead core bullets, so meat damage is still very light. The shed weight comes off in a few large pieces that do their own work. Think of 4 little 25g bullets along with the retained shank all penetrating deep in the animal. On game performance was actually very good. These bullets will be a bit more expensive due to the fact that it takes so long to drill the deep hole. If anyone is interested in DeadBlows shoot me a note. We can fill orders. I just need to know what you are after.
+
+
+Absolute Hammers are very similar to the Hammer Hunter bullets with the same 1.5mm hollow point and the same basic form.  We designed the Absolute Hammer so that it can not be engraved on the ogive of the bullet.  The only part of the bullet that encounters the barrel is the PDR drive bands.  This greatly reduced the engraving pressure of the bullet which in turn increased the potential velocity in most cartridges.  Because of the very low engraving pressure the Absolute Hammers do not line up well with conventional bullet loading data.  They should only be loaded by expert reloaders that are capable of working up a load without any supporting data.
+
+
+Target Hammers are pretty self explanatory. Non expanding bullet designed for shooting targets not game.
+
+
+All of the Hammer Bullets™ that are designed for hunting are impact tested down to 1800 fps (1700 fps for the HHT line) impact velocity for proper deformation.  We have not been able to impact a Hammer Bullet at too high of an impact velocity.  They will retain the same weight at low and high velocity impacts.
+
+
+Always start low and work up. Hammer Bullets is not responsible for your load process, equipment, and choices.
