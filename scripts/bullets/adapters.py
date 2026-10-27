@@ -1345,6 +1345,138 @@ def scrape_swift() -> dict:
     return catalog("Swift", bullets)
 
 
+# --- Cutting Edge -----------------------------------------------------------
+
+CUTTING_EDGE_PRODUCTS = "https://cuttingedgebullets.com/products.json"
+CUTTING_EDGE_LINES = (
+    "MTH",
+    "MTAC",
+    "Lazer",
+    "LAZER",
+    "Raptor",
+    "Maximus",
+    "MAXIMUS",
+    "Safari",
+    "Solid",
+)
+
+
+def _cutting_edge_specs(page: str) -> dict[str, str]:
+    match = re.search(
+        r'product-tabs__tab-item-content rte">\s*<h5>(.*?)</h5>',
+        page,
+        flags=re.S | re.I,
+    )
+    if not match:
+        return {}
+    specs: dict[str, str] = {}
+    for line in re.split(r"<br\s*/?>", match.group(1), flags=re.I):
+        text = strip_html(line)
+        if ":" not in text:
+            continue
+        key, value = text.split(":", 1)
+        key = re.sub(r"\s+", " ", key).strip()
+        value = value.strip()
+        if key and value:
+            specs[key] = value
+    return specs
+
+
+def _cutting_edge_keep(product: dict) -> bool:
+    title = product.get("title") or ""
+    lowered = title.lower()
+    product_type = (product.get("product_type") or "").lower()
+    if product_type in {"mws_fee_generated", "mc-hidden-fee"}:
+        return False
+    if any(token in lowered for token in ("sabot", "brass", " die", "loaded ammunition", "ammunition")):
+        return False
+    body = (product.get("body_html") or "").lower()
+    if "fully loaded" in body or "loaded ammunition" in body:
+        return False
+    tags = " ".join(product.get("tags") or [])
+    handgun = "Handgun" in tags
+    rifle = "Rifle Bullets" in tags or "Muzzleloader" in tags
+    if handgun and not rifle:
+        return False
+    return re.search(r"\d+\s*gr", lowered) is not None
+
+
+def scrape_cutting_edge() -> dict:
+    print("cutting edge: shopify rifle bullets")
+    products = []
+    page_no = 1
+    while page_no < 8:
+        url = f"{CUTTING_EDGE_PRODUCTS}?limit=250&page={page_no}"
+        batch = json.loads(fetch(url, headers={"Accept": "application/json"}).decode("utf-8")).get("products") or []
+        print(f"  products.json page {page_no}: {len(batch)}")
+        products.extend(batch)
+        if len(batch) < 250:
+            break
+        page_no += 1
+        time.sleep(0.5)
+    rifle = [item for item in products if _cutting_edge_keep(item)]
+    print(f"  rifle component products: {len(rifle)}")
+    bullets = []
+    for index, product in enumerate(rifle):
+        handle = product.get("handle")
+        if not handle:
+            continue
+        url = f"https://cuttingedgebullets.com/products/{handle}"
+        if index:
+            time.sleep(0.5)
+        try:
+            page = fetch_text(url)
+        except Exception as exc:  # noqa: BLE001 - keep going if one page fails
+            print(f"  skip {handle}: {exc}")
+            continue
+        specs = _cutting_edge_specs(page)
+        name = strip_html(product.get("title")) or handle
+        bullet = blank_bullet(
+            "Cutting Edge Bullets",
+            name,
+            url,
+            "Cutting Edge Bullets",
+            "Shopify product page spec block. Projection length is quoted in notes and is not ogiveLengthIn. "
+            "Terms cover age, export, and lead warnings and do not forbid copying specifications.",
+        )
+        variants = product.get("variants") or []
+        sku = variants[0].get("sku") if variants else None
+        bullet["sku"] = sku or None
+        line = next((token for token in CUTTING_EDGE_LINES if token.lower() in name.lower()), None)
+        bullet["productLine"] = line
+        bullet["caliber"] = specs.get("Caliber") or None
+        bullet["weightGr"] = as_number(parse_number(specs.get("Weight")))
+        if bullet["weightGr"] is None:
+            weight = re.search(r"(\d+(?:\.\d+)?)\s*gr", name, flags=re.I)
+            bullet["weightGr"] = as_number(parse_number(weight.group(1) if weight else None))
+        bullet["lengthIn"] = as_number(parse_number(specs.get("OAL")))
+        set_twist(bullet, specs.get("Required Twist Rate"))
+        expansion = specs.get("Min Impact Velocity Required for Expansion")
+        bullet["minimumExpansionVelocityFps"] = as_number(parse_number(expansion))
+        g1 = specs.get("G1 Ballistic Coefficient")
+        g7 = specs.get("G7 Ballistic Coefficient")
+        add_bc(bullet, "G1", g1, "manufacturer", url)
+        g7_label = "estimated" if g7 and re.search(r"est", g7, flags=re.I) else None
+        add_bc(bullet, "G7", g7, "manufacturer", url, g7_label)
+        add_construction(bullet, f"{name} {(product.get('body_html') or '')}")
+        add_uses(bullet, name)
+        if re.search(r"solid copper|copper", product.get("body_html") or "", flags=re.I):
+            bullet["material"] = "solid copper"
+        notes = []
+        projection = specs.get("Projection Length")
+        if projection:
+            notes.append(f"Projection length printed as {projection}. Not stored as ogiveLengthIn.")
+        if "single feed" in name.lower():
+            notes.append("Title says SINGLE FEED.")
+        if not specs:
+            notes.append("Product page had no spec block. Weight was taken from the title when printed.")
+        bullet["notes"] = " ".join(notes) or None
+        bullets.append(bullet)
+        if (index + 1) % 40 == 0:
+            print(f"  read {index + 1}/{len(rifle)}")
+    return catalog("Cutting Edge Bullets", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -1367,7 +1499,7 @@ ADAPTERS = {
     "federal": lambda: scrape_kinetic("federal"),
     "norma": lambda: scrape_zima("norma"),
     "rws": lambda: scrape_zima("rws"),
-    "cutting-edge": lambda: scrape_zima("cutting-edge"),
+    "cutting-edge": scrape_cutting_edge,
     "lehigh": lambda: scrape_zima("lehigh"),
     "peregrine": lambda: scrape_zima("peregrine"),
     "warner": lambda: scrape_zima("warner"),
