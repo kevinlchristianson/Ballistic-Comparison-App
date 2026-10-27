@@ -55,7 +55,7 @@ Unknown values are `null` or an empty array. Do not calculate or guess a measure
 | `bcSource` | enum or null | Provenance of the headline BCs: `manufacturer`, `applied_ballistics`, `litz`, `lab_measured`, `other`, `unknown`. |
 | `bcUnlabeled` | `{value, label}` or null | BC printed with no drag model. Not treated as G1 or G7. Added in 1.2.0. |
 | `sectionalDensity` | lb/in² or null | Published sectional density only. |
-| `lengthIn` | inches or null | Published length. |
+| `lengthIn` | inches or null | Length in inches. A manufacturer-printed length is kept. A null length may be filled from the JBM Ballistics length list when the row matches, and that row cites JBM. |
 | `bearingSurfaceIn` | inches or null | Published bearing surface. Added in 1.1.0. |
 | `ogiveLengthIn` | inches or null | Published ogive length. Not a nose length or a base-to-ogive length. Added in 1.1.0. |
 | `baseToOgiveIn` | inches or null | Published base-to-ogive length. Added in 1.2.0. |
@@ -93,9 +93,11 @@ Planned sources, in the order `scrape.py --list` prints them:
 
 Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, Woodleigh, Swift, and Cutting Edge. Berger's G1, G7, and twist come from the all-bullets table. Diameter, length, bearing surface, boat tail, ogive style, and sectional density come from each Berger product page. Nose length and base-to-ogive are `noseLengthIn` and `baseToOgiveIn`, not `ogiveLengthIn`. Woodleigh's unlabeled BC column is `bcUnlabeled`. No rows are copied from LoadDevelopment or Zima. Speer and Federal link to The Kinetic Group terms, which forbid copying, so those brands are not scraped. Norma's impressum forbids using site texts without written permission, so Norma is not scraped. See `comments/2026-10-27-redistribution-terms.md` and `comments/2026-10-27-kinetic-group-terms.md`.
 
+Null `lengthIn` values are filled from the [JBM Ballistics bullet length list](https://jbmballistics.com/downloads/lengthlist.html) when manufacturer, weight, diameter, and name match one printed length. The length stays in inches. The row gains a JBM `sources` entry. A manufacturer-printed length is not replaced. Schema stays 1.2.0. See `comments/2026-10-27-jbm-length-list.md`.
+
 ## How to update
 
-1. Run a source adapter: `python3 scripts/bullets/scrape.py --source berger`. `--dry-run` prints the URL and output path. Sources whose terms forbid copying are skipped and write nothing.
+1. Run a source adapter: `python3 scripts/bullets/scrape.py --source berger`. `--dry-run` prints the URL and output path. Sources whose terms forbid copying are skipped and write nothing. Fill null lengths from the JBM list with `python3 scripts/bullets/jbm_lengths.py` (`--dry-run` prints matches and writes nothing).
 2. Write `data/bullets/manufacturers/<slug>.json` in this schema. One file per manufacturer. Keep raw HTML or JSON under `data/bullets/raw/` (gitignored).
 3. Rebuild the combined file: `python3 scripts/bullets/normalize.py`. Add `--include-examples` only when you deliberately want the sample rows in the app catalog.
 4. Check the result: `python3 scripts/bullets/validate.py`. Use `--strict` to fail on range warnings.

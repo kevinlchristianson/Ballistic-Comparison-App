@@ -70,7 +70,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.266,
-      "lengthIn": null,
+      "lengthIn": 1.35,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -91,10 +91,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .571 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .571 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-338-250-a-frame-rifle-bullets-cal-338-250-gr",
@@ -115,7 +121,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.313,
-      "lengthIn": null,
+      "lengthIn": 1.335,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -136,10 +142,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.335 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .427 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .427 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.335 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-338-225-a-frame-rifle-bullets-cal-338-225-gr",
@@ -160,7 +172,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.281,
-      "lengthIn": null,
+      "lengthIn": 1.245,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -181,10 +193,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 225 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .384 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .384 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 225 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-8mm-220-a-frame-rifle-bullets-cal-8mm-220-gr",
@@ -205,7 +223,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.301,
-      "lengthIn": null,
+      "lengthIn": 1.325,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -226,10 +244,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.325 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 220 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .393 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .393 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.325 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 220 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-8mm-200-a-frame-rifle-bullets-cal-8mm-200-gr",
@@ -250,7 +274,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.274,
-      "lengthIn": null,
+      "lengthIn": 1.235,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -271,10 +295,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.235 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 200 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .357 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .357 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.235 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 200 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-30-200-a-frame-rifle-bullets-cal-308-200-gr",
@@ -295,7 +325,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.301,
-      "lengthIn": null,
+      "lengthIn": 1.315,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -316,10 +346,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .444 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .444 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-30-180-a-frame-rifle-bullets-cal-308-180-gr",
@@ -340,7 +376,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.271,
-      "lengthIn": null,
+      "lengthIn": 1.215,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -361,10 +397,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.215 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .400 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .400 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.215 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-54-325-a-frame-muzzle-loader-bullets-cal-54-325-gr",
@@ -1546,7 +1588,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.319,
-      "lengthIn": null,
+      "lengthIn": 1.38,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1567,10 +1609,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.38 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.423, weight 400 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .375 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .375 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.38 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.423, weight 400 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-416-400-a-frame-heavy-rifle-bullets-cal-416-400-gr",
@@ -1591,7 +1639,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.33,
-      "lengthIn": null,
+      "lengthIn": 1.405,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1612,10 +1660,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.405 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.416, weight 400 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .367 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .367 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.405 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.416, weight 400 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-416-350-a-frame-heavy-rifle-bullets-cal-416-350-gr",
@@ -1636,7 +1690,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.289,
-      "lengthIn": null,
+      "lengthIn": 1.26,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1657,10 +1711,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.26 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.416, weight 350 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .321 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .321 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.26 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.416, weight 350 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-400-400-a-frame-heavy-rifle-bullets-cal-400-400-gr",
@@ -1771,7 +1831,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.305,
-      "lengthIn": null,
+      "lengthIn": 1.27,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1792,10 +1852,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 300 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .325 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .325 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 300 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-375-270-a-frame-heavy-rifle-bullets-cal-375-270-gr",
@@ -1816,7 +1882,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.274,
-      "lengthIn": null,
+      "lengthIn": 1.2,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1837,10 +1903,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 270 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .349 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .349 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 270 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-375-250-a-frame-heavy-rifle-bullets-cal-375-250-gr",
@@ -1861,7 +1933,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.254,
-      "lengthIn": null,
+      "lengthIn": 1.085,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1882,10 +1954,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.085 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 250 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .271 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .271 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.085 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 250 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-9-3mm-300-a-frame-heavy-rifle-bullets-cal-9-3mm-300-gr",
@@ -1906,7 +1984,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.32,
-      "lengthIn": null,
+      "lengthIn": 1.31,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -1927,10 +2005,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 300 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .342 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .342 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 300 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-9-3mm-286-a-frame-heavy-rifle-bullets-cal-9-3mm-286-gr",
@@ -1996,7 +2080,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.267,
-      "lengthIn": null,
+      "lengthIn": 1.12,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2017,10 +2101,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 250 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .285 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .285 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.366, weight 250 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-338-210-scirocco-rifle-bullets-cal-338-210-gr",
@@ -2041,7 +2131,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.263,
-      "lengthIn": null,
+      "lengthIn": 1.393,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2062,10 +2152,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.393 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 210 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .507 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .507 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.393 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 210 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-30-180-scirocco-rifle-bullets-cal-308-180-gr",
@@ -2086,7 +2182,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.271,
-      "lengthIn": null,
+      "lengthIn": 1.435,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2107,10 +2203,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .520 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .520 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-30-165-scirocco-rifle-bullets-cal-308-165-gr",
@@ -2131,7 +2233,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.248,
-      "lengthIn": null,
+      "lengthIn": 1.35,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2152,10 +2254,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .470 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .470 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.35 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-30-150-scirocco-rifle-bullets-cal-308-150-gr",
@@ -2176,7 +2284,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.226,
-      "lengthIn": null,
+      "lengthIn": 1.27,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2197,10 +2305,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .430 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .430 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-7mm-150-scirocco-rifle-bullets-cal-7mm-150-gr",
@@ -2221,7 +2335,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.266,
-      "lengthIn": null,
+      "lengthIn": 1.405,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2242,10 +2356,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.405 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .515 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .515 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.405 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-270-130-scirocco-rifle-bullets-cal-270-130-gr",
@@ -2311,7 +2431,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.216,
-      "lengthIn": null,
+      "lengthIn": 1.12,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2332,10 +2452,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .429 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .429 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-6mm-90-scirocco-rifle-bullets-cal-6mm-90-gr",
@@ -2356,7 +2482,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.218,
-      "lengthIn": null,
+      "lengthIn": 1.132,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2377,10 +2503,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.132 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 90 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .419 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .419 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.132 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 90 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-224-75-scirocco-rifle-bullets-cal-224-75-gr",
@@ -2401,7 +2533,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.214,
-      "lengthIn": null,
+      "lengthIn": 1.085,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2422,10 +2554,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.085 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Scirocco™ Boat Tail Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .419 with no G1 or G7 label. Profile printed as BTS."
+      "notes": "Swift prints Ballistic: .419 with no G1 or G7 label. Profile printed as BTS. lengthIn 1.085 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 75 gr, Scirocco™ Boat Tail Spitzer."
     },
     {
       "id": "swift-224-62-scirocco-rifle-bullets-cal-224-62-gr",
@@ -2491,7 +2629,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.312,
-      "lengthIn": null,
+      "lengthIn": 1.345,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2512,10 +2650,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.345 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 280 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .388 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .388 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.345 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 280 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-35-250-a-frame-rifle-bullets-cal-358-250-gr",
@@ -2536,7 +2680,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.279,
-      "lengthIn": null,
+      "lengthIn": 1.237,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2557,10 +2701,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.237 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 250 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .347 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .347 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.237 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 250 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-35-225-a-frame-rifle-bullets-cal-358-225-gr",
@@ -2581,7 +2731,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.251,
-      "lengthIn": null,
+      "lengthIn": 1.14,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2602,10 +2752,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.14 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 225 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .312 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .312 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.14 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 225 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-338-275-a-frame-rifle-bullets-cal-338-275-gr",
@@ -2626,7 +2782,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.344,
-      "lengthIn": null,
+      "lengthIn": 1.435,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2647,10 +2803,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 275 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .469 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .469 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 275 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-30-165-a-frame-rifle-bullets-cal-308-165-gr",
@@ -2671,7 +2833,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.248,
-      "lengthIn": null,
+      "lengthIn": 1.14,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2692,10 +2854,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.14 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .367 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .367 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.14 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-7mm-175-a-frame-rifle-bullets-cal-7mm-175-gr",
@@ -2716,7 +2884,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.31,
-      "lengthIn": null,
+      "lengthIn": 1.365,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2737,10 +2905,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.365 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 175 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .493 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .493 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.365 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 175 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-7mm-160-a-frame-rifle-bullets-cal-7mm-160-gr",
@@ -2761,7 +2935,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.283,
-      "lengthIn": null,
+      "lengthIn": 1.27,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2782,10 +2956,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .450 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .450 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.27 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-7mm-140-a-frame-rifle-bullets-cal-7mm-140-gr",
@@ -2806,7 +2986,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.248,
-      "lengthIn": null,
+      "lengthIn": 1.115,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -2827,10 +3007,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.115 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .335 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .335 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.115 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-270-150-a-frame-rifle-bullets-cal-270-150-gr",
@@ -2986,7 +3172,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.287,
-      "lengthIn": null,
+      "lengthIn": 1.245,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3007,10 +3193,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .401 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .401 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-6-5-120-a-frame-rifle-bullets-cal-6-5-120-gr",
@@ -3031,7 +3223,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.246,
-      "lengthIn": null,
+      "lengthIn": 1.115,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3052,10 +3244,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.115 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .344 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .344 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.115 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-25-120-a-frame-rifle-bullets-cal-25-120-gr",
@@ -3076,7 +3274,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.26,
-      "lengthIn": null,
+      "lengthIn": 1.15,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3097,10 +3295,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.15 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 120 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .382 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .382 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.15 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 120 gr, A-Frame™ Semi-Spitzer."
     },
     {
       "id": "swift-25-100-a-frame-rifle-bullets-cal-25-100-gr",
@@ -3121,7 +3325,7 @@
         "label": "Ballistic"
       },
       "sectionalDensity": 0.216,
-      "lengthIn": null,
+      "lengthIn": 1.015,
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "baseToOgiveIn": null,
@@ -3142,10 +3346,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Swift Bullet Company",
           "notes": "Shopify product page. The Ballistic line has no G1 or G7 label, so it is bcUnlabeled. The terms-of-service and privacy-policy bodies were empty when checked."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.015 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, A-Frame™ Semi-Spitzer."
         }
       ],
       "conflicts": [],
-      "notes": "Swift prints Ballistic: .318 with no G1 or G7 label. Profile printed as AF/SS."
+      "notes": "Swift prints Ballistic: .318 with no G1 or G7 label. Profile printed as AF/SS. lengthIn 1.015 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, A-Frame™ Semi-Spitzer."
     }
   ]
 }

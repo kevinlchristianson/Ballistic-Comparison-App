@@ -5672,7 +5672,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": 0.253,
-      "lengthIn": null,
+      "lengthIn": 1.32,
       "construction": [
         "hollow_point",
         "boattail"
@@ -5694,10 +5694,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.32 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, RDF Hollow Point Boattail."
         }
       ],
       "conflicts": [],
-      "notes": "Same SKU 53182 is also listed at https://www.nosler.com/30-caliber-168gr-rdf-100ct-blem.html.",
+      "notes": "Same SKU 53182 is also listed at https://www.nosler.com/30-caliber-168gr-rdf-100ct-blem.html. lengthIn 1.32 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, RDF Hollow Point Boattail.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6191,7 +6197,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": 0.184,
-      "lengthIn": null,
+      "lengthIn": 1.021,
       "construction": [
         "flat_base",
         "polymer_tip"
@@ -6207,10 +6213,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Nosler",
           "notes": "Product attribute table (BC, length, sectional density, diameter, SKU, base, profile, weight, caliber)."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.021 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 90 gr, Varmageddon FB Tipped."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.021 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 90 gr, Varmageddon FB Tipped.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,

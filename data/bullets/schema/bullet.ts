@@ -135,7 +135,11 @@ export interface Bullet {
    * Do not calculate a value to fill a blank.
    */
   sectionalDensity: number | null;
-  /** Bullet length in inches. Null when unpublished. */
+  /**
+   * Bullet length in inches. Null when unknown.
+   * A JBM Ballistics length is used only when the manufacturer did not print one,
+   * and the row's sources entry cites that list.
+   */
   lengthIn: number | null;
   /** Bearing surface length in inches. Null when unpublished. */
   bearingSurfaceIn: number | null;

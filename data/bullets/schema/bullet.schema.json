@@ -167,7 +167,7 @@
           "maximum": 1
         },
         "lengthIn": {
-          "description": "Bullet length in inches. Null when not published.",
+          "description": "Bullet length in inches. Null when unknown. A manufacturer page's length is kept as printed. A JBM Ballistics length is written only when this was null, and that row's sources entry cites the JBM list. Not a calculated length.",
           "type": ["number", "null"],
           "exclusiveMinimum": 0,
           "maximum": 3

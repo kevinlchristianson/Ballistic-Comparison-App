@@ -381,7 +381,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.18,
       "construction": [
         "hollow_point",
         "boattail"
@@ -400,10 +400,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.18 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.18 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -439,7 +445,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.564,
       "construction": [
         "hollow_point"
       ],
@@ -457,10 +463,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.564 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.564 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -643,7 +655,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.265,
       "construction": [
         "polymer_tip"
       ],
@@ -660,10 +672,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.265 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 100 gr, Tipped GameKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.265 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 100 gr, Tipped GameKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -699,7 +717,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.879,
       "construction": [
         "spitzer"
       ],
@@ -717,10 +735,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.879 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 125 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.879 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 125 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -962,7 +986,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.815,
       "construction": [
         "hollow_point"
       ],
@@ -980,10 +1004,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.815 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 75 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.815 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 75 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1078,7 +1108,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.2,
       "construction": [
         "boattail",
         "spitzer"
@@ -1097,10 +1127,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1145,7 +1181,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.195,
       "construction": [
         "hollow_point",
         "boattail"
@@ -1164,10 +1200,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.195 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.195 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1203,7 +1245,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.49,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -1219,10 +1261,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.49 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.223, weight 40 gr, Hornet (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.49 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.223, weight 40 gr, Hornet (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1269,7 +1317,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.368,
       "construction": [
         "polymer_tip"
       ],
@@ -1287,10 +1335,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.368 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.368 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 130 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1335,7 +1389,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.388,
       "construction": [
         "boattail",
         "spitzer"
@@ -1354,10 +1408,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.388 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 220 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.388 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 220 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1462,7 +1522,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.752,
       "construction": [
         "fmj",
         "boattail"
@@ -1481,10 +1541,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.752 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Full Metal Jacket Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1531,7 +1597,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.227,
       "construction": [
         "hollow_point",
         "boattail"
@@ -1550,10 +1616,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.227 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 174 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.227 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 174 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1598,7 +1670,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.31,
       "construction": [
         "hollow_point",
         "boattail"
@@ -1617,10 +1689,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -1998,7 +2076,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.262,
       "construction": [
         "boattail",
         "spitzer"
@@ -2017,10 +2095,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.262 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.262 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2132,7 +2216,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.934,
       "construction": [
         "hollow_point",
         "boattail"
@@ -2151,10 +2235,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.934 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 85 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.934 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 85 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2259,7 +2349,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.07,
       "construction": [
         "spitzer"
       ],
@@ -2277,10 +2367,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.07 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 130 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.07 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 130 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2327,7 +2423,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.555,
       "construction": [
         "hollow_point",
         "boattail"
@@ -2346,10 +2442,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.555 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.555 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2531,7 +2633,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.9,
       "construction": [
         "hollow_point",
         "boattail"
@@ -2550,10 +2652,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.9 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.9 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2589,7 +2697,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.86,
       "construction": [
         "spitzer"
       ],
@@ -2607,10 +2715,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.86 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 87 gr, Spitzer (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.86 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 87 gr, Spitzer (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2775,7 +2889,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.895,
       "construction": [
         "hollow_point"
       ],
@@ -2793,10 +2907,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.895 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 135 gr, HP (Varminter™)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.895 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 135 gr, HP (Varminter™).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2894,7 +3014,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.365,
       "construction": [
         "hollow_point",
         "boattail"
@@ -2913,10 +3033,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.365 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 168 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.365 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 168 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -2952,7 +3078,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.682,
       "construction": [
         "spitzer"
       ],
@@ -2970,10 +3096,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.682 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Spitzer (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.682 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 50 gr, Spitzer (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3009,7 +3141,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.065,
       "construction": [
         "spitzer"
       ],
@@ -3027,10 +3159,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.065 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.065 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3077,7 +3215,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.133,
       "construction": [
         "hollow_point",
         "boattail"
@@ -3096,10 +3234,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.133 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.133 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3332,7 +3476,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.303,
       "construction": [
         "round_nose"
       ],
@@ -3349,10 +3493,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.303 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Round Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.303 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, Round Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3457,7 +3607,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.537,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -3473,10 +3623,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.537 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 45 gr, Hornet (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.537 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 45 gr, Hornet (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3592,7 +3748,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.982,
       "construction": [
         "polymer_tip"
       ],
@@ -3610,10 +3766,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.982 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.982 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 69 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3649,7 +3811,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.079,
       "construction": [
         "spitzer"
       ],
@@ -3667,10 +3829,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.079 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.079 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3845,7 +4013,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.884,
       "construction": [
         "hollow_point"
       ],
@@ -3863,10 +4031,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.884 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 100 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.884 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 100 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3913,7 +4087,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.353,
       "construction": [
         "hollow_point",
         "boattail"
@@ -3932,10 +4106,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.353 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 190 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.353 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 190 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -3980,7 +4160,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.991,
       "construction": [
         "boattail",
         "spitzer"
@@ -3999,10 +4179,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.991 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.991 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4038,7 +4224,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.182,
       "construction": [
         "spitzer"
       ],
@@ -4056,10 +4242,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.182 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 180 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.182 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 180 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4104,7 +4296,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.13,
       "construction": [
         "boattail",
         "spitzer"
@@ -4123,10 +4315,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.13 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 130 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.13 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 130 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4344,7 +4542,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.715,
       "construction": [
         "hollow_point",
         "boattail"
@@ -4363,10 +4561,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.715 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.715 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4543,7 +4747,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.157,
       "construction": [
         "boattail",
         "spitzer"
@@ -4562,10 +4766,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.157 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 225 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.157 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 225 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4677,7 +4887,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.19,
       "construction": [
         "hollow_point",
         "boattail"
@@ -4696,10 +4906,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.19 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 140 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.19 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 140 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4744,7 +4960,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.186,
       "construction": [
         "boattail",
         "spitzer"
@@ -4763,10 +4979,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.186 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.186 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 165 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4869,7 +5091,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.18,
       "construction": [
         "boattail",
         "spitzer"
@@ -4888,10 +5110,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.18 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 140 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.18 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 140 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -4938,7 +5166,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.393,
       "construction": [
         "hollow_point",
         "boattail"
@@ -4957,10 +5185,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.393 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.393 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5073,7 +5307,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.288,
       "construction": [
         "boattail",
         "spitzer"
@@ -5092,10 +5326,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.288 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.288 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5143,7 +5383,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.31,
       "construction": [
         "hollow_point",
         "boattail"
@@ -5162,10 +5402,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.31 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 140 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5201,7 +5447,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.725,
       "construction": [
         "hollow_point"
       ],
@@ -5219,10 +5465,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.725 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 125 gr, HP/FN (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.725 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 125 gr, HP/FN (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5267,7 +5519,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.086,
       "construction": [
         "hollow_point",
         "boattail"
@@ -5286,10 +5538,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.086 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.086 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 100 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5382,7 +5640,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.317,
       "construction": [
         "hollow_point",
         "boattail"
@@ -5401,10 +5659,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.317 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 200 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.317 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 200 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5449,7 +5713,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.258,
       "construction": [
         "boattail",
         "spitzer"
@@ -5468,10 +5732,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.258 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.258 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 160 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5518,7 +5788,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.357,
       "construction": [
         "polymer_tip"
       ],
@@ -5536,10 +5806,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.357 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.357 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5651,7 +5927,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.1,
       "construction": [
         "boattail",
         "spitzer"
@@ -5670,10 +5946,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5766,7 +6048,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.755,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -5782,10 +6064,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.755 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 63 gr, Semi-Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.755 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 63 gr, Semi-Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -5830,7 +6118,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.435,
       "construction": [
         "boattail",
         "spitzer"
@@ -5849,10 +6137,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.435 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 250 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6037,7 +6331,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.994,
       "construction": [
         "hollow_point",
         "boattail"
@@ -6056,10 +6350,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.994 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.994 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6231,7 +6531,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.897,
       "construction": [
         "polymer_tip"
       ],
@@ -6249,10 +6549,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.897 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 60 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.897 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 60 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6358,7 +6664,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.403,
       "construction": [
         "boattail",
         "spitzer"
@@ -6377,10 +6683,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.403 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 175 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.403 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 175 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6532,7 +6844,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.831,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -6547,10 +6859,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.831 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 200 gr, Flat Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.831 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 200 gr, Flat Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6586,7 +6904,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.873,
       "construction": [
         "round_nose"
       ],
@@ -6603,13 +6921,19 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.873 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 200 gr, Round Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [
         "id collided with another row; stored as sierra-2800-2.",
         "Item number 2800 is also published on another Sierra bullet (40 CAL 200 GR JHP PRO-HUNTER; 35 CAL 200 GR RN PRO-HUNTER). sku left null."
       ],
-      "notes": "Published item number 2800 is shared with another bullet, so sku is null.",
+      "notes": "Published item number 2800 is shared with another bullet, so sku is null. lengthIn 0.873 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.358, weight 200 gr, Round Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6794,7 +7118,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.384,
       "construction": [
         "polymer_tip"
       ],
@@ -6812,10 +7136,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.384 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.384 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6862,7 +7192,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.2,
       "construction": [
         "polymer_tip"
       ],
@@ -6880,10 +7210,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 107 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.2 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 107 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -6995,7 +7331,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.215,
       "construction": [
         "hollow_point",
         "boattail"
@@ -7014,10 +7350,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.215 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.215 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 168 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7110,7 +7452,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.49,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -7126,10 +7468,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.49 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Hornet (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.49 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 40 gr, Hornet (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7174,7 +7522,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.724,
       "construction": [
         "boattail",
         "spitzer"
@@ -7193,10 +7541,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.724 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.724 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7418,7 +7772,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1,
       "construction": [
         "spitzer"
       ],
@@ -7436,10 +7790,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 150 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 150 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7600,7 +7960,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.972,
       "construction": [
         "spitzer"
       ],
@@ -7618,10 +7978,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 120 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.972 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 120 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7668,7 +8034,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.475,
       "construction": [
         "polymer_tip"
       ],
@@ -7686,10 +8052,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.475 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 195 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.475 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 195 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7863,7 +8235,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.663,
       "construction": [
         "round_nose"
       ],
@@ -7880,10 +8252,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.663 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 110 gr, Round Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.663 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 110 gr, Round Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -7928,7 +8306,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.959,
       "construction": [
         "hollow_point",
         "boattail"
@@ -7947,10 +8325,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.959 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 115 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.959 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 115 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8055,7 +8439,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.795,
       "construction": [
         "hollow_point"
       ],
@@ -8073,10 +8457,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.795 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 110 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.795 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 110 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8112,7 +8502,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.92,
       "construction": [
         "hollow_point"
       ],
@@ -8130,10 +8520,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.92 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.92 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 100 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8169,7 +8565,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.992,
       "construction": [
         "spitzer"
       ],
@@ -8187,10 +8583,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.992 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 125 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.992 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 125 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8237,7 +8639,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.994,
       "construction": [
         "hollow_point",
         "boattail"
@@ -8256,10 +8658,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.994 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, HPBT MatchKing™ Cannelured."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.994 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, HPBT MatchKing™ Cannelured.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8374,7 +8782,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.834,
       "construction": [
         "hollow_point",
         "boattail"
@@ -8393,10 +8801,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.834 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 70 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.834 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 70 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8579,7 +8993,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.11,
       "construction": [
         "hollow_point",
         "boattail"
@@ -8598,10 +9012,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.11 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.11 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8637,7 +9057,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.092,
       "construction": [
         "round_nose"
       ],
@@ -8654,10 +9074,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.092 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Round Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.092 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 180 gr, Round Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8702,7 +9128,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.4,
       "construction": [
         "boattail",
         "spitzer"
@@ -8721,10 +9147,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.4 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.4 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 200 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -8889,7 +9321,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.907,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -8905,10 +9337,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.907 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Flat Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.907 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Flat Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9022,7 +9460,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.183,
       "construction": [
         "boattail",
         "spitzer"
@@ -9041,10 +9479,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.183 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 250 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.183 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 250 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9410,7 +9854,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.24,
       "construction": [
         "hollow_point",
         "boattail"
@@ -9429,10 +9873,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.24 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.24 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 175 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9740,7 +10190,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.245,
       "construction": [
         "polymer_tip"
       ],
@@ -9757,10 +10207,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 110 gr, Tipped GameKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.245 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 110 gr, Tipped GameKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9807,7 +10263,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.16,
       "construction": [
         "polymer_tip"
       ],
@@ -9825,10 +10281,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.16 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 95 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.16 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 95 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9873,7 +10335,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.274,
       "construction": [
         "boattail",
         "spitzer"
@@ -9892,10 +10354,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.274 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 215 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.274 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 215 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -9942,7 +10410,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.275,
       "construction": [
         "hollow_point",
         "boattail"
@@ -9961,10 +10429,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.275 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 107 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.275 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 107 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10283,7 +10757,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.16,
       "construction": [
         "boattail",
         "spitzer"
@@ -10302,10 +10776,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.16 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.16 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10409,7 +10889,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.378,
       "construction": [
         "boattail",
         "spitzer"
@@ -10428,10 +10908,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.378 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 300 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.378 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.375, weight 300 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10467,7 +10953,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.996,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -10483,10 +10969,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.996 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Flat Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.996 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 170 gr, Flat Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10590,7 +11082,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.695,
       "construction": [
         "spitzer"
       ],
@@ -10608,10 +11100,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.695 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Spitzer (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.695 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 55 gr, Spitzer (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10647,7 +11145,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.12,
       "construction": [
         "spitzer"
       ],
@@ -10665,10 +11163,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 175 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.323, weight 175 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10921,7 +11425,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.279,
       "construction": [
         "polymer_tip"
       ],
@@ -10939,10 +11443,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.279 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.279 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 155 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -10980,7 +11490,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.462,
       "construction": [
         "hollow_point",
         "boattail"
@@ -10999,10 +11509,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.462 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 180 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.462 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 180 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11118,7 +11634,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.072,
       "construction": [
         "polymer_tip"
       ],
@@ -11136,10 +11652,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.072 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, Tipped MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.072 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 77 gr, Tipped MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11175,7 +11697,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.041,
       "construction": [
         "spitzer"
       ],
@@ -11193,10 +11715,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.041 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 100 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.041 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 100 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11232,7 +11760,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.625,
       "construction": [
         "spitzer"
       ],
@@ -11250,10 +11778,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.625 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 45 gr, Spitzer (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.625 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 45 gr, Spitzer (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11289,7 +11823,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.535,
       "construction": [],
       "material": "Jacketed Lead",
       "intendedUse": [
@@ -11305,10 +11839,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.535 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.223, weight 45 gr, Hornet (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.535 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.223, weight 45 gr, Hornet (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11344,7 +11884,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.776,
       "construction": [
         "hollow_point"
       ],
@@ -11362,10 +11902,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.776 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 60 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.776 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 60 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11469,7 +12015,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.043,
       "construction": [
         "spitzer"
       ],
@@ -11487,10 +12033,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.043 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.043 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.311, weight 150 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11538,7 +12090,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.495,
       "construction": [
         "polymer_tip"
       ],
@@ -11555,10 +12107,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.495 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 165 gr, Tipped GameKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.495 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 165 gr, Tipped GameKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11594,7 +12152,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.732,
       "construction": [
         "hollow_point"
       ],
@@ -11612,10 +12170,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.732 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 60 gr, Hollow Point (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.732 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 60 gr, Hollow Point (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11712,7 +12276,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.895,
       "construction": [
         "round_nose"
       ],
@@ -11729,10 +12293,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.895 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Round Nose (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.895 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Round Nose (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11838,7 +12408,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.701,
       "construction": [
         "hollow_point"
       ],
@@ -11856,10 +12426,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.701 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 53 gr, HP MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.701 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 53 gr, HP MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -11975,7 +12551,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.7,
       "construction": [
         "hollow_point",
         "boattail"
@@ -11994,10 +12570,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.7 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 300 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.7 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.338, weight 300 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12042,7 +12624,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.852,
       "construction": [
         "boattail",
         "spitzer"
@@ -12061,10 +12643,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.852 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 65 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.852 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.224, weight 65 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12109,7 +12697,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.11,
       "construction": [
         "fmj",
         "boattail"
@@ -12128,10 +12716,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.11 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Full Metal Jacket Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.11 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 150 gr, Full Metal Jacket Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12176,7 +12770,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.116,
       "construction": [
         "boattail",
         "spitzer"
@@ -12195,10 +12789,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.116 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 117 gr, Spitzer Boattail (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.116 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 117 gr, Spitzer Boattail (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12234,7 +12834,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.903,
       "construction": [
         "spitzer"
       ],
@@ -12252,10 +12852,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.903 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 85 gr, Spitzer (Varminter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.903 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.243, weight 85 gr, Spitzer (Varminter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12302,7 +12908,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.25,
       "construction": [
         "hollow_point",
         "boattail"
@@ -12321,10 +12927,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.25 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 150 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12369,7 +12981,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.26,
       "construction": [
         "hollow_point",
         "boattail"
@@ -12388,10 +13000,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.26 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 135 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.26 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.277, weight 135 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12438,7 +13056,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.315,
       "construction": [
         "polymer_tip"
       ],
@@ -12455,10 +13073,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, Tipped GameKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.315 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.264, weight 120 gr, Tipped GameKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12505,7 +13129,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.489,
       "construction": [
         "hollow_point",
         "boattail"
@@ -12524,10 +13148,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.489 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, HPBT MatchKing™."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.489 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.308, weight 220 gr, HPBT MatchKing™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12630,7 +13260,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 1.12,
       "construction": [
         "spitzer"
       ],
@@ -12648,10 +13278,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, Spitzer (Pro-Hunter)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 1.12 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.284, weight 140 gr, Spitzer (Pro-Hunter).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
@@ -12696,7 +13332,7 @@
       ],
       "bcSource": "manufacturer",
       "sectionalDensity": null,
-      "lengthIn": null,
+      "lengthIn": 0.89,
       "construction": [
         "hollow_point",
         "boattail"
@@ -12715,10 +13351,16 @@
           "retrievedOn": "2026-10-27",
           "publisher": "Sierra",
           "notes": "BigCommerce product custom fields on the manufacturer storefront."
+        },
+        {
+          "url": "https://jbmballistics.com/downloads/lengthlist.html",
+          "retrievedOn": "2026-10-27",
+          "publisher": "JBM Ballistics",
+          "notes": "lengthIn 0.89 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 90 gr, HPBT (GameKing)."
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "lengthIn 0.89 is the length printed on the JBM Ballistics bullet length list, in inches. It is a third-party measured length, not a manufacturer-printed length. JBM row: caliber 0.257, weight 90 gr, HPBT (GameKing).",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
