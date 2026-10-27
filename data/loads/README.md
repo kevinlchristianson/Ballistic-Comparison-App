@@ -21,6 +21,7 @@ scripts/loads/
   normalize.py                 Writes a source file from a cached manufacturer download.
   vihtavuori.py                Normalizes the cached Vihtavuori JSON.
   hodgdon.py                   Resumable Reloading Data Center fetch, then normalize.
+  shootersworld.py             Normalizes the cached Shooters World HTML table.
   rows.py                      Shared parsing for published numbers and notes.
   validate.py                  Schema, duplicate, and sanity checks.
   catalog.py                   Paths and the schema checker the scripts share.
@@ -112,6 +113,8 @@ The bullet catalog id is `{manufacturer}-{sku}` when the manufacturer published 
 
 [`sources/vihtavuori.json`](sources/vihtavuori.json) is the public Vihtavuori reload database read on 2026-10-27 (database 0.2, dated 14.9.2026). 6,736 published lines became 13,472 records: one start and one max. Grain, feet per second, and inch columns are the structured fields. The metric tokens are quoted in `notes` and are not converted. `source.testBarrelIn` is null. Per-cartridge barrel length is the inch length printed in the barrel string, because a millimeter number such as 630 does not fit the schema maximum of 200. See [`comments/2026-10-27-barrel-length-millimeters.md`](comments/2026-10-27-barrel-length-millimeters.md). The database has 112 cartridge rows and 107 unique names. `.357 Magnum`, `.38 Special`, and `.44 S&W Special` are each published with two barrel lengths, and both are kept. No bullet part number is in the database, so `bulletSku` is null. `BulletId` is an internal id and stays in `notes`.
 
+[`sources/shootersworld.json`](sources/shootersworld.json) is the public table at <https://shootersworldpowder.com/data-table/>, read on 2026-10-27. 1,494 table rows, 108 cartridge names. A published start and max are two records. Charge is grains and velocity is fps because the Shooters World manual labels powder charge in grains and velocity in fps. COL is stored only when that cell prints `"` or `mm`; a bare number stays in `notes`. `MAX PSI` is on the max row only, `pressureMethod` `unknown`. Eight exact duplicate records were dropped. No barrel length or bullet part number is on the table.
+
 [`sources/loaddevelopment.json`](sources/loaddevelopment.json) records the source and zero loads. This bot does not scrape that site. There is no LoadDevelopment parser under `scripts/loads/`.
 
 ## Licensing
@@ -125,7 +128,7 @@ Vihtavuori's [legal notice](https://vihtavuori.com/company/disclaimers/legal-not
 1. `python3 scripts/loads/scrape.py --list` prints registered sources. LoadDevelopment is listed and is not fetched.
 2. Cache raw downloads under `data/loads/raw/` (gitignored). Hodgdon: `python3 scripts/loads/hodgdon.py fetch` (one cartridge per request, 12 seconds apart). Vihtavuori's JSON is already cached.
 3. `python3 scripts/loads/normalize.py --source vihtavuori` or `--source hodgdon`.
-4. `python3 scripts/loads/validate.py --strict`. Warnings fail the script. The warning band is wider than the first draft where a published value sits outside it: grain charges through 300 and a 45 inch barrel (`.50 Browning`), and velocity down to 400 fps (a published `.38 Special` start of 410). Those bounds are not schema limits.
+4. `python3 scripts/loads/validate.py --strict`. Warnings fail the script. The warning band is wider than the first draft where a published value sits outside it: grain charges from 0.5 (Shooters World Ba 10) through 300, a 45 inch barrel (`.50 Browning`), velocity down to 400 fps (a published `.38 Special` start of 410), and pressure down to 3,000 psi (a published 3,439 psi 9mm maximum). Those bounds are not schema limits.
 
 `validate.py` checks, with no extra Python packages:
 

@@ -25,15 +25,17 @@ from catalog import catalog_paths, load_json, load_schema, validate_instance
 
 # Usual published ranges. Outside these is a warning, not a schema error.
 # Bounds are per unit. A grain charge is never judged on the gram scale.
-# Grain charges above 250 are published for .50 Browning. A .38 Special
-# start velocity of 410 fps is published. The band is a warning only.
-CHARGE_WARN = {"gr": (1.0, 300.0), "g": (0.05, 40.0)}
+# Grain charges above 250 are published for .50 Browning. Shooters World
+# prints Ba 10 charges of 0.5 gr. A .38 Special start velocity of 410 fps
+# is published. The band is a warning only.
+CHARGE_WARN = {"gr": (0.5, 300.0), "g": (0.05, 40.0)}
 VELOCITY_WARN = {"fps": (400.0, 5000.0), "mps": (150.0, 1500.0)}
 COAL_WARN = {"in": (0.5, 6.0), "mm": (10.0, 150.0)}
 # .50 Browning is published with a 45 inch test barrel.
 BARREL_WARN = {"in": (2.0, 48.0), "mm": (50.0, 1200.0)}
+# Shooters World prints 3,439 PSI for one 9mm Luger maximum.
 PRESSURE_WARN = {
-    "psi": (5000.0, 80000.0),
+    "psi": (3000.0, 80000.0),
     "cup": (5000.0, 70000.0),
     "bar": (100.0, 5000.0),
     "mpa": (10.0, 500.0),
