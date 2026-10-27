@@ -8,7 +8,7 @@ a plain number is stored, a thousands comma is stored as that number,
 and anything else stays null and is copied into notes.
 
 Usage:
-    python3 scripts/loads/community_berger_hybrid_target_65mm_140gr.py
+    python3 scripts/loads/community_berger_hybrid_target_65mm_144gr.py
 """
 
 from __future__ import annotations
