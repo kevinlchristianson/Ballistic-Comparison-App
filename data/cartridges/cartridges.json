@@ -500,7 +500,7 @@
       "caseLengthIn": 1.6,
       "trimLengthIn": 1.59,
       "maxCoalIn": 2.26,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 33.0,
       "mapPsi": 55000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -515,7 +515,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -738,7 +739,7 @@
       "caseLengthIn": 1.49,
       "trimLengthIn": 1.48,
       "maxCoalIn": 2.26,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 34.0,
       "mapPsi": 52000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -753,7 +754,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1009,9 +1011,9 @@
       "caseLengthIn": 2.549,
       "trimLengthIn": 2.539,
       "maxCoalIn": 3.25,
-      "caseCapacityGrH2O": null,
-      "mapPsi": null,
-      "mapMethod": null,
+      "caseCapacityGrH2O": 84.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
       "rimType": "belted",
       "rimDiameterIn": 0.532,
       "shoulderAngleDeg": null,
@@ -1024,7 +1026,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1185,7 +1188,7 @@
       "caseLengthIn": 2.03,
       "trimLengthIn": 2.02,
       "maxCoalIn": 2.955,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 64.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -1200,7 +1203,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1250,7 +1254,7 @@
       "caseLengthIn": 2.5,
       "trimLengthIn": 2.49,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 82.0,
       "mapPsi": 64000,
       "mapMethod": "piezo",
       "rimType": "belted",
@@ -1265,7 +1269,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1316,7 +1321,7 @@
       "caseLengthIn": 2.02,
       "trimLengthIn": 2.01,
       "maxCoalIn": 2.955,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 72.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -1331,7 +1336,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1350,7 +1356,7 @@
       "caseLengthIn": 1.686,
       "trimLengthIn": 1.676,
       "maxCoalIn": 2.26,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 35.0,
       "mapPsi": 55000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -1365,7 +1371,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1419,7 +1426,7 @@
       "caseLengthIn": 2.1,
       "trimLengthIn": 2.09,
       "maxCoalIn": 2.86,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 81.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -1434,7 +1441,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1453,9 +1461,9 @@
       "caseLengthIn": 2.549,
       "trimLengthIn": 2.539,
       "maxCoalIn": 3.25,
-      "caseCapacityGrH2O": null,
-      "mapPsi": null,
-      "mapMethod": null,
+      "caseCapacityGrH2O": 84.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
       "rimType": "belted",
       "rimDiameterIn": 0.532,
       "shoulderAngleDeg": null,
@@ -1468,7 +1476,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1661,7 +1670,7 @@
       "caseLengthIn": 2.1,
       "trimLengthIn": 2.09,
       "maxCoalIn": 2.86,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 81.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -1676,7 +1685,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1695,9 +1705,9 @@
       "caseLengthIn": 2.549,
       "trimLengthIn": 2.539,
       "maxCoalIn": 3.36,
-      "caseCapacityGrH2O": null,
-      "mapPsi": null,
-      "mapMethod": null,
+      "caseCapacityGrH2O": 92.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
       "rimType": "belted",
       "rimDiameterIn": 0.532,
       "shoulderAngleDeg": null,
@@ -1710,7 +1720,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1728,7 +1739,7 @@
       "caseLengthIn": 2.85,
       "trimLengthIn": 2.84,
       "maxCoalIn": 3.6,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 103.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "belted",
@@ -1743,7 +1754,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1762,7 +1774,7 @@
       "caseLengthIn": 2.85,
       "trimLengthIn": 2.84,
       "maxCoalIn": 3.6,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 113.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -1777,7 +1789,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1829,7 +1842,7 @@
       "caseLengthIn": 2.28,
       "trimLengthIn": 2.27,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 84.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -1844,7 +1857,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -1928,7 +1942,7 @@
       "caseLengthIn": 2.59,
       "trimLengthIn": 2.58,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 93.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -1943,7 +1957,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2241,8 +2256,8 @@
       "trimLengthIn": 2.815,
       "maxCoalIn": 3.562,
       "caseCapacityGrH2O": 100.0,
-      "mapPsi": null,
-      "mapMethod": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
       "rimType": "belted",
       "rimDiameterIn": 0.532,
       "shoulderAngleDeg": null,
@@ -2377,7 +2392,7 @@
       "caseLengthIn": 2.58,
       "trimLengthIn": 2.57,
       "maxCoalIn": 3.7,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 100.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -2392,7 +2407,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2413,7 +2429,7 @@
       "caseLengthIn": 1.368,
       "trimLengthIn": 1.358,
       "maxCoalIn": 2.26,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 25.0,
       "mapPsi": 55000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -2428,7 +2444,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2445,7 +2462,7 @@
       "caseLengthIn": 2.555,
       "trimLengthIn": 2.545,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 95.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -2460,7 +2477,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2680,7 +2698,7 @@
       "caseLengthIn": 2.24,
       "trimLengthIn": 2.23,
       "maxCoalIn": 3.25,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 62.0,
       "mapPsi": 37000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -2695,7 +2713,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2745,7 +2764,7 @@
       "caseLengthIn": 2.1,
       "trimLengthIn": 2.09,
       "maxCoalIn": 2.86,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 79.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -2760,7 +2779,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2778,7 +2798,7 @@
       "caseLengthIn": 2.015,
       "trimLengthIn": 2.005,
       "maxCoalIn": 2.82,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 55.0,
       "mapPsi": 62000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -2793,7 +2813,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2916,7 +2937,7 @@
       "caseLengthIn": 2.76,
       "trimLengthIn": 2.75,
       "maxCoalIn": 3.6,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 110.0,
       "mapPsi": 65000,
       "mapMethod": "piezo",
       "rimType": "rebated",
@@ -2931,7 +2952,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -2949,9 +2971,9 @@
       "caseLengthIn": 2.825,
       "trimLengthIn": 2.815,
       "maxCoalIn": 3.687,
-      "caseCapacityGrH2O": null,
-      "mapPsi": null,
-      "mapMethod": null,
+      "caseCapacityGrH2O": 106.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
       "rimType": "belted",
       "rimDiameterIn": 0.532,
       "shoulderAngleDeg": null,
@@ -2964,7 +2986,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3014,7 +3037,7 @@
       "caseLengthIn": 2.494,
       "trimLengthIn": 2.484,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 68.0,
       "mapPsi": 52000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -3029,7 +3052,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3078,7 +3102,7 @@
       "caseLengthIn": 2.015,
       "trimLengthIn": 2.005,
       "maxCoalIn": 2.78,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 55.0,
       "mapPsi": 52000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -3093,7 +3117,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3144,7 +3169,7 @@
       "caseLengthIn": 2.85,
       "trimLengthIn": 2.84,
       "maxCoalIn": 3.6,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 95.0,
       "mapPsi": 62000,
       "mapMethod": "piezo",
       "rimType": "belted",
@@ -3159,7 +3184,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3176,7 +3202,7 @@
       "caseLengthIn": 2.58,
       "trimLengthIn": 2.57,
       "maxCoalIn": 3.34,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 101.0,
       "mapPsi": 62000,
       "mapMethod": "piezo",
       "rimType": "rimless",
@@ -3191,7 +3217,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3434,7 +3461,7 @@
       "caseLengthIn": 2.105,
       "trimLengthIn": 2.095,
       "maxCoalIn": 2.55,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 80.0,
       "mapPsi": 28000,
       "mapMethod": "piezo",
       "rimType": "rimmed",
@@ -3449,7 +3476,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3632,7 +3660,7 @@
       "caseLengthIn": 2.17,
       "trimLengthIn": 2.16,
       "maxCoalIn": 3.228,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 66.0,
       "mapPsi": null,
       "mapMethod": null,
       "rimType": "rebated",
@@ -3647,7 +3675,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3666,7 +3695,7 @@
       "caseLengthIn": 1.85,
       "trimLengthIn": 1.84,
       "maxCoalIn": 2.756,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 47.0,
       "mapPsi": null,
       "mapMethod": null,
       "rimType": "rimless",
@@ -3681,7 +3710,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },
@@ -3701,7 +3731,7 @@
       "caseLengthIn": 1.56,
       "trimLengthIn": 1.55,
       "maxCoalIn": 2.441,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 39.0,
       "mapPsi": null,
       "mapMethod": null,
       "rimType": "rimless",
@@ -3716,7 +3746,8 @@
         "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
       },
       "fieldNotes": {
-        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
       },
       "userAdded": false
     },

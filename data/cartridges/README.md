@@ -42,7 +42,7 @@ These SAAMI centerfire rifle cartridges are likely in the standard but not yet i
 
 .22 Savage High-Power, 5.45x39mm, .22 ARC, .26 Nosler, .27 Nosler, .33 Nosler, 6.5 Weatherby RPM, 7mm Backcountry, .300 Ruger Compact Magnum, .338 Ruger Compact Magnum, .338 Marlin Express, .338-378 Weatherby Magnum, .30 Remington, .30 Remington AR, .32 Winchester Special, .32-20 Winchester, .32-40 Winchester, .348 Winchester, .375 Winchester, .375 Weatherby Magnum, .38-40 Winchester, .38-55 Winchester, .44-40 Winchester, .360 Buckhammer, .400 Legend, .458 SOCOM, .460 Weatherby Magnum, .470 Nitro Express, 7.62x54R.
 
-Other gaps: `neckLengthIn` is filled for only 2 cartridges, `caseCapacityGrH2O` for 30, and `mapPsi` is null for 29 SAAMI entries.
+Other gaps: `neckLengthIn` is filled for only 2 cartridges, `caseCapacityGrH2O` for 61, and `mapPsi` is null for 24 SAAMI entries. The physics velocity model needs both capacity and MAP, so it answers "no data" for cartridges missing either.
 
 ## How to add or fix a cartridge
 

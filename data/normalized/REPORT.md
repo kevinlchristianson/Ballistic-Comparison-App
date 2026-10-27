@@ -2,15 +2,13 @@
 
 Generated 2026-10-27 by `scripts/normalize.ts`. Do not edit by hand.
 
-> **Loads in this run are synthetic fixtures** from `tests/fixtures/loads/`. They are test data, not load data.
-> **Bullets in this run come from the bot's examples file**, because `data/bullets/bullets.json` is empty.
 
 ## Summary
 
 | Dataset | Input | Kept | Rejected |
 | --- | --- | --- | --- |
-| Bullets | `data/bullets/examples/examples.json` | 4 | 0 |
-| Loads | `tests/fixtures/loads/fixture-source-a.json`, `tests/fixtures/loads/fixture-source-b.json` | 28 | 8 |
+| Bullets | `data/bullets/bullets.json` | 1598 | 9 |
+| Loads | `data/loads/sources/loaddevelopment.json` | 0 | 0 |
 | Cartridges | `data/cartridges/cartridges.json` | 142 (107 saami, 31 wildcat, 4 cip) | 0 |
 
 All 142 cartridge entries not yet verified against their governing source are marked `unverified`.
@@ -19,14 +17,7 @@ All 142 cartridge entries not yet verified against their governing source are ma
 
 | Reason | Count |
 | --- | --- |
-| load: duplicate | 1 |
-| load: unknown_cartridge | 1 |
-| load: missing_cartridge | 1 |
-| load: missing_weight | 1 |
-| load: missing_velocity | 1 |
-| load: bad_velocity_unit | 1 |
-| load: implausible_velocity | 1 |
-| load: diameter_mismatch | 1 |
+| bullet: missing_weight | 9 |
 
 Full records are in `data/normalized/rejects.json`.
 
@@ -34,46 +25,103 @@ Full records are in `data/normalized/rejects.json`.
 
 | Flag | Count |
 | --- | --- |
-| diameter_derived | 4 |
-| no_length | 4 |
-| no_bearing_surface | 4 |
-| no_g7 | 2 |
+| no_bearing_surface | 1492 |
+| no_g7 | 1059 |
+| no_length | 938 |
+| no_g1 | 329 |
+| no_bc | 196 |
+| diameter_derived | 66 |
+| no_diameter | 18 |
 
 ## Bullet coverage by manufacturer
 
 | Manufacturer | Count |
 | --- | --- |
-| Berger | 4 |
+| Hammer Bullets | 326 |
+| Hornady | 311 |
+| Nosler | 249 |
+| Sierra | 198 |
+| Barnes | 197 |
+| Woodleigh | 158 |
+| Berger | 106 |
+| Lapua | 53 |
 
 ## Bullet coverage by diameter (in)
 
 | Diameter | Count |
 | --- | --- |
-| 0.172 | 1 |
-| 0.204 | 1 |
-| 0.224 | 1 |
-| 0.243 | 1 |
+| 0.308 | 292 |
+| 0.224 | 201 |
+| 0.264 | 143 |
+| 0.284 | 134 |
+| 0.243 | 111 |
+| 0.338 | 90 |
+| 0.277 | 87 |
+| 0.257 | 65 |
+| 0.375 | 56 |
+| 0.458 | 51 |
+| 0.323 | 37 |
+| 0.358 | 35 |
+| 0.366 | 25 |
+| 0.416 | 24 |
+| 0.510 | 23 |
+| 0.204 | 22 |
+| unknown | 18 |
+| 0.310 | 11 |
+| 0.172 | 11 |
+| 0.422 | 9 |
+| 0.410 | 8 |
+| 0.474 | 8 |
+| 0.505 | 8 |
+| 0.311 | 7 |
+| 0.355 | 7 |
+| 0.400 | 7 |
+| 0.411 | 7 |
+| 0.312 | 7 |
+| 0.423 | 6 |
+| 0.452 | 6 |
+| 0.348 | 5 |
+| 0.500 | 5 |
+| 0.408 | 5 |
+| 0.620 | 4 |
+| 0.585 | 4 |
+| 0.451 | 3 |
+| 0.429 | 3 |
+| 0.318 | 3 |
+| 0.321 | 3 |
+| 0.333 | 3 |
+| 0.435 | 3 |
+| 0.468 | 3 |
+| 0.509 | 2 |
+| 0.583 | 2 |
+| 0.313 | 2 |
+| 0.330 | 2 |
+| 0.357 | 2 |
+| 0.430 | 2 |
+| 0.223 | 2 |
+| 0.584 | 2 |
+| 0.287 | 2 |
+| 0.483 | 2 |
+| 0.488 | 2 |
+| 0.476 | 2 |
+| 0.700 | 2 |
+| 0.377 | 1 |
+| 0.504 | 1 |
+| 0.618 | 1 |
+| 0.407 | 1 |
+| 0.427 | 1 |
+| 0.475 | 1 |
+| 0.525 | 1 |
+| 0.222 | 1 |
+| 0.350 | 1 |
+| 0.440 | 1 |
+| 0.405 | 1 |
+| 0.412 | 1 |
 
 ## Load flags
 
-| Flag | Count |
-| --- | --- |
-| published_max_load | 27 |
-| diameter_from_cartridge | 23 |
-| near_saami_max | 16 |
-| barrel_from_source_default | 5 |
-| no_barrel_length | 3 |
-| pressure_cup_not_compared | 2 |
-| above_saami_max | 1 |
-| pressure_unit_missing | 1 |
+None.
 
 ## Load coverage by cartridge
 
-| Cartridge | Count |
-| --- | --- |
-| 308-win | 9 |
-| 6-5-creedmoor | 5 |
-| 223-rem | 5 |
-| 300-win-mag | 4 |
-| 30-06 | 3 |
-| 6mm-creedmoor | 2 |
+None.
