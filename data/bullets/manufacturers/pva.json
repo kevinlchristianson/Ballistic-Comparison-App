@@ -1,0 +1,1437 @@
+{
+  "schemaVersion": "1.2.0",
+  "manufacturer": "Patriot Valley Arms",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 23,
+  "bullets": [
+    {
+      "id": "patriot-valley-arms-6mm-100-flm-6mm-100gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 6mm 100gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6mm",
+      "diameterIn": null,
+      "weightGr": 100,
+      "bcG1": 0.647,
+      "bcG7": 0.317,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.647,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-100gr-seneca-competition-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.317,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-100gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.395,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "requires a 1:7tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-6mm-100gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.105\"-0.140\". *The average BC was measured using 7tw 5R rifled barrels and being shot at approximately 3070fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-30c-212-flm-30c-212gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 30c 212gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30c",
+      "diameterIn": null,
+      "weightGr": 212,
+      "bcG1": 0.95,
+      "bcG7": 0.461,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.95,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-212gr-seneca-competition-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.461,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-212gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.88,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30c-212gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.090\"-0.165\". *The average BC was measured using 7tw 5R rifled barrels and being shot at approximately 2880fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-6-5mm-129-6-5mm-129gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "6.5mm 129gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6.5mm",
+      "diameterIn": null,
+      "weightGr": 129,
+      "bcG1": 0.62,
+      "bcG7": 0.302,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.62,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/6-5mm-129gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.302,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/6-5mm-129gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.43,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 7.5,
+      "twistRateNote": "requires a 1:7.5tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/6-5mm-129gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.160\"-0.200\". *The average BC was measured using 7.5tw 6H rifled barrels and being shot at approximately 2840fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-6-5mm-124-flm-6-5mm-124gr-seneca-competition-bullet",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 6.5mm 124gr \"Seneca\" Competition Bullet",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6.5mm",
+      "diameterIn": null,
+      "weightGr": 124,
+      "bcG1": 0.593,
+      "bcG7": 0.294,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.593,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6-5mm-124gr-seneca-competition-bullet-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.294,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6-5mm-124gr-seneca-competition-bullet-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.37,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-6-5mm-124gr-seneca-competition-bullet-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.120\"-0.200\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 3060fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-7mm-167-flm-7mm-167gr-170gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 7mm 167gr (170gr) \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "7mm",
+      "diameterIn": null,
+      "weightGr": 167,
+      "bcG1": 0.75,
+      "bcG7": 0.367,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.75,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-167gr-170gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.367,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-167gr-170gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.61,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-7mm-167gr-170gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "The page says the 167gr bullet is an updated version of the 170gr bullet. The printed length and BCs are the updated figures. Optimal freebore printed as 0.120\"-0.180\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 2740fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-270-126-flm-270-126gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 270 126gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "270",
+      "diameterIn": null,
+      "weightGr": 126,
+      "bcG1": 0.53,
+      "bcG7": 0.255,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.53,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-270-126gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.255,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-270-126gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.24,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "requires a 1:10tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-270-126gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.100\"-0.150\". *The average BC was measured using 10tw 5R rifled barrels and being shot at approximately 2940fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-270-144-flm-270-144gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 270 144gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "270",
+      "diameterIn": null,
+      "weightGr": 144,
+      "bcG1": 0.64,
+      "bcG7": 0.321,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.64,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-270-144gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.321,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-270-144gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.445,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-270-144gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.100\"-0.150\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 2900fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-30c-241-flm-30c-241gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 30c 241gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30c",
+      "diameterIn": null,
+      "weightGr": 241,
+      "bcG1": 1.13,
+      "bcG7": 0.545,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 1.13,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-241gr-seneca-competition-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.545,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-241gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 2.05,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "requires a 1:7tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30c-241gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.090\"-0.165\". *The average BC was measured using 7tw 5R rifled barrels and being shot at approximately 2810fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-375c-361-flm-375c-361gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 375c 361gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "375c",
+      "diameterIn": null,
+      "weightGr": 361,
+      "bcG1": 0.965,
+      "bcG7": 0.484,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.965,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-375c-361gr-seneca-competition-bullets-25-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.484,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-375c-361gr-seneca-competition-bullets-25-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 2.22,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "requires a 1:10tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-375c-361gr-seneca-competition-bullets-25-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.165\"-0.220\". *The average BC was measured using 10tw 5R rifled barrels and being shot at approximately 3200fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-30cal-178-flm-30cal-178gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 30cal 178gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30cal",
+      "diameterIn": null,
+      "weightGr": 178,
+      "bcG1": 0.62,
+      "bcG7": 0.3,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.62,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30cal-178gr-cayuga-hunting-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.3,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30cal-178gr-cayuga-hunting-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.45,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "requires a 1:10tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30cal-178gr-cayuga-hunting-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.070\"-0.170\". *The average BC was measured using 10tw 4 groove rifled barrels and being shot at approximately 3160fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-6-5mm-122-flm-6-5mm-122gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 6.5mm 122gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6.5mm",
+      "diameterIn": null,
+      "weightGr": 122,
+      "bcG1": 0.577,
+      "bcG7": 0.28,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.577,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6-5mm-122gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.28,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6-5mm-122gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.365,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-6-5mm-122gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.160\"-0.200\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 2740fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-257-120-flm-257-120gr-seneca-competition-bullet",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM .257 120gr \"Seneca\" Competition Bullet",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": ".257",
+      "diameterIn": 0.257,
+      "weightGr": 120,
+      "bcG1": 0.64,
+      "bcG7": 0.31,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.64,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-257-120gr-seneca-competition-bullet-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.31,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-257-120gr-seneca-competition-bullet-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.37,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 7.25,
+      "twistRateNote": "requires a 1:7.25tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-257-120gr-seneca-competition-bullet-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.150\"-0.200\". *The average BC was measured using 7.25tw 5R rifled barrels and being shot at approximately 2900fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner. Diameter 0.257 copied from the printed caliber label: .257."
+    },
+    {
+      "id": "patriot-valley-arms-7mm-151-flm-7mm-151gr-seneca-match-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 7mm 151gr \"Seneca\" Match Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "7mm",
+      "diameterIn": null,
+      "weightGr": 151,
+      "bcG1": 0.72,
+      "bcG7": 0.36,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.72,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-151gr-seneca-match-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.36,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-151gr-seneca-match-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.53,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "requires a 1:9tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-7mm-151gr-seneca-match-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.120\"-0.180\". Printed BC: G1 BC average = 0.720; G7 BC average = 0.360."
+    },
+    {
+      "id": "patriot-valley-arms-30c-198-flm-30c-198gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 30c 198gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30c",
+      "diameterIn": null,
+      "weightGr": 198,
+      "bcG1": null,
+      "bcG7": 0.421,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G7",
+          "bc": 0.421,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-198gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.8,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "requires a 1:9tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30c-198gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.090\"-0.165\". *The average BC was measured using 8.5tw 5R rifled barrels and being shot at approximately 2940fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner. BC line printed as \"G1 BC average = 0840*\" and was not stored because it has no decimal point."
+    },
+    {
+      "id": "patriot-valley-arms-30c-178-flm-30c-178gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 30c 178gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30c",
+      "diameterIn": null,
+      "weightGr": 178,
+      "bcG1": 0.61,
+      "bcG7": 0.3,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.61,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-178gr-seneca-competition-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.3,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-178gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.53,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "requires a 1:10tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30c-178gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.080\"-0.120\". *The average BC was measured using 10tw 5R rifled barrels and being shot at approximately 3100fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-224-75-224-seneca-tac-75gr-bullet",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "224 Seneca \"TAC\" 75gr bullet",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "224",
+      "diameterIn": null,
+      "weightGr": 75,
+      "bcG1": null,
+      "bcG7": 0.261,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G7",
+          "bc": 0.261,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/224-seneca-tac-75gr-bullet-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.19,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "Minimum Twist Rate: 1:7tw Approximate load length in a 223 Remington with a Wylde (0",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/224-seneca-tac-75gr-bullet-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Printed BC: BC: 0.261 G7."
+    },
+    {
+      "id": "patriot-valley-arms-30c-210-flm-30c-210gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 30c 210gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30c",
+      "diameterIn": null,
+      "weightGr": 210,
+      "bcG1": 0.75,
+      "bcG7": 0.36,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.75,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-210gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.36,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30c-210gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.75,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "requires a 1:9tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30c-210gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.120\"-0.180\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 2740fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-30cal-163-flm-30cal-163gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 30cal 163gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "30cal",
+      "diameterIn": null,
+      "weightGr": 163,
+      "bcG1": 0.515,
+      "bcG7": 0.25,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.515,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30cal-163gr-cayuga-hunting-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.25,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-30cal-163gr-cayuga-hunting-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.33,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "requires a 1:12tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-30cal-163gr-cayuga-hunting-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.070\"-0.170\". *The average BC was measured using 11.5tw 5 groove rifled barrels and being shot at approximately 2610fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-6mm-100-flm-6mm-100gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 6mm 100gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6mm",
+      "diameterIn": null,
+      "weightGr": 100,
+      "bcG1": 0.54,
+      "bcG7": 0.26,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.54,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-100gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.26,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-100gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.31,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "requires a 1:7tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-6mm-100gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.100\"-0.160\". *The average BC was measured using 7tw 5R rifled barrels and being shot at approximately 3040fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-7mm-165-flm-7mm-165gr-seneca-match-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 7mm 165gr \"Seneca\" Match Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "7mm",
+      "diameterIn": null,
+      "weightGr": 165,
+      "bcG1": 0.81,
+      "bcG7": 0.4,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.81,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-165gr-seneca-match-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.4,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-165gr-seneca-match-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.61,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-7mm-165gr-seneca-match-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.120\"-0.180\". Printed BC: G1 BC average = 0.810; G7 BC average = 0.400."
+    },
+    {
+      "id": "patriot-valley-arms-7mm-151-flm-7mm-151gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM 7mm 151gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "7mm",
+      "diameterIn": null,
+      "weightGr": 151,
+      "bcG1": 0.65,
+      "bcG7": 0.31,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.65,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-151gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.31,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-7mm-151gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.43,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "requires a 1:9tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-7mm-151gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.120\"-0.180\". *The average BC was measured using 8tw 5R rifled barrels and being shot at approximately 2740fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-6mm-95-flm-6mm-95gr-seneca-competition-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Seneca",
+      "name": "FLM 6mm 95gr \"Seneca\" Competition Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": "6mm",
+      "diameterIn": null,
+      "weightGr": 95,
+      "bcG1": 0.601,
+      "bcG7": 0.291,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.601,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-95gr-seneca-competition-bullets-50-ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.291,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-6mm-95gr-seneca-competition-bullets-50-ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.31,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 7.5,
+      "twistRateNote": "requires a 1:7.5tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-6mm-95gr-seneca-competition-bullets-50-ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.105\"-0.140\". *The average BC was measured using 7.5tw 5R rifled barrels and being shot at approximately 3,030fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner."
+    },
+    {
+      "id": "patriot-valley-arms-257-117-flm-257-117gr-cayuga-hunting-bullets",
+      "manufacturer": "Patriot Valley Arms",
+      "productLine": "Cayuga",
+      "name": "FLM .257 117gr \"Cayuga\" Hunting Bullets",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": ".257",
+      "diameterIn": 0.257,
+      "weightGr": 117,
+      "bcG1": 0.58,
+      "bcG7": 0.282,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.58,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-257-117gr-cayuga-hunting-bullets-50ct/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.282,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "average",
+          "source": "manufacturer",
+          "sourceUrl": "https://patriotvalleyarms.com/flm-257-117gr-cayuga-hunting-bullets-50ct/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.365,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "requires a 1:8tw barrel",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://patriotvalleyarms.com/flm-257-117gr-cayuga-hunting-bullets-50ct/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Patriot Valley Arms",
+          "notes": "BigCommerce product description. Length, G1, and G7 are the printed bullet figures. Optimal freebore is quoted in notes and is not stored as a length. Pistol bullets are omitted. The terms page is a custom-work contract and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Optimal freebore printed as 0.160\"-0.210\". *The average BC was measured using 7tw 5R rifled barrels and being shot at approximately 2970fps. Different rifling geometry and muzzle velocity will affect the BC in a nominal manner. Diameter 0.257 copied from the printed caliber label: .257."
+    }
+  ]
+}
