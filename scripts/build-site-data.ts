@@ -179,6 +179,18 @@ rmSync(join(OUT, "load-rows"), { recursive: true, force: true });
 if (rowIndex) {
   mkdirSync(join(OUT, "load-rows"), { recursive: true });
   for (const [id, rows] of rowsByCartridge) write(`load-rows/${id}.json`, rows);
+  // Bullet index for browsing loads by bullet: label, weight, rows per cartridge.
+  const byBullet = new Map<string, [string, number, Record<string, number>]>();
+  for (const [id, rows] of rowsByCartridge) {
+    for (const r of rows) {
+      const label = r.bullet ?? "";
+      const key = `${label}|${r.bulletWeightGr}`;
+      if (!byBullet.has(key)) byBullet.set(key, [label, r.bulletWeightGr, {}]);
+      const counts = byBullet.get(key)![2];
+      counts[id] = (counts[id] ?? 0) + 1;
+    }
+  }
+  write("load-bullets.json", [...byBullet.values()].sort((a, b) => a[0].localeCompare(b[0]) || a[1] - b[1]));
 }
 writeFileSync(join(OUT, "report.md"), readFileSync("data/normalized/REPORT.md", "utf8"));
 

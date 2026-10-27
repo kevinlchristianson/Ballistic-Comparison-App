@@ -179,3 +179,7 @@ ul.plain { list-style: none; padding: 0; }
 }
 table.data td.wrap { white-space: normal; text-align: left; min-width: 160px; }
 table.data.loads td:first-child { white-space: normal; min-width: 140px; }
+
+table.data th.sortable { cursor: pointer; user-select: none; }
+table.data th.sortable:hover { color: var(--accent, inherit); text-decoration: underline; }
+table.data tr.yours td { background: var(--tag-bg, rgba(127,127,127,0.08)); }
