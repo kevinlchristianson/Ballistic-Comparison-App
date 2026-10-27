@@ -1685,6 +1685,98 @@ def scrape_norma() -> dict:
     )
 
 
+PPU_RIFLE = "https://www.prvipartizan.com/search_rbl.php"
+PPU_MATCH = "https://www.prvipartizan.com/search_rblm.php"
+PPU_RIFLE_CALIBERS = (
+    "22", "6 mm", "25", "6.5 mm", "6.8 mm", "270", "7 mm", "30", "7.62 mm",
+    "303", "8 mm", "9.3 mm", "338", "375", "45",
+)
+PPU_MATCH_CALIBERS = ("22", "6.5 mm", "7 mm", "30", "303", "8 mm", "338", "50")
+_PPU_ARTICLE = re.compile(r"^B-\d+$", re.I)
+
+
+def _ppu_search(url: str, caliber: str) -> str:
+    data = urllib.parse.urlencode(
+        {"searchterm": caliber, "searchtype": "calibre", "submit": "Search"}
+    ).encode()
+    request = urllib.request.Request(
+        url,
+        data=data,
+        headers={"User-Agent": USER_AGENT, "Content-Type": "application/x-www-form-urlencoded"},
+    )
+    with urllib.request.urlopen(request, timeout=45) as response:
+        return response.read().decode("utf-8", "replace")
+
+
+def _ppu_rows(page: str, caliber: str, list_url: str, list_name: str) -> list[dict]:
+    bullets = []
+    for part in re.split(r"<tr\b[^>]*>", page, flags=re.I):
+        cells = [strip_html(cell) for cell in re.findall(r"<td[^>]*>(.*?)</td>", part, flags=re.S | re.I)]
+        if len(cells) < 6 or not _PPU_ARTICLE.match(cells[0]):
+            continue
+        article, calibre, diameter, bullet_type, grams, grains = cells[:6]
+        weight = as_number(parse_number(grains))
+        diameter_in = parse_number(diameter)
+        if not isinstance(weight, (int, float)) or weight <= 0:
+            continue
+        if diameter_in is None or not 0.17 <= diameter_in <= 0.80:
+            print(f"  skip {article}: diameter {diameter!r} is not a printed inch")
+            continue
+        name = " ".join(part for part in (calibre or caliber, f"{weight} gr", bullet_type) if part)
+        bullet = blank_bullet(
+            "Prvi Partizan",
+            name,
+            list_url,
+            "Prvi Partizan",
+            "Rifle component search on prvipartizan.com. Dia. (inch) is the printed diameter. "
+            "Weight is stored from the grains column. The gram column is quoted in notes. "
+            "The site footer is a copyright notice. No separate terms page was found.",
+        )
+        bullet["sku"] = article
+        bullet["productLine"] = bullet_type or None
+        bullet["caliber"] = calibre or caliber
+        bullet["diameterIn"] = as_number(parse_number(diameter))
+        bullet["weightGr"] = weight
+        add_construction(bullet, bullet_type)
+        notes = [f"{list_name} search for caliber {caliber}."]
+        if grams:
+            notes.append(f"Weight printed as {grams} g and {grains} gr.")
+        bullet["notes"] = " ".join(notes)
+        bullets.append(bullet)
+    return bullets
+
+
+def scrape_ppu() -> dict:
+    print("ppu: rifle and rifle-match component search")
+    bullets = []
+    seen: set[str] = set()
+    searches = [(PPU_RIFLE, PPU_RIFLE_CALIBERS, "https://www.prvipartizan.com/rifle_bullets.php", "Rifle bullet")]
+    searches.append((PPU_MATCH, PPU_MATCH_CALIBERS, "https://www.prvipartizan.com/riflem_bullets.php", "Rifle match bullet"))
+    first = True
+    for url, calibers, list_url, list_name in searches:
+        for caliber in calibers:
+            if not first:
+                time.sleep(0.5)
+            first = False
+            try:
+                page = _ppu_search(url, caliber)
+            except Exception as exc:  # noqa: BLE001 - keep the calibers that respond
+                print(f"  skip {caliber}: {exc}")
+                continue
+            rows = _ppu_rows(page, caliber, list_url, list_name)
+            added = 0
+            for bullet in rows:
+                sku = bullet["sku"].casefold()
+                if sku in seen:
+                    continue
+                seen.add(sku)
+                bullets.append(bullet)
+                added += 1
+            print(f"  {list_name} {caliber}: {len(rows)} rows, {added} new")
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Prvi Partizan", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -1711,4 +1803,5 @@ ADAPTERS = {
     "lehigh": scrape_lehigh,
     "peregrine": scrape_peregrine,
     "warner": scrape_warner,
+    "ppu": scrape_ppu,
 }
