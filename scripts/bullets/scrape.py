@@ -70,6 +70,7 @@ SOURCES: tuple[Source, ...] = (
     Source("matrix", "Matrix Ballistics", "https://matrixballistics.com/", "boutique", "Match and hunting bullets."),
     Source("ppu", "Prvi Partizan", "https://www.prvipartizan.com/rifle_bullets.php", "manufacturer", "Rifle and rifle-match component bullets. The search prints diameter in inches and weight in grams and grains. No separate terms page was found."),
     Source("sako", "Sako", "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf", "manufacturer", "Component headers in the reloading-data PDF. Grain weight, G1, and sectional density are printed. An inch diameter is diameterIn. A millimeter diameter is quoted and not converted. Powder charges are not stored. sako.global has no terms page; the footer is a copyright notice."),
+    Source("rmr", "Rocky Mountain Reloading", "https://www.rmrbullets.com/product-category/bullets/rifle/", "boutique", "In-house rifle bullets only. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications. The footer is a copyright notice."),
     Source(
         "loaddevelopment",
         "LoadDevelopment.com",

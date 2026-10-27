@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.2.0",
+  "manufacturer": "Rocky Mountain Reloading",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 4,
+  "bullets": [
+    {
+      "id": "rocky-mountain-reloading-224-55-grain-rmr-fmj-no-cannelure",
+      "manufacturer": "Rocky Mountain Reloading",
+      "productLine": null,
+      "name": ".224 55 Grain RMR FMJ *NO CANNELURE* MATCH FMJ",
+      "sku": ".224 55 Grain RMR FMJ *NO CANNELURE*",
+      "alternateSkus": [],
+      "caliber": ".224\" (5.56mm)",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.rmrbullets.com/shop/bullets/rifle/224-5-56mm/224-55-grain-rmr-fmj-no-cannelure/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Rocky Mountain Reloading",
+          "notes": "RMR in-house rifle bullet from the WooCommerce product feed. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Diameter 0.224 copied from the printed caliber label: .224\" (5.56mm)."
+    },
+    {
+      "id": "rocky-mountain-reloading-224-55-grain-rmr-fmj-with-cannelure",
+      "manufacturer": "Rocky Mountain Reloading",
+      "productLine": null,
+      "name": ".224 55 Grain RMR FMJ *with cannelure*",
+      "sku": ".224 55 Grain RMR FMJ *with cannelure*",
+      "alternateSkus": [],
+      "caliber": ".224\" (5.56mm)",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.rmrbullets.com/shop/bullets/rifle/224-5-56mm/224-55-grain-rmr-fmj-with-cannelure/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Rocky Mountain Reloading",
+          "notes": "RMR in-house rifle bullet from the WooCommerce product feed. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Diameter 0.224 copied from the printed caliber label: .224\" (5.56mm)."
+    },
+    {
+      "id": "rocky-mountain-reloading-224-75-rmr-jhp-bt-3gh-new",
+      "manufacturer": "Rocky Mountain Reloading",
+      "productLine": "3GH",
+      "name": ".224 RMR 75 Gr. BTHP 3GH",
+      "sku": ".224 75 RMR JHP BT 3GH New",
+      "alternateSkus": [],
+      "caliber": ".224\" (5.56mm)",
+      "diameterIn": 0.224,
+      "weightGr": 75,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match",
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.rmrbullets.com/shop/bullets/rifle/224-5-56mm/224-rmr-75-gr-bthp-3gh-new-read-description-before-ordering/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Rocky Mountain Reloading",
+          "notes": "RMR in-house rifle bullet from the WooCommerce product feed. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Description mentions BC and does not print a coefficient. 3GH is printed as 3-gun/hunting: match-grade for competition, with a thicker base jacket for hunting smaller game. Diameter 0.224 copied from the printed caliber label: .224\" (5.56mm)."
+    },
+    {
+      "id": "rocky-mountain-reloading-224-69-rmr-jhp-bt-3gh-new",
+      "manufacturer": "Rocky Mountain Reloading",
+      "productLine": "3GH",
+      "name": ".224 RMR 69 Gr. BTHP 3GH",
+      "sku": ".224 69 RMR JHP BT 3GH New",
+      "alternateSkus": [],
+      "caliber": ".224\" (5.56mm)",
+      "diameterIn": 0.224,
+      "weightGr": 69,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match",
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.rmrbullets.com/shop/bullets/rifle/224-5-56mm/224-69-gr-rmr-jacketed-hollow-point-boat-tail-3-gun-hunter-bullets-new-2/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Rocky Mountain Reloading",
+          "notes": "RMR in-house rifle bullet from the WooCommerce product feed. Pistol bullets and other makers' pulled or seconds bullets are omitted. The terms page does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Description says to expect a BC about .320-.335 depending on velocity. No single coefficient or drag model is printed. 3GH is printed as 3-gun/hunting: match-grade for competition, with a thicker base jacket for hunting smaller game. Diameter 0.224 copied from the printed caliber label: .224\" (5.56mm)."
+    }
+  ]
+}

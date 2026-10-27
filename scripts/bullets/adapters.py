@@ -2272,6 +2272,103 @@ def scrape_ppu() -> dict:
     return catalog("Prvi Partizan", bullets)
 
 
+RMR_PRODUCTS = "https://www.rmrbullets.com/wp-json/wc/store/v1/products?category=201&per_page=100"
+_RMR_GRAIN = re.compile(r"(\d+(?:\.\d+)?)\s*gr(?:ain)?s?\b", re.I)
+_RMR_SECONDS = re.compile(r"\b2nds\b|\bseconds\b", re.I)
+_RMR_BC_RANGE = re.compile(r"expect about\s+(\.\d+\s*-\s*\.\d+)", re.I)
+
+
+def _rmr_products() -> list[dict]:
+    products: list[dict] = []
+    page = 1
+    while page < 10:
+        payload = json.loads(fetch(f"{RMR_PRODUCTS}&page={page}"))
+        if not isinstance(payload, list):
+            raise RuntimeError("RMR product feed did not return a list")
+        products.extend(payload)
+        if len(payload) < 100:
+            return products
+        page += 1
+        time.sleep(0.5)
+    raise RuntimeError("RMR product feed did not end")
+
+
+def _rmr_bullet(product: dict) -> dict:
+    name = strip_html(product.get("name"))
+    name = re.sub(r"\*?NEW\*?", "", name, flags=re.I)
+    name = re.sub(r"\(Read Description Before Ordering\)", "", name, flags=re.I)
+    name = re.sub(r"\s+", " ", name).strip(" -")
+    description = strip_html(product.get("description"))
+    categories = [item.get("name") or "" for item in product.get("categories") or []]
+    caliber = next((label for label in categories if printed_inch_diameter(label)), None)
+    weight = _RMR_GRAIN.search(name)
+    bullet = blank_bullet(
+        "Rocky Mountain Reloading",
+        name,
+        product["permalink"],
+        "Rocky Mountain Reloading",
+        "RMR in-house rifle bullet from the WooCommerce product feed. "
+        "Pistol bullets and other makers' pulled or seconds bullets are omitted. "
+        "The terms page does not forbid copying specifications.",
+    )
+    bullet["sku"] = strip_html(product.get("sku")) or None
+    bullet["caliber"] = caliber
+    if weight:
+        bullet["weightGr"] = as_number(parse_number(weight.group(1)))
+    if re.search(r"\b3GH\b", name):
+        bullet["productLine"] = "3GH"
+        add_uses(bullet, "match competition hunting")
+    else:
+        add_uses(bullet, name)
+    construction = name
+    if re.search(r"\bBTHP\b", name):
+        construction += " hollow point boat tail"
+    add_construction(bullet, construction)
+    notes = []
+    bc_range = _RMR_BC_RANGE.search(description)
+    if bc_range:
+        notes.append(
+            f"Description says to expect a BC about {bc_range.group(1)} depending on velocity. "
+            "No single coefficient or drag model is printed."
+        )
+    elif re.search(r"\bBC\b|ballistic coefficient", description, re.I):
+        notes.append("Description mentions BC and does not print a coefficient.")
+    if bullet["productLine"] == "3GH":
+        notes.append(
+            "3GH is printed as 3-gun/hunting: match-grade for competition, "
+            "with a thicker base jacket for hunting smaller game."
+        )
+    bullet["notes"] = " ".join(notes) or None
+    return bullet
+
+
+def scrape_rmr() -> dict:
+    """RMR's own rifle bullets. The terms page does not forbid copying specs.
+
+    The footer is a copyright notice. In-house rifle products are the ones
+    RMR makes. Pistol bullets, factory seconds, and other makers' pulled
+    bullets are omitted. A BC range with no drag model stays in notes.
+    """
+    print("rmr: in-house rifle bullets")
+    bullets = []
+    for product in _rmr_products():
+        categories = [item.get("name") or "" for item in product.get("categories") or []]
+        if "Rifle Bullets" not in categories:
+            continue
+        name = strip_html(product.get("name"))
+        if _RMR_SECONDS.search(name):
+            print(f"  skip seconds: {name}")
+            continue
+        bullet = _rmr_bullet(product)
+        if bullet["weightGr"] is None:
+            print(f"  skip no weight: {name}")
+            continue
+        bullets.append(bullet)
+        print(f"  {bullet['name']}")
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Rocky Mountain Reloading", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -2304,4 +2401,5 @@ ADAPTERS = {
     "warner": scrape_warner,
     "ppu": scrape_ppu,
     "sako": scrape_sako,
+    "rmr": scrape_rmr,
 }
