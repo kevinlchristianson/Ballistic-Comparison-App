@@ -32,8 +32,10 @@ export function loadCartridgeLibrary(root = "."): { library: CartridgeLibrary; b
 /** Markdown section for the normalization report. */
 export function botCartridgeReportMarkdown(reports: BotCartridgeReport[]): string {
   if (!reports.length) return `No bot cartridge files in \`${BOT_CARTRIDGE_DIR}/\`.\n`;
-  const out: string[] = ["| File | Cartridges added | Aliases added | Left out |", "| --- | ---: | ---: | ---: |"];
-  for (const r of reports) out.push(`| \`${r.file}\` | ${r.added.length} | ${r.aliasesAdded.length} | ${r.rejected.length} |`);
+  const out: string[] = ["| File | Cartridges added | Aliases added | Empty fields filled | Left out |", "| --- | ---: | ---: | ---: | ---: |"];
+  for (const r of reports) out.push(`| \`${r.file}\` | ${r.added.length} | ${r.aliasesAdded.length} | ${r.filled.length} | ${r.rejected.length} |`);
+  const filled = reports.flatMap((r) => r.filled.map((x) => `- \`${r.file}\` ${x.cartridgeId}: ${x.field} = ${x.value}`));
+  if (filled.length) out.push("", "Empty library fields filled from bot records:", "", ...filled);
   const rejected = reports.flatMap((r) => r.rejected.map((x) => `- \`${r.file}\` ${x.item}: ${x.reason}`));
   if (rejected.length) out.push("", "Left out:", "", ...rejected);
   return out.join("\n") + "\n";

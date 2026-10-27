@@ -60,8 +60,18 @@ export interface BotCartridgeReport {
   file: string;
   added: string[];
   aliasesAdded: { cartridgeId: string; alias: string }[];
+  /** Empty library fields filled from a bot record for a cartridge the library already has. */
+  filled: { cartridgeId: string; field: FillableField; value: number }[];
   rejected: { item: string; reason: string }[];
 }
+
+/**
+ * Fields a bot may fill on a cartridge the library already has, and only when
+ * the library leaves them empty. None of them is part of SAAMI or C.I.P. data
+ * the project checks, so the project's values always win.
+ */
+export const FILLABLE_FIELDS = ["caseCapacityGrH2O", "neckLengthIn", "shoulderAngleDeg"] as const;
+export type FillableField = (typeof FILLABLE_FIELDS)[number];
 
 export interface BotMergeResult {
   library: CartridgeLibrary;
@@ -193,7 +203,21 @@ export function mergeBotCartridges(base: CartridgeLibrary, files: { file: string
   const reports: BotCartridgeReport[] = [];
 
   for (const { file, data } of [...files].sort((a, b) => a.file.localeCompare(b.file))) {
-    const rep: BotCartridgeReport = { file, added: [], aliasesAdded: [], rejected: [] };
+    const rep: BotCartridgeReport = { file, added: [], aliasesAdded: [], filled: [], rejected: [] };
+    /** Copies sourced values into empty fields of an existing library cartridge. */
+    const fill = (target: Cartridge, c: Cartridge) => {
+      for (const field of FILLABLE_FIELDS) {
+        const v = c[field];
+        if (target[field] != null || v == null) continue;
+        target[field] = v;
+        const src = c.addedBy!.source;
+        target.fieldNotes = {
+          ...target.fieldNotes,
+          [field]: `From the ${bot} bot: ${src.name}${src.url ? ` (${src.url})` : ""}${src.retrievedOn ? `, retrieved ${src.retrievedOn}` : ""}.${c.fieldNotes[field] ? ` ${c.fieldNotes[field]}` : ""} Not checked by the project.`,
+        };
+        rep.filled.push({ cartridgeId: target.id, field, value: v });
+      }
+    };
     reports.push(rep);
     const f = data as Partial<BotCartridgeFile> | null;
     if (!f || typeof f !== "object") {
@@ -212,17 +236,19 @@ export function mergeBotCartridges(base: CartridgeLibrary, files: { file: string
 
     for (const r of cartridges) {
       const label = typeof r?.id === "string" ? r.id : "?";
+      const c = botRecordToCartridge(r, bot, file);
       if (byId.has(label)) {
+        if (typeof c !== "string") fill(byId.get(label)!, c);
         rep.rejected.push({ item: label, reason: "id is already in the library" });
         continue;
       }
-      const c = botRecordToCartridge(r, bot, file);
       if (typeof c === "string") {
         rep.rejected.push({ item: label, reason: c });
         continue;
       }
       const taken = [c.name, c.id].map((n) => keys.get(aliasKey(n))).find((x) => x && x !== c.id);
       if (taken) {
+        fill(byId.get(taken)!, c);
         rep.rejected.push({ item: c.id, reason: `name matches existing cartridge ${taken}; add an alias to it instead` });
         continue;
       }
