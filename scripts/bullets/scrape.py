@@ -52,7 +52,7 @@ SOURCES: tuple[Source, ...] = (
     Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is bcUnlabeled, not G1."),
     Source("norma", "Norma", "https://www.norma-ammunition.com/en-us/products/components/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
     Source("rws", "RWS", "https://rws-ammunition.com/", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
-    Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, and related solids. Not committed yet. Zima's terms forbid copying that library."),
+    Source("cutting-edge", "Cutting Edge Bullets", "https://cuttingedgebullets.com/", "boutique", "MTH, Lazer, Raptor, and related component bullets. G1, G7, and OAL come from the product spec block."),
     Source("hammer", "Hammer Bullets", "https://hammerbullets.com/", "boutique", "Lathe-turned copper bullets."),
     Source("badlands", "Badlands Precision", "https://badlandsprecisionbullets.com/", "boutique", "Bulldozer and related mono-metal lines."),
     Source("warner", "Warner Tool Company", "https://warner-tool.com/", "boutique", "Flatline bullets. Not committed yet. Zima's terms forbid copying that library."),
