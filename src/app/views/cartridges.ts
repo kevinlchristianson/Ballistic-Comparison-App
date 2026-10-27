@@ -29,7 +29,13 @@ export function cartridgesView(data: AppData): HTMLElement {
           h(
             "tr",
             {},
-            h("td", {}, c.name, c.kind === "user" ? h("span", { class: "tag" }, "yours") : null),
+            h(
+              "td",
+              {},
+              c.name,
+              c.kind === "user" ? h("span", { class: "tag" }, "yours") : null,
+              c.addedBy ? h("span", { class: "tag", title: `Added by the ${c.addedBy.bot} bot from ${c.addedBy.source.name}. Not checked by the project.` }, "bot") : null,
+            ),
             h("td", {}, c.kind === "saami" ? "SAAMI" : c.kind === "cip" ? "C.I.P." : c.kind === "user" ? "Yours" : "Wildcat"),
             h("td", {}, fmt.in(c.bulletDiameterIn)),
             h("td", {}, fmt.in(c.caseLengthIn)),
@@ -37,7 +43,12 @@ export function cartridgesView(data: AppData): HTMLElement {
             h("td", {}, c.caseCapacityGrH2O ?? "—"),
             h("td", {}, c.mapPsi ? c.mapPsi.toLocaleString() : "—"),
             h("td", {}, data.fits.fits[c.id] ? "Yes" : "—"),
-            h("td", { class: c.verification.status === "verified" ? "" : "warn" }, c.verification.status === "verified" ? "Verified" : c.kind === "user" ? "Yours" : "Unverified"),
+            h(
+              "td",
+              { class: c.verification.status === "verified" ? "" : "warn" },
+              c.verification.status === "verified" ? "Verified" : c.kind === "user" ? "Yours" : "Unverified",
+              c.addedBy?.source.url ? [" · ", link(c.addedBy.source.url, "source")] : null,
+            ),
           ),
         ),
       );

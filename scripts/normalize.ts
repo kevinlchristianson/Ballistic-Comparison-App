@@ -15,7 +15,8 @@
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { checkCartridgeLibrary, type CartridgeLibrary } from "../src/lib/cartridges.ts";
+import { checkCartridgeLibrary } from "../src/lib/cartridges.ts";
+import { botCartridgeReportMarkdown, loadCartridgeLibrary } from "./cartridge-library.ts";
 import { normalizeBullets, type RawBulletCatalog } from "../src/lib/normalize/bullets.ts";
 import { normalizeLoads, type RawLoadFile } from "../src/lib/normalize/loads.ts";
 import {
@@ -46,8 +47,9 @@ function countBy<T>(items: T[], key: (t: T) => string): Record<string, number> {
 }
 
 // Cartridges
-const cartridgeLib = readJson<CartridgeLibrary>("data/cartridges/cartridges.json");
-const cartridgeIssues = checkCartridgeLibrary(cartridgeLib);
+// The project's library plus what the bots added (data/cartridges/bots/).
+const { library: cartridgeLib, base: baseCartridgeLib, reports: botCartridgeReports } = loadCartridgeLibrary();
+const cartridgeIssues = [...checkCartridgeLibrary(baseCartridgeLib), ...checkCartridgeLibrary(cartridgeLib)];
 if (cartridgeIssues.length) {
   console.error("Cartridge library failed its checks:");
   for (const i of cartridgeIssues) console.error(`  ${i.id}: ${i.problem}`);
@@ -103,7 +105,7 @@ ${useFixtures ? "> **Loads in this run are synthetic fixtures** from `tests/fixt
 | --- | --- | --- | --- |
 | Bullets | \`${bulletFile}\` | ${bulletResult.bullets.length} | ${bulletResult.rejects.length} |
 | Loads | ${loadFiles.length ? loadFiles.map((f) => `\`${join(loadDir, f)}\``).join(", ") : `none found in \`${loadDir}\``} | ${loads.length} | ${rejects.filter((r) => r.kind === "load").length} |
-| Cartridges | \`data/cartridges/cartridges.json\` | ${cartridgeLib.cartridges.length} (${Object.entries(kinds).map(([k, v]) => `${v} ${k}`).join(", ")}) | 0 |
+| Cartridges | \`data/cartridges/cartridges.json\` and \`data/cartridges/bots/\` | ${cartridgeLib.cartridges.length} (${Object.entries(kinds).map(([k, v]) => `${v} ${k}`).join(", ")}) | 0 |
 
 All ${cartridgeLib.cartridges.filter((c) => c.verification.status !== "verified").length} cartridge entries not yet verified against their governing source are marked \`unverified\`.
 
@@ -115,7 +117,7 @@ Full records are in \`data/normalized/rejects.json\`.
 
 ## Cartridge names not in the library
 
-Loads naming these were dropped. Forum shorthand ("6 creed", "300 WM") is matched automatically (\`aliasKey\` in \`src/lib/cartridges.ts\`); anything listed here needs an alias or a new cartridge in \`data/cartridges/cartridges.json\`. Handgun cartridges are out of scope.
+Loads naming these were dropped. Forum shorthand ("6 creed", "300 WM") is matched automatically (\`aliasKey\` in \`src/lib/cartridges.ts\`); anything listed here needs an alias or a new cartridge, either in \`data/cartridges/cartridges.json\` or from a bot in \`data/cartridges/bots/\`. Handgun cartridges are out of scope.
 
 ${table(
   countBy(
@@ -125,6 +127,9 @@ ${table(
   "Name as published (file)",
 )}
 
+## Cartridges added by bots
+
+${botCartridgeReportMarkdown(botCartridgeReports)}
 ## Bullet flags
 
 ${table(flagCounts(bulletResult.bullets), "Flag")}
@@ -150,6 +155,6 @@ writeFileSync(join(OUT, "REPORT.md"), report);
 console.log(
   `bullets: ${bulletResult.bullets.length} kept, ${bulletResult.rejects.length} rejected (${bulletDataset})\n` +
     `loads: ${loads.length} kept, ${rejects.filter((r) => r.kind === "load").length} rejected (${loadDataset}, ${loadFiles.length} file(s))\n` +
-    `cartridges: ${cartridgeLib.cartridges.length}\n` +
+    `cartridges: ${cartridgeLib.cartridges.length} (${cartridgeLib.cartridges.length - baseCartridgeLib.cartridges.length} from bots)\n` +
     `wrote ${OUT}/`,
 );

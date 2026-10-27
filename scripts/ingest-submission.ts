@@ -10,6 +10,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join } from "node:path";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
 import { describeCounts, parseSubmissionBody, type SubmissionFile } from "../src/app/submission.ts";
+import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
 const DIR = "data/user/submissions";
 const env = (k: string): string => {
@@ -43,7 +44,7 @@ try {
 const { data, skipped } = parsed;
 
 // Loads must name a cartridge in the library, in an earlier submission, or in this one.
-const lib = JSON.parse(readFileSync("data/cartridges/cartridges.json", "utf8")) as CartridgeLibrary;
+const lib = loadCartridgeLibrary().library;
 const known = new Set([...lib.cartridges.map((c) => c.id), ...data.cartridges.map((c) => c.id)]);
 if (existsSync(DIR)) {
   for (const f of readdirSync(DIR).filter((x) => x.endsWith(".json"))) {

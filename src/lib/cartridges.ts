@@ -41,6 +41,20 @@ export interface Cartridge {
   /** Per-field caveats, keyed by field name. */
   fieldNotes: Record<string, string>;
   userAdded: boolean;
+  /** Set on cartridges a data bot added (data/cartridges/bots/). */
+  addedBy?: CartridgeAddedBy;
+}
+
+export interface BotSource {
+  name: string;
+  url: string | null;
+  retrievedOn: string | null;
+}
+
+export interface CartridgeAddedBy {
+  bot: string;
+  file: string;
+  source: BotSource;
 }
 
 export interface CartridgeSourceRef {

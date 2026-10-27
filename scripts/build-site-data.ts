@@ -26,6 +26,7 @@ import { buildFitTable, COMMUNITY_FLAG } from "../src/lib/velocity/loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
 import { mergeSubmissions, type SubmissionFile } from "../src/app/submission.ts";
+import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
 const OUT = "src/app/public/data";
 const readJson = <T>(p: string): T => JSON.parse(readFileSync(p, "utf8")) as T;
@@ -39,7 +40,7 @@ if (!["full", "without_charges", "none"].includes(rowsMode)) {
   console.error(`site-config loadRows must be "full", "without_charges" or "none", not ${JSON.stringify(rowsMode)}.`);
   process.exit(1);
 }
-const lib = readJson<CartridgeLibrary>("data/cartridges/cartridges.json");
+const lib = loadCartridgeLibrary().library;
 const bulletEnv = readJson<NormalizedEnvelope<NormalizedBullet>>("data/normalized/bullets.json");
 const loadEnv = readJson<NormalizedEnvelope<NormalizedLoad>>("data/normalized/loads.json");
 

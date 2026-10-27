@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-27, after the bullet catalogs moved to schema 1.2.0 and the load bot committed the Vihtavuori catalog.
+Last updated: 2026-10-27, when the bots were allowed to add cartridges to the library (`data/cartridges/bots/`).
 
 ## Who owns what
 
@@ -11,8 +11,9 @@ Last updated: 2026-10-27, after the bullet catalogs moved to schema 1.2.0 and th
 | `data/bullets/` and `scripts/bullets/` | Bullet bot | The app reads these files and never edits them by hand. |
 | `data/loads/` and `scripts/loads/` | Load-data bot | The app reads these files and never edits them by hand. |
 | `data/bullets/comments/` and `data/loads/comments/` | The bot that owns the folder | Notes and questions for the project, one file per topic, in the format of each folder's `README.md`. The project reads these at each audit and answers in the **Answers** section of this file. The project does not edit the bots' comment files; a bot may copy an answer into its file's `Answer` section and set it to `answered`. |
+| `data/cartridges/bots/` | Both bots (one file each: `loads.json` for the load-data bot, `bullets.json` for the bullet bot) | Cartridges and cartridge names the bots add to the library. Format and rules are in [`data/cartridges/bots/README.md`](data/cartridges/bots/README.md). The project's own `cartridges.json` always wins; clashing or unsourced records are left out and listed in the normalization report. |
 | `data/user/` | This project (written by the **Library submission** workflow) | Entries people send from the site. Bots should not write here or copy from here. |
-| Everything else (`BOTS.md`, `data/cartridges/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
+| Everything else (`BOTS.md`, `data/cartridges/` outside `bots/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
 
 If bot data needs fixing, the app does not patch it. Bad records are quarantined in the app's normalization step and listed in its report. The fix goes back to the bot as a request in this file.
 
@@ -68,6 +69,15 @@ Open requests:
 2. **Velocity, barrel length and the full recipe.** The app needs cartridge, bullet, bullet weight, barrel length, velocity, pressure with unit and method, and a source link for estimates. The Load data tab also shows powder, charge, primer, case and COAL exactly as you store them, so copy them exactly as printed.
 3. **Do not resume LoadDevelopment** unless the project owner gets written permission from Driven Media Group and says so here.
 
+## Both bots: adding cartridges
+
+**Project decision (2026-10-27).** The project owner asked that the bots be able to add cartridges to the library themselves, instead of asking the project in a comment. Write them to `data/cartridges/bots/` (load-data bot: `loads.json`, bullet bot: `bullets.json`) in the format in [`data/cartridges/bots/README.md`](data/cartridges/bots/README.md). You can also add new names (aliases) for cartridges the library already has.
+
+- Cite the page that prints the dimensions, and copy values in the units printed. Null for anything not printed.
+- Centerfire rifle only for now.
+- The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
+- Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
 ## Answers
 
 Answers to open questions in the bots' comment folders. Where an answer says "agreed", the bot's working assumption stands.
@@ -94,10 +104,11 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 
 | File | Answer |
 | --- | --- |
-| `2026-10-27-community-cartridge-strings-6mm-108.md` | Keep the strings exactly as posted, as you did. The app now matches forum shorthand itself: "creed"/"CM" for Creedmoor, "WM", "RM", "LM", "NM", "BLK", a dropped "mm" ("6 creed" = "6mm Creedmoor"), case, and missing maker words when that leaves only one cartridge. "6 creed", "6 CM", "6xc" and "6mm creedmoor" now resolve to 6mm Creedmoor and 6XC. Any name still unmatched is listed in `REPORT.md` under "Cartridge names not in the library", and the project adds aliases or cartridges from that list. A comment is welcome but no longer needed for each unmatched string. |
+| `2026-10-27-community-cartridge-strings-6mm-108.md` | Keep the strings exactly as posted, as you did. The app now matches forum shorthand itself: "creed"/"CM" for Creedmoor, "WM", "RM", "LM", "NM", "BLK", a dropped "mm" ("6 creed" = "6mm Creedmoor"), case, and missing maker words when that leaves only one cartridge. "6 creed", "6 CM", "6xc" and "6mm creedmoor" now resolve to 6mm Creedmoor and 6XC. Any name still unmatched is listed in `REPORT.md` under "Cartridge names not in the library". You can now add the alias or cartridge yourself in `data/cartridges/bots/loads.json` (see "Both bots: adding cartridges"). A comment is no longer needed for each unmatched string. |
 | `2026-10-27-community-forum-terms.md` | Agreed: Shooters' Forum, Rokslide, Long Range Only and 24hourcampfire may be collected as you describe (public thread pages, robots.txt respected, 10 s between requests, terms quoted). The owner expects much more community data. Keep flagging copyright-retention lines as you did, and skip any forum whose terms bar copying or scraping. |
 | `2026-10-27-berger-elite-hunter-bullet-list.md` | Yes, include the 30 caliber 217 grain Elite Hunter (0.308 in, part 30551) in the harvest. Bullet bot: please add it to `data/bullets/manufacturers/berger.json` from its product page. |
-| `2026-10-27-community-anecdotal-loads.md` | Agreed: keep schema 1.0.0 and the file as you built it. Expect much more community data (the owner's direction, 2026-10-27), so treat this file as the pattern. (1) The source name is the marker: any load source whose name starts with `Community` is community reports (`communitySourcePattern` in `data/site-config.json`). Rows show a "community report" tag with `sourcePage` (the forum) beside the link, and estimates they support say so. They do feed estimates (owner's decision). (2) Every row is published. Keep values the schema can't hold in `notes` in exactly the form you used, `Velocity_fps: <text>` and `Charge_gr: <text>`, separated by `; `. The app reads `Velocity_fps:` text: a single or `~` value becomes the velocity (marked approximate), a range shows its middle (marked, and not used in estimates), and a row with no velocity is shown without one. (3) If a community row names a cartridge the library lacks, write a comment naming it; the project adds it. 300 NMI and .30 R Blaser were added, and "300 PRC +P" and "300 Norma Mag (factory)" are now aliases. (4) Keep one file per compilation and point `source.url` at the kept input file. |
+| `2026-10-27-community-anecdotal-loads.md` | Agreed: keep schema 1.0.0 and the file as you built it. Expect much more community data (the owner's direction, 2026-10-27), so treat this file as the pattern. (1) The source name is the marker: any load source whose name starts with `Community` is community reports (`communitySourcePattern` in `data/site-config.json`). Rows show a "community report" tag with `sourcePage` (the forum) beside the link, and estimates they support say so. They do feed estimates (owner's decision). (2) Every row is published. Keep values the schema can't hold in `notes` in exactly the form you used, `Velocity_fps: <text>` and `Charge_gr: <text>`, separated by `; `. The app reads `Velocity_fps:` text: a single or `~` value becomes the velocity (marked approximate), a range shows its middle (marked, and not used in estimates), and a row with no velocity is shown without one. (3) If a community row names a cartridge the library lacks, add it (or an alias) in `data/cartridges/bots/loads.json`. 300 NMI and .30 R Blaser were added, and "300 PRC +P" and "300 Norma Mag (factory)" are now aliases. (4) Keep one file per compilation and point `source.url` at the kept input file. |
+| `2026-10-27-cartridges-missing-from-library.md` | Please add them yourself now, in `data/cartridges/bots/loads.json` (see "Both bots: adding cartridges"). Start with the rifle cartridges Kevin flagged: 24, 26, 27 and 33 Nosler, citing a page that prints their dimensions (SAAMI or Nosler). Then the other rifle names in your list with the most rows. Several names in your list (for example `6.5X47MM Lapua`) may already match after the shorthand update merged in PR #41; rerun your script against the current `src/lib/cartridges.ts` first. Rows labelled `- Pistol` are loads for rifle cartridges fired from handgun barrels; leave those names unmatched for now. Handgun cartridges stay out of scope. |
 | `2026-10-27-barrel-length-millimeters.md` | Agreed: keep 1.0.0 and store the printed inch length, with the millimeter text in `notes`. If a source prints only millimeters, a 1.1.0 that raises the `barrelLength` maximum is fine; tell the project first so the app accepts it. The app already converts `barrelLengthUnit: "mm"`. |
 | `2026-10-27-bullet-library-link.md` | Agreed. Store the published maker string. The app owns manufacturer aliases. |
 | `2026-10-27-charge-level-mapping.md` | Agreed. A published minimum is `start` and a published maximum is `max`, each with its own velocity. |
