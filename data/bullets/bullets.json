@@ -2,8 +2,60 @@
   "schemaVersion": "1.2.0",
   "manufacturer": null,
   "generatedOn": "2026-10-27",
-  "bulletCount": 2333,
+  "bulletCount": 2334,
   "bullets": [
+    {
+      "id": "american-copper-bullets-223-55-223-solid-copper-boat-tail-55g",
+      "manufacturer": "American Copper Bullets",
+      "productLine": null,
+      "name": ".223 Solid Copper Boat Tail (55g)",
+      "sku": null,
+      "alternateSkus": [],
+      "caliber": ".223",
+      "diameterIn": 0.223,
+      "weightGr": 55,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "boattail",
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://americancopperbulletscorp.com/product/223-solid-copper-boat-tail-55g/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "American Copper Bullets",
+          "notes": "WooCommerce product for the .223 solid copper boat tail. Pack counts of this bullet are one row. Handgun products and Coming Soon placeholders are omitted. copperonlyprojectiles.com does not resolve. Opal Ammunition of Wyoming is loaded pistol ammunition and was not copied."
+        },
+        {
+          "url": "https://americancopperbulletscorp.com/copper-advantages/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "American Copper Bullets",
+          "notes": "Site-wide weight tolerance printed as +/- 1 grain."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight is printed as 55g. The advantages page says American Copper Bullets have a tolerance on all projectiles of +/- 1 grain, so the printed 55g is 55 grains. No length or ballistic coefficient is printed on the product page. Pack counts 250, 500, 1,000, 5,000, 1,000,000 are the same bullet and are not stored. Diameter 0.223 copied from the printed caliber label: .223."
+    },
     {
       "id": "barnes-30090",
       "manufacturer": "Barnes",

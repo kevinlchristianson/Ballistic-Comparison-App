@@ -75,6 +75,7 @@ SOURCES: tuple[Source, ...] = (
     Source("fiocchi", "Fiocchi", "https://fiocchi.com/en/terms-and-conditions", "manufacturer", "Component bullets are listed on fiocchi.com. The terms allow only private, non-commercial, temporary copies. No rows are committed. fiocchiusa.com publishes loaded ammunition, not a component-bullet specification table."),
     Source("winchester", "Winchester", "https://winchester.com/Terms-Of-Use", "manufacturer", "Component bullets are listed on winchester.com. The Olin terms prohibit copying or publishing site content without written permission. No rows are committed."),
     Source("remington", "Remington", "https://www.remington.com/orders.html", "manufacturer", "Core-Lokt and other component bullets are listed under handloading. The orders page prints The Kinetic Group terms, which forbid copying product information. No rows are committed."),
+    Source("american-copper", "American Copper Bullets", "https://americancopperbulletscorp.com/wp-json/wc/store/v1/products?per_page=100", "boutique", "One .223 solid copper boat tail. Pack counts are the same bullet. Handgun rows and Coming Soon placeholders are omitted. The footer is a copyright notice. copperonlyprojectiles.com does not resolve."),
     Source(
         "loaddevelopment",
         "LoadDevelopment.com",
