@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedOn": "2026-10-27",
+  "source": {
+    "name": "FIXTURE Source B (metric)",
+    "url": "https://example.invalid/fixture-source-b",
+    "retrievedOn": "2026-10-27",
+    "notes": "SYNTHETIC TEST DATA. These rows are invented for unit tests and development. They are not load data and must never be published or used for reloading."
+  },
+  "loadCount": 5,
+  "loads": [
+    {
+      "cartridge": "6mm Creedmoor",
+      "bulletWeightGr": 105,
+      "bulletDescription": "FIXTURE 105 gr bullet",
+      "powder": "FIXTURE-POWDER-A",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": "max",
+      "velocity": 914,
+      "velocityUnit": "mps",
+      "notes": "Synthetic fixture row. Not real load data.",
+      "barrelLength": 660,
+      "barrelLengthUnit": "mm",
+      "pressure": 4150,
+      "pressureUnit": "bar",
+      "pressureMethod": "piezo",
+      "coal": 71.1,
+      "coalUnit": "mm"
+    },
+    {
+      "cartridge": "6mm Creedmoor",
+      "bulletWeightGr": 108,
+      "bulletDescription": "FIXTURE 108 gr bullet",
+      "powder": "FIXTURE-POWDER-A",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": "max",
+      "velocity": 900,
+      "velocityUnit": "mps",
+      "notes": "Synthetic fixture row. Not real load data.",
+      "barrelLength": 660,
+      "barrelLengthUnit": "mm",
+      "pressure": 4200,
+      "pressureUnit": "bar",
+      "pressureMethod": "piezo"
+    },
+    {
+      "cartridge": ".30-06",
+      "bulletWeightGr": 150,
+      "bulletDescription": "FIXTURE 150 gr bullet",
+      "powder": "FIXTURE-POWDER-A",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": "max",
+      "velocity": 2900,
+      "velocityUnit": "fps",
+      "notes": "Synthetic fixture row. Not real load data.",
+      "pressure": 49000,
+      "pressureUnit": "cup"
+    },
+    {
+      "cartridge": "30-06 Springfield",
+      "bulletWeightGr": 165,
+      "bulletDescription": "FIXTURE 165 gr bullet",
+      "powder": "FIXTURE-POWDER-A",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": "max",
+      "velocity": 2800,
+      "velocityUnit": "fps",
+      "notes": "Synthetic fixture row. Not real load data.",
+      "pressure": 50000,
+      "pressureUnit": "cup"
+    },
+    {
+      "cartridge": ".30-06 Sprg",
+      "bulletWeightGr": 180,
+      "bulletDescription": "FIXTURE 180 gr bullet",
+      "powder": "FIXTURE-POWDER-A",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": "max",
+      "velocity": 2700,
+      "velocityUnit": "fps",
+      "notes": "Synthetic fixture row. Not real load data.",
+      "pressure": 50000
+    }
+  ]
+}

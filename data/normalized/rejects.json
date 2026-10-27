@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "dataset": "mixed",
+  "count": 8,
+  "records": [
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#23",
+      "reasons": [
+        "duplicate"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": 150,
+        "bulletDescription": "FIXTURE 150 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 2850,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data.",
+        "barrelLength": 22,
+        "barrelLengthUnit": "in",
+        "pressure": 58000,
+        "pressureUnit": "psi",
+        "pressureMethod": "piezo"
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#24",
+      "reasons": [
+        "unknown_cartridge"
+      ],
+      "record": {
+        "cartridge": "6.5 Wonder Mag",
+        "bulletWeightGr": 140,
+        "bulletDescription": "FIXTURE 140 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 3100,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#25",
+      "reasons": [
+        "missing_cartridge"
+      ],
+      "record": {
+        "cartridge": null,
+        "bulletWeightGr": 140,
+        "bulletDescription": "FIXTURE 140 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 2700,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#26",
+      "reasons": [
+        "missing_weight"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": null,
+        "bulletDescription": "FIXTURE None gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 2700,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#27",
+      "reasons": [
+        "missing_velocity"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": 168,
+        "bulletDescription": "FIXTURE 168 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": null,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#28",
+      "reasons": [
+        "bad_velocity_unit"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": 168,
+        "bulletDescription": "FIXTURE 168 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 2700,
+        "velocityUnit": "kph",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#29",
+      "reasons": [
+        "implausible_velocity"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": 168,
+        "bulletDescription": "FIXTURE 168 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 9500,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data."
+      }
+    },
+    {
+      "kind": "load",
+      "file": "tests/fixtures/loads/fixture-source-a.json",
+      "ref": "#30",
+      "reasons": [
+        "diameter_mismatch"
+      ],
+      "record": {
+        "cartridge": ".308 Win",
+        "bulletWeightGr": 140,
+        "bulletDescription": "FIXTURE 140 gr bullet",
+        "powder": "FIXTURE-POWDER-A",
+        "charge": null,
+        "chargeUnit": null,
+        "chargeLevel": "max",
+        "velocity": 2900,
+        "velocityUnit": "fps",
+        "notes": "Synthetic fixture row. Not real load data.",
+        "bulletDiameterIn": 0.264
+      }
+    }
+  ]
+}
