@@ -1,6 +1,6 @@
 # Rifle bullet library
 
-Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else.
+Schema version **1.1.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else. 1.1.0 adds `bearingSurfaceIn`, `ogiveLengthIn`, `boattailLengthIn`, `meplatIn`, `ogiveType`, and `discontinued`. Each is null when the source does not publish it. No 1.0.0 field was removed or renamed.
 
 The combined catalog [`bullets.json`](bullets.json) is rebuilt from the manufacturer files. Four Berger rows in [`examples/examples.json`](examples/examples.json) show the shape and are not merged into `bullets.json`.
 
@@ -25,7 +25,7 @@ A manufacturer file, the examples file, and `bullets.json` all use the same enve
 
 ```json
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "manufacturer": "Berger",
   "generatedOn": "2026-10-27",
   "bulletCount": 1,
@@ -55,6 +55,12 @@ Unknown values are `null` or an empty array. Do not calculate or guess a measure
 | `bcSource` | enum or null | Provenance of the headline BCs: `manufacturer`, `applied_ballistics`, `litz`, `lab_measured`, `other`, `unknown`. |
 | `sectionalDensity` | lb/in² or null | Published sectional density only. |
 | `lengthIn` | inches or null | Published length. |
+| `bearingSurfaceIn` | inches or null | Published bearing surface. Added in 1.1.0. |
+| `ogiveLengthIn` | inches or null | Published ogive length. Not a nose length or a base-to-ogive length. Added in 1.1.0. |
+| `boattailLengthIn` | inches or null | Published boat-tail length. Null when the source marks a flat base. Added in 1.1.0. |
+| `meplatIn` | inches or null | Published meplat diameter. Added in 1.1.0. |
+| `ogiveType` | `tangent`, `secant`, `hybrid`, or null | Published ogive style. Added in 1.1.0. |
+| `discontinued` | boolean or null | True only when the source marks the bullet discontinued. Added in 1.1.0. |
 | `construction` | snake_case[] | Parsed from the published description. Recommended tokens are listed in the schema. |
 | `material` | text or null | Published material, such as `copper solid`. |
 | `intendedUse` | snake_case[] | Recommended tokens: `match`, `hunting`, `varmint`, `target`, `tactical`, `plinking`, `defense`. |
@@ -82,7 +88,7 @@ Planned sources, in the order `scrape.py --list` prints them:
 - Boutique: Cutting Edge Bullets, Hammer Bullets, Badlands, Warner Flatline, Lehigh Defense, Peregrine, GS Custom, Matrix.
 - Aggregator, for discovery and cross-check only: [LoadDevelopment.com bullet database](https://loaddevelopment.com/bullet-database/), which embeds the [Trajek library](https://trajek.app/library).
 
-Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, and Woodleigh. Berger's file is the summary table (part, description, G1, G7, minimum twist), so diameter and length are null there. No rows are copied from LoadDevelopment or Zima; see `comments/2026-10-27-redistribution-terms.md`.
+Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, and Woodleigh. Berger's G1, G7, and twist come from the all-bullets table. Diameter, length, bearing surface, boat tail, ogive style, and sectional density come from each Berger product page. Nose length and base-to-ogive stay in `notes`, not in `ogiveLengthIn`. No rows are copied from LoadDevelopment or Zima; see `comments/2026-10-27-redistribution-terms.md`.
 
 ## How to update
 
@@ -93,7 +99,7 @@ Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, 
 
 `validate.py` checks, with no extra Python packages:
 
-- JSON Schema 1.0.0 (required keys, types, enums, patterns, hard bounds).
+- JSON Schema 1.1.0 (required keys, types, enums, patterns, hard bounds).
 - `bulletCount`, unique `id`, unique manufacturer+SKU.
 - Headline BC is one of the published bands for that drag model.
 - G7 is lower than G1 when both exist.

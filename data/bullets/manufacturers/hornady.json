@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "manufacturer": "Hornady",
   "generatedOn": "2026-10-27",
   "bulletCount": 311,
@@ -47,7 +47,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-21710",
@@ -92,7 +98,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-17105",
@@ -137,7 +149,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22000",
@@ -182,7 +200,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22004",
@@ -227,7 +251,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22006",
@@ -272,7 +302,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22606",
@@ -317,7 +353,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2207",
@@ -362,7 +404,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22240",
@@ -407,7 +455,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22252",
@@ -452,7 +506,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22241",
@@ -497,7 +557,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22416",
@@ -542,7 +608,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2229",
@@ -589,7 +661,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2230",
@@ -634,7 +712,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2240",
@@ -681,7 +765,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2245",
@@ -728,7 +818,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22261",
@@ -773,7 +869,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22616",
@@ -818,7 +920,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22402",
@@ -864,7 +972,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Coyote Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Coyote Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-224034",
@@ -910,7 +1024,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22491",
@@ -956,7 +1076,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2249",
@@ -1002,7 +1128,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2249b",
@@ -1048,7 +1180,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2249c",
@@ -1094,7 +1232,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2250",
@@ -1142,7 +1286,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2250b",
@@ -1190,7 +1340,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22265",
@@ -1235,7 +1391,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2260",
@@ -1282,7 +1444,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2265",
@@ -1329,7 +1497,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2266",
@@ -1377,7 +1551,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2266b",
@@ -1424,7 +1604,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22271",
@@ -1469,7 +1655,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22716",
@@ -1514,7 +1706,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22272",
@@ -1559,7 +1757,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2267",
@@ -1609,7 +1813,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2267b",
@@ -1659,7 +1869,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22671",
@@ -1709,7 +1925,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2263b",
@@ -1760,7 +1982,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match Personal Defense."
+      "notes": "Hornady application: Varmint Target/Match Personal Defense.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22672",
@@ -1810,7 +2038,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2270",
@@ -1857,7 +2091,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22281",
@@ -1902,7 +2142,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22760b",
@@ -1950,7 +2196,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22762",
@@ -2006,7 +2258,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22765",
@@ -2051,7 +2309,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Coyote."
+      "notes": "Hornady application: Varmint Coyote.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2278",
@@ -2097,7 +2361,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22785",
@@ -2143,7 +2413,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2278b",
@@ -2189,7 +2465,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2278c",
@@ -2235,7 +2517,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22772",
@@ -2282,7 +2570,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-227711",
@@ -2331,7 +2625,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22771",
@@ -2380,7 +2680,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22813",
@@ -2425,7 +2731,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22774",
@@ -2480,7 +2792,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22791",
@@ -2535,7 +2853,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22791b",
@@ -2590,7 +2914,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2279",
@@ -2636,7 +2966,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22796",
@@ -2682,7 +3018,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2279b",
@@ -2728,7 +3070,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2279c",
@@ -2774,7 +3122,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22799",
@@ -2829,7 +3183,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-227771",
@@ -2878,7 +3238,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22777",
@@ -2927,7 +3293,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22833",
@@ -2981,7 +3353,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Coyote Medium Game 50-300 lbs."
+      "notes": "Hornady application: Coyote Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22831",
@@ -3036,7 +3414,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22834",
@@ -3091,7 +3475,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22834b",
@@ -3146,7 +3536,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2286",
@@ -3201,7 +3597,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22411",
@@ -3246,7 +3648,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22415",
@@ -3291,7 +3699,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22420",
@@ -3336,7 +3750,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-243704",
@@ -3381,7 +3801,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24372",
@@ -3437,7 +3863,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2442",
@@ -3482,7 +3914,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22440",
@@ -3527,7 +3965,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2441",
@@ -3581,7 +4025,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2446",
@@ -3614,7 +4064,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "No ballistic coefficient in the Hornady rifle feed."
+      "notes": "No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24444",
@@ -3661,7 +4117,13 @@
       "conflicts": [
         "Published sectional density 0.195 differs from weight and diameter (0.218). The published value was kept."
       ],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24532",
@@ -3706,7 +4168,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2453",
@@ -3751,7 +4219,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24550",
@@ -3805,7 +4279,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2458",
@@ -3851,7 +4331,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24585",
@@ -3897,7 +4383,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-245731",
@@ -3943,7 +4435,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24573",
@@ -3989,7 +4487,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24561",
@@ -4044,7 +4548,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24561b",
@@ -4099,7 +4609,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-245301",
@@ -4154,7 +4670,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24531",
@@ -4209,7 +4731,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-245312",
@@ -4264,7 +4792,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-24568",
@@ -4319,7 +4853,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2510",
@@ -4366,7 +4906,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22520",
@@ -4411,7 +4957,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-254104",
@@ -4456,7 +5008,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-25412",
@@ -4503,7 +5061,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-25418",
@@ -4557,7 +5121,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2543",
@@ -4612,7 +5182,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Coyote Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Coyote Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2550",
@@ -4659,7 +5235,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2552",
@@ -4704,7 +5286,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-25522",
@@ -4749,7 +5337,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-25417",
@@ -4805,7 +5399,13 @@
       "conflicts": [
         "Published sectional density 0.29 differs from weight and diameter (0.277). The published value was kept."
       ],
-      "notes": "Hornady application: Coyote Medium Game 50-300 lbs."
+      "notes": "Hornady application: Coyote Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2561",
@@ -4860,7 +5460,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2562",
@@ -4915,7 +5521,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26111",
@@ -4962,7 +5574,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match."
+      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22601",
@@ -5007,7 +5625,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26100",
@@ -5062,7 +5686,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26103",
@@ -5118,7 +5748,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26175",
@@ -5173,7 +5809,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-261104",
@@ -5218,7 +5860,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26112",
@@ -5263,7 +5911,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26176",
@@ -5318,7 +5972,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26174",
@@ -5364,7 +6024,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26173",
@@ -5409,7 +6075,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2620",
@@ -5456,7 +6128,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26202",
@@ -5501,7 +6179,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26177",
@@ -5556,7 +6240,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26178",
@@ -5601,7 +6291,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26179",
@@ -5656,7 +6352,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-261792",
@@ -5711,7 +6413,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26331",
@@ -5766,7 +6474,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26331b",
@@ -5821,7 +6535,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-263311",
@@ -5857,7 +6577,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2630",
@@ -5904,7 +6630,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26335",
@@ -5950,7 +6682,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26302",
@@ -5995,7 +6733,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-263364",
@@ -6040,7 +6784,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-263031",
@@ -6086,7 +6836,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26303",
@@ -6132,7 +6888,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2635",
@@ -6186,7 +6948,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26333",
@@ -6241,7 +7009,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26333b",
@@ -6296,7 +7070,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-263331",
@@ -6332,7 +7112,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2638",
@@ -6387,7 +7173,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-26382",
@@ -6423,7 +7215,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2640",
@@ -6470,7 +7268,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-271904",
@@ -6515,7 +7319,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-27200",
@@ -6561,7 +7371,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22721",
@@ -6606,7 +7422,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2716",
@@ -6651,7 +7473,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2730",
@@ -6698,7 +7526,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-27302",
@@ -6743,7 +7577,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-273704",
@@ -6788,7 +7628,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2735",
@@ -6833,7 +7679,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-27352",
@@ -6878,7 +7730,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-27356",
@@ -6932,7 +7790,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2740",
@@ -6979,7 +7843,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-27402",
@@ -7024,7 +7894,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2749",
@@ -7059,7 +7935,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Medium Game 50-300 lbs. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-22810",
@@ -7104,7 +7986,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2820",
@@ -7151,7 +8039,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2825",
@@ -7196,7 +8090,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28202",
@@ -7241,7 +8141,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-282704",
@@ -7286,7 +8192,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2826",
@@ -7340,7 +8252,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28284",
@@ -7385,7 +8303,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28214",
@@ -7432,7 +8356,13 @@
       "conflicts": [
         "Published sectional density 0.246 differs from weight and diameter (0.266). The published value was kept."
       ],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2830",
@@ -7479,7 +8409,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28302",
@@ -7524,7 +8460,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2837",
@@ -7569,7 +8511,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2840",
@@ -7623,7 +8571,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28403",
@@ -7678,7 +8632,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2845",
@@ -7723,7 +8683,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28452",
@@ -7768,7 +8734,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2836",
@@ -7823,7 +8795,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2841",
@@ -7877,7 +8855,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-2850",
@@ -7924,7 +8908,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28503",
@@ -7979,7 +8969,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28504",
@@ -8015,7 +9011,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-285041",
@@ -8051,7 +9053,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-28506",
@@ -8106,7 +9114,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3010",
@@ -8153,7 +9167,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-23010",
@@ -8198,7 +9218,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3017",
@@ -8245,7 +9271,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3017b",
@@ -8293,7 +9325,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-301914",
@@ -8338,7 +9376,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3019",
@@ -8383,7 +9427,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30192",
@@ -8431,7 +9481,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint."
+      "notes": "Hornady application: Varmint.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30196",
@@ -8479,7 +9535,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-301944",
@@ -8524,7 +9586,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3027",
@@ -8569,7 +9637,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30310",
@@ -8614,7 +9688,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3031",
@@ -8661,7 +9741,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3033",
@@ -8706,7 +9792,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3035",
@@ -8753,7 +9845,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3031-75",
@@ -8792,7 +9890,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match. No ballistic coefficient in the Hornady rifle feed."
+      "notes": "Hornady application: Varmint Target/Match. No ballistic coefficient in the Hornady rifle feed.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30302",
@@ -8837,7 +9941,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30303",
@@ -8882,7 +9992,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3037",
@@ -8931,7 +10047,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3037b",
@@ -8980,7 +10102,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30371",
@@ -9029,7 +10157,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-303704",
@@ -9074,7 +10208,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30372",
@@ -9119,7 +10259,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30313",
@@ -9174,7 +10320,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3039",
@@ -9220,7 +10372,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3039b",
@@ -9266,7 +10424,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3039c",
@@ -9312,7 +10476,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30395",
@@ -9357,7 +10527,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30396",
@@ -9402,7 +10578,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3040",
@@ -9449,7 +10631,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3045",
@@ -9494,7 +10682,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30452",
@@ -9539,7 +10733,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-304704",
@@ -9584,7 +10784,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-304714",
@@ -9631,7 +10837,13 @@
       "conflicts": [
         "Published sectional density 0.221 differs from weight and diameter (0.248). The published value was kept."
       ],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30506",
@@ -9686,7 +10898,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30506b",
@@ -9741,7 +10959,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30501",
@@ -9787,7 +11011,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-305016",
@@ -9833,7 +11063,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30501b",
@@ -9879,7 +11115,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-305071",
@@ -9928,7 +11170,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30507",
@@ -9977,7 +11225,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3060",
@@ -10022,7 +11276,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30620",
@@ -10078,7 +11338,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Target/Match."
+      "notes": "Hornady application: Varmint Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30718",
@@ -10125,7 +11391,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match."
+      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-307191",
@@ -10174,7 +11446,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30719",
@@ -10223,7 +11501,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30717",
@@ -10278,7 +11562,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30741",
@@ -10333,7 +11623,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3074",
@@ -10387,7 +11683,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30713",
@@ -10442,7 +11744,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30715",
@@ -10488,7 +11796,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30715b",
@@ -10534,7 +11848,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3070",
@@ -10581,7 +11901,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3072",
@@ -10626,7 +11952,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3075",
@@ -10673,7 +12005,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30702",
@@ -10718,7 +12056,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-301934",
@@ -10763,7 +12107,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30730",
@@ -10810,7 +12160,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match."
+      "notes": "Hornady application: Medium Game 50-300 lbs Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30738",
@@ -10855,7 +12211,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30951",
@@ -10910,7 +12272,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3076",
@@ -10964,7 +12332,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30731",
@@ -11019,7 +12393,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30733",
@@ -11074,7 +12454,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3077",
@@ -11128,7 +12514,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3078",
@@ -11182,7 +12574,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3090",
@@ -11229,7 +12627,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-30904",
@@ -11284,7 +12688,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3091",
@@ -11339,7 +12749,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3092",
@@ -11394,7 +12810,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3140",
@@ -11442,7 +12864,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3140b",
@@ -11490,7 +12918,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3142",
@@ -11536,7 +12970,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Varmint Medium Game 50-300 lbs."
+      "notes": "Hornady application: Varmint Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3147b",
@@ -11584,7 +13024,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3148",
@@ -11630,7 +13076,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Personal Defense."
+      "notes": "Hornady application: Medium Game 50-300 lbs Personal Defense.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3131",
@@ -11679,7 +13131,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3120",
@@ -11726,7 +13184,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3130",
@@ -11773,7 +13237,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-32005",
@@ -11818,7 +13288,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3210",
@@ -11863,7 +13339,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3232",
@@ -11910,7 +13392,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3235",
@@ -11957,7 +13445,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3233",
@@ -12002,7 +13496,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-32314",
@@ -12047,7 +13547,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3236",
@@ -12094,7 +13600,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-332704",
@@ -12139,7 +13651,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33272",
@@ -12184,7 +13702,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33104",
@@ -12229,7 +13753,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33102",
@@ -12274,7 +13804,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3320",
@@ -12321,7 +13857,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33202",
@@ -12366,7 +13908,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-332014",
@@ -12411,7 +13959,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33210",
@@ -12465,7 +14019,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33283",
@@ -12510,7 +14070,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs."
+      "notes": "Hornady application: Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3330",
@@ -12557,7 +14123,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3335",
@@ -12604,7 +14176,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33371",
@@ -12658,7 +14236,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33381",
@@ -12713,7 +14297,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33389",
@@ -12768,7 +14358,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-33394",
@@ -12813,7 +14409,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3502",
@@ -12860,7 +14462,13 @@
       "conflicts": [
         "Published sectional density 0.193 differs from weight and diameter (0.187). The published value was kept."
       ],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3501",
@@ -12905,7 +14513,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3503",
@@ -12950,7 +14564,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-35105",
@@ -12995,7 +14615,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3510",
@@ -13042,7 +14668,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3515",
@@ -13089,7 +14721,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3520",
@@ -13136,7 +14774,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-35614",
@@ -13181,7 +14825,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3560",
@@ -13228,7 +14878,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3565",
@@ -13273,7 +14929,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-37084",
@@ -13318,7 +14980,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3711",
@@ -13367,7 +15035,13 @@
       "conflicts": [
         "Published sectional density 0.229 differs from weight and diameter (0.274). The published value was kept."
       ],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3727",
@@ -13412,7 +15086,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-37214",
@@ -13459,7 +15139,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-3729",
@@ -13514,7 +15200,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4103",
@@ -13559,7 +15251,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-41044",
@@ -13606,7 +15304,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-41051",
@@ -13653,7 +15357,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4167",
@@ -13698,7 +15408,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-41694",
@@ -13745,7 +15461,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-41697",
@@ -13802,7 +15524,13 @@
       "conflicts": [
         "Published sectional density 0.396 differs from weight and diameter (0.413). The published value was kept."
       ],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4241",
@@ -13847,7 +15575,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-42404",
@@ -13894,7 +15628,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4305",
@@ -13939,7 +15679,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45204",
@@ -13984,7 +15730,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45201",
@@ -14029,7 +15781,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45031",
@@ -14074,7 +15832,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45010",
@@ -14119,7 +15883,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4500",
@@ -14166,7 +15936,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45015",
@@ -14211,7 +15987,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4502",
@@ -14258,7 +16040,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4503",
@@ -14303,7 +16091,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs Large Game 300-1500 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45052",
@@ -14348,7 +16142,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Medium Game 50-300 lbs."
+      "notes": "Hornady application: Medium Game 50-300 lbs.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45033",
@@ -14393,7 +16193,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45034",
@@ -14440,7 +16246,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4507",
@@ -14485,7 +16297,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-45054",
@@ -14532,7 +16350,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-4748",
@@ -14577,7 +16401,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-47474",
@@ -14624,7 +16454,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-5051",
@@ -14669,7 +16505,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-5050",
@@ -14714,7 +16556,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-5155",
@@ -14759,7 +16607,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-51504",
@@ -14806,7 +16660,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game."
+      "notes": "Hornady application: Large Game 300-1500 lbs Dangerous Game.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "hornady-5165",
@@ -14852,7 +16712,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Hornady application: Target/Match."
+      "notes": "Hornady application: Target/Match.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "manufacturer": "Lapua",
   "generatedOn": "2026-10-27",
   "bulletCount": 53,
@@ -47,7 +47,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-5017",
@@ -94,7 +100,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-5006",
@@ -141,7 +153,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-5015",
@@ -197,7 +215,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-5016",
@@ -253,7 +277,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-6201",
@@ -298,7 +328,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6055",
@@ -354,7 +390,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6033",
@@ -410,7 +452,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6014",
@@ -457,7 +505,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7224",
@@ -504,7 +558,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7225",
@@ -551,7 +611,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6015",
@@ -598,7 +664,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6050",
@@ -654,7 +726,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6020",
@@ -710,7 +788,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6021",
@@ -766,7 +850,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-npl6204",
@@ -820,7 +910,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-8001",
@@ -857,7 +953,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6032",
@@ -913,7 +1015,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7045",
@@ -960,7 +1068,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7003",
@@ -1007,7 +1121,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6019",
@@ -1063,7 +1183,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6018",
@@ -1119,7 +1245,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-6203",
@@ -1164,7 +1296,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-6022",
@@ -1220,7 +1358,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-6000",
@@ -1268,7 +1412,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-npl7251",
@@ -1322,7 +1472,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7400",
@@ -1378,7 +1534,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-7057",
@@ -1425,7 +1587,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7063",
@@ -1481,7 +1649,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-6010",
@@ -1528,7 +1702,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-7027",
@@ -1573,7 +1753,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-npl7250",
@@ -1627,7 +1813,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7069",
@@ -1683,7 +1875,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-7105",
@@ -1737,7 +1935,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7086",
@@ -1794,7 +1998,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4pl-7080",
@@ -1850,7 +2060,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7061",
@@ -1906,7 +2122,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7401",
@@ -1962,7 +2184,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-8009",
@@ -2016,7 +2244,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7071",
@@ -2072,7 +2306,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7019",
@@ -2129,7 +2369,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-7213",
@@ -2176,7 +2422,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-9018",
@@ -2213,7 +2465,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-7047",
@@ -2260,7 +2518,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-7060",
@@ -2317,7 +2581,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7005",
@@ -2374,7 +2644,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-7062",
@@ -2430,7 +2706,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-8020",
@@ -2475,7 +2757,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-n-pl-9204",
@@ -2529,7 +2817,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-hl-8012",
@@ -2586,7 +2880,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-8017",
@@ -2642,7 +2942,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-9017",
@@ -2689,7 +2995,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "lapua-4-pl-8013",
@@ -2745,7 +3057,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     }
   ]
 }

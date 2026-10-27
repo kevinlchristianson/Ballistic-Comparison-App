@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "manufacturer": "Woodleigh",
   "generatedOn": "2026-10-27",
   "bulletCount": 158,
@@ -35,7 +35,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .444 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .444 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-80a",
@@ -68,7 +74,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-80b",
@@ -103,7 +115,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .285 with no G1 or G7 label. Recommended impact velocity: 2000-2800 fps."
+      "notes": "Woodleigh prints BC .285 with no G1 or G7 label. Recommended impact velocity: 2000-2800 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-72",
@@ -136,7 +154,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .409 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .409 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-73",
@@ -169,7 +193,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .463 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .463 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-73a",
@@ -202,7 +232,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .513 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .513 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-74",
@@ -235,7 +271,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .436 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .436 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-75",
@@ -268,7 +310,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .486 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .486 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-76",
@@ -301,7 +349,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .510 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .510 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-77",
@@ -334,7 +388,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .474 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .474 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-78",
@@ -367,7 +427,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .509 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65i",
@@ -402,7 +468,13 @@
       "conflicts": [
         "Published sectional density 0.189 differs from weight and diameter (0.196). The published value was kept."
       ],
-      "notes": "Woodleigh prints BC .302 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .302 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65f",
@@ -435,7 +507,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65a",
@@ -468,7 +546,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .320 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .320 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65b",
@@ -501,7 +585,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .376 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .376 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65c",
@@ -536,7 +626,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .367 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .367 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65h",
@@ -569,7 +665,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .246 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .246 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65g",
@@ -602,7 +704,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65d",
@@ -635,7 +743,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .435 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .435 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-65e",
@@ -668,7 +782,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-68a",
@@ -701,7 +821,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .362 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .362 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-68",
@@ -736,7 +862,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-68b",
@@ -771,7 +903,13 @@
       "conflicts": [
         "Published sectional density 0.18 differs from weight and diameter (0.191). The published value was kept."
       ],
-      "notes": "Woodleigh prints BC .295 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps."
+      "notes": "Woodleigh prints BC .295 with no G1 or G7 label. Recommended impact velocity: 2000-3000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64b",
@@ -806,7 +944,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64c",
@@ -841,7 +985,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .355 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64d",
@@ -876,7 +1026,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .403 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .403 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64f",
@@ -909,7 +1065,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .406 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .406 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64g",
@@ -942,7 +1104,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .448 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .448 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-64e",
@@ -977,7 +1145,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .331 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .331 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-63",
@@ -1012,7 +1186,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .420 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .420 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-60",
@@ -1047,7 +1227,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-61",
@@ -1082,7 +1268,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .418 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .418 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56c",
@@ -1115,7 +1307,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .361 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .361 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56d",
@@ -1148,7 +1346,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .401 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56e",
@@ -1181,7 +1385,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .234 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+      "notes": "Woodleigh prints BC .234 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56a",
@@ -1214,7 +1424,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .425 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps."
+      "notes": "Woodleigh prints BC .425 with no G1 or G7 label. Recommended impact velocity: 2000-2900 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56",
@@ -1249,7 +1465,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .332 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .332 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-56b",
@@ -1282,7 +1504,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .431 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .431 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-58",
@@ -1317,7 +1545,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .416 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .416 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-348",
@@ -1350,7 +1584,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-51",
@@ -1385,7 +1625,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .263 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .263 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-51a",
@@ -1418,7 +1664,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .372 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+      "notes": "Woodleigh prints BC .372 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-53",
@@ -1453,7 +1705,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label. Recommended impact velocity: 2000-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-53a",
@@ -1486,7 +1744,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-53b",
@@ -1519,7 +1783,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+      "notes": "Woodleigh prints BC .450 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-54",
@@ -1554,7 +1824,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .458 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+      "notes": "Woodleigh prints BC .458 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-47d",
@@ -1587,7 +1863,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-47a",
@@ -1622,7 +1904,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .281 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-47c",
@@ -1655,7 +1943,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .381 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps."
+      "notes": "Woodleigh prints BC .381 with no G1 or G7 label. Recommended impact velocity: 2000-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-47",
@@ -1690,7 +1984,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .321 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps."
+      "notes": "Woodleigh prints BC .321 with no G1 or G7 label. Recommended impact velocity: 2000-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-47b",
@@ -1723,7 +2023,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .396 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+      "notes": "Woodleigh prints BC .396 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-49",
@@ -1758,7 +2064,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps."
+      "notes": "Woodleigh prints BC .359 with no G1 or G7 label. Recommended impact velocity: 2000-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-49a",
@@ -1791,7 +2103,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .457 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps."
+      "notes": "Woodleigh prints BC .457 with no G1 or G7 label. Recommended impact velocity: 2000-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-42a",
@@ -1824,7 +2142,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1900-2800 fps."
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1900-2800 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-42",
@@ -1859,7 +2183,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-43a",
@@ -1892,7 +2222,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .370 with no G1 or G7 label. Recommended impact velocity: 1900-2700 fps."
+      "notes": "Woodleigh prints BC .370 with no G1 or G7 label. Recommended impact velocity: 1900-2700 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-44hd",
@@ -1927,7 +2263,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2550 fps."
+      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2550 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-44",
@@ -1962,7 +2304,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .277 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-45a",
@@ -1995,7 +2343,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .380 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps."
+      "notes": "Woodleigh prints BC .380 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-46",
@@ -2030,7 +2384,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .275 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .275 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-46bhd",
@@ -2065,7 +2425,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .323 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps."
+      "notes": "Woodleigh prints BC .323 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-46c",
@@ -2098,7 +2464,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps."
+      "notes": "Woodleigh prints BC .400 with no G1 or G7 label. Recommended impact velocity: 1900-2500 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-46d",
@@ -2133,7 +2505,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-81",
@@ -2168,7 +2546,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .181 with no G1 or G7 label. Recommended impact velocity: 2050 fps."
+      "notes": "Woodleigh prints BC .181 with no G1 or G7 label. Recommended impact velocity: 2050 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-40a",
@@ -2203,7 +2587,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-40",
@@ -2238,7 +2628,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-40b",
@@ -2273,7 +2669,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-41a",
@@ -2308,7 +2710,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-41",
@@ -2343,7 +2751,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-71",
@@ -2378,7 +2792,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .194 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .194 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-39",
@@ -2411,7 +2831,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .330 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps."
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label. Recommended impact velocity: 1900-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-37a",
@@ -2446,7 +2872,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .307 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-38",
@@ -2481,7 +2913,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-37b",
@@ -2516,7 +2954,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-38b",
@@ -2551,7 +2995,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-37c",
@@ -2586,7 +3036,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .305 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .305 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-38c",
@@ -2621,7 +3077,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-37n",
@@ -2656,7 +3118,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .338 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-38n",
@@ -2691,7 +3159,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-35",
@@ -2726,7 +3200,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .293 with no G1 or G7 label. Recommended impact velocity: 1800-2600 fps."
+      "notes": "Woodleigh prints BC .293 with no G1 or G7 label. Recommended impact velocity: 1800-2600 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-33a",
@@ -2761,7 +3241,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps."
+      "notes": "Woodleigh prints BC .335 with no G1 or G7 label. Recommended impact velocity: 1900-2400 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-34",
@@ -2796,7 +3282,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-33b",
@@ -2831,7 +3323,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-34b",
@@ -2866,7 +3364,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .355 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-36",
@@ -2901,7 +3405,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .290 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+      "notes": "Woodleigh prints BC .290 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-36a",
@@ -2936,7 +3446,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .288 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .288 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-444",
@@ -2969,7 +3485,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .186 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .186 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-31",
@@ -3004,7 +3526,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .222 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+      "notes": "Woodleigh prints BC .222 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-32",
@@ -3039,7 +3567,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .221 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .221 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-67",
@@ -3074,7 +3608,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-30",
@@ -3107,7 +3647,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1900-2250 fps."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1900-2250 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-24a",
@@ -3142,7 +3688,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-25a",
@@ -3177,7 +3729,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-26",
@@ -3212,7 +3770,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-26a",
@@ -3245,7 +3809,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .378 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps."
+      "notes": "Woodleigh prints BC .378 with no G1 or G7 label. Recommended impact velocity: 1800-2300 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-28",
@@ -3280,7 +3850,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .310 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-27",
@@ -3315,7 +3891,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-29",
@@ -3350,7 +3932,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .326 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .326 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-30a",
@@ -3385,7 +3973,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+      "notes": "Woodleigh prints BC .250 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-30b",
@@ -3418,7 +4012,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .204 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+      "notes": "Woodleigh prints BC .204 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-30c",
@@ -3451,7 +4051,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .196 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps."
+      "notes": "Woodleigh prints BC .196 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-24",
@@ -3486,7 +4092,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .328 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-25",
@@ -3521,7 +4133,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .325 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .325 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-22",
@@ -3556,7 +4174,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .334 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .334 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-23",
@@ -3591,7 +4215,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .330 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .330 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-20",
@@ -3626,7 +4256,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .374 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .374 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-21",
@@ -3661,7 +4297,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .370 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .370 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-18",
@@ -3696,7 +4338,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .385 with no G1 or G7 label. Recommended impact velocity: 1800-220 fps."
+      "notes": "Woodleigh prints BC .385 with no G1 or G7 label. Recommended impact velocity: 1800-220 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-19",
@@ -3731,7 +4379,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .380 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .380 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-15",
@@ -3766,7 +4420,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .309 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .309 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-16",
@@ -3801,7 +4461,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-13",
@@ -3836,7 +4502,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .315 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-14",
@@ -3871,7 +4543,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .300 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .300 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-83",
@@ -3904,7 +4582,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .182 with no G1 or G7 label. Recommended impact velocity: 1500-2000 fps."
+      "notes": "Woodleigh prints BC .182 with no G1 or G7 label. Recommended impact velocity: 1500-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-11",
@@ -3939,7 +4623,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .345 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .345 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-12",
@@ -3974,7 +4664,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-11a",
@@ -4007,7 +4703,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-12a",
@@ -4042,7 +4744,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .360 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .360 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-9",
@@ -4077,7 +4785,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-9a",
@@ -4110,7 +4824,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .310 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-10",
@@ -4145,7 +4865,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-10b",
@@ -4178,7 +4904,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps."
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label. Recommended impact velocity: 1800-2250 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-10a",
@@ -4213,7 +4945,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .355 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .355 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-8",
@@ -4248,7 +4986,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .255 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+      "notes": "Woodleigh prints BC .255 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-82",
@@ -4281,7 +5025,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .219 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps."
+      "notes": "Woodleigh prints BC .219 with no G1 or G7 label. Recommended impact velocity: 1700-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-06a",
@@ -4316,7 +5066,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .257 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .257 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-6",
@@ -4351,7 +5107,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .368 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps."
+      "notes": "Woodleigh prints BC .368 with no G1 or G7 label. Recommended impact velocity: 1800-2200 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-7",
@@ -4386,7 +5148,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .350 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .350 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-5",
@@ -4421,7 +5189,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-3a",
@@ -4456,7 +5230,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-4a",
@@ -4491,7 +5271,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .292 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .292 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-3",
@@ -4526,7 +5312,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .346 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps."
+      "notes": "Woodleigh prints BC .346 with no G1 or G7 label. Recommended impact velocity: 1800-2100 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-4",
@@ -4561,7 +5353,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .351 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .351 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-1",
@@ -4596,7 +5394,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .371 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+      "notes": "Woodleigh prints BC .371 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-2",
@@ -4631,7 +5435,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .334 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .334 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-a",
@@ -4666,7 +5476,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label. Recommended impact velocity: 1700-2000 fps.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-b",
@@ -4701,7 +5517,13 @@
         }
       ],
       "conflicts": [],
-      "notes": "Woodleigh prints BC .340 with no G1 or G7 label."
+      "notes": "Woodleigh prints BC .340 with no G1 or G7 label.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h7mm",
@@ -4734,7 +5556,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h308",
@@ -4767,7 +5595,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h308a",
@@ -4800,7 +5634,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h338",
@@ -4833,7 +5673,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h358",
@@ -4866,7 +5712,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h9-3",
@@ -4899,7 +5751,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h375",
@@ -4932,7 +5790,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-450-400-400-450-400-400gr-hydrostatically-stabilised",
@@ -4967,7 +5831,13 @@
       "conflicts": [
         "Item number H450/400 is also published on another Woodleigh bullet (450/400 400gr Hydrostatically Stabilised; 3\" 400gr Hydrostatically Stabilised). sku left null."
       ],
-      "notes": "Published item number H450/400 is shared with another bullet, so sku is null."
+      "notes": "Published item number H450/400 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-3-400-3-400gr-hydrostatically-stabilised",
@@ -5002,7 +5872,13 @@
       "conflicts": [
         "Item number H450/400 is also published on another Woodleigh bullet (450/400 400gr Hydrostatically Stabilised; 3\" 400gr Hydrostatically Stabilised). sku left null."
       ],
-      "notes": "Published item number H450/400 is shared with another bullet, so sku is null."
+      "notes": "Published item number H450/400 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h416",
@@ -5035,7 +5911,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-404-400-404-400gr-hydrostatically-stabilised",
@@ -5070,7 +5952,13 @@
       "conflicts": [
         "Item number H404 is also published on another Woodleigh bullet (404 400gr Hydrostatically Stabilised; Jeffery 400gr Hydrostatically Stabilised). sku left null."
       ],
-      "notes": "Published item number H404 is shared with another bullet, so sku is null."
+      "notes": "Published item number H404 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-jeffery-400-jeffery-400gr-hydrostatically-stabilised",
@@ -5105,7 +5993,13 @@
       "conflicts": [
         "Item number H404 is also published on another Woodleigh bullet (404 400gr Hydrostatically Stabilised; Jeffery 400gr Hydrostatically Stabilised). sku left null."
       ],
-      "notes": "Published item number H404 is shared with another bullet, so sku is null."
+      "notes": "Published item number H404 is shared with another bullet, so sku is null.",
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h450bpe",
@@ -5138,7 +6032,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h458",
@@ -5171,7 +6071,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h465",
@@ -5204,7 +6110,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h470",
@@ -5237,7 +6149,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h500",
@@ -5270,7 +6188,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h505",
@@ -5303,7 +6227,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h577",
@@ -5336,7 +6266,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-h600",
@@ -5369,7 +6305,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     },
     {
       "id": "woodleigh-vld50bmg",
@@ -5405,7 +6347,13 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null
     }
   ]
 }

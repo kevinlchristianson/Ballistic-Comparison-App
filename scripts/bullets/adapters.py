@@ -161,6 +161,12 @@ def blank_bullet(manufacturer: str, name: str, source_url: str, publisher: str, 
         "bcSource": None,
         "sectionalDensity": None,
         "lengthIn": None,
+        "bearingSurfaceIn": None,
+        "ogiveLengthIn": None,
+        "boattailLengthIn": None,
+        "meplatIn": None,
+        "ogiveType": None,
+        "discontinued": None,
         "construction": [],
         "material": None,
         "intendedUse": [],
@@ -466,11 +472,71 @@ def scrape_berger() -> dict:
         add_bc(bullet, "G7", g7, "manufacturer", BERGER_URL)
         set_twist(bullet, twist)
         if not g7 or g7 in {"-", "–"}:
-            bullet["notes"] = "G7 cell was empty in the Berger table. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+            bullet["notes"] = "G7 cell was empty in the Berger table."
         else:
-            bullet["notes"] = "No velocity band was published with the BCs. Diameter, length, sectional density, material, and expansion velocity are not in this table."
+            bullet["notes"] = "No velocity band was published with the BCs."
         bullets.append(bullet)
+    print(f"  product pages for {len(bullets)} bullets")
+    bullets = map_parallel(bullets, _apply_berger_page, workers=8)
     return catalog("Berger", bullets)
+
+
+def _berger_page_attrs(url: str) -> dict[str, str]:
+    if "/product/" not in url:
+        return {}
+    text = fetch_text(url)
+    attrs: dict[str, str] = {}
+    for row in re.findall(r"<tr[\s\S]*?</tr>", text, flags=re.I):
+        cells = [strip_html(cell) for cell in re.findall(r"<t[dh][^>]*>([\s\S]*?)</t[dh]>", row, flags=re.I)]
+        if len(cells) >= 2 and cells[0]:
+            attrs[cells[0]] = cells[1]
+    return attrs
+
+
+def _apply_berger_page(bullet: dict) -> dict:
+    url = (bullet.get("sources") or [{}])[0].get("url") or ""
+    try:
+        attrs = _berger_page_attrs(url)
+    except Exception as exc:  # noqa: BLE001 - keep the table row if one page fails
+        print(f"  skip {bullet.get('sku')}: {exc}")
+        return bullet
+    if not attrs:
+        return bullet
+    bullet["diameterIn"] = as_number(parse_number(attrs.get("Bullet Dia.")))
+    bullet["lengthIn"] = as_number(parse_number(attrs.get("OAL")))
+    bullet["bearingSurfaceIn"] = as_number(parse_number(attrs.get("Bearing Surface")))
+    bullet["sectionalDensity"] = as_number(parse_number(attrs.get("Sectional Density")))
+    boat = (attrs.get("Boat Tail Length") or "").strip()
+    if boat.upper() == "FB":
+        note = "Boat tail length cell was FB (flat base), so boattailLengthIn is null."
+        bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    else:
+        bullet["boattailLengthIn"] = as_number(parse_number(boat))
+    printed_style = (attrs.get("Ogive Style") or "").strip()
+    style = printed_style.lower()
+    mapped = next((name for name in ("hybrid", "secant", "tangent") if name in style), None)
+    if mapped:
+        bullet["ogiveType"] = mapped
+        if style != mapped:
+            note = f"Ogive style printed as {printed_style!r}, stored as {mapped}."
+            bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    elif printed_style:
+        note = f"Ogive style {printed_style!r} is not tangent, secant, or hybrid, so ogiveType is null."
+        bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    extras = []
+    if attrs.get("Nose Length"):
+        extras.append(f"Nose Length {attrs['Nose Length']}")
+    if attrs.get("Base to Ogive"):
+        extras.append(f"Base to Ogive {attrs['Base to Ogive']}")
+    if extras:
+        note = "Product page also prints " + ", ".join(extras) + ". Those values are not stored as ogiveLengthIn."
+        bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+    if bullet.get("sources"):
+        bullet["sources"][0]["notes"] = (
+            "All-bullets table for G1, G7, and minimum twist. "
+            "Product page for diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        )
+    return bullet
 
 
 # --- BigCommerce: Sierra and Barnes ------------------------------------------
