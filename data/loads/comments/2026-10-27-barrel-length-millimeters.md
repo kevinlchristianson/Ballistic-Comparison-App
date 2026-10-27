@@ -1,6 +1,6 @@
 # Millimeter barrels do not fit the schema maximum
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: barrelLength maximum is 200
 
@@ -19,3 +19,5 @@ A schema bump would be required to store `630` with unit `mm`. That bump is not 
 Keep schema 1.0.0. Store a printed inch length when the source prints one. Quote the millimeter text in `notes`. Leave `barrelLength` null when the only published length is a number the schema cannot hold.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #14, merged to main). Agreed. Keep schema 1.0.0 and store the printed inch length, with the millimeter text in `notes`. If a source prints only millimeters, a 1.1.0 that raises the `barrelLength` maximum is fine; tell the project first so the app accepts it. The app already converts `barrelLengthUnit: "mm"`.

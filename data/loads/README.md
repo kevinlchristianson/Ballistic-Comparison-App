@@ -115,6 +115,8 @@ The bullet catalog id is `{manufacturer}-{sku}` when the manufacturer published 
 
 [`sources/shootersworld.json`](sources/shootersworld.json) is the public table at <https://shootersworldpowder.com/data-table/>, read on 2026-10-27. 1,494 table rows, 108 cartridge names. A published start and max are two records. Charge is grains and velocity is fps because the Shooters World manual labels powder charge in grains and velocity in fps. COL is stored only when that cell prints `"` or `mm`; a bare number stays in `notes`. `MAX PSI` is on the max row only, `pressureMethod` `unknown`. Eight exact duplicate records were dropped. No barrel length or bullet part number is on the table.
 
+[`sources/hodgdon.json`](sources/hodgdon.json) is a partial read of the public Reloading Data Center at <https://hodgdonreloading.com/rldc/>. Rifle cartridges are requested one id at a time. Pistol and shotshell are not in this file yet. The page labels are grains, feet per second, and inches. Pressure is PSI or CUP from the printed token, with `pressureMethod` `unknown` because the page does not name piezo or crusher. `bulletManufacturer` stays as printed (`HDY`, `NOS`, and the other abbreviations). There is no bullet part number. `source.testBarrelIn` is null because barrel length is per cartridge. The footer that limits scraping and redistribution is quoted in [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
+
 [`sources/loaddevelopment.json`](sources/loaddevelopment.json) records the source and zero loads. This bot does not scrape that site. There is no LoadDevelopment parser under `scripts/loads/`.
 
 ## Licensing
@@ -122,6 +124,8 @@ The bullet catalog id is `{manufacturer}-{sku}` when the manufacturer published 
 LoadDevelopment [Terms of Use](https://loaddevelopment.com/terms/) (June 01, 2020) forbid copying the site's Material. No LoadDevelopment rows are committed. The project agreed in `BOTS.md`. See [`comments/2026-10-27-terms-block-full-tables.md`](comments/2026-10-27-terms-block-full-tables.md).
 
 Vihtavuori's [legal notice](https://vihtavuori.com/company/disclaimers/legal-notice/) says site content is owned by Nammo Vihtavuori Oy and prohibits duplication of trademarks, logos, illustrations, and pictures without written consent. The catalog copies published load numbers, not logos or pictures. The notice is quoted in [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
+
+The Hodgdon Reloading Data Center footer says the data is proprietary, limited to personal non-commercial use, and that automated scraping or redistribution into apps needs written consent. That sentence is quoted in the same comment. `BOTS.md` says to collect Hodgdon and keep looking for a separate terms page.
 
 ## How to update
 
@@ -148,7 +152,7 @@ Do not add, remove, rename, or retype a field in place. Bump `schemaVersion` in 
 
 ## Questions
 
-Answered in `BOTS.md` from PR #3, and copied into the comment file:
+Answered in `BOTS.md` from PR #3 and PR #14, and copied into the comment file:
 
 | File | Decision |
 | --- | --- |
@@ -163,10 +167,5 @@ Answered in `BOTS.md` from PR #3, and copied into the comment file:
 | [2026-10-27-fields-without-columns.md](comments/2026-10-27-fields-without-columns.md) | Extra published text goes in `notes`. |
 | [2026-10-27-citation-urls.md](comments/2026-10-27-citation-urls.md) | Entry URL on `source.url`, row URL on `sourceUrl`. |
 | [2026-10-27-source-file-layout.md](comments/2026-10-27-source-file-layout.md) | One file per source. |
-
-Still open:
-
-| File | Topic |
-| --- | --- |
-| [2026-10-27-source-terms-survey.md](comments/2026-10-27-source-terms-survey.md) | Manufacturer terms, including the Vihtavuori legal notice. |
-| [2026-10-27-barrel-length-millimeters.md](comments/2026-10-27-barrel-length-millimeters.md) | Schema maximum 200 cannot store a 630 mm barrel. Not changed. |
+| [2026-10-27-source-terms-survey.md](comments/2026-10-27-source-terms-survey.md) | Hodgdon goes ahead. Shooters World waits for its own column units. |
+| [2026-10-27-barrel-length-millimeters.md](comments/2026-10-27-barrel-length-millimeters.md) | Keep 1.0.0. Store the printed inch length. |
