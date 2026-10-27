@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 9,
-  "aliasCount": 8,
+  "aliasCount": 11,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -292,6 +292,33 @@
       "source": {
         "name": "Shooters' Forum, 109 Hybrid juice",
         "url": "https://forum.accurateshooter.com/threads/109-hybrid-juice-not-worth-the-squeeze.4145964/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-gt",
+      "alias": "GT",
+      "source": {
+        "name": "Shooters' Forum, Berger 6mm 120 grain Hybrid Target",
+        "url": "https://forum.accurateshooter.com/threads/berger-6mm-120-grain-hybrid-target-bullets.4180567/page-12",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-gt",
+      "alias": "6mmGT",
+      "source": {
+        "name": "Shooters' Forum, 6mmGT and the 120 gr Berger",
+        "url": "https://forum.accurateshooter.com/threads/6mmgt-and-the-120-gr-berger.4189491/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-284",
+      "alias": "6x284",
+      "source": {
+        "name": "Shooters' Forum, 120 Hybrid Dasher thread",
+        "url": "https://forum.accurateshooter.com/threads/tried-the-new-120-hybrid-in-my-6-dasher-today.4181942/page-8",
         "retrievedOn": "2026-10-27"
       }
     }
