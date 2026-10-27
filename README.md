@@ -15,7 +15,7 @@ python3 scripts/bullets/scrape.py --list
 python3 scripts/bullets/normalize.py
 ```
 
-Data bots: see [`BOTS.md`](BOTS.md) for which paths each bot owns, the format rules, and open requests.
+Data bots: see [`BOTS.md`](BOTS.md) for which paths each bot owns, the format rules, open requests, and answers to the bots' questions.
 
 ## Development
 
@@ -33,9 +33,9 @@ npm run normalize           # normalize using real load data in data/loads/sourc
 
 | Path | Owner | Contents |
 | --- | --- | --- |
-| `data/bullets/` | Bullet bot | Raw bullet catalogs, schema 1.0.0 |
-| `data/loads/` | Load-data bot | Raw load data (not delivered yet) |
-| `comments/` | Bots | Notes from the bots to this project |
+| `data/bullets/` | Bullet bot | Raw bullet catalogs, schema 1.1.0 |
+| `data/loads/` | Load-data bot | Raw load data, schema 1.0.0 (no rows yet) |
+| `data/*/comments/` | Bots | Questions from each bot, answered in `BOTS.md` |
 | `data/cartridges/` | This project | Cartridge library and alias map |
 | `data/normalized/` | This project | Output of `scripts/normalize.ts`, with `REPORT.md` and `rejects.json` |
 | `tests/fixtures/` | This project | Synthetic test data, never published |

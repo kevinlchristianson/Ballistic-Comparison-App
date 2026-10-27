@@ -25,10 +25,13 @@ export interface NormalizedBullet extends Bullet {
   /** `published` when the bot supplied it, `derived_from_caliber` when the app filled it. */
   diameterSource: "published" | "derived_from_caliber" | null;
   lengthSource: "published" | null;
-  /** Published only. Null until the bullet bot supplies these (see BOTS.md). */
+  /** Published only (bullet schema 1.1.0). Null when the source does not print it. */
   bearingSurfaceIn: number | null;
   ogiveLengthIn: number | null;
   boattailLengthIn: number | null;
+  meplatIn: number | null;
+  ogiveType: "tangent" | "secant" | "hybrid" | null;
+  discontinued: boolean | null;
   /** Published BC bands per drag model, sorted by velocity, highest first. */
   bcBands: { G1: BcBand[]; G7: BcBand[] };
   /** Data-quality flags, e.g. `diameter_derived`, `no_length`, `no_g7`. */

@@ -1,6 +1,33 @@
-import { SCHEMA_VERSION, type BallisticCoefficient, type BulletCatalog } from "../../../data/bullets/schema/bullet.ts";
+import type { BallisticCoefficient, Bullet } from "../../../data/bullets/schema/bullet.ts";
 import { diameterFromCaliber } from "../calibers.ts";
 import type { BcBand, NormalizedBullet, Reject } from "./types.ts";
+
+/**
+ * Bullet catalog versions this step reads. 1.1.0 adds optional shape fields
+ * (bearing surface, ogive, boat tail, meplat, ogive type, discontinued) and
+ * changes nothing else, so 1.0.0 files are still accepted.
+ */
+export const SUPPORTED_BULLET_SCHEMA_VERSIONS = ["1.0.0", "1.1.0"] as const;
+
+/** Fields added in bullet schema 1.1.0. Absent on 1.0.0 records. */
+export interface BulletShapeFields {
+  bearingSurfaceIn: number | null;
+  ogiveLengthIn: number | null;
+  boattailLengthIn: number | null;
+  meplatIn: number | null;
+  ogiveType: "tangent" | "secant" | "hybrid" | null;
+  discontinued: boolean | null;
+}
+
+export type RawBullet = Bullet & Partial<BulletShapeFields>;
+
+export interface RawBulletCatalog {
+  schemaVersion: string;
+  manufacturer: string | null;
+  generatedOn: string | null;
+  bulletCount: number;
+  bullets: RawBullet[];
+}
 
 export interface BulletResult {
   bullets: NormalizedBullet[];
@@ -15,15 +42,16 @@ function bands(list: BallisticCoefficient[], model: "G1" | "G7"): BcBand[] {
 }
 
 /**
- * Converts a bullet catalog in the bot's schema 1.0.0 into normalized bullets.
+ * Converts a bullet catalog in the bot's schema 1.0.0 or 1.1.0 into
+ * normalized bullets.
  *
- * Rejects: wrong schema version (whole file), duplicate id, missing weight,
- * no usable BC. Kept with a flag: derived diameter, unknown diameter, missing
- * length, missing G7.
+ * Rejects: wrong schema version (whole file), duplicate id, missing weight.
+ * Kept with a flag: derived diameter, unknown diameter, missing length,
+ * missing G1/G7 or any BC, missing bearing surface.
  */
-export function normalizeBullets(catalog: BulletCatalog, file: string): BulletResult {
+export function normalizeBullets(catalog: RawBulletCatalog, file: string): BulletResult {
   const rejects: Reject[] = [];
-  if (catalog.schemaVersion !== SCHEMA_VERSION) {
+  if (!(SUPPORTED_BULLET_SCHEMA_VERSIONS as readonly string[]).includes(catalog.schemaVersion)) {
     rejects.push({
       kind: "bullet",
       file,
@@ -41,7 +69,6 @@ export function normalizeBullets(catalog: BulletCatalog, file: string): BulletRe
     if (!raw.id) reasons.push("missing_id");
     else if (seen.has(raw.id)) reasons.push("duplicate_id");
     if (raw.weightGr == null || !(raw.weightGr > 0)) reasons.push("missing_weight");
-    if (raw.bcG1 == null && raw.bcG7 == null) reasons.push("no_bc");
     if (reasons.length) {
       rejects.push({ kind: "bullet", file, ref: raw.id || `#${i}`, reasons, record: raw });
       return;
@@ -64,15 +91,21 @@ export function normalizeBullets(catalog: BulletCatalog, file: string): BulletRe
     if (raw.lengthIn == null) flags.push("no_length");
     if (raw.bcG7 == null) flags.push("no_g7");
     if (raw.bcG1 == null) flags.push("no_g1");
+    // Kept for the library browser and geometry, but the solver needs a BC.
+    if (raw.bcG1 == null && raw.bcG7 == null) flags.push("no_bc");
+    if (raw.bearingSurfaceIn == null) flags.push("no_bearing_surface");
 
     bullets.push({
       ...raw,
       diameterIn,
       diameterSource,
       lengthSource: raw.lengthIn != null ? "published" : null,
-      bearingSurfaceIn: null,
-      ogiveLengthIn: null,
-      boattailLengthIn: null,
+      bearingSurfaceIn: raw.bearingSurfaceIn ?? null,
+      ogiveLengthIn: raw.ogiveLengthIn ?? null,
+      boattailLengthIn: raw.boattailLengthIn ?? null,
+      meplatIn: raw.meplatIn ?? null,
+      ogiveType: raw.ogiveType ?? null,
+      discontinued: raw.discontinued ?? null,
       bcBands: { G1: bands(raw.ballisticCoefficients, "G1"), G7: bands(raw.ballisticCoefficients, "G7") },
       flags,
     });

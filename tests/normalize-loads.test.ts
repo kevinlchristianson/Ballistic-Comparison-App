@@ -10,7 +10,7 @@ const B = fixtureB as unknown as RawLoadFile;
 
 function one(row: Partial<RawLoad>, source: Partial<RawLoadFile["source"]> = {}) {
   const file: RawLoadFile = {
-    schemaVersion: "0.1.0",
+    schemaVersion: "1.0.0",
     generatedOn: null,
     source: { name: "Test", url: "https://example.invalid/t", retrievedOn: "2026-10-27", ...source },
     loadCount: 1,

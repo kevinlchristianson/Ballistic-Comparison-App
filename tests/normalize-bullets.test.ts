@@ -1,12 +1,11 @@
 import examples from "../data/bullets/examples/examples.json";
-import type { Bullet, BulletCatalog } from "../data/bullets/schema/bullet.ts";
-import { normalizeBullets } from "../src/lib/normalize/bullets.ts";
+import { normalizeBullets, type RawBullet, type RawBulletCatalog } from "../src/lib/normalize/bullets.ts";
 
-const catalog = examples as unknown as BulletCatalog;
+const catalog = examples as unknown as RawBulletCatalog;
 const base = catalog.bullets[2]!; // Berger 22 cal 70 gr, has G1 and G7
 
-function withBullets(bullets: Bullet[]): BulletCatalog {
-  return { ...catalog, bulletCount: bullets.length, bullets };
+function withBullets(bullets: RawBullet[], schemaVersion = catalog.schemaVersion): RawBulletCatalog {
+  return { ...catalog, schemaVersion, bulletCount: bullets.length, bullets };
 }
 
 describe("normalizeBullets", () => {
@@ -43,7 +42,7 @@ describe("normalizeBullets", () => {
   });
 
   it("sorts BC bands from fastest to slowest", () => {
-    const banded: Bullet = {
+    const banded: RawBullet = {
       ...base,
       ballisticCoefficients: [
         { dragModel: "G1", bc: 0.35, velocityMinFps: 1800, velocityMaxFps: 2399, label: null, source: "manufacturer", sourceUrl: null },
@@ -56,20 +55,49 @@ describe("normalizeBullets", () => {
     expect(bullets[0]!.bcBands.G7).toHaveLength(1);
   });
 
+  it("reads the schema 1.1.0 shape fields when present", () => {
+    const shaped: RawBullet = {
+      ...base,
+      diameterIn: 0.224,
+      lengthIn: 1.04,
+      bearingSurfaceIn: 0.45,
+      ogiveLengthIn: null,
+      boattailLengthIn: 0.12,
+      meplatIn: null,
+      ogiveType: "secant",
+      discontinued: null,
+    };
+    const { bullets, rejects } = normalizeBullets(withBullets([shaped], "1.1.0"), "x");
+    expect(rejects).toEqual([]);
+    expect(bullets[0]).toMatchObject({ bearingSurfaceIn: 0.45, boattailLengthIn: 0.12, ogiveType: "secant", lengthSource: "published" });
+    expect(bullets[0]!.flags).not.toContain("no_bearing_surface");
+  });
+
+  it("treats the shape fields as null on 1.0.0 records", () => {
+    const { bullets } = normalizeBullets(catalog, "examples.json");
+    expect(bullets[0]).toMatchObject({ bearingSurfaceIn: null, ogiveType: null, discontinued: null });
+    expect(bullets[0]!.flags).toContain("no_bearing_surface");
+  });
+
   describe("rejects", () => {
     it("rejects a whole file with an unknown schema version", () => {
-      const r = normalizeBullets({ ...catalog, schemaVersion: "2.0.0" } as unknown as BulletCatalog, "x");
+      const r = normalizeBullets({ ...catalog, schemaVersion: "2.0.0" }, "x");
       expect(r.bullets).toEqual([]);
       expect(r.rejects[0]!.reasons).toEqual(["unsupported_schema_version:2.0.0"]);
     });
 
-    it("rejects missing weight, missing BC and duplicate ids, with reasons", () => {
+    it("keeps a bullet with no BC but flags it", () => {
+      const r = normalizeBullets(withBullets([{ ...base, bcG1: null, bcG7: null }]), "x");
+      expect(r.rejects).toEqual([]);
+      expect(r.bullets[0]!.flags).toContain("no_bc");
+    });
+
+    it("rejects missing weight and duplicate ids, with reasons", () => {
       const r = normalizeBullets(
         withBullets([
           base,
           { ...base }, // duplicate id
           { ...base, id: "no-weight", weightGr: null },
-          { ...base, id: "no-bc", bcG1: null, bcG7: null },
         ]),
         "x",
       );
@@ -77,7 +105,6 @@ describe("normalizeBullets", () => {
       expect(r.rejects.map((x) => [x.ref, x.reasons])).toEqual([
         [base.id, ["duplicate_id"]],
         ["no-weight", ["missing_weight"]],
-        ["no-bc", ["no_bc"]],
       ]);
       // The raw record is kept for review.
       expect(r.rejects[1]!.record).toMatchObject({ id: "no-weight" });

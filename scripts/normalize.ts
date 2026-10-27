@@ -15,9 +15,8 @@
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import type { BulletCatalog } from "../data/bullets/schema/bullet.ts";
 import { checkCartridgeLibrary, type CartridgeLibrary } from "../src/lib/cartridges.ts";
-import { normalizeBullets } from "../src/lib/normalize/bullets.ts";
+import { normalizeBullets, type RawBulletCatalog } from "../src/lib/normalize/bullets.ts";
 import { normalizeLoads, type RawLoadFile } from "../src/lib/normalize/loads.ts";
 import {
   NORMALIZED_SCHEMA_VERSION,
@@ -58,11 +57,11 @@ if (cartridgeIssues.length) {
 // Bullets
 let bulletFile = "data/bullets/bullets.json";
 let bulletDataset: "bot" | "examples" = "bot";
-let catalog = readJson<BulletCatalog>(bulletFile);
+let catalog = readJson<RawBulletCatalog>(bulletFile);
 if (catalog.bullets.length === 0) {
   bulletFile = "data/bullets/examples/examples.json";
   bulletDataset = "examples";
-  catalog = readJson<BulletCatalog>(bulletFile);
+  catalog = readJson<RawBulletCatalog>(bulletFile);
 }
 const bulletResult = normalizeBullets(catalog, bulletFile);
 
@@ -117,6 +116,14 @@ Full records are in \`data/normalized/rejects.json\`.
 ## Bullet flags
 
 ${table(flagCounts(bulletResult.bullets), "Flag")}
+
+## Bullet coverage by manufacturer
+
+${table(countBy(bulletResult.bullets, (b) => b.manufacturer), "Manufacturer")}
+
+## Bullet coverage by diameter (in)
+
+${table(countBy(bulletResult.bullets, (b) => (b.diameterIn == null ? "unknown" : b.diameterIn.toFixed(3))), "Diameter")}
 
 ## Load flags
 

@@ -55,6 +55,9 @@
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
       "bcBands": {
         "G1": [
           {
@@ -69,7 +72,8 @@
       "flags": [
         "diameter_derived",
         "no_length",
-        "no_g7"
+        "no_g7",
+        "no_bearing_surface"
       ]
     },
     {
@@ -123,6 +127,9 @@
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
       "bcBands": {
         "G1": [
           {
@@ -137,7 +144,8 @@
       "flags": [
         "diameter_derived",
         "no_length",
-        "no_g7"
+        "no_g7",
+        "no_bearing_surface"
       ]
     },
     {
@@ -200,6 +208,9 @@
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
       "bcBands": {
         "G1": [
           {
@@ -220,7 +231,8 @@
       },
       "flags": [
         "diameter_derived",
-        "no_length"
+        "no_length",
+        "no_bearing_surface"
       ]
     },
     {
@@ -283,6 +295,9 @@
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
       "bcBands": {
         "G1": [
           {
@@ -303,7 +318,8 @@
       },
       "flags": [
         "diameter_derived",
-        "no_length"
+        "no_length",
+        "no_bearing_surface"
       ]
     }
   ]

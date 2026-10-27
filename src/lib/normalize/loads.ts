@@ -13,18 +13,19 @@ import {
 import type { NormalizedLoad, Pressure, Reject } from "./types.ts";
 
 /**
- * Raw load file, as proposed to the load-data bot in BOTS.md. The bot has not
- * delivered yet, so this is provisional and will be re-checked against its
- * first PR.
+ * Raw load file in the load-data bot's schema 1.0.0 (data/loads/schema/load.ts).
+ * The types below mirror that contract; they are kept here so this module does
+ * not depend on bot-owned files being present. Required fields in the bot's
+ * contract are optional here because rejected records must still be read.
  */
-export const RAW_LOAD_SCHEMA_VERSIONS = ["0.1.0"] as const;
+export const RAW_LOAD_SCHEMA_VERSIONS = ["1.0.0"] as const;
 
 export interface RawLoadSource {
   name: string;
   url: string;
   retrievedOn: string;
-  testBarrel?: number | null;
-  testBarrelUnit?: LengthUnit | null;
+  /** Inches, only when the source states one test barrel in inches. */
+  testBarrelIn?: number | null;
   notes?: string | null;
 }
 
@@ -220,11 +221,9 @@ export function normalizeLoads(file: RawLoadFile, fileName: string, cartridges: 
         barrelLengthIn = round(toInches(raw.barrelLength, "mm"), 2);
         conversions.push(`barrel: ${raw.barrelLength} mm -> ${barrelLengthIn} in`);
       }
-    } else if (file.source.testBarrel != null) {
-      const unit = file.source.testBarrelUnit ?? "in";
-      barrelLengthIn = unit === "mm" ? round(toInches(file.source.testBarrel, "mm"), 2) : file.source.testBarrel;
+    } else if (file.source.testBarrelIn != null) {
+      barrelLengthIn = file.source.testBarrelIn;
       barrelLengthOrigin = "source_default";
-      if (unit === "mm") conversions.push(`barrel (source default): ${file.source.testBarrel} mm -> ${barrelLengthIn} in`);
     }
     if (barrelLengthIn == null) flags.push("no_barrel_length");
     else if (barrelLengthOrigin === "source_default") flags.push("barrel_from_source_default");

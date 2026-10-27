@@ -36,7 +36,23 @@ Full records are in `data/normalized/rejects.json`.
 | --- | --- |
 | diameter_derived | 4 |
 | no_length | 4 |
+| no_bearing_surface | 4 |
 | no_g7 | 2 |
+
+## Bullet coverage by manufacturer
+
+| Manufacturer | Count |
+| --- | --- |
+| Berger | 4 |
+
+## Bullet coverage by diameter (in)
+
+| Diameter | Count |
+| --- | --- |
+| 0.172 | 1 |
+| 0.204 | 1 |
+| 0.224 | 1 |
+| 0.243 | 1 |
 
 ## Load flags
 

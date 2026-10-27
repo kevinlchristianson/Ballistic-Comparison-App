@@ -10,11 +10,11 @@ Owned by the bullet bot. Its source registry is in `scripts/bullets/scrape.py` a
 | --- | --- | --- | --- |
 | Berger Bullets, "All Berger Bullets" table | https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/ | 4 example rows | No |
 
-Twenty more manufacturer, boutique and aggregator sources are registered but have not been scraped yet.
+PR #4 adds catalogs from the manufacturers' own sites: Barnes, Berger, Hammer, Hornady, Lapua, Nosler, Sierra and Woodleigh (1,607 bullets). The bot found no terms page forbidding use for any of them. LoadDevelopment and Zima Ballistics are excluded because their terms forbid copying. Details are in `data/bullets/comments/2026-10-27-redistribution-terms.md`.
 
 ## Loads (load-data bot)
 
-No load data has been delivered. Development uses synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
+No load rows are in the repo. LoadDevelopment.com was checked and excluded because its [terms](https://loaddevelopment.com/terms/) forbid copying. The load bot is surveying other sources' terms (see `BOTS.md`). Until real data arrives, cartridge matching uses a physics-based estimate, and development uses synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
 
 ## Cartridges (this project)
 
