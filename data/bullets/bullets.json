@@ -18197,7 +18197,7 @@
       "sku": "MZL M.400 165 GEN2 12CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.4,
       "weightGr": 165,
       "bcG1": 0.173,
       "bcG7": 0.087,
@@ -18251,7 +18251,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.4 copied from the printed SKU: MZL M.400 165 GEN2 12CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-400-165-gen2-50ct",
@@ -18261,7 +18261,7 @@
       "sku": "MZL M.400 165 GEN2 50CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.4,
       "weightGr": 165,
       "bcG1": 0.173,
       "bcG7": 0.087,
@@ -18315,7 +18315,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.4 copied from the printed SKU: MZL M.400 165 GEN2 50CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-430-210-12ct",
@@ -18325,7 +18325,7 @@
       "sku": "MZL M.430 210 12CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 210,
       "bcG1": 0.175,
       "bcG7": 0.097,
@@ -18379,7 +18379,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 210 12CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-430-210",
@@ -18389,7 +18389,7 @@
       "sku": "MZL M.430 210",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 210,
       "bcG1": 0.194,
       "bcG7": 0.097,
@@ -18443,7 +18443,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 210."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-400-240-gen2-12ct",
@@ -18453,7 +18453,7 @@
       "sku": "MZL M.400 240 GEN2 12CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.4,
       "weightGr": 240,
       "bcG1": 0.285,
       "bcG7": 0.143,
@@ -18507,7 +18507,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.4 copied from the printed SKU: MZL M.400 240 GEN2 12CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-400-240",
@@ -18572,7 +18572,7 @@
       "sku": "MZL M.400 240 GEN2 50CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.4,
       "weightGr": 240,
       "bcG1": 0.285,
       "bcG7": 0.143,
@@ -18626,7 +18626,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.4 copied from the printed SKU: MZL M.400 240 GEN2 50CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-430-250-12ct",
@@ -18636,7 +18636,7 @@
       "sku": "MZL M.430 250 12CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 250,
       "bcG1": 0.311,
       "bcG7": 0.137,
@@ -18690,7 +18690,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 250 12CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-451-250-12ct",
@@ -18700,7 +18700,7 @@
       "sku": "MZL M.451 250 12CT",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.451,
       "weightGr": 250,
       "bcG1": 0.2,
       "bcG7": 0.1,
@@ -18754,7 +18754,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.451 copied from the printed SKU: MZL M.451 250 12CT."
     },
     {
       "id": "cutting-edge-bullets-mzl-50-250-red-sabot",
@@ -18809,7 +18809,7 @@
       "sku": "MZL M.430 250",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 250,
       "bcG1": 0.273,
       "bcG7": 0.137,
@@ -18863,7 +18863,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 250."
     },
     {
       "id": "cutting-edge-bullets-mzl-m-430-275",
@@ -18873,7 +18873,7 @@
       "sku": "MZL M.430 275",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 275,
       "bcG1": 0.325,
       "bcG7": 0.163,
@@ -18927,7 +18927,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 275."
     },
     {
       "id": "cutting-edge-bullets-mzl-50-300-red-sabot",
@@ -18982,7 +18982,7 @@
       "sku": "MZL M.430 300",
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.43,
       "weightGr": 300,
       "bcG1": 0.357,
       "bcG7": 0.179,
@@ -19036,7 +19036,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.43 copied from the printed SKU: MZL M.430 300."
     },
     {
       "id": "cutting-edge-bullets-hghp-22-30",
@@ -34827,7 +34827,7 @@
       "sku": "M.451 250 50CT",
       "alternateSkus": [],
       "caliber": ".45",
-      "diameterIn": null,
+      "diameterIn": 0.451,
       "weightGr": 250,
       "bcG1": 0.2,
       "bcG7": 0.1,
@@ -34880,7 +34880,7 @@
         }
       ],
       "conflicts": [],
-      "notes": null
+      "notes": "Diameter 0.451 copied from the printed SKU: M.451 250 50CT."
     },
     {
       "id": "cutting-edge-bullets-m-451-300-50ct",
