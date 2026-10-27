@@ -33,7 +33,9 @@ Hodgdon's rifle filter and pistol filter each list the same seven Nosler cartrid
 
 ### Cartridges absent from the library
 
-225 names remain after the cartridges and aliases in `bots/loads.json` resolve. `.338 Norma Magnum` was added after this table's first pass and is no longer in the list. A cell is the number of load records. An empty cell is zero. The list is this snapshot, with the spellings above left out. `python3 scripts/loads/missing_cartridges.py` prints it again after the next Hodgdon normalize. The Hodgdon rifle fetch process has exited. Its cache holds 318 cartridge files. Handgun names stay in this list and stay out of `loads.json`. Rifle names still here have no dimension page cited in this pass.
+The table below is the snapshot from before the full Hodgdon rifle rebuild. A cell is the number of load records in that snapshot. An empty cell is zero. Spellings of a cartridge the library already has are left out. Handgun names stay in this list and stay out of `loads.json`.
+
+After that rebuild, `sources/hodgdon.json` is all 318 rifle-list cartridges: 25,345 published loads, 49,506 records. Counted with `resolveCartridge` against `cartridges.json` plus `bots/loads.json`, 32,147 of those records resolve and 17,359 do not, across 177 names. `.338 Norma Magnum` is not one of them.
 
 | Cartridge | community-245gr-30cal | community-berger-elite-hunter-25cal-133gr | community-berger-elite-hunter-270cal-170gr | community-berger-elite-hunter-30cal-180gr | community-berger-elite-hunter-30cal-205gr | community-berger-elite-hunter-30cal-217gr | community-berger-elite-hunter-30cal-245gr | community-berger-elite-hunter-338cal-250gr | community-berger-elite-hunter-338cal-300gr | community-berger-elite-hunter-65mm-140gr | community-berger-elite-hunter-65mm-156gr | community-berger-elite-hunter-6mm-108gr | community-berger-elite-hunter-7mm-175gr | community-berger-elite-hunter-7mm-195gr | hodgdon | shootersworld | vihtavuori | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
