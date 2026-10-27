@@ -2,11 +2,12 @@
 """List load-file cartridge names whose cartridge is absent from the library.
 
 The match is the same rule as src/lib/cartridges.ts: aliasKey, looseAliasKey,
-then resolveCartridge. A published string is omitted when that rule resolves
-it, when a trailing " - Pistol" or " +P" leaves a name that resolves, or when
-the alias-matching comment already names it as a spelling of a library
-cartridge. This script only reads data/cartridges/cartridges.json. It does
-not edit the library or the load rows.
+then resolveCartridge, after the names in data/cartridges/bots/*.json are
+merged the way src/lib/botCartridges.ts merges them. A published string is
+omitted when that rule resolves it, when a trailing " - Pistol" or " +P"
+leaves a name that resolves, or when the alias-matching comment already names
+it as a spelling of a library cartridge. This script only reads the library.
+It does not edit it or the load rows.
 
 Usage:
   python3 scripts/loads/missing_cartridges.py
@@ -21,7 +22,9 @@ from pathlib import Path
 
 from catalog import DATA_DIR, SOURCES_DIR
 
-LIBRARY_PATH = DATA_DIR.parent / "cartridges" / "cartridges.json"
+CARTRIDGES_DIR = DATA_DIR.parent / "cartridges"
+LIBRARY_PATH = CARTRIDGES_DIR / "cartridges.json"
+BOTS_DIR = CARTRIDGES_DIR / "bots"
 
 
 # Same word replacements as src/lib/cartridges.ts WORD_SYNONYMS.
@@ -177,8 +180,38 @@ def markdown_table(slugs: list[str], rows) -> str:
     return "\n".join(lines)
 
 
-def main() -> int:
+def merged_library() -> dict:
+    """Project library plus bot-added names. The project's cartridges win on id."""
     library = json.loads(LIBRARY_PATH.read_text(encoding="utf-8"))
+    by_id = {cartridge["id"]: cartridge for cartridge in library["cartridges"]}
+    if not BOTS_DIR.is_dir():
+        return library
+    for path in sorted(BOTS_DIR.glob("*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if payload.get("schemaVersion") != "1.0.0":
+            continue
+        for record in payload.get("cartridges") or []:
+            if not isinstance(record, dict) or record.get("id") in by_id:
+                continue
+            added = {
+                "id": record["id"],
+                "name": record.get("name") or record["id"],
+                "aliases": list(record.get("aliases") or []),
+            }
+            library["cartridges"].append(added)
+            by_id[added["id"]] = added
+        for record in payload.get("aliases") or []:
+            if not isinstance(record, dict):
+                continue
+            target = by_id.get(record.get("cartridgeId"))
+            alias = record.get("alias")
+            if target is not None and isinstance(alias, str) and alias not in target["aliases"]:
+                target["aliases"].append(alias)
+    return library
+
+
+def main() -> int:
+    library = merged_library()
     lookup, loose = _indexes(library)
     slugs, counts = source_counts()
     rows = absent_rows(slugs, counts, lookup, loose)

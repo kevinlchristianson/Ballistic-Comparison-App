@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "bot": "load-data",
+  "cartridgeCount": 4,
+  "aliasCount": 0,
+  "cartridges": [
+    {
+      "id": "24-nosler",
+      "name": ".24 Nosler",
+      "kind": "saami",
+      "aliases": ["24 Nosler"],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.2435,
+      "caseLength": 1.6,
+      "trimLength": null,
+      "maxCoal": 2.26,
+      "rimDiameter": 0.378,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": { "value": 55000, "unit": "psi", "method": "piezo" },
+      "source": {
+        "name": "The Ballistic Assistant, SAAMI Rifle Cartridge Catalog",
+        "url": "https://www.theballisticassistant.com/saami-rifle-cartridge-catalog/",
+        "retrievedOn": "2026-10-27"
+      },
+      "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler's 55 gr load sheet prints 6mm (.243\") and maximum SAAMI O.A.C.L. 2.260\"."
+    },
+    {
+      "id": "26-nosler",
+      "name": ".26 Nosler",
+      "kind": "saami",
+      "aliases": ["26 Nosler"],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.2645,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
+      "source": {
+        "name": "ANSI/SAAMI Z299.4-2025, 26 Nosler cartridge drawing",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-27"
+      },
+      "note": "Drawing prints bullet .2645 - .0030, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+    },
+    {
+      "id": "27-nosler",
+      "name": ".27 Nosler",
+      "kind": "saami",
+      "aliases": ["27 Nosler"],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.278,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
+      "source": {
+        "name": "ANSI/SAAMI Z299.4-2025, 27 Nosler cartridge drawing",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-27"
+      },
+      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+    },
+    {
+      "id": "33-nosler",
+      "name": ".33 Nosler",
+      "kind": "saami",
+      "aliases": ["33 Nosler"],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.339,
+      "caseLength": 2.46,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
+      "source": {
+        "name": "ANSI/SAAMI Z299.4-2025, 33 Nosler cartridge drawing",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-27"
+      },
+      "note": "Drawing prints bullet .3390 - .0030, case 2.460 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established."
+    }
+  ],
+  "aliases": []
+}
