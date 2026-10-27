@@ -177,9 +177,17 @@ ul.plain { list-style: none; padding: 0; }
   .match .geo { margin-left: 0; }
   .site-header h1 { font-size: 16px; }
 }
-table.data td.wrap { white-space: normal; text-align: left; min-width: 160px; }
+table.data td.text { white-space: normal; text-align: left; min-width: 120px; max-width: 220px; }
+table.data td.note { min-width: 200px; max-width: 340px; font-size: 12px; }
 table.data.loads td:first-child { white-space: normal; min-width: 140px; }
 
 table.data th.sortable { cursor: pointer; user-select: none; }
 table.data th.sortable:hover { color: var(--accent, inherit); text-decoration: underline; }
-table.data tr.yours td { background: var(--tag-bg, rgba(127,127,127,0.08)); }
+table.data tr.yours td { background: rgba(127,127,127,0.08); }
+
+/* Wide tables: the Load data tab uses the full window width, and its table
+   scrolls inside a frame that fits the screen, so the sideways scrollbar is
+   always in view. The header row stays put while scrolling down. */
+main.wide { max-width: none; }
+.table-frame { max-height: 75vh; overflow: auto; border: 1px solid var(--border); border-radius: 6px; }
+.table-frame table.data thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; }

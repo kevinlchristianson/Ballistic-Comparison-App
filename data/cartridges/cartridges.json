@@ -697,7 +697,8 @@
         "6mm CM",
         "6 Creedmoor",
         "6mm Creed",
-        "6mm Creedmoor"
+        "6mm Creedmoor",
+        "6 Creedmore"
       ],
       "parentCase": "6.5 Creedmoor",
       "bulletDiameterIn": 0.243,
@@ -1041,7 +1042,8 @@
         "6.5CM",
         "6.5 Creed",
         "6.5mm Creedmoor",
-        "6.5 Creedmoor"
+        "6.5 Creedmoor",
+        "6.5 Creedmore"
       ],
       "parentCase": ".30 Thompson/Center",
       "bulletDiameterIn": 0.264,
@@ -1113,7 +1115,8 @@
         "6.5x55 SE",
         "6.5x55mm Swedish Mauser",
         "6.5x55 Swedish Mauser",
-        "6.5x55 SKAN"
+        "6.5x55 SKAN",
+        "6.5 Swede"
       ],
       "parentCase": null,
       "bulletDiameterIn": 0.264,
@@ -1668,7 +1671,9 @@
         "7mm Rem Mag",
         "7mm RM",
         "7 Rem Mag",
-        "7mm Remington Magnum"
+        "7mm Remington Magnum",
+        "7 Mag",
+        "7 Rem"
       ],
       "parentCase": ".375 H&H Magnum",
       "bulletDiameterIn": 0.284,
@@ -1974,7 +1979,8 @@
       "kind": "saami",
       "category": "centerfire_rifle",
       "aliases": [
-        "28 Nosler"
+        "28 Nosler",
+        "28 Nos"
       ],
       "parentCase": ".300 Remington Ultra Magnum",
       "bulletDiameterIn": 0.284,
@@ -2149,7 +2155,8 @@
         ".30-06",
         "30-06 Sprg",
         "30-06 Springfield",
-        ".30-06 Sprg"
+        ".30-06 Sprg",
+        "'06"
       ],
       "parentCase": ".30-03 Springfield",
       "bulletDiameterIn": 0.308,
@@ -2218,7 +2225,8 @@
         "300 Win Mag",
         ".300 Win Mag",
         "300 WM",
-        "300 Winchester Magnum"
+        "300 Winchester Magnum",
+        "300 Win"
       ],
       "parentCase": ".375 H&H Magnum",
       "bulletDiameterIn": 0.308,
@@ -2463,7 +2471,9 @@
         "300 Blackout",
         ".300 BLK",
         "300 AAC",
-        "7.62x35mm"
+        "7.62x35mm",
+        "300 BO",
+        "300 Blackout AAC"
       ],
       "parentCase": ".223 Remington",
       "bulletDiameterIn": 0.308,
@@ -2939,7 +2949,8 @@
         "338 LM",
         ".338 Lapua",
         ".338 Lapua Mag",
-        "338 Lapua Magnum"
+        "338 Lapua Magnum",
+        "338 Lap"
       ],
       "parentCase": ".416 Rigby",
       "bulletDiameterIn": 0.338,

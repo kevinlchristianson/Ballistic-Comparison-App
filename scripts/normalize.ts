@@ -113,6 +113,18 @@ ${table(reasonCounts, "Reason")}
 
 Full records are in \`data/normalized/rejects.json\`.
 
+## Cartridge names not in the library
+
+Loads naming these were dropped. Forum shorthand ("6 creed", "300 WM") is matched automatically (\`aliasKey\` in \`src/lib/cartridges.ts\`); anything listed here needs an alias or a new cartridge in \`data/cartridges/cartridges.json\`. Handgun cartridges are out of scope.
+
+${table(
+  countBy(
+    rejects.filter((r) => r.kind === "load" && r.reasons.includes("unknown_cartridge")),
+    (r) => `${String((r.record as { cartridge?: unknown }).cartridge ?? "?").replace(/\|/g, "/")} (${r.file.split("/").pop()})`,
+  ),
+  "Name as published (file)",
+)}
+
 ## Bullet flags
 
 ${table(flagCounts(bulletResult.bullets), "Flag")}
