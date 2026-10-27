@@ -1477,6 +1477,153 @@ def scrape_cutting_edge() -> dict:
     return catalog("Cutting Edge Bullets", bullets)
 
 
+LEHIGH_SITEMAP = "https://wilsoncombat.com/xmlsitemap.php?type=products&page=1"
+LEHIGH_COMPONENT = re.compile(r"/\d{3}-diameter-.+?-bullets(?:-|$)", flags=re.I)
+
+
+def _lehigh_fields(page: str) -> dict[str, list[str]]:
+    idx = page.find('"name":"Reloading Item Type"')
+    if idx < 0:
+        idx = page.find('"name":"Bullet Diameter"')
+    if idx < 0:
+        return {}
+    start = page.rfind("[", 0, idx)
+    end = page.find("]</script>", idx)
+    if start < 0 or end < 0:
+        return {}
+    try:
+        items = json.loads(page[start : end + 1])
+    except json.JSONDecodeError:
+        return {}
+    grouped: dict[str, list[str]] = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        name = strip_html(item.get("name"))
+        value = strip_html(item.get("value"))
+        if name and value:
+            grouped.setdefault(name, []).append(value)
+    return grouped
+
+
+def _lehigh_urls() -> list[str]:
+    text = fetch_text(LEHIGH_SITEMAP)
+    urls: list[str] = []
+    seen: set[str] = set()
+    for raw in re.findall(r"<loc>(.*?)</loc>", text):
+        url = html.unescape(raw).split("?")[0].rstrip("/")
+        if not LEHIGH_COMPONENT.search(url):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        urls.append(url)
+    return urls
+
+
+def _lehigh_bullet(url: str, page: str) -> dict | None:
+    fields = _lehigh_fields(page)
+    if not fields:
+        print(f"  skip {url}: no custom fields")
+        return None
+    item_type = (fields.get("Reloading Item Type") or [""])[0].lower()
+    if item_type and item_type != "bullets":
+        return None
+    maker = (fields.get("Manufacturer") or [""])[0]
+    if maker and maker.lower() not in {"lehigh defense", "lehigh"}:
+        print(f"  skip {url}: manufacturer {maker}")
+        return None
+    firearm = {value.lower() for value in fields.get("Firearm Type") or []}
+    if "rifle" not in firearm:
+        return None
+    weight = as_number(parse_number((fields.get("Bullet Weight (grains)") or [None])[0]))
+    if not isinstance(weight, (int, float)) or weight <= 0:
+        print(f"  skip {url}: no printed weight")
+        return None
+    heading = re.search(r'<h1[^>]*class="productView-title[^"]*"[^>]*>(.*?)</h1>', page, flags=re.S | re.I)
+    name = strip_html(heading.group(1)) if heading else url.rsplit("/", 1)[-1]
+    bullet = blank_bullet(
+        "Lehigh Defense",
+        name,
+        url,
+        "Lehigh Defense",
+        "Wilson Combat product page. lehighdefense.com redirects to this storefront. "
+        "Diameter, weight, length, sectional density, G1, and G7 are custom fields. "
+        "G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). "
+        "Item Length is the shipping box and is not stored. "
+        "The terms page is a customer-service policy and does not forbid copying specifications.",
+    )
+    sku = re.search(r'"sku"\s*:\s*"([^"]+)"', page)
+    bullet["sku"] = sku.group(1) if sku else None
+    bullet["productLine"] = (fields.get("Bullet Technology") or [None])[0]
+    calibers = fields.get("Caliber") or []
+    bullet["caliber"] = "; ".join(calibers) or None
+    bullet["diameterIn"] = as_number(parse_number((fields.get("Bullet Diameter") or [None])[0]))
+    bullet["weightGr"] = weight
+    bullet["lengthIn"] = as_number(parse_number((fields.get("Bullet Length") or [None])[0]))
+    bullet["ogiveLengthIn"] = as_number(parse_number((fields.get("Ogive Length (inches)") or [None])[0]))
+    bullet["sectionalDensity"] = as_number(parse_number((fields.get("Sectional Density") or [None])[0]))
+    page_url = url
+    g1 = (fields.get("Ballistic Coefficient (G1)") or [None])[0]
+    g7 = (fields.get("Ballistic Coefficient (G7)") or [None])[0]
+    add_bc(bullet, "G1", g1, "manufacturer", page_url)
+    if g7 and g7.strip().lower() not in {"n/a", "na", "-"}:
+        add_bc(bullet, "G7", g7, "manufacturer", page_url)
+    twist = (fields.get("Minimum Twist Rate") or [None])[0]
+    if twist:
+        set_twist(bullet, twist)
+    material = (fields.get("Bullet Material") or [None])[0]
+    if material:
+        bullet["material"] = material.lower()
+    usage = " ".join(fields.get("Typical Usage") or [])
+    technology = bullet["productLine"] or ""
+    add_uses(bullet, f"{usage} {technology}")
+    process = (fields.get("Bullets Manfacturing Process") or fields.get("Bullets Manufacturing Process") or [None])[0]
+    published_notes = (fields.get("Notes") or [None])[0]
+    add_construction(bullet, " ".join(part for part in (technology, material, published_notes, name) if part))
+    notes: list[str] = []
+    if published_notes:
+        notes.append(published_notes if published_notes.endswith(".") else f"{published_notes}.")
+    if process:
+        notes.append(f"Manufacturing process printed as {process}.")
+    lead_free = (fields.get("Lead Free Bullet") or [None])[0]
+    if lead_free:
+        notes.append(f"Lead-free field printed as {lead_free}.")
+    velocity_range = (fields.get("Velocity Range") or [None])[0]
+    if velocity_range:
+        notes.append(f"Velocity range printed as {velocity_range}.")
+    sensitive = (fields.get("Velocity Sensitivity") or [None])[0]
+    if sensitive:
+        notes.append(f"Velocity sensitivity printed as {sensitive}.")
+    impact = (fields.get("Minimum Impact Velocity (fps)") or [None])[0]
+    if impact and impact.strip().lower() not in {"n/a", "na", "-"}:
+        notes.append(f"Minimum impact velocity printed as {impact} fps.")
+    bullet["notes"] = " ".join(notes) or None
+    return bullet
+
+
+def scrape_lehigh() -> dict:
+    print("lehigh: Wilson Combat component-bullet pages")
+    urls = _lehigh_urls()
+    print(f"  component urls: {len(urls)}")
+    bullets = []
+    for index, url in enumerate(urls):
+        if index:
+            time.sleep(0.5)
+        try:
+            page = fetch_text(url)
+        except Exception as exc:  # noqa: BLE001 - keep the pages that respond
+            print(f"  skip {url}: {exc}")
+            continue
+        bullet = _lehigh_bullet(url, page)
+        if bullet:
+            bullets.append(bullet)
+        if (index + 1) % 40 == 0:
+            print(f"  read {index + 1}/{len(urls)} ({len(bullets)} rifle)")
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Lehigh Defense", bullets)
+
+
 def scrape_rws() -> dict:
     raise TermsForbid(
         "rws: The RWS impressum (https://rws-ammunition.com/de/impressum) says all texts, "
@@ -1537,7 +1684,7 @@ ADAPTERS = {
     "norma": scrape_norma,
     "rws": scrape_rws,
     "cutting-edge": scrape_cutting_edge,
-    "lehigh": lambda: scrape_zima("lehigh"),
+    "lehigh": scrape_lehigh,
     "peregrine": scrape_peregrine,
     "warner": scrape_warner,
 }

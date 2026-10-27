@@ -2,7 +2,7 @@
   "schemaVersion": "1.2.0",
   "manufacturer": null,
   "generatedOn": "2026-10-27",
-  "bulletCount": 2029,
+  "bulletCount": 2110,
   "bullets": [
     {
       "id": "barnes-30090",
@@ -78904,6 +78904,4433 @@
       "bcUnlabeled": null,
       "baseToOgiveIn": null,
       "noseLengthIn": null
+    },
+    {
+      "id": "lehigh-defense-18308115txcspb",
+      "manufacturer": "Lehigh Defense",
+      "productLine": null,
+      "name": ".308 diameter, 115 grain Tipped Xtreme Chaos Special Purpose Bullets (50 count)",
+      "sku": "18308115TXCSPB",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 115,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-115-grain-tipped-xtreme-chaos-special-purpose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "lehigh-defense-05308125ccbspb",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos Broached SPB",
+      "name": ".308 diameter, 125 grain, Controlled Chaos, Broached Special Purpose Bullets (50 count)",
+      "sku": "05308125CCBSPB",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 125,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-125-grain-controlled-chaos-broached-special-purpose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "lehigh-defense-19308135tccspb",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos Special Purpose",
+      "name": ".308 diameter, 135 grain Tipped Controlled Chaos Special Purpose Bullets (50 count)",
+      "sku": "19308135TCCSPB",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 135,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-135-grain-tipped-controlled-chaos-special-purpose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "lehigh-defense-05172020cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".172 diameter, 20 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05172020CUSP",
+      "alternateSkus": [],
+      "caliber": ".17 Hornet",
+      "diameterIn": 0.172,
+      "weightGr": 20,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/172-diameter-20-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05204030cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".204 diameter, 30 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05204030CUSP",
+      "alternateSkus": [],
+      "caliber": ".204 Ruger",
+      "diameterIn": 0.204,
+      "weightGr": 30,
+      "bcG1": 0.166,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.166,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/204-diameter-30-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.103,
+      "lengthIn": 0.585,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.374,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/204-diameter-30-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Can also be used for loading 20 Vartarg, 20 Vartarg Turbo and 20 Tactical. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05224032cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 32 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224032CUSP",
+      "alternateSkus": [],
+      "caliber": ".22 Hornet; .22-250 Remington",
+      "diameterIn": 0.224,
+      "weightGr": 32,
+      "bcG1": 0.184,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.184,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-32-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.091,
+      "lengthIn": 0.605,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.425,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-32-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "1:10 twist recommended for 22-250 Remington. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05224038cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 38 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224038CUSP",
+      "alternateSkus": [],
+      "caliber": ".22 Hornet; .22-250 Remington",
+      "diameterIn": 0.224,
+      "weightGr": 38,
+      "bcG1": 0.196,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.196,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-38-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.108,
+      "lengthIn": 0.62,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.4,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-38-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Can also be used for loading 220 Swift, 221 Remington Fireball and 222 Remington. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05224045cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 45 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224045CUSP",
+      "alternateSkus": [],
+      "caliber": ".22-250 Remington",
+      "diameterIn": 0.224,
+      "weightGr": 45,
+      "bcG1": 0.222,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.222,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-45-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.128,
+      "lengthIn": 0.71,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.44,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-45-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "1:10 twist recommended for 22-250 Remington. Recommended cartridge overall length 2.350\" for 22-250 Remington. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05224055cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 55 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224055CUSP",
+      "alternateSkus": [],
+      "caliber": ".22-250 Remington",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": 0.278,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.278,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-55-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.157,
+      "lengthIn": 0.868,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.465,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-55-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "1:10 twist recommended for 22-250 Remington. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05224062cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 62 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224062CUSP",
+      "alternateSkus": [],
+      "caliber": ".223 Remington; 5.56x45mm NATO",
+      "diameterIn": 0.224,
+      "weightGr": 62,
+      "bcG1": 0.282,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.282,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-62-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.177,
+      "lengthIn": 0.93,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.45,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-62-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "1:7, 1:8 or 1:9 twist recommended for .223 Remington or 5.56x45mm NATO. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-01224062sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Maximum Expansion",
+      "name": ".224 diameter, 62 grain Maximum Expansion Bullets (50 count)",
+      "sku": "01224062SP",
+      "alternateSkus": [],
+      "caliber": ".223 Remington; 5.56x45mm NATO",
+      "diameterIn": 0.224,
+      "weightGr": 62,
+      "bcG1": 0.251,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.251,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-62-grain-maximum-expansion-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.177,
+      "lengthIn": 0.9,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-62-grain-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05243085cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".243 diameter, 85 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05243085CUSP",
+      "alternateSkus": [],
+      "caliber": ".243 Winchester; .243 WSSM; 6mm Remington",
+      "diameterIn": 0.243,
+      "weightGr": 85,
+      "bcG1": 0.318,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.318,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/243-diameter-85-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.206,
+      "lengthIn": 1.13,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.58,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 9.5,
+      "twistRateNote": "1:9.5",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/243-diameter-85-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05264130cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".264 diameter, 130 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05264130CUSP",
+      "alternateSkus": [],
+      "caliber": ".260 Remington; .264 Winchester Magnum; 6.5 PRC",
+      "diameterIn": 0.264,
+      "weightGr": 130,
+      "bcG1": 0.476,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.476,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-130-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.266,
+      "lengthIn": 1.41,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-130-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Best performing bullet in 6.5mm Creedmoor. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-04264121sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Match Solid",
+      "name": ".264 diameter, 121 grain Match Solid Bullets (50 count)",
+      "sku": "04264121SP",
+      "alternateSkus": [],
+      "caliber": ".260 Remington; 6.5x55mm Swedish",
+      "diameterIn": 0.264,
+      "weightGr": 121,
+      "bcG1": 0.538,
+      "bcG7": 0.276,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.538,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-121-grain-match-solid-bullets-50-count"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.276,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-121-grain-match-solid-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.248,
+      "lengthIn": 1.42,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.76,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-121-grain-match-solid-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-19277125tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".277 diameter, 125 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19277125TCC",
+      "alternateSkus": [],
+      "caliber": ".270 Winchester",
+      "diameterIn": 0.277,
+      "weightGr": 125,
+      "bcG1": 0.406,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.406,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/277-diameter-125-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.233,
+      "lengthIn": 1.342,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/277-diameter-125-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-18277125txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".277 diameter, 125 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18277125TXC",
+      "alternateSkus": [],
+      "caliber": ".270 Winchester",
+      "diameterIn": 0.277,
+      "weightGr": 125,
+      "bcG1": 0.404,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.404,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/277-diameter-125-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.233,
+      "lengthIn": 1.339,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/277-diameter-125-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05277127cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".277 diameter, 127 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05277127CUSP",
+      "alternateSkus": [],
+      "caliber": ".270 WSM",
+      "diameterIn": 0.277,
+      "weightGr": 127,
+      "bcG1": 0.429,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.429,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/277-diameter-127-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.236,
+      "lengthIn": 1.305,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.74,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/277-diameter-127-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05284142cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".284 diameter, 142 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05284142CUSP",
+      "alternateSkus": [],
+      "caliber": ".280 Remington",
+      "diameterIn": 0.284,
+      "weightGr": 142,
+      "bcG1": 0.477,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.477,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/284-diameter-142-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.252,
+      "lengthIn": 1.375,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.75,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 9.5,
+      "twistRateNote": "1:9.5",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/284-diameter-142-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05308085cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 85 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308085CUSP",
+      "alternateSkus": [],
+      "caliber": ".30 Carbine",
+      "diameterIn": 0.308,
+      "weightGr": 85,
+      "bcG1": 0.18,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.18,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-85-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.128,
+      "lengthIn": 0.7,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-85-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive."
+    },
+    {
+      "id": "lehigh-defense-12308085sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Cavitator",
+      "name": ".308 diameter, 85 grain Xtreme Cavitator Bullets (50 count)",
+      "sku": "12308085SP",
+      "alternateSkus": [],
+      "caliber": ".30 Carbine",
+      "diameterIn": 0.308,
+      "weightGr": 85,
+      "bcG1": 0.151,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.151,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-85-grain-xtreme-cavitator-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.128,
+      "lengthIn": 0.69,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.244,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-85-grain-xtreme-cavitator-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-18308155txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".308 diameter, 155 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18308155TXC",
+      "alternateSkus": [],
+      "caliber": ".30-06 Springfield; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 155,
+      "bcG1": 0.309,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.309,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-155-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.31,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-155-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-04308150sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Match Solid",
+      "name": ".308 diameter, 150 grain Match Solid Bullets (50 count)",
+      "sku": "04308150SP",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.513,
+      "bcG7": 0.263,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.513,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-150-grain-match-solid-bullets-50-count"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.263,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-150-grain-match-solid-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.226,
+      "lengthIn": 1.321,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.725,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-150-grain-match-solid-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-18308165txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".308 diameter, 165 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18308165TXC",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum",
+      "diameterIn": 0.308,
+      "weightGr": 165,
+      "bcG1": 0.368,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.368,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-165-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.248,
+      "lengthIn": 1.405,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-165-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-20308175tme",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Maximum Expansion",
+      "name": ".308 diameter, 175 grain Tipped Maximum Expansion Bullets (50 count)",
+      "sku": "20308175TME",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum",
+      "diameterIn": 0.308,
+      "weightGr": 175,
+      "bcG1": 0.457,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.457,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-175-grain-tipped-maximum-expansion-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.264,
+      "lengthIn": 1.505,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-175-grain-tipped-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-18308175txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".308 diameter, 175 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18308175TXC",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum",
+      "diameterIn": 0.308,
+      "weightGr": 175,
+      "bcG1": 0.453,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.453,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-175-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.505,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-175-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05308175cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 175 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308175CUSP",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum; .300 WSM",
+      "diameterIn": 0.308,
+      "weightGr": 175,
+      "bcG1": 0.467,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.467,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-175-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.264,
+      "lengthIn": 1.42,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.725,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-175-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05308152cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 152 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308152CUSP",
+      "alternateSkus": [],
+      "caliber": ".300 Winchester Magnum; .300 WSM; .30-06 Springfield",
+      "diameterIn": 0.308,
+      "weightGr": 152,
+      "bcG1": 0.333,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.333,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-152-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.229,
+      "lengthIn": 1.27,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.68,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-152-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-19308155tcc2",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".308 diameter, 155 grain Tipped Controlled Chaos 2 Bullets (50 count)",
+      "sku": "19308155TCC2",
+      "alternateSkus": [],
+      "caliber": ".308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 155,
+      "bcG1": 0.473,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.473,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-155-grain-tipped-controlled-chaos-2-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.233,
+      "lengthIn": 1.39,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-155-grain-tipped-controlled-chaos-2-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-19358180tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".358 diameter, 180 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19358180TCC",
+      "alternateSkus": [],
+      "caliber": ".35 Whelen",
+      "diameterIn": 0.358,
+      "weightGr": 180,
+      "bcG1": 0.267,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.267,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/358-diameter-180-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.201,
+      "lengthIn": 1.25,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/358-diameter-180-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05358200cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".358 diameter, 200 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05358200CUSP",
+      "alternateSkus": [],
+      "caliber": ".35 Whelen",
+      "diameterIn": 0.358,
+      "weightGr": 200,
+      "bcG1": 0.326,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.326,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/358-diameter-200-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.233,
+      "lengthIn": 1.238,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/358-diameter-200-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.233 differs from weight and diameter (0.223). The published value was kept."
+      ],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-19358200tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".358 diameter, 200 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19358200TCC",
+      "alternateSkus": [],
+      "caliber": ".35 Whelen",
+      "diameterIn": 0.358,
+      "weightGr": 200,
+      "bcG1": 0.331,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.331,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/358-diameter-200-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.223,
+      "lengthIn": 1.335,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/358-diameter-200-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-04375270sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Wide Flat Nose",
+      "name": ".375 diameter, 270 grain Wide Flat Nose Bullets (50 count)",
+      "sku": "04375270SP",
+      "alternateSkus": [],
+      "caliber": ".375 Ruger; .375 H&H Magnum",
+      "diameterIn": 0.375,
+      "weightGr": 270,
+      "bcG1": 0.279,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.279,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/375-diameter-270-grain-wide-flat-nose-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.3,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.696,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/375-diameter-270-grain-wide-flat-nose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Meplat Diameter is 0.220\". Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-02375270sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".375 diameter, 270 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02375270SP",
+      "alternateSkus": [],
+      "caliber": ".375 Winchester; .375 H&H Magnum",
+      "diameterIn": 0.375,
+      "weightGr": 270,
+      "bcG1": 0.274,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.274,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/375-diameter-270-grain-controlled-fracturing-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.274,
+      "lengthIn": 1.43,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.68,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 12,
+      "twistRateNote": "1:12",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/375-diameter-270-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1200 fps."
+    },
+    {
+      "id": "lehigh-defense-02375185sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".375 diameter, 185 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02375185SP",
+      "alternateSkus": [],
+      "caliber": ".375 Winchester; .375 Ruger; .375 H&H Magnum; 375 JDJ",
+      "diameterIn": 0.375,
+      "weightGr": 185,
+      "bcG1": 0.19,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.19,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/375-diameter-185-grain-controlled-fracturing-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.188,
+      "lengthIn": 1.08,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.68,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 15,
+      "twistRateNote": "1:15",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/375-diameter-185-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1200 fps."
+    },
+    {
+      "id": "lehigh-defense-02357125spr",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".357 diameter, 125 grain Controlled Fracturing Bullets, Rifle or Handgun (50 count)",
+      "sku": "02357125SPR",
+      "alternateSkus": [],
+      "caliber": ".38 Special; .357 Magnum",
+      "diameterIn": 0.357,
+      "weightGr": 125,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.14,
+      "lengthIn": 0.725,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/357-diameter-125-grain-controlled-fracturing-bullets-50-count-02357125spr",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Flat point, can be used in both handguns and rifles, not optimal for usage with revolver speed loaders. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic."
+    },
+    {
+      "id": "lehigh-defense-01355118sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Maximum Expansion",
+      "name": ".355 diameter, 118 grain Maximum Expansion Bullets (50 count)",
+      "sku": "01355118SP",
+      "alternateSkus": [],
+      "caliber": ".38 Super",
+      "diameterIn": 0.355,
+      "weightGr": 118,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.736,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/355-diameter-118-grain-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic."
+    },
+    {
+      "id": "lehigh-defense-04416350sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Wide Flat Nose",
+      "name": ".416 diameter, 350 grain Wide Flat Nose Bullets (50 count)",
+      "sku": "04416350SP",
+      "alternateSkus": [],
+      "caliber": ".416 Remington Magnum; .416 Rigby",
+      "diameterIn": 0.416,
+      "weightGr": 350,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/416-diameter-350-grain-wide-flat-nose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-09458325sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Defense",
+      "name": ".458 diameter, 325 grain Xtreme Defense Bullets (50 count)",
+      "sku": "09458325SP",
+      "alternateSkus": [],
+      "caliber": ".45-70 Government",
+      "diameterIn": 0.458,
+      "weightGr": 325,
+      "bcG1": 0.23,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.23,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-325-grain-xtreme-defense-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.221,
+      "lengthIn": 1.13,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.429,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-325-grain-xtreme-defense-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-09458225sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Defense",
+      "name": ".458 diameter, 225 grain Xtreme Defense Bullets (50 count)",
+      "sku": "09458225SP",
+      "alternateSkus": [],
+      "caliber": ".45-70 Government; .458 SOCOM; .458 Winchester Magnum; .458 Lott",
+      "diameterIn": 0.458,
+      "weightGr": 225,
+      "bcG1": 0.174,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.174,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-225-grain-xtreme-defense-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.153,
+      "lengthIn": 0.845,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.446,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-225-grain-xtreme-defense-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Can also be used for 450 Marlin. FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-07458305sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Penetrator",
+      "name": ".458 diameter, 305 grain Xtreme Penetrator Bullets (50 count)",
+      "sku": "07458305SP",
+      "alternateSkus": [],
+      "caliber": ".45-70 Government; .458 SOCOM; .458 Winchester Magnum; .458 Lott",
+      "diameterIn": 0.458,
+      "weightGr": 305,
+      "bcG1": 0.195,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.195,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-305-grain-xtreme-penetrator-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.208,
+      "lengthIn": 1.1,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.452,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-305-grain-xtreme-penetrator-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Can also be used for 450 Marlin. FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-04458380sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Wide Flat Nose",
+      "name": ".458 diameter, 380 grain Wide Flat Nose Bullets (50 count)",
+      "sku": "04458380SP",
+      "alternateSkus": [],
+      "caliber": ".45-70 Government; .458 Winchester Magnum",
+      "diameterIn": 0.458,
+      "weightGr": 380,
+      "bcG1": 0.259,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.259,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-380-grain-wide-flat-nose-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.259,
+      "lengthIn": 1.13,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.425,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 30,
+      "twistRateNote": "1:30",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-380-grain-wide-flat-nose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Meplat diameter is 0.346\". Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-02452250sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".452 diameter, 250 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02452250SP",
+      "alternateSkus": [],
+      "caliber": ".450 Bushmaster",
+      "diameterIn": 0.452,
+      "weightGr": 250,
+      "bcG1": 0.15,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.15,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/452-diameter-250-grain-controlled-fracturing-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.175,
+      "lengthIn": 0.88,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 34,
+      "twistRateNote": "1:34",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/452-diameter-250-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-04458450sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Wide Flat Nose",
+      "name": ".458 diameter, 450 grain Wide Flat Nose Bullets (25 count)",
+      "sku": "04458450SP",
+      "alternateSkus": [],
+      "caliber": ".458 Lott; .458 Winchester Magnum",
+      "diameterIn": 0.458,
+      "weightGr": 450,
+      "bcG1": 0.285,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.285,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-450-grain-wide-flat-nose-bullets-25-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.306,
+      "lengthIn": 1.42,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.76,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-450-grain-wide-flat-nose-bullets-25-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Meplat diameter is 0.279\". Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-09458250sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Defense",
+      "name": ".458 diameter, 250 grain Xtreme Defense Bullets (50 count)",
+      "sku": "09458250SP",
+      "alternateSkus": [],
+      "caliber": ".458 SOCOM",
+      "diameterIn": 0.458,
+      "weightGr": 250,
+      "bcG1": 0.194,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.194,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-250-grain-xtreme-defense-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.17,
+      "lengthIn": 0.93,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.545,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-250-grain-xtreme-defense-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-02458300sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".458 diameter, 300 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02458300SP",
+      "alternateSkus": [],
+      "caliber": ".458 SOCOM",
+      "diameterIn": 0.458,
+      "weightGr": 300,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.204,
+      "lengthIn": 1.1,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-300-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic."
+    },
+    {
+      "id": "lehigh-defense-07458302sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Penetrator",
+      "name": ".458 diameter, 302 grain Xtreme Penetrator Bullets (50 count)",
+      "sku": "07458302SP",
+      "alternateSkus": [],
+      "caliber": ".458 SOCOM",
+      "diameterIn": 0.458,
+      "weightGr": 302,
+      "bcG1": 0.211,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.211,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/458-diameter-302-grain-xtreme-penetrator-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.206,
+      "lengthIn": 1.1,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.645,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/458-diameter-302-grain-xtreme-penetrator-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Best supersonic .458 SOCOM bullet! FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 1250 fps."
+    },
+    {
+      "id": "lehigh-defense-07475300sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Penetrator",
+      "name": ".475 diameter, 300 grain Xtreme Penetrator Bullets (50 count)",
+      "sku": "07475300SP",
+      "alternateSkus": [],
+      "caliber": ".480 Ruger; .475 Linebaugh",
+      "diameterIn": 0.475,
+      "weightGr": 300,
+      "bcG1": 0.223,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.223,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/475-diameter-300-grain-xtreme-penetrator-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.19,
+      "lengthIn": 0.895,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.32,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/475-diameter-300-grain-xtreme-penetrator-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "FTM - Fluid Transfer Monolithic. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-04475330sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Wide Flat Nose",
+      "name": ".475 diameter, 330 grain Wide Flat Nose Bullets (50 count)",
+      "sku": "04475330SP",
+      "alternateSkus": [],
+      "caliber": ".480 Ruger; .475 Linebaugh",
+      "diameterIn": 0.475,
+      "weightGr": 330,
+      "bcG1": 0.182,
+      "bcG7": 0.093,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.182,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/475-diameter-330-grain-wide-flat-nose-bullets-50-count"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.093,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/475-diameter-330-grain-wide-flat-nose-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.209,
+      "lengthIn": 0.91,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.34,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 38,
+      "twistRateNote": "1:38",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/475-diameter-330-grain-wide-flat-nose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 750 fps."
+    },
+    {
+      "id": "lehigh-defense-04510720sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Match Solid",
+      "name": ".510 diameter, 720 grain Match Solid Bullets (20 count)",
+      "sku": "04510720SP",
+      "alternateSkus": [],
+      "caliber": ".50 BMG",
+      "diameterIn": 0.51,
+      "weightGr": 720,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/510-diameter-720-grain-match-solid-bullets-20-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05224072cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".224 diameter, 72 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05224072CUSP",
+      "alternateSkus": [],
+      "caliber": "22 ARC",
+      "diameterIn": 0.224,
+      "weightGr": 72,
+      "bcG1": 0.356,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.356,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/224-diameter-72-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.205,
+      "lengthIn": 1.125,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.655,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 7,
+      "twistRateNote": "1:7",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/224-diameter-72-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-19257112tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".257 diameter, 112 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19257112TCC",
+      "alternateSkus": [],
+      "caliber": "25 Creedmoor",
+      "diameterIn": 0.257,
+      "weightGr": 112,
+      "bcG1": 0.46,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.46,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/257-diameter-112-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.242,
+      "lengthIn": 1.41,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.782,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "target",
+        "tactical",
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8 and faster",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/257-diameter-112-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05257102cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".257 diameter, 102 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05257102CUSP",
+      "alternateSkus": [],
+      "caliber": "25 Creedmoor; .25-06 Remington; .257 Weatherby Magnum",
+      "diameterIn": 0.257,
+      "weightGr": 102,
+      "bcG1": 0.387,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.387,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/257-diameter-102-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.221,
+      "lengthIn": 1.18,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.6,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/257-diameter-102-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05308140cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 140 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308140CUSP",
+      "alternateSkus": [],
+      "caliber": "30-30 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 140,
+      "bcG1": 0.224,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.224,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-140-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.211,
+      "lengthIn": 1.085,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.48,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-140-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Can also be used for loading 30-30 Ackley Imp, 309 JDJ, and 302 Whisper. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-07308147sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Penetrator",
+      "name": ".308 diameter, 147 grain Xtreme Penetrator Bullets (50 count)",
+      "sku": "07308147SP",
+      "alternateSkus": [],
+      "caliber": "30-30 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 147,
+      "bcG1": 0.201,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.201,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-147-grain-xtreme-penetrator-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.085,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-147-grain-xtreme-penetrator-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic."
+    },
+    {
+      "id": "lehigh-defense-01308194lhp3",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Maximum Expansion",
+      "name": ".308 diameter, 194 grain Maximum Expansion Bullets (50 count)",
+      "sku": "01308194LHP3",
+      "alternateSkus": [],
+      "caliber": "300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 194,
+      "bcG1": 0.545,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.545,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-194-grain-maximum-expansion-bullets-50-count-01308194lhp3"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.292,
+      "lengthIn": 1.545,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-194-grain-maximum-expansion-bullets-50-count-01308194lhp3",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Subsonic usage only. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Subsonic."
+    },
+    {
+      "id": "lehigh-defense-02308195cflp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".308 diameter, 195 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02308195CFLP",
+      "alternateSkus": [],
+      "caliber": "300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 195,
+      "bcG1": 0.504,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.504,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-195-grain-controlled-fracturing-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.294,
+      "lengthIn": 1.6,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-195-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Subsonic."
+    },
+    {
+      "id": "lehigh-defense-05308115cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 115 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308115CUSP",
+      "alternateSkus": [],
+      "caliber": "300 Blackout; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 115,
+      "bcG1": 0.284,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.284,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-115-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.173,
+      "lengthIn": 1.065,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.693,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-115-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Awesome performance!. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-18308130txcspb",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos Special Purpose",
+      "name": ".308 diameter, 130 grain Tipped Xtreme Chaos Special Purpose Bullets (50 count)",
+      "sku": "18308130TXCSPB",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 130,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-130-grain-tipped-xtreme-chaos-special-purpose-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": null
+    },
+    {
+      "id": "lehigh-defense-19308110tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".308 diameter, 110 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19308110TCC",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 110,
+      "bcG1": 0.252,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.252,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-110-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.166,
+      "lengthIn": 1,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-110-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 1850 fps."
+    },
+    {
+      "id": "lehigh-defense-20308115tme",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Maximum Expansion",
+      "name": ".308 diameter, 115 grain Tipped Maximum Expansion Bullets (50 count)",
+      "sku": "20308115TME",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 115,
+      "bcG1": 0.266,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.266,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-115-grain-tipped-maximum-expansion-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.173,
+      "lengthIn": 1.065,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-115-grain-tipped-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-18308115txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".308 diameter, 115 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18308115TXC",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 115,
+      "bcG1": 0.25,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.25,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-115-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.173,
+      "lengthIn": 1.085,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-115-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-19308125tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".308 diameter, 125 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19308125TCC",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout",
+      "diameterIn": 0.308,
+      "weightGr": 125,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.09,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-125-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05308125cusp3",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 125 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308125CUSP3",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout; .300 Winchester Magnum; 30-30 Winchester; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 125,
+      "bcG1": 0.285,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.285,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-125-grain-controlled-chaos-bullets-50-count-05308125cusp3"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.188,
+      "lengthIn": 0.99,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-125-grain-controlled-chaos-bullets-50-count-05308125cusp3",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "This projectile is not designed for use in tubular-style magazines (e.g., 30-30 Winchester). Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05308110cusp3",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".308 diameter, 110 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05308110CUSP3",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 110,
+      "bcG1": 0.267,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.267,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-110-grain-controlled-chaos-bullets-50-count-05308110cusp3"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.166,
+      "lengthIn": 0.895,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-110-grain-controlled-chaos-bullets-50-count-05308110cusp3",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Improved performance rev. 3. Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive."
+    },
+    {
+      "id": "lehigh-defense-17308125xc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Xtreme Chaos",
+      "name": ".308 diameter, 125 grain Xtreme Chaos Bullets (50 count)",
+      "sku": "17308125XC",
+      "alternateSkus": [],
+      "caliber": "300 HAM'R; 300 Blackout; .308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 125,
+      "bcG1": 0.245,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.245,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/308-diameter-125-grain-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 1.045,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/308-diameter-125-grain-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05355150cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".355 diameter, 150 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05355150CUSP",
+      "alternateSkus": [],
+      "caliber": "350 Legend",
+      "diameterIn": 0.355,
+      "weightGr": 150,
+      "bcG1": 0.179,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.179,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/355-diameter-150-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.905,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/355-diameter-150-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-01355150sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Maximum Expansion",
+      "name": ".355 diameter, 150 grain Maximum Expansion Bullets (50 count)",
+      "sku": "01355150SP",
+      "alternateSkus": [],
+      "caliber": "350 Legend",
+      "diameterIn": 0.355,
+      "weightGr": 150,
+      "bcG1": 0.199,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.199,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/355-diameter-150-grain-maximum-expansion-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.17,
+      "lengthIn": 0.885,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/355-diameter-150-grain-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Minimum impact velocity printed as 1600 fps."
+    },
+    {
+      "id": "lehigh-defense-05355165cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".356 diameter, 165 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05355165CUSP",
+      "alternateSkus": [],
+      "caliber": "350 Legend",
+      "diameterIn": 0.356,
+      "weightGr": 165,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": 0.975,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/356-diameter-165-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-19264120tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".264 diameter, 120 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19264120TCC",
+      "alternateSkus": [],
+      "caliber": "6.5mm Creedmoor",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.475,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.475,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-120-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": 1.42,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-120-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-20264120tme",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Maximum Expansion",
+      "name": ".264 diameter, 120 grain Tipped Maximum Expansion Bullets (50 count)",
+      "sku": "20264120TME",
+      "alternateSkus": [],
+      "caliber": "6.5mm Creedmoor",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.469,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.469,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-120-grain-tipped-maximum-expansion-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-120-grain-tipped-maximum-expansion-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-05264110cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".264 diameter, 110 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05264110CUSP",
+      "alternateSkus": [],
+      "caliber": "6.5mm Grendel",
+      "diameterIn": 0.264,
+      "weightGr": 110,
+      "bcG1": 0.405,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.405,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-110-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.225,
+      "lengthIn": 1.23,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.69,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-110-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-04264110sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Match Solid",
+      "name": ".264 diameter, 110 grain Match Solid Bullets (50 count)",
+      "sku": "04264110SP",
+      "alternateSkus": [],
+      "caliber": "6.5mm Grendel",
+      "diameterIn": 0.264,
+      "weightGr": 110,
+      "bcG1": 0.405,
+      "bcG7": 0.208,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.405,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-110-grain-match-solid-bullets-50-count"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.208,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/264-diameter-110-grain-match-solid-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.225,
+      "lengthIn": 1.222,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.69,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/264-diameter-110-grain-match-solid-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05277112cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".277 diameter, 112 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05277112CUSP",
+      "alternateSkus": [],
+      "caliber": "6.8mm Remington SPC",
+      "diameterIn": 0.277,
+      "weightGr": 112,
+      "bcG1": 0.335,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.335,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/277-diameter-112-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.209,
+      "lengthIn": 1.08,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.538,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": 11,
+      "twistRateNote": "1:11",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/277-diameter-112-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05277098cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".277 diameter, 98 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05277098CUSP",
+      "alternateSkus": [],
+      "caliber": "6.8mm Remington SPC; .270 Winchester",
+      "diameterIn": 0.277,
+      "weightGr": 98,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.182,
+      "lengthIn": 0.97,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/277-diameter-98-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic."
+    },
+    {
+      "id": "lehigh-defense-19243090tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".243 diameter, 90 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19243090TCC",
+      "alternateSkus": [],
+      "caliber": "6mm ARC; 6mm Creedmoor",
+      "diameterIn": 0.243,
+      "weightGr": 90,
+      "bcG1": 0.381,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.381,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/243-diameter-90-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.218,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.675,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "target",
+        "tactical",
+        "hunting"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8 faster",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/243-diameter-90-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-05311123cusp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Chaos",
+      "name": ".311 diameter, 123 grain Controlled Chaos Bullets (50 count)",
+      "sku": "05311123CUSP",
+      "alternateSkus": [],
+      "caliber": "7.62x39mm Russian",
+      "diameterIn": 0.311,
+      "weightGr": 123,
+      "bcG1": 0.286,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.286,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/311-diameter-123-grain-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.182,
+      "lengthIn": 1.06,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.625,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "tactical",
+        "hunting",
+        "defense"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/311-diameter-123-grain-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-04311150sp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Match Solid",
+      "name": ".311 diameter, 150 grain Match Solid Bullets (50 count)",
+      "sku": "04311150SP",
+      "alternateSkus": [],
+      "caliber": "7.62x39mm Russian",
+      "diameterIn": 0.311,
+      "weightGr": 150,
+      "bcG1": 0.51,
+      "bcG7": 0.262,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.51,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/311-diameter-150-grain-match-solid-bullets-50-count"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.262,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/311-diameter-150-grain-match-solid-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.222,
+      "lengthIn": 1.3,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.815,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "monolithic",
+        "solid"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/311-diameter-150-grain-match-solid-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Supersonic. Minimum impact velocity printed as 1500 fps."
+    },
+    {
+      "id": "lehigh-defense-19284160tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".284 diameter, 160 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19284160TCC",
+      "alternateSkus": [],
+      "caliber": "7mm Remington Magnum",
+      "diameterIn": 0.284,
+      "weightGr": 160,
+      "bcG1": 0.496,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.496,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/284-diameter-160-grain-tipped-controlled-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.283,
+      "lengthIn": 1.51,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/284-diameter-160-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-19284135tcc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Controlled Chaos",
+      "name": ".284 diameter, 135 grain Tipped Controlled Chaos Bullets (50 count)",
+      "sku": "19284135TCC",
+      "alternateSkus": [],
+      "caliber": "7mm-08 Remington",
+      "diameterIn": 0.284,
+      "weightGr": 135,
+      "bcG1": null,
+      "bcG7": null,
+      "ballisticCoefficients": [],
+      "bcSource": null,
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.359,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/284-diameter-135-grain-tipped-controlled-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.277 differs from weight and diameter (0.239). The published value was kept."
+      ],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-18284135txc",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Tipped Xtreme Chaos",
+      "name": ".284 diameter, 135 grain Tipped Xtreme Chaos Bullets (50 count)",
+      "sku": "18284135TXC",
+      "alternateSkus": [],
+      "caliber": "7mm-08 Remington",
+      "diameterIn": 0.284,
+      "weightGr": 135,
+      "bcG1": 0.43,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.43,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/284-diameter-135-grain-tipped-xtreme-chaos-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.277,
+      "lengthIn": 1.381,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "polymer_tip"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/284-diameter-135-grain-tipped-xtreme-chaos-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.277 differs from weight and diameter (0.239). The published value was kept."
+      ],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free."
+    },
+    {
+      "id": "lehigh-defense-02338300lp",
+      "manufacturer": "Lehigh Defense",
+      "productLine": "Controlled Fracturing",
+      "name": ".338 diameter, 300 grain Controlled Fracturing Bullets (50 count)",
+      "sku": "02338300LP",
+      "alternateSkus": [],
+      "caliber": "8.6 Blackout",
+      "diameterIn": 0.338,
+      "weightGr": 300,
+      "bcG1": 0.561,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.561,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://wilsoncombat.com/338-diameter-300-grain-controlled-fracturing-bullets-50-count"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.452,
+      "lengthIn": 1.85,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": 0.758,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": "copper",
+      "intendedUse": [
+        "target",
+        "tactical",
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10 and faster",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://wilsoncombat.com/338-diameter-300-grain-controlled-fracturing-bullets-50-count",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Lehigh Defense",
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+        }
+      ],
+      "conflicts": [
+        "Published sectional density 0.452 differs from weight and diameter (0.375). The published value was kept."
+      ],
+      "notes": "Manufacturing process printed as CNC. Lead-free field printed as Is lead free. Velocity range printed as Subsonic. Velocity sensitivity printed as Is velocity sensitive. Minimum impact velocity printed as 850 fps."
     },
     {
       "id": "nosler-41232",
