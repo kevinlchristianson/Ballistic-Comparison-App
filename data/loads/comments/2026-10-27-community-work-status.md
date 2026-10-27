@@ -10,7 +10,7 @@ This file is the community-line status. It is not a question. [`../STATUS.md`](.
 
 Community-reported loads for every Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet.
 
-The bullet in this pull request is the 7 mm 190 gr Long Range Hybrid Target, part 28485 — [#96](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/96).
+The bullet in this pull request is the 30 cal 155 gr Hybrid Target, part 30426 — [#97](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/97).
 
 ## Done
 
@@ -26,28 +26,28 @@ Merged community files, with the pull request number:
 - 6.5 mm 153.5 gr Long Range Hybrid Target, part 26486 — [#85](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/85)
 - 7 mm 180 gr Hybrid Target, part 28407 — [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90)
 - 7 mm 184 gr F-Open Hybrid Target, part 28408 — [#93](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/93)
+- 7 mm 190 gr Long Range Hybrid Target, part 28485 — [#96](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/96)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 190 gr file merges:
+After the 155 gr file merges:
 
-1. 30 cal 155 gr Hybrid Target, part 30426
-2. 30 cal 168 gr Hybrid Target, part 30425
-3. 30 cal 185 gr Hybrid Target, part 30424
-4. 30 cal 200 gr Hybrid Target, part 30427
-5. 30 cal 200.20x Hybrid Target, part 30417 (catalog weight is blank; store the printed 200.20)
-6. 30 cal 208 gr Long Range Hybrid Target, part 30485
-7. 30 cal 215 gr Hybrid Target, part 30429
-8. 30 cal 220 gr Long Range Hybrid Target, part 30486
-9. 30 cal 230 gr Hybrid Target, part 30430
-10. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
-11. 375 cal 410 gr Hybrid Target, part 37401
+1. 30 cal 168 gr Hybrid Target, part 30425
+2. 30 cal 185 gr Hybrid Target, part 30424
+3. 30 cal 200 gr Hybrid Target, part 30427
+4. 30 cal 200.20x Hybrid Target, part 30417 (catalog weight is blank; store the printed 200.20)
+5. 30 cal 208 gr Long Range Hybrid Target, part 30485
+6. 30 cal 215 gr Hybrid Target, part 30429
+7. 30 cal 220 gr Long Range Hybrid Target, part 30486
+8. 30 cal 230 gr Hybrid Target, part 30430
+9. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
+10. 375 cal 410 gr Hybrid Target, part 37401
 
-## Upcoming, not started
+## Hammer Bullets import, started elsewhere
 
-Hammer Bullets manufacturer load-sheet import: 212 public Google Sheets. It comes after this Hybrid Target line. Do not start it from the community harvest.
+The Hammer Bullets manufacturer load-sheet import has started in a separate cloud agent, `bc-a55c903a-0bd2-5c85-ac64-a64ddbce9f52`. That agent is writing `data/loads/sources/hammer.json`, `data/loads/inputs/hammer/`, and `data/loads/comments/2026-10-27-hammer-terms.md`. This community harvest does not touch those paths.
 
 ## Unmatched names for the Load Data Database bot
 
@@ -78,6 +78,6 @@ These spellings are in the merged Hybrid Target community files and still do not
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
-The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`, `Straight .284`, `straight .284`, `7mm SAUM AI`, `7-300wsm`, `7/300 wsm`, `7/300wsm`, and `7mm-300 wsm`.
+The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`, `Straight .284`, `straight .284`, `7mm SAUM AI`, `7-300wsm`, `7/300 wsm`, `7/300wsm`, and `7mm-300 wsm`. The 30 cal 155 gr file adds no unmatched name. `.308` resolves to `308-win`.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
