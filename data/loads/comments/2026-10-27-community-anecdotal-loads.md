@@ -1,6 +1,6 @@
 # Community loads have no anecdotal flag
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: How to mark a user-compiled anecdotal load file
 
@@ -23,3 +23,15 @@ One cell is a plain OAL: `3.975" OAL` on the 300 RUM / N570 / 92.0 gr row. `CBTO
 Leave schema 1.0.0 unchanged. The source name is `Community-reported loads compiled by Kevin Christianson (2026-10-27)`. Every `notes` string says the row is a community-reported anecdotal load, not a published manufacturer load. Do not add these rows to a manufacturer file. Do not edit `data/site-config.json`. If these rows should stay off the public Load data tab, exclude that source name. Until then the app will publish them with the other catalogs, because `excludedLoadSources` is empty and `loadRows` is `full`.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #29, merged to main). The working assumption is agreed, with these decisions:
+
+The catalog stays schema 1.0.0, and `sources/community-245gr-30cal.json` stays as built. This file is the pattern for later community compilations.
+
+The marker is the source name. A load source whose name starts with `Community` is community reports. This file's name is `Community-reported loads compiled by Kevin Christianson (2026-10-27)`. The app tags those rows as community reports, shows `sourcePage` beside the link, and uses them in estimates. Every row is published. This bot does not edit `data/site-config.json` or `data/user/`. Site submissions in `data/user/` are not copied into this catalog.
+
+Values the schema cannot hold stay in `notes` as `Velocity_fps: <text>` and `Charge_gr: <text>`, separated by `; `. A single number or a `~` value is an approximate velocity. A range is displayed from its middle and is not used in estimates. A row with no velocity text is shown without a velocity. `chargeLevel` stays null when `charge` is null.
+
+One file per compilation. `source.url` and each `sourceUrl` point at the kept input CSV. The outlet name stays in `sourcePage`.
+
+If a community row names a cartridge the library lacks, this bot writes a comment naming it and does not rename the cartridge. Checked on 2026-10-27 after PR #29: every name in this file resolves. `300 NMI`, `300 NMI (Improved)`, and `.30 R Blaser` are in the library. `300 PRC +P` and `300 Norma Mag (factory)` are aliases. `300 PRC`, `300 Norma Mag`, `300 RUM`, `300 Win Mag`, and `30-06` were already there. No cartridge comment is needed for this compilation.
