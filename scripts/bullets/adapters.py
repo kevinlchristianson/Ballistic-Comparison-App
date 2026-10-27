@@ -2048,6 +2048,199 @@ def _ppu_rows(page: str, caliber: str, list_url: str, list_name: str) -> list[di
     return bullets
 
 
+SAKO_PDF = (
+    "https://media.sako.global/image/upload/v1716205194/"
+    "Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+)
+SAKO_COMPONENTS = "https://www.sako.global/series/reloading-components"
+_SAKO_NAME = re.compile(r"SAKO\s+([A-Z]+(?:\s+[A-Z]+)*)\s+(\d{3}[A-Z])$")
+_SAKO_WEIGHT = re.compile(r"Weight\s+(.+?)\s+Ballistic Coefficient\s+(\d+(?:\.\d+)?)")
+_SAKO_TYPE = re.compile(r"Bullet Type\s+(.+?)\s+Sectional density\s+(\d+(?:[.,]\d+)?)")
+_SAKO_DIA = re.compile(r"Diameter:\s*(\d+,\d+)\s*(mm|[\"”])")
+_SAKO_GRAINS = re.compile(r"/\s*(\d+(?:[.,]\d+)?)\s*gr\b", re.I)
+_SAKO_PISTOL = re.compile(r"\b9\s*mm\b|\b10\s*mm\b|\.45\b|\.40\b|\.380\b|\.357\b|\.44\b|\.38\b", re.I)
+
+
+def _sako_title(raw: str) -> str:
+    return " ".join(word if word == "RX" else word.capitalize() for word in raw.split())
+
+
+def _sako_chunks(page) -> list[tuple[float, float, str]]:
+    found: list[tuple[float, float, str]] = []
+
+    def visitor(text, cm, tm, font_dict, font_size):
+        if text and text.strip():
+            found.append((tm[5], tm[4], " ".join(text.replace("\n", " ").split())))
+
+    page.extract_text(visitor_text=visitor)
+    return found
+
+
+def _sako_page_rows(page) -> list[dict]:
+    chunks = _sako_chunks(page)
+    labels = [
+        (y, text)
+        for y, x, text in chunks
+        if x < 40 and y > 500 and "Disclaimer" not in text
+    ]
+    labels.sort(key=lambda item: -item[0])
+    diameter = None
+    for _y, _x, text in chunks:
+        match = _SAKO_DIA.search(text)
+        if match:
+            diameter = match
+    if not labels or diameter is None:
+        raise RuntimeError("Sako PDF page is missing the cartridge name or the diameter line")
+    cartridge = labels[0][1]
+    subtitle = labels[1][1] if len(labels) > 1 else None
+    if _SAKO_PISTOL.search(cartridge):
+        return []
+    names: list[tuple[float, str, str]] = []
+    weights: list[tuple[float, str, str]] = []
+    types: list[tuple[float, str, str]] = []
+    for y, _x, text in chunks:
+        name = _SAKO_NAME.search(text)
+        if name and "METRIC" not in text:
+            if not any(abs(y - prior[0]) < 2 and prior[2] == name.group(2) for prior in names):
+                names.append((y, name.group(1), name.group(2)))
+        weight = _SAKO_WEIGHT.search(text)
+        if weight:
+            weights.append((y, weight.group(1), weight.group(2)))
+        kind = _SAKO_TYPE.search(text)
+        if kind:
+            types.append((y, kind.group(1), kind.group(2)))
+    unit = "mm" if diameter.group(2) == "mm" else "in"
+    printed = diameter.group(0).split(":", 1)[1].strip().replace("\u201d", '"').replace("\u201c", '"')
+    rows = []
+    for y, line, sku in names:
+        weight = min(weights, key=lambda item: abs(item[0] - y), default=None)
+        kind = min(types, key=lambda item: abs(item[0] - y), default=None)
+        if weight is None or kind is None or abs(weight[0] - y) > 30 or abs(kind[0] - y) > 30:
+            raise RuntimeError(f"Sako bullet {sku} on {cartridge} is missing its component header")
+        grains = _SAKO_GRAINS.search(weight[1])
+        if grains is None:
+            raise RuntimeError(f"Sako bullet {sku} weight has no grains: {weight[1]}")
+        rows.append(
+            {
+                "sku": sku,
+                "line": line,
+                "weight_text": weight[1],
+                "grains": as_number(parse_number(grains.group(1))),
+                "bc": as_number(parse_number(weight[2])),
+                "bullet_type": kind[1],
+                "sd": as_number(parse_number(kind[2])),
+                "diameter_unit": unit,
+                "diameter_printed": printed,
+                "diameter_in": as_number(parse_number(diameter.group(1))) if unit == "in" else None,
+                "cartridge": cartridge,
+                "subtitle": subtitle,
+            }
+        )
+    if not rows:
+        raise RuntimeError(f"Sako PDF page {cartridge} printed a diameter and no bullet header")
+    return rows
+
+
+def _sako_merge(rows: list[dict]) -> list[dict]:
+    merged: dict[str, dict] = {}
+    order: list[str] = []
+    compared = ("line", "weight_text", "grains", "bc", "bullet_type", "sd", "diameter_printed", "diameter_in")
+    for row in rows:
+        sku = row["sku"]
+        if sku not in merged:
+            kept = dict(row)
+            kept["cartridges"] = [row["cartridge"]]
+            kept["subtitles"] = {}
+            if row["subtitle"]:
+                kept["subtitles"][row["cartridge"]] = row["subtitle"]
+            merged[sku] = kept
+            order.append(sku)
+            continue
+        kept = merged[sku]
+        for field in compared:
+            if kept[field] != row[field]:
+                raise RuntimeError(f"Sako {sku} {field} disagrees: {kept[field]!r} vs {row[field]!r}")
+        if row["cartridge"] not in kept["cartridges"]:
+            kept["cartridges"].append(row["cartridge"])
+        if row["subtitle"]:
+            previous = kept["subtitles"].get(row["cartridge"])
+            if previous not in (None, row["subtitle"]):
+                raise RuntimeError(f"Sako {sku} subtitle disagrees: {previous!r} vs {row['subtitle']!r}")
+            kept["subtitles"][row["cartridge"]] = row["subtitle"]
+    return [merged[sku] for sku in order]
+
+
+def _sako_bullet(row: dict) -> dict:
+    line = _sako_title(row["line"])
+    bullet = blank_bullet(
+        "Sako",
+        f"{line} {row['sku']}",
+        SAKO_PDF,
+        "Sako",
+        "Component header in the Sako reloading-data PDF linked from "
+        f"{SAKO_COMPONENTS}. The header ballistic coefficient is the G1 value "
+        "measured from 10 m to 100 m. Powder charges, cartridge overall length, "
+        "and the test-barrel twist are not stored.",
+    )
+    bullet["productLine"] = line
+    bullet["sku"] = row["sku"]
+    bullet["weightGr"] = row["grains"]
+    bullet["sectionalDensity"] = row["sd"]
+    if len(row["cartridges"]) == 1:
+        bullet["caliber"] = row["cartridges"][0]
+    add_bc(bullet, "G1", row["bc"], "manufacturer", SAKO_PDF, "G1")
+    add_construction(bullet, row["bullet_type"])
+    if re.search(r"hollowpoint", row["bullet_type"], re.I) and "hollow_point" not in bullet["construction"]:
+        bullet["construction"].append("hollow_point")
+    if re.search(r"expanding", row["bullet_type"], re.I) and "expanding" not in bullet["construction"]:
+        bullet["construction"].append("expanding")
+    if re.search(r"copper", row["bullet_type"], re.I):
+        bullet["material"] = "copper"
+    add_uses(bullet, f"{line} {row['bullet_type']}")
+    notes = [f"Weight printed as {row['weight_text']}."]
+    if row["diameter_unit"] == "in":
+        notes.append(
+            f"Diameter {row['diameter_in']} copied from the printed load-data line "
+            f"Diameter: {row['diameter_printed']}."
+        )
+        bullet["diameterIn"] = row["diameter_in"]
+    else:
+        notes.append(f"Diameter printed as {row['diameter_printed']}. Not converted to inches.")
+    for cartridge, subtitle in row["subtitles"].items():
+        notes.append(f"{cartridge} is also printed as {subtitle}.")
+    if len(row["cartridges"]) > 1:
+        listed = ", ".join(row["cartridges"][:-1]) + " and " + row["cartridges"][-1]
+        notes.append(f"Listed under {listed}.")
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_sako() -> dict:
+    """Rifle component headers from Sako's own reloading-data PDF.
+
+    sako.global publishes the PDF from the reloading-components page. That
+    site has a privacy policy and a copyright footer, and /terms is a 404.
+    The PDF itself has a reloading-safety disclaimer and no reproduction ban.
+    sakostore.com is a different shop and is not read. Powder charges stay out.
+    """
+    import io
+
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        raise RuntimeError("scrape_sako needs pypdf. Install it with pip install pypdf.") from exc
+    print("sako: reloading-data PDF component headers")
+    reader = PdfReader(io.BytesIO(fetch(SAKO_PDF)))
+    rows: list[dict] = []
+    for index, page in enumerate(reader.pages, start=1):
+        page_rows = _sako_page_rows(page)
+        print(f"  page {index}: {len(page_rows)} headers")
+        rows.extend(page_rows)
+    bullets = [_sako_bullet(row) for row in _sako_merge(rows)]
+    print(f"  unique component bullets: {len(bullets)}")
+    return catalog("Sako", bullets)
+
+
 def scrape_ppu() -> dict:
     print("ppu: rifle and rifle-match component search")
     bullets = []
@@ -2110,4 +2303,5 @@ ADAPTERS = {
     "pva": scrape_pva,
     "warner": scrape_warner,
     "ppu": scrape_ppu,
+    "sako": scrape_sako,
 }

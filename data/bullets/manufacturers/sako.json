@@ -1,0 +1,1273 @@
+{
+  "schemaVersion": "1.2.0",
+  "manufacturer": "Sako",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 23,
+  "bullets": [
+    {
+      "id": "sako-657h",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 657H",
+      "sku": "657H",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": null,
+      "weightGr": 120,
+      "bcG1": 0.348,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.348,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 7,8g/120gr. Diameter printed as 6,72 mm. Not converted to inches. 6.5 x 55 is also printed as Swedish Mauser. Listed under 6.5 Creedmoor and 6.5 x 55."
+    },
+    {
+      "id": "sako-211b",
+      "manufacturer": "Sako",
+      "productLine": "Hammerhead",
+      "name": "Hammerhead 211B",
+      "sku": "211B",
+      "alternateSkus": [],
+      "caliber": "270 Win",
+      "diameterIn": 0.277,
+      "weightGr": 156,
+      "bcG1": 0.321,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.321,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.29,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point",
+        "bonded"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 10.1g/156gr. Diameter 0.277 copied from the printed load-data line Diameter: 0,277\"."
+    },
+    {
+      "id": "sako-655b",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 655B",
+      "sku": "655B",
+      "alternateSkus": [],
+      "caliber": "270 Win",
+      "diameterIn": 0.277,
+      "weightGr": 120,
+      "bcG1": 0.34,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.34,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.224,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 7.8/120gr. Diameter 0.277 copied from the printed load-data line Diameter: 0,277\"."
+    },
+    {
+      "id": "sako-129a",
+      "manufacturer": "Sako",
+      "productLine": "Gamehead",
+      "name": "Gamehead 129A",
+      "sku": "129A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 123,
+      "bcG1": 0.25,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.25,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.184,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 8,0g/123gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester and .30-06 Springfield."
+    },
+    {
+      "id": "sako-152a",
+      "manufacturer": "Sako",
+      "productLine": "Gamehead",
+      "name": "Gamehead 152A",
+      "sku": "152A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.304,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.304,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.224,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-153a",
+      "manufacturer": "Sako",
+      "productLine": "Gamehead",
+      "name": "Gamehead 153A",
+      "sku": "153A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.365,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.365,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.269,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-151a",
+      "manufacturer": "Sako",
+      "productLine": "Gamehead Varmint RX",
+      "name": "Gamehead Varmint RX 151A",
+      "sku": "151A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 130,
+      "bcG1": 0.216,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.216,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.194,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "boattail",
+        "hollow_point"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint",
+        "hunting"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 8,4g/130gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-256a",
+      "manufacturer": "Sako",
+      "productLine": "Hammerhead",
+      "name": "Hammerhead 256A",
+      "sku": "256A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.221,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.221,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.269,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point",
+        "bonded"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 11.7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-227a",
+      "manufacturer": "Sako",
+      "productLine": "Hammerhead",
+      "name": "Hammerhead 227A",
+      "sku": "227A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 200,
+      "bcG1": 0.324,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.324,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.299,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point",
+        "bonded"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 13g/200gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-228a",
+      "manufacturer": "Sako",
+      "productLine": "Hammerhead",
+      "name": "Hammerhead 228A",
+      "sku": "228A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 220,
+      "bcG1": 0.376,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.376,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.329,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point",
+        "bonded"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 14,3g/220gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-235a",
+      "manufacturer": "Sako",
+      "productLine": "Super Hammerhead",
+      "name": "Super Hammerhead 235A",
+      "sku": "235A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.273,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.273,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.224,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "bonded",
+        "spitzer"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 9,7g/150gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-236a",
+      "manufacturer": "Sako",
+      "productLine": "Super Hammerhead",
+      "name": "Super Hammerhead 236A",
+      "sku": "236A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.342,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.342,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.269,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "bonded",
+        "spitzer"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 11,7g/180gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-656a",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 656A",
+      "sku": "656A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 162,
+      "bcG1": 0.398,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.398,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.244,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 10,5g/162gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-655a",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 655A",
+      "sku": "655A",
+      "alternateSkus": [],
+      "caliber": ".308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 162,
+      "bcG1": 0.416,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.416,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.244,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 10,5g/162gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\"."
+    },
+    {
+      "id": "sako-633a",
+      "manufacturer": "Sako",
+      "productLine": "Blade X",
+      "name": "Blade X 633A",
+      "sku": "633A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 120,
+      "bcG1": 0.284,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.284,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.18,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 7,8g/120gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester and .30-06 Springfield."
+    },
+    {
+      "id": "sako-657a",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 657A",
+      "sku": "657A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 168,
+      "bcG1": 0.41,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.41,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.256,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 11g/168gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester, .30-06 Springfield and .300 Win Mag."
+    },
+    {
+      "id": "sako-146a",
+      "manufacturer": "Sako",
+      "productLine": "Super Range",
+      "name": "Super Range 146A",
+      "sku": "146A",
+      "alternateSkus": [],
+      "caliber": ".308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 102,
+      "bcG1": 0.235,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.235,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.153,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 6,6g/102gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\"."
+    },
+    {
+      "id": "sako-120a",
+      "manufacturer": "Sako",
+      "productLine": "Speedhead",
+      "name": "Speedhead 120A",
+      "sku": "120A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 123,
+      "bcG1": 0.273,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.273,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.184,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 8,0g/123gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester and .30-06 Springfield."
+    },
+    {
+      "id": "sako-144a",
+      "manufacturer": "Sako",
+      "productLine": "Super Range",
+      "name": "Super Range 144A",
+      "sku": "144A",
+      "alternateSkus": [],
+      "caliber": null,
+      "diameterIn": 0.308,
+      "weightGr": 130,
+      "bcG1": 0.287,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.287,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.194,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 8,4g/130gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\". Listed under .308 Winchester and .30-06 Springfield."
+    },
+    {
+      "id": "sako-147a",
+      "manufacturer": "Sako",
+      "productLine": "Super Range",
+      "name": "Super Range 147A",
+      "sku": "147A",
+      "alternateSkus": [],
+      "caliber": ".308 Winchester",
+      "diameterIn": 0.308,
+      "weightGr": 102,
+      "bcG1": 0.225,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.225,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.153,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "open_tip_match"
+      ],
+      "material": null,
+      "intendedUse": [
+        "match"
+      ],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 6,6g/102gr. Diameter 0.308 copied from the printed load-data line Diameter: 0,308\"."
+    },
+    {
+      "id": "sako-266d",
+      "manufacturer": "Sako",
+      "productLine": "Super Hammerhead",
+      "name": "Super Hammerhead 266D",
+      "sku": "266D",
+      "alternateSkus": [],
+      "caliber": "9,3 x 62",
+      "diameterIn": null,
+      "weightGr": 286,
+      "bcG1": 0.286,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.286,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.305,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point",
+        "bonded"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 18,6g/286gr. Diameter printed as 9,30mm. Not converted to inches."
+    },
+    {
+      "id": "sako-613d",
+      "manufacturer": "Sako",
+      "productLine": "Blade",
+      "name": "Blade 613D",
+      "sku": "613D",
+      "alternateSkus": [],
+      "caliber": "9,3 x 62",
+      "diameterIn": null,
+      "weightGr": 230,
+      "bcG1": 0.342,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.342,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "expanding"
+      ],
+      "material": "copper",
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 14,9g/230gr. Diameter printed as 9,30mm. Not converted to inches."
+    },
+    {
+      "id": "sako-161d",
+      "manufacturer": "Sako",
+      "productLine": "Speedhead",
+      "name": "Speedhead 161D",
+      "sku": "161D",
+      "alternateSkus": [],
+      "caliber": "9,3 x 62",
+      "diameterIn": null,
+      "weightGr": 231,
+      "bcG1": 0.326,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.326,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.246,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://media.sako.global/image/upload/v1716205194/Sako-RELO-kaikki-kaliiperit-checked_kqmd86.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sako",
+          "notes": "Component header in the Sako reloading-data PDF linked from https://www.sako.global/series/reloading-components. The header ballistic coefficient is the G1 value measured from 10 m to 100 m. Powder charges, cartridge overall length, and the test-barrel twist are not stored."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 15g/231gr. Diameter printed as 9,30mm. Not converted to inches."
+    }
+  ]
+}
