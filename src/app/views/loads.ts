@@ -3,7 +3,7 @@
  * it (see `loadRows` in data/site-config.json), including loads users sent
  * to the library, and the user's own loads in this browser.
  */
-import { loadRowsFor, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
+import { loadBulletIndex, loadRowsFor, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { load, save } from "../store.ts";
 import { userDataBar } from "../userdata.ts";
@@ -14,12 +14,17 @@ interface State {
   maxWeight: number | null;
   level: "" | "max" | "start";
   source: string;
+  /** Browse one cartridge's loads, or one bullet's loads across every cartridge. */
+  mode: "cartridge" | "bullet";
+  bulletQuery: string;
+  sortKey: string;
+  sortDesc: boolean;
 }
 
 const KEY = "bca.loads.v1";
 
 export function loadsView(data: AppData): HTMLElement {
-  const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "" });
+  const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "", mode: "cartridge", bulletQuery: "", sortKey: "", sortDesc: false });
   const persist = () => save(KEY, st);
   const index = data.meta.loadRows ?? {};
   const pickerEl = h("div", { class: "card" });
@@ -43,12 +48,25 @@ export function loadsView(data: AppData): HTMLElement {
       h(
         "div",
         { class: "grid" },
-        field("Cartridge", select(st.cartridgeId, cartridgeOptions(), (v) => ((st.cartridgeId = v), (st.source = ""), persist(), renderAll()))),
+        field("Browse by", select(st.mode, [["cartridge", "Cartridge"], ["bullet", "Bullet, across cartridges"]], (v) => ((st.mode = v), (st.source = ""), persist(), renderAll()))),
+        st.mode === "bullet"
+          ? field("Bullet", bulletSearch())
+          : field("Cartridge", select(st.cartridgeId, cartridgeOptions(), (v) => ((st.cartridgeId = v), (st.source = ""), persist(), renderAll()))),
         field("Min weight (gr)", numberInput(st.minWeight, { min: 0, step: 1, onInput: (v) => ((st.minWeight = v), persist(), renderPublished()) })),
         field("Max weight (gr)", numberInput(st.maxWeight, { min: 0, step: 1, onInput: (v) => ((st.maxWeight = v), persist(), renderPublished()) })),
         field("Level", select(st.level, [["", "Start and max"], ["max", "Max only"], ["start", "Start only"]], (v) => ((st.level = v), persist(), renderPublished()))),
       ),
     );
+  }
+
+  let searchTimer: ReturnType<typeof setTimeout> | undefined;
+  function bulletSearch(): HTMLInputElement {
+    const el = h("input", { type: "search", placeholder: "e.g. Berger 245 Hybrid", value: st.bulletQuery });
+    el.addEventListener("input", () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => ((st.bulletQuery = el.value), (st.source = ""), persist(), void renderPublished()), 300);
+    });
+    return el;
   }
 
   function weightOk(w: number): boolean {
@@ -57,6 +75,10 @@ export function loadsView(data: AppData): HTMLElement {
 
   function renderMine(): void {
     clear(mineEl);
+    if (st.mode === "bullet") {
+      mineEl.append(h("div", { class: "card" }, h("p", { class: "hint" }, "Your own loads that match the search are listed with the published ones, tagged yours. To add one, browse by cartridge."), userDataBar(data, renderAll)));
+      return;
+    }
     const mine = data.user.loads.filter((l) => l.cartridgeId === st.cartridgeId);
     const sentLoads = new Set(data.meta.submitted?.loads ?? []);
     mineEl.append(
@@ -172,31 +194,146 @@ export function loadsView(data: AppData): HTMLElement {
     );
   }
 
-  async function renderPublished(): Promise<void> {
-    clear(publishedEl);
-    if (!data.meta.loadRows) {
-      publishedEl.append(h("p", { class: "muted" }, "Published load rows are not included in this build."));
-      return;
+  /** A published row, or one of the user's loads shown alongside them in bullet view. */
+  type Row = SiteLoadRow & { cartridgeId: string; yours?: boolean };
+
+  const words = (q: string) => q.toLowerCase().split(/\s+/).filter(Boolean);
+  // Words match the bullet name or its weight, so "Berger 245" finds "Berger Hybrid Target", 245 gr.
+  const bulletMatches = (label: string | null | undefined, weight: number, q: string[]) => {
+    const text = `${label ?? ""} ${weight} ${weight}gr`.toLowerCase();
+    return q.every((w) => text.includes(w));
+  };
+
+  function userRow(l: UserLoad): Row {
+    return {
+      id: l.id,
+      cartridgeId: l.cartridgeId,
+      bullet: l.bulletDescription ?? null,
+      bulletWeightGr: l.bulletWeightGr,
+      level: l.chargeLevel ?? "max",
+      velocityFps: l.velocityFps,
+      barrelLengthIn: l.barrelLengthIn,
+      barrelFromSource: false,
+      pressure: null,
+      coalIn: l.coalIn ?? null,
+      powder: l.powder ?? null,
+      chargeGr: l.chargeGr ?? null,
+      primer: l.primer ?? null,
+      case: l.case ?? null,
+      sourceName: "Your load",
+      sourceUrl: "",
+      note: l.note || null,
+      flags: [],
+      yours: true,
+    };
+  }
+
+  /** Rows for the current view, before the weight, level and source filters. */
+  async function currentRows(): Promise<{ rows: Row[]; title: string; empty: string | null }> {
+    if (st.mode === "bullet") {
+      const q = words(st.bulletQuery);
+      if (!q.length) return { rows: [], title: "", empty: "Type part of a bullet name, such as \"Berger 245\" or \"ELD-M\", to see its loads in every cartridge." };
+      const bulletIndex = await loadBulletIndex();
+      const cartridges = new Set<string>();
+      for (const [label, weight, byCartridge] of bulletIndex) {
+        if (weightOk(weight) && bulletMatches(label, weight, q)) for (const id of Object.keys(byCartridge)) cartridges.add(id);
+      }
+      const published = (await Promise.all([...cartridges].map(async (id) => (await loadRowsFor(id)).map((r): Row => ({ ...r, cartridgeId: id }))))).flat();
+      const mine = data.user.loads.filter((l) => bulletMatches(l.bulletDescription, l.bulletWeightGr, q)).map(userRow);
+      return { rows: [...mine, ...published.filter((r) => bulletMatches(r.bullet, r.bulletWeightGr, q))], title: `Loads for bullets matching "${st.bulletQuery.trim()}"`, empty: null };
     }
     const count = index[st.cartridgeId] ?? 0;
-    if (!count) {
-      publishedEl.append(h("div", { class: "card" }, h("p", { class: "muted" }, `No published loads for ${name(st.cartridgeId)}.`)));
+    if (!count) return { rows: [], title: "", empty: `No published loads for ${name(st.cartridgeId)}.` };
+    const rows = (await loadRowsFor(st.cartridgeId)).map((r): Row => ({ ...r, cartridgeId: st.cartridgeId }));
+    return { rows, title: `Published loads for ${name(st.cartridgeId)}`, empty: null };
+  }
+
+  type SortKey = "cartridge" | "bullet" | "weight" | "powder" | "charge" | "level" | "velocity" | "barrel" | "pressure" | "coal" | "source";
+  const sortValue: Record<SortKey, (r: Row) => string | number | null> = {
+    cartridge: (r) => name(r.cartridgeId),
+    bullet: (r) => r.bullet,
+    weight: (r) => r.bulletWeightGr,
+    powder: (r) => r.powder ?? null,
+    charge: (r) => r.chargeGr ?? null,
+    level: (r) => r.level,
+    velocity: (r) => r.velocityFps,
+    barrel: (r) => r.barrelLengthIn,
+    pressure: (r) => r.pressure?.value ?? null,
+    coal: (r) => r.coalIn,
+    source: (r) => r.sourceName,
+  };
+
+  function sortRows(rows: Row[]): Row[] {
+    const key = st.sortKey as SortKey | "";
+    if (!key || !sortValue[key]) {
+      // Default: by cartridge (bullet view), then weight, bullet and velocity, as published.
+      return st.mode === "bullet" ? [...rows].sort((a, b) => name(a.cartridgeId).localeCompare(name(b.cartridgeId)) || a.bulletWeightGr - b.bulletWeightGr) : rows;
+    }
+    const get = sortValue[key];
+    const dir = st.sortDesc ? -1 : 1;
+    return [...rows].sort((a, b) => {
+      const x = get(a);
+      const y = get(b);
+      if (x == null || x === "") return y == null || y === "" ? 0 : 1; // blanks last either way
+      if (y == null || y === "") return -1;
+      return dir * (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y), undefined, { numeric: true }));
+    });
+  }
+
+  let renderToken = 0;
+  async function renderPublished(): Promise<void> {
+    const token = ++renderToken;
+    clear(publishedEl);
+    if (!data.meta.loadRows) {
+      publishedEl.append(h("div", { class: "card" }, h("p", { class: "muted" }, "Published load rows are not included in this build.")));
       return;
     }
     publishedEl.append(h("p", { class: "muted" }, "Loading…"));
-    let rows: SiteLoadRow[];
+    let got: Awaited<ReturnType<typeof currentRows>>;
     try {
-      rows = await loadRowsFor(st.cartridgeId);
+      got = await currentRows();
     } catch (e) {
+      if (token !== renderToken) return;
       clear(publishedEl);
       publishedEl.append(h("p", { class: "warn" }, (e as Error).message));
       return;
     }
-    const full = data.meta.loadRowsFull;
-    const sources = [...new Set(rows.map((r) => r.sourceName))].sort();
-    const shown = rows.filter((r) => weightOk(r.bulletWeightGr) && (!st.level || r.level === st.level) && (!st.source || r.sourceName === st.source));
-    const withNotes = shown.some((r) => r.note);
+    if (token !== renderToken) return; // a newer render started while this one loaded
     clear(publishedEl);
+    if (got.empty) {
+      publishedEl.append(h("div", { class: "card" }, h("p", { class: "muted" }, got.empty)));
+      return;
+    }
+    const { rows, title } = got;
+    const full = data.meta.loadRowsFull;
+    const byBullet = st.mode === "bullet";
+    const sources = [...new Set(rows.map((r) => r.sourceName))].sort();
+    const filtered = sortRows(rows.filter((r) => weightOk(r.bulletWeightGr) && (!st.level || r.level === st.level) && (!st.source || r.sourceName === st.source)));
+    const LIMIT = 2000;
+    const shown = filtered.slice(0, LIMIT);
+    const withNotes = shown.some((r) => r.note);
+
+    const col = (label: string, key: SortKey | null): HTMLElement => {
+      if (!key) return h("th", {}, label);
+      const active = st.sortKey === key;
+      return h(
+        "th",
+        {
+          class: "sortable",
+          title: "Sort",
+          onclick: () => {
+            if (active && st.sortDesc) ((st.sortKey = ""), (st.sortDesc = false));
+            else if (active) st.sortDesc = true;
+            else ((st.sortKey = key), (st.sortDesc = false));
+            persist();
+            void renderPublished();
+          },
+        },
+        label,
+        active ? (st.sortDesc ? " ▼" : " ▲") : "",
+      );
+    };
+
     publishedEl.append(
       h(
         "div",
@@ -204,10 +341,10 @@ export function loadsView(data: AppData): HTMLElement {
         h(
           "div",
           { class: "row toolbar" },
-          h("h3", {}, `Published loads for ${name(st.cartridgeId)}: ${shown.length} of ${rows.length}`),
+          h("h3", {}, `${title}: ${filtered.length.toLocaleString()} of ${rows.length.toLocaleString()}`),
           sources.length > 1 ? select(st.source, [["", "All sources"], ...sources.map((s): [string, string] => [s, s])], (v) => ((st.source = v), persist(), renderPublished())) : null,
         ),
-        data.meta.loadRowsFull
+        full
           ? h(
               "div",
               { class: "card safety" },
@@ -215,7 +352,12 @@ export function loadsView(data: AppData): HTMLElement {
               "Makers revise their data, and a copy can be out of date or mistyped. Before loading, confirm every charge against the source's current data (linked on each row), start at the published start load, and work up with care. Rows marked above SAAMI max are shown as published and are never used in estimates.",
             )
           : h("p", { class: "hint" }, "Powder and charge are not shown. For the full recipe, open the source and use its current data."),
-        h("p", { class: "hint" }, "Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates."),
+        h(
+          "p",
+          { class: "hint" },
+          "Click a column heading to sort; click again to reverse, a third time to reset. Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates.",
+        ),
+        filtered.length > LIMIT ? h("p", { class: "warn" }, `Showing the first ${LIMIT.toLocaleString()}. Narrow the search or the weight range to see the rest.`) : null,
         h(
           "div",
           { class: "scroll-x" },
@@ -225,7 +367,22 @@ export function loadsView(data: AppData): HTMLElement {
             h(
               "thead",
               {},
-              h("tr", {}, ["Bullet", "Weight", ...(full ? ["Powder", "Charge"] : []), "Level", "Velocity", "Barrel", "Pressure", "COAL", ...(full ? ["Primer / case"] : []), "Source", ...(withNotes ? ["Note"] : [])].map((x) => h("th", {}, x))),
+              h(
+                "tr",
+                {},
+                byBullet ? col("Cartridge", "cartridge") : null,
+                col("Bullet", "bullet"),
+                col("Weight", "weight"),
+                full ? [col("Powder", "powder"), col("Charge", "charge")] : null,
+                col("Level", "level"),
+                col("Velocity", "velocity"),
+                col("Barrel", "barrel"),
+                col("Pressure", "pressure"),
+                col("COAL", "coal"),
+                full ? col("Primer / case", null) : null,
+                col("Source", "source"),
+                withNotes ? col("Note", null) : null,
+              ),
             ),
             h(
               "tbody",
@@ -233,7 +390,8 @@ export function loadsView(data: AppData): HTMLElement {
               shown.map((r) =>
                 h(
                   "tr",
-                  {},
+                  { class: r.yours ? "yours" : "" },
+                  byBullet ? h("td", { class: "wrap" }, name(r.cartridgeId)) : null,
                   h("td", {}, r.bullet ?? "—"),
                   h("td", {}, `${r.bulletWeightGr} gr`),
                   full ? [h("td", {}, r.powder ?? "—"), h("td", {}, r.chargeGr != null ? `${r.chargeGr} gr${r.compressed ? " C" : ""}` : "—")] : null,
@@ -246,7 +404,7 @@ export function loadsView(data: AppData): HTMLElement {
                   h(
                     "td",
                     {},
-                    r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName,
+                    r.yours ? h("span", { class: "tag" }, "yours") : r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName,
                     r.sourcePage ? ` (${r.sourcePage})` : "",
                     r.flags.includes("community_report") ? h("span", { class: "tag", title: "Reported on a forum or by a user, not published by a maker. No pressure data." }, "community report") : null,
                   ),

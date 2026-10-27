@@ -235,3 +235,16 @@ export function loadRowsFor(cartridgeId: string): Promise<SiteLoadRow[]> {
   }
   return rowCache.get(cartridgeId)!;
 }
+
+/** Each bullet label in the published load rows: [label, weight, rows per cartridge]. */
+export type BulletIndex = [string, number, Record<string, number>][];
+let bulletIndex: Promise<BulletIndex> | null = null;
+
+/** The bullet index for browsing loads by bullet, fetched on first use. */
+export function loadBulletIndex(): Promise<BulletIndex> {
+  bulletIndex ??= getJson<BulletIndex>("data/load-bullets.json").catch((e) => {
+    bulletIndex = null;
+    throw e;
+  });
+  return bulletIndex;
+}
