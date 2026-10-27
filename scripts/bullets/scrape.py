@@ -47,7 +47,7 @@ SOURCES: tuple[Source, ...] = (
     Source("berger", "Berger Bullets", "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/", "manufacturer", "Single table of part number, description, G1, G7, and minimum twist. The committed examples were read from this page on 2026-10-27."),
     Source("speer", "Speer", "https://www.speer.com/bullets/", "manufacturer", "Hot-Cor, Gold Dot, and TNT. The Kinetic Group terms linked from speer.com forbid copying product information. No rows are committed."),
     Source("lapua", "Lapua", "https://www.lapua.com/bullets/", "manufacturer", "Scenar, Scenar-L, FMJ, and naturalis. Some SKUs also have Doppler CD data."),
-    Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame and Scirocco. Not committed yet. Zima's terms forbid copying that library."),
+    Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame, Scirocco, Zephyr, and Break-Away component bullets. The Ballistic field has no G1/G7 label."),
     Source("federal", "Federal", "https://www.federalpremium.com/reloading/bullets/", "manufacturer", "Component bullets. The Kinetic Group terms linked from federalpremium.com forbid copying product information. No rows are committed."),
     Source("woodleigh", "Woodleigh Bullets", "https://www.woodleighbullets.com.au/bullet-lists/traditional/264-333-list", "manufacturer", "Traditional, hydro, and VLD lists. The BC column is unlabeled, so it is bcUnlabeled, not G1."),
     Source("norma", "Norma", "https://www.norma-ammunition.com/en-us/products/components/bullets", "manufacturer", "Component bullets. Not committed yet. Zima's terms forbid copying that library."),
