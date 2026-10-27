@@ -1,0 +1,494 @@
+{
+  "generator": "py-ballisticcalc 3.1.1 (LGPL), Calculator default engine",
+  "atmosphere": "ICAO standard at sea level: 59 F, 29.92 inHg, 0% humidity",
+  "notes": "Reference trajectories from an independent open-source solver, used to check this project's solver. Spin drift and Coriolis are off. Drop is relative to the line of sight, in inches.",
+  "cases": [
+    {
+      "id": "g1-308-168-2650",
+      "model": "G1",
+      "bc": 0.462,
+      "weightGr": 168,
+      "diameterIn": 0.308,
+      "lengthIn": 1.215,
+      "mvFps": 2650,
+      "sightHeightIn": 1.5,
+      "zeroYd": 100,
+      "windMph": 10,
+      "windFromDeg": 90,
+      "maxYd": 1000,
+      "rows": [
+        {
+          "rangeYd": 0.0,
+          "velocityFps": 2650.0,
+          "dropIn": -1.5,
+          "windageIn": 0.0,
+          "timeS": 0.0,
+          "energyFtLb": 2619.0,
+          "mach": 2.3736
+        },
+        {
+          "rangeYd": 100.0,
+          "velocityFps": 2456.7,
+          "dropIn": -0.0,
+          "windageIn": 0.77,
+          "timeS": 0.1176,
+          "energyFtLb": 2251.0,
+          "mach": 2.2005
+        },
+        {
+          "rangeYd": 200.0,
+          "velocityFps": 2271.6,
+          "dropIn": -4.27,
+          "windageIn": 3.2,
+          "timeS": 0.2446,
+          "energyFtLb": 1925.0,
+          "mach": 2.0347
+        },
+        {
+          "rangeYd": 300.0,
+          "velocityFps": 2094.4,
+          "dropIn": -15.29,
+          "windageIn": 7.48,
+          "timeS": 0.3821,
+          "energyFtLb": 1636.0,
+          "mach": 1.876
+        },
+        {
+          "rangeYd": 400.0,
+          "velocityFps": 1925.5,
+          "dropIn": -34.26,
+          "windageIn": 13.85,
+          "timeS": 0.5315,
+          "energyFtLb": 1383.0,
+          "mach": 1.7246
+        },
+        {
+          "rangeYd": 500.0,
+          "velocityFps": 1765.4,
+          "dropIn": -62.63,
+          "windageIn": 22.57,
+          "timeS": 0.6943,
+          "energyFtLb": 1163.0,
+          "mach": 1.5813
+        },
+        {
+          "rangeYd": 600.0,
+          "velocityFps": 1615.4,
+          "dropIn": -102.18,
+          "windageIn": 33.92,
+          "timeS": 0.872,
+          "energyFtLb": 973.0,
+          "mach": 1.4469
+        },
+        {
+          "rangeYd": 700.0,
+          "velocityFps": 1476.9,
+          "dropIn": -155.08,
+          "windageIn": 48.19,
+          "timeS": 1.0663,
+          "energyFtLb": 814.0,
+          "mach": 1.3228
+        },
+        {
+          "rangeYd": 800.0,
+          "velocityFps": 1351.8,
+          "dropIn": -223.96,
+          "windageIn": 65.66,
+          "timeS": 1.2787,
+          "energyFtLb": 682.0,
+          "mach": 1.2108
+        },
+        {
+          "rangeYd": 900.0,
+          "velocityFps": 1242.6,
+          "dropIn": -311.9,
+          "windageIn": 86.52,
+          "timeS": 1.5105,
+          "energyFtLb": 576.0,
+          "mach": 1.113
+        },
+        {
+          "rangeYd": 1000.0,
+          "velocityFps": 1151.6,
+          "dropIn": -422.38,
+          "windageIn": 110.81,
+          "timeS": 1.7617,
+          "energyFtLb": 495.0,
+          "mach": 1.0314
+        }
+      ]
+    },
+    {
+      "id": "g7-65-140-2710",
+      "model": "G7",
+      "bc": 0.305,
+      "weightGr": 140,
+      "diameterIn": 0.264,
+      "lengthIn": 1.375,
+      "mvFps": 2710,
+      "sightHeightIn": 1.5,
+      "zeroYd": 100,
+      "windMph": 10,
+      "windFromDeg": 90,
+      "maxYd": 1200,
+      "rows": [
+        {
+          "rangeYd": 0.0,
+          "velocityFps": 2710.0,
+          "dropIn": -1.5,
+          "windageIn": 0.0,
+          "timeS": 0.0,
+          "energyFtLb": 2283.0,
+          "mach": 2.4273
+        },
+        {
+          "rangeYd": 100.0,
+          "velocityFps": 2560.1,
+          "dropIn": -0.0,
+          "windageIn": 0.56,
+          "timeS": 0.1139,
+          "energyFtLb": 2037.0,
+          "mach": 2.2931
+        },
+        {
+          "rangeYd": 200.0,
+          "velocityFps": 2414.8,
+          "dropIn": -3.81,
+          "windageIn": 2.32,
+          "timeS": 0.2346,
+          "energyFtLb": 1813.0,
+          "mach": 2.1629
+        },
+        {
+          "rangeYd": 300.0,
+          "velocityFps": 2274.3,
+          "dropIn": -13.59,
+          "windageIn": 5.36,
+          "timeS": 0.3626,
+          "energyFtLb": 1608.0,
+          "mach": 2.0371
+        },
+        {
+          "rangeYd": 400.0,
+          "velocityFps": 2138.8,
+          "dropIn": -30.09,
+          "windageIn": 9.82,
+          "timeS": 0.4986,
+          "energyFtLb": 1422.0,
+          "mach": 1.9157
+        },
+        {
+          "rangeYd": 500.0,
+          "velocityFps": 2008.1,
+          "dropIn": -54.2,
+          "windageIn": 15.82,
+          "timeS": 0.6434,
+          "energyFtLb": 1253.0,
+          "mach": 1.7986
+        },
+        {
+          "rangeYd": 600.0,
+          "velocityFps": 1881.7,
+          "dropIn": -86.95,
+          "windageIn": 23.5,
+          "timeS": 0.7977,
+          "energyFtLb": 1101.0,
+          "mach": 1.6855
+        },
+        {
+          "rangeYd": 700.0,
+          "velocityFps": 1759.2,
+          "dropIn": -129.53,
+          "windageIn": 33.03,
+          "timeS": 0.9626,
+          "energyFtLb": 962.0,
+          "mach": 1.5758
+        },
+        {
+          "rangeYd": 800.0,
+          "velocityFps": 1640.4,
+          "dropIn": -183.36,
+          "windageIn": 44.63,
+          "timeS": 1.1392,
+          "energyFtLb": 836.0,
+          "mach": 1.4693
+        },
+        {
+          "rangeYd": 900.0,
+          "velocityFps": 1525.1,
+          "dropIn": -250.13,
+          "windageIn": 58.54,
+          "timeS": 1.3289,
+          "energyFtLb": 723.0,
+          "mach": 1.366
+        },
+        {
+          "rangeYd": 1000.0,
+          "velocityFps": 1413.5,
+          "dropIn": -331.89,
+          "windageIn": 75.03,
+          "timeS": 1.5333,
+          "energyFtLb": 621.0,
+          "mach": 1.266
+        },
+        {
+          "rangeYd": 1100.0,
+          "velocityFps": 1306.0,
+          "dropIn": -431.09,
+          "windageIn": 94.42,
+          "timeS": 1.7542,
+          "energyFtLb": 530.0,
+          "mach": 1.1696
+        },
+        {
+          "rangeYd": 1200.0,
+          "velocityFps": 1203.5,
+          "dropIn": -550.74,
+          "windageIn": 117.08,
+          "timeS": 1.9936,
+          "energyFtLb": 450.0,
+          "mach": 1.0778
+        }
+      ]
+    },
+    {
+      "id": "g1-223-55-3240",
+      "model": "G1",
+      "bc": 0.255,
+      "weightGr": 55,
+      "diameterIn": 0.224,
+      "lengthIn": 0.75,
+      "mvFps": 3240,
+      "sightHeightIn": 2.5,
+      "zeroYd": 200,
+      "windMph": 0,
+      "windFromDeg": 90,
+      "maxYd": 600,
+      "rows": [
+        {
+          "rangeYd": 0.0,
+          "velocityFps": 3240.0,
+          "dropIn": -2.5,
+          "windageIn": 0.0,
+          "timeS": 0.0,
+          "energyFtLb": 1282.0,
+          "mach": 2.9021
+        },
+        {
+          "rangeYd": 100.0,
+          "velocityFps": 2848.1,
+          "dropIn": 0.91,
+          "windageIn": 0.0,
+          "timeS": 0.0988,
+          "energyFtLb": 991.0,
+          "mach": 2.551
+        },
+        {
+          "rangeYd": 200.0,
+          "velocityFps": 2488.8,
+          "dropIn": -0.0,
+          "windageIn": 0.0,
+          "timeS": 0.2115,
+          "energyFtLb": 756.0,
+          "mach": 2.2292
+        },
+        {
+          "rangeYd": 300.0,
+          "velocityFps": 2156.9,
+          "dropIn": -6.56,
+          "windageIn": 0.0,
+          "timeS": 0.341,
+          "energyFtLb": 568.0,
+          "mach": 1.9319
+        },
+        {
+          "rangeYd": 400.0,
+          "velocityFps": 1851.7,
+          "dropIn": -20.66,
+          "windageIn": 0.0,
+          "timeS": 0.4911,
+          "energyFtLb": 419.0,
+          "mach": 1.6585
+        },
+        {
+          "rangeYd": 500.0,
+          "velocityFps": 1577.4,
+          "dropIn": -44.99,
+          "windageIn": 0.0,
+          "timeS": 0.6668,
+          "energyFtLb": 304.0,
+          "mach": 1.4128
+        },
+        {
+          "rangeYd": 600.0,
+          "velocityFps": 1342.6,
+          "dropIn": -83.41,
+          "windageIn": 0.0,
+          "timeS": 0.8733,
+          "energyFtLb": 220.0,
+          "mach": 1.2026
+        }
+      ]
+    },
+    {
+      "id": "g7-300-230-2800",
+      "model": "G7",
+      "bc": 0.391,
+      "weightGr": 230,
+      "diameterIn": 0.308,
+      "lengthIn": 1.6,
+      "mvFps": 2800,
+      "sightHeightIn": 1.75,
+      "zeroYd": 100,
+      "windMph": 5,
+      "windFromDeg": 270,
+      "maxYd": 1500,
+      "rows": [
+        {
+          "rangeYd": 0.0,
+          "velocityFps": 2800.0,
+          "dropIn": -1.75,
+          "windageIn": 0.0,
+          "timeS": 0.0,
+          "energyFtLb": 4004.0,
+          "mach": 2.5079
+        },
+        {
+          "rangeYd": 100.0,
+          "velocityFps": 2680.6,
+          "dropIn": -0.0,
+          "windageIn": -0.21,
+          "timeS": 0.1095,
+          "energyFtLb": 3669.0,
+          "mach": 2.401
+        },
+        {
+          "rangeYd": 200.0,
+          "velocityFps": 2564.0,
+          "dropIn": -3.09,
+          "windageIn": -0.85,
+          "timeS": 0.2239,
+          "energyFtLb": 3357.0,
+          "mach": 2.2965
+        },
+        {
+          "rangeYd": 300.0,
+          "velocityFps": 2450.1,
+          "dropIn": -11.47,
+          "windageIn": -1.95,
+          "timeS": 0.3436,
+          "energyFtLb": 3066.0,
+          "mach": 2.1946
+        },
+        {
+          "rangeYd": 400.0,
+          "velocityFps": 2339.2,
+          "dropIn": -25.64,
+          "windageIn": -3.55,
+          "timeS": 0.4689,
+          "energyFtLb": 2794.0,
+          "mach": 2.0952
+        },
+        {
+          "rangeYd": 500.0,
+          "velocityFps": 2231.2,
+          "dropIn": -46.17,
+          "windageIn": -5.68,
+          "timeS": 0.6003,
+          "energyFtLb": 2542.0,
+          "mach": 1.9985
+        },
+        {
+          "rangeYd": 600.0,
+          "velocityFps": 2126.3,
+          "dropIn": -73.69,
+          "windageIn": -8.37,
+          "timeS": 0.738,
+          "energyFtLb": 2309.0,
+          "mach": 1.9045
+        },
+        {
+          "rangeYd": 700.0,
+          "velocityFps": 2024.4,
+          "dropIn": -108.9,
+          "windageIn": -11.67,
+          "timeS": 0.8826,
+          "energyFtLb": 2093.0,
+          "mach": 1.8132
+        },
+        {
+          "rangeYd": 800.0,
+          "velocityFps": 1925.1,
+          "dropIn": -152.59,
+          "windageIn": -15.62,
+          "timeS": 1.0346,
+          "energyFtLb": 1892.0,
+          "mach": 1.7243
+        },
+        {
+          "rangeYd": 900.0,
+          "velocityFps": 1828.2,
+          "dropIn": -205.68,
+          "windageIn": -20.26,
+          "timeS": 1.1945,
+          "energyFtLb": 1707.0,
+          "mach": 1.6375
+        },
+        {
+          "rangeYd": 1000.0,
+          "velocityFps": 1733.6,
+          "dropIn": -269.18,
+          "windageIn": -25.66,
+          "timeS": 1.3631,
+          "energyFtLb": 1535.0,
+          "mach": 1.5528
+        },
+        {
+          "rangeYd": 1100.0,
+          "velocityFps": 1641.2,
+          "dropIn": -344.26,
+          "windageIn": -31.89,
+          "timeS": 1.541,
+          "energyFtLb": 1375.0,
+          "mach": 1.47
+        },
+        {
+          "rangeYd": 1200.0,
+          "velocityFps": 1550.9,
+          "dropIn": -432.26,
+          "windageIn": -39.01,
+          "timeS": 1.729,
+          "energyFtLb": 1228.0,
+          "mach": 1.389
+        },
+        {
+          "rangeYd": 1300.0,
+          "velocityFps": 1462.8,
+          "dropIn": -534.74,
+          "windageIn": -47.12,
+          "timeS": 1.9283,
+          "energyFtLb": 1093.0,
+          "mach": 1.31
+        },
+        {
+          "rangeYd": 1400.0,
+          "velocityFps": 1377.0,
+          "dropIn": -653.5,
+          "windageIn": -56.3,
+          "timeS": 2.1398,
+          "energyFtLb": 968.0,
+          "mach": 1.2332
+        },
+        {
+          "rangeYd": 1500.0,
+          "velocityFps": 1294.0,
+          "dropIn": -790.64,
+          "windageIn": -66.67,
+          "timeS": 2.3647,
+          "energyFtLb": 855.0,
+          "mach": 1.1587
+        }
+      ]
+    }
+  ]
+}
