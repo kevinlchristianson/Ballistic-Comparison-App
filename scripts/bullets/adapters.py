@@ -3300,6 +3300,183 @@ def scrape_bear_creek() -> dict:
     return catalog("Bear Creek Ballistics", bullets)
 
 
+HAWK_LIST = "https://hawkbullets.com/bullet-selection.html"
+HAWK_HOME = "https://hawkbullets.com/"
+_HAWK_SKIP = re.compile(r"pistol|\b50 AE\b|500 S&W", flags=re.I)
+_HAWK_ROW = re.compile(
+    r"^([\d,]+)\s+grains\s+x\s+(.+?)\s+(RT|SPZ|FP|RN|HP|SCH)$",
+    flags=re.I,
+)
+_HAWK_GAINS = re.compile(
+    r"^([\d,]+)\s+gains\s+x\s+(.+?)\s+(RT|SPZ|FP|RN|HP|SCH)$",
+    flags=re.I,
+)
+_HAWK_STYLE = {
+    "RT": "round tip",
+    "SPZ": "spitzer",
+    "FP": "flat point",
+    "RN": "round nose",
+    "HP": "hollow point",
+    "SCH": "Schuler",
+}
+
+
+def _hawk_inches(text: str) -> list[tuple[str, float]]:
+    found: list[tuple[str, float]] = []
+    seen: set[float] = set()
+    for match in _INCH_DIAMETER.finditer(text or ""):
+        value = parse_number(match.group(1))
+        if value is None or not 0.17 <= value <= 0.80:
+            continue
+        number = as_number(value)
+        if number in seen:
+            continue
+        seen.add(number)
+        found.append((match.group(1), number))
+    return found
+
+
+def _hawk_section_diameter(title: str) -> list[tuple[str, float]]:
+    """Inch decimals the heading marks as a diameter, not a caliber name.
+
+    ".270 Cal./6.8mm (.277 dia.)" prints both .270 and .277. The dia.
+    parenthesis is the diameter. A heading with two dia. values stays empty
+    so the caller can leave diameterIn null.
+    """
+    marked: list[tuple[str, float]] = []
+    for chunk in re.findall(r"\(([^)]*)\)", title):
+        if re.search(r"\bdia\b", chunk, flags=re.I) or re.fullmatch(r"[\d.\s,&]+", chunk, flags=re.I):
+            marked.extend(_hawk_inches(chunk))
+    if marked:
+        return marked
+    if re.search(r"\bdiameter\b", title, flags=re.I):
+        return _hawk_inches(title)
+    return _hawk_inches(title)
+
+
+def _hawk_sections(html: str) -> list[dict]:
+    sections = []
+    for part in re.split(r'<div class="mLcartridgeDiv"', html)[1:]:
+        heading = re.search(r"<h2[^>]*>(.*?)</h2>", part, flags=re.S)
+        title = strip_html(heading.group(1) if heading else "")
+        if not title or _HAWK_SKIP.search(title):
+            continue
+        rows = []
+        style = ""
+        for raw in re.findall(r"<tr>(.*?)</tr>", part, flags=re.S):
+            cells = [strip_html(cell) for cell in re.findall(r"<td[^>]*>(.*?)</td>", raw, flags=re.S)]
+            if not cells:
+                continue
+            if "colspan" in raw and len(cells) == 1:
+                style = cells[0]
+                continue
+            rows.append((style, cells[0], cells[1] if len(cells) > 1 else ""))
+        paragraphs = [strip_html(paragraph) for paragraph in re.findall(r"<p[^>]*>(.*?)</p>", part, flags=re.S)]
+        sections.append({"title": title, "rows": rows, "paragraphs": paragraphs})
+    return sections
+
+
+def _hawk_bullet(section: dict, style: str, cell: str, price: str) -> dict | None:
+    match = _HAWK_ROW.match(cell)
+    gains = False
+    if match is None:
+        match = _HAWK_GAINS.match(cell)
+        gains = match is not None
+    if match is None:
+        return None
+    weight_token, jacket, code = match.group(1), match.group(2).strip(), match.group(3).upper()
+    style_words = _HAWK_STYLE.get(code, code)
+    style_label = re.sub(r"\s*\([^)]*\)\s*", "", style).strip() or style_words
+    title = section["title"]
+    bullet = blank_bullet(
+        "Hawk Bullets",
+        f"{title} {weight_token} gr {jacket} {code}",
+        HAWK_LIST,
+        "Hawk Bullets",
+        "Rifle row from the Hawk master list. The pistol-labeled section, 50 AE, "
+        "and 500 S&W are omitted. A jacket thickness is not a diameter. Prices are not stored.",
+    )
+    bullet["caliber"] = title
+    bullet["productLine"] = style_label
+    bullet["material"] = "copper jacket, pure lead core"
+    add_construction(bullet, style_words)
+    add_uses(bullet, "hunting")
+    if not gains:
+        bullet["weightGr"] = as_number(parse_number(weight_token))
+    notes = [f"The row is printed as {cell}."]
+    if gains:
+        notes.append("The row prints gains, not grains, so weightGr is null.")
+    notes.append(f"Jacket printed as {jacket}. Style {code} is {style_words}.")
+    two_diameter = next((paragraph for paragraph in section["paragraphs"] if "two diameter" in paragraph.lower()), None)
+    style_inches = _hawk_inches(style)
+    section_inches = _hawk_section_diameter(title)
+    distinct = {number for _token, number in section_inches}
+    if two_diameter:
+        notes.append(two_diameter)
+        notes.append("The bullet is printed with two diameters, so diameterIn is null.")
+    elif len(style_inches) == 1:
+        bullet["diameterIn"] = style_inches[0][1]
+        notes.append(f"Diameter {bullet['diameterIn']} copied from the style heading {style}.")
+        if len(distinct) == 1 and distinct != {style_inches[0][1]}:
+            notes.append(f"The section heading prints {title}.")
+    elif len(distinct) == 1:
+        bullet["diameterIn"] = section_inches[0][1]
+        notes.append(f"Diameter {bullet['diameterIn']} copied from the printed section heading {title}.")
+    elif len(distinct) > 1:
+        notes.append(f"Heading printed as {title}. More than one inch diameter is printed, so diameterIn is null.")
+    else:
+        notes.append(f"Section heading printed as {title}.")
+    for paragraph in section["paragraphs"]:
+        found = re.search(r"sectional density of the (\d+)['’]?s is (\.\d+)", paragraph, flags=re.I)
+        if found and bullet["weightGr"] == as_number(parse_number(found.group(1))):
+            bullet["sectionalDensity"] = as_number(parse_number(found.group(2)))
+            notes.append(f"Sectional density printed as {found.group(2)}.")
+    custom = re.search(r"\bc(\d+)\b", price, flags=re.I)
+    if custom:
+        notes.append(
+            f"The price cell marks a custom order, minimum {custom.group(1)} boxes. The price is not stored."
+        )
+    bullet["notes"] = " ".join(notes)
+    bullet["sources"].append(
+        {
+            "url": HAWK_HOME,
+            "retrievedOn": RETRIEVED_ON,
+            "publisher": "Hawk Bullets",
+            "notes": "The homepage calls these SOFT copper jacketed hunting bullets and says the Hawk Precision bullet uses a pure lead core.",
+        }
+    )
+    return bullet
+
+
+def scrape_hawk() -> dict:
+    """Rifle component bullets from the Hawk master list.
+
+    The footer is a copyright notice. No terms page was found. Handgun-labeled
+    sections are omitted. Jacket thickness is not stored as a diameter.
+    """
+    print("hawk: master list")
+    page = fetch_text(HAWK_LIST)
+    bullets = []
+    for section in _hawk_sections(page):
+        for style, cell, price in section["rows"]:
+            bullet = _hawk_bullet(section, style, cell, price)
+            if bullet is not None:
+                bullets.append(bullet)
+    print(f"  rifle component bullets: {len(bullets)}")
+    payload = catalog("Hawk Bullets", bullets)
+    for row in payload["bullets"]:
+        notes = row.get("notes") or ""
+        if "so diameterIn is null" not in notes:
+            continue
+        row["diameterIn"] = None
+        row["notes"] = re.sub(
+            r"\s*Diameter [\d.]+ copied from the printed caliber label:.*$",
+            "",
+            notes,
+        ).strip()
+    return payload
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -3339,4 +3516,5 @@ ADAPTERS = {
     "remington": scrape_remington,
     "american-copper": scrape_american_copper,
     "bear-creek": scrape_bear_creek,
+    "hawk": scrape_hawk,
 }
