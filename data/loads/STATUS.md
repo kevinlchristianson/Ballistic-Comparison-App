@@ -1,6 +1,6 @@
 # Load-data bot status
 
-Last updated: 2026-10-27 23:26 UTC
+Last updated: 2026-10-27 23:50 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -12,11 +12,11 @@ No load harvest is running. Published water capacities were searched for the bot
 
 The bullet bot estimates capacities for cartridges that have none, in its own file, and it is asking the coding agent how to store estimates. This bot does not write estimates, and it does not keep [`comments/2026-10-27-case-capacity-estimates.md`](comments/2026-10-27-case-capacity-estimates.md).
 
-Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". `sources/hammer.json` is not on main. The community status file says the Hammer load-sheet import (212 sheets) has not started, and it does not include a case-volume list. Those figures wait. A figure that is not an overflow to the mouth stays null, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
+Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. `data/cartridges/bots/loads.json` was not edited here. A figure that is not an overflow to the mouth stays null on the cartridge record until that file is updated, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
 
 Two published figures are on the bot records: 27 Nosler overflow to the neck, 98.4 gr H2O, and 26 Nosler useable capacity, 93 gr H2O. The project library already has both ids, so `mergeBotCartridges` drops the whole bot record and the live capacities stay null. That is the app's merge, not a field-name mismatch. The question for the coding agent is [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
 
-Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's "Case volume H20" is still not on main.
+Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's printed "Case volume H20" lines are now in `inputs/hammer/case-data.csv`. 25 Nosler prints 99gr.
 
 ## Next
 

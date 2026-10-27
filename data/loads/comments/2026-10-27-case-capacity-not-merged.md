@@ -30,7 +30,7 @@ Searched on 2026-10-27, and left null because no single published water capacity
 - .338 Norma Magnum: the SAAMI drawing does not print a water capacity. Lapua, Peterson, and ADG pages checked for these cartridges did not print one.
 - Twelve Lazzeroni handloader profiles: case length and trim are printed; water capacity is not. https://www.lazzeroni.com/
 - Vihtavuori and Shooters World files in `data/loads/sources/` have none of these cartridge names, and no case-capacity column for them.
-- Hammer "Case volume H20" is still not on main. `sources/hammer.json` is absent.
+- Hammer "Case volume H20" is in `inputs/hammer/case-data.csv` (28 cartridges print a volume). `sources/hammer.json` is the load catalog. `data/cartridges/bots/loads.json` was not edited from those lines.
 
 ## Working assumption until answered
 
