@@ -21,7 +21,7 @@ On each run the script skips a cartridge that already has a capacity in any of t
 - `data/cartridges/bots/loads.json`
 - a later JSON file under `data/loads/` or `data/bullets/estimates/` that is not this output and that carries `caseCapacityGrH2O`, `caseVolumeGrH2O`, or `caseVolumeH2O` (the expected shape of the Hammer list)
 
-A stored value whose `fieldNotes.caseCapacityGrH2O` starts with "Estimate" is also skipped. It is not a calibration target and not a parent donor. `.25 Nosler`'s 92 gr is that case. `.27 Nosler`'s 98.4 gr in `loads.json` is a published Nosler overflow and was skipped for the same reason: a published number is not replaced. Hammer's printed "Case volume H2O" list is not on main. When it arrives, the next run drops any cartridge that list covers. Conflicting printed numbers for one cartridge produce no estimate.
+A stored value whose `fieldNotes.caseCapacityGrH2O` starts with "Estimate" is also skipped. It is not a calibration target and not a parent donor. `.25 Nosler`'s 92 gr is that case. Published numbers already on `loads.json` are not replaced: `.26 Nosler` 93 gr (Nosler cartridge-page usable capacity) and `.27 Nosler` 98.4 gr (Nosler fireformed overflow). Hammer's printed "Case volume H2O" list is not on main. When it arrives, the next run drops any cartridge that list covers. Conflicting printed numbers for one cartridge produce no estimate.
 
 The library has no base, shoulder, or neck outside diameters. The geometric model builds an internal profile from case length, bullet diameter, rim diameter, rim type, shoulder angle, and neck length. Neck inside diameter is the bullet diameter. A missing neck length uses one bullet diameter, the same assumption as `src/lib/geometry.ts`. Water is 252.9 gr per cubic inch. Effective wall (0.034 in), head web (0.100 in), and body taper (0.020 in on the diameter) were fitted on rimless cartridges that already have a cited capacity and a shoulder angle. The fitted wall is thicker than real brass because the model has no extractor groove. Other rim classes with at least four cited cases get a fitted base-diameter offset only: rebated +0.020 in, belted −0.014 in. Rimmed and semi-rimmed were not fitted.
 
@@ -29,19 +29,19 @@ The parent-case model is the parent's cited capacity scaled by case length, plus
 
 When both methods can run, geometric is kept if its rim-class median absolute error is within 1 gr of the parent-case error. The other number is stored as `alternate`.
 
-### This run (2026-10-27, library at the merge of #93)
+### This run (2026-10-27, library at the merge of #94)
 
 | Result | Count |
 | --- | --- |
-| Estimates | 66 (48 geometric, 18 parent-case) |
-| Skipped because a capacity is already stored | 67 |
+| Estimates | 65 (47 geometric, 18 parent-case) |
+| Skipped because a capacity is already stored | 68 |
 | Could not estimate | 60 |
 
 Geometric calibration, 48 cited cartridges: median absolute error 1.64 gr, worst 8.7 gr on `.28 Nosler` (model high versus the stored 93 gr). By rim class: rimless n=31, median 1.69, worst 8.17 (`338-lapua`); rebated n=12, median 1.41, worst 8.7 (`28-nosler`); belted n=5, median 1.3, worst 6.01 (`375-hh`).
 
 Parent-case calibration, 30 pairs that both have a cited capacity: median absolute error 1.57 gr, worst 9.82 gr on `6-5-prc` against parent `.375 Ruger`. That parent link is design ancestry, so the worst case is much larger than the median.
 
-`.26 Nosler` is estimated at 101.3 gr geometric. It has no cited parent, so the `.28 Nosler` residual was not subtracted. The rebated model is 8.7 gr high on `.28 Nosler`, and `.26 Nosler` uses that same class, so 101.3 may be high by several grains. Nosler's printed usable capacity was left null by the load bot because it is not an overflow to the mouth. This file does not copy that usable figure either.
+`.26 Nosler` is not in the estimate table. `loads.json` already stores the published 93 gr, so the script skipped it. The same geometric model, run before that 93 was present, produced 101.3 gr for `.26 Nosler`. That is 8.3 gr above the published 93 and lines up with the model being 8.7 gr high on `.28 Nosler`. The 101.3 was not kept.
 
 Sixty cartridges could not be estimated without inventing a shoulder angle, a rim, a rim type, or a parent:
 

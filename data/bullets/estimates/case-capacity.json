@@ -411,8 +411,8 @@
       ]
     }
   },
-  "estimateCount": 66,
-  "skippedCitedCount": 67,
+  "estimateCount": 65,
+  "skippedCitedCount": 68,
   "unableCount": 60,
   "estimates": [
     {
@@ -1598,61 +1598,6 @@
         "parentId": "7x57-mauser",
         "parentCitedCapacityGrH2O": 58.0
       },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "26-nosler",
-      "name": ".26 Nosler",
-      "kind": "saami",
-      "definedIn": [
-        "data/cartridges/bots/loads.json",
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 101.3,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
-      "calibrationWorstCartridgeId": "28-nosler",
-      "calibrationCount": 12,
-      "parentId": null,
-      "parentName": null,
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 2.59,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.264,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.534,
-        "rimDiameterSource": "data/cartridges/bots/loads.json",
-        "rimType": null,
-        "shoulderAngleDeg": 35.0,
-        "shoulderAngleSource": "data/cartridges/bots/loads.json",
-        "neckLengthIn": null,
-        "parentCase": null,
-        "parentId": null,
-        "conflictingValuesNotUsed": {
-          "bulletDiameterIn": [
-            {
-              "value": 0.2645,
-              "source": "data/cartridges/bots/loads.json"
-            }
-          ]
-        },
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.554,
-        "baseOffsetIn": 0.02,
-        "neckLengthUsedIn": 0.264,
-        "rimTypeUsed": "rebated"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Rim type rebated taken from 25-nosler because this row has none and the rim diameters agree.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
       "supersededByPrintedValueWhenAvailable": true
     },
     {
@@ -4237,6 +4182,15 @@
       "caseCapacityGrH2O": 84.0,
       "source": [
         "data/cartridges/cartridges.json"
+      ],
+      "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "26-nosler",
+      "name": ".26 Nosler",
+      "caseCapacityGrH2O": 93.0,
+      "source": [
+        "data/cartridges/bots/loads.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
