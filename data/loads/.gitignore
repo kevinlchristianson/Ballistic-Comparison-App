@@ -1,0 +1,3 @@
+# Scratch downloads from scripts/loads/scrape.py. Normalized source files are committed.
+raw/*
+!raw/.gitkeep
