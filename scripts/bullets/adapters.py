@@ -2453,6 +2453,97 @@ def scrape_remington() -> dict:
     )
 
 
+ACB_PRODUCTS = "https://americancopperbulletscorp.com/wp-json/wc/store/v1/products?per_page=100"
+ACB_ADVANTAGES = "https://americancopperbulletscorp.com/copper-advantages/"
+_ACB_RIFLE = ".223 Solid Copper Boat Tail (55g)"
+_ACB_COUNT = re.compile(r"\s*\(([\d,]+)\s*Count\)\s*$", flags=re.I)
+_ACB_GRAIN = re.compile(
+    r"tolerance on all projectiles of \+/- 1 grain",
+    flags=re.I,
+)
+
+
+def _acb_rifle_bullet(products: list[dict], advantages: str) -> dict:
+    """One row for the .223 solid. Pack counts are the same bullet."""
+    packs: list[tuple[int, str]] = []
+    for product in products:
+        name = strip_html(product.get("name"))
+        base = _ACB_COUNT.sub("", name).strip()
+        if base != _ACB_RIFLE:
+            continue
+        text = strip_html(
+            f"{product.get('short_description') or ''} {product.get('description') or ''}"
+        )
+        if re.search(r"\b(bc|g1|g7|length|diameter)\b", text, flags=re.I):
+            raise RuntimeError(f"american-copper: {name} prints a spec the adapter does not store")
+        count = _ACB_COUNT.search(name)
+        if count is None:
+            raise RuntimeError(f"american-copper: {name} has no pack count")
+        permalink = product.get("permalink") or ""
+        packs.append((int(count.group(1).replace(",", "")), permalink))
+    if not packs:
+        raise RuntimeError("american-copper: the .223 rifle bullet was not on the shop")
+    packs.sort()
+    permalink = next((url for _count, url in packs if url.rstrip("/").endswith("55g")), packs[0][1])
+    bullet = blank_bullet(
+        "American Copper Bullets",
+        _ACB_RIFLE,
+        permalink,
+        "American Copper Bullets",
+        "WooCommerce product for the .223 solid copper boat tail. "
+        "Pack counts of this bullet are one row. Handgun products and Coming Soon "
+        "placeholders are omitted. copperonlyprojectiles.com does not resolve. "
+        "Opal Ammunition of Wyoming is loaded pistol ammunition and was not copied.",
+    )
+    bullet["caliber"] = ".223"
+    bullet["material"] = "copper"
+    add_construction(bullet, _ACB_RIFLE)
+    grain = _ACB_GRAIN.search(strip_html(advantages))
+    notes = [
+        "Weight is printed as 55g.",
+        "No length or ballistic coefficient is printed on the product page.",
+        "Pack counts "
+        + ", ".join(f"{count:,}" for count, _url in packs)
+        + " are the same bullet and are not stored.",
+    ]
+    if grain:
+        bullet["weightGr"] = 55
+        notes.insert(
+            1,
+            "The advantages page says American Copper Bullets have a tolerance on all "
+            "projectiles of +/- 1 grain, so the printed 55g is 55 grains.",
+        )
+        bullet["sources"].append(
+            {
+                "url": ACB_ADVANTAGES,
+                "retrievedOn": RETRIEVED_ON,
+                "publisher": "American Copper Bullets",
+                "notes": "Site-wide weight tolerance printed as +/- 1 grain.",
+            }
+        )
+    else:
+        notes.insert(1, "The advantages page did not print a grain tolerance, so weightGr is null.")
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_american_copper() -> dict:
+    """Rifle component bullet from the American Copper Bullets shop.
+
+    The footer is a copyright notice. No terms page was found. Handgun
+    rows and Coming Soon placeholders are omitted.
+    """
+    print("american-copper: store products")
+    products = json.loads(fetch_text(ACB_PRODUCTS))
+    if not isinstance(products, list):
+        raise RuntimeError("american-copper: store response was not a product list")
+    time.sleep(0.5)
+    advantages = fetch_text(ACB_ADVANTAGES)
+    bullet = _acb_rifle_bullet(products, advantages)
+    print(f"  rifle component bullets: 1 ({bullet['name']})")
+    return catalog("American Copper Bullets", [bullet])
+
+
 def scrape_winchester() -> dict:
     raise TermsForbid(
         "winchester: The Winchester terms (https://winchester.com/Terms-Of-Use) "
@@ -2509,4 +2600,5 @@ ADAPTERS = {
     "fiocchi": scrape_fiocchi,
     "winchester": scrape_winchester,
     "remington": scrape_remington,
+    "american-copper": scrape_american_copper,
 }
