@@ -15,6 +15,7 @@ data/loads/
   schema/load.schema.json      JSON Schema, draft 2020-12. Field contract.
   schema/load.ts               TypeScript types for the same contract.
   sources/<source-slug>.json   One catalog per source.
+  inputs/                      Kept inputs the owner supplied. Not scratch, and not a catalog.
   raw/                         Scratch downloads. Gitignored. Not a source of truth.
 scripts/loads/
   scrape.py                    Source registry. Fetches Hodgdon. Does not fetch LoadDevelopment.
@@ -22,6 +23,7 @@ scripts/loads/
   vihtavuori.py                Normalizes the cached Vihtavuori JSON.
   hodgdon.py                   Resumable Reloading Data Center fetch, then normalize.
   shootersworld.py             Normalizes the cached Shooters World HTML table.
+  community_245gr_30cal.py     Converts the kept 245 gr .30-cal community CSV.
   rows.py                      Shared parsing for published numbers and notes.
   validate.py                  Schema, duplicate, and sanity checks.
   catalog.py                   Paths and the schema checker the scripts share.
@@ -117,6 +119,8 @@ The bullet catalog id is `{manufacturer}-{sku}` when the manufacturer published 
 
 [`sources/hodgdon.json`](sources/hodgdon.json) is a partial read of the public Reloading Data Center at <https://hodgdonreloading.com/rldc/>. Rifle cartridges are requested one id at a time. Pistol and shotshell are not in this file yet. The page labels are grains, feet per second, and inches. Pressure is PSI or CUP from the printed token, with `pressureMethod` `unknown` because the page does not name piezo or crusher. `bulletManufacturer` stays as printed (`HDY`, `NOS`, and the other abbreviations). There is no bullet part number. `source.testBarrelIn` is null because barrel length is per cartridge. The company terms page and the data-center footer are quoted in [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md). One published line, `22 BR Remington - Pistol` with Varget, prints a start charge of 33.5 gr above its max of 31.5 gr. Both numbers are kept. `validate.py` reports that pair.
 
+[`sources/community-245gr-30cal.json`](sources/community-245gr-30cal.json) is 22 community reports compiled by Kevin Christianson on 2026-10-27 for 245 gr .30-cal Berger bullets. It is anecdotal forum data, not a manufacturer table. The kept CSV is [`inputs/2026-10-27-245gr-30cal-community-loads.csv`](inputs/2026-10-27-245gr-30cal-community-loads.csv). A dash is unknown. A range, a tilde, or a word such as `heavy charge` or `Barrett MRAD` is null in the numeric field and quoted in `notes`. `coal` is set only for the plain `3.975" OAL` cell. Schema 1.0.0 has no anecdotal flag and requires an http URL, so `source.url` and each `sourceUrl` are that CSV, and the outlet name is `sourcePage`. See [`comments/2026-10-27-community-anecdotal-loads.md`](comments/2026-10-27-community-anecdotal-loads.md).
+
 [`sources/loaddevelopment.json`](sources/loaddevelopment.json) records the source and zero loads. This bot does not scrape that site. There is no LoadDevelopment parser under `scripts/loads/`.
 
 ## Licensing
@@ -131,7 +135,7 @@ Hodgdon's [Terms of Service](https://hodgdonpowderco.com/terms-of-service/) name
 
 1. `python3 scripts/loads/scrape.py --list` prints registered sources. LoadDevelopment is listed and is not fetched.
 2. Cache raw downloads under `data/loads/raw/` (gitignored). Hodgdon: `python3 scripts/loads/hodgdon.py fetch` (one cartridge per request, 12 seconds apart). Vihtavuori's JSON is already cached.
-3. `python3 scripts/loads/normalize.py --source vihtavuori` or `--source hodgdon`.
+3. `python3 scripts/loads/normalize.py --source vihtavuori` or `--source hodgdon`. The community CSV is not a scrape: `python3 scripts/loads/community_245gr_30cal.py`.
 4. `python3 scripts/loads/validate.py --strict`. Warnings fail the script. The warning band is wider than the first draft where a published value sits outside it: grain charges from 0.5 (Shooters World Ba 10) through 300, a 45 inch barrel (`.50 Browning`), velocity down to 400 fps (a published `.38 Special` start of 410), and pressure down to 3,000 psi (a published 3,439 psi 9mm maximum). Those bounds are not schema limits.
 
 `validate.py` checks, with no extra Python packages:
@@ -169,3 +173,4 @@ Answered in `BOTS.md` from PR #3 and PR #14, and copied into the comment file:
 | [2026-10-27-source-file-layout.md](comments/2026-10-27-source-file-layout.md) | One file per source. |
 | [2026-10-27-source-terms-survey.md](comments/2026-10-27-source-terms-survey.md) | Hodgdon goes ahead. Shooters World waits for its own column units. |
 | [2026-10-27-barrel-length-millimeters.md](comments/2026-10-27-barrel-length-millimeters.md) | Keep 1.0.0. Store the printed inch length. |
+| [2026-10-27-community-anecdotal-loads.md](comments/2026-10-27-community-anecdotal-loads.md) | Open. No schema flag for anecdotal rows. |
