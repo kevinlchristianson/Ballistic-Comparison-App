@@ -120,7 +120,7 @@ export function loadsView(data: AppData): HTMLElement {
                         h("td", {}, fmt.fps(l.velocityFps)),
                         h("td", {}, `${l.barrelLengthIn}″`),
                         h("td", {}, fmt.in(l.coalIn)),
-                        h("td", { class: "wrap" }, [l.primer, l.case].filter(Boolean).join(" / ") || "—"),
+                        h("td", { class: "text" }, [l.primer, l.case].filter(Boolean).join(" / ") || "—"),
                         h("td", { class: "muted" }, [l.date, l.note].filter(Boolean).join(" · ")),
                         h("td", {}, sentLoads.has(l.id) ? h("span", { class: "tag" }, "in library") : h("span", { class: "muted" }, "only here")),
                         h("td", {}, h("button", { class: "link danger", onclick: () => ((data.user.loads = data.user.loads.filter((x) => x.id !== l.id)), refresh(data), renderAll()) }, "delete")),
@@ -283,6 +283,16 @@ export function loadsView(data: AppData): HTMLElement {
     });
   }
 
+  /** Source cell: community reports show as "Community: <forum>", with the full source name on hover. */
+  function sourceLink(r: Row): HTMLElement | string {
+    const community = r.flags.includes("community_report");
+    const text = community && r.sourcePage ? `Community: ${r.sourcePage}` : community ? r.sourceName.replace(/^Submitted by /, "User: ") : r.sourceName;
+    if (!r.sourceUrl) return text;
+    const a = link(r.sourceUrl, text);
+    a.title = r.sourcePage && !community ? `${r.sourceName} (${r.sourcePage})` : r.sourceName;
+    return a;
+  }
+
   let renderToken = 0;
   async function renderPublished(): Promise<void> {
     const token = ++renderToken;
@@ -363,7 +373,7 @@ export function loadsView(data: AppData): HTMLElement {
         filtered.length > LIMIT ? h("p", { class: "warn" }, `Showing the first ${LIMIT.toLocaleString()}. Narrow the search or the weight range to see the rest.`) : null,
         h(
           "div",
-          { class: "scroll-x" },
+          { class: "scroll-x table-frame" },
           h(
             "table",
             { class: "data compact loads" },
@@ -394,7 +404,7 @@ export function loadsView(data: AppData): HTMLElement {
                 h(
                   "tr",
                   { class: r.yours ? "yours" : "" },
-                  byBullet ? h("td", { class: "wrap" }, name(r.cartridgeId)) : null,
+                  byBullet ? h("td", { class: "text" }, name(r.cartridgeId)) : null,
                   h("td", {}, r.bullet ?? "—"),
                   h("td", {}, `${r.bulletWeightGr} gr`),
                   full ? [h("td", {}, r.powder ?? "—"), h("td", {}, r.chargeGr != null ? `${r.chargeGr} gr${r.compressed ? " C" : ""}` : "—")] : null,
@@ -403,15 +413,14 @@ export function loadsView(data: AppData): HTMLElement {
                   h("td", {}, r.barrelLengthIn != null ? `${r.barrelLengthIn}″${r.barrelFromSource ? "*" : ""}` : "—"),
                   h("td", { class: r.flags.some((f) => f.endsWith("saami_max")) ? "warn" : "" }, r.pressure ? `${r.pressure.value.toLocaleString()} ${r.pressure.unit.toUpperCase()}` : "—", r.flags.includes("above_saami_max") ? " (above SAAMI max)" : ""),
                   h("td", {}, fmt.in(r.coalIn)),
-                  full ? h("td", { class: "wrap" }, [r.primer, r.case].filter(Boolean).join(" / ") || "—") : null,
+                  full ? h("td", { class: "text" }, [r.primer, r.case].filter(Boolean).join(" / ") || "—") : null,
                   h(
                     "td",
                     {},
-                    r.yours ? h("span", { class: "tag" }, "yours") : r.sourceUrl ? link(r.sourceUrl, r.sourceName) : r.sourceName,
-                    r.sourcePage ? ` (${r.sourcePage})` : "",
+                    r.yours ? h("span", { class: "tag" }, "yours") : sourceLink(r),
                     r.flags.includes("community_report") ? h("span", { class: "tag", title: "Reported on a forum or by a user, not published by a maker. No pressure data." }, "community report") : null,
                   ),
-                  withNotes ? h("td", { class: "wrap muted" }, r.note ?? "") : null,
+                  withNotes ? h("td", { class: "text note muted" }, r.note ?? "") : null,
                 ),
               ),
             ),
