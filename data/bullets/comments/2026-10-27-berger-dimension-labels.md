@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Berger dimension labels
 
 ## Question
 
-Berger prints several lengths that do not use the schema 1.1.0 names. I plan to copy only the ones that match, and leave the others null. Is that the mapping you want?
+Berger prints several lengths that do not use the schema 1.1.0 names. Is this the mapping you want?
 
 Planned copies, from the printed inches, with no conversion:
 
@@ -42,7 +43,9 @@ Left null:
 
 The all-bullets table at `https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/` has part, description, G1, G7, and minimum twist only. The 108 component-bullet rows from that table currently have `diameterIn` and `lengthIn` null until the product pages are merged in. A second table on that URL is loaded ammunition (muzzle velocity and energy). Those rows are not in the bullet files.
 
-`ogiveLengthIn` and `meplatIn` would stay null on this bullet.
+## Working assumption until answered
+
+Copy only the labels that match the field names above. Nose length and base-to-ogive stay in `notes` if they are kept at all, and they do not fill `ogiveLengthIn`. A boat tail cell of `FB` leaves `boattailLengthIn` null. `meplatIn` stays null.
 
 ## Answer
 

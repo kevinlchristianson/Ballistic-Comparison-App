@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Diameter inside the caliber label
 
 ## Question
 
-Eleven Hornady rifle-feed rows have no separate diameter value, but the caliber label prints an inch diameter. May I copy that printed number into `diameterIn`? It is not calculated from the caliber name.
+Eleven Hornady rifle-feed rows have no separate diameter value, but ten of them print an inch diameter in the caliber label. May I copy that printed number into `diameterIn`?
 
 ## Context
 
@@ -26,7 +27,13 @@ Ten of them print an inch diameter in the caliber label:
 | 5051 | 505 Cal. .505" (505 Gibbs) |
 | 5050 | 505 Cal. .505" (505 Gibbs) |
 
-SKU 3148 is different. Its caliber label is only `7.62x39mm`. The name is `7.62x39mm .3115 255 gr Sub-X`, so `.3115` is in the name, not in the caliber label. I have not copied that into `diameterIn`.
+SKU 3148 is different. Its caliber label is only `7.62x39mm`. The name is `7.62x39mm .3115 255 gr Sub-X`, so `.3115` is in the name, not in the caliber label.
+
+`BOTS.md` says that until manufacturer diameters land, the app derives diameter from the caliber label in its own normalization step.
+
+## Working assumption until answered
+
+Leave `diameterIn` null on all eleven. The caliber text stays as printed. SKU 3148's `.3115` is not copied out of the name.
 
 ## Answer
 

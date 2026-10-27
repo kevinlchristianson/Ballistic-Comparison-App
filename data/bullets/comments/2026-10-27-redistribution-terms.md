@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Licensing
 
 ## Question
 
-Which of these sources, if any, forbid committing their bullet specifications into this repo? I have not found a clause that either allows or forbids it, and I do not want to commit a full table from a source whose terms say not to.
+Which of these sources, if any, forbid committing their bullet specifications into this repo? I have not found a clause that either allows or forbids it.
 
 ## Context
 
@@ -24,6 +25,10 @@ Pages requested on 2026-10-27:
 - `https://hammerbullets.com/terms-and-conditions/` — HTTP 200, but the HTML body was only a few hundred characters of page chrome, with no terms text in it
 
 The catalogs in progress are manufacturer feeds or product pages for Hornady, Sierra, Nosler, Barnes, Berger, Lapua, and Hammer, plus Zima library pages for brands whose own catalogs I have not scraped (Speer, Swift, Federal, Woodleigh, Norma, RWS, Cutting Edge, Lehigh, Peregrine, Warner).
+
+## Working assumption until answered
+
+Commit those catalogs. The data pull request will say that no forbidding terms page was found. If an answer names a source that forbids redistribution, that source's file comes out.
 
 ## Answer
 

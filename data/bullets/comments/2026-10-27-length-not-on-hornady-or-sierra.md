@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Bullet length
 
 ## Question
 
-Hornady's rifle feed and the Sierra product pages I fetched do not print a bullet length. Confirm `lengthIn` stays null for those rows. I will not derive a length.
+Hornady's rifle feed and the Sierra product pages I fetched do not print a bullet length. Should `lengthIn` stay null for those rows?
 
 ## Context
 
@@ -23,6 +24,10 @@ The list feed of 311 rifle bullets (`https://www.hornady.com/js/filterresponse.j
 Sierra product `https://sierrabullets.com/30-cal-175-gr-hpbt-matchking-smk/` custom fields are: Item #, Bullet Type, Bullet Diameter, Bullet Weight, G1 BC, G7 BC, Purpose, Pursuit, Box Quantity, Bullet Material, Box UPC, Tipped/Non-Tipped, Product Family. No length. `lengthIn` is null on all 199 Sierra rows scraped from the product sitemap. `diameterIn` is filled from "Bullet Diameter".
 
 Berger's summary table also omits length. Berger product pages do print `OAL` in inches (see the Berger dimensions note).
+
+## Working assumption until answered
+
+`lengthIn` stays null on Hornady and Sierra rows. No length is derived from weight, caliber, or BC.
 
 ## Answer
 

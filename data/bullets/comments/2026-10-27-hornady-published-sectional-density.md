@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Hornady sectional density
 
 ## Question
 
-When Hornady's own feed prints a sectional density that does not match the weight and diameter in that same row, should the catalog keep the printed sectional density? I am keeping it and not writing a calculated replacement.
+When Hornady's own feed prints a sectional density that does not match the weight and diameter in that same row, should the catalog keep the printed sectional density?
 
 ## Context
 
@@ -23,7 +24,11 @@ From `https://www.hornady.com/js/filterresponse.js` (rifle parent 426), retrieve
 
 Closer ones, still outside 0.002: SKU 3019 and 30192, 30 cal .308 125 gr, printed SD 0.185 versus 0.188. SKU 3131, .3105 174 gr, printed 0.255 versus 0.258.
 
-`scripts/bullets/validate.py` reports these as warnings. The published number stays in `sectionalDensity`.
+`scripts/bullets/validate.py` reports these as warnings.
+
+## Working assumption until answered
+
+Keep the printed number in `sectionalDensity`. Do not replace it with the weight-and-diameter result. The validator warning stays.
 
 ## Answer
 

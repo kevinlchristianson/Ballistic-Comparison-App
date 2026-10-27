@@ -2,10 +2,11 @@
 
 - Status: open
 - Date: 2026-10-27
+- Topic: Zima diameters
 
 ## Question
 
-`BOTS.md` asks for `diameterIn` from manufacturer product pages. For the brands below I only have Zima's library page. Should those diameters stay in the catalog, with publisher Zima and `bcSource` left null or `other`, or should `diameterIn` stay null until a manufacturer page is read?
+`BOTS.md` asks for `diameterIn` from manufacturer product pages. For the brands below I only have Zima's library page. Should those diameters stay in the catalog, with publisher Zima, or should `diameterIn` stay null until a manufacturer page is read?
 
 ## Context
 
@@ -25,6 +26,10 @@ Retrieved 2026-10-27. Each file's source URL is the Zima brand page, not the mak
 | peregrine.json | 8 | 0 | 0 |
 
 Manufacturer feeds already used for Hornady, Sierra, Nosler, Barnes, Berger, Lapua, and Hammer are separate files. Zima was not merged into those.
+
+## Working assumption until answered
+
+Keep the Zima diameters. `sourceUrl` and the publisher stay Zima, so these are not labeled as manufacturer-page measurements. `diameterIn` stays null on cards that do not print one. `lengthIn` stays null.
 
 ## Answer
 
