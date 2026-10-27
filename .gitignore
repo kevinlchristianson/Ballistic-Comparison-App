@@ -1,0 +1,5 @@
+# Scratch downloads from scripts/bullets/scrape.py. Normalized catalogs are committed.
+data/bullets/raw/*
+!data/bullets/raw/.gitkeep
+__pycache__/
+*.pyc
