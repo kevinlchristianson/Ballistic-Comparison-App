@@ -20,7 +20,7 @@ That sentence names trademarks, logos, illustrations, and pictures. This catalog
 
 Hodgdon Reloading Data Center, <https://hodgdonreloading.com/rldc/>. Public POST API, no login. `https://hodgdonreloading.com/terms-of-use/` returned 404 on 2026-10-27. The homepage HTML that was fetched had no terms link in it. `robots.txt` allows the data center and sets crawl-delay 10. IMR, Winchester, Ramshot, and Accurate powder data in this center is the same publication; Ramshot and Accurate hostnames redirect to Hodgdon. A terms page was not found, so the same practice as the bullet catalogs is used: commit the published tables and keep looking for a terms document.
 
-Shooters World. <https://shootersworldpowder.com/data-table/> is a public HTML table (about 1,495 body rows) plus linked PDFs. Not normalized yet. Units other than the `MAX PSI` header are not printed on the column labels. Not committed until those units are confirmed from the page or the reload-data PDF.
+Shooters World. <https://shootersworldpowder.com/data-table/> is a public HTML table, 1,494 body rows, plus the [reload manual PDF](https://shootersworldpowder.com/wp-content/uploads/2023/06/ShootersWorldManualInterior_CHRIS_WITH-COVER__RUSS-REVISED.pdf). No terms page was fetched. The table is committed as `sources/shootersworld.json`. `MAX PSI` is labeled on the table. Charge grains and velocity fps are taken from the manual, which prints powder charges as `gr` and a velocity column as `Velocity (fps)`. COL is stored only when the table cell itself prints inches or mm.
 
 Not harvested, after a status check only:
 
