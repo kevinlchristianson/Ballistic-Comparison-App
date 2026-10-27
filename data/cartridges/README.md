@@ -10,7 +10,7 @@ On 2026-10-27 every SAAMI entry was checked against ANSI/SAAMI Z299.4-2025 (name
 | --- | --- | --- |
 | `saami` | 142 | [ANSI/SAAMI Z299.4-2025, Centerfire Rifle](https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf) |
 | `cip` | 5 | [C.I.P. TDCC](https://bobp.cip-bobp.org/en/tdcc) |
-| `wildcat` | 32 | The reamer print for the chamber in question. Wildcats have no standard COAL. |
+| `wildcat` | 33 | The reamer print for the chamber in question. Wildcats have no standard COAL. |
 
 Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcats. Handgun and rimfire are out of scope for now, but the handgun-origin cartridges that are in the SAAMI rifle standard (.44 Remington Magnum, .44-40, .38-40, .32-20) are included. A few C.I.P. cartridges are included because they are common in load data. The .30 R Blaser and the 300 NMI (wildcat) were added for community-reported loads, and "300 PRC +P" (a longer-throat chamber) is an alias of .300 PRC. C.I.P. pressure limits are converted from bar, and C.I.P. and SAAMI measure pressure differently.
 
