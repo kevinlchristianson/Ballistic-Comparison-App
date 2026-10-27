@@ -29,6 +29,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-30cal-180gr.json` | 16 | 16 | 0 |
 | `community-berger-elite-hunter-30cal-205gr.json` | 38 | 36 | 2 |
 | `community-berger-elite-hunter-30cal-217gr.json` | 5 | 4 | 1 |
+| `community-berger-elite-hunter-30cal-245gr.json` | 6 | 2 | 4 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -278,6 +279,16 @@ The fitting change is aliases on cartridges the library already has, not a schem
 8. From the 175 gr file, on 28 Nosler add alias `28N`. On 7mm Remington Magnum add alias `7RM`, the same kind of fix as `7 RM`.
 9. From the 195 gr file, leave `7mm-300 Weatherby Mag` and `7SS` unmatched until the library has those cartridges. Do not alias bare `WSM`.
 10. From the 205 gr file, on .300 Winchester Magnum add alias `300wm`. `.300 WM` already resolves. The 217 gr file uses the same `300wm` spelling once more.
+11. From the new 245 gr file, leave `30 Sherman`, `30-338 Lapua Improved`, and `300 Terminator` unmatched until the library has those cartridges. Do not alias bare `win mag`. treillw's row is his .300 Winchester Magnum, but `win mag` also matches .270 and .338 Winchester Magnum.
+
+The new 245 gr file's strings `300 prc` and `300RUM` already resolve. These do not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 1 | `win mag` | .300 Winchester Magnum | Yes, as a bare pair of words. This row is a 245 gr .30 caliber load, so it is the .300. Do not alias `win mag`. |
+| 1 | `30 Sherman` | None | No library cartridge. Ladd's plus P. Do not map it to .300 PRC. |
+| 1 | `30-338 Lapua Improved` | None | No library cartridge. Do not map it to .338 Lapua Magnum. |
+| 1 | `300 Terminator` | None | No library cartridge. Defensive Edge wildcat. Do not map it to .300 RUM. |
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
