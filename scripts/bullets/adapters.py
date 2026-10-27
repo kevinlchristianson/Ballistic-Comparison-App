@@ -2369,6 +2369,81 @@ def scrape_rmr() -> dict:
     return catalog("Rocky Mountain Reloading", bullets)
 
 
+SB_BULLETS = "https://www.sellier-bellot.cz/en/products/components/bullets/"
+_SB_LINES = {"EDGE", "TXRG", "SPCE"}
+
+
+def _sb_rifle_rows(page: str) -> list[list[str]]:
+    start = page.find("<h2>Bullets for rifle cartridges</h2>")
+    if start < 0:
+        raise RuntimeError("Sellier & Bellot rifle component table was not found")
+    table = page[start:page.find("</table>", start)]
+    rows = []
+    for row in re.findall(r"<tr>(.*?)</tr>", table, flags=re.S):
+        cells = [strip_html(cell) for cell in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S)]
+        if len(cells) < 9:
+            continue
+        rows.append(cells)
+    if not rows:
+        raise RuntimeError("Sellier & Bellot rifle component table had no data rows")
+    return rows
+
+
+def _sb_bullet(cells: list[str]) -> dict:
+    product, bullet_no, kind, grains, grams, caliber, dia_mm, dia_in, g1 = cells[:9]
+    weight = as_number(parse_number(grains))
+    if weight is None:
+        raise RuntimeError(f"Sellier & Bellot {product} has no grain weight")
+    bullet = blank_bullet(
+        "Sellier & Bellot",
+        f"{kind} {weight} gr",
+        SB_BULLETS,
+        "Sellier & Bellot",
+        "Rifle component row from the Czech Sellier & Bellot component table. "
+        "The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used.",
+    )
+    bullet["sku"] = product or None
+    if kind in _SB_LINES:
+        bullet["productLine"] = kind
+    bullet["caliber"] = caliber or None
+    bullet["weightGr"] = weight
+    add_construction(bullet, kind)
+    add_bc(bullet, "G1", g1, "manufacturer", SB_BULLETS, "G1")
+    diameter = parse_number(dia_in)
+    if diameter is not None and 0.17 <= diameter <= 0.80:
+        bullet["diameterIn"] = as_number(diameter)
+    notes = [
+        f"Weight printed as {grains} grs and {grams} g.",
+        f"Bullet No {bullet_no}.",
+    ]
+    if bullet["diameterIn"] is not None:
+        notes.append(
+            f"Diameter {bullet['diameterIn']} copied from the printed inch column {dia_in}. "
+            f"The row also prints {dia_mm} mm."
+        )
+    else:
+        notes.append(f"Inch diameter cell printed as {dia_in or 'blank'}. Millimeter cell printed as {dia_mm}.")
+    if g1:
+        notes.append(f"G1 printed as {g1}.")
+    if caliber and "*" in caliber:
+        notes.append(f"Caliber is printed as {caliber}. The page does not explain the asterisk.")
+    bullet["notes"] = " ".join(notes)
+    return bullet
+
+
+def scrape_sellier_bellot() -> dict:
+    """Rifle component bullets from the Czech Sellier & Bellot table.
+
+    sellierbellot.us forbids copying that site. The Czech component page
+    has no terms page and no reproduction ban. Pistol rows are omitted.
+    """
+    print("sellier-bellot: Czech rifle component table")
+    page = fetch_text(SB_BULLETS)
+    bullets = [_sb_bullet(cells) for cells in _sb_rifle_rows(page)]
+    print(f"  rifle component bullets: {len(bullets)}")
+    return catalog("Sellier & Bellot", bullets)
+
+
 def scrape_kinetic(slug: str) -> dict:
     raise TermsForbid(
         f"{slug}: The Kinetic Group terms (https://www.thekineticgroup.com/termsconditions.html), "
@@ -2402,4 +2477,5 @@ ADAPTERS = {
     "ppu": scrape_ppu,
     "sako": scrape_sako,
     "rmr": scrape_rmr,
+    "sellier-bellot": scrape_sellier_bellot,
 }
