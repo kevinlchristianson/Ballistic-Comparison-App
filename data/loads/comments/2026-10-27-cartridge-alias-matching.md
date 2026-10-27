@@ -26,6 +26,8 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-270cal-170gr.json` | 47 | 38 | 9 |
 | `community-berger-elite-hunter-7mm-175gr.json` | 102 | 100 | 2 |
 | `community-berger-elite-hunter-7mm-195gr.json` | 71 | 56 | 15 |
+| `community-berger-elite-hunter-30cal-180gr.json` | 16 | 16 | 0 |
+| `community-berger-elite-hunter-30cal-205gr.json` | 38 | 36 | 2 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -82,6 +84,12 @@ The 195 gr file's strings `28 Nosler`, `28 nosler`, `7mm Remington Magnum`, `7mm
 | 13 | `7mm-300 Weatherby Mag` | None | No library cartridge. MRogersII's wildcat on a .300 Weatherby case. Do not map it to 7mm Weatherby Magnum. |
 | 1 | `7SS` | None | No library cartridge. merrittchristen's 22 inch rifle, Rl26 at 59.5 gr. Do not map it to 7mm SAUM. |
 | 1 | `WSM` | 7mm Winchester Short Magnum | Yes, as a bare word. Tahoe1305 wrote `WSM` for a 23 inch rifle in a 7 PRC thread, and the sentence is the 195. Bare `WSM` also matches .270 WSM and .300 WSM. Do not alias the bare word. |
+
+The 205 gr file's strings `300 win mag`, `300 RUM`, `300 wsm`, `.300 WM`, and `300 PRC` already resolve. This does not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 2 | `300wm` | .300 Winchester Magnum | No. JM151's 24 inch 300 Win Mag, RL26 at 75.5 and 78.5 gr. `.300 WM` already resolves because `WM` is a separate word. `300wm` has no word boundary, so the `WM` shortening does not run. Alias `300wm`, the same kind of fix as `7RM`. |
 
 `25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
 
@@ -268,6 +276,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 7. From the 170 gr file, leave `27 Nosler`, `270-7PRC`, `270/ 7RUM`, and `270/338 RUM` unmatched until the library has those cartridges. Do not map them onto a nearby Nosler, PRC, or RUM.
 8. From the 175 gr file, on 28 Nosler add alias `28N`. On 7mm Remington Magnum add alias `7RM`, the same kind of fix as `7 RM`.
 9. From the 195 gr file, leave `7mm-300 Weatherby Mag` and `7SS` unmatched until the library has those cartridges. Do not alias bare `WSM`.
+10. From the 205 gr file, on .300 Winchester Magnum add alias `300wm`. `.300 WM` already resolves.
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
