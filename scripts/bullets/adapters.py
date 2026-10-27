@@ -1787,6 +1787,15 @@ def scrape_peregrine() -> dict:
     )
 
 
+def scrape_north_fork() -> dict:
+    raise TermsForbid(
+        "north-fork: The North Fork terms (https://www.northforkbullets.com/terms-condition-1.html) "
+        "say the site's materials are North Fork Technologies USA intellectual property and that "
+        "the user will not reproduce or redistribute that intellectual property in any way, "
+        "including electronically or digitally. No rows were fetched."
+    )
+
+
 def scrape_warner() -> dict:
     raise TermsForbid(
         "warner: The Warner Tool terms (https://www.warner-tool.com/terms-and-conditions/) "
@@ -1923,6 +1932,7 @@ ADAPTERS = {
     "cutting-edge": scrape_cutting_edge,
     "lehigh": scrape_lehigh,
     "peregrine": scrape_peregrine,
+    "north-fork": scrape_north_fork,
     "warner": scrape_warner,
     "ppu": scrape_ppu,
 }
