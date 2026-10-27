@@ -84,8 +84,25 @@ describe("forum shorthand", () => {
     ["30-06 Springfield", "30-06"],
     ["7 PRC", "7mm-prc"],
     ["6.5 Swede", "6-5x55-swedish"],
+    // Shorthand right after the number
+    ["28N", "28-nosler"],
+    ["7RM", "7mm-rem-mag"],
+    ["300wm", "300-win-mag"],
+    ["338wm", "338-win-mag"],
+    ["6cm", "6mm-creedmoor"],
+    ["30 BR Remington", "30-br"],
+    ["6.5x284 Norma +P", "6-5-284-norma"],
   ])("%s -> %s", (name, id) => {
     expect(resolveCartridge(name, index)).toBe(id);
+  });
+
+  it("does not swap one maker's cartridge for another's", () => {
+    // Loose matching drops maker words, but "338 norma" must not become .338 Lapua.
+    expect(resolveCartridge("338 norma", index)).toBeNull();
+  });
+
+  it("needs every slash-separated piece to name the same cartridge", () => {
+    expect(resolveCartridge("6mm BR / BRA / Dasher variants", index)).toBeNull();
   });
 
   it("keeps the library free of ambiguous keys", () => {

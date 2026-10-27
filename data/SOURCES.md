@@ -24,6 +24,12 @@ Hodgdon's Terms of Service limit the Reloading Data Center to personal, non-comm
 
 The load bot's terms survey for other sources (Hodgdon, Barnes and others) is in `data/loads/comments/2026-10-27-source-terms-survey.md`. Development and tests use synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
 
+### Community loads: known coverage gaps
+
+As of 2026-10-27 the load bot has published community loads for all 13 Berger Elite Hunter bullets (498 rows, one file per bullet, from Shooters' Forum, Rokslide, Long Range Only and 24hourcampfire). The 6.5 mm 156 gr EOL (113 rows) and 7 mm 175 gr (102) are the best covered; the .30 cal 217 gr (5) and .338 250 gr (9) are the thinnest.
+
+Coverage is weakest on classic cartridges and some magnums. The allowed forums turned up no Elite Hunter loads for .243 Win, .30-06, .300 Weatherby or .340 Weatherby, among others. Most such posts are likely on Reddit and Long Range Hunting, whose terms keep them out. Texas Hunting Forum has not been through the terms survey. Details per cartridge are in `data/loads/comments/2026-10-27-community-108-cartridge-coverage.md`. Users can fill these gaps with "Send to library" on the site.
+
 ## Cartridges (this project)
 
 | Source | URL | Used for | Terms checked |

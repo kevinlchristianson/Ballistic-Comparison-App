@@ -83,12 +83,14 @@ const WORD_SYNONYMS: [RegExp, string][] = [
   [/\bmagnum\b/g, "mag"],
   [/\bgovernment\b/g, "govt"],
   [/\b(springfield|sprg|spfd)\b/g, ""],
-  [/\b(creed|cm)\b/g, "creedmoor"],
-  [/\bwm\b/g, "win mag"],
-  [/\brm\b/g, "rem mag"],
-  [/\blm\b/g, "lapua mag"],
-  [/\bnm\b/g, "norma mag"],
-  [/\bblk\b/g, "blackout"],
+  // Shorthand may sit right after the number ("300wm", "7RM", "6cm", "28N").
+  [/(\b|(?<=\d))(creed|cm)\b/g, "creedmoor"],
+  [/(\b|(?<=\d))wm\b/g, " win mag"],
+  [/(\b|(?<=\d))rm\b/g, " rem mag"],
+  [/(\b|(?<=\d))lm\b/g, " lapua mag"],
+  [/(\b|(?<=\d))nm\b/g, " norma mag"],
+  [/(\b|(?<=\d))blk\b/g, " blackout"],
+  [/(?<=\d)n\b/g, " nosler"],
   [/\baac\b/g, ""],
   [/\bswede\b/g, "swedish"],
 ];
@@ -109,17 +111,28 @@ export function aliasKey(name: string): string {
 /** Maker words forums often leave off ("6.5 PRC", "300 Win" for .300 Win Mag is not covered). */
 const MAKER_WORDS = /\b(rem|win|wby|norma|nosler|hornady|lapua)\b/g;
 
-/** A looser key without maker words, used only when the strict key finds nothing. */
-export function looseAliasKey(name: string): string {
+function synonymWords(name: string): string {
   let s = name.toLowerCase().replace(/×/g, "x");
   for (const [re, to] of WORD_SYNONYMS) s = s.replace(re, to);
-  return aliasKey(s.replace(MAKER_WORDS, " "));
+  return s;
+}
+
+/** A looser key without maker words, used only when the strict key finds nothing. */
+export function looseAliasKey(name: string): string {
+  return aliasKey(synonymWords(name).replace(MAKER_WORDS, " "));
+}
+
+/** Maker words in a name ("rem", "norma", ...), after shorthand is expanded. */
+export function makerWords(name: string): string[] {
+  return [...synonymWords(name).matchAll(MAKER_WORDS)].map((m) => m[0]);
 }
 
 export interface AliasIndex {
   lookup: Map<string, string>;
   /** Keys without maker words; only keys that point at one cartridge. */
   loose: Map<string, string>;
+  /** Maker words used in each cartridge's names, so a loose match can't swap makers ("338 norma" is not .338 Lapua). */
+  makers: Map<string, Set<string>>;
   /** Keys claimed by more than one cartridge. These are ambiguous and not resolved. */
   collisions: Map<string, string[]>;
 }
@@ -151,7 +164,9 @@ export function buildAliasIndex(cartridges: Cartridge[]): AliasIndex {
   }
   const loose = new Map<string, string>();
   for (const [key, ids] of looseOwners) if (ids.size === 1) loose.set(key, [...ids][0]!);
-  return { lookup, loose, collisions };
+  const makers = new Map<string, Set<string>>();
+  for (const c of cartridges) makers.set(c.id, new Set([c.name, ...c.aliases].flatMap(makerWords)));
+  return { lookup, loose, collisions, makers };
 }
 
 /**
@@ -161,7 +176,7 @@ export function buildAliasIndex(cartridges: Cartridge[]): AliasIndex {
  * different cartridges resolve to nothing rather than a guess.
  */
 export function resolveCartridge(name: string, index: AliasIndex): string | null {
-  const whole = index.lookup.get(aliasKey(name)) ?? index.loose.get(looseAliasKey(name));
+  const whole = index.lookup.get(aliasKey(name)) ?? looseMatch(name, index);
   if (whole) return whole;
   const parts = new Set<string>();
   for (const piece of name.split(/\s+\/\s+/)) {
@@ -173,7 +188,20 @@ export function resolveCartridge(name: string, index: AliasIndex): string | null
     const id = p ? index.lookup.get(aliasKey(p)) : undefined;
     if (id) found.add(id);
   }
+  // "6mm BR / BRA / Dasher variants" names three cartridges; one known piece
+  // is not enough. Every " / " piece must point at the same cartridge.
+  const slashPieces = name.split(/\s+\/\s+/).map((p) => p.replace(/\([^)]*\)/g, "").trim()).filter(Boolean);
+  if (slashPieces.length > 1 && slashPieces.some((p) => !index.lookup.get(aliasKey(p)))) return null;
   return found.size === 1 ? [...found][0]! : null;
+}
+
+function looseMatch(name: string, index: AliasIndex): string | undefined {
+  const id = index.loose.get(looseAliasKey(name));
+  if (!id) return undefined;
+  // A maker word may be dropped or added ("30 BR Remington" for .30 BR), but
+  // not swapped for another maker's ("338 norma" is not .338 Lapua).
+  const have = index.makers.get(id) ?? new Set<string>();
+  return have.size === 0 || makerWords(name).every((m) => have.has(m)) ? id : undefined;
 }
 
 export interface CartridgeIssue {
