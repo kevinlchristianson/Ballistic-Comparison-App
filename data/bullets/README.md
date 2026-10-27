@@ -1,0 +1,107 @@
+# Rifle bullet library
+
+Schema version **1.0.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else.
+
+This revision is the contract and the tooling. The combined catalog [`bullets.json`](bullets.json) is intentionally empty. Four Berger rows in [`examples/examples.json`](examples/examples.json) show the shape. They are real rows from Berger's public table, not a sample of the full line. Manufacturer files and the filled combined catalog land in a follow-up change that does not alter this schema.
+
+## Layout
+
+```
+data/bullets/
+  bullets.json                 Combined catalog the app reads. Empty until normalize runs.
+  examples/examples.json       A few sourced rows for development against the schema.
+  manufacturers/<slug>.json    One catalog per manufacturer. Empty in this revision.
+  raw/                         Scratch downloads. Gitignored. Not a source of truth.
+  schema/bullet.schema.json    JSON Schema, draft 2020-12. Field contract.
+  schema/bullet.ts             TypeScript types for the same contract.
+scripts/bullets/
+  scrape.py                    Source registry and scraper entry point.
+  normalize.py                 Merge manufacturer files into bullets.json.
+  validate.py                  Schema, duplicate, and sanity checks.
+  catalog.py                   Paths and the schema checker the scripts share.
+```
+
+A manufacturer file, the examples file, and `bullets.json` all use the same envelope:
+
+```json
+{
+  "schemaVersion": "1.0.0",
+  "manufacturer": "Berger",
+  "generatedOn": "2026-10-27",
+  "bulletCount": 1,
+  "bullets": []
+}
+```
+
+`manufacturer` is the brand on a single-manufacturer file and `null` on `bullets.json` and the examples file. `bulletCount` must equal `bullets.length`.
+
+## Fields
+
+Unknown values are `null` or an empty array. Do not calculate or guess a measurement to fill a blank. Sectional density in particular stays `null` unless the source printed it.
+
+| Field | Unit / form | Meaning |
+| --- | --- | --- |
+| `id` | slug | Unique in the combined catalog. `{manufacturer}-{sku}` when a SKU exists, otherwise `{manufacturer}-{caliber}-{weight}-{name}`. |
+| `manufacturer` | text | Brand as published. |
+| `productLine` | text or null | Family such as `ELD Match` or `VLD Target`. |
+| `name` | text | Model as published. |
+| `sku` | text or null | Primary part number. |
+| `alternateSkus` | string[] | Pack-size or distributor numbers for the same bullet. |
+| `caliber` | text or null | Bore designation as published (`22 Caliber`, `6.5 mm`, `.308`). |
+| `diameterIn` | inches or null | Groove diameter. Not copied from the caliber label unless the source states it. |
+| `weightGr` | grains or null | Bullet weight. |
+| `bcG1`, `bcG7` | number or null | Preferred single BC. For velocity bands, use the value the manufacturer marks as preferred, otherwise the highest-velocity band. |
+| `ballisticCoefficients` | array | Every published BC: drag model, value, optional fps band, provenance, URL. |
+| `bcSource` | enum or null | Provenance of the headline BCs: `manufacturer`, `applied_ballistics`, `litz`, `lab_measured`, `other`, `unknown`. |
+| `sectionalDensity` | lb/in² or null | Published sectional density only. |
+| `lengthIn` | inches or null | Published length. |
+| `construction` | snake_case[] | Parsed from the published description. Recommended tokens are listed in the schema. |
+| `material` | text or null | Published material, such as `copper solid`. |
+| `intendedUse` | snake_case[] | Recommended tokens: `match`, `hunting`, `varmint`, `target`, `tactical`, `plinking`, `defense`. |
+| `twistRateInPerTurn` | inches/turn or null | `1:8"` is `8`. |
+| `twistRateNote` | text or null | Twist wording as published, including minimum vs recommended. |
+| `minimumExpansionVelocityFps` | fps or null | Published expansion threshold. |
+| `sources` | array | At least one `{url, retrievedOn, publisher, notes}` per bullet. `retrievedOn` is `YYYY-MM-DD`. |
+| `conflicts` | string[] | What disagreed, and which value was kept. |
+| `notes` | text or null | Parsing limits or other source caveats. |
+
+`construction` and `intendedUse` are open vocabularies of lowercase snake_case tokens so a new product line does not require a schema bump. Stick to the recommended tokens when they fit.
+
+## Precedence and dedupe
+
+1. Prefer a manufacturer page over an aggregator (LoadDevelopment, Trajek, or similar) when the same bullet disagrees.
+2. Headline `bcSource` order when merging two rows for one id or one manufacturer+SKU: `manufacturer`, then `applied_ballistics`, then `litz`, then `lab_measured`, then `other`, then `unknown`.
+3. Fill a null on the winning row from the other row. Do not overwrite a published number silently. `normalize.py` appends the rejected value to `conflicts`.
+4. `id` must be unique in `bullets.json`. Manufacturer + `sku` must be unique when `sku` is set. The same part number may exist at two brands.
+
+## Sources
+
+Planned sources, in the order `scrape.py --list` prints them:
+
+- Manufacturers: Hornady, Sierra, Nosler, Barnes, Berger, Speer, Lapua, Swift, Federal component bullets, Woodleigh, Norma, RWS.
+- Boutique: Cutting Edge Bullets, Hammer Bullets, Badlands, Warner Flatline, Lehigh Defense, Peregrine, GS Custom, Matrix.
+- Aggregator, for discovery and cross-check only: [LoadDevelopment.com bullet database](https://loaddevelopment.com/bullet-database/), which embeds the [Trajek library](https://trajek.app/library).
+
+The only rows recorded so far are the four Berger examples. They were read on 2026-10-27 from <https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/>. That table publishes part number, description, G1 BC, G7 BC, and minimum twist. Empty G7 cells are `null`. Diameter, length, sectional density, material, and expansion velocity were not on the table, so those fields are `null`.
+
+## How to update
+
+1. Implement or run a source adapter: `python3 scripts/bullets/scrape.py --source berger`. Adapters in this revision are registered and not implemented; `--dry-run` prints the URL and output path, and a real run exits 2 until the adapter exists.
+2. Write `data/bullets/manufacturers/<slug>.json` in this schema. One file per manufacturer. Keep raw HTML or JSON under `data/bullets/raw/` (gitignored).
+3. Rebuild the combined file: `python3 scripts/bullets/normalize.py`. Add `--include-examples` only when you deliberately want the sample rows in the app catalog.
+4. Check the result: `python3 scripts/bullets/validate.py`. Use `--strict` to fail on range warnings.
+
+`validate.py` checks, with no extra Python packages:
+
+- JSON Schema 1.0.0 (required keys, types, enums, patterns, hard bounds).
+- `bulletCount`, unique `id`, unique manufacturer+SKU.
+- Headline BC is one of the published bands for that drag model.
+- G7 is lower than G1 when both exist.
+- Weight and diameter, when both exist, imply a sectional density between 0.04 and 0.60, and they agree with a published sectional density within 0.002 or 1%.
+- Warnings for BCs, weights, diameters, lengths, twist, and expansion velocity outside ordinary rifle ranges. Warnings do not fail the script unless `--strict`.
+
+Hard bounds live in the schema (for example a BC above 0 and at most 2). Do not relax them without a schema version bump.
+
+## Schema changes
+
+Do not add, remove, rename, or retype a field in place. Bump `schemaVersion` in `bullet.schema.json` and `SCHEMA_VERSION` in `bullet.ts` together, update this file, and call the change out in the pull request. Additive optional fields are still a version bump because the app will be coded against 1.0.0.

@@ -1,0 +1,274 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kevinlchristianson/ballistic-comparison-app/blob/main/data/bullets/schema/bullet.schema.json",
+  "title": "BulletCatalog",
+  "description": "Rifle bullet ballistic catalog, schemaVersion 1.0.0. Do not add, remove, or rename fields without bumping schemaVersion and calling the change out. Unknown values are null or empty arrays. Do not invent measurements.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "manufacturer", "generatedOn", "bulletCount", "bullets"],
+  "properties": {
+    "schemaVersion": {
+      "description": "Catalog contract version. Application code should reject other versions.",
+      "const": "1.0.0"
+    },
+    "manufacturer": {
+      "description": "Set on a single-manufacturer file. Null on the combined catalog and on the examples file.",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "generatedOn": {
+      "description": "ISO date (YYYY-MM-DD) the file was generated or the examples were recorded. Null if unknown.",
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "bulletCount": {
+      "description": "Must equal bullets.length.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "bullets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/bullet" }
+    }
+  },
+  "$defs": {
+    "bullet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "manufacturer",
+        "productLine",
+        "name",
+        "sku",
+        "alternateSkus",
+        "caliber",
+        "diameterIn",
+        "weightGr",
+        "bcG1",
+        "bcG7",
+        "ballisticCoefficients",
+        "bcSource",
+        "sectionalDensity",
+        "lengthIn",
+        "construction",
+        "material",
+        "intendedUse",
+        "twistRateInPerTurn",
+        "twistRateNote",
+        "minimumExpansionVelocityFps",
+        "sources",
+        "conflicts",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "description": "Stable slug, unique in the combined catalog. Prefer {manufacturer}-{sku}. Otherwise {manufacturer}-{caliber}-{weightGr}-{name}. Lowercase, digits, hyphens.",
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "manufacturer": {
+          "description": "Brand as published, e.g. \"Berger\", \"Hornady\", \"Cutting Edge Bullets\".",
+          "type": "string",
+          "minLength": 1
+        },
+        "productLine": {
+          "description": "Product family as published, e.g. \"ELD Match\", \"MatchKing\", \"VLD Target\". Null if the source does not name a line.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "name": {
+          "description": "Bullet name or model as published, including caliber and weight when that is how the source names it.",
+          "type": "string",
+          "minLength": 1
+        },
+        "sku": {
+          "description": "Primary part or SKU. Null when the source does not publish one. Pack-size variants belong in alternateSkus.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "alternateSkus": {
+          "description": "Other part numbers for the same bullet (pack size, distributor SKU). Empty when none are published.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "caliber": {
+          "description": "Bore or caliber designation as published, e.g. \".308\", \"6.5 mm\", \"22 Caliber\". Not a substitute for diameterIn.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "diameterIn": {
+          "description": "Groove diameter in inches. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "weightGr": {
+          "description": "Bullet weight in grains. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 2000
+        },
+        "bcG1": {
+          "description": "Preferred single G1 ballistic coefficient. When several velocity-banded G1 values exist, this is the manufacturer-preferred value if one is designated, otherwise the highest-velocity band. Null when no G1 BC is published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "bcG7": {
+          "description": "Preferred single G7 ballistic coefficient, chosen the same way as bcG1. Null when no G7 BC is published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "ballisticCoefficients": {
+          "description": "Every published BC, including velocity bands and drag models other than the preferred G1/G7 headlines. Empty when the source publishes no BC.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/ballisticCoefficient" }
+        },
+        "bcSource": {
+          "description": "Provenance of the headline bcG1/bcG7 values. Null when neither headline is set. Band-level provenance lives on each ballisticCoefficients entry.",
+          "type": ["string", "null"],
+          "enum": ["manufacturer", "applied_ballistics", "litz", "lab_measured", "other", "unknown", null]
+        },
+        "sectionalDensity": {
+          "description": "Sectional density as published, in lb/in^2. Do not calculate this to fill a blank. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "lengthIn": {
+          "description": "Bullet length in inches. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "construction": {
+          "description": "Open snake_case vocabulary parsed from the published description. Recommended tokens: flat_base, boattail, rebated_boattail, polymer_tip, hollow_point, open_tip_match, soft_point, spitzer, round_nose, vld, hybrid, monolithic, bonded, partition, solid, fmj, cup_and_core, lathe_turned, frangible, expanding. Empty when the source does not say.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          }
+        },
+        "material": {
+          "description": "Material as published, e.g. \"copper solid\", \"lead core, gilding metal jacket\". Null when not published.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "intendedUse": {
+          "description": "Open snake_case vocabulary. Recommended tokens: match, hunting, varmint, target, tactical, plinking, defense. Empty when not published.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          }
+        },
+        "twistRateInPerTurn": {
+          "description": "Minimum or recommended rifling twist in inches per turn. 1:8\" is 8. Null when not published. See twistRateNote when the source gives a range or distinguishes minimum from optimal.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 100
+        },
+        "twistRateNote": {
+          "description": "Twist text as published, e.g. \"1:8\\\" minimum\". Null when not published.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "minimumExpansionVelocityFps": {
+          "description": "Minimum impact velocity for reliable expansion, in feet per second. Null when not published.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 5000
+        },
+        "sources": {
+          "description": "Every row has at least one source. Prefer the manufacturer page when an aggregator disagrees.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "conflicts": {
+          "description": "Human-readable notes where sources disagreed and which value was kept. Empty when there is no conflict.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "notes": {
+          "description": "Source limits, parsing notes, or discontinued status. Null when there is nothing to add.",
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
+    },
+    "ballisticCoefficient": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dragModel", "bc", "velocityMinFps", "velocityMaxFps", "label", "source", "sourceUrl"],
+      "properties": {
+        "dragModel": {
+          "type": "string",
+          "enum": ["G1", "G7", "G5", "G6", "G8", "GL", "custom"]
+        },
+        "bc": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 2
+        },
+        "velocityMinFps": {
+          "description": "Inclusive lower bound of the published velocity band, in fps. Null when the source gives a single BC with no band.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 6000
+        },
+        "velocityMaxFps": {
+          "description": "Inclusive upper bound of the published velocity band, in fps. Null when unbounded or not stated.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 6000
+        },
+        "label": {
+          "description": "Band text as published, e.g. \"2800 fps and above\". Null when the source does not label the value.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "enum": ["manufacturer", "applied_ballistics", "litz", "lab_measured", "other", "unknown"]
+        },
+        "sourceUrl": {
+          "description": "Page that published this BC. Null only when the parent bullet source list already identifies it and no distinct URL exists.",
+          "type": ["string", "null"],
+          "format": "uri"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "retrievedOn", "publisher", "notes"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "retrievedOn": {
+          "description": "ISO date this URL was read.",
+          "type": "string",
+          "format": "date"
+        },
+        "publisher": {
+          "description": "Who published the page, e.g. \"Berger Bullets\" or \"LoadDevelopment.com\". Null if unclear.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
