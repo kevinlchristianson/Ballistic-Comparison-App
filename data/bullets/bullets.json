@@ -2,7 +2,7 @@
   "schemaVersion": "1.2.0",
   "manufacturer": null,
   "generatedOn": "2026-10-27",
-  "bulletCount": 2268,
+  "bulletCount": 2333,
   "bullets": [
     {
       "id": "barnes-30090",
@@ -105691,6 +105691,3493 @@
       ],
       "conflicts": [],
       "notes": "Weight printed as 18,6g/286gr. Diameter printed as 9,30mm. Not converted to inches."
+    },
+    {
+      "id": "sellier-bellot-v338022",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 45 gr",
+      "sku": "V338022",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 45,
+      "bcG1": 0.143,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.143,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 45 grs and 2,9 g. Bullet No 2901. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,143."
+    },
+    {
+      "id": "sellier-bellot-v338072",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 45 gr",
+      "sku": "V338072",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 45,
+      "bcG1": 0.138,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.138,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 45 grs and 2,9 g. Bullet No 2911. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,138."
+    },
+    {
+      "id": "sellier-bellot-v338122",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 50 gr",
+      "sku": "V338122",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 50,
+      "bcG1": 0.235,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.235,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 50 grs and 3,24 g. Bullet No 2902. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,235."
+    },
+    {
+      "id": "sellier-bellot-v338172",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 50 gr",
+      "sku": "V338172",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 50,
+      "bcG1": 0.177,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.177,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 50 grs and 3,24 g. Bullet No 2913. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,177."
+    },
+    {
+      "id": "sellier-bellot-v339162",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 52 gr",
+      "sku": "V339162",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 52,
+      "bcG1": 0.224,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.224,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 52 grs and 3,36 g. Bullet No 2886. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,224."
+    },
+    {
+      "id": "sellier-bellot-v338142",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 55 gr",
+      "sku": "V338142",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": 0.259,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.259,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2903. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,259."
+    },
+    {
+      "id": "sellier-bellot-v338272",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 55 gr",
+      "sku": "V338272",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 55,
+      "bcG1": 0.207,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.207,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 55 grs and 3,6 g. Bullet No 2914. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,207."
+    },
+    {
+      "id": "sellier-bellot-v338332",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 69 gr",
+      "sku": "V338332",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 69,
+      "bcG1": 0.224,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.224,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 69 grs and 4,5 g. Bullet No 2887. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,224."
+    },
+    {
+      "id": "sellier-bellot-v339152",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 77 gr",
+      "sku": "V339152",
+      "alternateSkus": [],
+      "caliber": "22",
+      "diameterIn": 0.224,
+      "weightGr": 77,
+      "bcG1": 0.224,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.224,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 77 grs and 5 g. Bullet No 2888. Diameter 0.224 copied from the printed inch column .224. The row also prints 5,7 mm. G1 printed as 0,224."
+    },
+    {
+      "id": "sellier-bellot-v338422",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 100 gr",
+      "sku": "V338422",
+      "alternateSkus": [],
+      "caliber": "243",
+      "diameterIn": 0.243,
+      "weightGr": 100,
+      "bcG1": 0.315,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.315,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 100 grs and 6,5 g. Bullet No 2921. Diameter 0.243 copied from the printed inch column .243. The row also prints 6,17 mm. G1 printed as 0,315."
+    },
+    {
+      "id": "sellier-bellot-v339132",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 110 gr",
+      "sku": "V339132",
+      "alternateSkus": [],
+      "caliber": "270",
+      "diameterIn": 0.277,
+      "weightGr": 110,
+      "bcG1": 0.307,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.307,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 110 grs and 7,1 g. Bullet No 2340. Diameter 0.277 copied from the printed inch column .277. The row also prints 7,06 mm. G1 printed as 0,307."
+    },
+    {
+      "id": "sellier-bellot-v339292",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 130 gr",
+      "sku": "V339292",
+      "alternateSkus": [],
+      "caliber": "270",
+      "diameterIn": 0.277,
+      "weightGr": 130,
+      "bcG1": 0.223,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.223,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 130 grs and 8,4 g. Bullet No 2929. Diameter 0.277 copied from the printed inch column .277. The row also prints 7,06 mm. G1 printed as 0,223."
+    },
+    {
+      "id": "sellier-bellot-v338622",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 150 gr",
+      "sku": "V338622",
+      "alternateSkus": [],
+      "caliber": "270",
+      "diameterIn": 0.277,
+      "weightGr": 150,
+      "bcG1": 0.266,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.266,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2927. Diameter 0.277 copied from the printed inch column .277. The row also prints 7,06 mm. G1 printed as 0,266."
+    },
+    {
+      "id": "sellier-bellot-v339802",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 110 gr",
+      "sku": "V339802",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 110,
+      "bcG1": 0.154,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.154,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 110 grs and 7,1 g. Bullet No 2960. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,154."
+    },
+    {
+      "id": "sellier-bellot-v338942",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 110 gr",
+      "sku": "V338942",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 110,
+      "bcG1": 0.157,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.157,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 110 grs and 7,1 g. Bullet No 2959. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,157."
+    },
+    {
+      "id": "sellier-bellot-v339082",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 110 gr",
+      "sku": "V339082",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 110,
+      "bcG1": 0.288,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.288,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 110 grs and 7,1 g. Bullet No 2973. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,288."
+    },
+    {
+      "id": "sellier-bellot-v339102",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 124 gr",
+      "sku": "V339102",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 124,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 124 grs and 8 g. Bullet No 2958. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v338922",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 147 gr",
+      "sku": "V338922",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 147,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 147 grs and 9,55 g. Bullet No 2908. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v338782",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 150 gr",
+      "sku": "V338782",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2954. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v339582",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 150 gr",
+      "sku": "V339582",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.246,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.246,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2934. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,246."
+    },
+    {
+      "id": "sellier-bellot-v338972",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "SPCE",
+      "name": "SPCE 150 gr",
+      "sku": "V338972",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 150,
+      "bcG1": 0.29,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.29,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2936. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,290."
+    },
+    {
+      "id": "sellier-bellot-v339592",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "EDGE",
+      "name": "EDGE 165 gr",
+      "sku": "V339592",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 165,
+      "bcG1": 0.357,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.357,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 165 grs and 10,7 g. Bullet No 9318. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,357."
+    },
+    {
+      "id": "sellier-bellot-v339382",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 165 gr",
+      "sku": "V339382",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 165,
+      "bcG1": 0.398,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.398,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 165 grs and 10,7 g. Bullet No 2971. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,398."
+    },
+    {
+      "id": "sellier-bellot-v338482",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 168 gr",
+      "sku": "V338482",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 168,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 168 grs and 10,9 g. Bullet No 2880. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v338712",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 175 gr",
+      "sku": "V338712",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 175,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 175 grs and 11,35 g. Bullet No 2882. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v339642",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "EDGE",
+      "name": "EDGE 180 gr",
+      "sku": "V339642",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.379,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.379,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 9319. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,379."
+    },
+    {
+      "id": "sellier-bellot-v339022",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 180 gr",
+      "sku": "V339022",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.498,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.498,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2957. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,498."
+    },
+    {
+      "id": "sellier-bellot-v338702",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 180 gr",
+      "sku": "V338702",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2881. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v339072",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 180 gr",
+      "sku": "V339072",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.298,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.298,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2937. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,298."
+    },
+    {
+      "id": "sellier-bellot-v339722",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "SPCE",
+      "name": "SPCE 180 gr",
+      "sku": "V339722",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.353,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.353,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2935. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,353."
+    },
+    {
+      "id": "sellier-bellot-v339392",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 180 gr",
+      "sku": "V339392",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 180,
+      "bcG1": 0.442,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.442,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2972. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,442."
+    },
+    {
+      "id": "sellier-bellot-v339052",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 200 gr",
+      "sku": "V339052",
+      "alternateSkus": [],
+      "caliber": "30",
+      "diameterIn": 0.308,
+      "weightGr": 200,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 200 grs and 13 g. Bullet No 2950. Diameter 0.308 copied from the printed inch column .308. The row also prints 7,85 mm. G1 printed as 0,308."
+    },
+    {
+      "id": "sellier-bellot-v339432",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 250 gr",
+      "sku": "V339432",
+      "alternateSkus": [],
+      "caliber": "338",
+      "diameterIn": 0.338,
+      "weightGr": 250,
+      "bcG1": 0.338,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.338,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 250 grs and 16,2 g. Bullet No 2898. Diameter 0.338 copied from the printed inch column .338. The row also prints 8,61 mm. G1 printed as 0,338."
+    },
+    {
+      "id": "sellier-bellot-v339442",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 300 gr",
+      "sku": "V339442",
+      "alternateSkus": [],
+      "caliber": "338",
+      "diameterIn": 0.338,
+      "weightGr": 300,
+      "bcG1": 0.338,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.338,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 300 grs and 19,4 g. Bullet No 2899. Diameter 0.338 copied from the printed inch column .338. The row also prints 8,61 mm. G1 printed as 0,338."
+    },
+    {
+      "id": "sellier-bellot-v338582",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 405 gr",
+      "sku": "V338582",
+      "alternateSkus": [],
+      "caliber": "45",
+      "diameterIn": 0.458,
+      "weightGr": 405,
+      "bcG1": 0.306,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.306,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 405 grs and 26,2 g. Bullet No 2948. Diameter 0.458 copied from the printed inch column .458. The row also prints 11,63 mm. G1 printed as 0,306."
+    },
+    {
+      "id": "sellier-bellot-v338322",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 70 gr",
+      "sku": "V338322",
+      "alternateSkus": [],
+      "caliber": "5,6",
+      "diameterIn": 0.226,
+      "weightGr": 70,
+      "bcG1": 0.296,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.296,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 70 grs and 4,6 g. Bullet No 2904. Diameter 0.226 copied from the printed inch column .226. The row also prints 5,75 mm. G1 printed as 0,296."
+    },
+    {
+      "id": "sellier-bellot-v338372",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 70 gr",
+      "sku": "V338372",
+      "alternateSkus": [],
+      "caliber": "5,6",
+      "diameterIn": 0.226,
+      "weightGr": 70,
+      "bcG1": 0.264,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.264,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 70 grs and 4,6 g. Bullet No 2915. Diameter 0.226 copied from the printed inch column .226. The row also prints 5,75 mm. G1 printed as 0,264."
+    },
+    {
+      "id": "sellier-bellot-v338472",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 117 gr",
+      "sku": "V338472",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.257,
+      "weightGr": 117,
+      "bcG1": 0.223,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.223,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 117 grs and 7,6 g. Bullet No 2925. Diameter 0.257 copied from the printed inch column .257. The row also prints 6,58 mm. G1 printed as 0,223."
+    },
+    {
+      "id": "sellier-bellot-v338892",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "EDGE",
+      "name": "EDGE 120 gr",
+      "sku": "V338892",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.348,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.348,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 120 grs and 7,8 g. Bullet No 9315. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,348."
+    },
+    {
+      "id": "sellier-bellot-v338432",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 120 gr",
+      "sku": "V338432",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 120,
+      "bcG1": 0.414,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.414,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 120 grs and 7,8 g. Bullet No 2965. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,414."
+    },
+    {
+      "id": "sellier-bellot-v338522",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 131 gr",
+      "sku": "V338522",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 131,
+      "bcG1": 0.389,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.389,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 131 grs and 8,5 g. Bullet No 2923. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,389."
+    },
+    {
+      "id": "sellier-bellot-v339622",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 140 gr",
+      "sku": "V339622",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 140,
+      "bcG1": 0.263,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.263,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2905. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,263."
+    },
+    {
+      "id": "sellier-bellot-v338572",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 140 gr",
+      "sku": "V338572",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 140,
+      "bcG1": 0.417,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.417,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2928. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,417."
+    },
+    {
+      "id": "sellier-bellot-v339172",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "HPBT 142 gr",
+      "sku": "V339172",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 142,
+      "bcG1": 0.264,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.264,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "hollow_point",
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 142 grs and 9,2 g. Bullet No 2890. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,264."
+    },
+    {
+      "id": "sellier-bellot-v338442",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 156 gr",
+      "sku": "V338442",
+      "alternateSkus": [],
+      "caliber": "6,5",
+      "diameterIn": 0.264,
+      "weightGr": 156,
+      "bcG1": 0.456,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.456,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 156 grs and 10,1 g. Bullet No 2926. Diameter 0.264 copied from the printed inch column .264. The row also prints 6,7 mm. G1 printed as 0,456."
+    },
+    {
+      "id": "sellier-bellot-v339972",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 140 gr",
+      "sku": "V339972",
+      "alternateSkus": [],
+      "caliber": "7",
+      "diameterIn": 0.284,
+      "weightGr": 140,
+      "bcG1": 0.429,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.429,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2955. Diameter 0.284 copied from the printed inch column .284. The row also prints 7,25 mm. G1 printed as 0,429."
+    },
+    {
+      "id": "sellier-bellot-v338672",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 140 gr",
+      "sku": "V338672",
+      "alternateSkus": [],
+      "caliber": "7",
+      "diameterIn": 0.284,
+      "weightGr": 140,
+      "bcG1": 0.231,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.231,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 140 grs and 9,1 g. Bullet No 2931. Diameter 0.284 copied from the printed inch column .284. The row also prints 7,25 mm. G1 printed as 0,231."
+    },
+    {
+      "id": "sellier-bellot-v339342",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "EDGE",
+      "name": "EDGE 150 gr",
+      "sku": "V339342",
+      "alternateSkus": [],
+      "caliber": "7",
+      "diameterIn": 0.284,
+      "weightGr": 150,
+      "bcG1": 0.387,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.387,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 9317. Diameter 0.284 copied from the printed inch column .284. The row also prints 7,25 mm. G1 printed as 0,387."
+    },
+    {
+      "id": "sellier-bellot-v339332",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 150 gr",
+      "sku": "V339332",
+      "alternateSkus": [],
+      "caliber": "7",
+      "diameterIn": 0.284,
+      "weightGr": 150,
+      "bcG1": 0.449,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.449,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2969. Diameter 0.284 copied from the printed inch column .284. The row also prints 7,25 mm. G1 printed as 0,449."
+    },
+    {
+      "id": "sellier-bellot-v338732",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "SPCE",
+      "name": "SPCE 173 gr",
+      "sku": "V338732",
+      "alternateSkus": [],
+      "caliber": "7",
+      "diameterIn": 0.284,
+      "weightGr": 173,
+      "bcG1": 0.376,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.376,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 173 grs and 11,2 g. Bullet No 2932. Diameter 0.284 copied from the printed inch column .284. The row also prints 7,25 mm. G1 printed as 0,376."
+    },
+    {
+      "id": "sellier-bellot-v338632",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 174 gr",
+      "sku": "V338632",
+      "alternateSkus": [],
+      "caliber": "7,5",
+      "diameterIn": 0.306,
+      "weightGr": 174,
+      "bcG1": 0.501,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.501,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 174 grs and 11,3 g. Bullet No 2947. Diameter 0.306 copied from the printed inch column .306. The row also prints 7,78 mm. G1 printed as 0,501."
+    },
+    {
+      "id": "sellier-bellot-v339922",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 124 gr",
+      "sku": "V339922",
+      "alternateSkus": [],
+      "caliber": "7,62",
+      "diameterIn": 0.312,
+      "weightGr": 124,
+      "bcG1": 0.286,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.286,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 124 grs and 8 g. Bullet No 2907. Diameter 0.312 copied from the printed inch column .312. The row also prints 7,92 mm. G1 printed as 0,286."
+    },
+    {
+      "id": "sellier-bellot-v339272",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 124 gr",
+      "sku": "V339272",
+      "alternateSkus": [],
+      "caliber": "7,62",
+      "diameterIn": 0.312,
+      "weightGr": 124,
+      "bcG1": 0.238,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.238,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 124 grs and 8 g. Bullet No 2943. Diameter 0.312 copied from the printed inch column .312. The row also prints 7,92 mm. G1 printed as 0,238."
+    },
+    {
+      "id": "sellier-bellot-v338872",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 150 gr",
+      "sku": "V338872",
+      "alternateSkus": [],
+      "caliber": "7,62*",
+      "diameterIn": 0.312,
+      "weightGr": 150,
+      "bcG1": 0.309,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.309,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 150 grs and 9,7 g. Bullet No 2939. Diameter 0.312 copied from the printed inch column .312. The row also prints 7,92 mm. G1 printed as 0,309. Caliber is printed as 7,62*. The page does not explain the asterisk."
+    },
+    {
+      "id": "sellier-bellot-v338822",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 180 gr",
+      "sku": "V338822",
+      "alternateSkus": [],
+      "caliber": "7,62*",
+      "diameterIn": 0.312,
+      "weightGr": 180,
+      "bcG1": 0.506,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.506,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2909. Diameter 0.312 copied from the printed inch column .312. The row also prints 7,92 mm. G1 printed as 0,506. Caliber is printed as 7,62*. The page does not explain the asterisk."
+    },
+    {
+      "id": "sellier-bellot-v339772",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 180 gr",
+      "sku": "V339772",
+      "alternateSkus": [],
+      "caliber": "7,62*",
+      "diameterIn": 0.312,
+      "weightGr": 180,
+      "bcG1": 0.305,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.305,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2940. Diameter 0.312 copied from the printed inch column .312. The row also prints 7,92 mm. G1 printed as 0,305. Caliber is printed as 7,62*. The page does not explain the asterisk."
+    },
+    {
+      "id": "sellier-bellot-v339532",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "EDGE",
+      "name": "EDGE 180 gr",
+      "sku": "V339532",
+      "alternateSkus": [],
+      "caliber": "8",
+      "diameterIn": 0.323,
+      "weightGr": 180,
+      "bcG1": 0.327,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.327,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 9321. Diameter 0.323 copied from the printed inch column .323. The row also prints 8,22 mm. G1 printed as 0,327."
+    },
+    {
+      "id": "sellier-bellot-v339992",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 180 gr",
+      "sku": "V339992",
+      "alternateSkus": [],
+      "caliber": "8",
+      "diameterIn": 0.323,
+      "weightGr": 180,
+      "bcG1": 0.401,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.401,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 180 grs and 11,7 g. Bullet No 2976. Diameter 0.323 copied from the printed inch column .323. The row also prints 8,22 mm. G1 printed as 0,401."
+    },
+    {
+      "id": "sellier-bellot-v339372",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 196 gr",
+      "sku": "V339372",
+      "alternateSkus": [],
+      "caliber": "8",
+      "diameterIn": 0.323,
+      "weightGr": 196,
+      "bcG1": 0.509,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.509,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 196 grs and 12,7 g. Bullet No 2910. Diameter 0.323 copied from the printed inch column .323. The row also prints 8,22 mm. G1 printed as 0,509."
+    },
+    {
+      "id": "sellier-bellot-v339322",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 196 gr",
+      "sku": "V339322",
+      "alternateSkus": [],
+      "caliber": "8",
+      "diameterIn": 0.318,
+      "weightGr": 196,
+      "bcG1": 0.236,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.236,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 196 grs and 12,7 g. Bullet No 2941. Diameter 0.318 copied from the printed inch column .318. The row also prints 8,09 mm. G1 printed as 0,236."
+    },
+    {
+      "id": "sellier-bellot-v339422",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "SPCE",
+      "name": "SPCE 196 gr",
+      "sku": "V339422",
+      "alternateSkus": [],
+      "caliber": "8",
+      "diameterIn": 0.323,
+      "weightGr": 196,
+      "bcG1": 0.328,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.328,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 196 grs and 12,7 g. Bullet No 2945. Diameter 0.323 copied from the printed inch column .323. The row also prints 8,22 mm. G1 printed as 0,328."
+    },
+    {
+      "id": "sellier-bellot-v339522",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 193 gr",
+      "sku": "V339522",
+      "alternateSkus": [],
+      "caliber": "9,3",
+      "diameterIn": 0.367,
+      "weightGr": 193,
+      "bcG1": 0.207,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.207,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 193 grs and 12,5 g. Bullet No 2951. Diameter 0.367 copied from the printed inch column .367. The row also prints 9,3 mm. G1 printed as 0,207."
+    },
+    {
+      "id": "sellier-bellot-v338682",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "FMJ 232 gr",
+      "sku": "V338682",
+      "alternateSkus": [],
+      "caliber": "9,3",
+      "diameterIn": 0.366,
+      "weightGr": 232,
+      "bcG1": 0.378,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.378,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "fmj"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 232 grs and 15 g. Bullet No 2946. Diameter 0.366 copied from the printed inch column .366. The row also prints 9,3 mm. G1 printed as 0,378."
+    },
+    {
+      "id": "sellier-bellot-v339952",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": "TXRG",
+      "name": "TXRG 250 gr",
+      "sku": "V339952",
+      "alternateSkus": [],
+      "caliber": "9,3",
+      "diameterIn": 0.366,
+      "weightGr": 250,
+      "bcG1": 0.43,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.43,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 250 grs and 16,2 g. Bullet No 2991. Diameter 0.366 copied from the printed inch column .366. The row also prints 9,3 mm. G1 printed as 0,430."
+    },
+    {
+      "id": "sellier-bellot-v339572",
+      "manufacturer": "Sellier & Bellot",
+      "productLine": null,
+      "name": "SP 285 gr",
+      "sku": "V339572",
+      "alternateSkus": [],
+      "caliber": "9,3",
+      "diameterIn": 0.366,
+      "weightGr": 285,
+      "bcG1": 0.308,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.308,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": "G1",
+          "source": "manufacturer",
+          "sourceUrl": "https://www.sellier-bellot.cz/en/products/components/bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "construction": [
+        "soft_point"
+      ],
+      "material": null,
+      "intendedUse": [],
+      "twistRateInPerTurn": null,
+      "twistRateNote": null,
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://www.sellier-bellot.cz/en/products/components/bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Sellier & Bellot",
+          "notes": "Rifle component row from the Czech Sellier & Bellot component table. The pistol and revolver table is omitted. sellierbellot.us forbids copying its site and was not used."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Weight printed as 285 grs and 18,5 g. Bullet No 2952. Diameter 0.366 copied from the printed inch column .366. The row also prints 9,3 mm. G1 printed as 0,308."
     },
     {
       "id": "sierra-1345",
