@@ -31,6 +31,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-berger-elite-hunter-30cal-217gr.json` | 5 | 4 | 1 |
 | `community-berger-elite-hunter-30cal-245gr.json` | 6 | 2 | 4 |
 | `community-berger-elite-hunter-338cal-250gr.json` | 9 | 6 | 3 |
+| `community-berger-elite-hunter-338cal-300gr.json` | 14 | 12 | 2 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -282,6 +283,7 @@ The fitting change is aliases on cartridges the library already has, not a schem
 10. From the 205 gr file, on .300 Winchester Magnum add alias `300wm`. `.300 WM` already resolves. The 217 gr file uses the same `300wm` spelling once more.
 11. From the new 245 gr file, leave `30 Sherman`, `30-338 Lapua Improved`, and `300 Terminator` unmatched until the library has those cartridges. Do not alias bare `win mag`. treillw's row is his .300 Winchester Magnum, but `win mag` also matches .270 and .338 Winchester Magnum.
 12. From the 250 gr file, on .338 Winchester Magnum add alias `338wm`. `338 WM` already resolves. `338wm` has no word boundary before `wm`, the same gap as `300wm`, and the `338` keeps it from colliding with `300wm`. Leave `33 Nosler` and `338-375 Ruger` unmatched until the library has those cartridges. Do not map `33 Nosler` to .28 Nosler. Do not map `338-375 Ruger` to .375 Ruger.
+13. From the 300 gr file, leave `338 Norma Magnum` unmatched until the library has that cartridge. Do not map it to .300 Norma Magnum. `338 norma` currently joins .338 Lapua Magnum because `looseAliasKey` strips `norma` and the leftover `338` matches the alias `.338 Lapua`. That join is wrong. Do not add an alias for `338 norma`. The count above includes that one row in the resolved column.
 
 The new 245 gr file's strings `300 prc` and `300RUM` already resolve. These do not:
 
@@ -299,6 +301,12 @@ The 250 gr file's strings `338 Edge` and `338 rum` already resolve. These do not
 | 1 | `33 Nosler` | None | No library cartridge. Rusty85's 26 inch trued 700 at 2850 fps. Do not map it to .28 Nosler. |
 | 1 | `338wm` | .338 Winchester Magnum | No. scottrod338's 2780 fps. Alias `338 WM` keeps the space, so `338wm` misses. |
 | 1 | `338-375 Ruger` | None | No library cartridge. Ledd Slinger's 2900 fps. Do not map it to .375 Ruger. |
+
+The 300 gr file's strings `338 Edge`, `338 RUM`, and `.338 LM` already resolve. `338 norma` resolves to the wrong cartridge, described in item 13. This does not:
+
+| Rows | Published string | Library cartridge | Ambiguous? |
+| --- | --- | --- | --- |
+| 2 | `338 Norma Magnum` | None | No library cartridge. Jack Woods's 24 inch GAP, Retumbo at 89 gr and 88.4 gr. The loose key `338mag` is shared by .338 Lapua Magnum and .338 Winchester Magnum, so it stays unmatched. Do not map it to .300 Norma Magnum. |
 
 New community files will add their unresolved strings to this comment, or to a follow-up comment, as those bullets land.
 
