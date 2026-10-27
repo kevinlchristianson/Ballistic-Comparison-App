@@ -21,6 +21,7 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | `community-245gr-30cal.json` | 22 | 22 | 0 |
 | `community-berger-elite-hunter-6mm-108gr.json` | 21 | 18 | 3 |
 | `community-berger-elite-hunter-25cal-133gr.json` | 23 | 12 | 11 |
+| `community-berger-elite-hunter-65mm-140gr.json` | 26 | 26 | 0 |
 | `hodgdon.json` | 5534 | 3600 | 1934 |
 | `loaddevelopment.json` | 0 | 0 | 0 |
 | `shootersworld.json` | 2964 | 1435 | 1529 |
@@ -37,6 +38,8 @@ Case and spacing are already folded. `6mm creedmoor` and `6xc` resolve. So do `6
 | 2 | `6 creed` | 6mm Creedmoor | No. Alias `6 Creedmoor` keeps the full word, and alias `6mm Creed` keeps the `mm`. `6 creed` is neither. |
 | 1 | `6 CM` | 6mm Creedmoor | No. `6mm CM` is an alias. `6 CM` / `6CM` drops the `mm`, so the key is `6cm`, not `6mmcm`. |
 | 1 | `25 creed` | .25 Creedmoor | No. Same gap as `6 creed`. Alias `25 Creedmoor` keeps the full word. `25 CM` already resolves. |
+
+The 140 gr file's strings `6.5 CM`, `6.5 Creedmoor`, `6.5x47`, and `6.5 PRC` already resolve. Nothing from that file is added below.
 
 `25-06ai`, `25-06 ai`, `25-284`, `25 Creedmoor`, `25 creedmoor`, and `25 CM` in the 133 gr file already resolve. These do not:
 
