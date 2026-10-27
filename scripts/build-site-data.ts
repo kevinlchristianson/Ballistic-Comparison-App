@@ -21,9 +21,10 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { join } from "node:path";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
 import type { NormalizedBullet, NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
-import { physicsFpsPerInch } from "../src/lib/velocity/index.ts";
+import { createFilledPhysics, physicsFpsPerInch } from "../src/lib/velocity/index.ts";
+import { estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
 import { buildFitTable, COMMUNITY_FLAG } from "../src/lib/velocity/loadData.ts";
-import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
+import { PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
 import { mergeSubmissions, type SubmissionFile } from "../src/app/submission.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
@@ -117,8 +118,13 @@ const loads = [...loadEnv.records, ...submitted.loads]
   .filter((l) => !excluded.has(l.source.name))
   .map((l) => (communityPattern?.test(l.source.name) && !l.flags.includes(COMMUNITY_FLAG) ? { ...l, flags: [...l.flags, COMMUNITY_FLAG] } : l));
 const isCommunity = (l: NormalizedLoad) => l.flags.includes(COMMUNITY_FLAG);
-const physics = createPhysicsEstimator(lib.cartridges);
 const fitLoadsInput = config.communityLoadsInEstimates === false ? loads.filter((l) => !isCommunity(l)) : loads;
+// Heaviest published charge per cartridge, one input to the case-capacity
+// estimate for cartridges the library has no capacity for.
+const maxChargeGr = maxChargesFromLoads(fitLoadsInput);
+const physics = createFilledPhysics(lib.cartridges, estimateCartridgeInputs(lib.cartridges, { maxChargeGr }));
+// The site gets the heaviest charges only when it publishes charges anyway.
+const estimateInputs = { maxChargeGr: rowsMode === "full" ? maxChargeGr : {} };
 const fits = buildFitTable(fitLoadsInput, config.barrelRangeIn, physicsFpsPerInch(physics));
 
 // Load rows for the Load data tab, one file per cartridge.
@@ -175,6 +181,7 @@ const write = (name: string, data: unknown) => writeFileSync(join(OUT, name), JS
 write("bullets.json", bullets);
 write("cartridges.json", lib);
 write("velocity-fits.json", fits);
+write("estimate-inputs.json", estimateInputs);
 write("meta.json", meta);
 rmSync(join(OUT, "load-rows"), { recursive: true, force: true });
 if (rowIndex) {

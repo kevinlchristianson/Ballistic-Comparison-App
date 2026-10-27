@@ -8,6 +8,7 @@ import type { BcStep, DragSpec } from "../lib/ballistics/solver.ts";
 import type { FitTable } from "../lib/velocity/loadData.ts";
 import type { PhysicsParams } from "../lib/velocity/physics.ts";
 import { createSiteEstimator } from "../lib/velocity/index.ts";
+import { estimateCartridgeInputs, type CartridgeInputs, type InputOptions } from "../lib/velocity/inputs.ts";
 import type { VelocityEstimator } from "../lib/velocity/types.ts";
 import { load, save } from "./store.ts";
 import type { SubmittedIds } from "./submission.ts";
@@ -126,6 +127,10 @@ export interface AppData {
   meta: SiteMeta;
   library: CartridgeLibrary;
   fits: FitTable;
+  /** Inputs to the case-capacity estimate (heaviest published charge per cartridge). */
+  estimateInputs: InputOptions;
+  /** Case capacity and pressure per cartridge, estimated where the library has none. */
+  inputs: Map<string, CartridgeInputs>;
   report: string;
   publishedBullets: SiteBullet[];
   user: UserData;
@@ -149,15 +154,16 @@ async function getJson<T>(path: string): Promise<T> {
 }
 
 export async function loadAppData(): Promise<AppData> {
-  const [meta, library, fits, publishedBullets, report] = await Promise.all([
+  const [meta, library, fits, estimateInputs, publishedBullets, report] = await Promise.all([
     getJson<SiteMeta>("data/meta.json"),
     getJson<CartridgeLibrary>("data/cartridges.json"),
     getJson<FitTable>("data/velocity-fits.json"),
+    getJson<InputOptions>("data/estimate-inputs.json").catch(() => ({})),
     getJson<SiteBullet[]>("data/bullets.json"),
     fetch("data/report.md", FRESH).then((r) => (r.ok ? r.text() : "")),
   ]);
   const user = load<UserData>(USER_KEY, { bullets: [], cartridges: [], loads: [] });
-  const data = { meta, library, fits, report, publishedBullets, user } as AppData;
+  const data = { meta, library, fits, estimateInputs, report, publishedBullets, user } as AppData;
   refresh(data);
   return data;
 }
@@ -170,7 +176,8 @@ export function refresh(data: AppData): void {
   const sentCartridges = new Set(sent?.cartridges ?? []);
   data.bullets = [...data.user.bullets.filter((b) => !sentBullets.has(b.id)), ...data.publishedBullets];
   data.cartridges = [...data.library.cartridges, ...data.user.cartridges.filter((c) => !sentCartridges.has(c.id))];
-  data.estimator = createSiteEstimator(data.cartridges, data.fits, data.user.loads.map(toNormalizedLoad));
+  data.inputs = estimateCartridgeInputs(data.cartridges, data.estimateInputs);
+  data.estimator = createSiteEstimator(data.cartridges, data.fits, data.user.loads.map(toNormalizedLoad), data.inputs);
   save(USER_KEY, data.user);
 }
 

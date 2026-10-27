@@ -15,3 +15,13 @@ describe("cartridge picker search", () => {
     expect(groupLabel(null)).toBe("Unknown diameter");
   });
 });
+
+describe("cartridge order", () => {
+  it("sorts by bullet diameter, then case capacity, wildcats among the rest", async () => {
+    const { byDiameterThenCapacity } = await import("../src/app/cartridgePicker.ts");
+    const list = [cartridge("300-win-mag"), cartridge("30-06-ai"), cartridge("308-win"), cartridge("243-win")];
+    const cap: Record<string, number> = { "300-win-mag": 90, "30-06-ai": 70, "308-win": 56, "243-win": 54 };
+    const ids = list.sort(byDiameterThenCapacity((c) => cap[c.id] ?? null)).map((c) => c.id);
+    expect(ids).toEqual(["243-win", "308-win", "30-06-ai", "300-win-mag"]);
+  });
+});

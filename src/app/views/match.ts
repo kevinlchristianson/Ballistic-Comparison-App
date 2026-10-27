@@ -6,7 +6,8 @@ import { seatingGeometry, type GeometryResult } from "../../lib/geometry.ts";
 import { matchCartridges, STATUS_ORDER, type CartridgeMatch, type MatchStatus } from "../../lib/matching.ts";
 import type { AppData, SiteBullet } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
-import { flagText, GEOMETRY_TEXT, modelLabel, QUIET_FLAGS, STATUS_TEXT } from "../labels.ts";
+import { capacityText, pressureText } from "../estimated.ts";
+import { componentsBlock, flagText, GEOMETRY_TEXT, modelLabel, QUIET_FLAGS, STATUS_TEXT } from "../labels.ts";
 import { bulletPicker } from "../picker.ts";
 import { load, save } from "../store.ts";
 
@@ -145,11 +146,12 @@ export function matchView(data: AppData): HTMLElement {
           ? h("p", {}, `Estimate ${fmt.fps(e.estimateFps)}, likely range ${fmt.num(e.lowFps)}–${fmt.num(e.highFps)} fps. Margin over target: ${m.margin == null ? "—" : `${(m.margin * 100).toFixed(1)}%`}.`)
           : h("p", {}, e.reason ?? "No estimate."),
         e.note ? h("p", { class: "muted" }, e.note) : null,
+        componentsBlock(e),
         e.support.loadCount
           ? h(
               "p",
               {},
-              `Based on ${e.support.loadCount} published maximum loads, ${e.support.weightRangeGr?.[0]}–${e.support.weightRangeGr?.[1]} gr, test barrels ${e.support.barrelLengthsIn.join(", ") || "unknown"} in. Source: `,
+              `${e.model === "blend-v1" ? "Uses" : "Based on"} ${e.support.loadCount} published maximum loads, ${e.support.weightRangeGr?.[0]}–${e.support.weightRangeGr?.[1]} gr, test barrels ${e.support.barrelLengthsIn.join(", ") || "unknown"} in. Source: `,
               e.support.sources.map((s, i) => [i ? ", " : "", s.url ? link(s.url, s.name) : s.name]),
               ". No charge weights are shown; use the source's own data to load.",
             )
@@ -159,7 +161,11 @@ export function matchView(data: AppData): HTMLElement {
         h(
           "p",
           {},
-          `Case ${fmt.in(c.caseLengthIn)}, max COAL ${fmt.in(c.maxCoalIn)}, capacity ${c.caseCapacityGrH2O ?? "—"} gr H₂O, max pressure ${c.mapPsi ? `${c.mapPsi.toLocaleString()} psi` : "—"}. `,
+          `Case ${fmt.in(c.caseLengthIn)}, max COAL ${fmt.in(c.maxCoalIn)}, capacity `,
+          capacityText(c, data.inputs),
+          " gr H₂O, max pressure ",
+          pressureText(c, data.inputs),
+          " psi. ",
           c.verification.status !== "verified" ? h("span", { class: "warn" }, "Not yet verified against the standard.") : null,
         ),
         geo ? geometryBlock(geo) : null,

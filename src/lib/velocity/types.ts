@@ -36,6 +36,26 @@ export interface VelocityEstimate {
   reason?: string;
   /** Extra context, e.g. why a fallback model answered instead of the primary one. */
   note?: string;
+  /**
+   * The estimates behind this one (blend-v1). Components with `share` 0 are
+   * cross-checks shown beside the answer, not part of it.
+   */
+  components?: EstimateComponent[];
+}
+
+export type ComponentSource = "load_data" | "load_data_extended" | "similar_cartridges" | "physics";
+
+export interface EstimateComponent {
+  source: ComponentSource;
+  fps: number;
+  /** One standard deviation, relative. */
+  relSd: number;
+  /** Weight in the final estimate, 0 to 1. 0 means cross-check only. */
+  share: number;
+  /** Plain-language note on how this estimate was made. */
+  detail: string;
+  /** For `similar_cartridges`: the cartridges used and how each was scaled. */
+  peers?: { cartridgeId: string; name: string; fps: number; ratio: number; basis: "loads" | "physics" }[];
 }
 
 export interface VelocityEstimator {

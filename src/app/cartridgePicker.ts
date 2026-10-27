@@ -12,12 +12,20 @@ export interface PickerOptions {
   value: string;
   /** Extra text after each name, e.g. "(250 published)". Return null to list the cartridge with no note. */
   note: (c: Cartridge) => string | null;
-  /** Cartridges with loads first in their group; the rest after them. */
-  hasData: (c: Cartridge) => boolean;
+  /** Case capacity (library or estimated), for ordering within a diameter. */
+  capacity: (c: Cartridge) => number | null;
   onChange: (id: string) => void;
 }
 
 const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: "base" });
+
+/** Orders cartridges by bullet diameter, then case capacity, then name. Wildcats sit among the rest. */
+export function byDiameterThenCapacity(capacity: (c: Cartridge) => number | null): (a: Cartridge, b: Cartridge) => number {
+  return (a, b) =>
+    (a.bulletDiameterIn ?? 9) - (b.bulletDiameterIn ?? 9) ||
+    (capacity(a) ?? Infinity) - (capacity(b) ?? Infinity) ||
+    collator.compare(a.name, b.name);
+}
 
 export function groupLabel(d: number | null): string {
   if (d == null) return "Unknown diameter";
@@ -56,7 +64,7 @@ export function cartridgePicker(o: PickerOptions): HTMLElement {
             "optgroup",
             { label },
             g.items
-              .sort((a, b) => Number(o.hasData(b)) - Number(o.hasData(a)) || collator.compare(a.name, b.name))
+              .sort(byDiameterThenCapacity(o.capacity))
               .map((c) => h("option", { value: c.id, selected: c.id === o.value }, [c.name, o.note(c)].filter(Boolean).join(" "))),
           ),
         ),

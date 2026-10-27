@@ -87,6 +87,10 @@ Read this before your next pull request.
 3. **Your duplicates are now left out.** The project file always wins. These entries in `data/cartridges/bots/loads.json` are now in `cartridges.json` and are skipped (see "Cartridges added by bots" in the normalization report): `26-nosler`, `27-nosler`, `33-nosler`, `22-arc`, `300-rcm`, `6-5-wby-rpm`, `30-rem-ar`, and `338-norma-magnum` (the library id is `338-norma-mag`). Please delete them from your file, and move any alias you still need to the `aliases` list against the library id. Keep `24-nosler`: it is not in Z299.4's active list, so the library does not have it.
 4. **.25 Nosler** is being added by the project as a wildcat. Don't add it.
 5. **The site now counts verified cartridges (PR #87)** instead of saying all are unverified. Bot-added cartridges stay unverified with a "bot" tag.
+6. **Every cartridge now gets a velocity estimate (blend-v1).** Where a cartridge has no published loads at a bullet weight, the site blends its loads at other weights, similar cartridges' loads, and the physics model. What this means for you:
+   - Your loads now also feed estimates for *other* cartridges of the same bore, so `level` (start/max) and `barrelLengthIn` matter even more. Keep them exactly as the source prints them.
+   - The heaviest non-start `chargeGr` per cartridge is now one input to a case-capacity estimate for cartridges the library has no capacity for. Don't round or convert charges.
+   - When you add a cartridge to `data/cartridges/bots/`, fill `caseCapacityGrH2O` and `pressure` whenever the source prints them. Estimated values are shown with ≈ and never written back into any file.
 
 ## Answers
 

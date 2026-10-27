@@ -8,7 +8,7 @@ import type { VelocityEstimate } from "../../lib/velocity/types.ts";
 import { lineChart, SERIES_COLORS } from "../chart.ts";
 import { bulletLabel, dragFor, newId, type AppData, type SiteBullet } from "../data.ts";
 import { clear, field, fmt, h, numberInput, select } from "../dom.ts";
-import { flagText, modelLabel, QUIET_FLAGS } from "../labels.ts";
+import { componentsBlock, flagText, modelLabel, QUIET_FLAGS } from "../labels.ts";
 import { bulletPicker } from "../picker.ts";
 import { load, save } from "../store.ts";
 
@@ -415,5 +415,6 @@ export function estimateSummary(e: VelocityEstimate): HTMLElement {
     h("div", {}, h("strong", {}, fmt.fps(e.estimateFps)), " ", h("span", { class: "muted" }, `(${fmt.num(e.lowFps)}–${fmt.num(e.highFps)})`)),
     h("div", { class: "model-tag" }, modelLabel(e.model), e.support.loadCount ? ` · ${e.support.loadCount} loads` : ""),
     notes.length ? h("ul", { class: "flags" }, notes.map((f) => h("li", {}, flagText(f)))) : null,
+    e.components?.length ? h("details", {}, h("summary", { class: "muted" }, "Sources behind this estimate"), componentsBlock(e)) : null,
   );
 }

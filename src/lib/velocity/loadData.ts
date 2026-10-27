@@ -262,3 +262,38 @@ export function createFitTableEstimator(table: FitTable): VelocityEstimator {
     },
   };
 }
+
+/** A fit for one cartridge at one barrel length, from whichever store holds them. */
+export interface FitLookup {
+  fit: LoadFit;
+  /** True when the barrel length was rounded to the table's whole inch. */
+  rounded: boolean;
+}
+
+/** Looks up the load fit for a cartridge and barrel length. Null when there is none. */
+export type FitSource = (cartridgeId: string, barrelLengthIn: number) => FitLookup | null;
+
+/** Fits published loads on demand, cached per cartridge and barrel length. */
+export function loadFitSource(loads: NormalizedLoad[], fpsPerInch?: FpsPerInch): FitSource {
+  const byCartridge = new Map<string, NormalizedLoad[]>();
+  for (const l of loads) {
+    if (!byCartridge.has(l.cartridgeId)) byCartridge.set(l.cartridgeId, []);
+    byCartridge.get(l.cartridgeId)!.push(l);
+  }
+  const cache = new Map<string, LoadFit | null>();
+  return (id, barrel) => {
+    const key = `${id}|${barrel}`;
+    if (!cache.has(key)) cache.set(key, byCartridge.has(id) ? fitLoads(id, byCartridge.get(id)!, barrel, fpsPerInch) : null);
+    const fit = cache.get(key)!;
+    return fit ? { fit, rounded: false } : null;
+  };
+}
+
+/** Reads fits from a precomputed table, rounding the barrel to the nearest inch. */
+export function tableFitSource(table: FitTable): FitSource {
+  return (id, barrel) => {
+    const rounded = Math.round(barrel);
+    const fit = table.fits[id]?.[String(rounded)];
+    return fit ? { fit, rounded: rounded !== barrel } : null;
+  };
+}

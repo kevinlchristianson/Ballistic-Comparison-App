@@ -55,7 +55,7 @@ export function loadsView(data: AppData): HTMLElement {
     picker = cartridgePicker({
       cartridges: data.cartridges,
       value: st.cartridgeId,
-      hasData: (c) => !!index[c.id] || mine(c.id) > 0,
+      capacity: (c) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O,
       note: (c) => {
         const parts = [index[c.id] ? `${index[c.id]!.toLocaleString()} published` : "", mine(c.id) ? `${mine(c.id)} yours` : ""].filter(Boolean);
         return parts.length ? `(${parts.join(", ")})` : "(no loads)";

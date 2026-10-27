@@ -17,6 +17,8 @@
  * suitable powder. It is an estimate for comparison, not load data.
  */
 import type { Cartridge } from "../cartridges.ts";
+import type { CartridgeInputs } from "./inputs.ts";
+import { LOW_CONFIDENCE_SPREAD } from "./loadData.ts";
 import { NO_SUPPORT, type VelocityEstimate, type VelocityEstimator, type VelocityQuery } from "./types.ts";
 
 export interface PhysicsParams {
@@ -76,8 +78,24 @@ export function physicsVelocity(x: PhysicsInputs, params: PhysicsParams = PHYSIC
 /** Bullet weight per grain of water capacity beyond which the model is not trusted. */
 const MAX_WEIGHT_PER_CAPACITY = 5;
 const MIN_WEIGHT_PER_CAPACITY = 0.5;
+/** Widest range the physics model reports, relative. */
+const MAX_PHYSICS_SPREAD = 0.35;
 
-export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsParams = PHYSICS_PARAMS): VelocityEstimator {
+export interface PhysicsOptions {
+  /**
+   * Estimated case capacity and pressure for cartridges the library lacks
+   * them for (see inputs.ts). Their uncertainty widens the range.
+   */
+  inputs?: Map<string, CartridgeInputs>;
+  /**
+   * Answer for bullets outside the calibrated weight-to-capacity range too,
+   * with a wider range and the `outside_physics_calibration` flag, instead of
+   * declining.
+   */
+  extrapolate?: boolean;
+}
+
+export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsParams = PHYSICS_PARAMS, options: PhysicsOptions = {}): VelocityEstimator {
   const byId = new Map(cartridges.map((c) => [c.id, c]));
   return {
     id: "physics-v1",
@@ -90,9 +108,11 @@ export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsP
       "Uses cartridge library values that are not yet verified against SAAMI.",
     ],
     estimate(q: VelocityQuery): VelocityEstimate {
-      const c = byId.get(q.cartridgeId);
+      const lib = byId.get(q.cartridgeId);
       const base = { model: "physics-v1", support: NO_SUPPORT };
-      if (!c) return { ...base, estimateFps: null, lowFps: null, highFps: null, flags: [], reason: "Unknown cartridge." };
+      if (!lib) return { ...base, estimateFps: null, lowFps: null, highFps: null, flags: [], reason: "Unknown cartridge." };
+      const filled = options.inputs?.get(lib.id);
+      const c = filled ? { ...lib, caseCapacityGrH2O: filled.caseCapacityGrH2O, mapPsi: filled.mapPsi } : lib;
       const missing = [
         c.caseCapacityGrH2O == null && "case capacity",
         c.mapPsi == null && "maximum pressure",
@@ -103,7 +123,8 @@ export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsP
         return { ...base, estimateFps: null, lowFps: null, highFps: null, flags: ["no_data"], reason: `The cartridge library has no ${missing.join(", ")} for ${c.name}.` };
       }
       const ratio = q.bulletWeightGr / c.caseCapacityGrH2O!;
-      if (ratio > MAX_WEIGHT_PER_CAPACITY || ratio < MIN_WEIGHT_PER_CAPACITY) {
+      const outside = ratio > MAX_WEIGHT_PER_CAPACITY || ratio < MIN_WEIGHT_PER_CAPACITY;
+      if (outside && !options.extrapolate) {
         return {
           ...base,
           estimateFps: null,
@@ -113,24 +134,43 @@ export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsP
           reason: `A ${q.bulletWeightGr} gr bullet is outside the range this model was calibrated for in a ${c.caseCapacityGrH2O} gr case.`,
         };
       }
-      const v = physicsVelocity(
-        {
-          caseCapacityGrH2O: c.caseCapacityGrH2O!,
-          mapPsi: c.mapPsi!,
-          bulletDiameterIn: c.bulletDiameterIn!,
-          caseLengthIn: c.caseLengthIn!,
-          barrelLengthIn: q.barrelLengthIn,
-          bulletWeightGr: q.bulletWeightGr,
-        },
-        params,
-      );
+      const inputs: PhysicsInputs = {
+        caseCapacityGrH2O: c.caseCapacityGrH2O!,
+        mapPsi: c.mapPsi!,
+        bulletDiameterIn: c.bulletDiameterIn!,
+        caseLengthIn: c.caseLengthIn!,
+        barrelLengthIn: q.barrelLengthIn,
+        bulletWeightGr: q.bulletWeightGr,
+      };
+      const v = physicsVelocity(inputs, params);
+      const flags = ["assumes_max_pressure", "physics_estimate"];
       // Two standard deviations of the calibration residuals, widened for
       // barrels far from the 24 in calibration length.
       const barrelPenalty = Math.min(Math.abs(q.barrelLengthIn - 24) * 0.004, 0.06);
-      const spread = 2 * params.residualSd + barrelPenalty;
-      const flags = ["assumes_max_pressure", "physics_estimate"];
-      if (c.verification.status !== "verified") flags.push("unverified_cartridge_data");
+      let sd = params.residualSd;
+      // Estimated inputs: carry their uncertainty through the model.
+      const cap = filled?.capacityEstimate;
+      const map = filled?.pressureEstimate;
+      if (cap) {
+        flags.push("estimated_case_capacity");
+        const dv = Math.log(physicsVelocity({ ...inputs, caseCapacityGrH2O: inputs.caseCapacityGrH2O * Math.exp(cap.relSd) }, params) / v);
+        sd = Math.hypot(sd, dv);
+      }
+      if (map) {
+        flags.push("estimated_pressure");
+        const dv = Math.log(physicsVelocity({ ...inputs, mapPsi: inputs.mapPsi * Math.exp(map.relSd) }, params) / v);
+        sd = Math.hypot(sd, dv);
+      }
+      if (outside) {
+        // Further from the calibrated range, less trust.
+        const bound = ratio > MAX_WEIGHT_PER_CAPACITY ? MAX_WEIGHT_PER_CAPACITY : MIN_WEIGHT_PER_CAPACITY;
+        sd = Math.hypot(sd, 0.03 + 0.1 * Math.abs(Math.log(ratio / bound)));
+        flags.push("outside_physics_calibration");
+      }
+      const spread = Math.min(2 * sd + barrelPenalty, MAX_PHYSICS_SPREAD);
+      if (lib.verification.status !== "verified") flags.push("unverified_cartridge_data");
       if (q.barrelLengthIn < 16 || q.barrelLengthIn > 30) flags.push("barrel_outside_calibration");
+      if (spread > LOW_CONFIDENCE_SPREAD) flags.push("low_confidence");
       return { ...base, estimateFps: v, lowFps: v * (1 - spread), highFps: v * (1 + spread), flags };
     },
   };
