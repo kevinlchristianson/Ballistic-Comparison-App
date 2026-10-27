@@ -1,0 +1,4749 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "cartridgeCount": 142,
+  "sources": {
+    "saami-z299.4-2025": {
+      "title": "ANSI/SAAMI Z299.4-2025, Centerfire Rifle",
+      "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+      "notes": "Governing source for SAAMI dimensions and MAP. Case capacity is not part of the standard."
+    },
+    "cip-tdcc": {
+      "title": "C.I.P. Tables of Dimensions of Cartridges and Chambers (TDCC)",
+      "url": "https://bobp.cip-bobp.org/en/tdcc",
+      "notes": "Governing source for C.I.P.-registered cartridges."
+    }
+  },
+  "cartridges": [
+    {
+      "id": "17-rem",
+      "name": ".17 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "17 Rem",
+        ".17 Rem"
+      ],
+      "parentCase": ".223 Remington",
+      "bulletDiameterIn": 0.172,
+      "caseLengthIn": 1.796,
+      "trimLengthIn": 1.786,
+      "maxCoalIn": 2.15,
+      "caseCapacityGrH2O": 26.5,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "17-hornet",
+      "name": ".17 Hornet",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "17 Hornet",
+        ".17 Hornady Hornet"
+      ],
+      "parentCase": ".22 Hornet",
+      "bulletDiameterIn": 0.172,
+      "caseLengthIn": 1.35,
+      "trimLengthIn": 1.34,
+      "maxCoalIn": 1.735,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.35,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "17-fireball",
+      "name": ".17 Remington Fireball",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "17 Fireball",
+        ".17 Fireball"
+      ],
+      "parentCase": ".221 Remington Fireball",
+      "bulletDiameterIn": 0.172,
+      "caseLengthIn": 1.41,
+      "trimLengthIn": 1.4,
+      "maxCoalIn": 1.83,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "204-ruger",
+      "name": ".204 Ruger",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "204 Ruger",
+        ".204"
+      ],
+      "parentCase": ".222 Remington Magnum",
+      "bulletDiameterIn": 0.204,
+      "caseLengthIn": 1.85,
+      "trimLengthIn": 1.84,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": 31.5,
+      "mapPsi": 57500,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-hornet",
+      "name": ".22 Hornet",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22 Hornet"
+      ],
+      "parentCase": ".22 WCF",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.403,
+      "trimLengthIn": 1.393,
+      "maxCoalIn": 1.723,
+      "caseCapacityGrH2O": 13.5,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.35,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "218-bee",
+      "name": ".218 Bee",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "218 Bee"
+      ],
+      "parentCase": ".25-20 Winchester",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.345,
+      "trimLengthIn": 1.335,
+      "maxCoalIn": 1.68,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.408,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "221-fireball",
+      "name": ".221 Remington Fireball",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "221 Fireball",
+        ".221 Fireball"
+      ],
+      "parentCase": ".222 Remington",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.4,
+      "trimLengthIn": 1.39,
+      "maxCoalIn": 1.83,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "222-rem",
+      "name": ".222 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "222 Rem",
+        ".222 Rem",
+        "222 Remington"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.7,
+      "trimLengthIn": 1.69,
+      "maxCoalIn": 2.13,
+      "caseCapacityGrH2O": 26.0,
+      "mapPsi": 50000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "222-rem-mag",
+      "name": ".222 Remington Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "222 Rem Mag",
+        ".222 Rem Mag"
+      ],
+      "parentCase": ".222 Remington",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.85,
+      "trimLengthIn": 1.84,
+      "maxCoalIn": 2.28,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 50000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "223-rem",
+      "name": ".223 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "223 Rem",
+        ".223 Rem",
+        "223 Remington",
+        ".223"
+      ],
+      "parentCase": ".222 Remington Magnum",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.76,
+      "trimLengthIn": 1.75,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": 28.5,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": 0.203,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "223-wssm",
+      "name": ".223 Winchester Super Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "223 WSSM",
+        ".223 WSSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.67,
+      "trimLengthIn": 1.66,
+      "maxCoalIn": 2.36,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-250-rem",
+      "name": ".22-250 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22-250",
+        "22-250 Rem",
+        ".22-250",
+        ".22-250 Rem"
+      ],
+      "parentCase": ".250 Savage",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.912,
+      "trimLengthIn": 1.902,
+      "maxCoalIn": 2.35,
+      "caseCapacityGrH2O": 43.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 28.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "220-swift",
+      "name": ".220 Swift",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "220 Swift"
+      ],
+      "parentCase": "6mm Lee Navy",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 2.205,
+      "trimLengthIn": 2.195,
+      "maxCoalIn": 2.68,
+      "caseCapacityGrH2O": 48.0,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "semi-rimmed",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 21.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "225-win",
+      "name": ".225 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "225 Win"
+      ],
+      "parentCase": ".219 Zipper",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.93,
+      "trimLengthIn": 1.92,
+      "maxCoalIn": 2.5,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "224-valkyrie",
+      "name": ".224 Valkyrie",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "224 Valkyrie",
+        ".224 Valk",
+        "224 Valk"
+      ],
+      "parentCase": "6.8 Remington SPC",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.6,
+      "trimLengthIn": 1.59,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.422,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-nosler",
+      "name": ".22 Nosler",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22 Nosler"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.76,
+      "trimLengthIn": 1.75,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "243-win",
+      "name": ".243 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "243 Win",
+        ".243 Win",
+        "243 Winchester",
+        ".243"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 2.045,
+      "trimLengthIn": 2.035,
+      "maxCoalIn": 2.71,
+      "caseCapacityGrH2O": 54.0,
+      "mapPsi": 60000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-rem",
+      "name": "6mm Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6mm Rem",
+        ".244 Remington"
+      ],
+      "parentCase": "7x57mm Mauser",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 2.233,
+      "trimLengthIn": 2.223,
+      "maxCoalIn": 2.825,
+      "caseCapacityGrH2O": 55.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 26.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "243-wssm",
+      "name": ".243 Winchester Super Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "243 WSSM",
+        ".243 WSSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.67,
+      "trimLengthIn": 1.66,
+      "maxCoalIn": 2.36,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-br-rem",
+      "name": "6mm BR Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6mm BR Rem",
+        "6 BR Rem"
+      ],
+      "parentCase": ".308x1.5 Barnes",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.52,
+      "trimLengthIn": 1.51,
+      "maxCoalIn": 2.2,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-creedmoor",
+      "name": "6mm Creedmoor",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6mm CM",
+        "6 Creedmoor",
+        "6mm Creed",
+        "6mm Creedmoor"
+      ],
+      "parentCase": "6.5 Creedmoor",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": 52.5,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-arc",
+      "name": "6mm ARC",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6mm ARC",
+        "6 ARC",
+        "6mm Advanced Rifle Cartridge"
+      ],
+      "parentCase": "6.5 Grendel",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.49,
+      "trimLengthIn": 1.48,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.441,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "240-wby",
+      "name": ".240 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "240 Wby",
+        ".240 Wby Mag",
+        "240 Weatherby"
+      ],
+      "parentCase": ".30-06 Springfield (belted)",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 2.5,
+      "trimLengthIn": 2.49,
+      "maxCoalIn": 3.1,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-20-win",
+      "name": ".25-20 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25-20",
+        "25-20 WCF"
+      ],
+      "parentCase": ".32-20 Winchester",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 1.33,
+      "trimLengthIn": 1.32,
+      "maxCoalIn": 1.592,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.408,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-35-win",
+      "name": ".25-35 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25-35",
+        "25-35 WCF"
+      ],
+      "parentCase": ".30-30 Winchester",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.043,
+      "trimLengthIn": 2.033,
+      "maxCoalIn": 2.55,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.506,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "250-savage",
+      "name": ".250 Savage",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "250 Savage",
+        ".250-3000 Savage",
+        "250-3000"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 1.912,
+      "trimLengthIn": 1.902,
+      "maxCoalIn": 2.515,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 45000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 26.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "257-roberts",
+      "name": ".257 Roberts",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "257 Roberts",
+        "257 Bob",
+        ".257 Roberts +P",
+        "257 Roberts +P"
+      ],
+      "parentCase": "7x57mm Mauser",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.233,
+      "trimLengthIn": 2.223,
+      "maxCoalIn": 2.78,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 45000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.75,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-06-rem",
+      "name": ".25-06 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25-06",
+        "25-06 Rem",
+        ".25-06"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": 3.25,
+      "caseCapacityGrH2O": 66.0,
+      "mapPsi": 63000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-wssm",
+      "name": ".25 Winchester Super Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25 WSSM",
+        ".25 WSSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 1.67,
+      "trimLengthIn": 1.66,
+      "maxCoalIn": 2.36,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "257-wby",
+      "name": ".257 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "257 Wby",
+        ".257 Wby Mag",
+        "257 Weatherby"
+      ],
+      "parentCase": ".300 H&H Magnum",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.549,
+      "trimLengthIn": 2.539,
+      "maxCoalIn": 3.25,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-creedmoor",
+      "name": "6.5 Creedmoor",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 CM",
+        "6.5CM",
+        "6.5 Creed",
+        "6.5mm Creedmoor",
+        "6.5 Creedmoor"
+      ],
+      "parentCase": ".30 Thompson/Center",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": 2.825,
+      "caseCapacityGrH2O": 52.5,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-grendel",
+      "name": "6.5 Grendel",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 Grendel",
+        "6.5mm Grendel"
+      ],
+      "parentCase": ".220 Russian",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 1.52,
+      "trimLengthIn": 1.51,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": 35.0,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.441,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5x55-swedish",
+      "name": "6.5x55mm Swedish",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5x55",
+        "6.5x55 Swede",
+        "6.5x55 SE",
+        "6.5x55mm Swedish Mauser"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.165,
+      "trimLengthIn": 2.155,
+      "maxCoalIn": 3.15,
+      "caseCapacityGrH2O": 57.0,
+      "mapPsi": 51000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.48,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "260-rem",
+      "name": ".260 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "260 Rem",
+        ".260 Rem",
+        "6.5-08"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.035,
+      "trimLengthIn": 2.025,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": 53.0,
+      "mapPsi": 60000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-prc",
+      "name": "6.5 PRC",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 PRC",
+        "6.5mm PRC",
+        "6.5 Precision Rifle Cartridge"
+      ],
+      "parentCase": ".375 Ruger",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.03,
+      "trimLengthIn": 2.02,
+      "maxCoalIn": 2.955,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-rem-mag",
+      "name": "6.5mm Remington Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 Rem Mag"
+      ],
+      "parentCase": ".350 Remington Magnum",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "264-win-mag",
+      "name": ".264 Winchester Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "264 Win Mag",
+        ".264 Win Mag"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.5,
+      "trimLengthIn": 2.49,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 64000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-300-wby",
+      "name": "6.5-300 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5-300 Wby",
+        "6.5-300 Weatherby"
+      ],
+      "parentCase": ".300 Weatherby Magnum",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.825,
+      "trimLengthIn": 2.815,
+      "maxCoalIn": 3.72,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-8-western",
+      "name": "6.8 Western",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.8 Western",
+        "6.8 WSTN"
+      ],
+      "parentCase": ".270 WSM",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 2.02,
+      "trimLengthIn": 2.01,
+      "maxCoalIn": 2.955,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-8-spc",
+      "name": "6.8mm Remington SPC",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.8 SPC",
+        "6.8mm SPC",
+        "6.8 Rem SPC"
+      ],
+      "parentCase": ".30 Remington",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 1.686,
+      "trimLengthIn": 1.676,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.422,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "270-win",
+      "name": ".270 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "270 Win",
+        ".270 Win",
+        "270 Winchester",
+        ".270"
+      ],
+      "parentCase": ".30-03 Springfield",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 2.54,
+      "trimLengthIn": 2.53,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": 67.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "270-wsm",
+      "name": ".270 Winchester Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "270 WSM",
+        ".270 WSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 2.1,
+      "trimLengthIn": 2.09,
+      "maxCoalIn": 2.86,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "270-wby",
+      "name": ".270 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "270 Wby",
+        ".270 Wby Mag",
+        "270 Weatherby"
+      ],
+      "parentCase": ".300 H&H Magnum",
+      "bulletDiameterIn": 0.277,
+      "caseLengthIn": 2.549,
+      "trimLengthIn": 2.539,
+      "maxCoalIn": 3.25,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "280-rem",
+      "name": ".280 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "280 Rem",
+        ".280 Rem",
+        "7mm Express Remington"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.54,
+      "trimLengthIn": 2.53,
+      "maxCoalIn": 3.33,
+      "caseCapacityGrH2O": 68.0,
+      "mapPsi": 60000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "280-ai",
+      "name": ".280 Ackley Improved",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "280 AI",
+        ".280 AI",
+        "280 Ackley"
+      ],
+      "parentCase": ".280 Remington",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.525,
+      "trimLengthIn": 2.515,
+      "maxCoalIn": 3.33,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 60000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-08-rem",
+      "name": "7mm-08 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm-08",
+        "7-08",
+        "7mm-08 Rem"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.035,
+      "trimLengthIn": 2.025,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": 56.0,
+      "mapPsi": 61000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7x57-mauser",
+      "name": "7x57mm Mauser",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7x57",
+        "7mm Mauser",
+        ".275 Rigby"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.235,
+      "trimLengthIn": 2.225,
+      "maxCoalIn": 3.065,
+      "caseCapacityGrH2O": 58.0,
+      "mapPsi": 51000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.474,
+      "shoulderAngleDeg": 20.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-rem-mag",
+      "name": "7mm Remington Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm Rem Mag",
+        "7mm RM",
+        "7 Rem Mag",
+        "7mm Remington Magnum"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.5,
+      "trimLengthIn": 2.49,
+      "maxCoalIn": 3.29,
+      "caseCapacityGrH2O": 86.0,
+      "mapPsi": 61000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-wsm",
+      "name": "7mm Winchester Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm WSM",
+        "7 WSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.1,
+      "trimLengthIn": 2.09,
+      "maxCoalIn": 2.86,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-wby",
+      "name": "7mm Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm Wby",
+        "7mm Wby Mag",
+        "7mm Weatherby"
+      ],
+      "parentCase": ".300 H&H Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.549,
+      "trimLengthIn": 2.539,
+      "maxCoalIn": 3.36,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-stw",
+      "name": "7mm Shooting Times Westerner",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm STW",
+        "7 STW"
+      ],
+      "parentCase": "8mm Remington Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-rum",
+      "name": "7mm Remington Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm RUM",
+        "7mm Ultra Mag",
+        "7 RUM"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-saum",
+      "name": "7mm Remington Short Action Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm SAUM",
+        "7 SAUM",
+        "7mm Rem SAUM"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.035,
+      "trimLengthIn": 2.025,
+      "maxCoalIn": 2.825,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-prc",
+      "name": "7mm PRC",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm PRC",
+        "7 PRC"
+      ],
+      "parentCase": ".375 Ruger",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.28,
+      "trimLengthIn": 2.27,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7-30-waters",
+      "name": "7-30 Waters",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7-30 Waters",
+        "7mm-30 Waters"
+      ],
+      "parentCase": ".30-30 Winchester",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.04,
+      "trimLengthIn": 2.03,
+      "maxCoalIn": 2.55,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 45000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.506,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "284-win",
+      "name": ".284 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "284 Win",
+        ".284 Win"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": 66.0,
+      "mapPsi": 56000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "28-nosler",
+      "name": ".28 Nosler",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "28 Nosler"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.59,
+      "trimLengthIn": 2.58,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-carbine",
+      "name": ".30 Carbine",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30 Carbine",
+        ".30 M1 Carbine"
+      ],
+      "parentCase": ".32 Winchester Self-Loading",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.29,
+      "trimLengthIn": 1.28,
+      "maxCoalIn": 1.68,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 40000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.36,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-30-win",
+      "name": ".30-30 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-30",
+        "30-30 Win",
+        ".30 WCF",
+        "30 WCF"
+      ],
+      "parentCase": ".38-55 Winchester",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.039,
+      "trimLengthIn": 2.029,
+      "maxCoalIn": 2.55,
+      "caseCapacityGrH2O": 45.0,
+      "mapPsi": 42000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.506,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-savage",
+      "name": ".300 Savage",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 Savage"
+      ],
+      "parentCase": ".250 Savage",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.871,
+      "trimLengthIn": 1.861,
+      "maxCoalIn": 2.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 47000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "308-win",
+      "name": ".308 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "308 Win",
+        ".308 Win",
+        "308 Winchester",
+        ".308",
+        "7.62x51mm (commercial)"
+      ],
+      "parentCase": ".300 Savage",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.81,
+      "caseCapacityGrH2O": 56.0,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-06",
+      "name": ".30-06 Springfield",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-06",
+        ".30-06",
+        "30-06 Sprg",
+        "30-06 Springfield",
+        ".30-06 Sprg"
+      ],
+      "parentCase": ".30-03 Springfield",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": 68.0,
+      "mapPsi": 60000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-hh",
+      "name": ".300 H&H Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 H&H",
+        ".300 H&H Mag"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 8.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-win-mag",
+      "name": ".300 Winchester Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 Win Mag",
+        ".300 Win Mag",
+        "300 WM",
+        "300 Winchester Magnum"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.62,
+      "trimLengthIn": 2.61,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": 91.0,
+      "mapPsi": 64000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": 0.264,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-wsm",
+      "name": ".300 Winchester Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 WSM",
+        ".300 WSM"
+      ],
+      "parentCase": ".404 Jeffery",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.1,
+      "trimLengthIn": 2.09,
+      "maxCoalIn": 2.86,
+      "caseCapacityGrH2O": 79.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-wby",
+      "name": ".300 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 Wby",
+        ".300 Wby Mag",
+        "300 Weatherby"
+      ],
+      "parentCase": ".300 H&H Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.825,
+      "trimLengthIn": 2.815,
+      "maxCoalIn": 3.562,
+      "caseCapacityGrH2O": 100.0,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-rum",
+      "name": ".300 Remington Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 RUM",
+        ".300 RUM",
+        "300 Ultra Mag"
+      ],
+      "parentCase": ".404 Jeffery",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": 113.0,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-saum",
+      "name": ".300 Remington Short Action Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 SAUM",
+        ".300 SAUM",
+        "300 Rem SAUM"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.825,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-378-wby",
+      "name": ".30-378 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-378",
+        "30-378 Wby",
+        ".30-378 Weatherby"
+      ],
+      "parentCase": ".378 Weatherby Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.913,
+      "trimLengthIn": 2.903,
+      "maxCoalIn": 3.7,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.582,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-prc",
+      "name": ".300 PRC",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 PRC",
+        ".300 Precision Rifle Cartridge"
+      ],
+      "parentCase": ".375 Ruger",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.58,
+      "trimLengthIn": 2.57,
+      "maxCoalIn": 3.7,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-blackout",
+      "name": ".300 AAC Blackout",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 BLK",
+        "300 Blackout",
+        ".300 BLK",
+        "300 AAC",
+        "7.62x35mm"
+      ],
+      "parentCase": ".223 Remington",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.368,
+      "trimLengthIn": 1.358,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-nosler",
+      "name": ".30 Nosler",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30 Nosler"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.555,
+      "trimLengthIn": 2.545,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-tc",
+      "name": ".30 Thompson/Center",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30 TC",
+        ".30 T/C"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": 2.8,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "307-win",
+      "name": ".307 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "307 Win"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.56,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "semi-rimmed",
+      "rimDiameterIn": 0.506,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-40-krag",
+      "name": ".30-40 Krag",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-40 Krag",
+        ".30 Army",
+        "30 US"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.314,
+      "trimLengthIn": 2.304,
+      "maxCoalIn": 3.089,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.545,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "308-marlin-express",
+      "name": ".308 Marlin Express",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "308 MX",
+        "308 Marlin Express"
+      ],
+      "parentCase": ".307 Winchester",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": 2.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "303-british",
+      "name": ".303 British",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "303 British",
+        ".303 Brit",
+        "303 Brit"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.311,
+      "caseLengthIn": 2.222,
+      "trimLengthIn": 2.212,
+      "maxCoalIn": 3.075,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 49000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.54,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7-62x39",
+      "name": "7.62x39mm",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7.62x39",
+        "7.62x39mm Soviet",
+        "7.62 Soviet"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.311,
+      "caseLengthIn": 1.528,
+      "trimLengthIn": 1.518,
+      "maxCoalIn": 2.2,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 45000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.447,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "8x57-mauser",
+      "name": "8mm Mauser",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "8x57",
+        "8x57JS",
+        "8mm Mauser",
+        "7.92x57"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.323,
+      "caseLengthIn": 2.24,
+      "trimLengthIn": 2.23,
+      "maxCoalIn": 3.25,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 37000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "8mm-rem-mag",
+      "name": "8mm Remington Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "8mm Rem Mag"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.323,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "325-wsm",
+      "name": ".325 Winchester Short Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "325 WSM",
+        ".325 WSM"
+      ],
+      "parentCase": ".300 WSM",
+      "bulletDiameterIn": 0.323,
+      "caseLengthIn": 2.1,
+      "trimLengthIn": 2.09,
+      "maxCoalIn": 2.86,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.535,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-federal",
+      "name": ".338 Federal",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338 Federal",
+        ".338 Fed"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.82,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-win-mag",
+      "name": ".338 Winchester Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338 Win Mag",
+        ".338 Win Mag",
+        "338 WM"
+      ],
+      "parentCase": ".458 Winchester Magnum",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.5,
+      "trimLengthIn": 2.49,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": 86.0,
+      "mapPsi": 64000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 25.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-06",
+      "name": ".338-06 A-Square",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338-06",
+        ".338-06"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-lapua",
+      "name": ".338 Lapua Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338 Lapua",
+        "338 LM",
+        ".338 Lapua",
+        ".338 Lapua Mag",
+        "338 Lapua Magnum"
+      ],
+      "parentCase": ".416 Rigby",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.724,
+      "trimLengthIn": 2.714,
+      "maxCoalIn": 3.681,
+      "caseCapacityGrH2O": 114.0,
+      "mapPsi": 61000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.588,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-rum",
+      "name": ".338 Remington Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338 RUM",
+        ".338 RUM"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.76,
+      "trimLengthIn": 2.75,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "340-wby",
+      "name": ".340 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "340 Wby",
+        ".340 Wby Mag"
+      ],
+      "parentCase": ".300 Weatherby Magnum",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.825,
+      "trimLengthIn": 2.815,
+      "maxCoalIn": 3.687,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "35-rem",
+      "name": ".35 Remington",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "35 Rem",
+        ".35 Rem"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.358,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": 2.525,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 33500,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.46,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "35-whelen",
+      "name": ".35 Whelen",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "35 Whelen"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.358,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "356-win",
+      "name": ".356 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "356 Win"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.358,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.56,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "semi-rimmed",
+      "rimDiameterIn": 0.506,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "358-win",
+      "name": ".358 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "358 Win"
+      ],
+      "parentCase": ".308 Winchester",
+      "bulletDiameterIn": 0.358,
+      "caseLengthIn": 2.015,
+      "trimLengthIn": 2.005,
+      "maxCoalIn": 2.78,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 52000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 20.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "350-legend",
+      "name": ".350 Legend",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "350 Legend"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.357,
+      "caseLengthIn": 1.71,
+      "trimLengthIn": 1.7,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 55000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "375-hh",
+      "name": ".375 H&H Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "375 H&H",
+        ".375 H&H Mag",
+        "375 Holland & Holland"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.375,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": 12.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "375-ruger",
+      "name": ".375 Ruger",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "375 Ruger"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.375,
+      "caseLengthIn": 2.58,
+      "trimLengthIn": 2.57,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "375-rum",
+      "name": ".375 Remington Ultra Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "375 RUM"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.375,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "378-wby",
+      "name": ".378 Weatherby Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "378 Wby"
+      ],
+      "parentCase": ".416 Rigby",
+      "bulletDiameterIn": 0.375,
+      "caseLengthIn": 2.913,
+      "trimLengthIn": 2.903,
+      "maxCoalIn": 3.69,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.582,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "405-win",
+      "name": ".405 Winchester",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "405 Win"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.411,
+      "caseLengthIn": 2.583,
+      "trimLengthIn": 2.573,
+      "maxCoalIn": 3.175,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 46000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.543,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "416-rem-mag",
+      "name": ".416 Remington Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "416 Rem Mag"
+      ],
+      "parentCase": "8mm Remington Magnum",
+      "bulletDiameterIn": 0.416,
+      "caseLengthIn": 2.85,
+      "trimLengthIn": 2.84,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 65000,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "416-rigby",
+      "name": ".416 Rigby",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "416 Rigby"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.416,
+      "caseLengthIn": 2.9,
+      "trimLengthIn": 2.89,
+      "maxCoalIn": 3.75,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.589,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "416-ruger",
+      "name": ".416 Ruger",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "416 Ruger"
+      ],
+      "parentCase": ".375 Ruger",
+      "bulletDiameterIn": 0.416,
+      "caseLengthIn": 2.58,
+      "trimLengthIn": 2.57,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 62000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "444-marlin",
+      "name": ".444 Marlin",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "444 Marlin"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.429,
+      "caseLengthIn": 2.225,
+      "trimLengthIn": 2.215,
+      "maxCoalIn": 2.57,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 42000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.514,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "45-70-govt",
+      "name": ".45-70 Government",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "45-70",
+        "45-70 Govt",
+        ".45-70 Gov't"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.458,
+      "caseLengthIn": 2.105,
+      "trimLengthIn": 2.095,
+      "maxCoalIn": 2.55,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 28000,
+      "mapMethod": "piezo",
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.608,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "450-marlin",
+      "name": ".450 Marlin",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "450 Marlin"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.458,
+      "caseLengthIn": 2.1,
+      "trimLengthIn": 2.09,
+      "maxCoalIn": 2.55,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 43500,
+      "mapMethod": "piezo",
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "450-bushmaster",
+      "name": ".450 Bushmaster",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "450 Bushmaster",
+        "450 BM"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.452,
+      "caseLengthIn": 1.7,
+      "trimLengthIn": 1.69,
+      "maxCoalIn": 2.26,
+      "caseCapacityGrH2O": null,
+      "mapPsi": 38500,
+      "mapMethod": "piezo",
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "458-win-mag",
+      "name": ".458 Winchester Magnum",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "458 Win Mag",
+        ".458 WM"
+      ],
+      "parentCase": ".375 H&H Magnum",
+      "bulletDiameterIn": 0.458,
+      "caseLengthIn": 2.5,
+      "trimLengthIn": 2.49,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "458-lott",
+      "name": ".458 Lott",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "458 Lott"
+      ],
+      "parentCase": ".458 Winchester Magnum",
+      "bulletDiameterIn": 0.458,
+      "caseLengthIn": 2.8,
+      "trimLengthIn": 2.79,
+      "maxCoalIn": 3.6,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "belted",
+      "rimDiameterIn": 0.532,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "50-bmg",
+      "name": ".50 Browning Machine Gun",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "50 BMG",
+        ".50 BMG",
+        "12.7x99"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.51,
+      "caseLengthIn": 3.91,
+      "trimLengthIn": 3.9,
+      "maxCoalIn": 5.545,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.804,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-z299.4-2025"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-284-norma",
+      "name": "6.5-284 Norma",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5-284",
+        "6.5x284",
+        "6.5-284 Norma"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": 3.228,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5x47-lapua",
+      "name": "6.5x47 Lapua",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5x47",
+        "6.5x47 Lapua",
+        "6.5x47L"
+      ],
+      "parentCase": null,
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 1.85,
+      "trimLengthIn": 1.84,
+      "maxCoalIn": 2.756,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-norma-br",
+      "name": "6mm Norma BR",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6mm BR Norma",
+        "6 BR",
+        "6BR",
+        "6mm BR"
+      ],
+      "parentCase": "6mm BR Remington",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.56,
+      "trimLengthIn": 1.55,
+      "maxCoalIn": 2.441,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-norma-mag",
+      "name": ".300 Norma Magnum",
+      "kind": "cip",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 Norma",
+        "300 Norma Mag",
+        ".300 NM"
+      ],
+      "parentCase": ".338 Norma Magnum",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.492,
+      "trimLengthIn": 2.482,
+      "maxCoalIn": 3.681,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.588,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "cip-tdcc"
+        ],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-dasher",
+      "name": "6mm Dasher",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 Dasher",
+        "6mm Dasher",
+        "6 Dasher"
+      ],
+      "parentCase": "6mm Norma BR",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.52,
+      "trimLengthIn": 1.51,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-bra",
+      "name": "6 BRA",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 BRA",
+        "6mm BRA",
+        "6mm BR Ackley"
+      ],
+      "parentCase": "6mm Norma BR",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.535,
+      "trimLengthIn": 1.525,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-brx",
+      "name": "6 BRX",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 BRX",
+        "6mm BRX"
+      ],
+      "parentCase": "6mm Norma BR",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.56,
+      "trimLengthIn": 1.55,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-gt",
+      "name": "6mm GT",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 GT",
+        "6mm GT"
+      ],
+      "parentCase": ".22-250 Remington",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.735,
+      "trimLengthIn": 1.725,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-slr",
+      "name": "6mm SLR",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 SLR",
+        "6mm SLR",
+        "6mm Saturn"
+      ],
+      "parentCase": ".243 Winchester",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6xc",
+      "name": "6XC",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6XC",
+        "6mm XC",
+        "6mm Excalibur"
+      ],
+      "parentCase": ".22-250 Remington",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.875,
+      "trimLengthIn": 1.865,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-ppc",
+      "name": "6mm PPC",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6 PPC",
+        "6mm PPC",
+        "6PPC"
+      ],
+      "parentCase": ".220 Russian",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 1.503,
+      "trimLengthIn": 1.493,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.441,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6mm-284",
+      "name": "6mm-284",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6-284",
+        "6mm-284"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "243-ai",
+      "name": ".243 Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "243 AI",
+        ".243 AI",
+        "243 Ackley"
+      ],
+      "parentCase": ".243 Winchester",
+      "bulletDiameterIn": 0.243,
+      "caseLengthIn": 2.045,
+      "trimLengthIn": 2.035,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-br",
+      "name": ".22 BR Remington",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22 BR"
+      ],
+      "parentCase": "6mm BR Remington",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.52,
+      "trimLengthIn": 1.51,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-ppc",
+      "name": ".22 PPC",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22 PPC",
+        ".22 PPC-USA"
+      ],
+      "parentCase": ".220 Russian",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.505,
+      "trimLengthIn": 1.495,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.441,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-250-ai",
+      "name": ".22-250 Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22-250 AI",
+        ".22-250 AI"
+      ],
+      "parentCase": ".22-250 Remington",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.912,
+      "trimLengthIn": 1.902,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "22-creedmoor",
+      "name": ".22 Creedmoor",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "22 Creedmoor",
+        "22 CM",
+        ".22 Creed"
+      ],
+      "parentCase": "6.5 Creedmoor",
+      "bulletDiameterIn": 0.224,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "20-practical",
+      "name": ".20 Practical",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "20 Practical",
+        "20 PRAC"
+      ],
+      "parentCase": ".223 Remington",
+      "bulletDiameterIn": 0.204,
+      "caseLengthIn": 1.76,
+      "trimLengthIn": 1.75,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 23.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "20-vartarg",
+      "name": ".20 Vartarg",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "20 Vartarg",
+        "20 VT"
+      ],
+      "parentCase": ".221 Remington Fireball",
+      "bulletDiameterIn": 0.204,
+      "caseLengthIn": 1.34,
+      "trimLengthIn": 1.33,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "17-ackley-hornet",
+      "name": ".17 Ackley Hornet",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "17 Ackley Hornet",
+        "17 AH"
+      ],
+      "parentCase": ".22 Hornet",
+      "bulletDiameterIn": 0.172,
+      "caseLengthIn": 1.39,
+      "trimLengthIn": 1.38,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimmed",
+      "rimDiameterIn": 0.35,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-creedmoor",
+      "name": ".25 Creedmoor",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25 Creedmoor",
+        "25 CM"
+      ],
+      "parentCase": "6.5 Creedmoor",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-284",
+      "name": ".25-284 Winchester",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25-284"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "257-ai",
+      "name": ".257 Roberts Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "257 AI",
+        ".257 Roberts AI",
+        "257 Ackley"
+      ],
+      "parentCase": ".257 Roberts",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.233,
+      "trimLengthIn": 2.223,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "25-06-ai",
+      "name": ".25-06 Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "25-06 AI"
+      ],
+      "parentCase": ".25-06 Remington",
+      "bulletDiameterIn": 0.257,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-saum",
+      "name": "6.5 SAUM",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 SAUM",
+        "6.5 Short Action Ultra Mag"
+      ],
+      "parentCase": "7mm Remington SAUM",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.035,
+      "trimLengthIn": 2.025,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-06",
+      "name": "6.5-06 A-Square",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5-06"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 17.5,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "6-5-creedmoor-ai",
+      "name": "6.5 Creedmoor Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "6.5 CM AI",
+        "6.5 Creedmoor AI"
+      ],
+      "parentCase": "6.5 Creedmoor",
+      "bulletDiameterIn": 0.264,
+      "caseLengthIn": 1.92,
+      "trimLengthIn": 1.91,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-08-ai",
+      "name": "7mm-08 Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm-08 AI",
+        "7-08 AI"
+      ],
+      "parentCase": "7mm-08 Remington",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.035,
+      "trimLengthIn": 2.025,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "284-shehane",
+      "name": ".284 Shehane",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "284 Shehane"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-06-ai",
+      "name": ".30-06 Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-06 AI",
+        ".30-06 AI"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-284",
+      "name": ".30-284 Winchester",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30-284"
+      ],
+      "parentCase": ".284 Winchester",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 2.17,
+      "trimLengthIn": 2.16,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 35.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "30-br",
+      "name": ".30 BR",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "30 BR"
+      ],
+      "parentCase": "6mm BR Remington",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.52,
+      "trimLengthIn": 1.51,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "300-hamr",
+      "name": ".300 HAM'R",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "300 HAMR",
+        "300 HAM'R"
+      ],
+      "parentCase": ".223 Remington",
+      "bulletDiameterIn": 0.308,
+      "caseLengthIn": 1.475,
+      "trimLengthIn": 1.465,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.378,
+      "shoulderAngleDeg": null,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "35-whelen-ai",
+      "name": ".35 Whelen Ackley Improved",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "35 Whelen AI"
+      ],
+      "parentCase": ".35 Whelen",
+      "bulletDiameterIn": 0.358,
+      "caseLengthIn": 2.494,
+      "trimLengthIn": 2.484,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rimless",
+      "rimDiameterIn": 0.473,
+      "shoulderAngleDeg": 40.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "338-edge",
+      "name": ".338 Edge",
+      "kind": "wildcat",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "338 Edge"
+      ],
+      "parentCase": ".300 Remington Ultra Magnum",
+      "bulletDiameterIn": 0.338,
+      "caseLengthIn": 2.84,
+      "trimLengthIn": 2.83,
+      "maxCoalIn": null,
+      "caseCapacityGrH2O": null,
+      "mapPsi": null,
+      "mapMethod": null,
+      "rimType": "rebated",
+      "rimDiameterIn": 0.534,
+      "shoulderAngleDeg": 30.0,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [],
+        "note": "Entered from reference knowledge on 2026-10-27. Not yet checked against the standard or a chamber drawing."
+      },
+      "fieldNotes": {
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
+        "maxCoalIn": "No industry standard. Use the reamer print for the chamber in question."
+      },
+      "userAdded": false
+    }
+  ]
+}

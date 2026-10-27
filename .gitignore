@@ -3,3 +3,4 @@ data/bullets/raw/*
 !data/bullets/raw/.gitkeep
 __pycache__/
 *.pyc
+node_modules/

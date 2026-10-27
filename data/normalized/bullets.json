@@ -1,0 +1,326 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "dataset": "examples",
+  "count": 4,
+  "records": [
+    {
+      "id": "berger-17308",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "17 Caliber 25 Grain FB Varmint",
+      "sku": "17308",
+      "alternateSkus": [],
+      "caliber": "17 Caliber",
+      "diameterIn": 0.172,
+      "weightGr": 25,
+      "bcG1": 0.152,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.152,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1 BC, G7 BC, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 BC cell was empty. Diameter, length, sectional density, material, and minimum expansion velocity were not in this table. Flat base and varmint use are taken from the published description (FB Varmint).",
+      "diameterSource": "derived_from_caliber",
+      "lengthSource": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "bcBands": {
+        "G1": [
+          {
+            "bc": 0.152,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ],
+        "G7": []
+      },
+      "flags": [
+        "diameter_derived",
+        "no_length",
+        "no_g7",
+        "no_bearing_surface"
+      ]
+    },
+    {
+      "id": "berger-20303",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "20 Caliber 35 Grain FB Varmint",
+      "sku": "20303",
+      "alternateSkus": [],
+      "caliber": "20 Caliber",
+      "diameterIn": 0.204,
+      "weightGr": 35,
+      "bcG1": 0.179,
+      "bcG7": null,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.179,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "flat_base"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 14,
+      "twistRateNote": "1:14\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1 BC, G7 BC, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "G7 BC cell was empty. Diameter, length, sectional density, material, and minimum expansion velocity were not in this table. Flat base and varmint use are taken from the published description (FB Varmint).",
+      "diameterSource": "derived_from_caliber",
+      "lengthSource": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "bcBands": {
+        "G1": [
+          {
+            "bc": 0.179,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ],
+        "G7": []
+      },
+      "flags": [
+        "diameter_derived",
+        "no_length",
+        "no_g7",
+        "no_bearing_surface"
+      ]
+    },
+    {
+      "id": "berger-22418",
+      "manufacturer": "Berger",
+      "productLine": "VLD Target",
+      "name": "22 Caliber 70 Grain Very Low Drag (VLD) Target",
+      "sku": "22418",
+      "alternateSkus": [],
+      "caliber": "22 Caliber",
+      "diameterIn": 0.224,
+      "weightGr": 70,
+      "bcG1": 0.374,
+      "bcG7": 0.191,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.374,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.191,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "vld"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1 BC, G7 BC, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and minimum expansion velocity were not in this table. VLD and target use are taken from the published description.",
+      "diameterSource": "derived_from_caliber",
+      "lengthSource": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "bcBands": {
+        "G1": [
+          {
+            "bc": 0.374,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ],
+        "G7": [
+          {
+            "bc": 0.191,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ]
+      },
+      "flags": [
+        "diameter_derived",
+        "no_length",
+        "no_bearing_surface"
+      ]
+    },
+    {
+      "id": "berger-24433",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "6 mm 105 Grain Hybrid Target",
+      "sku": "24433",
+      "alternateSkus": [],
+      "caliber": "6 mm",
+      "diameterIn": 0.243,
+      "weightGr": 105,
+      "bcG1": 0.536,
+      "bcG7": 0.275,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.536,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.275,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": null,
+      "lengthIn": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "All Berger Bullets table: part number, description, G1 BC, G7 BC, minimum twist."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Diameter, length, sectional density, material, and minimum expansion velocity were not in this table. Hybrid and target use are taken from the published description.",
+      "diameterSource": "derived_from_caliber",
+      "lengthSource": null,
+      "bearingSurfaceIn": null,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": null,
+      "discontinued": null,
+      "bcBands": {
+        "G1": [
+          {
+            "bc": 0.536,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ],
+        "G7": [
+          {
+            "bc": 0.275,
+            "velocityMinFps": null,
+            "velocityMaxFps": null,
+            "source": "manufacturer"
+          }
+        ]
+      },
+      "flags": [
+        "diameter_derived",
+        "no_length",
+        "no_bearing_surface"
+      ]
+    }
+  ]
+}
