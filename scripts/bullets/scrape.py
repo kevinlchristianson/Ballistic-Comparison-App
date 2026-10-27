@@ -48,7 +48,7 @@ SOURCES: tuple[Source, ...] = (
     Source("sierra", "Sierra", "https://sierrabullets.com/products/bullets/", "manufacturer", "MatchKing, GameKing, BlitzKing, and related component bullets."),
     Source("nosler", "Nosler", "https://www.nosler.com/products/bullets/", "manufacturer", "Partition, AccuBond, Ballistic Tip, RDF, and related lines."),
     Source("barnes", "Barnes", "https://www.barnesbullets.com/bullets/", "manufacturer", "TSX, TTSX, LRX, and other copper solids."),
-    Source("berger", "Berger Bullets", "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/", "manufacturer", "Single table of part number, description, G1, G7, and minimum twist. The committed examples were read from this page on 2026-10-27."),
+    Source("berger", "Berger Bullets", "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/", "manufacturer", "All-bullets table of part number, description, G1, G7, and minimum twist. Component bullets in the 2026 catalog that are absent from that table are read from the product page, with the catalog cited beside it."),
     Source("speer", "Speer", "https://www.speer.com/bullets/", "manufacturer", "Hot-Cor, Gold Dot, and TNT. The Kinetic Group terms linked from speer.com forbid copying product information. No rows are committed."),
     Source("lapua", "Lapua", "https://www.lapua.com/bullets/", "manufacturer", "Scenar, Scenar-L, FMJ, and naturalis. Some SKUs also have Doppler CD data."),
     Source("swift", "Swift Bullet Company", "https://www.swiftbullets.com/", "manufacturer", "A-Frame, Scirocco, Zephyr, and Break-Away component bullets. The Ballistic field has no G1/G7 label."),
