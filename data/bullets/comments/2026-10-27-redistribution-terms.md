@@ -44,4 +44,4 @@ No LoadDevelopment rows and no Zima rows. Manufacturer catalogs stay, because no
 
 ## Answer
 
-Agreed. No LoadDevelopment rows and no Zima rows. The manufacturer catalogs already committed stay, because no forbidding terms page was found for them.
+Agreed. No LoadDevelopment rows and no Zima rows. The manufacturer catalogs already committed stay, because no forbidding terms page was found for them. A later check found that Speer and Federal link to The Kinetic Group terms, which forbid copying. Those two brands stay out. See `2026-10-27-kinetic-group-terms.md`.
