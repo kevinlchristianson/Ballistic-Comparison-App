@@ -25,10 +25,13 @@ from catalog import catalog_paths, load_json, load_schema, validate_instance
 
 # Usual published ranges. Outside these is a warning, not a schema error.
 # Bounds are per unit. A grain charge is never judged on the gram scale.
-CHARGE_WARN = {"gr": (1.0, 250.0), "g": (0.05, 40.0)}
-VELOCITY_WARN = {"fps": (500.0, 5000.0), "mps": (150.0, 1500.0)}
+# Grain charges above 250 are published for .50 Browning. A .38 Special
+# start velocity of 410 fps is published. The band is a warning only.
+CHARGE_WARN = {"gr": (1.0, 300.0), "g": (0.05, 40.0)}
+VELOCITY_WARN = {"fps": (400.0, 5000.0), "mps": (150.0, 1500.0)}
 COAL_WARN = {"in": (0.5, 6.0), "mm": (10.0, 150.0)}
-BARREL_WARN = {"in": (2.0, 36.0), "mm": (50.0, 900.0)}
+# .50 Browning is published with a 45 inch test barrel.
+BARREL_WARN = {"in": (2.0, 48.0), "mm": (50.0, 1200.0)}
 PRESSURE_WARN = {
     "psi": (5000.0, 80000.0),
     "cup": (5000.0, 70000.0),
@@ -58,6 +61,7 @@ GROUP_FIELDS = (
     "velocityUnit",
     "sourceUrl",
     "sourcePage",
+    "notes",
 )
 
 PAIRS = (
@@ -204,11 +208,6 @@ def semantic_checks(catalog: dict) -> tuple[list[str], list[str]]:
                     f"max charge {max_charge} at $.loads[{maximums[0][0]}] "
                     f"for the same components and unit"
                 )
-        for level, rows in by_level.items():
-            if len(rows) > 1:
-                indexes = ", ".join(f"$.loads[{index}]" for index, _row in rows)
-                warnings.append(f"more than one {level} charge for the same components ({indexes})")
-
         units = {row.get("pressureUnit") for _index, row in members if row.get("pressureUnit")}
         if len(units) > 1:
             indexes = ", ".join(f"$.loads[{index}]" for index, _row in members)

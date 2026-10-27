@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
-"""Scrape published handloading data into schema 1.0.0 source files.
+"""Fetch published manufacturer load data into the raw cache.
 
-Framework skeleton. The LoadDevelopment adapter is registered and does
-not fetch. A later revision may implement it only if redistribution is
-allowed. See data/loads/comments/2026-10-27-terms-block-full-tables.md.
+LoadDevelopment is not fetched. The owner is harvesting that site and
+will supply data/loads/sources/loaddevelopment.json. There is no
+LoadDevelopment parser in this directory.
 
 Usage:
   python3 scripts/loads/scrape.py --list
-  python3 scripts/loads/scrape.py --source loaddevelopment --dry-run
-  python3 scripts/loads/scrape.py --source loaddevelopment
-
-Raw responses belong in data/loads/raw/ (gitignored). Normalized
-records belong in data/loads/sources/<slug>.json. Leave unknown fields
-null. Do not convert units or invent a charge between a published
-minimum and maximum.
+  python3 scripts/loads/scrape.py --source hodgdon
+  python3 scripts/loads/scrape.py --source vihtavuori --dry-run
 """
 
 from __future__ import annotations
@@ -25,9 +20,7 @@ from dataclasses import dataclass
 from catalog import RAW_DIR, SOURCES_DIR
 
 
-# Pause between page reads if a later adapter is authorized to fetch.
-# This constant is not permission to bulk-copy the site.
-REQUEST_INTERVAL_SECONDS = 5
+REQUEST_INTERVAL_SECONDS = 12
 
 
 @dataclass(frozen=True)
@@ -40,25 +33,26 @@ class Source:
 
 SOURCES: tuple[Source, ...] = (
     Source(
+        "vihtavuori",
+        "Vihtavuori",
+        "https://vihtavuori.com/reloading-data/reloading-data-tool/",
+        "Public reload-database JSON. Normalize with scripts/loads/vihtavuori.py. The tool page states the data URL.",
+    ),
+    Source(
+        "hodgdon",
+        "Hodgdon Reloading Data Center",
+        "https://hodgdonreloading.com/rldc/",
+        "Public get_loads service for one cartridge at a time. Also the IMR, Winchester, Ramshot, and Accurate data in that center. Crawl-delay 10; this script waits 12s. No shotshells.",
+    ),
+    Source(
         "loaddevelopment",
         "LoadDevelopment.com",
         "https://loaddevelopment.com/load-data/",
-        "The page embeds https://loaddatabase.com/. Anonymous HTML carries a short preview; the rest of each cartridge asks for a sign-in. Terms of Use restrict copying and automated collection. Do not commit a full table unless that question is answered.",
+        "No adapter. Do not fetch. The owner supplies sources/loaddevelopment.json.",
     ),
 )
 
 BY_SLUG = {source.slug: source for source in SOURCES}
-
-
-class AdapterNotImplemented(NotImplementedError):
-    def __init__(self, source: Source):
-        super().__init__(
-            f"{source.slug} adapter is not implemented. "
-            f"Terms currently block a full harvest. "
-            f"Read {source.url} only after that is resolved, cache pages under "
-            f"{RAW_DIR / source.slug}, and write {SOURCES_DIR / (source.slug + '.json')} "
-            f"using schema 1.0.0. {source.notes}"
-        )
 
 
 def scrape_source(source: Source, dry_run: bool) -> int:
@@ -68,21 +62,34 @@ def scrape_source(source: Source, dry_run: bool) -> int:
     print(f"  url: {source.url}")
     print(f"  raw dir: {raw_path}")
     print(f"  catalog: {out_path}")
-    print(f"  interval: {REQUEST_INTERVAL_SECONDS}s between requests, after authorization")
-    if dry_run:
-        print("  dry-run: no request sent")
+    print(f"  notes: {source.notes}")
+    if source.slug == "loaddevelopment":
+        print("  not fetched: no LoadDevelopment scraper or parser is implemented")
+        return 2
+    if source.slug == "vihtavuori":
+        cached = raw_path / "reloading.json"
+        print(f"  cached: {cached} ({'present' if cached.is_file() else 'missing'})")
+        if dry_run:
+            print("  dry-run: no request sent")
+            return 0
+        print("  vihtavuori fetch is not repeated. Run scripts/loads/vihtavuori.py to normalize the cache.")
         return 0
-    raise AdapterNotImplemented(source)
+    if source.slug == "hodgdon":
+        if dry_run:
+            print(f"  dry-run: would POST one cartridge at a time, {REQUEST_INTERVAL_SECONDS}s apart")
+            return 0
+        from hodgdon import fetch
+
+        fetch()
+        return 0
+    print(f"  unknown adapter {source.slug}", file=sys.stderr)
+    return 2
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--list", action="store_true", help="Print registered sources and exit.")
-    parser.add_argument(
-        "--source",
-        choices=["all", *BY_SLUG.keys()],
-        help="Source slug to scrape, or 'all'.",
-    )
+    parser.add_argument("--source", choices=["all", *BY_SLUG.keys()], help="Source slug to scrape, or 'all'.")
     parser.add_argument("--dry-run", action="store_true", help="Print the plan and do not fetch.")
     args = parser.parse_args(argv)
 
@@ -95,14 +102,10 @@ def main(argv: list[str] | None = None) -> int:
     selected = SOURCES if args.source == "all" else (BY_SLUG[args.source],)
     failures = 0
     for source in selected:
-        try:
-            scrape_source(source, dry_run=args.dry_run)
-        except AdapterNotImplemented as exc:
-            print(f"  not implemented: {exc}", file=sys.stderr)
+        status = scrape_source(source, dry_run=args.dry_run)
+        if status:
             failures += 1
-    if failures:
-        return 2
-    return 0
+    return 2 if failures else 0
 
 
 if __name__ == "__main__":

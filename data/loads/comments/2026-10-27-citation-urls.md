@@ -1,6 +1,6 @@
 # Which URL cites a row
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Which URL cites a row
 
@@ -17,4 +17,6 @@ The page named for this catalog is <https://loaddevelopment.com/load-data/>. Tha
 `source.name` is `LoadDevelopment.com`. `source.url` is `https://loaddevelopment.com/load-data/`. `source.retrievedOn` is the date the source was read. Each record's `sourceUrl` would be the cartridge page that contained the row. `sourcePage` is null because no manual page number was printed. An empty `source` field does not become Hodgdon, Sierra, Barnes, or another manual name.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. `source.url` is the publication entry. Each record's `sourceUrl` is the page or file that contained the row. `sourcePage` stays null when no manual page is printed.
 

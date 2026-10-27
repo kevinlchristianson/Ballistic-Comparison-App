@@ -1,6 +1,6 @@
 # Published values with no schema field
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Published fields that have no column
 
@@ -19,4 +19,6 @@ Not on the row: pressure, pressure method, CBTO, a compressed mark, a bullet par
 Powder manufacturer, barrel twist, `max_coal`, and the row id would be copied into `notes`. `search_tsv` is a search index and would be dropped. `pressure`, `pressureUnit`, and `pressureMethod` are null when the source prints no pressure. The enum value `unknown` is reserved for a published pressure whose method is not identified. `compressed` is null when the source does not mark it. PSI and CUP are never combined into one number.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. Use `notes` for published text that has no field. Pressure fields are null when no pressure is printed. `unknown` is only for a published pressure number whose method is not identified.
 

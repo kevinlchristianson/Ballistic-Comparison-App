@@ -1,6 +1,6 @@
 # TypeScript file beside the JSON Schema
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: TypeScript types
 
@@ -17,4 +17,6 @@ Should `data/loads/schema/load.ts` stay?
 `load.ts` mirrors schema 1.0.0 and exports `SCHEMA_VERSION`. Deleting the TypeScript file would not be a schema bump. Adding, removing, renaming, or retyping a field still is.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Keep `load.ts`. The app may import it.
 

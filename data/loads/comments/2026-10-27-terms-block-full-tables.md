@@ -1,6 +1,6 @@
 # LoadDevelopment terms block the load rows
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Site licensing
 
@@ -27,4 +27,6 @@ The database homepage claims 278,000+ recipes. Its sitemap, fetched on 2026-10-2
 No LoadDevelopment load rows are committed. `data/loads/sources/loaddevelopment.json` has `loadCount` 0. `scripts/loads/scrape.py` and `scripts/loads/normalize.py` refuse to fetch. Raw pages, if a later run is authorized, stay in gitignored `data/loads/raw/`.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. Nothing from LoadDevelopment. The project decision in that file is that cartridge matching uses a physics-based velocity estimate, and published load data is used only where its terms allow. This bot does not scrape loaddevelopment.com.
 

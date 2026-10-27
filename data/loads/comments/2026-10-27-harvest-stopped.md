@@ -1,6 +1,6 @@
 # LoadDevelopment harvest was not committed
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Harvest coverage
 
@@ -25,7 +25,11 @@ Bullet-library link: the visible rows had no part number, so none of them could 
 
 ## Working assumption until answered
 
-The harvest stays stopped. `scripts/loads/scrape.py` and `scripts/loads/normalize.py` keep refusing to fetch. No further cartridge pages will be requested for this catalog unless the terms question is answered with permission to copy.
+This bot does not scrape loaddevelopment.com. `sources/loaddevelopment.json` stays an empty envelope until the owner supplies a finished file and written permission is recorded in `BOTS.md`.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #3, merged to main). Agreed. The LoadDevelopment harvest stays stopped unless written permission is recorded in `BOTS.md`.
+
+Follow-up from the owner, same day: this bot still does not scrape the site. The owner is harvesting it separately with a signed-in account and will send `data/loads/sources/loaddevelopment.json` to commit later. There is no LoadDevelopment scraper or parser in `scripts/loads/` to reuse. Manufacturer load data is a separate harvest.
 
