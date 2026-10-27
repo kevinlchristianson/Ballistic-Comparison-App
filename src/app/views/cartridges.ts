@@ -1,6 +1,6 @@
 /** Cartridge library, the user's wildcats, and the user's own loads. */
 import type { Cartridge } from "../../lib/cartridges.ts";
-import { newId, refresh, type AppData, type UserLoad } from "../data.ts";
+import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { userDataBar } from "../userdata.ts";
 
@@ -163,93 +163,14 @@ export function cartridgesView(data: AppData): HTMLElement {
 
   function renderLoads(): void {
     clear(loadsEl);
-    const v: { cartridgeId: string; bulletWeightGr: number | null; velocityFps: number | null; barrelLengthIn: number | null; note: string } = {
-      cartridgeId: "",
-      bulletWeightGr: null,
-      velocityFps: null,
-      barrelLengthIn: 24,
-      note: "",
-    };
-    const noteEl = h("input", { type: "text", placeholder: "Where the number came from (chronograph, manual page)" });
-    noteEl.addEventListener("input", () => (v.note = noteEl.value.trim()));
-    const msg = h("p", { class: "warn" });
-    const opts: [string, string][] = [["", "Choose a cartridge"], ...data.cartridges.map((c): [string, string] => [c.id, c.name])];
-    const name = (id: string) => data.cartridges.find((c) => c.id === id)?.name ?? id;
     loadsEl.append(
       h(
-        "details",
+        "div",
         { class: "card" },
-        h("summary", {}, h("strong", {}, "Add your own velocities"), data.user.loads.length ? ` (${data.user.loads.length} saved)` : ""),
-        h(
-          "p",
-          { class: "hint" },
-          "Measured or published maximum-load velocities you trust. When you have entries for a cartridge, its estimates use them first. Saved in this browser only. There is deliberately no powder charge field.",
-        ),
-        h(
-          "div",
-          { class: "grid" },
-          field("Cartridge *", select("", opts, (x) => (v.cartridgeId = x))),
-          field("Bullet weight (gr) *", numberInput(null, { min: 10, step: 1, onInput: (x) => (v.bulletWeightGr = x) })),
-          field("Velocity (fps) *", numberInput(null, { min: 300, max: 5000, step: 1, onInput: (x) => (v.velocityFps = x) })),
-          field("Barrel (in) *", numberInput(24, { min: 8, max: 40, step: 0.5, onInput: (x) => (v.barrelLengthIn = x) })),
-          field("Note", noteEl),
-        ),
-        msg,
-        h(
-          "button",
-          {
-            class: "primary",
-            onclick: () => {
-              if (!v.cartridgeId || !v.bulletWeightGr || !v.velocityFps || !v.barrelLengthIn) {
-                msg.textContent = "Cartridge, weight, velocity and barrel length are required.";
-                return;
-              }
-              const l: UserLoad = { id: newId("my-load"), cartridgeId: v.cartridgeId, bulletWeightGr: v.bulletWeightGr, velocityFps: v.velocityFps, barrelLengthIn: v.barrelLengthIn, note: v.note };
-              data.user.loads.push(l);
-              refresh(data);
-              renderAll();
-            },
-          },
-          "Save velocity",
-        ),
-        data.user.loads.length
-          ? h(
-              "table",
-              { class: "data compact" },
-              h("thead", {}, h("tr", {}, ["Cartridge", "Weight", "Velocity", "Barrel", "Note", ""].map((x) => h("th", {}, x)))),
-              h(
-                "tbody",
-                {},
-                data.user.loads.map((l) =>
-                  h(
-                    "tr",
-                    {},
-                    h("td", {}, name(l.cartridgeId)),
-                    h("td", {}, `${l.bulletWeightGr} gr`),
-                    h("td", {}, fmt.fps(l.velocityFps)),
-                    h("td", {}, `${l.barrelLengthIn}″`),
-                    h("td", { class: "muted" }, l.note),
-                    h(
-                      "td",
-                      {},
-                      h(
-                        "button",
-                        {
-                          class: "link danger",
-                          onclick: () => {
-                            data.user.loads = data.user.loads.filter((x) => x.id !== l.id);
-                            refresh(data);
-                            renderAll();
-                          },
-                        },
-                        "delete",
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            )
-          : null,
+        h("strong", {}, "Your own loads"),
+        ` (${data.user.loads.length} saved) are on the `,
+        h("a", { href: "#loads" }, "Load data"),
+        " tab, next to the published loads for each cartridge.",
       ),
     );
   }

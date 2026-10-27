@@ -2,14 +2,15 @@
 
 A static web app for comparing rifle bullets and estimating which cartridges can reach a target velocity. Everything runs in the browser. Every number names its source or the model that made it.
 
-**This is not load data.** The site never shows powder charges, and none of its numbers should be used to assemble ammunition. Load only from the powder or bullet maker's current published data.
+**Estimates are not load data.** The Load data tab lists loads copied from the powder makers' published data, with a link to each source. Copies can be out of date or mistyped: confirm every charge against the source's current data, start at the published start load, and work up with care.
 
 ## What it does
 
 - **Compare.** Up to six bullet and velocity setups, solved under the same conditions: drop, wind drift, velocity and energy, as a chart and a table.
 - **Find a cartridge.** For a bullet, barrel length and target velocity, lists the cartridges that can get there (comfortable, likely, stretch, short), with the estimate's range, the model behind it, and the data supporting it. It also checks seating depth and magazine fit, and says when a custom chamber would be needed.
 - **Bullets.** Browse and filter the bullet library, each with a link to the maker's page. Add your own bullets.
-- **Cartridges.** The cartridge library, plus your own wildcats and your own measured velocities. Your data stays in your browser, with JSON export and import.
+- **Cartridges.** The cartridge library, plus your own wildcats.
+- **Load data.** Every published load in the library for a cartridge (bullet, powder, charge, velocity, barrel, pressure, COAL, source link), and your own loads with the same fields. Your loads stay in your browser, with JSON export and import, and your max loads feed that cartridge's velocity estimates.
 
 ## How the numbers are made
 
@@ -36,7 +37,7 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 
 Sources and terms are listed in [`data/SOURCES.md`](data/SOURCES.md). The data bots work from [`BOTS.md`](BOTS.md). The bots' own tooling (Python, under `scripts/bullets/` and `scripts/loads/`) is documented in [`data/bullets/README.md`](data/bullets/README.md) and [`data/loads/README.md`](data/loads/README.md).
 
-**What gets published.** `scripts/build-site-data.ts` writes the site's data: bullets with source links, the cartridge library, and, for load data, only fitted velocity curves per cartridge and barrel length, with load counts and source links. No load row, powder or charge is published, and the script refuses to build if one slips in. To stop the site using a load source, add its name to `excludedLoadSources` in `data/site-config.json`.
+**What gets published.** `scripts/build-site-data.ts` writes the site's data: bullets with source links, the cartridge library, fitted velocity curves per cartridge and barrel length, and the load rows for the Load data tab, one file per cartridge. `loadRows` in `data/site-config.json` controls the rows: `"full"` (every field the source printed, including powder and charge; the project owner's choice on 2026-10-27), `"without_charges"`, or `"none"`. The script refuses to build if powder or charge appears anywhere else. To stop the site using a load source at all, add its name to `excludedLoadSources`.
 
 ## Development
 
@@ -79,3 +80,4 @@ One-time setup: in the repository's **Settings → Pages**, set **Source** to **
 - Many bullets have no published length, so seating depth can't be checked for them.
 - Imperial units only.
 - User data lives in one browser. Export it to keep a copy.
+- Load data rows are copies from when the bots last collected them. Sources revise their data; always check the source.

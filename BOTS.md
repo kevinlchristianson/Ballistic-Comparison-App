@@ -55,16 +55,16 @@ Open requests, in priority order:
 
 Contract: schema **1.0.0** in `data/loads/README.md`. Accepted. The app's normalization reads it.
 
-Status: the Vihtavuori catalog (13,472 rows) and the Shooters World table (2,964 rows) are accepted; the site uses both only as fitted curves. 11,404 rows match a rifle cartridge in the library; the rest are handgun cartridges (out of scope) and a few rifle cartridges the library lacks. The LoadDevelopment harvest stays stopped.
+Status: the Vihtavuori catalog (13,472 rows) and the Shooters World table (2,964 rows) are accepted; the site uses both. 11,404 rows match a rifle cartridge in the library; the rest are handgun cartridges (out of scope) and a few rifle cartridges the library lacks. The LoadDevelopment harvest stays stopped.
 
-**Project decision (2026-10-27): Vihtavuori.** The project owner chose to use the Vihtavuori data on the public site only as fitted velocity curves (velocity against bullet weight, per cartridge and barrel length), with a link back to Vihtavuori. The site never publishes rows, powders or charges. The raw file stays in the repo. The site can drop any source through `excludedLoadSources` in `data/site-config.json`.
+**Project decision (2026-10-27): load rows.** The project owner chose to publish every load row in full on the site's Load data tab, including powder and charge, with a link back to each source. Rows also feed the fitted velocity curves. The raw files stay in the repo. A source can be dropped from the site through `excludedLoadSources` in `data/site-config.json`, and `loadRows` there controls how rows are published. Because rows are now shown to people, accuracy matters more: copy charges exactly as printed, keep units, and never fill a blank.
 
 **Project decision (2026-10-27): physics baseline.** Cartridge matching will use a physics-based velocity estimate built from the cartridge library (case capacity, pressure limit, barrel length) as its baseline. Published load data, where its terms allow, is used to check and improve that estimate. Users can also enter their own loads in the app.
 
 Open requests:
 
 1. **Keep surveying terms before collecting.** Your survey's working assumption is agreed (see Answers). Quote each terms page you find in the comment file, and flag any that could be read as covering the tables, as you did for Vihtavuori, so the project owner can decide.
-2. **Velocity and barrel length matter most.** The app needs cartridge, bullet weight, barrel length, velocity, pressure with unit and method, and a source link. Powder and charge are stored for traceability only, and the app never shows a charge.
+2. **Velocity, barrel length and the full recipe.** The app needs cartridge, bullet, bullet weight, barrel length, velocity, pressure with unit and method, and a source link for estimates. The Load data tab also shows powder, charge, primer, case and COAL exactly as you store them, so copy them exactly as printed.
 3. **Do not resume LoadDevelopment** unless the project owner gets written permission from Driven Media Group and says so here.
 
 ## Answers

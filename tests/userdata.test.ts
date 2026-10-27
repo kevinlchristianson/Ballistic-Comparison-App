@@ -7,11 +7,12 @@ describe("user data import", () => {
     expect(() => parseUserData(JSON.stringify({ bullets: [] }))).toThrow(/not exported from this app/);
   });
 
-  it("keeps only the load fields the app uses, so a charge never comes in", () => {
+  it("keeps the user's own load records and drops unknown fields", () => {
     const { data } = parseUserData(
-      file({ loads: [{ id: "l1", cartridgeId: "308-win", bulletWeightGr: 168, velocityFps: 2650, barrelLengthIn: 24, chargeGr: 44.5, powder: "X", note: "chrono" }] }),
+      file({ loads: [{ id: "l1", cartridgeId: "308-win", bulletWeightGr: 168, velocityFps: 2650, barrelLengthIn: 24, chargeGr: 44.5, powder: "N150", note: "chrono", junk: 1, chargeLevel: "weird" }] }),
     );
-    expect(data.loads).toEqual([{ id: "l1", cartridgeId: "308-win", bulletWeightGr: 168, velocityFps: 2650, barrelLengthIn: 24, note: "chrono" }]);
+    expect(data.loads[0]).toMatchObject({ id: "l1", chargeGr: 44.5, powder: "N150", chargeLevel: "max", note: "chrono" });
+    expect(data.loads[0]).not.toHaveProperty("junk");
   });
 
   it("skips entries with missing required fields and marks the rest as the user's", () => {

@@ -13,6 +13,7 @@ export const KNOWN_LIMITATIONS: string[] = [
   "Many bullets have no published length, so seating depth cannot be checked for them.",
   "Units are imperial only (fps, grains, inches, yards).",
   "Your bullets, cartridges and loads are stored in this browser only. Export them to keep a copy.",
+  "Load data rows are copies made when the bots last collected them. Sources revise their data; always check the source.",
 ];
 
 /** Renders the normalization report's Markdown (headings, tables, paragraphs, quotes) as plain HTML. */
@@ -57,7 +58,7 @@ export function aboutView(data: AppData): HTMLElement {
       h(
         "p",
         {},
-        "This site compares bullets and estimates what cartridges can do. It is not load data. It never shows powder charges, and none of its numbers should be used to assemble ammunition. Always start from the powder or bullet maker's current published data, and work up with the care those sources describe.",
+        "This site compares bullets and estimates what cartridges can do. Its estimates are not load data. The Load data tab lists loads copied from the powder makers' published data, with a link to each source; copies can be out of date or mistyped, so confirm every charge against the source's current data, start at the published start load, and work up with the care those sources describe. Your own loads are kept in your browser only.",
       ),
     ),
     h("h3", {}, "How the numbers are made"),
@@ -78,8 +79,8 @@ export function aboutView(data: AppData): HTMLElement {
         {},
         "For cartridges with published load data, the fastest maximum load for each bullet weight is moved to your barrel length, then velocity is fitted against bullet weight on log scales. It will not answer more than 10% outside the published weights. Loads above SAAMI maximum pressure are never used. The site publishes only these fitted curves, never the loads behind them.",
       ),
-      h("dt", {}, "Your velocities"),
-      h("dd", {}, "When you enter velocities for a cartridge, its estimates use them first, with the same method."),
+      h("dt", {}, "Your loads"),
+      h("dd", {}, "When you enter loads for a cartridge on the Load data tab, its estimates use your max loads first, with the same method."),
       h("dt", {}, "Matching"),
       h("dd", {}, "Comfortable means even the low end of the range reaches your target; likely means the central estimate does; stretch means only the high end does."),
       h("dt", {}, "Seating and fit"),
@@ -98,7 +99,7 @@ export function aboutView(data: AppData): HTMLElement {
         " (verification pending).",
       ),
       m.loadSources.length
-        ? m.loadSources.map((s) => h("li", {}, `${s.name}: ${s.loadCount.toLocaleString()} published loads across ${s.cartridgeCount} cartridges, used only as fitted velocity curves.`))
+        ? m.loadSources.map((s) => h("li", {}, `${s.name}: ${s.loadCount.toLocaleString()} published loads across ${s.cartridgeCount} cartridges, used for fitted velocity curves and listed in full on the Load data tab with a link to the source.`))
         : h("li", {}, "No published load data yet; velocity estimates come from the physics model."),
       m.excludedLoadSources.length ? h("li", {}, `Excluded from the site: ${m.excludedLoadSources.join(", ")}.`) : null,
     ),

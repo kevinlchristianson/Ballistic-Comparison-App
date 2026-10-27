@@ -1,5 +1,9 @@
 {
-  "_comment": "Settings for scripts/build-site-data.ts. Owned by this project. excludedLoadSources lists load source names (as in each load file's source.name) whose data the published site must not use. barrelRangeIn is the barrel range, in whole inches, that published-load fits are precomputed for.",
+  "_comment": "Settings for scripts/build-site-data.ts. Owned by this project. excludedLoadSources lists load source names (as in each load file's source.name) whose data the published site must not use. barrelRangeIn is the barrel range, in whole inches, that published-load fits are precomputed for. loadRows sets what the Load data tab publishes: \"full\" (every field the source printed, including powder and charge; chosen by the project owner on 2026-10-27), \"without_charges\" (no powder, charge or primer), or \"none\" (fitted curves only).",
   "excludedLoadSources": [],
-  "barrelRangeIn": [14, 34]
+  "barrelRangeIn": [
+    14,
+    34
+  ],
+  "loadRows": "full"
 }

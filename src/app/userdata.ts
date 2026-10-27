@@ -46,8 +46,24 @@ export function parseUserData(text: string): { data: UserData; skipped: string[]
       skipped.push(`load ${String(l.id ?? "?")}`);
       continue;
     }
-    // Only the fields the app uses are kept. A charge in the file is ignored.
-    loads.push({ id: String(l.id), cartridgeId: String(l.cartridgeId), bulletWeightGr: Number(l.bulletWeightGr), velocityFps: Number(l.velocityFps), barrelLengthIn: Number(l.barrelLengthIn), note: str(l.note) ?? "" });
+    // Only known fields are kept. These are the user's own records and stay in their browser.
+    const level = l.chargeLevel === "start" || l.chargeLevel === "max" || l.chargeLevel === "other" ? l.chargeLevel : "max";
+    loads.push({
+      id: String(l.id),
+      cartridgeId: String(l.cartridgeId),
+      bulletWeightGr: Number(l.bulletWeightGr),
+      velocityFps: Number(l.velocityFps),
+      barrelLengthIn: Number(l.barrelLengthIn),
+      note: str(l.note) ?? "",
+      bulletDescription: str(l.bulletDescription),
+      powder: str(l.powder),
+      chargeGr: num(l.chargeGr),
+      primer: str(l.primer),
+      case: str(l.case),
+      coalIn: num(l.coalIn),
+      chargeLevel: level,
+      date: str(l.date),
+    });
   }
   return { data: { bullets, cartridges, loads }, skipped };
 }
