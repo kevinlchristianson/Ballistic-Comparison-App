@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 9,
-  "aliasCount": 6,
+  "aliasCount": 8,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -274,6 +274,24 @@
       "source": {
         "name": "Rokslide, 6gt or 6creed",
         "url": "https://rokslide.com/forums/threads/6gt-or-6creed.433061/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-bra",
+      "alias": "BRA",
+      "source": {
+        "name": "Shooters' Forum, 6 Dasher 109gr N150",
+        "url": "https://forum.accurateshooter.com/threads/6-dasher-109gr-n150-load-data.4038925/",
+        "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "6mm-brx",
+      "alias": "BRX",
+      "source": {
+        "name": "Shooters' Forum, 109 Hybrid juice",
+        "url": "https://forum.accurateshooter.com/threads/109-hybrid-juice-not-worth-the-squeeze.4145964/",
         "retrievedOn": "2026-10-27"
       }
     }
