@@ -9,6 +9,7 @@
 import { readFileSync } from "node:fs";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
 import { physicsVelocity, type PhysicsParams } from "../src/lib/velocity/physics.ts";
+import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
 interface Point {
   cartridgeId: string;
@@ -17,7 +18,7 @@ interface Point {
   barrelLengthIn: number;
 }
 
-const lib = JSON.parse(readFileSync("data/cartridges/cartridges.json", "utf8")) as CartridgeLibrary;
+const lib = loadCartridgeLibrary().library;
 const cal = JSON.parse(readFileSync("data/calibration/factory-velocities.json", "utf8")) as { points: Point[] };
 const byId = new Map(lib.cartridges.map((c) => [c.id, c]));
 

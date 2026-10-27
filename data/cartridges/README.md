@@ -1,6 +1,6 @@
 # Cartridge library
 
-Owned by this project, not by the bots. One file: [`cartridges.json`](cartridges.json), schema `1.0.0`. TypeScript types are in [`src/lib/cartridges.ts`](../../src/lib/cartridges.ts).
+Owned by this project. One file: [`cartridges.json`](cartridges.json), schema `1.0.0`. The bots may add cartridges and aliases in [`bots/`](bots/README.md); those are merged in at build time, and this file always wins over them. TypeScript types are in [`src/lib/cartridges.ts`](../../src/lib/cartridges.ts).
 
 ## Status
 
