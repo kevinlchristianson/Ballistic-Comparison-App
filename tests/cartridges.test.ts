@@ -98,7 +98,8 @@ describe("forum shorthand", () => {
 
   it("does not swap one maker's cartridge for another's", () => {
     // Loose matching drops maker words, but "338 norma" must not become .338 Lapua.
-    expect(resolveCartridge("338 norma", index)).toBeNull();
+    expect(resolveCartridge("338 norma", index)).toBe("338-norma-mag");
+    expect(resolveCartridge("338 norma", index)).not.toBe("338-lapua");
   });
 
   it("needs every slash-separated piece to name the same cartridge", () => {
