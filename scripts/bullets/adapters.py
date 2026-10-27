@@ -15,10 +15,11 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 
-from catalog import SCHEMA_VERSION, bullet_id
+from catalog import RAW_DIR, SCHEMA_VERSION, bullet_id
 
 RETRIEVED_ON = date.today().isoformat()
 USER_AGENT = "ballistic-comparison-app/bullet-library (public catalog research)"
@@ -458,11 +459,67 @@ def scrape_hornady() -> dict:
 # --- Berger ------------------------------------------------------------------
 
 BERGER_URL = "https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/"
+BERGER_CATALOG_URL = "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf"
+BERGER_SITEMAP_URL = "https://bergerbullets.com/product-sitemap.xml"
+
+# Product-line names the all-bullets table assigns from the bullet name.
+# Longer names are tested first so "Long Range Hybrid Target" is not stored as "Hybrid Target".
+_BERGER_PRODUCT_LINES = (
+    "Long Range Hybrid Target",
+    "Hybrid Target",
+    "Elite Hunter",
+    "Classic Hunter",
+    "VLD Hunting",
+    "VLD Target",
+    "OTM Tactical",
+    "Varmint",
+)
+
+_BERGER_CATALOG_ROW = re.compile(
+    r"^(?P<desc>.+?)\s+(?P<sku>\d{5})\s+"
+    r"(?P<sd>0\.\d+)\s+"
+    r"(?P<g1>\d+\.\d+)\s+"
+    r"(?P<g7>\d+\.\d+|N/?A)\s+"
+    r"(?P<ff>\d+\.\d+|N/?A)\s+"
+    r'(?P<twist>1:\d+(?:\.\d+)?["″])\s*$',
+    re.I,
+)
 
 
 def scrape_berger() -> dict:
     print("berger: all-bullets table")
-    page = fetch_text(BERGER_URL)
+    bullets = _berger_table_bullets(fetch_text(BERGER_URL))
+    print(f"  product pages for {len(bullets)} bullets")
+    bullets = map_parallel(bullets, _apply_berger_page, workers=8)
+    known = {bullet.get("sku") for bullet in bullets if bullet.get("sku")}
+    extras = _berger_catalog_extras(known)
+    if extras:
+        print(f"  catalog added {len(extras)} bullets absent from the all-bullets table")
+        bullets.extend(extras)
+    return catalog("Berger", bullets)
+
+
+def _berger_product_line(name: str) -> str | None:
+    if re.search(r"\bVarmint\b", name):
+        return "Varmint"
+    if re.search(r"Long Range Hybrid", name):
+        return "Long Range Hybrid Target"
+    if re.search(r"Hybrid", name) and re.search(r"Target", name):
+        return "Hybrid Target"
+    if re.search(r"Elite Hunter", name):
+        return "Elite Hunter"
+    if re.search(r"Classic Hunter", name):
+        return "Classic Hunter"
+    if re.search(r"VLD", name) and re.search(r"Hunting", name):
+        return "VLD Hunting"
+    if re.search(r"VLD", name):
+        return "VLD Target"
+    if re.search(r"Tactical", name):
+        return "OTM Tactical"
+    return None
+
+
+def _berger_table_bullets(page: str) -> list[dict]:
     bullets = []
     tables = re.findall(r"<table\b.*?</table>", page, flags=re.S | re.I)
     rows = []
@@ -490,23 +547,9 @@ def scrape_berger() -> dict:
         bullet["sku"] = sku
         caliber = re.match(r"(.+?)\s+\d+(?:\.\d+)?\s+Grain\b", name)
         bullet["caliber"] = caliber.group(1) if caliber else None
-        bullet["weightGr"] = as_number(parse_number(re.search(r"(\d+(?:\.\d+)?)\s+Grain", name).group(1)) if re.search(r"Grain", name) else None)
-        if re.search(r"\bVarmint\b", name):
-            bullet["productLine"] = "Varmint"
-        elif re.search(r"Long Range Hybrid", name):
-            bullet["productLine"] = "Long Range Hybrid Target"
-        elif re.search(r"Hybrid", name) and re.search(r"Target", name):
-            bullet["productLine"] = "Hybrid Target"
-        elif re.search(r"Elite Hunter", name):
-            bullet["productLine"] = "Elite Hunter"
-        elif re.search(r"Classic Hunter", name):
-            bullet["productLine"] = "Classic Hunter"
-        elif re.search(r"VLD", name) and re.search(r"Hunting", name):
-            bullet["productLine"] = "VLD Hunting"
-        elif re.search(r"VLD", name):
-            bullet["productLine"] = "VLD Target"
-        elif re.search(r"Tactical", name):
-            bullet["productLine"] = "OTM Tactical"
+        weight = re.search(r"(\d+(?:\.\d+)?)\s+Grain", name)
+        bullet["weightGr"] = as_number(parse_number(weight.group(1)) if weight else None)
+        bullet["productLine"] = _berger_product_line(name)
         add_construction(bullet, name)
         add_uses(bullet, name)
         add_bc(bullet, "G1", g1, "manufacturer", BERGER_URL)
@@ -517,15 +560,25 @@ def scrape_berger() -> dict:
         else:
             bullet["notes"] = "No velocity band was published with the BCs."
         bullets.append(bullet)
-    print(f"  product pages for {len(bullets)} bullets")
-    bullets = map_parallel(bullets, _apply_berger_page, workers=8)
-    return catalog("Berger", bullets)
+    return bullets
 
 
-def _berger_page_attrs(url: str) -> dict[str, str]:
+def _berger_page_html(url: str) -> str:
     if "/product/" not in url:
-        return {}
-    text = fetch_text(url)
+        return ""
+    return fetch_text(url)
+
+
+def _berger_h1(text: str) -> str | None:
+    match = re.search(r"<h1[^>]*>([\s\S]*?)</h1>", text, flags=re.I)
+    if not match:
+        return None
+    name = strip_html(match.group(1))
+    name = re.sub(r"\s+Rifle Bullet$", "", name).strip()
+    return name or None
+
+
+def _berger_attrs_from_html(text: str) -> dict[str, str]:
     attrs: dict[str, str] = {}
     for row in re.findall(r"<tr[\s\S]*?</tr>", text, flags=re.I):
         cells = [strip_html(cell) for cell in re.findall(r"<t[dh][^>]*>([\s\S]*?)</t[dh]>", row, flags=re.I)]
@@ -534,15 +587,14 @@ def _berger_page_attrs(url: str) -> dict[str, str]:
     return attrs
 
 
-def _apply_berger_page(bullet: dict) -> dict:
-    url = (bullet.get("sources") or [{}])[0].get("url") or ""
-    try:
-        attrs = _berger_page_attrs(url)
-    except Exception as exc:  # noqa: BLE001 - keep the table row if one page fails
-        print(f"  skip {bullet.get('sku')}: {exc}")
-        return bullet
-    if not attrs:
-        return bullet
+def _berger_page_attrs(url: str) -> dict[str, str]:
+    text = _berger_page_html(url)
+    if not text:
+        return {}
+    return _berger_attrs_from_html(text)
+
+
+def _fill_berger_dimensions(bullet: dict, attrs: dict[str, str]) -> None:
     bullet["diameterIn"] = as_number(parse_number(attrs.get("Bullet Dia.")))
     bullet["lengthIn"] = as_number(parse_number(attrs.get("OAL")))
     bullet["bearingSurfaceIn"] = as_number(parse_number(attrs.get("Bearing Surface")))
@@ -567,23 +619,460 @@ def _apply_berger_page(bullet: dict) -> dict:
     bullet["noseLengthIn"] = as_number(parse_number(attrs.get("Nose Length")))
     bullet["baseToOgiveIn"] = as_number(parse_number(attrs.get("Base to Ogive")))
     extras = []
+    stored_as = []
     if bullet["noseLengthIn"] is not None:
         extras.append(f"Nose Length {attrs['Nose Length']}")
+        stored_as.append("noseLengthIn")
     if bullet["baseToOgiveIn"] is not None:
         extras.append(f"Base to Ogive {attrs['Base to Ogive']}")
+        stored_as.append("baseToOgiveIn")
     if extras:
         note = (
             "Product page also prints "
             + ", ".join(extras)
-            + ". Those values are noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
+            + ". Stored as "
+            + " and ".join(stored_as)
+            + ", not ogiveLengthIn."
         )
         bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+
+
+def _apply_berger_page(bullet: dict) -> dict:
+    url = (bullet.get("sources") or [{}])[0].get("url") or ""
+    try:
+        attrs = _berger_page_attrs(url)
+    except Exception as exc:  # noqa: BLE001 - keep the table row if one page fails
+        print(f"  skip {bullet.get('sku')}: {exc}")
+        return bullet
+    if not attrs:
+        return bullet
+    _fill_berger_dimensions(bullet, attrs)
     if bullet.get("sources"):
         bullet["sources"][0]["notes"] = (
             "All-bullets table for G1, G7, and minimum twist. "
             "Product page for diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
         )
     return bullet
+
+
+def _pdf_literal(data: bytes) -> str:
+    out = bytearray()
+    i = 0
+    while i < len(data):
+        byte = data[i]
+        if byte == 0x5C and i + 1 < len(data):
+            nxt = data[i + 1]
+            mapped = {ord("n"): b"\n", ord("r"): b"\r", ord("t"): b"\t", ord("b"): b"\b", ord("f"): b"\f"}
+            if nxt in mapped:
+                out += mapped[nxt]
+                i += 2
+                continue
+            if nxt in b"()\\":
+                out.append(nxt)
+                i += 2
+                continue
+            octal = re.match(rb"[0-7]{1,3}", data[i + 1 : i + 4])
+            if octal:
+                out.append(int(octal.group(0), 8))
+                i += 1 + len(octal.group(0))
+                continue
+        out.append(byte)
+        i += 1
+    return out.decode("latin1", "replace")
+
+
+def _pdf_content_streams(data: bytes) -> list[bytes]:
+    streams = []
+    for part in data.split(b"endstream"):
+        idx = part.rfind(b"stream")
+        if idx < 0:
+            continue
+        raw = part[idx + 6 :]
+        if raw.startswith(b"\r\n"):
+            raw = raw[2:]
+        elif raw.startswith(b"\n"):
+            raw = raw[1:]
+        raw = raw.rstrip(b"\r\n")
+        try:
+            streams.append(zlib.decompress(raw))
+        except zlib.error:
+            continue
+    return streams
+
+
+def _pdf_read_string(content: bytes, i: int) -> tuple[str, int]:
+    """Read a PDF literal string starting at the opening parenthesis."""
+    i += 1
+    raw = bytearray()
+    depth = 1
+    while i < len(content) and depth:
+        byte = content[i]
+        if byte == ord("\\"):
+            raw.append(byte)
+            if i + 1 < len(content):
+                raw.append(content[i + 1])
+                i += 2
+                continue
+        elif byte == ord("("):
+            depth += 1
+            raw.append(byte)
+        elif byte == ord(")"):
+            depth -= 1
+            if depth:
+                raw.append(byte)
+            else:
+                return _pdf_literal(bytes(raw)), i + 1
+        else:
+            raw.append(byte)
+        i += 1
+    return _pdf_literal(bytes(raw)), i
+
+
+def _pdf_show_lines(content: bytes) -> list[str]:
+    """Text lines from one PDF content stream, in top-to-bottom order.
+
+    The 2026 Berger catalog draws each table cell with Tj/TJ and moves
+    with Td. Grouping by the text y position rebuilds those rows.
+    """
+    frags: list[tuple[float, float, int, str]] = []
+    x = y = 0.0
+    seq = 0
+    tokens: list[object] = []
+    i = 0
+    n = len(content)
+
+    def emit(op: str) -> None:
+        nonlocal x, y, seq
+        if op in {"Tj", "'"} and tokens and isinstance(tokens[-1], str):
+            if op == "'":
+                y -= 12
+            frags.append((x, y, seq, tokens[-1]))
+            seq += 1
+        elif op == "TJ" and tokens and isinstance(tokens[-1], list):
+            text = "".join(part for part in tokens[-1] if isinstance(part, str))
+            frags.append((x, y, seq, text))
+            seq += 1
+        elif op == "Tm" and len(tokens) >= 6 and all(isinstance(token, float) for token in tokens[-6:]):
+            x = float(tokens[-2])
+            y = float(tokens[-1])
+        elif op in {"Td", "TD"} and len(tokens) >= 2 and all(isinstance(token, float) for token in tokens[-2:]):
+            x += float(tokens[-2])
+            y += float(tokens[-1])
+        elif op == "T*":
+            y -= 12
+        tokens.clear()
+
+    while i < n:
+        byte = content[i]
+        if byte in b" \t\r\n\x0c\x00":
+            i += 1
+            continue
+        if byte == ord("%"):
+            while i < n and content[i] not in b"\r\n":
+                i += 1
+            continue
+        if byte == ord("("):
+            text, i = _pdf_read_string(content, i)
+            tokens.append(text)
+            continue
+        if byte == ord("["):
+            i += 1
+            array: list[object] = []
+            while i < n and content[i] != ord("]"):
+                if content[i] in b" \t\r\n":
+                    i += 1
+                    continue
+                if content[i] == ord("("):
+                    text, i = _pdf_read_string(content, i)
+                    array.append(text)
+                    continue
+                number = re.match(rb"[+-]?(?:\d+\.\d*|\.\d+|\d+)", content[i:])
+                if number:
+                    array.append(float(number.group(0)))
+                    i += len(number.group(0))
+                    continue
+                i += 1
+            if i < n and content[i] == ord("]"):
+                i += 1
+            tokens.append(array)
+            continue
+        if byte == ord("<"):
+            i += 1
+            if i < n and content[i] == ord("<"):
+                depth = 1
+                i += 1
+                while i < n and depth:
+                    if content[i : i + 2] == b"<<":
+                        depth += 1
+                        i += 2
+                    elif content[i : i + 2] == b">>":
+                        depth -= 1
+                        i += 2
+                    else:
+                        i += 1
+            else:
+                while i < n and content[i] != ord(">"):
+                    i += 1
+                if i < n:
+                    i += 1
+            continue
+        if byte == ord("/"):
+            i += 1
+            while i < n and content[i] not in b" \t\r\n[]()<>/{}%":
+                i += 1
+            continue
+        number = re.match(rb"[+-]?(?:\d+\.\d*|\.\d+|\d+)", content[i:])
+        if number:
+            tokens.append(float(number.group(0)))
+            i += len(number.group(0))
+            continue
+        word = re.match(rb"[A-Za-z*'\"]+", content[i:])
+        if word:
+            emit(word.group(0).decode("ascii"))
+            i += len(word.group(0))
+            continue
+        i += 1
+
+    buckets: dict[float, list[tuple[float, int, str]]] = {}
+    for frag_x, frag_y, frag_seq, text in frags:
+        if not text:
+            continue
+        buckets.setdefault(round(frag_y, 1), []).append((frag_x, frag_seq, text))
+    lines = []
+    for y_key in sorted(buckets, reverse=True):
+        parts = sorted(buckets[y_key], key=lambda item: (item[0], item[1]))
+        line = re.sub(r"\s+", " ", " ".join(part[2] for part in parts)).strip()
+        if line:
+            lines.append(line)
+    return lines
+
+
+def _berger_catalog_rows(pdf: bytes) -> list[dict]:
+    """Component-bullet rows from the 2026 catalog.
+
+    Ammunition tables put a muzzle velocity after the part number. A
+    sectional density is below 1, so those cartridge rows do not match.
+    """
+    rows = []
+    seen: set[str] = set()
+    for stream in _pdf_content_streams(pdf):
+        if b"Tj" not in stream and b"TJ" not in stream:
+            continue
+        for line in _pdf_show_lines(stream):
+            match = _BERGER_CATALOG_ROW.match(line)
+            if not match:
+                continue
+            sku = match.group("sku")
+            if sku in seen:
+                continue
+            description = re.sub(r"\s+", " ", match.group("desc")).strip()
+            marked_new = bool(re.search(r"\bNEW\b", description))
+            description = re.sub(r"\s*\bNEW\b\s*", " ", description)
+            description = re.sub(r"\s+", " ", description).strip()
+            g7 = match.group("g7")
+            rows.append(
+                {
+                    "sku": sku,
+                    "description": description,
+                    "markedNew": marked_new,
+                    "sectionalDensity": as_number(parse_number(match.group("sd"))),
+                    "bcG1": as_number(parse_number(match.group("g1"))),
+                    "bcG7": None if re.fullmatch(r"N/?A", g7, flags=re.I) else as_number(parse_number(g7)),
+                    "twist": match.group("twist"),
+                }
+            )
+            seen.add(sku)
+    return rows
+
+
+def _berger_product_urls() -> list[str]:
+    text = fetch_text(BERGER_SITEMAP_URL)
+    return re.findall(r"<loc>(https://bergerbullets.com/product/[^<]+)</loc>", text)
+
+
+def _berger_match_product_url(description: str, urls: list[str]) -> str | None:
+    weight = re.search(r"(\d+(?:\.\d+)?)\s+Grain", description, flags=re.I)
+    if not weight:
+        return None
+    weight_token = weight.group(1)
+    desc_tokens = {
+        token
+        for token in re.split(r"[^a-z0-9]+", description.lower())
+        if token and token not in {"cal", "grain", "gr", "the", "of", "a", "new"}
+    }
+    scored: list[tuple[int, str]] = []
+    for url in urls:
+        slug = urllib.parse.urlparse(url).path.lower()
+        if "ammunition" in slug or "discontinued" in slug:
+            continue
+        slug_tokens = set(re.split(r"[^a-z0-9]+", slug))
+        if weight_token not in slug_tokens:
+            continue
+        score = sum(1 for token in desc_tokens if token in slug_tokens)
+        scored.append((score, url))
+    if not scored:
+        return None
+    scored.sort(key=lambda item: (-item[0], item[1]))
+    best, runner = scored[0], scored[1] if len(scored) > 1 else None
+    if best[0] < 3:
+        return None
+    if runner and runner[0] >= best[0]:
+        return None
+    return best[1]
+
+
+def _numbers_differ(left, right) -> bool:
+    if left is None or right is None:
+        return False
+    return abs(float(left) - float(right)) >= 0.0005
+
+
+def _append_note(bullet: dict, note: str) -> None:
+    bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet.get("notes") else note
+
+
+def _berger_catalog_bullet(row: dict, url: str, html_text: str) -> dict:
+    attrs = _berger_attrs_from_html(html_text)
+    name = _berger_h1(html_text) or row["description"]
+    bullet = blank_bullet(
+        "Berger",
+        name,
+        url,
+        "Berger Bullets",
+        "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, "
+        "bearing surface, boat tail, ogive style, and sectional density.",
+    )
+    bullet["sku"] = row["sku"]
+    page_caliber = (attrs.get("Caliber") or "").strip()
+    caliber = re.match(r"(.+?)\s+\d+(?:\.\d+)?\s+Grain\b", name)
+    bullet["caliber"] = page_caliber or (caliber.group(1) if caliber else None)
+    weight = attrs.get("Bullet Weight") or ""
+    weight_match = re.search(r"(\d+(?:\.\d+)?)\s+Grain", weight, flags=re.I) or re.search(
+        r"(\d+(?:\.\d+)?)\s+Grain", name, flags=re.I
+    )
+    bullet["weightGr"] = as_number(parse_number(weight_match.group(1)) if weight_match else None)
+    bullet["productLine"] = _berger_product_line(name)
+    for label, value in attrs.items():
+        if not label.endswith("Part #"):
+            continue
+        part = value.strip()
+        if re.fullmatch(r"\d{4,6}", part) and part != bullet["sku"] and part not in bullet["alternateSkus"]:
+            bullet["alternateSkus"].append(part)
+    add_construction(bullet, name)
+    add_uses(bullet, name)
+    add_bc(bullet, "G1", attrs.get("G1 BC"), "manufacturer", url)
+    add_bc(bullet, "G7", attrs.get("G7 BC"), "manufacturer", url)
+    set_twist(bullet, attrs.get("Minimum Twist (or faster)"))
+    bullet["notes"] = (
+        "No velocity band was published with the BCs. "
+        "Not in the all-bullets table, so G1, G7, and minimum twist come from the product page."
+    )
+    _fill_berger_dimensions(bullet, attrs)
+    # The dimension fill leaves the product-page source note alone. Say where
+    # the headline BCs came from, since there is no all-bullets row.
+    if bullet.get("sources"):
+        bullet["sources"][0]["notes"] = (
+            "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, "
+            "bearing surface, boat tail, ogive style, and sectional density."
+        )
+
+    page_line = attrs.get("Product Line") or ""
+    page_known = next((line for line in _BERGER_PRODUCT_LINES if line.lower() in page_line.lower()), None)
+    if page_known and bullet["productLine"] and page_known != bullet["productLine"]:
+        bullet["conflicts"].append(
+            f"Product page Product Line is {page_line!r}. The 2026 catalog lists part {row['sku']} as "
+            f"{row['description']!r}. Kept productLine {bullet['productLine']!r} from the published name."
+        )
+    if bullet["bcG1"] is None and row["bcG1"] is not None:
+        add_bc(bullet, "G1", row["bcG1"], "manufacturer", BERGER_CATALOG_URL)
+        _append_note(bullet, "G1 was not on the product page, so the 2026 catalog value was used.")
+    elif _numbers_differ(row["bcG1"], bullet["bcG1"]):
+        bullet["conflicts"].append(
+            f"2026 catalog G1 BC {row['bcG1']} differs from the product page G1 BC {bullet['bcG1']}. "
+            "Kept the product page value."
+        )
+    if bullet["bcG7"] is None and row["bcG7"] is not None:
+        add_bc(bullet, "G7", row["bcG7"], "manufacturer", BERGER_CATALOG_URL)
+        _append_note(bullet, "G7 was not on the product page, so the 2026 catalog value was used.")
+    elif _numbers_differ(row["bcG7"], bullet["bcG7"]):
+        bullet["conflicts"].append(
+            f"2026 catalog G7 BC {row['bcG7']} differs from the product page G7 BC {bullet['bcG7']}. "
+            "Kept the product page value."
+        )
+    if bullet["sectionalDensity"] is None and row["sectionalDensity"] is not None:
+        bullet["sectionalDensity"] = row["sectionalDensity"]
+    elif _numbers_differ(row["sectionalDensity"], bullet["sectionalDensity"]):
+        bullet["conflicts"].append(
+            f"2026 catalog sectional density {row['sectionalDensity']} differs from the product page "
+            f"sectional density {bullet['sectionalDensity']}. Kept the product page value."
+        )
+    twist_match = re.search(r"1\s*[:\-]\s*(\d+(?:\.\d+)?)", row["twist"] or "")
+    catalog_twist = as_number(float(twist_match.group(1))) if twist_match else None
+    if bullet["twistRateInPerTurn"] is None and catalog_twist is not None:
+        set_twist(bullet, row["twist"])
+    elif _numbers_differ(catalog_twist, bullet["twistRateInPerTurn"]):
+        bullet["conflicts"].append(
+            f"2026 catalog minimum twist {row['twist']} differs from the product page "
+            f"{bullet.get('twistRateNote')}. Kept the product page value."
+        )
+
+    catalog_notes = [f"2026 catalog description: {row['description']}."]
+    if row["markedNew"]:
+        catalog_notes.append("Marked NEW.")
+    catalog_notes.append(
+        f"Catalog prints sectional density {row['sectionalDensity']}, G1 {row['bcG1']}, "
+        f"G7 {row['bcG7'] if row['bcG7'] is not None else 'N/A'}, minimum twist {row['twist']}."
+    )
+    if any("2026 catalog G1" in item or "2026 catalog G7" in item for item in bullet["conflicts"]):
+        catalog_notes.append("The product-page BCs were kept.")
+    else:
+        catalog_notes.append("Those G1 and G7 values match the product page.")
+    bullet["sources"].append(
+        {
+            "url": BERGER_CATALOG_URL,
+            "retrievedOn": RETRIEVED_ON,
+            "publisher": "Berger Bullets",
+            "notes": " ".join(catalog_notes),
+        }
+    )
+    return bullet
+
+
+def _berger_catalog_extras(known_skus: set[str]) -> list[dict]:
+    """Component bullets the 2026 catalog prints and the all-bullets table does not."""
+    try:
+        pdf = fetch(BERGER_CATALOG_URL)
+    except Exception as exc:  # noqa: BLE001 - the table scrape still stands
+        print(f"  catalog skipped: {exc}")
+        return []
+    raw_dir = RAW_DIR / "berger"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    (raw_dir / "catalog-2026.pdf").write_bytes(pdf)
+    rows = [row for row in _berger_catalog_rows(pdf) if row["sku"] not in known_skus]
+    if not rows:
+        return []
+    print(f"  catalog rows absent from the all-bullets table: {len(rows)}")
+    try:
+        urls = _berger_product_urls()
+    except Exception as exc:  # noqa: BLE001
+        print(f"  catalog product sitemap skipped: {exc}")
+        return []
+    extras = []
+    for row in rows:
+        url = _berger_match_product_url(row["description"], urls)
+        if not url:
+            print(f"  catalog {row['sku']} has no matching component product page ({row['description']})")
+            continue
+        try:
+            html_text = _berger_page_html(url)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  skip catalog {row['sku']}: {exc}")
+            continue
+        if not html_text:
+            print(f"  skip catalog {row['sku']}: empty product page")
+            continue
+        extras.append(_berger_catalog_bullet(row, url, html_text))
+    return extras
 
 
 # --- BigCommerce: Sierra and Barnes ------------------------------------------

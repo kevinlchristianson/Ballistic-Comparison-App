@@ -2,7 +2,7 @@
   "schemaVersion": "1.2.0",
   "manufacturer": null,
   "generatedOn": "2026-10-27",
-  "bulletCount": 2268,
+  "bulletCount": 2273,
   "bullets": [
     {
       "id": "barnes-30090",
@@ -11927,6 +11927,79 @@
       "noseLengthIn": 0.496
     },
     {
+      "id": "berger-22419",
+      "manufacturer": "Berger",
+      "productLine": null,
+      "name": "22 Caliber 69 Grain BT Target",
+      "sku": "22419",
+      "alternateSkus": [
+        "22719"
+      ],
+      "caliber": "22 Caliber",
+      "diameterIn": 0.224,
+      "weightGr": 69,
+      "bcG1": 0.337,
+      "bcG7": 0.167,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.337,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/22-caliber-69-grain-bt-target-rifle-bullet/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.167,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/22-caliber-69-grain-bt-target-rifle-bullet/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.196,
+      "lengthIn": 0.952,
+      "bearingSurfaceIn": 0.405,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": 0.518,
+      "noseLengthIn": 0.434,
+      "boattailLengthIn": 0.113,
+      "meplatIn": null,
+      "ogiveType": "tangent",
+      "discontinued": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/22-caliber-69-grain-bt-target-rifle-bullet/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        },
+        {
+          "url": "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "2026 catalog description: 22 Cal 69 Grain BT Target. Marked NEW. Catalog prints sectional density 0.196, G1 0.337, G7 0.167, minimum twist 1:9\". Those G1 and G7 values match the product page."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Product page also prints Nose Length 0.434, Base to Ogive 0.518. Stored as noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
+    },
+    {
       "id": "berger-22418",
       "manufacturer": "Berger",
       "productLine": "VLD Target",
@@ -12892,6 +12965,81 @@
       "bcUnlabeled": null,
       "baseToOgiveIn": 0.721,
       "noseLengthIn": 0.617
+    },
+    {
+      "id": "berger-27401",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "270 Caliber 150 Grain Hybrid Target",
+      "sku": "27401",
+      "alternateSkus": [],
+      "caliber": "270 Caliber",
+      "diameterIn": 0.277,
+      "weightGr": 150,
+      "bcG1": 0.552,
+      "bcG7": 0.283,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.552,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/270-caliber-150-grain-hybrid-target-rifle-bullet/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.283,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/270-caliber-150-grain-hybrid-target-rifle-bullet/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.279,
+      "lengthIn": 1.341,
+      "bearingSurfaceIn": 0.535,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": 0.729,
+      "noseLengthIn": null,
+      "boattailLengthIn": null,
+      "meplatIn": null,
+      "ogiveType": "hybrid",
+      "discontinued": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/270-caliber-150-grain-hybrid-target-rifle-bullet/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        },
+        {
+          "url": "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "2026 catalog description: 6.8mm / 270 Cal 150 Grain Hybrid Target. Marked NEW. Catalog prints sectional density 0.279, G1 0.566, G7 0.282, minimum twist 1:10\". The product-page BCs were kept."
+        }
+      ],
+      "conflicts": [
+        "Product page Product Line is 'Long Range Hybrid Target'. The 2026 catalog lists part 27401 as '6.8mm / 270 Cal 150 Grain Hybrid Target'. Kept productLine 'Hybrid Target' from the published name.",
+        "2026 catalog G1 BC 0.566 differs from the product page G1 BC 0.552. Kept the product page value.",
+        "2026 catalog G7 BC 0.282 differs from the product page G7 BC 0.283. Kept the product page value."
+      ],
+      "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Product page also prints Base to Ogive 0.729. Stored as baseToOgiveIn, not ogiveLengthIn."
     },
     {
       "id": "berger-27503",
@@ -14747,6 +14895,78 @@
       "noseLengthIn": 0.872
     },
     {
+      "id": "berger-30551",
+      "manufacturer": "Berger",
+      "productLine": "Elite Hunter",
+      "name": "30 Caliber 217 Grain Elite Hunter",
+      "sku": "30551",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": 0.308,
+      "weightGr": 217,
+      "bcG1": 0.695,
+      "bcG7": 0.356,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.695,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/30-caliber-217-grain-elite-hunter-rifle-bullet/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.356,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/30-caliber-217-grain-elite-hunter-rifle-bullet/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.327,
+      "lengthIn": 1.599,
+      "bearingSurfaceIn": 0.465,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": 0.798,
+      "noseLengthIn": 0.871,
+      "boattailLengthIn": 0.262,
+      "meplatIn": null,
+      "ogiveType": "hybrid",
+      "discontinued": null,
+      "construction": [],
+      "material": null,
+      "intendedUse": [
+        "hunting"
+      ],
+      "twistRateInPerTurn": 10,
+      "twistRateNote": "1:10\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-217-grain-elite-hunter-rifle-bullet/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        },
+        {
+          "url": "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "2026 catalog description: 30 cal 217 Grain Elite Hunter. Marked NEW. Catalog prints sectional density 0.327, G1 0.702, G7 0.347, minimum twist 1:10\". The product-page BCs were kept."
+        }
+      ],
+      "conflicts": [
+        "2026 catalog G1 BC 0.702 differs from the product page G1 BC 0.695. Kept the product page value.",
+        "2026 catalog G7 BC 0.347 differs from the product page G7 BC 0.356. Kept the product page value."
+      ],
+      "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.871, Base to Ogive 0.798. Stored as noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
+    },
+    {
       "id": "berger-30486",
       "manufacturer": "Berger",
       "productLine": "Long Range Hybrid Target",
@@ -15004,6 +15224,77 @@
       "bcUnlabeled": null,
       "baseToOgiveIn": 0.942,
       "noseLengthIn": 0.894
+    },
+    {
+      "id": "berger-30487",
+      "manufacturer": "Berger",
+      "productLine": "Long Range Hybrid Target",
+      "name": "30 Caliber 245 Grain Long Range Hybrid Target",
+      "sku": "30487",
+      "alternateSkus": [],
+      "caliber": "30 Caliber",
+      "diameterIn": 0.308,
+      "weightGr": 245,
+      "bcG1": 0.846,
+      "bcG7": 0.433,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.846,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/30-caliber-245-grain-long-range-hybrid-target-rifle-bullet/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.433,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/30-caliber-245-grain-long-range-hybrid-target-rifle-bullet/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.369,
+      "lengthIn": 1.775,
+      "bearingSurfaceIn": 0.633,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": 0.942,
+      "noseLengthIn": 0.894,
+      "boattailLengthIn": 0.227,
+      "meplatIn": null,
+      "ogiveType": "hybrid",
+      "discontinued": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 9,
+      "twistRateNote": "1:9\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/30-caliber-245-grain-long-range-hybrid-target-rifle-bullet/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        },
+        {
+          "url": "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "2026 catalog description: 30 Cal 245 Grain Long Range Hybrid Target. Catalog prints sectional density 0.369, G1 0.846, G7 0.433, minimum twist 1:9\". Those G1 and G7 values match the product page."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.894, Base to Ogive 0.942. Stored as noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
     },
     {
       "id": "berger-33554",
@@ -15392,6 +15683,79 @@
       "bcUnlabeled": null,
       "baseToOgiveIn": 0.715,
       "noseLengthIn": 1.132
+    },
+    {
+      "id": "berger-37401",
+      "manufacturer": "Berger",
+      "productLine": "Hybrid Target",
+      "name": "375 Caliber 410 Grain Hybrid Target",
+      "sku": "37401",
+      "alternateSkus": [
+        "37701"
+      ],
+      "caliber": "375 Caliber",
+      "diameterIn": 0.375,
+      "weightGr": 410,
+      "bcG1": 0.928,
+      "bcG7": 0.475,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.928,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/375-caliber-410-grain-hybrid-target-rifle-bullet/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.475,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/375-caliber-410-grain-hybrid-target-rifle-bullet/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "bcUnlabeled": null,
+      "sectionalDensity": 0.417,
+      "lengthIn": 2.037,
+      "bearingSurfaceIn": 0.637,
+      "ogiveLengthIn": null,
+      "baseToOgiveIn": 1.022,
+      "noseLengthIn": 1.069,
+      "boattailLengthIn": 0.31,
+      "meplatIn": null,
+      "ogiveType": "hybrid",
+      "discontinued": null,
+      "construction": [
+        "hybrid"
+      ],
+      "material": null,
+      "intendedUse": [
+        "target"
+      ],
+      "twistRateInPerTurn": 11.5,
+      "twistRateNote": "1:11.5\"",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/375-caliber-410-grain-hybrid-target-rifle-bullet/",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "Not in the all-bullets table. Product page for G1, G7, minimum twist, diameter, OAL, bearing surface, boat tail, ogive style, and sectional density."
+        },
+        {
+          "url": "https://bergerbullets.com/wp-content/uploads/2026/03/English-Berger-Catalog-2026.pdf",
+          "retrievedOn": "2026-10-27",
+          "publisher": "Berger Bullets",
+          "notes": "2026 catalog description: 375 Cal 410 Grain Hybrid Target. Catalog prints sectional density 0.417, G1 0.928, G7 0.475, minimum twist 1:11.5\". Those G1 and G7 values match the product page."
+        }
+      ],
+      "conflicts": [],
+      "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Product page also prints Nose Length 1.069, Base to Ogive 1.022. Stored as noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
     },
     {
       "id": "berger-24408",
