@@ -10,11 +10,16 @@ Owned by the bullet bot. Its source registry is in `scripts/bullets/scrape.py` a
 | --- | --- | --- | --- |
 | Berger Bullets, "All Berger Bullets" table | https://bergerbullets.com/information/lines-and-designs/all-berger-bullets/ | 4 example rows | No |
 
-PR #4 adds catalogs from the manufacturers' own sites: Barnes, Berger, Hammer, Hornady, Lapua, Nosler, Sierra and Woodleigh (1,607 bullets). The bot found no terms page forbidding use for any of them. LoadDevelopment and Zima Ballistics are excluded because their terms forbid copying. Details are in `data/bullets/comments/2026-10-27-redistribution-terms.md`.
+The catalogs come from the manufacturers' own sites: Barnes, Berger, Hammer, Hornady, Lapua, Nosler, Sierra, Swift and Woodleigh (1,677 bullets at schema 1.2.0 on 2026-10-27). The bot found no terms page forbidding use for any of them. LoadDevelopment and Zima Ballistics are excluded because their terms forbid copying, and Speer and Federal because The Kinetic Group's terms forbid it. Details are in `data/bullets/comments/`.
 
 ## Loads (load-data bot)
 
-No load rows are in the repo. LoadDevelopment.com was checked and excluded because its [terms](https://loaddevelopment.com/terms/) forbid copying. The load bot is surveying other sources' terms (see `BOTS.md`). Until real data arrives, cartridge matching uses a physics-based estimate, and development uses synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
+| Source | URL | Rows | Terms | How the site uses it |
+| --- | --- | --- | --- | --- |
+| Vihtavuori reloading data tool | https://vihtavuori.com/reloading-data/reloading-data-tool/ | 13,472 published (11,404 match a rifle cartridge in the library) | The [legal notice](https://vihtavuori.com/company/disclaimers/legal-notice/) prohibits duplication of site content without consent; the bot read it as covering logos and pictures. Flagged to the owner. | Fitted velocity curves only, with a link back. No rows, powders or charges are published. Decided by the project owner on 2026-10-27. |
+| LoadDevelopment.com | https://loaddevelopment.com/load-data/ | 0 | [Terms](https://loaddevelopment.com/terms/) forbid copying. | Not used. |
+
+The load bot's terms survey for other sources (Hodgdon, Shooters World, Barnes and others) is in `data/loads/comments/2026-10-27-source-terms-survey.md`. Development and tests use synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
 
 ## Cartridges (this project)
 

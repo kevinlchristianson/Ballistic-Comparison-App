@@ -6,22 +6,42 @@
  */
 import type { Cartridge } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
-import { createLoadDataEstimator } from "./loadData.ts";
+import { createFitTableEstimator, createLoadDataEstimator, type FitTable, type FpsPerInch } from "./loadData.ts";
 import { createPhysicsEstimator } from "./physics.ts";
 import type { VelocityEstimate, VelocityEstimator, VelocityQuery } from "./types.ts";
 
 export * from "./types.ts";
 
-export function createDefaultEstimator(cartridges: Cartridge[], loads: NormalizedLoad[]): VelocityEstimator {
-  const physics = createPhysicsEstimator(cartridges);
-  const fpsPerInch = (cartridgeId: string, weight: number, barrel: number): number | null => {
+/** Barrel-length slope (fps per inch) taken from the physics model, for adjusting published loads. */
+export function physicsFpsPerInch(physics: VelocityEstimator): FpsPerInch {
+  return (cartridgeId, weight, barrel) => {
     const lo = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: barrel - 1 }).estimateFps;
     const hi = physics.estimate({ cartridgeId, bulletWeightGr: weight, barrelLengthIn: barrel + 1 }).estimateFps;
     return lo != null && hi != null ? (hi - lo) / 2 : null;
   };
-  const data = createLoadDataEstimator(loads, { fpsPerInch });
+}
+
+export function createDefaultEstimator(cartridges: Cartridge[], loads: NormalizedLoad[]): VelocityEstimator {
+  const physics = createPhysicsEstimator(cartridges);
+  const data = createLoadDataEstimator(loads, { fpsPerInch: physicsFpsPerInch(physics) });
   return combine(data, physics);
 }
+
+/**
+ * The estimator the web app uses. Published loads arrive as a precomputed fit
+ * table, never as rows. Loads the user typed in, kept in their browser, come
+ * first when they cover the query.
+ */
+export function createSiteEstimator(cartridges: Cartridge[], table: FitTable, userLoads: NormalizedLoad[] = []): VelocityEstimator {
+  const physics = createPhysicsEstimator(cartridges);
+  let est = combine(createFitTableEstimator(table), physics);
+  if (userLoads.length > 0) {
+    est = combine(createLoadDataEstimator(userLoads, { fpsPerInch: physicsFpsPerInch(physics), id: USER_LOADS_MODEL }), est);
+  }
+  return est;
+}
+
+export const USER_LOADS_MODEL = "loglog-v1-user";
 
 /** Uses `primary` when it gives a number, otherwise `fallback`, and records which one answered. */
 export function combine(primary: VelocityEstimator, fallback: VelocityEstimator): VelocityEstimator {
