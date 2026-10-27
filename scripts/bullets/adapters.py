@@ -860,6 +860,13 @@ def scrape_lapua() -> dict:
 # --- Hammer ------------------------------------------------------------------
 
 HAMMER_API = "https://hammerbullets.com/wp-json/wc/store/v1/products"
+# Product descriptions print several length phrases. The number is the
+# published length. "including tip" and "with tip" stay in notes.
+_HAMMER_MEASURE = r"(?:\s+(?:is\s+)?(?:including(?:\s+the)?|with)\s+tip|\s+is)?\s*(?:is|:)?\s*(\d*\.\d+|\d+)"
+_HAMMER_LENGTH = re.compile(rf"bullets?\s+length{_HAMMER_MEASURE}", re.I)
+_HAMMER_NOSE = re.compile(rf"nose\s+length{_HAMMER_MEASURE}", re.I)
+_HAMMER_TIP = re.compile(r"tip\s+length\s*(?:is|:)\s*(\d*\.\d+|\d+)", re.I)
+_HAMMER_BAND = re.compile(r"drive\s+band\s+spacing\s*(?:is|:)\s*(\d*\.\d+|\d+)", re.I)
 
 
 def scrape_hammer() -> dict:
@@ -902,8 +909,10 @@ def scrape_hammer() -> dict:
         bullet["weightGr"] = as_number(parse_number(weight.group(1) if weight else None))
         line = re.search(r"Hammer\s+([A-Z0-9][A-Za-z0-9®+-]*)", name)
         bullet["productLine"] = strip_html(line.group(1)) if line else None
-        length = re.search(r"bullet length including tip:\s*(\d+(?:\.\d+)?)", text, flags=re.I)
+        length = _HAMMER_LENGTH.search(text)
         bullet["lengthIn"] = as_number(parse_number(length.group(1) if length else None))
+        nose = _HAMMER_NOSE.search(text)
+        bullet["noseLengthIn"] = as_number(parse_number(nose.group(1) if nose else None))
         twist = re.search(r"twist rate is\s*([^.<]+)", text, flags=re.I)
         if twist:
             set_twist(bullet, twist.group(1))
@@ -913,15 +922,26 @@ def scrape_hammer() -> dict:
         add_bc(bullet, "G1", g1.group(1) if g1 else None, "manufacturer", url, g1_label)
         add_bc(bullet, "G7", g7.group(1) if g7 else None, "manufacturer", url)
         use = re.search(r"recommended use:\s*([^.]+)", text, flags=re.I)
+        notes: list[str] = []
         if use:
             add_uses(bullet, use.group(1))
-            bullet["notes"] = f"Recommended use: {use.group(1).strip()}."
+            notes.append(f"Recommended use: {use.group(1).strip()}.")
+        if length:
+            notes.append(f"Bullet length printed as {length.group(0).strip()}.")
+        if nose:
+            notes.append(f"Nose length printed as {nose.group(0).strip()}.")
+        tip = _HAMMER_TIP.search(text)
+        if tip:
+            notes.append(f"Tip length printed as {tip.group(0).strip()}.")
+        band = _HAMMER_BAND.search(text)
+        if band:
+            notes.append(f"Drive band spacing printed as {band.group(0).strip()}.")
         add_construction(bullet, f"{name} {text}")
         if re.search(r"\bcopper\b", text, flags=re.I):
             bullet["material"] = "copper"
         if not g1:
-            note = "No G1 BC line in the product description."
-            bullet["notes"] = f"{bullet['notes']} {note}".strip() if bullet["notes"] else note
+            notes.append("No G1 BC line in the product description.")
+        bullet["notes"] = " ".join(notes) or None
         bullets.append(bullet)
     return catalog("Hammer Bullets", bullets)
 
