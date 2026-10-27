@@ -3,6 +3,7 @@ import type { Cartridge } from "../../lib/cartridges.ts";
 import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { userDataBar } from "../userdata.ts";
+import { openLoadsForCartridge } from "./loads.ts";
 
 export function cartridgesView(data: AppData): HTMLElement {
   const root = h("section", { class: "view" });
@@ -20,6 +21,8 @@ export function cartridgesView(data: AppData): HTMLElement {
     });
     const body = h("tbody", {});
     const count = h("p", { class: "muted" });
+    const published = data.meta.loadRows ?? {};
+    const loadCount = (id: string) => (published[id] ?? 0) + data.user.loads.filter((l) => l.cartridgeId === id).length;
     const renderRows = () => {
       const t = text.toLowerCase().trim();
       const rows = data.cartridges.filter((c) => !t || `${c.name} ${c.aliases.join(" ")} ${c.bulletDiameterIn ?? ""}`.toLowerCase().includes(t));
@@ -32,7 +35,7 @@ export function cartridgesView(data: AppData): HTMLElement {
             h(
               "td",
               {},
-              c.name,
+              h("a", { href: "#loads", title: `Show load data for ${c.name}`, onclick: (ev: Event) => (ev.preventDefault(), openLoadsForCartridge(c.id)) }, c.name),
               c.kind === "user" ? h("span", { class: "tag" }, "yours") : null,
               c.addedBy ? h("span", { class: "tag", title: `Added by the ${c.addedBy.bot} bot from ${c.addedBy.source.name}. Not checked by the project.` }, "bot") : null,
             ),
@@ -42,7 +45,7 @@ export function cartridgesView(data: AppData): HTMLElement {
             h("td", {}, fmt.in(c.maxCoalIn)),
             h("td", {}, c.caseCapacityGrH2O ?? "—"),
             h("td", {}, c.mapPsi ? c.mapPsi.toLocaleString() : "—"),
-            h("td", {}, data.fits.fits[c.id] ? "Yes" : "—"),
+            h("td", { class: "num" }, loadCount(c.id) ? loadCount(c.id).toLocaleString() : "—"),
             h(
               "td",
               { class: c.verification.status === "verified" ? "" : "warn" },
@@ -62,7 +65,7 @@ export function cartridgesView(data: AppData): HTMLElement {
         h(
           "table",
           { class: "data" },
-          h("thead", {}, h("tr", {}, ["Cartridge", "Standard", "Bullet", "Case", "Max COAL", "Capacity (gr H₂O)", "Max pressure (psi)", "Published loads", "Data"].map((x) => h("th", {}, x)))),
+          h("thead", {}, h("tr", {}, ["Cartridge", "Standard", "Bullet", "Case", "Max COAL", "Capacity (gr H₂O)", "Max pressure (psi)", "Loads in library", "Data"].map((x) => h("th", {}, x)))),
           body,
         ),
       ),

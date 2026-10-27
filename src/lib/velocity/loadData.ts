@@ -5,15 +5,17 @@
  *    above SAAMI maximum pressure, and keep the fastest load per bullet weight,
  *    source and test barrel length.
  * 2. Move each velocity to the requested barrel length using an fps-per-inch
- *    slope. The slope comes from the physics model for that cartridge and the
- *    load's bullet weight when it can answer, otherwise 25 fps per inch.
+ *    slope. The slope is the physics model's average between the load's test
+ *    barrel and the requested one, for that cartridge and bullet weight, when
+ *    it can answer, otherwise 25 fps per inch.
  * 3. Fit ln(v) = a + b·ln(w) by least squares. With a single bullet weight,
  *    b is fixed at −0.40, a typical value for constant-pressure loads.
  * 4. Refuse to answer more than 10% outside the weights covered by the data.
  *
  * The range is two standard deviations of the fit residuals (at least 2%),
  * plus a quarter of the barrel-length adjustment, since that adjustment is
- * itself an estimate.
+ * itself an estimate. It is capped at ±15%; a range wider than ±8% is flagged
+ * `low_confidence`.
  *
  * The fit for one cartridge and barrel length (`fitLoads`) does not depend on
  * the bullet weight asked about, so the site can publish precomputed fits
@@ -28,8 +30,11 @@ export const COMMUNITY_FLAG = "community_report";
 export const DEFAULT_LOGLOG_SLOPE = -0.4;
 export const WEIGHT_MARGIN = 0.1;
 export const MIN_RELATIVE_SPREAD = 0.02;
+export const MAX_RELATIVE_SPREAD = 0.15;
+export const LOW_CONFIDENCE_SPREAD = 0.08;
 
-export type FpsPerInch = (cartridgeId: string, bulletWeightGr: number, barrelLengthIn: number) => number | null;
+/** Average velocity change per inch of barrel between two barrel lengths, fps. Null means "use the default". */
+export type FpsPerInch = (cartridgeId: string, bulletWeightGr: number, fromBarrelIn: number, toBarrelIn: number) => number | null;
 
 export interface LoadEstimatorOptions {
   /** Slope for the barrel-length adjustment, fps per inch. Return null to use the default. */
@@ -46,7 +51,7 @@ export interface LoadFit {
   b: number;
   /** Standard deviation of the log residuals. */
   sd: number;
-  /** Mean absolute barrel-length adjustment per point, fps. */
+  /** Mean absolute barrel-length adjustment of the fitted points, fps. */
   meanBarrelAdjustFps: number;
   minWeightGr: number;
   maxWeightGr: number;
@@ -65,6 +70,8 @@ export interface FitTable {
 interface Point {
   weight: number;
   velocity: number;
+  /** Barrel-length adjustment included in `velocity`, fps. */
+  adjust: number;
   load: NormalizedLoad;
 }
 
@@ -99,29 +106,30 @@ export function fitLoads(cartridgeId: string, loads: NormalizedLoad[], barrelLen
   if (usable.length === 0) return null;
 
   const flags = new Set<string>();
-  let barrelAdjustTotal = 0;
-  const slopeCache = new Map<number, number>();
-  const slopeFor = (w: number): number => {
-    if (!slopeCache.has(w)) slopeCache.set(w, fpsPerInch?.(cartridgeId, w, barrelLengthIn) ?? DEFAULT_FPS_PER_INCH);
-    return slopeCache.get(w)!;
+  const slopeCache = new Map<string, number>();
+  const slopeFor = (w: number, from: number): number => {
+    const k = `${w}|${from}`;
+    if (!slopeCache.has(k)) slopeCache.set(k, fpsPerInch?.(cartridgeId, w, from, barrelLengthIn) ?? DEFAULT_FPS_PER_INCH);
+    return slopeCache.get(k)!;
   };
 
   // Fastest load per (weight, source, barrel), adjusted to the requested barrel.
   const best = new Map<string, Point>();
   for (const l of usable) {
-    let v = l.velocityFps!;
+    let adjust = 0;
     if (l.barrelLengthIn == null) flags.add("barrel_length_unknown");
     else if (l.barrelLengthIn !== barrelLengthIn) {
-      const adj = slopeFor(l.bulletWeightGr) * (barrelLengthIn - l.barrelLengthIn);
-      v += adj;
-      barrelAdjustTotal += Math.abs(adj);
+      adjust = slopeFor(l.bulletWeightGr, l.barrelLengthIn) * (barrelLengthIn - l.barrelLengthIn);
       flags.add("different_barrel_length");
     }
+    const v = l.velocityFps! + adjust;
     const key = `${l.bulletWeightGr}|${l.source.url}|${l.barrelLengthIn ?? "?"}`;
     const prev = best.get(key);
-    if (!prev || v > prev.velocity) best.set(key, { weight: l.bulletWeightGr, velocity: v, load: l });
+    if (!prev || v > prev.velocity) best.set(key, { weight: l.bulletWeightGr, velocity: v, adjust, load: l });
   }
-  const points = [...best.values()];
+  // A barrel far shorter than the test barrel can push a light load's adjusted velocity to nothing.
+  const points = [...best.values()].filter((p) => p.velocity > 0);
+  if (points.length === 0) return null;
   const weights = points.map((p) => p.weight);
   const support: DataSupport = {
     loadCount: points.length,
@@ -160,7 +168,7 @@ export function fitLoads(cartridgeId: string, loads: NormalizedLoad[], barrelLen
     a,
     b,
     sd,
-    meanBarrelAdjustFps: barrelAdjustTotal / points.length,
+    meanBarrelAdjustFps: points.reduce((s, p) => s + Math.abs(p.adjust), 0) / points.length,
     minWeightGr: support.weightRangeGr![0],
     maxWeightGr: support.weightRangeGr![1],
     flags: [...flags],
@@ -182,7 +190,9 @@ export function estimateFromFit(fit: LoadFit, bulletWeightGr: number, model = "l
   const flags = new Set(fit.flags);
   const v = Math.exp(fit.a + fit.b * Math.log(bulletWeightGr));
   const barrelSpread = (0.25 * fit.meanBarrelAdjustFps) / v;
-  const spread = Math.max(2 * fit.sd, MIN_RELATIVE_SPREAD) + barrelSpread + (flags.has("barrel_length_unknown") ? 0.02 : 0);
+  const raw = Math.max(2 * fit.sd, MIN_RELATIVE_SPREAD) + barrelSpread + (flags.has("barrel_length_unknown") ? 0.02 : 0);
+  const spread = Math.min(raw, MAX_RELATIVE_SPREAD);
+  if (raw > LOW_CONFIDENCE_SPREAD) flags.add("low_confidence");
   if (bulletWeightGr < minW || bulletWeightGr > maxW) flags.add("extrapolated_weight");
   return { estimateFps: v, lowFps: v * (1 - spread), highFps: v * (1 + spread), model, support: fit.support, flags: [...flags] };
 }

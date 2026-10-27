@@ -134,6 +134,7 @@ export function matchView(data: AppData): HTMLElement {
         c.kind === "wildcat" || c.kind === "user" ? h("span", { class: "tag" }, c.kind === "user" ? "yours" : "wildcat") : null,
         h("span", { class: "est" }, e.estimateFps != null ? `${fmt.fps(e.estimateFps)} (${fmt.num(e.lowFps)}–${fmt.num(e.highFps)})` : e.reason ?? "No estimate"),
         h("span", { class: "model-tag" }, modelLabel(e.model), e.support.loadCount ? ` · ${e.support.loadCount} loads` : ""),
+        e.flags.includes("low_confidence") ? h("span", { class: "tag", title: flagText("low_confidence") }, "low confidence") : null,
         geo ? h("span", { class: `geo ${geo.status}` }, GEOMETRY_TEXT[geo.status]) : null,
       ),
       h(

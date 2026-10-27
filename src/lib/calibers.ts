@@ -59,3 +59,8 @@ export function diameterFromCaliber(caliber: string | null | undefined): Derived
   }
   return null;
 }
+
+/** Common caliber name for a bullet diameter ("6 mm" for 0.243), or null. */
+export function caliberLabel(diameterIn: number): string | null {
+  return RULES.find((r) => Math.abs(r.diameterIn - diameterIn) < 0.0015)?.label ?? null;
+}
