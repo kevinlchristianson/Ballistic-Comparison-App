@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-27 23:22 UTC
+Last updated: 2026-10-27 23:26 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-No load harvest is running. Hammer's printed case volumes are not on main yet, so no capacities were taken from them. Estimates stay with the bullet bot.
+No load harvest is running. Published water capacities were searched for the bot cartridges that were still null. Estimates stay with the bullet bot.
 
 ## Case capacity
 
@@ -14,11 +14,13 @@ The bullet bot estimates capacities for cartridges that have none, in its own fi
 
 Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". `sources/hammer.json` is not on main. The community status file says the Hammer load-sheet import (212 sheets) has not started, and it does not include a case-volume list. Those figures wait. A figure that is not an overflow to the mouth stays null, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
 
-Nosler's 27 Nosler page prints a fireformed overflow to the neck of 98.4 gr H2O. That number is on the `27-nosler` record in `loads.json`. The project library already has `27-nosler`, so the bot record is left out of the merge and the live capacity stays null. This bot does not edit `data/cartridges/cartridges.json`. Nosler load sheets print "CASE HOLDS" as water under a seated bullet (24 Nosler 85/90 gr sheet 26.5 gr, 26 Nosler 123/125 gr sheet 95.0 gr, 33 Nosler 300 gr sheet 76.8 gr). The 26 Nosler cartridge page prints a useable capacity of 93 gr. Those are not overflow to the mouth, so they are not stored. The Lazzeroni handloader profiles do not print a water capacity. The other cartridges in `loads.json` have no maker overflow figure, so they stay null.
+Two published figures are on the bot records: 27 Nosler overflow to the neck, 98.4 gr H2O, and 26 Nosler useable capacity, 93 gr H2O. The project library already has both ids, so `mergeBotCartridges` drops the whole bot record and the live capacities stay null. That is the app's merge, not a field-name mismatch. The question for the coding agent is [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
+
+Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's "Case volume H20" is still not on main.
 
 ## Next
 
-The community bot's status file is [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md), on main with [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90). The unmatched names it lists are still open.
+The community bot's status file is [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md), on main with [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90). `28N`, `260 AI`, and `260AI` already resolve. The other handed-over names are still unmatched; no dimension page was found. The row counts are in [`comments/2026-10-27-cartridges-missing-from-library.md`](comments/2026-10-27-cartridges-missing-from-library.md). There was no earlier pull request for that name pass.
 
 1. Hodgdon pistol loads, then shotshells. The rifle list is already complete (318 cartridges in [#74](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/74)). Pistol and shotshell were left out of that file.
 2. Shooters World stays paused until the website's own column labels confirm grains and feet per second. See [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
@@ -28,6 +30,7 @@ The community bot's status file is [`comments/2026-10-27-community-work-status.m
 
 Load and cartridge work from this bot, newest first:
 
+- [#92](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/92) — Hammer case volumes are not on main. No capacities were taken from them.
 - [#91](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/91) — Published 27 Nosler overflow capacity, 98.4 gr H2O. The project library already owns that id, so the live capacity stays null. No estimates.
 - [#82](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/82) — Lazzeroni handloader profiles: 12 cartridges, 113 published loads, 226 records.
 - [#74](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/74) — Full Hodgdon rifle catalog: 318 cartridges, 25,345 published loads, 49,506 records.
@@ -47,6 +50,6 @@ Community load files also merged today under `sources/`, including the Berger Hy
 
 ## Open questions
 
-One comment is still open: [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md). It asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog.
+Two comments are still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog. [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md) asks the coding agent to apply the published 27 Nosler and 26 Nosler water capacities that the bot merge drops.
 
 Every other file in [`comments/`](comments/) is answered. The decision line for each one is in the Questions table in [`README.md`](README.md).
