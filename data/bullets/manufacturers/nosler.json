@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Nosler",
   "generatedOn": "2026-10-27",
   "bulletCount": 249,
@@ -56,7 +56,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38050",
@@ -110,7 +113,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38052",
@@ -164,7 +170,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16327",
@@ -216,7 +225,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38054",
@@ -270,7 +282,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38068",
@@ -319,7 +334,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-34992",
@@ -373,7 +391,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38060",
@@ -427,7 +448,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53080",
@@ -487,7 +511,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49824",
@@ -548,7 +575,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54825",
@@ -606,7 +636,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58922",
@@ -673,7 +706,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38062",
@@ -727,7 +763,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38056",
@@ -781,7 +820,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59265",
@@ -833,7 +875,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-25116",
@@ -885,7 +930,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30165",
@@ -945,7 +993,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38058",
@@ -998,7 +1049,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-27130",
@@ -1052,7 +1106,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17223",
@@ -1104,7 +1161,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-36524",
@@ -1156,7 +1216,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38064",
@@ -1205,7 +1268,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-29066",
@@ -1256,7 +1322,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59372",
@@ -1308,7 +1377,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-27140",
@@ -1368,7 +1440,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-32851",
@@ -1420,7 +1495,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58836",
@@ -1481,7 +1559,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16332",
@@ -1533,7 +1614,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-62634",
@@ -1595,7 +1679,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49742",
@@ -1653,7 +1740,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16337",
@@ -1711,7 +1801,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-25396",
@@ -1762,7 +1855,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59765",
@@ -1820,7 +1916,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17230",
@@ -1872,7 +1971,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53412",
@@ -1924,7 +2026,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-55602",
@@ -1982,7 +2087,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30150",
@@ -2042,7 +2150,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53168",
@@ -2109,7 +2220,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53410",
@@ -2170,7 +2284,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-34056",
@@ -2222,7 +2339,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53154",
@@ -2280,7 +2400,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-31456",
@@ -2334,7 +2457,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54601",
@@ -2395,7 +2521,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28150",
@@ -2455,7 +2584,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16318",
@@ -2513,7 +2645,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39573",
@@ -2567,7 +2702,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16326",
@@ -2619,7 +2757,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59180",
@@ -2683,7 +2824,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35643",
@@ -2735,7 +2879,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53504",
@@ -2796,7 +2943,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28125",
@@ -2850,7 +3000,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58317",
@@ -2917,7 +3070,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26140",
@@ -2971,7 +3127,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16324",
@@ -3023,7 +3182,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-50379",
@@ -3083,7 +3245,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35642",
@@ -3135,7 +3300,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-56902",
@@ -3193,7 +3361,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53952",
@@ -3245,7 +3416,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30181",
@@ -3305,7 +3479,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51170",
@@ -3357,7 +3534,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58734",
@@ -3418,7 +3598,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39522",
@@ -3472,7 +3655,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17291",
@@ -3532,7 +3718,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51165",
@@ -3584,7 +3773,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39565",
@@ -3638,7 +3830,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53441",
@@ -3705,7 +3900,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26100",
@@ -3759,7 +3957,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35626",
@@ -3817,7 +4018,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26725",
@@ -3869,7 +4073,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26120",
@@ -3923,7 +4130,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53064",
@@ -3983,7 +4193,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28115",
@@ -4035,7 +4248,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39510",
@@ -4089,7 +4305,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16331",
@@ -4147,7 +4366,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59456",
@@ -4205,7 +4427,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-22421",
@@ -4271,7 +4496,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53066",
@@ -4332,7 +4560,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-52165",
@@ -4390,7 +4621,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-56719",
@@ -4442,7 +4676,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30125",
@@ -4502,7 +4739,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53169",
@@ -4562,7 +4802,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53067",
@@ -4623,7 +4866,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17101",
@@ -4675,7 +4921,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17220",
@@ -4727,7 +4976,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58943",
@@ -4794,7 +5046,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53434",
@@ -4855,7 +5110,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28140",
@@ -4915,7 +5173,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16317",
@@ -4967,7 +5228,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-43004",
@@ -5027,7 +5291,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35644",
@@ -5079,7 +5346,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59378",
@@ -5137,7 +5407,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-36523",
@@ -5195,7 +5468,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53418",
@@ -5247,7 +5523,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53155",
@@ -5299,7 +5578,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16323",
@@ -5351,7 +5633,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53182",
@@ -5418,7 +5703,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58930",
@@ -5481,7 +5769,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59955",
@@ -5533,7 +5824,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51075",
@@ -5585,7 +5879,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28451",
@@ -5636,7 +5933,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53164",
@@ -5688,7 +5988,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30180",
@@ -5748,7 +6051,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51160",
@@ -5800,7 +6106,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35200",
@@ -5852,7 +6161,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26129",
@@ -5904,7 +6216,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39473",
@@ -5958,7 +6273,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51150",
@@ -6010,7 +6328,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59165",
@@ -6062,7 +6383,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28135",
@@ -6116,7 +6440,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53505",
@@ -6177,7 +6504,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-25115",
@@ -6231,7 +6561,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16329",
@@ -6289,7 +6622,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58456",
@@ -6356,7 +6692,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-52111",
@@ -6410,7 +6749,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-25100",
@@ -6464,7 +6806,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16330",
@@ -6522,7 +6867,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53846",
@@ -6532,7 +6880,7 @@
       "sku": "53846",
       "alternateSkus": [],
       "caliber": "6.8mm",
-      "diameterIn": null,
+      "diameterIn": 0.53,
       "weightGr": 115,
       "bcG1": 0.375,
       "bcG7": null,
@@ -6568,13 +6916,16 @@
         }
       ],
       "conflicts": [],
-      "notes": null,
+      "notes": "Diameter 0.53 copied from the printed name: 6.8mm 115gr HPBT Cann .530 Custom Competition.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58454",
@@ -6635,7 +6986,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17205",
@@ -6686,7 +7040,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16315",
@@ -6738,7 +7095,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53452",
@@ -6805,7 +7165,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-27150",
@@ -6859,7 +7222,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53294",
@@ -6911,7 +7277,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53432",
@@ -6972,7 +7341,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-28120",
@@ -7032,7 +7404,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-56382",
@@ -7084,7 +7459,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53780",
@@ -7143,7 +7521,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53662",
@@ -7195,7 +7576,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54722",
@@ -7256,7 +7640,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58455",
@@ -7323,7 +7710,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53065",
@@ -7390,7 +7780,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-25075",
@@ -7442,7 +7835,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54801",
@@ -7494,7 +7890,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59426",
@@ -7546,7 +7945,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-26123",
@@ -7598,7 +8000,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54951",
@@ -7656,7 +8061,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-24055",
@@ -7716,7 +8124,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-32180",
@@ -7770,7 +8181,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51050",
@@ -7822,7 +8236,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51268",
@@ -7889,7 +8306,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-29755",
@@ -7940,7 +8360,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16320",
@@ -7998,7 +8421,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-50712",
@@ -8050,7 +8476,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39557",
@@ -8119,7 +8548,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16321",
@@ -8171,7 +8603,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51105",
@@ -8223,7 +8658,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17240",
@@ -8281,7 +8719,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39560",
@@ -8350,7 +8791,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51110",
@@ -8402,7 +8846,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17260",
@@ -8462,7 +8909,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39526",
@@ -8516,7 +8966,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58517",
@@ -8577,7 +9030,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-24090",
@@ -8637,7 +9093,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16322",
@@ -8689,7 +9148,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54987",
@@ -8741,7 +9203,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-24095",
@@ -8801,7 +9266,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39521",
@@ -8855,7 +9323,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59992",
@@ -8907,7 +9378,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16336",
@@ -8959,7 +9433,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53415",
@@ -9011,7 +9488,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53170",
@@ -9078,7 +9558,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54618",
@@ -9136,7 +9619,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16316",
@@ -9188,7 +9674,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30168",
@@ -9248,7 +9737,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59270",
@@ -9300,7 +9792,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16314",
@@ -9352,7 +9847,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54374",
@@ -9404,7 +9902,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53440",
@@ -9456,7 +9957,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53507",
@@ -9525,7 +10029,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-57520",
@@ -9577,7 +10084,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49825",
@@ -9638,7 +10148,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58518",
@@ -9699,7 +10212,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53167",
@@ -9759,7 +10275,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53171",
@@ -9820,7 +10339,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53411",
@@ -9881,7 +10403,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59756",
@@ -9933,7 +10458,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51040",
@@ -9985,7 +10513,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35277",
@@ -10043,7 +10574,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16319",
@@ -10101,7 +10635,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-48520gb",
@@ -10142,7 +10679,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38135",
@@ -10194,7 +10734,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16333",
@@ -10246,7 +10789,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49826gb",
@@ -10298,7 +10844,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59186",
@@ -10350,7 +10899,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49826",
@@ -10411,7 +10963,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-32572",
@@ -10471,7 +11026,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59741",
@@ -10538,7 +11096,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30131",
@@ -10592,7 +11153,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38066",
@@ -10641,7 +11205,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35645",
@@ -10693,7 +11260,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-44750",
@@ -10745,7 +11315,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-57287",
@@ -10797,7 +11370,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-49524",
@@ -10849,7 +11425,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54851",
@@ -10901,7 +11480,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-44801",
@@ -10953,7 +11535,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45140",
@@ -11004,7 +11589,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-50300",
@@ -11057,7 +11645,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16325",
@@ -11109,7 +11700,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-30531",
@@ -11161,7 +11755,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51200",
@@ -11213,7 +11810,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39570",
@@ -11267,7 +11867,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-41232",
@@ -11308,7 +11911,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54765",
@@ -11360,7 +11966,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-36763",
@@ -11411,7 +12020,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35216",
@@ -11465,7 +12077,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54827",
@@ -11526,7 +12141,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54612",
@@ -11587,7 +12205,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-34057",
@@ -11645,7 +12266,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-27452",
@@ -11698,7 +12322,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59415",
@@ -11750,7 +12377,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-24080",
@@ -11804,7 +12434,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53742",
@@ -11856,7 +12489,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-56357",
@@ -11908,7 +12544,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-23654",
@@ -11961,7 +12600,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59379",
@@ -12013,7 +12655,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-44845",
@@ -12065,7 +12710,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-36522",
@@ -12116,7 +12764,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54932",
@@ -12168,7 +12819,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45170",
@@ -12219,7 +12873,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54357",
@@ -12271,7 +12928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59385",
@@ -12323,7 +12983,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59380",
@@ -12375,7 +13038,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-44800",
@@ -12427,7 +13093,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17250",
@@ -12479,7 +13148,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-51100",
@@ -12531,7 +13203,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45498",
@@ -12582,7 +13257,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53445",
@@ -12642,7 +13320,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59451",
@@ -12694,7 +13375,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-54413",
@@ -12746,7 +13430,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-57625",
@@ -12798,7 +13485,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-29825",
@@ -12849,7 +13539,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-17210",
@@ -12901,7 +13594,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59387",
@@ -12953,7 +13649,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45150",
@@ -13004,7 +13703,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45160",
@@ -13055,7 +13757,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59624",
@@ -13107,7 +13812,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-58623",
@@ -13174,7 +13882,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-57873",
@@ -13226,7 +13937,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-45357",
@@ -13278,7 +13992,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-59298",
@@ -13330,7 +14047,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-39532",
@@ -13384,7 +14104,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-35631",
@@ -13441,7 +14164,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-44850",
@@ -13499,7 +14225,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53506",
@@ -13560,7 +14289,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-53515",
@@ -13612,7 +14344,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-16326gb",
@@ -13665,7 +14400,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-48377gb",
@@ -13706,7 +14444,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38070gb",
@@ -13759,7 +14500,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "nosler-38026gb",
@@ -13811,7 +14555,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     }
   ]
 }

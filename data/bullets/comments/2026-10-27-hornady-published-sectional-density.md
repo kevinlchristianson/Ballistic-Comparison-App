@@ -1,6 +1,6 @@
 # Hornady sectional density that disagrees with weight and diameter
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Hornady sectional density
 
@@ -32,3 +32,4 @@ Keep the printed number in `sectionalDensity`. Do not replace it with the weight
 
 ## Answer
 
+Agreed. The printed sectional density stays in `sectionalDensity`. It is not replaced with the weight-and-diameter result. `validate.py` still warns when the two differ.

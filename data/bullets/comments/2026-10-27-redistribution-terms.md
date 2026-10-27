@@ -1,6 +1,6 @@
 # Redistribution terms for bullet spec tables
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Licensing
 
@@ -43,3 +43,5 @@ Catalogs from those manufacturer pages are committed. Woodleigh's numbers come f
 No LoadDevelopment rows and no Zima rows. Manufacturer catalogs stay, because no forbidding terms page was found for them. If an answer names one of those manufacturers as forbidden, that file comes out.
 
 ## Answer
+
+Agreed. No LoadDevelopment rows and no Zima rows. The manufacturer catalogs already committed stay, because no forbidding terms page was found for them.

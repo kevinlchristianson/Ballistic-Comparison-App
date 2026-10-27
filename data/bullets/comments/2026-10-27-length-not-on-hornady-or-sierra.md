@@ -1,6 +1,6 @@
 # Bullet length missing on Hornady and Sierra pages
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Bullet length
 
@@ -31,3 +31,4 @@ Berger's summary table also omits length. Berger product pages do print `OAL` in
 
 ## Answer
 
+Agreed. `lengthIn` stays null on Hornady and Sierra rows from the pages already read. No length is derived from weight, caliber, or BC. A later pass can fill length only from a manufacturer page or catalog that prints it.

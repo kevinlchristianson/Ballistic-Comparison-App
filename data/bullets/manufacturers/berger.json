@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Berger",
   "generatedOn": "2026-10-27",
   "bulletCount": 108,
@@ -55,7 +55,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.306, Base to Ogive 0.318. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.306, Base to Ogive 0.318. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.318,
+      "noseLengthIn": 0.306
     },
     {
       "id": "berger-22312",
@@ -108,7 +111,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.496, Base to Ogive 0.393. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.496, Base to Ogive 0.393. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.393,
+      "noseLengthIn": 0.496
     },
     {
       "id": "berger-22309",
@@ -161,7 +167,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.436, Base to Ogive 0.367. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.436, Base to Ogive 0.367. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.367,
+      "noseLengthIn": 0.436
     },
     {
       "id": "berger-20303",
@@ -214,7 +223,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.381, Base to Ogive 0.272. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.381, Base to Ogive 0.272. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.272,
+      "noseLengthIn": 0.381
     },
     {
       "id": "berger-22421",
@@ -276,7 +288,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.569, Base to Ogive 0.525. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.569, Base to Ogive 0.525. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.525,
+      "noseLengthIn": 0.569
     },
     {
       "id": "berger-22410",
@@ -329,7 +344,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.509, Base to Ogive 0.328. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.509, Base to Ogive 0.328. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.328,
+      "noseLengthIn": 0.509
     },
     {
       "id": "berger-22303",
@@ -382,7 +400,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.415, Base to Ogive 0.26. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.415, Base to Ogive 0.26. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.26,
+      "noseLengthIn": 0.415
     },
     {
       "id": "berger-20304",
@@ -444,7 +465,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.411, Base to Ogive 0.337. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.411, Base to Ogive 0.337. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.337,
+      "noseLengthIn": 0.411
     },
     {
       "id": "berger-22311",
@@ -497,7 +521,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.457, Base to Ogive 0.377. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.457, Base to Ogive 0.377. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.377,
+      "noseLengthIn": 0.457
     },
     {
       "id": "berger-22408",
@@ -550,7 +577,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.476, Base to Ogive 0.323. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.476, Base to Ogive 0.323. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.323,
+      "noseLengthIn": 0.476
     },
     {
       "id": "berger-22420",
@@ -612,7 +642,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.535, Base to Ogive 0.524. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.535, Base to Ogive 0.524. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.524,
+      "noseLengthIn": 0.535
     },
     {
       "id": "berger-22418",
@@ -674,7 +707,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.487, Base to Ogive 0.505. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.487, Base to Ogive 0.505. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.505,
+      "noseLengthIn": 0.487
     },
     {
       "id": "berger-22422",
@@ -736,7 +772,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.576, Base to Ogive 0.57. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.576, Base to Ogive 0.57. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.57,
+      "noseLengthIn": 0.576
     },
     {
       "id": "berger-22101",
@@ -798,7 +837,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.513, Base to Ogive 0.587. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.513, Base to Ogive 0.587. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.587,
+      "noseLengthIn": 0.513
     },
     {
       "id": "berger-22427",
@@ -858,7 +900,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.589, Base to Ogive 0.589. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.589, Base to Ogive 0.589. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.589,
+      "noseLengthIn": 0.589
     },
     {
       "id": "berger-22485",
@@ -920,7 +965,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.623, Base to Ogive 0.585. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.623, Base to Ogive 0.585. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.585,
+      "noseLengthIn": 0.623
     },
     {
       "id": "berger-22423",
@@ -982,7 +1030,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.692, Base to Ogive 0.622. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.692, Base to Ogive 0.622. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.622,
+      "noseLengthIn": 0.692
     },
     {
       "id": "berger-24407",
@@ -1033,7 +1084,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.538, Base to Ogive 0.328. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.538, Base to Ogive 0.328. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.328,
+      "noseLengthIn": 0.538
     },
     {
       "id": "berger-24321",
@@ -1086,7 +1140,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.541, Base to Ogive 0.466. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.541, Base to Ogive 0.466. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.466,
+      "noseLengthIn": 0.541
     },
     {
       "id": "berger-24408",
@@ -1148,7 +1205,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.516, Base to Ogive 0.382. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.516, Base to Ogive 0.382. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.382,
+      "noseLengthIn": 0.516
     },
     {
       "id": "berger-24524",
@@ -1210,7 +1270,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.605, Base to Ogive 0.488. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.605, Base to Ogive 0.488. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.488,
+      "noseLengthIn": 0.605
     },
     {
       "id": "berger-24433",
@@ -1272,7 +1335,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.701, Base to Ogive 0.624. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.701, Base to Ogive 0.624. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.624,
+      "noseLengthIn": 0.701
     },
     {
       "id": "berger-24411",
@@ -1325,7 +1391,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.531, Base to Ogive 0.402. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.531, Base to Ogive 0.402. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.402,
+      "noseLengthIn": 0.531
     },
     {
       "id": "berger-24323",
@@ -1378,7 +1447,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.672, Base to Ogive 0.453. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.672, Base to Ogive 0.453. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.453,
+      "noseLengthIn": 0.672
     },
     {
       "id": "berger-24570",
@@ -1438,7 +1510,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.544, Base to Ogive 0.587. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.544, Base to Ogive 0.587. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.587,
+      "noseLengthIn": 0.544
     },
     {
       "id": "berger-24425",
@@ -1500,7 +1575,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.644, Base to Ogive 0.521. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.644, Base to Ogive 0.521. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.521,
+      "noseLengthIn": 0.644
     },
     {
       "id": "berger-24527",
@@ -1562,7 +1640,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.672, Base to Ogive 0.536. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.672, Base to Ogive 0.536. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.536,
+      "noseLengthIn": 0.672
     },
     {
       "id": "berger-24428",
@@ -1624,7 +1705,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.631, Base to Ogive 0.673. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.631, Base to Ogive 0.673. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.673,
+      "noseLengthIn": 0.631
     },
     {
       "id": "berger-24427",
@@ -1686,7 +1770,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.664, Base to Ogive 0.538. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.664, Base to Ogive 0.538. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.538,
+      "noseLengthIn": 0.664
     },
     {
       "id": "berger-24528",
@@ -1748,7 +1835,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.698, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.698, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.598,
+      "noseLengthIn": 0.698
     },
     {
       "id": "berger-25586",
@@ -1808,7 +1898,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.723, Base to Ogive 0.73. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.723, Base to Ogive 0.73. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.73,
+      "noseLengthIn": 0.723
     },
     {
       "id": "berger-24431",
@@ -1870,7 +1963,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.656, Base to Ogive 0.678. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.656, Base to Ogive 0.678. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.678,
+      "noseLengthIn": 0.656
     },
     {
       "id": "berger-25485",
@@ -1932,7 +2028,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.729, Base to Ogive 0.735. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.729, Base to Ogive 0.735. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.735,
+      "noseLengthIn": 0.729
     },
     {
       "id": "berger-24556",
@@ -1992,7 +2091,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.651, Base to Ogive 0.649. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.651, Base to Ogive 0.649. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.649,
+      "noseLengthIn": 0.651
     },
     {
       "id": "berger-24485",
@@ -2054,7 +2156,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.655, Base to Ogive 0.653. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.655, Base to Ogive 0.653. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.653,
+      "noseLengthIn": 0.655
     },
     {
       "id": "berger-24430",
@@ -2116,7 +2221,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.739, Base to Ogive 0.678. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.739, Base to Ogive 0.678. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.678,
+      "noseLengthIn": 0.739
     },
     {
       "id": "berger-24530",
@@ -2178,7 +2286,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.695. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.695. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.695,
+      "noseLengthIn": 0.75
     },
     {
       "id": "berger-25513",
@@ -2240,7 +2351,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.681, Base to Ogive 0.574. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.681, Base to Ogive 0.574. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.574,
+      "noseLengthIn": 0.681
     },
     {
       "id": "berger-24429",
@@ -2302,7 +2416,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.698, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.698, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.598,
+      "noseLengthIn": 0.698
     },
     {
       "id": "berger-26195",
@@ -2365,7 +2482,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.709, Base to Ogive 0.665. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.709, Base to Ogive 0.665. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.665,
+      "noseLengthIn": 0.709
     },
     {
       "id": "berger-26402",
@@ -2427,7 +2547,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.688, Base to Ogive 0.661. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.688, Base to Ogive 0.661. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.661,
+      "noseLengthIn": 0.688
     },
     {
       "id": "berger-26503",
@@ -2489,7 +2612,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.723, Base to Ogive 0.653. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.723, Base to Ogive 0.653. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.653,
+      "noseLengthIn": 0.723
     },
     {
       "id": "berger-26403",
@@ -2551,7 +2677,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.735, Base to Ogive 0.719. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.735, Base to Ogive 0.719. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.719,
+      "noseLengthIn": 0.735
     },
     {
       "id": "berger-26571",
@@ -2611,7 +2740,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.655, Base to Ogive 0.719. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.655, Base to Ogive 0.719. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.719,
+      "noseLengthIn": 0.655
     },
     {
       "id": "berger-26409",
@@ -2673,7 +2805,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.839, Base to Ogive 0.673. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.839, Base to Ogive 0.673. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.673,
+      "noseLengthIn": 0.839
     },
     {
       "id": "berger-26552",
@@ -2733,7 +2868,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.744, Base to Ogive 0.714. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.744, Base to Ogive 0.714. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.714,
+      "noseLengthIn": 0.744
     },
     {
       "id": "berger-26414",
@@ -2795,7 +2933,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.768, Base to Ogive 0.704. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.768, Base to Ogive 0.704. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.704,
+      "noseLengthIn": 0.768
     },
     {
       "id": "berger-26504",
@@ -2857,7 +2998,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.731, Base to Ogive 0.717. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.731, Base to Ogive 0.717. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.717,
+      "noseLengthIn": 0.731
     },
     {
       "id": "berger-26401",
@@ -2919,7 +3063,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.731, Base to Ogive 0.718. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.731, Base to Ogive 0.718. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.718,
+      "noseLengthIn": 0.731
     },
     {
       "id": "berger-26550",
@@ -2979,7 +3126,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.765, Base to Ogive 0.809. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.765, Base to Ogive 0.809. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.809,
+      "noseLengthIn": 0.765
     },
     {
       "id": "berger-26485",
@@ -3041,7 +3191,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.724. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.724. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.724,
+      "noseLengthIn": 0.742
     },
     {
       "id": "berger-26486",
@@ -3103,7 +3256,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.748, Base to Ogive 0.826. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.748, Base to Ogive 0.826. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.826,
+      "noseLengthIn": 0.748
     },
     {
       "id": "berger-27570",
@@ -3163,7 +3319,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.686, Base to Ogive 0.579. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.686, Base to Ogive 0.579. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.579,
+      "noseLengthIn": 0.686
     },
     {
       "id": "berger-27501",
@@ -3225,7 +3384,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.618, Base to Ogive 0.647. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.618, Base to Ogive 0.647. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.647,
+      "noseLengthIn": 0.618
     },
     {
       "id": "berger-28501",
@@ -3287,7 +3449,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.771, Base to Ogive 0.705. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.771, Base to Ogive 0.705. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.705,
+      "noseLengthIn": 0.771
     },
     {
       "id": "berger-27571",
@@ -3347,7 +3512,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.645, Base to Ogive 0.665. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.645, Base to Ogive 0.665. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.665,
+      "noseLengthIn": 0.645
     },
     {
       "id": "berger-27502",
@@ -3409,7 +3577,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.617, Base to Ogive 0.721. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.617, Base to Ogive 0.721. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.721,
+      "noseLengthIn": 0.617
     },
     {
       "id": "berger-28407",
@@ -3471,7 +3642,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.852, Base to Ogive 0.768. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.852, Base to Ogive 0.768. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.768,
+      "noseLengthIn": 0.852
     },
     {
       "id": "berger-28502",
@@ -3533,7 +3707,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.772, Base to Ogive 0.779. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.772, Base to Ogive 0.779. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.779,
+      "noseLengthIn": 0.772
     },
     {
       "id": "berger-27503",
@@ -3595,7 +3772,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.625, Base to Ogive 0.754. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.625, Base to Ogive 0.754. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.754,
+      "noseLengthIn": 0.625
     },
     {
       "id": "berger-28503",
@@ -3657,7 +3837,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.7, Base to Ogive 0.608. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.7, Base to Ogive 0.608. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.608,
+      "noseLengthIn": 0.7
     },
     {
       "id": "berger-28571",
@@ -3717,7 +3900,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.576, Base to Ogive 0.712. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.576, Base to Ogive 0.712. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.712,
+      "noseLengthIn": 0.576
     },
     {
       "id": "berger-28570",
@@ -3777,7 +3963,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.636, Base to Ogive 0.809. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.636, Base to Ogive 0.809. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.809,
+      "noseLengthIn": 0.636
     },
     {
       "id": "berger-28550",
@@ -3837,7 +4026,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.874, Base to Ogive 0.886. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.874, Base to Ogive 0.886. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.886,
+      "noseLengthIn": 0.874
     },
     {
       "id": "berger-28554",
@@ -3897,7 +4089,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.801, Base to Ogive 0.762. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.801, Base to Ogive 0.762. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.762,
+      "noseLengthIn": 0.801
     },
     {
       "id": "berger-27575",
@@ -3957,7 +4152,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.829, Base to Ogive 0.76. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.829, Base to Ogive 0.76. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.76,
+      "noseLengthIn": 0.829
     },
     {
       "id": "berger-28401",
@@ -4019,7 +4217,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.768, Base to Ogive 0.707. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.768, Base to Ogive 0.707. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.707,
+      "noseLengthIn": 0.768
     },
     {
       "id": "berger-28405",
@@ -4081,7 +4282,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.777, Base to Ogive 0.789. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.777, Base to Ogive 0.789. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.789,
+      "noseLengthIn": 0.777
     },
     {
       "id": "berger-30570",
@@ -4141,7 +4345,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.707, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.707, Base to Ogive 0.598. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.598,
+      "noseLengthIn": 0.707
     },
     {
       "id": "berger-28485",
@@ -4203,7 +4410,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.823, Base to Ogive 0.831. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.823, Base to Ogive 0.831. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.831,
+      "noseLengthIn": 0.823
     },
     {
       "id": "berger-30510",
@@ -4265,7 +4475,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.563. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.563. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.563,
+      "noseLengthIn": 0.75
     },
     {
       "id": "berger-28408",
@@ -4327,7 +4540,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.808, Base to Ogive 0.82. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.808, Base to Ogive 0.82. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.82,
+      "noseLengthIn": 0.808
     },
     {
       "id": "berger-30407",
@@ -4380,7 +4596,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.762, Base to Ogive 0.532. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.762, Base to Ogive 0.532. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.532,
+      "noseLengthIn": 0.762
     },
     {
       "id": "berger-30105",
@@ -4442,7 +4661,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.755, Base to Ogive 0.627. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.755, Base to Ogive 0.627. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.627,
+      "noseLengthIn": 0.755
     },
     {
       "id": "berger-30508",
@@ -4504,7 +4726,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.765, Base to Ogive 0.517. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.765, Base to Ogive 0.517. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.517,
+      "noseLengthIn": 0.765
     },
     {
       "id": "berger-30426",
@@ -4566,7 +4791,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.798, Base to Ogive 0.545. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.798, Base to Ogive 0.545. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.545,
+      "noseLengthIn": 0.798
     },
     {
       "id": "berger-30554",
@@ -4626,7 +4854,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.782, Base to Ogive 0.641. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.782, Base to Ogive 0.641. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.641,
+      "noseLengthIn": 0.782
     },
     {
       "id": "berger-30421",
@@ -4679,7 +4910,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.699, Base to Ogive 0.34. Those values are not stored as ogiveLengthIn."
+      "notes": "G7 cell was empty in the Berger table. Boat tail length cell was FB (flat base), so boattailLengthIn is null. Product page also prints Nose Length 0.699, Base to Ogive 0.34. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.34,
+      "noseLengthIn": 0.699
     },
     {
       "id": "berger-30416",
@@ -4739,7 +4973,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.816, Base to Ogive 0.538. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.816, Base to Ogive 0.538. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.538,
+      "noseLengthIn": 0.816
     },
     {
       "id": "berger-30418",
@@ -4799,7 +5036,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.787, Base to Ogive 0.691. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.787, Base to Ogive 0.691. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.691,
+      "noseLengthIn": 0.787
     },
     {
       "id": "berger-30107",
@@ -4861,7 +5101,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.789, Base to Ogive 0.693. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.789, Base to Ogive 0.693. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.693,
+      "noseLengthIn": 0.789
     },
     {
       "id": "berger-30425",
@@ -4923,7 +5166,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.795, Base to Ogive 0.563. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.795, Base to Ogive 0.563. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.563,
+      "noseLengthIn": 0.795
     },
     {
       "id": "berger-30413",
@@ -4985,7 +5231,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.757, Base to Ogive 0.674. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.757, Base to Ogive 0.674. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.674,
+      "noseLengthIn": 0.757
     },
     {
       "id": "berger-30410",
@@ -5047,7 +5296,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.556. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.556. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.556,
+      "noseLengthIn": 0.75
     },
     {
       "id": "berger-30420",
@@ -5109,7 +5361,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.794, Base to Ogive 0.659. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.794, Base to Ogive 0.659. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.659,
+      "noseLengthIn": 0.794
     },
     {
       "id": "berger-30571",
@@ -5169,7 +5424,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.692, Base to Ogive 0.693. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Classic Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.692, Base to Ogive 0.693. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.693,
+      "noseLengthIn": 0.692
     },
     {
       "id": "berger-30512",
@@ -5231,7 +5489,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.631. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.75, Base to Ogive 0.631. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.631,
+      "noseLengthIn": 0.75
     },
     {
       "id": "berger-30412",
@@ -5293,7 +5554,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.745, Base to Ogive 0.647. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.745, Base to Ogive 0.647. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.647,
+      "noseLengthIn": 0.745
     },
     {
       "id": "berger-30555",
@@ -5353,7 +5617,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.788. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.788. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.788,
+      "noseLengthIn": 0.742
     },
     {
       "id": "berger-30424",
@@ -5415,7 +5682,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.831, Base to Ogive 0.657. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.831, Base to Ogive 0.657. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.657,
+      "noseLengthIn": 0.831
     },
     {
       "id": "berger-30515",
@@ -5477,7 +5747,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.751, Base to Ogive 0.77. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.751, Base to Ogive 0.77. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.77,
+      "noseLengthIn": 0.751
     },
     {
       "id": "berger-30513",
@@ -5539,7 +5812,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.759, Base to Ogive 0.661. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.759, Base to Ogive 0.661. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.661,
+      "noseLengthIn": 0.759
     },
     {
       "id": "berger-30427",
@@ -5601,7 +5877,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.836, Base to Ogive 0.726. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.836, Base to Ogive 0.726. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.726,
+      "noseLengthIn": 0.836
     },
     {
       "id": "berger-30514",
@@ -5663,7 +5942,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.756, Base to Ogive 0.668. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.756, Base to Ogive 0.668. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.668,
+      "noseLengthIn": 0.756
     },
     {
       "id": "berger-30560",
@@ -5723,7 +6005,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.894, Base to Ogive 0.942. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.894, Base to Ogive 0.942. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.942,
+      "noseLengthIn": 0.894
     },
     {
       "id": "berger-30417",
@@ -5785,7 +6070,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.848, Base to Ogive 0.706. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.848, Base to Ogive 0.706. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.706,
+      "noseLengthIn": 0.848
     },
     {
       "id": "berger-30486",
@@ -5847,7 +6135,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.838, Base to Ogive 0.817. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.838, Base to Ogive 0.817. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.817,
+      "noseLengthIn": 0.838
     },
     {
       "id": "berger-30429",
@@ -5909,7 +6200,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.872, Base to Ogive 0.799. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.872, Base to Ogive 0.799. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.799,
+      "noseLengthIn": 0.872
     },
     {
       "id": "berger-33109",
@@ -5972,7 +6266,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.955, Base to Ogive 0.945. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.955, Base to Ogive 0.945. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.945,
+      "noseLengthIn": 0.955
     },
     {
       "id": "berger-30415",
@@ -6034,7 +6331,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.738, Base to Ogive 0.784. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 0.738, Base to Ogive 0.784. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.784,
+      "noseLengthIn": 0.738
     },
     {
       "id": "berger-30485",
@@ -6096,7 +6396,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.788. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'LR Hybrid', stored as hybrid. Product page also prints Nose Length 0.742, Base to Ogive 0.788. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.788,
+      "noseLengthIn": 0.742
     },
     {
       "id": "berger-30112",
@@ -6159,7 +6462,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.794, Base to Ogive 0.883. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.794, Base to Ogive 0.883. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.883,
+      "noseLengthIn": 0.794
     },
     {
       "id": "berger-33554",
@@ -6219,7 +6525,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.96, Base to Ogive 0.757. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.96, Base to Ogive 0.757. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.757,
+      "noseLengthIn": 0.96
     },
     {
       "id": "berger-33107",
@@ -6282,7 +6591,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.962, Base to Ogive 0.758. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.962, Base to Ogive 0.758. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.758,
+      "noseLengthIn": 0.962
     },
     {
       "id": "berger-30430",
@@ -6344,7 +6656,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.859, Base to Ogive 0.875. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Product page also prints Nose Length 0.859, Base to Ogive 0.875. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.875,
+      "noseLengthIn": 0.859
     },
     {
       "id": "berger-37379",
@@ -6406,7 +6721,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 1.122, Base to Ogive 0.679. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 1.122, Base to Ogive 0.679. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.679,
+      "noseLengthIn": 1.122
     },
     {
       "id": "berger-37407",
@@ -6468,7 +6786,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 1.132, Base to Ogive 0.715. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Secant (VLD)', stored as secant. Product page also prints Nose Length 1.132, Base to Ogive 0.715. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.715,
+      "noseLengthIn": 1.132
     },
     {
       "id": "berger-33556",
@@ -6528,7 +6849,10 @@
         }
       ],
       "conflicts": [],
-      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.955, Base to Ogive 0.956. Those values are not stored as ogiveLengthIn."
+      "notes": "No velocity band was published with the BCs. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.955, Base to Ogive 0.956. Those values are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.956,
+      "noseLengthIn": 0.955
     }
   ]
 }

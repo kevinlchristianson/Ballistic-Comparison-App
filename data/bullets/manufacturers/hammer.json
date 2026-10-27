@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Hammer Bullets",
   "generatedOn": "2026-10-27",
   "bulletCount": 330,
@@ -53,7 +53,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-333-cal-250-333-cal-250gr-stone-hammer",
@@ -104,7 +107,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-313-cal-130-313-cal-130gr-power-hammer",
@@ -157,7 +163,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-72-243-cal-072gr-hammer-hbc",
@@ -217,7 +226,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-170-375-cal-170gr-hammer-hht",
@@ -268,7 +280,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-133-284-cal-133gr-hammer-hbc",
@@ -328,7 +343,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-118-277-cal-118gr-hammer-hbc",
@@ -388,7 +406,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-75-224-cal-75gr-hammer-hbc",
@@ -448,7 +469,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-129-277-cal-129gr-hammer-hbc",
@@ -508,7 +532,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-111-264-cal-111gr-claw-hammer",
@@ -561,7 +588,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-180-338-cal-180gr-claw-hammer",
@@ -612,7 +642,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-158-308-cal-158gr-hammer-hbc",
@@ -672,7 +705,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-59-257-cal-059gr-claw-hammer",
@@ -723,7 +759,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-500-cal-300-500-cal-300gr-jack-hammer",
@@ -765,7 +804,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-500-cal-400-500-cal-400gr-jack-hammer",
@@ -807,7 +849,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-226-323-cal-226gr-hammer-hht-seconds",
@@ -846,7 +891,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-245-338-cal-245gr-hammer-hbc",
@@ -906,7 +954,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-218-338-cal-218gr-hammer-hbc",
@@ -966,7 +1017,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-226-323-cal-226gr-hammer-hht",
@@ -1017,7 +1071,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-182-308-cal-182gr-hammer-hht-seconds",
@@ -1056,7 +1113,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-118-284-cal-118gr-hammer-hht-seconds",
@@ -1095,7 +1155,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-160-277-cal-160gr-hammer-hht-seconds",
@@ -1134,7 +1197,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-80-264-cal-080gr-hammer-hht-seconds",
@@ -1173,7 +1239,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-115-257-cal-115gr-hammer-hht-seconds",
@@ -1212,7 +1281,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-162-284-cal-162gr-hammer-hht-seconds",
@@ -1251,7 +1323,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-118-264-cal-118gr-hammer-hht-seconds",
@@ -1290,7 +1365,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-50-224-cal-50gr-hammer-hbc",
@@ -1350,7 +1428,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-154-284-cal-154gr-hammer-hbc-gen-ii",
@@ -1412,7 +1493,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-144-277-cal-144gr-hammer-hbc",
@@ -1472,7 +1556,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-172-308-cal-172gr-hammer-hbc",
@@ -1532,7 +1619,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-36-224-cal-036gr-claw-hammer",
@@ -1583,7 +1673,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-89-243-cal-089gr-hammer-hbc",
@@ -1643,7 +1736,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-254-410-254gr-stone-hammer",
@@ -1653,7 +1749,7 @@
       "sku": null,
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.41,
       "weightGr": 254,
       "bcG1": 0.308,
       "bcG7": null,
@@ -1688,13 +1784,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Recommended use: Big Game Hunting g1-bc=.",
+      "notes": "Recommended use: Big Game Hunting g1-bc=. Diameter 0.41 copied from the printed name: .410 254gr Stone Hammer®.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-366-cal-200-366-cal-200gr-stone-hammer",
@@ -1745,7 +1844,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-114-284-cal-114gr-lever-stone-hammer",
@@ -1796,7 +1898,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-312-cal-109-312-cal-109gr-jack-hammer",
@@ -1848,7 +1953,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-67-284-cal-067gr-stone-hammer",
@@ -1899,7 +2007,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-128-338-cal-128gr-stone-hammer",
@@ -1950,7 +2061,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-76-5-224-cal-76-5gr-hammer-hbc",
@@ -2010,7 +2124,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-400-cal-170-400-cal-170gr-stone-hammer",
@@ -2061,7 +2178,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-192-308-cal-192gr-hammer-hbc",
@@ -2121,7 +2241,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-141-284-cal-141gr-hammer-hbc",
@@ -2181,7 +2304,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-120-264-cal-120gr-hammer-hbc",
@@ -2241,7 +2367,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-107-257-cal-107gr-hammer-hbc",
@@ -2301,7 +2430,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-89-257-cal-089gr-hammer-hbc",
@@ -2361,7 +2493,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-69-5-224-cal-69-5gr-hammer-hbc",
@@ -2421,7 +2556,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-5-7-cal-23gt6",
@@ -2460,7 +2598,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-77-284-cal-077gr-target-hammer",
@@ -2512,7 +2653,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-452-cal-240-452-cal-240gr-jack-hammer",
@@ -2554,7 +2698,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-474-cal-452-474-cal-452gr-stone-hammer",
@@ -2605,7 +2752,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-255-358-cal-255gr-hammer-hht",
@@ -2665,7 +2815,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-366-cal-242-366-cal-242gr-hammer-hht",
@@ -2725,7 +2878,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-330-cal-235-330-cal-235gr-claw-hammer",
@@ -2778,7 +2934,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-196-358-cal-196gr-hammer-hht",
@@ -2838,7 +2997,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-525-cal-878-525-cal-878gr-target-hammer",
@@ -2889,7 +3051,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-105-264-cal-105gr-hammer-aht",
@@ -2949,7 +3114,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-276-375-cal-276gr-hammer-hht",
@@ -3009,7 +3177,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-190-338-cal-190gr-hammer-hht",
@@ -3069,7 +3240,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-245-338-cal-245gr-hammer-hht",
@@ -3120,7 +3294,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-215-358-cal-215gr-hammer-hht",
@@ -3180,7 +3357,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-220-338-cal-220gr-hammer-hht",
@@ -3231,7 +3411,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-210-338-cal-210gr-hammer-hht",
@@ -3282,7 +3465,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-510-cal-570-510-cal-570gr-stone-hammer",
@@ -3325,7 +3511,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-475-cal-352-475-cal-352gr-stone-hammer",
@@ -3376,7 +3565,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-151-277-cal-151gr-hammer-hht",
@@ -3427,7 +3619,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-132-277-cal-132gr-hammer-hht",
@@ -3478,7 +3673,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-141-277-cal-141gr-hammer-hht",
@@ -3529,7 +3727,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-112-264-cal-112gr-hammer-hht",
@@ -3580,7 +3781,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-100-264-cal-100gr-hammer-hht",
@@ -3631,7 +3835,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-407-cal-225-407-cal-225gr-claw-hammer",
@@ -3682,7 +3889,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-162-284-cal-162gr-hammer-hht",
@@ -3733,7 +3943,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-153-284-cal-153gr-hammer-hht",
@@ -3784,7 +3997,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-435-cal-410-435-cal-410gr-stone-hammer",
@@ -3835,7 +4051,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-204-cal-41-204-cal-41gr-hammer-hht",
@@ -3886,7 +4105,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-138-308-cal-138gr-hammer-hht",
@@ -3937,7 +4159,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-104-243-cal-104gr-hammer-hht",
@@ -3988,7 +4213,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-57-224-cal-57gr-hammer-hht",
@@ -4039,7 +4267,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-118-284-cal-118gr-hammer-hht",
@@ -4090,7 +4321,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-115-257-cal-115gr-hammer-hht",
@@ -4141,7 +4375,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-120-257-cal-120gr-hammer-hht",
@@ -4192,7 +4429,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-400-cal-350-400-cal-350gr-stone-hammer",
@@ -4243,7 +4483,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-400-cal-300-400-cal-300gr-stone-hammer",
@@ -4294,7 +4537,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-400-cal-275-400-cal-275gr-stone-hammer",
@@ -4345,7 +4591,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-510-cal-450-510-cal-450gr-stone-hammer",
@@ -4396,7 +4645,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-423-cal-400-423-cal-400gr-stone-hammer",
@@ -4449,7 +4701,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-620-cal-900-620-cal-900gr-stone-hammer",
@@ -4500,7 +4755,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-gen-1-dev",
@@ -4539,7 +4797,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-200-338-cal-200gr-stone-hammer",
@@ -4592,7 +4853,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-267-338-cal-267gr-hammer-hht",
@@ -4643,7 +4907,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-165-375-cal-165gr-stone-hammer",
@@ -4694,7 +4961,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-80-224-cal-80gr-hammer-hht",
@@ -4745,7 +5015,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-74-224-cal-74gr-hammer-hht",
@@ -4796,7 +5069,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-170-284-cal-170gr-hammer-hht",
@@ -4847,7 +5123,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-75-243-cal-075gr-hammer-hht",
@@ -4898,7 +5177,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-68-224-cal-68gr-hammer-hht",
@@ -4949,7 +5231,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-90-243-cal-090gr-hammer-hht",
@@ -5000,7 +5285,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-80-264-cal-080gr-hammer-hht",
@@ -5051,7 +5339,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-180-375-cal-180gr-stone-hammer",
@@ -5102,7 +5393,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-118-264-cal-118gr-hammer-hht",
@@ -5153,7 +5447,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-127-257-cal-127gr-hammer-hht",
@@ -5204,7 +5501,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-203-308-cal-203gr-hammer-hht",
@@ -5255,7 +5555,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-182-308-cal-182gr-hammer-hht",
@@ -5306,7 +5609,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-168-308-cal-168gr-hammer-hht",
@@ -5357,7 +5663,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-163-308-cal-163gr-hammer-hht",
@@ -5408,7 +5717,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-154-308-cal-154gr-hammer-hht",
@@ -5459,7 +5771,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-132-284-cal-132gr-hammer-hht",
@@ -5510,7 +5825,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-122-277-cal-122gr-hammer-hht",
@@ -5561,7 +5879,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-95-257-cal-095gr-hammer-hht",
@@ -5614,7 +5935,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-160-277-cal-160gr-hammer-hht",
@@ -5667,7 +5991,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-145-284-cal-145gr-hammer-hht",
@@ -5718,7 +6045,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-125-264-cal-125gr-hammer-hht",
@@ -5769,7 +6099,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-76-224-cal-76gr-absolute-hammer",
@@ -5820,7 +6153,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-348-cal-225-348-cal-225gr-power-hammer",
@@ -5873,7 +6209,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-410-cal-200-410-cal-200gr-jack-hammer",
@@ -5925,7 +6264,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-411-cal-250-411-cal-250gr-stone-hammer",
@@ -5978,7 +6320,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-411-cal-293-411-cal-293gr-stone-hammer",
@@ -6031,7 +6376,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-411-cal-326-411-cal-326gr-stone-hammer",
@@ -6082,7 +6430,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-411-cal-377-411-cal-377gr-stone-hammer",
@@ -6135,7 +6486,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-423-cal-307-423-cal-307gr-stone-hammer",
@@ -6186,7 +6540,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-357-cal-150-357-cal-150gr-jack-hammer",
@@ -6238,7 +6595,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-103-308-cal-103gr-power-hammer",
@@ -6289,7 +6649,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-275-358-cal-275gr-power-hammer",
@@ -6340,7 +6703,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-321-cal-142-321-cal-142gr-stone-hammer",
@@ -6393,7 +6759,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-69-224-cal-69gr-absolute-hammer",
@@ -6453,7 +6822,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-97-257-cal-097gr-power-hammer",
@@ -6506,7 +6878,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-416-cal-325-416-cal-325gr-stone-hammer",
@@ -6559,7 +6934,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-115-264-cal-115gr-power-hammer",
@@ -6610,7 +6988,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-416-cal-300-416-cal-300gr-stone-hammer",
@@ -6661,7 +7042,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-165-308-cal-165gr-power-hammer",
@@ -6712,7 +7096,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-135-308-cal-135gr-power-hammer",
@@ -6765,7 +7152,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-150-308-cal-150gr-power-hammer",
@@ -6818,7 +7208,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-150-400-10mm-cal-150gr-jack-hammer",
@@ -6828,7 +7221,7 @@
       "sku": null,
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.4,
       "weightGr": 150,
       "bcG1": null,
       "bcG7": null,
@@ -6854,13 +7247,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Recommended use: Personal defense / Hunting This pure copper Jack Hammer® is designed for the very popular 10mm semi-auto handgun. No G1 BC line in the product description.",
+      "notes": "Recommended use: Personal defense / Hunting This pure copper Jack Hammer® is designed for the very popular 10mm semi-auto handgun. No G1 BC line in the product description. Diameter 0.4 copied from the printed name: .400 (10mm) Cal-150gr Jack Hammer®.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-137-375-cal-137gr-stone-hammer",
@@ -6913,7 +7309,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-355-cal-172-355-cal-172gr-stone-hammer-legend",
@@ -6964,7 +7363,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-312-cal-150-312-cal-150gr-stone-hammer",
@@ -7017,7 +7419,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-92-264-cal-092gr-power-hammer",
@@ -7071,7 +7476,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-400-cal-250-400-cal-250gr-pittman-hammer",
@@ -7122,7 +7530,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-429-cal-205-429-cal-205gr-44-mag-jack-hammer",
@@ -7164,7 +7575,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-429-cal-200-429-cal-200gr-stone-hammer",
@@ -7215,7 +7629,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-110-277-cal-110gr-hammer-hunter",
@@ -7275,7 +7692,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-60-224-cal-60gr-hammer-hunter",
@@ -7335,7 +7755,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-125-257-cal-125gr-hammer-hunter",
@@ -7386,7 +7809,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-90-284-cal-090gr-hammer-hunter",
@@ -7446,7 +7872,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-404-458-cal-404gr-stone-hammer",
@@ -7499,7 +7928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-162-277-cal-162gr-hammer-hunter",
@@ -7550,7 +7982,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-90-277-cal-090gr-hammer-hunter",
@@ -7610,7 +8045,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-100-277-cal-100gr-hammer-hunter",
@@ -7670,7 +8108,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-408-cal-252-408-cal-252gr-pittman-hammer",
@@ -7723,7 +8164,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-408-cal-272-408-cal-272gr-pittman-hammer",
@@ -7776,7 +8220,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-408-cal-296-408-cal-296gr-pittman-hammer",
@@ -7829,7 +8276,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-140-358-cal-140gr-stone-hammer",
@@ -7880,7 +8330,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-100-308-cal-100gr-stone-hammer",
@@ -7931,7 +8384,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-452-cal-221-452-cal-221gr-stone-hammer-bushmaster",
@@ -7984,7 +8440,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-146-323-cal-146gr-lever-stone-hammer",
@@ -8035,7 +8494,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-51-224-cal-51gr-absolute-hammer",
@@ -8086,7 +8548,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-63-224-cal-63gr-absolute-hammer",
@@ -8137,7 +8602,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-189-308-cal-189gr-hammer-hunter",
@@ -8188,7 +8656,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-175-338-cal-175gr-hammer-hunter",
@@ -8241,7 +8712,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-148-277-cal-148gr-hammer-hunter",
@@ -8292,7 +8766,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-55-243-cal-055gr-hammer-hunter",
@@ -8343,7 +8820,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-120-308-cal-120gr-lever-stone-hammer",
@@ -8394,7 +8874,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-33-224-cal-33gr-stone-hammer",
@@ -8445,7 +8928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-318-cal-155-318-cal-155gr-hammer-hunter",
@@ -8496,7 +8982,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-75-257-cal-075gr-hammer-hunter",
@@ -8547,7 +9036,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-85-264-cal-085gr-hammer-hunter",
@@ -8598,7 +9090,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-200-358-cal-200gr-power-hammer",
@@ -8651,7 +9146,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-117-257-cal-117gr-absolute-hammer",
@@ -8702,7 +9200,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-270-375-cal-270gr-stone-hammer",
@@ -8755,7 +9256,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-200-375-cal-200gr-stone-hammer",
@@ -8808,7 +9312,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-73-224-cal-73gr-absolute-hammer",
@@ -8868,7 +9375,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-137-355-9mm-cal-137gr-jack-hammer",
@@ -8878,7 +9388,7 @@
       "sku": null,
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.355,
       "weightGr": 137,
       "bcG1": null,
       "bcG7": null,
@@ -8904,13 +9414,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Recommended use: Big Game Hunting / Personal Defense This pure copper Jack Hammer™ pistol bullet will give outstanding terminal performance and deep penetration for your 9mm handgun. No G1 BC line in the product description.",
+      "notes": "Recommended use: Big Game Hunting / Personal Defense This pure copper Jack Hammer™ pistol bullet will give outstanding terminal performance and deep penetration for your 9mm handgun. No G1 BC line in the product description. Diameter 0.355 copied from the printed name: .355 (9mm) Cal-137gr Jack Hammer®.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-250-458-cal-250gr-stone-hammer",
@@ -8963,7 +9476,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-101-284-cal-101gr-hammer-hunter",
@@ -9014,7 +9530,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-110-257-cal-110gr-hammer-hunter",
@@ -9065,7 +9584,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-100-257-cal-100gr-lever-hammer",
@@ -9118,7 +9640,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-124-277-cal-124gr-hammer-hunter",
@@ -9169,7 +9694,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-39-224-cal-39gr-trident",
@@ -9208,7 +9736,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-160-308-cal-160gr-hammer-hunter",
@@ -9259,7 +9790,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-284-cal-130-absolute-hammer",
@@ -9310,7 +9844,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-308-cal-180-hammer-hunter",
@@ -9361,7 +9898,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-87-243-cal-087gr-absolute-hammer",
@@ -9412,7 +9952,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-69-243-cal-069gr-absolute-hammer",
@@ -9463,7 +10006,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-97-264-cal-097gr-absolute-hammer",
@@ -9514,7 +10060,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-116-277-cal-116gr-absolute-hammer",
@@ -9565,7 +10114,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-119-284-cal-119gr-absolute-hammer",
@@ -9616,7 +10168,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-90-257-cal-090gr-absolute-hammer",
@@ -9667,7 +10222,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-139-277-cal-139gr-absolute-hammer",
@@ -9718,7 +10276,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-172-284-cal-172gr-absolute-hammer",
@@ -9769,7 +10330,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-162-308-cal-162gr-absolute-hammer",
@@ -9820,7 +10384,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-151-308-cal-151gr-absolute-hammer",
@@ -9871,7 +10438,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-674-458-cal-674gr-target-hammer",
@@ -9924,7 +10494,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-129-264-cal-129gr-absolute-hammer",
@@ -9977,7 +10550,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-140-284-cal-140gr-absolute-hammer",
@@ -10028,7 +10604,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-109-264-cal-109gr-absolute-hammer",
@@ -10079,7 +10658,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-178-308-cal-178gr-absolute-hammer",
@@ -10130,7 +10712,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-123-264-cal-123gr-absolute-hammer",
@@ -10181,7 +10766,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-155-284-cal-155gr-absolute-hammer",
@@ -10232,7 +10820,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-265-323-cal-265gr-hammer-hunter",
@@ -10283,7 +10874,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-140-277-cal-140gr-hammer-hunter",
@@ -10334,7 +10928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-204-cal-39-204-cal-39gr-hammer-hunter",
@@ -10395,7 +10992,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-137-308-cal-137gr-hammer-hunter",
@@ -10446,7 +11046,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-313-cal-86-313-cal-86gr-stone-hammer",
@@ -10489,7 +11092,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-300-458-cal-300gr-stone-hammer",
@@ -10542,7 +11148,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-276-458-cal-276gr-stone-hammer",
@@ -10593,7 +11202,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-318-cal-185-318-cal-185gr-hammer-hunter",
@@ -10644,7 +11256,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-192-323-cal-192gr-power-hammer",
@@ -10697,7 +11312,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-134-264-cal-134gr-power-hammer",
@@ -10750,7 +11368,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-355-cal-125-355-cal-125gr-stone-hammer",
@@ -10801,7 +11422,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-85-277-cal-085gr-stone-hammer",
@@ -10852,7 +11476,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-246-338-cal-246gr-hammer-hunter",
@@ -10903,7 +11530,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-235-338-cal-235gr-hammer-hunter",
@@ -10954,7 +11584,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-223-338-cal-223gr-hammer-hunter",
@@ -11005,7 +11638,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-198-323-cal-198gr-hammer-hunter",
@@ -11056,7 +11692,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-240-366-9-3mm-cal-240gr-power-hammer",
@@ -11066,7 +11705,7 @@
       "sku": null,
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.366,
       "weightGr": 240,
       "bcG1": 0.351,
       "bcG7": null,
@@ -11103,13 +11742,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Recommended use: Big Game Hunting G1-BC=.",
+      "notes": "Recommended use: Big Game Hunting G1-BC=. Diameter 0.366 copied from the printed name: .366 (9.3mm) Cal-240gr Power Hammer™.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-220-375-cal-220gr-stone-hammer",
@@ -11160,7 +11802,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-120-284-cal-120gr-hammer-hunter",
@@ -11211,7 +11856,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-70-224-cal-70gr-hammer-hunter",
@@ -11262,7 +11910,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-52-224-cal-52gr-hammer-hunter",
@@ -11313,7 +11964,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-35-224-cal-35gr-hammer-hunter",
@@ -11364,7 +12018,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-146-284-cal-146gr-hammer-hunter",
@@ -11415,7 +12072,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-124-308-cal-124gr-hammer-hunter",
@@ -11466,7 +12126,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-205-338-cal-205gr-power-hammer",
@@ -11519,7 +12182,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-427-cal-185-427-cal-185gr-claw-hammer",
@@ -11560,7 +12226,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-131-264-cal-131gr-hammer-hunter",
@@ -11611,7 +12280,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-196-308-cal-196gr-hammer-hunter",
@@ -11664,7 +12336,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-258-366-9-3mm-cal-258gr-stone-hammer",
@@ -11674,7 +12349,7 @@
       "sku": null,
       "alternateSkus": [],
       "caliber": null,
-      "diameterIn": null,
+      "diameterIn": 0.366,
       "weightGr": 258,
       "bcG1": 0.433,
       "bcG7": null,
@@ -11711,13 +12386,16 @@
         }
       ],
       "conflicts": [],
-      "notes": "Recommended use: Big Game Hunting G1-BC=.",
+      "notes": "Recommended use: Big Game Hunting G1-BC=. Diameter 0.366 copied from the printed name: .366 (9.3mm) Cal-258gr Stone Hammer®.",
       "bearingSurfaceIn": null,
       "ogiveLengthIn": null,
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-73-224-cal-73gr-hammer-hunter",
@@ -11779,7 +12457,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-27-5-7-cal-27gr-dev",
@@ -11818,7 +12499,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-27-5-7-cal-27gr-t6b",
@@ -11857,7 +12541,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-416-cal-397-416-cal-397gr-claw-hammer",
@@ -11910,7 +12597,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-402-458-cal-402gr-stone-hammer",
@@ -11963,7 +12653,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-458-cal-447-458-cal-447gr-stone-hammer",
@@ -12016,7 +12709,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-348-cal-157-348-cal-157gr-stone-hammer",
@@ -12067,7 +12763,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-305-375-cal-305gr-claw-hammer",
@@ -12120,7 +12819,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-169-284-cal-169gr-hammer-hunter",
@@ -12171,7 +12873,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-204-cal-31-204-cal-31gr-hammer-hunter",
@@ -12223,7 +12928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-204-cal-48-204-cal-48gr-hammer-hunter",
@@ -12275,7 +12983,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-83-224-cal-83gr-hammer-hunter",
@@ -12326,7 +13037,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-174-308-cal-174gr-hammer-hunter",
@@ -12377,7 +13091,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-259-358-cal-259gr-stone-hammer",
@@ -12430,7 +13147,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-254-358-cal-254gr-power-hammer",
@@ -12483,7 +13203,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-67-257-cal-067gr-stone-hammer",
@@ -12536,7 +13259,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-70-243-cal-070gr-hammer-hunter",
@@ -12587,7 +13313,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-83-243-cal-083gr-stone-hammer",
@@ -12640,7 +13369,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-88-243-cal-088gr-stone-hammer",
@@ -12693,7 +13425,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-71-243-cal-071gr-power-hammer",
@@ -12746,7 +13481,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-110-264-cal-110gr-hammer-hunter",
@@ -12797,7 +13535,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-99-264-cal-099gr-hammer-hunter",
@@ -12848,7 +13589,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-213-338-cal-213gr-hammer-hunter",
@@ -12899,7 +13643,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-281-375-cal-281gr-hammer-hunter",
@@ -12950,7 +13697,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-245-358-cal-245gr-stone-hammer",
@@ -13001,7 +13751,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-223-358-cal-223gr-stone-hammer",
@@ -13054,7 +13807,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-203-358-cal-203gr-stone-hammer",
@@ -13107,7 +13863,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-178-358-cal-178gr-stone-hammer",
@@ -13160,7 +13919,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-199-308-cal-199gr-hammer-hunter",
@@ -13211,7 +13973,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-139-264-cal-139gr-stone-hammer",
@@ -13273,7 +14038,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-121-257-cal-121gr-hammer-hunter",
@@ -13324,7 +14092,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-172-cal-21-172-cal-21gr-hammer-hunter",
@@ -13376,7 +14147,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-172-cal-19-172-cal-19gr-hammer-hunter",
@@ -13428,7 +14202,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-172-cal-18-172-cal-18gr-dead-blow-hammer",
@@ -13480,7 +14257,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-299-375-cal-299gr-stone-hammer",
@@ -13531,7 +14311,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-357-375-cal-357gr-stone-hammer",
@@ -13582,7 +14365,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-331-375-cal-331gr-stone-hammer",
@@ -13633,7 +14419,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-275-375-cal-275gr-stone-hammer",
@@ -13684,7 +14473,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-256-375-cal-256gr-stone-hammer",
@@ -13735,7 +14527,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-282-338-cal-282gr-stone-hammer",
@@ -13786,7 +14581,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-255-338-cal-255gr-stone-hammer",
@@ -13837,7 +14635,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-225-338-cal-225gr-stone-hammer",
@@ -13897,7 +14698,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-186-338-cal-186gr-stone-hammer",
@@ -13948,7 +14752,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-247-323-cal-247gr-stone-hammer",
@@ -13999,7 +14806,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-220-323-cal-220gr-stone-hammer",
@@ -14059,7 +14869,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-200-323-cal-200gr-stone-hammer",
@@ -14110,7 +14923,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-181-323-cal-181gr-stone-hammer",
@@ -14161,7 +14977,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-159-323-cal-159gr-stone-hammer",
@@ -14212,7 +15031,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-199-308-cal-199gr-stone-hammer",
@@ -14253,7 +15075,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-181-308-cal-181gr-stone-hammer",
@@ -14304,7 +15129,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-166-308-cal-166gr-stone-hammer",
@@ -14355,7 +15183,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-152-308-cal-152gr-stone-hammer",
@@ -14406,7 +15237,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-130-308-cal-130gr-stone-hammer",
@@ -14457,7 +15291,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-160-284-cal-160gr-stone-hammer",
@@ -14508,7 +15345,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-150-284-cal-150gr-stone-hammer",
@@ -14559,7 +15399,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-136-284-cal-136gr-stone-hammer",
@@ -14610,7 +15453,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-113-284-cal-113gr-stone-hammer",
@@ -14661,7 +15507,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-145-277-cal-145gr-stone-hammer",
@@ -14712,7 +15561,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-133-277-cal-133gr-stone-hammer",
@@ -14763,7 +15615,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-117-277-cal-117gr-stone-hammer",
@@ -14814,7 +15669,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-130-264-cal-130gr-stone-hammer",
@@ -14874,7 +15732,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-117-264-cal-117gr-stone-hammer",
@@ -14934,7 +15795,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-116-257-cal-116gr-stone-hammer",
@@ -14985,7 +15849,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-98-257-cal-098gr-stone-hammer",
@@ -15034,7 +15901,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-81-257-cal-081gr-stone-hammer",
@@ -15085,7 +15955,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-416-cal-400-416-cal-400gr-stone-hammer",
@@ -15136,7 +16009,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-105-257-cal-105gr-target-hammer-50",
@@ -15187,7 +16063,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-358-cal-220-358-cal-220gr-power-hammer",
@@ -15238,7 +16117,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-131-284-cal-131gr-heavy-hammer-hunter",
@@ -15289,7 +16171,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-121-264-cal-121gr-heavy-hammer-hunter",
@@ -15340,7 +16225,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-104-257-cal-104gr-heavy-hammer-hunter",
@@ -15391,7 +16279,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-143-308-cal-143gr-lever-stone-hammer",
@@ -15442,7 +16333,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-128-257-cal-128gr-hammer-hunter",
@@ -15493,7 +16387,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-236-338-cal-236gr-hammer-hunter",
@@ -15544,7 +16441,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-64-224-cal-64gr-hammer-hunter",
@@ -15595,7 +16495,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-224-cal-44-224-cal-44gr-hammer-hunter",
@@ -15646,7 +16549,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-285-338-cal-285gr-hammer-hunter",
@@ -15697,7 +16603,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-144-308-cal-144gr-target-hammer",
@@ -15748,7 +16657,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-160-308-cal-160gr-target-hammer",
@@ -15799,7 +16711,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-329-375-cal-329gr-hammer-hunter",
@@ -15850,7 +16765,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-137-264-cal-137gr-hammer-hunter",
@@ -15901,7 +16819,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-101-308-cal-101gr-stone-hammer-blackout",
@@ -15953,7 +16874,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-143-284-cal-143gr-hammer-hunter",
@@ -16004,7 +16928,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-168-277-cal-168gr-hammer-hunter",
@@ -16055,7 +16982,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-126-277-cal-126gr-hammer-hunter",
@@ -16106,7 +17036,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-101-243-cal-101gr-hammer-hunter",
@@ -16157,7 +17090,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-88-243-cal-088gr-hammer-hunter",
@@ -16208,7 +17144,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-375-cal-248-375-cal-248gr-hammer-hunter",
@@ -16259,7 +17198,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-103-257-cal-103gr-hammer-hunter",
@@ -16310,7 +17252,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-221-323-cal-221gr-hammer-hunter",
@@ -16361,7 +17306,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-323-cal-248-323-cal-248gr-hammer-hunter",
@@ -16412,7 +17360,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-304-338-cal-304gr-hammer-hunter",
@@ -16463,7 +17414,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-338-cal-260-338-cal-260gr-hammer-hunter",
@@ -16514,7 +17468,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-227-308-cal-227gr-hammer-hunter",
@@ -16565,7 +17522,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-214-308-cal-214gr-hammer-hunter",
@@ -16616,7 +17576,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-181-308-cal-181gr-hammer-hunter",
@@ -16667,7 +17630,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-308-cal-166-308-cal-166gr-hammer-hunter",
@@ -16718,7 +17684,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-155-284-cal-155gr-hammer-hunter",
@@ -16769,7 +17738,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-284-cal-131-284-cal-131gr-hammer-hunter",
@@ -16820,7 +17792,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-156-277-cal-156gr-hammer-hunter",
@@ -16871,7 +17846,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-277-cal-117-277-cal-117gr-hammer-hunter",
@@ -16922,7 +17900,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-264-cal-124-264-cal-124gr-hammer-hunter",
@@ -16973,7 +17954,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-257-cal-92-257-cal-092gr-hammer-hunter",
@@ -17024,7 +18008,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     },
     {
       "id": "hammer-bullets-243-cal-80-243-cal-080gr-hammer-hunter",
@@ -17075,7 +18062,10 @@
       "boattailLengthIn": null,
       "meplatIn": null,
       "ogiveType": null,
-      "discontinued": null
+      "discontinued": null,
+      "bcUnlabeled": null,
+      "baseToOgiveIn": null,
+      "noseLengthIn": null
     }
   ]
 }

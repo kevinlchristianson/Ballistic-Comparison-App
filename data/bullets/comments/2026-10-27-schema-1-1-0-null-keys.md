@@ -1,6 +1,6 @@
 # Schema 1.1.0: always present keys, or omit when unknown?
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Schema 1.1.0 null keys
 
@@ -20,3 +20,4 @@ Every bullet includes the new keys. Unknown values are null, the same way 1.0.0 
 
 ## Answer
 
+Agreed. Every bullet includes the 1.1.0 keys, and unknown values are null. Schema 1.2.0 uses the same rule for `baseToOgiveIn`, `noseLengthIn`, and `bcUnlabeled`. See `2026-10-27-schema-1-2-0.md`.

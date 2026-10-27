@@ -1,6 +1,6 @@
 # Rifle bullet library
 
-Schema version **1.1.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else. 1.1.0 adds `bearingSurfaceIn`, `ogiveLengthIn`, `boattailLengthIn`, `meplatIn`, `ogiveType`, and `discontinued`. Each is null when the source does not publish it. No 1.0.0 field was removed or renamed.
+Schema version **1.2.0**. Application code should import the TypeScript types in [`schema/bullet.ts`](schema/bullet.ts) and reject a catalog whose `schemaVersion` is anything else. 1.1.0 adds `bearingSurfaceIn`, `ogiveLengthIn`, `boattailLengthIn`, `meplatIn`, `ogiveType`, and `discontinued`. 1.2.0 adds `baseToOgiveIn`, `noseLengthIn`, and `bcUnlabeled`. Each new key is present on every bullet and null when the source does not publish it. No earlier field was removed or renamed. The app currently accepts 1.0.0 and 1.1.0; it needs to accept 1.2.0 before these files will load.
 
 The combined catalog [`bullets.json`](bullets.json) is rebuilt from the manufacturer files. Four Berger rows in [`examples/examples.json`](examples/examples.json) show the shape and are not merged into `bullets.json`.
 
@@ -25,7 +25,7 @@ A manufacturer file, the examples file, and `bullets.json` all use the same enve
 
 ```json
 {
-  "schemaVersion": "1.1.0",
+  "schemaVersion": "1.2.0",
   "manufacturer": "Berger",
   "generatedOn": "2026-10-27",
   "bulletCount": 1,
@@ -48,15 +48,18 @@ Unknown values are `null` or an empty array. Do not calculate or guess a measure
 | `sku` | text or null | Primary part number. |
 | `alternateSkus` | string[] | Pack-size or distributor numbers for the same bullet. |
 | `caliber` | text or null | Bore designation as published (`22 Caliber`, `6.5 mm`, `.308`). |
-| `diameterIn` | inches or null | Groove diameter. Not copied from the caliber label unless the source states it. |
+| `diameterIn` | inches or null | Groove diameter. A decimal inch printed in the caliber label or the name is copied here, and the original text is quoted in `notes`. A caliber name such as `22 Caliber` is not converted. |
 | `weightGr` | grains or null | Bullet weight. |
 | `bcG1`, `bcG7` | number or null | Preferred single BC. For velocity bands, use the value the manufacturer marks as preferred, otherwise the highest-velocity band. |
 | `ballisticCoefficients` | array | Every published BC: drag model, value, optional fps band, provenance, URL. |
 | `bcSource` | enum or null | Provenance of the headline BCs: `manufacturer`, `applied_ballistics`, `litz`, `lab_measured`, `other`, `unknown`. |
+| `bcUnlabeled` | `{value, label}` or null | BC printed with no drag model. Not treated as G1 or G7. Added in 1.2.0. |
 | `sectionalDensity` | lb/in² or null | Published sectional density only. |
 | `lengthIn` | inches or null | Published length. |
 | `bearingSurfaceIn` | inches or null | Published bearing surface. Added in 1.1.0. |
 | `ogiveLengthIn` | inches or null | Published ogive length. Not a nose length or a base-to-ogive length. Added in 1.1.0. |
+| `baseToOgiveIn` | inches or null | Published base-to-ogive length. Added in 1.2.0. |
+| `noseLengthIn` | inches or null | Published nose length. Added in 1.2.0. |
 | `boattailLengthIn` | inches or null | Published boat-tail length. Null when the source marks a flat base. Added in 1.1.0. |
 | `meplatIn` | inches or null | Published meplat diameter. Added in 1.1.0. |
 | `ogiveType` | `tangent`, `secant`, `hybrid`, or null | Published ogive style. Added in 1.1.0. |
@@ -88,7 +91,7 @@ Planned sources, in the order `scrape.py --list` prints them:
 - Boutique: Cutting Edge Bullets, Hammer Bullets, Badlands, Warner Flatline, Lehigh Defense, Peregrine, GS Custom, Matrix.
 - Aggregator, for discovery and cross-check only: [LoadDevelopment.com bullet database](https://loaddevelopment.com/bullet-database/), which embeds the [Trajek library](https://trajek.app/library).
 
-Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, and Woodleigh. Berger's G1, G7, and twist come from the all-bullets table. Diameter, length, bearing surface, boat tail, ogive style, and sectional density come from each Berger product page. Nose length and base-to-ogive stay in `notes`, not in `ogiveLengthIn`. No rows are copied from LoadDevelopment or Zima; see `comments/2026-10-27-redistribution-terms.md`.
+Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, Berger, Lapua, Hammer, and Woodleigh. Berger's G1, G7, and twist come from the all-bullets table. Diameter, length, bearing surface, boat tail, ogive style, and sectional density come from each Berger product page. Nose length and base-to-ogive are `noseLengthIn` and `baseToOgiveIn`, not `ogiveLengthIn`. Woodleigh's unlabeled BC column is `bcUnlabeled`. No rows are copied from LoadDevelopment or Zima; see `comments/2026-10-27-redistribution-terms.md`.
 
 ## How to update
 
@@ -99,7 +102,7 @@ Manufacturer files committed on 2026-10-27 are Hornady, Sierra, Nosler, Barnes, 
 
 `validate.py` checks, with no extra Python packages:
 
-- JSON Schema 1.1.0 (required keys, types, enums, patterns, hard bounds).
+- JSON Schema 1.2.0 (required keys, types, enums, patterns, hard bounds).
 - `bulletCount`, unique `id`, unique manufacturer+SKU.
 - Headline BC is one of the published bands for that drag model.
 - G7 is lower than G1 when both exist.

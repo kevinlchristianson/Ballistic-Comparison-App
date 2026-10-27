@@ -1,6 +1,6 @@
 # Manufacturer sites that did not serve a bullet catalog
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Missing manufacturer sites
 
@@ -25,3 +25,5 @@ Zima's brand index at `https://zimaballistics.com/bullets/` does not list these 
 Those brands stay out of the catalog. No rows are added from a guessed URL.
 
 ## Answer
+
+Agreed. Badlands, GS Custom, and Matrix stay out of the catalog. No rows are added from a guessed URL.

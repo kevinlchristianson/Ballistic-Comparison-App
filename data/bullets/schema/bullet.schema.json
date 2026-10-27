@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/kevinlchristianson/ballistic-comparison-app/blob/main/data/bullets/schema/bullet.schema.json",
   "title": "BulletCatalog",
-  "description": "Rifle bullet ballistic catalog, schemaVersion 1.1.0. Do not add, remove, or rename fields without bumping schemaVersion and calling the change out. Unknown values are null or empty arrays. Do not invent measurements. 1.1.0 adds bearingSurfaceIn, ogiveLengthIn, boattailLengthIn, meplatIn, ogiveType, and discontinued. They are null when the source does not publish them.",
+  "description": "Rifle bullet ballistic catalog, schemaVersion 1.2.0. Do not add, remove, or rename fields without bumping schemaVersion and calling the change out. Unknown values are null or empty arrays. Do not invent measurements. 1.1.0 adds bearingSurfaceIn, ogiveLengthIn, boattailLengthIn, meplatIn, ogiveType, and discontinued. 1.2.0 adds baseToOgiveIn, noseLengthIn, and bcUnlabeled. New keys are present on every bullet and null when the source does not publish them. No earlier field was removed or renamed.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "manufacturer", "generatedOn", "bulletCount", "bullets"],
   "properties": {
     "schemaVersion": {
       "description": "Catalog contract version. Application code should reject other versions.",
-      "const": "1.1.0"
+      "const": "1.2.0"
     },
     "manufacturer": {
       "description": "Set on a single-manufacturer file. Null on the combined catalog and on the examples file.",
@@ -49,10 +49,13 @@
         "bcG7",
         "ballisticCoefficients",
         "bcSource",
+        "bcUnlabeled",
         "sectionalDensity",
         "lengthIn",
         "bearingSurfaceIn",
         "ogiveLengthIn",
+        "baseToOgiveIn",
+        "noseLengthIn",
         "boattailLengthIn",
         "meplatIn",
         "ogiveType",
@@ -105,7 +108,7 @@
           "minLength": 1
         },
         "diameterIn": {
-          "description": "Groove diameter in inches. Null when not published.",
+          "description": "Groove diameter in inches. Null when not published. A decimal inch printed in the caliber label or the product name is a published diameter: copy it here and quote that text in notes. Do not convert a caliber name such as \"22 Caliber\" or \"50 CAL\" into inches.",
           "type": ["number", "null"],
           "exclusiveMinimum": 0,
           "maximum": 1
@@ -138,6 +141,25 @@
           "type": ["string", "null"],
           "enum": ["manufacturer", "applied_ballistics", "litz", "lab_measured", "other", "unknown", null]
         },
+        "bcUnlabeled": {
+          "description": "A ballistic coefficient the source printed without naming a drag model. Null when every published BC names a model, or when no BC is published. Do not copy this into bcG1 or bcG7. Added in 1.2.0.",
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["value", "label"],
+          "properties": {
+            "value": {
+              "description": "The printed coefficient, unchanged.",
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 2
+            },
+            "label": {
+              "description": "The column or badge text as printed, e.g. \"BC\".",
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
         "sectionalDensity": {
           "description": "Sectional density as published, in lb/in^2. Do not calculate this to fill a blank. Null when not published.",
           "type": ["number", "null"],
@@ -158,6 +180,18 @@
         },
         "ogiveLengthIn": {
           "description": "Ogive length in inches, as published. Null when not published. Do not copy a nose length or a base-to-ogive length into this field.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "baseToOgiveIn": {
+          "description": "Base-to-ogive length in inches, as published. Null when not published. Not a substitute for ogiveLengthIn. Added in 1.2.0.",
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "maximum": 3
+        },
+        "noseLengthIn": {
+          "description": "Nose length in inches, as published. Null when not published. Not a substitute for ogiveLengthIn. Added in 1.2.0.",
           "type": ["number", "null"],
           "exclusiveMinimum": 0,
           "maximum": 3
