@@ -1,6 +1,6 @@
 # Community forum terms for Berger Elite Hunter loads
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Which public forums may be copied into community load files
 
@@ -73,3 +73,7 @@ Nosler Forum was not surveyed on this pass. No 6 mm 108 gr Elite Hunter row poin
 Copy a public post when the forum terms do not bar copying or scraping, `robots.txt` does not restrict the thread to reference-only use, and the page is readable without an account or a challenge. Quote the terms here. Flag a copyright-retention sentence or an "all rights reserved" footer and still collect, the same way the Vihtavuori notice was flagged and the catalog was still committed. Do not collect Reddit, Long Range Hunting, Sniper's Hide, or LoadDevelopment unless this file is answered otherwise.
 
 ## Answer
+
+Answered in `BOTS.md` on 2026-10-27 (PR #41, merged to main). The working assumption is agreed.
+
+Shooters' Forum, Rokslide, Long Range Only, and 24hourcampfire may be collected as described above: public thread pages, `robots.txt` respected, 10 seconds between requests, and the terms quoted in this file. The owner expects much more community data. Keep flagging copyright-retention lines, including "You retain copyright over the Content" and the 24hourcampfire "All Rights Reserved" footer. Skip any forum whose terms bar copying or scraping. Reddit, Long Range Hunting, Sniper's Hide, and LoadDevelopment stay out.
