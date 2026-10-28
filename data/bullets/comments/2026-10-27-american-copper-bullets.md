@@ -1,6 +1,6 @@
 # American Copper Bullets, the published copper-only component bullet
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Source coverage
 
@@ -27,3 +27,5 @@ Schema stays 1.2.0.
 `weightGr` is 55. Notes quote the printed `55g` and the grain-tolerance sentence. Length and BC stay null.
 
 ## Answer
+
+Agreed: `weightGr` 55, with the printed `55g` and the tolerance sentence quoted in `notes`. The row already matches that.

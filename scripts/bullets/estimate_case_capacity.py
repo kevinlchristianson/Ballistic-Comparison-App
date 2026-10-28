@@ -7,9 +7,13 @@ estimate as a printed measurement.
 
 A non-null caseCapacityGrH2O in the owner list or either bot file is a
 cited value and is not replaced. The same is true of a printed Hammer
-(or other) case volume once that list is in the tree. Re-run this
-script after those files change; printed numbers drop out of the
-estimate table on their own.
+case volume in data/loads/inputs/hammer/case-data.csv, and of any other
+printed case volume under data/loads. Re-run this script after those
+files change; printed numbers drop out of the estimate table on their own.
+
+Do not copy an estimate into caseCapacityGrH2O, neckLengthIn, or
+shoulderAngleDeg on a bot cartridge. Those fields now fill empty library
+values, so an estimate placed there would be shown as a sourced capacity.
 
   python3 scripts/bullets/estimate_case_capacity.py
 
@@ -22,6 +26,7 @@ taper fitted on cartridges that already have a cited capacity.
 
 from __future__ import annotations
 
+import csv
 import json
 import math
 import re
@@ -35,6 +40,8 @@ OWNER_PATH = ROOT / "data" / "cartridges" / "cartridges.json"
 LOADS_PATH = ROOT / "data" / "cartridges" / "bots" / "loads.json"
 BULLETS_PATH = ROOT / "data" / "cartridges" / "bots" / "bullets.json"
 OUTPUT_PATH = ROOT / "data" / "bullets" / "estimates" / "case-capacity.json"
+HAMMER_CASE_CSV = ROOT / "data" / "loads" / "inputs" / "hammer" / "case-data.csv"
+_GRAIN_IN_TEXT = re.compile(r"(\d+(?:\.\d+)?)\s*gr\b", re.IGNORECASE)
 
 # Same constant as src/lib/geometry.ts and src/lib/velocity/physics.ts.
 WATER_GRAINS_PER_CUBIC_INCH = 252.9
@@ -477,15 +484,19 @@ def _assume_rim_type(cluster: dict, by_id: dict[str, dict], children: dict[str, 
     return rim_type, "rim type " + rim_type + " taken from " + ", ".join(sources) + " because this row has none and the rim diameters agree"
 
 
-def scan_printed_overrides(clusters: list[dict], strict: dict[str, str], loose: dict[str, str], makers: dict[str, set[str]]) -> dict[str, dict]:
-    """Printed case volumes from later files. Hammer sheets are not on main yet.
+def scan_printed_overrides(clusters: list[dict], strict: dict[str, str], loose: dict[str, str], makers: dict[str, set[str]]) -> tuple[dict[str, dict], list[dict]]:
+    """Printed case volumes. These remove a cartridge from the estimate table.
 
     A file under data/loads or data/bullets/estimates counts when it is not
     this script's own output and it contains a cartridge id or name plus one
-    of caseCapacityGrH2O, caseVolumeGrH2O, or caseVolumeH2O. Differing numbers
-    for one cartridge are kept as a conflict and block the estimate.
+    of caseCapacityGrH2O, caseVolumeGrH2O, or caseVolumeH2O. Hammer's
+    case-data.csv is read the same way. Differing numbers for one cartridge
+    are kept as a conflict and block the estimate. Nothing here is copied
+    into a bot cartridge file.
     """
     found: dict[str, list[dict]] = defaultdict(list)
+    unmatched: list[dict] = []
+    _scan_hammer_csv(found, unmatched, strict, loose, makers)
     roots = [ROOT / "data" / "loads", ROOT / "data" / "bullets" / "estimates"]
     for root in roots:
         if not root.is_dir():
@@ -512,7 +523,36 @@ def scan_printed_overrides(clusters: list[dict], strict: dict[str, str], loose: 
             "conflict": len(values) > 1,
             "sources": sorted({entry["source"] for entry in entries}),
         }
-    return published
+    return published, unmatched
+
+
+def _scan_hammer_csv(found: dict[str, list[dict]], unmatched: list[dict], strict: dict[str, str], loose: dict[str, str], makers: dict[str, set[str]]) -> None:
+    """Hammer's printed 'Case volume H20' cells. A second grain figure is a conflict."""
+    if not HAMMER_CASE_CSV.is_file():
+        return
+    rel = str(HAMMER_CASE_CSV.relative_to(ROOT))
+    with HAMMER_CASE_CSV.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            text = (row.get("case_volume_h2o") or "").strip()
+            name = (row.get("cartridge") or "").strip()
+            if not text or not name:
+                continue
+            numbers = [float(match) for match in _GRAIN_IN_TEXT.findall(text)]
+            if not numbers:
+                continue
+            resolved = resolve_parent(name, strict, loose, makers)
+            if not resolved:
+                unmatched.append(
+                    {
+                        "name": name,
+                        "valuesGr": numbers,
+                        "text": text,
+                        "source": rel,
+                    }
+                )
+                continue
+            for value in numbers:
+                found[resolved].append({"value": value, "source": rel})
 
 
 def _collect_printed(node, source: str, found: dict[str, list[dict]], strict: dict[str, str], loose: dict[str, str], makers: dict[str, set[str]]) -> None:
@@ -561,7 +601,7 @@ def build() -> dict:
         if cluster["parentId"] and cluster["parentId"] in by_id and cluster["parentId"] != cluster["id"]:
             children[cluster["parentId"]].append(cluster["id"])
 
-    printed = scan_printed_overrides(clusters, strict, loose, makers)
+    printed, unmatched_printed = scan_printed_overrides(clusters, strict, loose, makers)
 
     calibration = []
     for cluster in clusters:
@@ -679,17 +719,21 @@ def build() -> dict:
         ]
     return {
         "schemaVersion": "1.0.0",
-        "generatedOn": "2026-10-27",
+        "generatedOn": "2026-10-28",
         "estimated": True,
         "supersededByPrintedValueWhenAvailable": True,
         "doNotCopyIntoCaseCapacityGrH2O": True,
+        "doNotFillLibraryFields": True,
         "description": (
             "Estimated case capacity in grains of water, to the case mouth. "
             "None of these numbers are printed measurements. A cited caseCapacityGrH2O "
             "in data/cartridges/cartridges.json, data/cartridges/bots/bullets.json, "
-            "data/cartridges/bots/loads.json, or a printed case-volume file "
-            "(including Hammer load sheets, once they are in the tree) removes "
-            "that cartridge from this table on the next run. "
+            "data/cartridges/bots/loads.json, Hammer's printed Case volume H20 in "
+            "data/loads/inputs/hammer/case-data.csv, or another printed case-volume "
+            "file under data/loads removes that cartridge from this table on the next run. "
+            "Do not copy caseCapacityEstimateGrH2O into a bot cartridge. "
+            "A bot record's caseCapacityGrH2O, neckLengthIn, and shoulderAngleDeg "
+            "now fill empty library fields, so an estimate placed there would be shown as published. "
             "Load-bot cartridges are included because capacity estimates were handed to the bullet bot. "
             "This file does not claim those cartridges."
         ),
@@ -748,6 +792,7 @@ def build() -> dict:
         "estimateCount": len(estimates),
         "skippedCitedCount": len(skipped),
         "unableCount": len(unable),
+        "printedCaseVolumesNotMatched": unmatched_printed,
         "estimates": estimates,
         "unable": unable,
         "skippedCited": skipped,
