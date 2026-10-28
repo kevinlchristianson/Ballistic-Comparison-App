@@ -20,6 +20,8 @@ The Berger OTM Tactical line closes with this pull request — [#205](https://gi
 
 The Berger Varmint line closes with this pull request — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The 20 cal 40 gr BT, part 20304, the 22 cal 40 gr FB, part 22303, the 22 cal 55 gr FB, part 22311, and the 22 cal 60 gr FB, part 22312, were searched and got no file.
 
+The bullets whose product line is blank close with this pull request — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and got no file. Every Berger product line in the catalog is now harvested.
+
 ## In progress
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
@@ -62,7 +64,7 @@ The 30 cal 175 gr Long Range BT Target, part 30420, is [#242](https://github.com
 
 375 cal 407 gr ELR Match Solid, part 37407, was searched. No posted powder charge turned up. No file and no pull request. The same announcement gives 2800 fps from a 30 in barrel and names no powder. Searched 375 CheyTac, 375 EnABELR, 375 Snipetac, and 375 SOB. No 375 H&H or 375 Ruger post named either solid.
 
-The bullet in this pull request is the 30 cal 185 gr Juggernaut Target, part 30418. The blank product line group closes with this file.
+The bullet in this pull request is the 30 cal 185 gr Juggernaut Target, part 30418 — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The blank product line group closes with this file.
 
 This pull request clears OMW57's charge on the 6 mm 90 gr BT Target file — [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234). He wrote over 30 grains, a lower bound, so the charge stays null and the note keeps Charge_gr: over 30.
 
@@ -180,13 +182,13 @@ Merged community files, with the pull request number:
 - 30 cal 115 gr FB Target, part 30421 — [#237](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/237)
 - 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240)
 - 30 cal 175 gr Long Range BT Target, part 30420 — [#242](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/242)
-- 30 cal 185 gr Juggernaut Target, part 30418
+- 30 cal 185 gr Juggernaut Target, part 30418 — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-The bullets whose product line is blank are complete. The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and have no file.
+The bullets whose product line is blank are closed — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and have no file.
 
 ## Ambiguous VLD line candidates
 
