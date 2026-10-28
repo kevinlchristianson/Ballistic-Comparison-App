@@ -14,11 +14,11 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 ## In progress
 
-Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. The 6 mm 105 gr candidates that still do not say Hunting or Target stay on the list.
+Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. Each candidate lists the bullet weight, cartridge, powder, charge, and velocity as posted.
 
-The bullet in this pull request is the 6 mm 105 gr VLD Target, part 24429 — [#171](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/171).
+The bullet in this pull request is the 6.5 mm 130 gr VLD Target, part 26403.
 
-6 mm 95 gr VLD Target, part 24427, was searched. No charge that named the target line turned up. Untagged 95 VLD charges are in the ambiguous list. Boatschool02's 95VLD-H charges are the hunting bullet. No file and no pull request for the target bullet.
+6 mm 115 gr VLD Target, part 24430, was searched. No charge that named only the target line turned up. The 6mm Dasher thread titled for the target bullet has Berger and Lyman manual numbers and starting advice, not a fired community charge. Untagged 115 VLD charges are in the ambiguous list, with powder, charge, and velocity as posted. No file and no pull request for the target bullet.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -71,22 +71,21 @@ Merged community files, with the pull request number:
 - 22 cal 80 gr VLD Target, part 22422 — [#164](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/164)
 - 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170)
 - 6 mm 105 gr VLD Target, part 24429 — [#171](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/171)
+- 6.5 mm 130 gr VLD Target, part 26403 — this pull request
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 105 gr file merges, still in VLD Target. The 6 mm 95 gr VLD Target, part 24427, was searched and got no file.
+After the 130 gr file merges, still in VLD Target. The 6 mm 95 gr VLD Target, part 24427, and the 6 mm 115 gr VLD Target, part 24430, were searched and got no file.
 
-1. 6 mm 115 gr VLD Target, part 24430
-2. 6.5 mm 130 gr VLD Target, part 26403
-3. 6.5 mm 140 gr VLD Target, part 26401
-4. 7 mm 168 gr VLD Target, part 28401
-5. 7 mm 180 gr VLD Target, part 28405
-6. 30 cal 168 gr VLD Target, part 30410
-7. 30 cal 175 gr VLD Target, part 30412
-8. 30 cal 185 gr VLD Target, part 30413
-9. 30 cal 210 gr VLD Target, part 30415
+1. 6.5 mm 140 gr VLD Target, part 26401
+2. 7 mm 168 gr VLD Target, part 28401
+3. 7 mm 180 gr VLD Target, part 28405
+4. 30 cal 168 gr VLD Target, part 30410
+5. 30 cal 175 gr VLD Target, part 30412
+6. 30 cal 185 gr VLD Target, part 30413
+7. 30 cal 210 gr VLD Target, part 30415
 
 After VLD Target: Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -100,9 +99,20 @@ These posts name a bullet weight and do not name the product line, or they name 
 - 6 mm 95 VLD, 6BR, Varget 31.4 gr, 0.005 into the lands, CCI 450, Toby Bradshaw, Mar 7, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
 - 6 mm 95 VLD, 6BR, either side of 31 grains of Varget, .010 off, Steve Ladino, Mar 11, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
 - 6 mm 95 VLD, 6BRX, H4350 from 34.5 to 37 gr, jammed .012, 26 in, Grimstod, Jun 3, 2017: [6BRX H4350 and Berger VLD 95gr](https://forum.accurateshooter.com/threads/6brx-h4350-and-berger-vld-95gr-loads.3927800/)
-- 6 mm 115 VLD, 6 Creed, RL-16 from 39 to 42.7 gr and H4831sc 43.6 gr at 3023 fps: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
+- 6 mm 115 VLD, 6 Creed thread, cartridge not named in the post, Reloder 16, 39 to 42.7 gr, velocity jumps of 30-35 fps, 41 gr the only decent group, Aggie14, Feb 28, 2021: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
+- 6 mm 115 VLD, 6 Creed thread, cartridge not named in the post, H4831sc, 43.6 gr, 3023 fps, 0.015 off, Aggie14, Feb 28, 2021: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
 - 6 mm 115 VLD, 6mm Creedmoor, H4350 39.2 gr at 3015 fps, 28 in Shilen: [barrel friendly 6mm Creedmoor powder, page 2](https://forum.accurateshooter.com/threads/barrel-friendly-6mm-creedmoor-powder.4058244/page-2)
-- 6.5 mm 130 VLD, 6.5x47, 2820 fps, no charge, alf, Nov 8, 2021: [130 gr VLD hunting in a 260, page 2](https://forum.accurateshooter.com/threads/berger-130gr-vld-hunting-in-a-260.4049884/page-2)
+- 6 mm 115 VLD, 6mm Creedmoor thread, RE#26, 44.2 gr, 3135 fps, seating 2.908, 26 in Bartlein 7.5 twist, Ironworker, Jul 23, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
+- 6 mm 115 VLD, 6mm Creedmoor thread, H4350, 38.5 gr, 2945 fps, seating 2.895, 26 in Bartlein 7.5 twist, Ironworker, Jul 23, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
+- 6 mm 115 VLD, 6XC, H4350, 40.0 gr, 3064 fps, STOMP442, Jul 23, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
+- 6 mm 115 VLD, cartridge not named, thread is 6mm Creedmoor, RL 16, 38.6 to 39 gr, around 3000 fps, 1000 yard benchrest, MTlager, Jul 24, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
+- 6 mm 115 VLD, cartridge not named, thread is 6mm Creedmoor, RL 16 or RL 26, 41 gr, 3100-3150 fps, hunting and steel, MTlager, Jul 24, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
+- 6 mm 115 VLD, 6-284, no powder, no charge, 3200 fps, alf, May 12, 2010: [6-284 favorite load](https://forum.accurateshooter.com/threads/6-284-whats-your-favorite-load.3746298/)
+- 6 mm 115 VLD, 6-284 thread, RL25, 52.5 gr, 3060 fps, COAL 3.050, 26 in, kendoka66, Jun 7, 2010: [6-284 favorite load](https://forum.accurateshooter.com/threads/6-284-whats-your-favorite-load.3746298/)
+- 6 mm 115 VLD, 6x284, Retumbo, 54.0 gr he called max, shared with the 105, no velocity, 31 in Krieger 1-8, kendoka66, Jul 7, 2011: [6-284 ready for delivery, page 2](https://forum.accurateshooter.com/threads/6-284-ready-for-delivery.3767927/page-2)
+- 6.5 mm 130 VLD, 6.5x47 thread, H4350, 40.8 gr, right around 2900 fps, CCI 450, 26 in Krieger, hunting or target in the same sentence, jpistolero02, Mar 19, 2012: [6.5x47 with 130 VLD and H4350](https://forum.accurateshooter.com/threads/6-5x47-with-130-vld-and-h4350.3783849/)
+- 6.5 mm 130 VLD, 6.5x47 thread, Reloder 15, 37.3 gr, 2925 fps, seated at the lands, BR4, 30 in Criterion, cruiser49, Mar 22, 2012: [6.5x47 with 130 VLD and H4350](https://forum.accurateshooter.com/threads/6-5x47-with-130-vld-and-h4350.3783849/)
+- 6.5 mm 130 VLD, 6.5x47, 2820 fps, no powder, no charge, alf, Nov 8, 2021: [130 gr VLD hunting in a 260, page 2](https://forum.accurateshooter.com/threads/berger-130gr-vld-hunting-in-a-260.4049884/page-2)
 - 6.5 mm 130 VLD, cartridge not named, 3000 fps, no charge, alf, May 1, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
 - 6.5 mm 130 VLD, 6.5x47 context, Varget 39.0 gr at 3000 fps, Yote Hunter, May 2, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
 - 6.5 mm 140 VLD, .260 rem, H4350 42 gr, 0.010 jam, RHux, Jan 31, 2014: [260 Rem 140 gr Berger hunting](https://forum.accurateshooter.com/threads/260-rem-140gr-berger-bld-hunting.3835010/)
@@ -243,5 +253,9 @@ The 22 cal 90 gr VLD Target file adds no unmatched name. `223`, `.223`, and `.22
 The 6 mm 95 gr VLD Target search adds no unmatched name and no file. No post named the target line and a fired charge. Searched 6BR, 6BRX, 6 Dasher, 6 BRA, 6mm Creedmoor, 243 Win, 6XC, 6 GT, and 6x47 Lapua. Toby Bradshaw's 31.4 gr Varget, Steve Ladino's Varget note, and Grimstod's H4350 ladder do not say Hunting or Target, so they are in the ambiguous list. Boatschool02's 31.6 gr at 3060 fps and 29.5-30.3 gr at 2860-2940 fps are 95VLD-H, the hunting bullet, and are not in the hunting file.
 
 The 6 mm 105 gr VLD Target file adds no unmatched name. `6BR` resolves to `6mm-norma-br`. OmegaRed named the target line. The 30.1 gr Varget node and the RL15 charge shared with a Hybrid stay on the ambiguous list. tbeasley's 40.5 gr H4350 in a 6xc does not name a line. DHuffman's 29.5 gr Varget is 105 HVLDs, the hunting bullet, and is not in the hunting file. Frankr's 40.5 gr RL17 is 105 HVLD in a 6XC and is not in the hunting file. Norma factory ammunition with a moly 105 VLD Target is not a community load. No fired charge that named the target line turned up in 6mm Creedmoor, 243 Win, 6 Dasher, 6 BRA, 6XC, 6x47 Lapua, or 6 GT. This file does not edit the 105 gr VLD Hunting or Hybrid Target sources.
+
+The 6 mm 115 gr VLD Target search adds no unmatched name and no file. No fired charge named only the target line. Searched 6mm Creedmoor, 6 Creed, 6mm Dasher, 6 GT, 6XC, 6-284, 243 Win, 6 BRA, and 6x47 Lapua. Berger and Lyman manual numbers in the Dasher thread are not community loads. Aggie14, Ironworker, STOMP442, MTlager, alf, and kendoka66 are on the ambiguous list with the powder, charge, and velocity as posted. MTlager's 600-yard ladder used hunting and target lots together and gave no separate charge.
+
+The 6.5 mm 130 gr VLD Target file adds no unmatched name. `6.5x47` and `6.5x47L` resolve to `6-5x47-lapua`. KT, Eric Leonard, and BradY named the target line or posted in the thread titled for the 130 gr target VLDs. jpistolero02 named hunting or target in one sentence, so that 40.8 gr H4350 row stays on the ambiguous list. cruiser49's 37.3 gr Reloder 15 does not say Hunting or Target. nhm16, DennisH, rpl6cm, and James EPS did not name a Berger 130 VLD. RED DIRT's Creedmoor thread names part 26403 and has no fired charge. No fired charge that named the target line turned up in 6.5 Creedmoor, 260 Rem, 260 AI, 6.5-284, 6.5 PRC, or 6.5 SAUM. A pasted 6.5 SAUM table of 130 VLD rows is not one poster's load. This file does not edit the 130 gr VLD Hunting source. Yote Hunter's 39.0 gr Varget and alf's no-charge velocities stay on the ambiguous list.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
