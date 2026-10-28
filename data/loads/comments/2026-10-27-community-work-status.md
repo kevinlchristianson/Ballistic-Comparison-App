@@ -24,7 +24,9 @@ The Berger Varmint line closes with this pull request — [#216](https://github.
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
 
-Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The bullet in this pull request is the 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217). A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
+Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The 22 cal 52 gr FB Target, part 22408, is [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217).
+
+This pull request adds Lefty Trigger's 30.0 gr and 30.3 gr of N135 to the 6 mm 80 gr FB Varmint file, part 24321 — [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219). A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -120,7 +122,7 @@ Merged community files, with the pull request number:
 - 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207)
 - 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210)
 - 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212)
-- 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215)
+- 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215), follow-up [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219)
 - 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
 - 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
 
@@ -194,6 +196,13 @@ These posts name a bullet weight and do not name the product line, or they name 
 - 30 cal 210 VLD, .308, Varget 41.2 gr at 2425 fps, X-Caveman: [308 win 210 VLD loads](https://forum.accurateshooter.com/threads/308-win-210-vld-loads-anyone.3851564/)
 - 30 cal 210 VLD, 300 wby, RL 25 73 to 83 gr, match barrels, 4xforfun, Sep 4, 2012: [300 weatherby 210 vld](https://forum.accurateshooter.com/threads/300-weatherby-and-berger-210-vld-load-info.3794217/)
 - 6.5 mm 140 VLD, 6.5-270, 3090 fps, no charge, Shaun White: [6.5-270 with 140 bergers](https://forum.accurateshooter.com/threads/6-5-270-with-140-bergers-update.3642915/)
+
+## Ambiguous Varmint or Target
+
+These posts name a flat base and do not say Varmint or Target. The catalog has both lines at the weight. They are not in a community file yet.
+
+- 22 cal 55 FB, 223 Remington thread, cartridge not named in the post, AR Comp, around 24 grains, no velocity, Shilen 14 twist, afret, Jun 27, 2024: [1 in 14 twist 223 Remington barrel projectiles](https://forum.accurateshooter.com/threads/1-in-14-twist-223-remington-barrel-projectiles.4127811/)
+
 ## Hammer Bullets import, started elsewhere
 
 The Hammer Bullets manufacturer load-sheet import has started in a separate cloud agent, `bc-a55c903a-0bd2-5c85-ac64-a64ddbce9f52`. That agent is writing `data/loads/sources/hammer.json`, `data/loads/inputs/hammer/`, and `data/loads/comments/2026-10-27-hammer-terms.md`. This community harvest does not touch those paths.
@@ -335,7 +344,7 @@ The 22 cal 52 gr FB Varmint file adds no unmatched name. `222` resolves to `222-
 
 The 6 mm 80 gr FB Varmint file adds `6BR-AI` and `6mmbr Norma`. `6mmBR` is the same unmatched name already listed. `6mm BR Norma`, `6br`, and `6BR` resolve to `6mm-norma-br`. Big Mc wrote 3550.6mmbr Norma with no space, so the velocity stays null and the cartridge is stored as `6mmbr Norma`. swadiver's N135 nodes are around 30 gr and around 32 gr, so those charges stay null. Fyrchief's velocity is about 3070, so it stays null, and his 2.230 in LOA is the COAL. Eric Leonard's 29.9 gr velocity is a high of 3120 and a low of 3105, so it stays null. Hpwrshooter posted 38 gr of H4350 with 80 gr Berger varmint bullets and did not name the cartridge. Idaho-Lefty's IMR 4350 ladder is Sierra 80 gr Varminters. Cory porter's 31.5 gr of 8208 is Bart's, not this Berger. swadiver posted 30.2 gr of Varget and 29.0 gr of IMR 8208 XBR and did not name the cartridge. ranger3 posted 29.8 gr of H4895 and did not name the cartridge. No fired 80 gr FB Varmint charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Creed, 243 AI, 6mm ARC, or 240 Wby. The 22 cal 55 gr and 60 gr searches add no unmatched name and no file. afret's Berger 55 FBs and around 24 grains of AR Comp do not say which 55 gr flat base. Sniper338 named a 60-64 gr Berger flat base varmint and gave no charge. No fired 55 gr FB Varmint charge turned up in 222, 223, 22-250, 220 Swift, 22 Nosler, 224 Valkyrie, 22 Hornet, 22 BR, or 22 PPC. No fired 60 gr FB Varmint charge turned up in 223, 22-250, 22-250 AI, 220 Swift, 222, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged.
 
-The 6 mm 88 gr High BC FB Varmint file adds no unmatched name. `6 BR` and `6BR` resolve to `6mm-norma-br`. `6XC` resolves to `6xc`. LA50SHOOTER's September 2018 velocity is around 3200, so it stays null. rickhirsch wrote 31.grs. of rl 15, so that charge stays null. mikeinct named the 88 gr flat base in a 243 Win and a 6mmbr and gave no charge. 370bc named around 3200 fps from a 1-12 Kimber and gave no charge. Bell named a 6BRX and gave no charge. barefooter56 pointed at manufacturer load data, which is not a community load. Lefty Trigger's 30.0 gr and 30.3 gr of N135 are the 80 gr FB, not this bullet, and they are not in the 80 gr file. No fired 88 gr High BC FB Varmint charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Creed, 243 AI, 6mm ARC, or 240 Wby. The ambiguous VLD list is left unchanged. This pull request closes the Varmint line.
+The 6 mm 88 gr High BC FB Varmint file adds no unmatched name. `6 BR` and `6BR` resolve to `6mm-norma-br`. `6XC` resolves to `6xc`. LA50SHOOTER's September 2018 velocity is around 3200, so it stays null. rickhirsch wrote 31.grs. of rl 15, so that charge stays null. mikeinct named the 88 gr flat base in a 243 Win and a 6mmbr and gave no charge. 370bc named around 3200 fps from a 1-12 Kimber and gave no charge. Bell named a 6BRX and gave no charge. barefooter56 pointed at manufacturer load data, which is not a community load. Lefty Trigger's 30.0 gr and 30.3 gr of N135 are the 80 gr FB, not this bullet. This follow-up adds them to the 80 gr file. A Nov 14, 2020 post gave 3138 fps with a 205M primer for his 80 gr load and did not restate the charge, so that velocity is not stored. afret's Berger 55 FBs and around 24 grains of AR Comp are in the Varmint or Target list. No fired 88 gr High BC FB Varmint charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Creed, 243 AI, 6mm ARC, or 240 Wby. The ambiguous VLD list is left unchanged. This pull request closes the Varmint line.
 
 The 22 cal 52 gr FB Target file adds no unmatched name. `223 Rem` resolves to `223-rem`. Zero333's COAL is 2.260 in plus or minus, so it stays null. Pawnee Bill posted the beginning charge, 23.5 gr, and the ending charge, 25.9 gr, of a nine-load H335 test. The middle charges are on the target photo, not in the text. urbanrifleman's Lt 32 charge is 25 grains ish, so it is not a row. msinc's 26.0 gr of W748 is in a thread that says Berger 52 gr and does not say FB Target. dstoenner's 23.7 gr is for a 52 and a 55 Berger and does not name the powder in the sentence. coldboreshot named the 52 FB target and gave no charge. No fired 52 gr FB Target charge turned up in 222, 22-250, 220 Swift, 22 BR, 22 PPC, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged. This file does not edit the 52 gr FB Varmint source.
 
