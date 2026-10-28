@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 270 Caliber 140 Grain VLD Hunting",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-270cal-140gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": ".270 Win",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 130,
+      "bulletDescription": "140 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "h4831sc",
+      "charge": 60.3,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "Fed 210",
+      "case": "win",
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": 3090,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://rokslide.com/forums/threads/slow-velocities-with-h4831-270-win.126429/page-2",
+      "sourcePage": "Rokslide",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: Lrt307; Posted:; berger 140 hvld. Remington 700 semi-custom. 2.845 on the comparator is base to ogive, not COAL. He did not name the cartridge; the thread is .270 Win. The fetched page did not show a post date. Thread started Apr 20, 2019."
+    }
+  ]
+}
