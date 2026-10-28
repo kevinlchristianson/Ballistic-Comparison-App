@@ -14,7 +14,9 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 6 mm 105 gr VLD Hunting, part 24528 — [#135](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/135).
+The bullet in this pull request is the 25 cal 115 gr VLD Hunting, part 25513 — [#137](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/137).
+
+6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
 ## Done
 
@@ -44,29 +46,28 @@ Merged community files, with the pull request number:
 - 375 cal 410 gr Hybrid Target, part 37401 — [#115](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/115)
 - 6 mm 87 gr VLD Hunting, part 24524 — [#129](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/129)
 - 6 mm 95 gr VLD Hunting, part 24527 — [#131](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/131)
+- 6 mm 105 gr VLD Hunting, part 24528 — [#135](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/135)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 105 gr file merges, still in VLD Hunting:
+After the 25 cal 115 gr file merges, still in VLD Hunting:
 
-1. 6 mm 115 gr VLD Hunting, part 24530
-2. 25 cal 115 gr VLD Hunting, part 25513
-3. 6.5 mm 130 gr VLD Hunting, part 26503
-4. 6.5 mm 140 gr VLD Hunting, part 26504
-5. 270 cal 130 gr VLD Hunting, part 27501
-6. 270 cal 140 gr VLD Hunting, part 27502
-7. 270 cal 150 gr VLD Hunting, part 27503
-8. 7 mm 140 gr VLD Hunting, part 28503
-9. 7 mm 168 gr VLD Hunting, part 28501
-10. 7 mm 180 gr VLD Hunting, part 28502
-11. 30 cal 155 gr VLD Hunting, part 30508
-12. 30 cal 168 gr VLD Hunting, part 30510
-13. 30 cal 175 gr VLD Hunting, part 30512
-14. 30 cal 185 gr VLD Hunting, part 30513
-15. 30 cal 190 gr VLD Hunting, part 30514
-16. 30 cal 210 gr VLD Hunting, part 30515
+1. 6.5 mm 130 gr VLD Hunting, part 26503
+2. 6.5 mm 140 gr VLD Hunting, part 26504
+3. 270 cal 130 gr VLD Hunting, part 27501
+4. 270 cal 140 gr VLD Hunting, part 27502
+5. 270 cal 150 gr VLD Hunting, part 27503
+6. 7 mm 140 gr VLD Hunting, part 28503
+7. 7 mm 168 gr VLD Hunting, part 28501
+8. 7 mm 180 gr VLD Hunting, part 28502
+9. 30 cal 155 gr VLD Hunting, part 30508
+10. 30 cal 168 gr VLD Hunting, part 30510
+11. 30 cal 175 gr VLD Hunting, part 30512
+12. 30 cal 185 gr VLD Hunting, part 30513
+13. 30 cal 190 gr VLD Hunting, part 30514
+14. 30 cal 210 gr VLD Hunting, part 30515
 
 After VLD Hunting: VLD Target, Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -135,5 +136,7 @@ The 6 mm 87 gr VLD Hunting file adds `6mmBR`, `6X47 L`, and `BRA`. `6br` and `6B
 The 6 mm 95 gr VLD Hunting file adds no new unmatched name. `6X47 L` is already on the list. `243`, `6br`, and `6BR` resolve. 6 Dasher and 6BRA were named with no charge. No fired charge turned up in 6mm Creedmoor.
 
 The 6 mm 105 gr VLD Hunting file adds `6X47 Lapua` and `6x47`. Posts that named the hunting VLD in 6BR, 6 Dasher, 6mm BR, and 6XC gave seating only. No fired hunting-VLD charge turned up in 6mm Creedmoor or 243 Win. A 6x22-250 post named H-4831SC and gave no charge.
+
+The 25 cal 115 gr file adds no unmatched name. `25-06` and `25/06` resolve to `25-06-rem`. The 6 mm 115 gr bullet had no file. No fired 25 cal 115 gr charge turned up outside 25-06.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
