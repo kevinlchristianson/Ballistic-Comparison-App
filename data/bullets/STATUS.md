@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 20:12 UTC
+Last updated: 2026-10-28 20:15 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -65,6 +65,12 @@ Ten more library cartridges cite unique 4D case drawings and fill only empty fie
 The late bullet-drawing check re-read four Berger product pages whose nose, bearing surface, and boattail miss overall length by more than 0.05 in. The pages print those figures: 30485 (1.575 versus 1.449), 37379 (2.236 versus 1.801), 37407 (2.347 versus 1.847), and 26403 (1.310 versus 1.403). No length was changed. See [`comments/2026-10-28-berger-length-segments.md`](comments/2026-10-28-berger-length-segments.md).
 
 Three Lehigh Defense Wide Flat Nose bullets print an inch meplat in the Wilson Combat Notes field, and that diameter is now `meplatIn`: .458 380 gr 0.346, .458 450 gr 0.279, and .375 270 gr 0.220. The .416 350 gr and .475 330 gr Wide Flat Nose pages do not print a meplat. Cutting Edge prints "67% Meplat" as a nose-profile name, not an inch diameter, so `meplatIn` stays empty. Hammer and Berger site searches return no product spec that prints a meplat. A Hammer tip length stays a tip length. Spot checks of Maker, Hawk, Swift, Woodleigh, Bear Creek, American Copper, and PVA pages do not print one.
+
+Beyond Berger, no checked maker prints a numeric nose length, bearing-surface length, or boattail length except Hammer's nose length, which is already stored on 250 bullets. Hammer's other mentions of a bearing surface or a boat tail do not print the length. Cutting Edge's projection length stays out of `ogiveLengthIn`. Lehigh's ogive length is already stored and is not one of those three fields.
+
+Five Hammer pages name the base, and `construction` already has that token: .375 137 gr Stone Hammer and .264 92 gr Power Hammer are `flat_base`; .284 154 gr HBC GEN II, .458 674 gr Target Hammer, and .308 196 gr Hammer Hunter are `boattail`. The notes now quote the sentence. The other Hammer pages do not name a base, so that token stays off.
+
+No checked page prints a boattail angle in degrees or an Rt/R. The .284 154 gr HBC page says the boat tail angle was adjusted and does not print the degrees. See [`comments/2026-10-28-boattail-angle-rt-r.md`](comments/2026-10-28-boattail-angle-rt-r.md).
 
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
 
