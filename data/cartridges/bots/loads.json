@@ -2,8 +2,8 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 43,
-  "aliasCount": 17,
+  "cartridgeCount": 37,
+  "aliasCount": 15,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -44,26 +44,22 @@
       ],
       "parentCase": null,
       "lengthUnit": "in",
-      "bulletDiameter": 0.2645,
+      "bulletDiameter": 0.264,
       "caseLength": 2.59,
       "trimLength": null,
       "maxCoal": 3.34,
-      "rimDiameter": 0.534,
+      "rimDiameter": null,
       "neckLength": null,
       "caseCapacityGrH2O": 93,
-      "shoulderAngleDeg": 35,
+      "shoulderAngleDeg": null,
       "rimType": null,
-      "pressure": {
-        "value": 65000,
-        "unit": "psi",
-        "method": "piezo"
-      },
+      "pressure": null,
       "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 26 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
+        "name": "Nosler, 26 Nosler cartridge page",
+        "url": "https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge",
+        "retrievedOn": "2026-10-28"
       },
-      "note": "Drawing prints bullet .2645 - .0030, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints a useable case capacity of 93 grains of water: https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 94.3 (120 gr), 95.0 (123/125 gr), 93.0 (130 and 140 gr); those are not stored."
+      "note": "Nosler prints a useable case capacity of 93 grains of water. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
     },
     {
       "id": "27-nosler",
@@ -74,207 +70,22 @@
       ],
       "parentCase": null,
       "lengthUnit": "in",
-      "bulletDiameter": 0.278,
+      "bulletDiameter": 0.277,
       "caseLength": 2.59,
       "trimLength": null,
       "maxCoal": 3.34,
-      "rimDiameter": 0.534,
+      "rimDiameter": null,
       "neckLength": null,
       "caseCapacityGrH2O": 98.4,
-      "shoulderAngleDeg": 35,
+      "shoulderAngleDeg": null,
       "rimType": null,
-      "pressure": {
-        "value": 65000,
-        "unit": "psi",
-        "method": "piezo"
-      },
+      "pressure": null,
       "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 27 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
+        "name": "Nosler, 27 Nosler cartridge page",
+        "url": "https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge",
+        "retrievedOn": "2026-10-28"
       },
-      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints fireformed overflow to the neck as 98.4 gr H2O: https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 91.5 (150 gr) and 87.8 (165 gr); those are not stored."
-    },
-    {
-      "id": "33-nosler",
-      "name": ".33 Nosler",
-      "kind": "saami",
-      "aliases": [
-        "33 Nosler"
-      ],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.339,
-      "caseLength": 2.46,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.534,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35,
-      "rimType": null,
-      "pressure": {
-        "value": 65000,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 33 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing prints bullet .3390 - .0030, case 2.460 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler CASE HOLDS under the bullet differs by sheet: 225 gr 82.0, 250 gr 81.4, 300 gr 76.8. No single capacity is printed, so this stays null."
-    },
-    {
-      "id": "22-arc",
-      "name": "22 Advanced Rifle Cartridge",
-      "kind": "saami",
-      "aliases": [
-        "22 ARC"
-      ],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.2244,
-      "caseLength": 1.525,
-      "trimLength": null,
-      "maxCoal": 2.26,
-      "rimDiameter": 0.441,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30,
-      "rimType": null,
-      "pressure": {
-        "value": 52000,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 22 Advanced Rifle Cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 22 ADVANCED RIFLE CARTRIDGE [22 ARC]. Bullet .2244 - .0030, case 1.525 - .020, COAL 2.060 min to 2.260 max, rim .441 - .010, shoulder basic 30°. Transducer MAP printed 520 psi/100. Crusher not established."
-    },
-    {
-      "id": "300-rcm",
-      "name": "300 Ruger Compact Magnum",
-      "kind": "saami",
-      "aliases": [
-        "300 RCM"
-      ],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.309,
-      "caseLength": 2.1,
-      "trimLength": null,
-      "maxCoal": 2.84,
-      "rimDiameter": 0.532,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30,
-      "rimType": null,
-      "pressure": {
-        "value": 65000,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 300 Ruger Compact Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 300 RUGER COMPACT MAGNUM [300 RCM]. Bullet .309 - .003, case 2.100 - .020, COAL 2.715 min to 2.840 max, rim .532 - .010, shoulder basic 30°. Transducer MAP printed 650 psi/100. Crusher not established."
-    },
-    {
-      "id": "6-5-wby-rpm",
-      "name": "6.5 Weatherby Rebated Precision Magnum",
-      "kind": "saami",
-      "aliases": [
-        "6.5 WBY RPM"
-      ],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.2643,
-      "caseLength": 2.57,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.473,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35,
-      "rimType": "rebated",
-      "pressure": {
-        "value": 65000,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 6.5 Weatherby Rebated Precision Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 6.5 WEATHERBY REBATED PRECISION MAGNUM [6.5 WBY RPM]. Bullet .2643 - .0030, case 2.570 - .020, COAL 3.200 min to 3.340 max, rim .473 - .010, shoulder basic 35°. The name prints rebated. Transducer MAP printed 650 psi/100. Crusher not established."
-    },
-    {
-      "id": "30-rem-ar",
-      "name": "30 Remington AR",
-      "kind": "saami",
-      "aliases": [
-        "30 REM AR"
-      ],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.309,
-      "caseLength": 1.53,
-      "trimLength": null,
-      "maxCoal": 2.26,
-      "rimDiameter": 0.492,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25,
-      "rimType": null,
-      "pressure": {
-        "value": 55000,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 30 Remington AR drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 30 REMINGTON AR [30 REM AR]. Bullet .309 - .003, case 1.530 - .020, COAL 2.000 min to 2.260 max, rim .492 - .010, shoulder basic 25°. Transducer MAP printed 550 psi/100. Crusher not established."
-    },
-    {
-      "id": "338-norma-magnum",
-      "name": ".338 Norma Magnum",
-      "kind": "saami",
-      "aliases": [
-        "338 Norma Magnum",
-        "338 NM"
-      ],
-      "parentCase": null,
-      "lengthUnit": "mm",
-      "bulletDiameter": 8.6,
-      "caseLength": 63.3,
-      "trimLength": null,
-      "maxCoal": 93.5,
-      "rimDiameter": 14.93,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.5,
-      "rimType": null,
-      "pressure": {
-        "value": 62500,
-        "unit": "psi",
-        "method": "piezo"
-      },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 338 Norma Magnum cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Metric-origin drawing. Bullet 8.60 - 0.076 mm (.3386 - .0030), case 63.30 - 0.51 mm (2.492 - .0200), COAL 90.33 mm min to 93.50 mm max, rim 14.93 - 0.25 mm (.588 - .010), shoulder basic 20° 30'. Stored lengths are the metric maxima. Transducer MAP is 625 psi/100. Crusher not established. Inch figures on the drawing are calculated from the metric."
+      "note": "Nosler prints a fireformed case, overflowing to the neck, as 98.4 gr H2O. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
     },
     {
       "id": "6-17-spitfire",
@@ -1206,24 +1017,6 @@
     }
   ],
   "aliases": [
-    {
-      "cartridgeId": "7mm-saum",
-      "alias": "7mm REM SA ULTRA MAG",
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 7mm Remington Short Action Ultra Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      }
-    },
-    {
-      "cartridgeId": "300-saum",
-      "alias": "300 REM SA ULTRA MAG",
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 300 Remington Short Action Ultra Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      }
-    },
     {
       "cartridgeId": "30-rem-ar",
       "alias": "30 AR Remington",

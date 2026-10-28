@@ -34,10 +34,12 @@ Searched on 2026-10-27, and left null because no single published water capacity
 
 ## Working assumption until answered
 
-The bot file keeps the cited 98.4 and 93. PR #87 fills those empty library fields from the bot record and does not overwrite a value the library already has. No parent-case estimate is written. The bullet bot's estimates cover cartridges that still have no published capacity.
+The bot file keeps the cited 98.4 and 93. Bullet diameter, case length, and max COAL on those records are copied from the library entry. Rim, shoulder, and drawing pressure are null, so a Z299.4 dimension is not filled into the library. No parent-case estimate is written. The bullet bot's estimates cover cartridges that still have no published capacity.
 
 ## Answer
 
-Answered by [PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) and `BOTS.md` (What changed, item 7, and the answer for this file). A bot record whose id or name is already in the library is still left out, and its sourced `caseCapacityGrH2O`, `neckLengthIn`, and `shoulderAngleDeg` fill those fields when the library has none. A value the library already has is never replaced.
+Answered by [PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) and `BOTS.md` (What changed, item 7, and the answer for this file). A bot record whose id or name is already in the library is still left out, and its sourced `caseCapacityGrH2O` fills that field when the library has none. A value the library already has is never replaced.
 
-Confirmed on 2026-10-28 from `data/normalized/REPORT.md` after normalization: `26-nosler` caseCapacityGrH2O = 93 and `27-nosler` caseCapacityGrH2O = 98.4. Both records stay left out as duplicates. The 93 gr figure is Nosler's useable case capacity. The 98.4 gr figure is Nosler's fireformed overflow to the neck.
+The 26 and 27 Nosler records remain for that fill. Their bullet diameter, case length, and max COAL are the library's numbers. Rim, shoulder, and the drawing pressure are null. Confirmed after that cleanup: `26-nosler` caseCapacityGrH2O = 93 and `27-nosler` caseCapacityGrH2O = 98.4. Both records stay left out as duplicates. The 93 gr figure is Nosler's useable case capacity. The 98.4 gr figure is Nosler's fireformed overflow to the neck.
+
+Six bot records whose only dimensions came from Z299.4 are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum. The two aliases cited only to that PDF are removed. The library already has those short names.
