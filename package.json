@@ -13,7 +13,8 @@
     "normalize": "tsx scripts/normalize.ts",
     "normalize:fixtures": "tsx scripts/normalize.ts --fixtures",
     "site-data": "tsx scripts/build-site-data.ts",
-    "calibrate": "tsx scripts/calibrate-physics.ts"
+    "calibrate": "tsx scripts/calibrate-physics.ts",
+    "check-blend": "tsx scripts/check-blend.ts"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",

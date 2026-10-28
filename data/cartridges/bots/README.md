@@ -50,5 +50,6 @@ The example values are placeholders, not checked data.
 - **Required:** `id` (lowercase slug: letters, digits, dots, hyphens), `name`, `kind` (`saami`, `cip` or `wildcat`), bullet diameter, case length, and a source. SAAMI cartridges also need max COAL, and max COAL must be longer than the case.
 - **Centerfire rifle only.** Handgun and rimfire are out of scope for now.
 - **Don't duplicate.** An id already in the library, or a name or alias that already matches another cartridge, is left out. If the library has the cartridge under another name, add an entry to `aliases` instead. Forum shorthand ("6 creed", "300 WM") already matches without an alias.
+- **Filling gaps.** A record left out because the library already has the cartridge still fills the library's empty `caseCapacityGrH2O`, `neckLengthIn` and `shoulderAngleDeg`, citing your `source`. It never replaces a value the library has. Each fill is listed in the normalization report.
 - **Counts match.** `cartridgeCount` and `aliasCount` equal the array lengths.
 - **Tell the project before changing the format.** A file with an unknown `schemaVersion` is skipped entirely.

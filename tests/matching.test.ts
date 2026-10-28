@@ -43,11 +43,11 @@ describe("matchCartridges", () => {
     if (firstPhysics >= 0 && lastData >= 0) expect(lastData).toBeLessThan(firstPhysics);
   });
 
-  it("reports no data rather than a guess for cartridges the models cannot cover", () => {
-    const nd = results.filter((r) => r.status === "no_data");
-    for (const r of nd) {
-      expect(r.estimate.estimateFps).toBeNull();
-      expect(r.margin).toBeNull();
+  it("estimates every cartridge of the diameter, never \"no data\"", () => {
+    for (const r of results) {
+      expect(r.status).not.toBe("no_data");
+      expect(r.estimate.estimateFps).toBeGreaterThan(0);
+      expect(r.margin).not.toBeNull();
     }
   });
 

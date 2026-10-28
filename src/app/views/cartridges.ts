@@ -2,6 +2,9 @@
 import type { Cartridge } from "../../lib/cartridges.ts";
 import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
+import { byDiameterThenCapacity } from "../cartridgePicker.ts";
+import { capacityText, pressureText } from "../estimated.ts";
+import { verificationSummary } from "../labels.ts";
 import { userDataBar } from "../userdata.ts";
 import { openLoadsForCartridge } from "./loads.ts";
 
@@ -25,7 +28,9 @@ export function cartridgesView(data: AppData): HTMLElement {
     const loadCount = (id: string) => (published[id] ?? 0) + data.user.loads.filter((l) => l.cartridgeId === id).length;
     const renderRows = () => {
       const t = text.toLowerCase().trim();
-      const rows = data.cartridges.filter((c) => !t || `${c.name} ${c.aliases.join(" ")} ${c.bulletDiameterIn ?? ""}`.toLowerCase().includes(t));
+      const rows = data.cartridges
+        .filter((c) => !t || `${c.name} ${c.aliases.join(" ")} ${c.bulletDiameterIn ?? ""}`.toLowerCase().includes(t))
+        .sort(byDiameterThenCapacity((c) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O));
       count.textContent = `${rows.length} of ${data.cartridges.length} cartridges`;
       body.replaceChildren(
         ...rows.map((c) =>
@@ -43,8 +48,8 @@ export function cartridgesView(data: AppData): HTMLElement {
             h("td", {}, fmt.in(c.bulletDiameterIn)),
             h("td", {}, fmt.in(c.caseLengthIn)),
             h("td", {}, fmt.in(c.maxCoalIn)),
-            h("td", {}, c.caseCapacityGrH2O ?? "—"),
-            h("td", {}, c.mapPsi ? c.mapPsi.toLocaleString() : "—"),
+            h("td", { class: "num" }, capacityText(c, data.inputs)),
+            h("td", { class: "num" }, pressureText(c, data.inputs)),
             h("td", { class: "num" }, loadCount(c.id) ? loadCount(c.id).toLocaleString() : "—"),
             h(
               "td",
@@ -204,9 +209,9 @@ export function cartridgesView(data: AppData): HTMLElement {
       h(
         "p",
         {},
-        `${data.library.cartridges.length} centerfire rifle cartridges. Every value is still marked unverified until it is checked against `,
+        `${data.library.cartridges.length} centerfire rifle cartridges. ${verificationSummary(data.library.cartridges)} against `,
         Object.values(sources).map((s, i) => [i ? " and " : "", link(s.url, s.title)]),
-        ".",
+        ". Sorted by bullet diameter, then case capacity. Values marked ≈ are estimates the site uses where the library has none; hover for how each was made.",
       ),
     ),
     wildcatEl,

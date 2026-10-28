@@ -1,12 +1,65 @@
 /** Plain-language text for model ids, flags and statuses. */
 import type { MatchStatus } from "../lib/matching.ts";
 import type { GeometryStatus } from "../lib/geometry.ts";
+import type { ComponentSource, VelocityEstimate } from "../lib/velocity/types.ts";
+import { fmt, h } from "./dom.ts";
 
 export const MODEL_LABELS: Record<string, string> = {
   "physics-v1": "Physics estimate (physics-v1)",
   "loglog-v1": "Published loads (loglog-v1)",
   "loglog-v1-user": "Your loads (loglog-v1)",
+  "blend-v1": "Blended estimate (blend-v1)",
 };
+
+export const COMPONENT_LABELS: Record<ComponentSource, string> = {
+  load_data: "Published loads",
+  load_data_extended: "Published loads, extended",
+  similar_cartridges: "Similar cartridges",
+  physics: "Physics model",
+};
+
+/** Table of the estimates behind a velocity, with each one's share; zero-share rows are cross-checks. */
+export function componentsBlock(e: VelocityEstimate): HTMLElement | null {
+  const parts = e.components;
+  if (!parts?.length) return null;
+  const blended = parts.some((p) => p.share > 0 && p.share < 1);
+  return h(
+    "div",
+    { class: "components" },
+    h("h4", {}, blended ? "How this estimate was made" : "Cross-checks"),
+    h(
+      "table",
+      { class: "data compact components" },
+      h("thead", {}, h("tr", {}, ["Source", "Estimate", "±1 sd", blended ? "Weight" : "Use"].map((x) => h("th", {}, x)))),
+      h(
+        "tbody",
+        {},
+        parts.map((p) =>
+          h(
+            "tr",
+            {},
+            h(
+              "td",
+              {},
+              h("strong", {}, COMPONENT_LABELS[p.source]),
+              h("div", { class: "muted" }, p.detail),
+              p.peers?.length
+                ? h(
+                    "ul",
+                    { class: "peer-list" },
+                    p.peers.map((x) => h("li", {}, `${x.name}: ${fmt.fps(x.fps)} (scaled ×${x.ratio.toFixed(2)} by ${x.basis === "loads" ? "both cartridges' published loads" : "the physics model"})`)),
+                  )
+                : null,
+            ),
+            h("td", {}, fmt.fps(p.fps)),
+            h("td", {}, `${(p.relSd * 100).toFixed(1)}%`),
+            h("td", {}, p.share >= 1 ? "Answer" : p.share > 0 ? `${Math.round(p.share * 100)}%` : "Cross-check"),
+          ),
+        ),
+      ),
+    ),
+  );
+}
 
 export function modelLabel(id: string): string {
   return MODEL_LABELS[id] ?? id;
@@ -26,9 +79,17 @@ export const FLAG_TEXT: Record<string, string> = {
   near_saami_max: "Some supporting loads are near SAAMI maximum pressure.",
   community_data: "Some supporting loads are community reports (forums or user submissions), not published by a powder or bullet maker. They have no pressure data.",
   outside_weight_range: "Bullet weight is too far outside the published weights.",
-  low_confidence: "Low confidence: the published loads disagree, or your barrel is far from their test barrels, so the range is wide.",
+  low_confidence: "Low confidence: the range is wide because the sources disagree, the data is far from this bullet or barrel, or inputs had to be estimated.",
   no_data: "No estimate.",
   "fallback_from_loglog-v1": "No published loads cover this, so the physics model answered.",
+  blended_estimate: "Published loads do not cover this bullet weight, so several estimates were blended.",
+  extended_beyond_published_weights: "Uses this cartridge's published loads, extended past their bullet weights along the physics model's weight curve.",
+  similar_cartridges: "Uses cartridges with similar velocities that have published loads at this weight.",
+  no_published_loads: "No published loads for this cartridge.",
+  estimated_case_capacity: "Case capacity is not in the library; an estimate was used.",
+  estimated_pressure: "Maximum pressure is not in the library; an estimate was used.",
+  outside_physics_calibration: "Bullet weight is far from what the physics model was calibrated on for this case size, so its range is wider.",
+  cross_check_disagrees: "The physics model or similar cartridges differ from the published loads by more than 10%.",
   "fallback_from_loglog-v1-user": "Your loads do not cover this, so the next model answered.",
   // bullets
   diameter_derived: "Diameter not published; taken from the caliber name.",
@@ -50,6 +111,16 @@ export const FLAG_TEXT: Record<string, string> = {
   insufficient_data: "Not enough data.",
 };
 
+/** "104 of 179 verified" style summary of the library's verification state. */
+export function verificationSummary(cartridges: { verification: { status: string }; kind: string }[]): string {
+  const lib = cartridges.filter((c) => c.kind !== "user");
+  const verified = lib.filter((c) => c.verification.status === "verified").length;
+  const partial = lib.filter((c) => c.verification.status === "partial").length;
+  if (verified === lib.length) return "All are verified";
+  if (verified === 0 && partial === 0) return "None is verified yet; every value is marked unverified until it is checked";
+  return `${verified} of ${lib.length} are verified${partial ? ` and ${partial} partly verified` : ""}; the rest are marked unverified until they are checked`;
+}
+
 export function flagText(f: string): string {
   return FLAG_TEXT[f] ?? f.replace(/_/g, " ");
 }
@@ -62,7 +133,7 @@ export const STATUS_TEXT: Record<MatchStatus, { label: string; tip: string }> = 
   likely: { label: "Likely", tip: "The central estimate reaches the target." },
   stretch: { label: "Stretch", tip: "Only the high end of the estimate reaches the target." },
   short: { label: "Short", tip: "Even the high end falls short of the target." },
-  no_data: { label: "No data", tip: "The models could not estimate this cartridge." },
+  no_data: { label: "No data", tip: "The library lacks even the bullet diameter or case length needed to estimate this cartridge." },
 };
 
 export const GEOMETRY_TEXT: Record<GeometryStatus, string> = {

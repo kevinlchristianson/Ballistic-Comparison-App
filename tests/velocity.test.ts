@@ -54,6 +54,15 @@ describe("physics-v1", () => {
     const e = physics.estimate({ cartridgeId: "223-rem", bulletWeightGr: 200, barrelLengthIn: 24 });
     expect(e.estimateFps).toBeNull();
   });
+
+  it("with extrapolation on, answers outside its calibration with a wider range and says so", () => {
+    const wide = createPhysicsEstimator(cartridges, PHYSICS_PARAMS, { extrapolate: true });
+    const far = wide.estimate({ cartridgeId: "223-rem", bulletWeightGr: 200, barrelLengthIn: 24 });
+    const near = wide.estimate({ cartridgeId: "223-rem", bulletWeightGr: 55, barrelLengthIn: 24 });
+    expect(far.estimateFps).toBeGreaterThan(0);
+    expect(far.flags).toContain("outside_physics_calibration");
+    expect(far.highFps! / far.estimateFps!).toBeGreaterThan(near.highFps! / near.estimateFps!);
+  });
 });
 
 describe("loglog-v1 (synthetic fixture loads)", () => {
@@ -114,13 +123,19 @@ describe("default estimator", () => {
     expect(est.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 }).model).toBe("loglog-v1");
   });
 
-  it("falls back to physics when loads cannot answer, and says why", () => {
+  it("blends when published loads do not cover the weight, and says why", () => {
     const e = est.estimate({ cartridgeId: "308-win", bulletWeightGr: 230, barrelLengthIn: 24 });
-    expect(e.model).toBe("physics-v1");
-    expect(e.flags).toContain("fallback_from_loglog-v1");
+    expect(e.model).toBe("blend-v1");
+    expect(e.estimateFps).not.toBeNull();
+    expect(e.flags).toEqual(expect.arrayContaining(["blended_estimate", "extended_beyond_published_weights"]));
     expect(e.note).toMatch(/150–190 gr/);
+    const sources = e.components!.map((c) => c.source);
+    expect(sources).toEqual(expect.arrayContaining(["load_data_extended", "physics"]));
+    expect(e.components!.reduce((s, c) => s + c.share, 0)).toBeCloseTo(1, 9);
     const none = est.estimate({ cartridgeId: "270-win", bulletWeightGr: 140, barrelLengthIn: 24 });
-    expect(none.model).toBe("physics-v1");
+    expect(none.model).toBe("blend-v1");
+    expect(none.flags).toContain("no_published_loads");
+    expect(none.components!.map((c) => c.source)).not.toContain("load_data_extended");
   });
 
   it("uses the physics model's fps-per-inch slope for barrel adjustments", () => {
@@ -173,7 +188,7 @@ describe("precomputed fit table (what the site ships)", () => {
     const e = site.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 22 });
     expect(e.model).toBe(USER_LOADS_MODEL);
     const other = site.estimate({ cartridgeId: "308-win", bulletWeightGr: 230, barrelLengthIn: 24 });
-    expect(other.model).toBe("physics-v1");
+    expect(other.model).toBe("blend-v1");
   });
 });
 

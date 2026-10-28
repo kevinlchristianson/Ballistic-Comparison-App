@@ -194,3 +194,6 @@ main.wide { max-width: none; }
 .picker { display: flex; flex-direction: column; gap: 6px; }
 .grid > :has(.picker) { grid-column: span 2; }
 td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.estimated { color: var(--muted); font-style: italic; cursor: help; }
+table.data.components td:nth-child(n+2) { text-align: right; font-variant-numeric: tabular-nums; }
+.peer-list { margin: 4px 0 0 0; padding-left: 18px; font-size: 13px; }

@@ -85,6 +85,21 @@ describe("bot cartridges", () => {
     expect(library.cartridges.find((c) => c.id === "24-nosler")!.aliases).toEqual(["24 Nosler"]);
   });
 
+  it("fills an empty capacity on a library cartridge from a sourced bot record, and never overwrites one", () => {
+    const empty = lib.cartridges.find((c) => c.caseCapacityGrH2O == null && c.kind === "saami")!;
+    const full = lib.cartridges.find((c) => c.caseCapacityGrH2O != null)!;
+    const { library, reports } = mergeBotCartridges(lib, [
+      { file: "f.json", data: file([record({ id: empty.id, name: "Another name", caseCapacityGrH2O: 77.7 }), record({ id: full.id, name: "Third name", caseCapacityGrH2O: 1 })]) },
+    ]);
+    expect(reports[0]!.filled).toEqual([{ cartridgeId: empty.id, field: "caseCapacityGrH2O", value: 77.7 }]);
+    const e = library.cartridges.find((c) => c.id === empty.id)!;
+    expect(e.caseCapacityGrH2O).toBe(77.7);
+    expect(e.fieldNotes.caseCapacityGrH2O).toContain(src.url);
+    expect(library.cartridges.find((c) => c.id === full.id)!.caseCapacityGrH2O).toBe(full.caseCapacityGrH2O);
+    // The project's own object is untouched.
+    expect(lib.cartridges.find((c) => c.id === empty.id)!.caseCapacityGrH2O).toBeNull();
+  });
+
   it("adds aliases to existing cartridges unless the name already belongs to another", () => {
     const { library, reports } = mergeBotCartridges(lib, [
       {
