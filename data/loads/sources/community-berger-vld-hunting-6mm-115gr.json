@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 6 mm 115 Grain VLD Hunting",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-6mm-115gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "6mm Creedmoor",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 115,
+      "bulletDescription": "115 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "RL 16 or RL 26",
+      "charge": 41,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: MTlager; Posted: Jul 24, 2021; Velocity_fps: 3100-3150; The same 115s as his benchrest load, stepped up for hunting and steel. He named both powders for this charge. He did not name the cartridge. The thread is 6mm Creedmoor. Filed as VLD Hunting because he said this charge is for hunting."
+    }
+  ]
+}
