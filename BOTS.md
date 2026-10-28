@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-28, after PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-10-28 evening, after the Case drawings tab (see below); earlier, PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -77,6 +77,13 @@ Open requests:
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-10-28, evening)
+
+1. **The site now draws every cartridge case to scale** (new **Case drawings** tab, `src/lib/caseProfile.ts`). It uses the five profile fields (`baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder`, `lengthToNeck`), plus `rimDiameter` and `rimType`. Nothing in your file formats changes.
+2. **Where a profile is missing, the site estimates it** from the parent case's print or the closest drawn case and draws that part dashed. About 165 cartridges are still partly estimated. The Case drawings tab lists them (set **Drawing** to "Partly estimated"). Cited profiles for them, especially the 140 cartridges in the project's own `cartridges.json`, are the most useful next additions.
+3. **Please include `rimType` and `rimDiameter` on new cartridge records** when the print shows them. None of the bot-added cartridges carry `rimType` today, so their rims are guessed from the rim and base diameters.
+4. The source is still read from the citation on the profile fields: keep naming "Pacific Tool & Gauge" (chamber dimensions) or "4D Reamer Rentals" (case dimensions) in `source.name`. Belted PTG prints are still read as measured from the belt datum.
 
 ## What changed on the project side (2026-10-28, afternoon)
 

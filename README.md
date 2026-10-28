@@ -10,6 +10,7 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 - **Find a cartridge.** For a bullet, barrel length and target velocity, lists the cartridges that can get there (comfortable, likely, stretch, short), with the estimate's range, the model behind it, and the data supporting it. It also checks seating depth and magazine fit, and says when a custom chamber would be needed.
 - **Bullets.** Browse and filter the bullet library, each with a link to the maker's page. Add your own bullets.
 - **Cartridges.** The cartridge library, plus your own wildcats.
+- **Case drawings.** Every cartridge drawn to scale from its case dimensions (`src/lib/caseProfile.ts`, `src/app/views/catalog.ts`). Sort and filter by bullet diameter, standard, rim type and whether the drawing comes from a print; tap cases to compare them side by side or overlaid, heads aligned, on one inch scale, with a dimension table. Dimensions the library lacks are estimated from the parent case, or the closest drawn case, drawn dashed and marked ≈ with a note on how each was made.
 - **Load data.** Every published load in the library for a cartridge (bullet, powder, charge, velocity, barrel, pressure, COAL, source link), and your own loads with the same fields. Your loads stay in your browser, with JSON export and import, and your max loads feed that cartridge's velocity estimates. Browse by cartridge, or by bullet across every cartridge (search by name and weight, e.g. "Berger 245"), and sort by any column. Community reports (forum compilations, user submissions) carry a "community report" tag.
 - **Send to library.** Your own loads, bullets and wildcats can be sent to the public library. The button opens a prefilled GitHub issue. The **Library submission** workflow commits the owner's submissions to `data/user/submissions/` and redeploys; anyone else's wait for a maintainer to add the `approved` label.
 
@@ -24,6 +25,7 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 | Missing case capacity and pressure | `src/lib/velocity/inputs.ts` | Capacity: case profile (frustum, shoulder cone and neck, after chamber clearance and brass) where a printed profile exists, parent case scaled by length and rim, heaviest published charge, and a case-size fit, blended by their measured errors. Pressure: parent case and the median of the same rim type. Shown with ≈ on the site, never written into the library, and their error widens the velocity range. |
 | Your velocities | `loglog-v1` on your entries | Used first for that cartridge when present. |
 | Matching | `src/lib/matching.ts` | Bullet diameter within 0.0015 in; status from the estimate's range. |
+| Case drawings | `src/lib/caseProfile.ts` | Base, shoulder and neck Ø and the head-to-shoulder and head-to-neck lengths from the bots' PTG and 4D prints (belted PTG prints moved from the belt datum to the head). Missing values: the parent case's proportions if it has a print, otherwise the drawn case closest in length, bullet Ø and rim; the shoulder is placed from the library shoulder angle when there is one. Rim thickness, extractor groove and belt are typical proportions, not measured. Estimates are never written into the library. |
 | Seating and fit | `src/lib/geometry.ts` | Rules of thumb: ideal COAL, seating-depth window (10% capacity loss, ogive in the neck), magazine by action class, freebore needed. |
 
 ## Data and sources
@@ -82,6 +84,7 @@ One-time setup: in the repository's **Settings → Pages**, set **Source** to **
 - A BC printed without a drag model is shown but never used in trajectories.
 - Seating checks are rules of thumb, not chamber drawings. Neck length is assumed to be one caliber when unknown.
 - Many bullets have no published length, so seating depth can't be checked for them.
+- Case drawings: PTG prints are chamber dimensions, a few thousandths larger than the brass. Rims, extractor grooves and belts are drawn to typical proportions. About 165 cartridges have no full print yet, so parts of their drawings are estimated (dashed).
 - Imperial units only.
 - User data lives in one browser. Export it to keep a copy.
 - Load data rows are copies from when the bots last collected them. Sources revise their data; always check the source.
