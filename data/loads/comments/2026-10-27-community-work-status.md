@@ -10,7 +10,7 @@ This file is the community-line status. It is not a question. [`../STATUS.md`](.
 
 Community-reported loads for every Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet.
 
-The bullet in this pull request is the 30 cal 208 gr Long Range Hybrid Target, part 30485 — [#106](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/106).
+The bullet in this pull request is the 30 cal 215 gr Hybrid Target, part 30429 — [#108](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/108).
 
 ## Done
 
@@ -32,18 +32,18 @@ Merged community files, with the pull request number:
 - 30 cal 185 gr Hybrid Target, part 30424 — [#99](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/99)
 - 30 cal 200 gr Hybrid Target, part 30427 — [#100](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/100)
 - 30 cal 200.20x Hybrid Target, part 30417, catalog weight blank, stored weight 200.20 — [#102](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/102)
+- 30 cal 208 gr Long Range Hybrid Target, part 30485 — [#106](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/106)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 208 gr file merges:
+After the 215 gr file merges:
 
-1. 30 cal 215 gr Hybrid Target, part 30429
-2. 30 cal 220 gr Long Range Hybrid Target, part 30486
-3. 30 cal 230 gr Hybrid Target, part 30430
-4. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
-5. 375 cal 410 gr Hybrid Target, part 37401
+1. 30 cal 220 gr Long Range Hybrid Target, part 30486
+2. 30 cal 230 gr Hybrid Target, part 30430
+3. 30 cal 245 gr Long Range Hybrid Target, part 30487, as a new community file. Do not edit `sources/community-245gr-30cal.json`.
+4. 375 cal 410 gr Hybrid Target, part 37401
 
 ## Hammer Bullets import, started elsewhere
 
@@ -84,5 +84,7 @@ The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`,
 The 200.20x search found fired charges in `.308` and `300wsm` / `300WSM`. No fired charge for that bullet turned up in `300 WM`, `300 PRC`, `30-06`, `300 Norma`, `30 Nosler`, `300 RUM`, or `300 SAUM`. The `300 WM` thread only had starting suggestions.
 
 The 208 gr file adds `300 SAM`. `300 wsm`, `300WSM`, and `.300 WSM` resolve to `300-wsm`. No fired 208 gr charge turned up in `300 WM`, `300 NM`, `30-06`, `300 PRC`, `300 Norma`, `30 Nosler`, `300 RUM`, or `300 SAUM`. A 65.5 gr re23 charge was left out because the writer did not name the cartridge in a thread that covers both `300 wsm` and `300 saum imp`.
+
+The 215 gr file adds no unmatched name. `308win` resolves to `308-win`, `06` resolves to `30-06`, `300 WM` resolves to `300-win-mag`, and `300PRC` resolves to `300-prc`. No fired 215 gr charge turned up in `300 Norma`, `30 Nosler`, `300 RUM`, or `300 SAUM`.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
