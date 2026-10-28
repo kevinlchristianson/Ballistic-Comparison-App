@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 18:39 UTC
+Last updated: 2026-10-28 18:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -45,6 +45,8 @@ Ten more cartridges cite unique 4D drawings whose titles match the pages. 17/22-
 Ten more cartridges cite unique 4D drawings whose titles match the pages. 6.5mm UltraCat keeps the .300 Remington Ultra Magnum shoulder, 0.5250 in at 30°. 6mm_22 Nosler keeps the .22 Nosler shoulder, 0.4000 in at 30°. 30-338 Lapua keeps the .338 Lapua shoulder, 0.5440 in at 20°. 8mm-338 Win Mag, 30-338 Win Mag, and 375/338 Winchester Mag keep the .338 Winchester Magnum shoulder, 0.4910 in at 25°, on the belted case. 30-221 Remington is 23° and 0.3607 in on the .221 Fireball head. 30 Aardvark is 35°20' and 0.4110 in versus the .30-30 drawing 0.4013 in. 404 Jeffery is 8°30'. 9.3x64mm Brenneke is 17°30'. Skipped this pass: 6 mm 30-30 Win AI and 7 mm Dakota, because the junction lengths are segment dimensions rather than lengths from the head; 416 Aagaard, 260 Cheetah, and 240 NMC, because the rim diameter is not readable; 22-243 Middlestead, because the drawing is titled 22-243 Middlested. The catalog still has uncited pages.
 
 Ten more cartridges cite unique 4D drawings whose titles match the pages. 338-300 RSAUM and 6mm/300 RSAUM keep the 300 RSAUM shoulder, 0.5347 in at 30°. 270/223 Rem keeps the .223 Remington shoulder, 0.3542 in at 23°. 6x45 Ackley Improved is 40° and 0.3660 in versus the .223 drawing 0.3542 in. 17-223 uses that same shoulder station at a printed 30°. 358 IDC is 30° and 0.5443 in versus the .243 WSSM drawing 0.5444 in at 28°. 7mm-6.5 Wby RPM is 30° and 30/6.5 Weatherby RPM is 35°25', both at shoulder 0.4739 in on the 6.5 Weatherby RPM head. 9x57mm Mauser is 19°. 225 Comet is 30°. 6.5/300 RSAUM was not added because it is the library 6.5 SAUM. 30 BR Ackley was skipped: its 40° shoulder 0.4600 in equals the 6mm BR drawing. 270/257 Roberts was skipped because the rim diameter is not readable. The catalog still has uncited pages.
+
+Ten more cartridges cite unique 4D drawings whose titles match the pages. 264 LBC AR is 30°10' and 0.4310 in versus the 6.5 Grendel drawing 0.4250 in at 30°. 6.5-257 Roberts is 20°45' and 0.4290 in on the .257 Roberts head. 30/375 Ruger is 30°5' and 0.5130 in. 300 GIMP is 35° on a belted H&H head. 577 Tyrannosaur is 20°. 6.5x54mm Mannlicher-Schoenauer is 25°. 224 Vais is 35°. 5.7 Johnson/22 Spitfire is 28°5'. 33 Winchester is 16°15'. 35 Winchester is 15°19'. 7mm RSAUM was not added because it is the library 7mm SAUM. 400 H&H does not print the shoulder angle or the junction lengths. 450 Nitro Express (3.25) is a straight case with no shoulder. 22/243 Rayhill Rocket was skipped because the rim diameter is not readable. The catalog still has uncited pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
