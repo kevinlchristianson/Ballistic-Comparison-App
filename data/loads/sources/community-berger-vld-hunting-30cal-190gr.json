@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 30 Caliber 190 Grain VLD Hunting",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-30cal-190gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "300 wsm",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 190,
+      "bulletDescription": "190 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "H4350",
+      "charge": 64.5,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": 30,
+      "barrelLengthUnit": "in",
+      "barrelLengthOrigin": "row",
+      "velocity": 2956,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/300-wsm-velocities.3907904/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: JamesnTN; Posted: Aug 21, 2016; 190 VLD. 12 twist. ES was 20 fps. On Aug 19 he shot the same bullet at 2950 fps while testing seating depth, in 0.005 steps off the lands, with several groups under 1.5 in at 500 yards. He planned to compare BR2 and 210M primers."
+    }
+  ]
+}
