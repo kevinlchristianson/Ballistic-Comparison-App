@@ -2,8 +2,8 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 42,
-  "aliasCount": 14,
+  "cartridgeCount": 43,
+  "aliasCount": 17,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -1172,6 +1172,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Hammer prints Case volume H20 - 33.2 gr. for 6mm PPC USA. Case length - 1.503\". Bullet diameter, case length, and max COAL are copied from the library entry so this published capacity can fill the empty field."
+    },
+    {
+      "id": "375-cheytac",
+      "name": "375 CheyTac",
+      "kind": "wildcat",
+      "aliases": [
+        "375 Cheytac"
+      ],
+      "parentCase": "375 CT",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 3.028,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.6418,
+      "shoulderDiameter": 0.6055,
+      "neckDiameter": 0.3755,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 22,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge reamer print 9.5x77 Match",
+        "url": "https://www.pacifictoolandgauge.com/375-CheyTac-Match-95x77-Finish-Chamber-Reamer_p_118989.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG print 83693 labels Groove Size 0.375, Basic Brass 375 CT, and 22 degrees. Body .6418, shoulder .6055, neck .3755. Hammer case-data prints Case 3.028\". The CIP COAL cell is not stored. https://docs.google.com/spreadsheets/d/1jf5DHARupdYExb_w4QKep-y4aRfRueungfFVquWlU5M/edit?usp=sharing"
     }
   ],
   "aliases": [
@@ -1298,6 +1329,33 @@
       "source": {
         "name": "Community Berger 7 mm 184 Grain F-Open Hybrid Target",
         "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-hybrid-target-7mm-184gr.csv",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "375-cheytac",
+      "alias": "375CT",
+      "source": {
+        "name": "Community Berger 375 cal 410 Grain Hybrid Target",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-hybrid-target-375cal-410gr.csv",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "300-norma-mag",
+      "alias": "300 norm",
+      "source": {
+        "name": "Community Berger 30 cal 230 Grain Hybrid Target",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-hybrid-target-30cal-230gr.csv",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "6mm-norma-br",
+      "alias": "6mmBR",
+      "source": {
+        "name": "Community Berger 6 mm 87 Grain VLD Hunting",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-6mm-87gr.csv",
         "retrievedOn": "2026-10-28"
       }
     }
