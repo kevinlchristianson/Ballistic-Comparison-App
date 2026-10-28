@@ -54,7 +54,7 @@ This follow-up adds 4xforfun's 38 - 41.3 gr H4350 ladder to the 6.5 mm 140 gr Lo
 
 30 cal 150 gr FB Target, part 30407, was searched. No posted charge turned up. No file and no pull request. ScottMcc wrote that a .308 likes the 150 flat base target and gave no charge. barefooter56 named the 150 gr FB and gave no charge. Searched 30 BR, .308, 30-06, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, and 300 Weatherby.
 
-The bullet in this pull request is the 30 cal 155.5 gr FULLBORE Target, part 30416.
+The bullet in this pull request is the 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240).
 
 This pull request clears OMW57's charge on the 6 mm 90 gr BT Target file — [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234). He wrote over 30 grains, a lower bound, so the charge stays null and the note keeps Charge_gr: over 30.
 
@@ -170,7 +170,7 @@ Merged community files, with the pull request number:
 - 6.5 mm 120 gr BT Target, part 26402 — [#235](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/235)
 - 6.5 mm 140 gr Long Range BT Target, part 26409 — [#236](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/236)
 - 30 cal 115 gr FB Target, part 30421 — [#237](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/237)
-- 30 cal 155.5 gr FULLBORE Target, part 30416
+- 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
