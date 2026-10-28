@@ -16,7 +16,11 @@ The Berger VLD Target line closes with this pull request — [#181](https://gith
 
 ## In progress
 
-Classic Hunter is next. This pull request closes VLD Target. The 30 cal 168 and 175 gr hunting files get the rows that named the hunting bullet or a hunting gun. The four 30 cal VLD Target bullets get no file.
+Community-reported loads for every Berger Classic Hunter bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Classic Hunter line.
+
+The bullet in this pull request is the 6.5 mm 135 gr Classic Hunter, part 26571.
+
+6 mm 95 gr Classic Hunter, part 24570, was searched. No numeric charge turned up. Frankm named a 6 ARC velocity and gave no charge. 80x80 named n540 and 2888 fps in a 6mm Turbo and gave no charge. Slowrunning named leverevolution above 2900 fps in a 6 ARC and gave no charge. No file and no pull request.
 
 A post about F-Class, F-TR, benchrest, PRS, or other match shooting, or in a competition thread, is filed as VLD Target. A post about an elk, deer, or other hunt, or in a hunting thread, is filed as VLD Hunting. The row notes say which context decided the line. A charge with no match or hunting context stays on the ambiguous list. Resolved rows are follow-up edits of the existing source, or a new source when that bullet had no file.
 
@@ -78,12 +82,22 @@ Merged community files, with the pull request number:
 - 6.5 mm 130 gr VLD Target, part 26403 — [#172](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/172)
 - 6.5 mm 140 gr VLD Target, part 26401 — [#174](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/174)
 - 7 mm 168 gr VLD Target, part 28401 — [#176](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/176)
+- 6.5 mm 135 gr Classic Hunter, part 26571 — this pull request
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-Classic Hunter, smallest diameter then lightest weight. After that: OTM Tactical, Varmint, then the bullets whose product line is blank.
+After the 135 gr file merges, still in Classic Hunter. The 6 mm 95 gr Classic Hunter, part 24570, was searched and got no file.
+
+1. 270 cal 130 gr Classic Hunter, part 27570
+2. 270 cal 140 gr Classic Hunter, part 27571
+3. 7 mm 150 gr Classic Hunter, part 28571
+4. 7 mm 168 gr Classic Hunter, part 28570
+5. 30 cal 168 gr Classic Hunter, part 30570
+6. 30 cal 185 gr Classic Hunter, part 30571
+
+After Classic Hunter: OTM Tactical, Varmint, then the bullets whose product line is blank.
 
 ## Ambiguous VLD line candidates
 
@@ -224,6 +238,10 @@ The 30 cal 168 gr VLD Hunting file adds no unmatched name. `.308` and `30-06` re
 The 30 cal 175 gr VLD Hunting file adds no unmatched name. `308` resolves to `308-win`. Untagged 175 VLD charges are in the ambiguous list. No fired hunting charge turned up in 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 175 gr VLD Target source.
 
 The 30 cal VLD Target search adds no unmatched name and no target file. `308 Win`, `308`, and `.308` resolve to `308-win`. Citrusdude's 42 gr Varget is the 168 gr hunting bullet, so it is in that hunting file. airborne_trooper's 44 gr varget and Orr89rocz's 44-44.2 gr varget are the 175 gr hunting bullet, so they are in that hunting file. watercam's 43 gr and 44.5 gr Varget for a 185 gr VLD do not say Hunting or Target, so they are on the ambiguous list. Lapua40X's 44.5 gr IMR4895 in a 30-06 stays there too. No match-context charge turned up for the 168, 175, 185, or 210 gr VLD Target in .308, 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. A 210 VLD F-TR thread gave a velocity node and no charge. These four target bullets get no file. This pull request closes the VLD Target line.
+
+The 6 mm 95 gr Classic Hunter search adds no unmatched name and no file. No numeric charge turned up in 6mm Creedmoor, 243 Win, 6 BR, 6 Dasher, 6XC, 6 GT, 6 ARC, or 6mm Turbo.
+
+The 6.5 mm 135 gr Classic Hunter file uses `creed`, the same unmatched name already listed as `Creed`. It adds no new unmatched name. `6.5x47 Lapua` and `6.5x47` resolve to `6-5x47-lapua`. `6.5 Creedmoor` resolves to `6-5-creedmoor`. No fired 135 gr Classic Hunter charge turned up in 260 Rem, 260 AI, 6.5-284, or 6.5 PRC. Yote Hunter's 39.0 gr Varget is the 130 gr VLD Hunting, not this bullet. The ambiguous list is left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
