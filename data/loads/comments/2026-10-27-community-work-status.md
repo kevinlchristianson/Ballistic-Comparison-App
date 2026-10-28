@@ -14,7 +14,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 6 mm 95 gr VLD Hunting, part 24527.
+The bullet in this pull request is the 6 mm 95 gr VLD Hunting, part 24527 — [#131](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/131).
 
 ## Done
 
