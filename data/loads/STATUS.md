@@ -1,6 +1,6 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 19:42 UTC
+Last updated: 2026-10-28 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -29,6 +29,8 @@ Library `338-edge` is `.338 Edge`, alias `338 Edge`, bullet 0.338. `338 Edges` (
 `6x47` (1), `6X47 Lapua` (6), and `6X47 L` (3) stay unmatched. They are not aliased to `6x47-lapua-ai`.
 
 PTG reamer prints that label a rim now fill that field. 7mm Backcountry rim diameter 0.4721, rim type not labeled. 338/300 WSM rim diameter 0.5586, rim type not labeled. 25 RPM rim diameter 0.5037 and rim type rebated, from the title word REBATED and the bolt-face diameter. 22 GT and 375 CheyTac print 0.4375 on the bolt nose, not on the case, so both rim fields stay null. Hammer case-data does not print a rim, so those records stay null. No SAAMI or C.I.P. rim was copied.
+
+A printed neck must be 0.015–0.045 in over the bullet. Three stored necks were the diameter just forward of the neck, next to the groove, so they were replaced with the neck-cylinder diameter on the same PTG print. 338/300 WSM neck 0.339 became 0.373 (print Ø.3730; bullet stays 0.338 from GROOVE SIZE .3380). 25 RPM neck 0.2576 became 0.291 (print Ø.2910; bullet stays 0.257 from GROOVE SIZE .2570). 375 CheyTac neck 0.3755 became 0.407 (print .407; bullet stays 0.375 from Groove Size 0.375). 7mm Backcountry 0.319 and 22 GT 0.255 already sit in range. Every other neck in this file is null.
 
 `6X47 Lapua` (6 rows), `6x47` (1), `6X47 L` (3), and `6x47L` (1) stay unmatched. No library or bot record is the standard 6mm x 47 Lapua. `6-5x47-lapua` is the 6.5, and `6x47-lapua-ai` is the Ackley. Hodgdon's `6X47MM Lapua` (160 rows) shares the `6X47 Lapua` key, so that name stays unmatched with them.
 
