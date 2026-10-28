@@ -14,7 +14,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 30 cal 175 gr VLD Hunting, part 30512 — [#155](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/155).
+The bullet in this pull request is the 30 cal 185 gr VLD Hunting, part 30513.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -58,16 +58,16 @@ Merged community files, with the pull request number:
 - 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150)
 - 30 cal 155 gr VLD Hunting, part 30508 — [#152](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/152)
 - 30 cal 168 gr VLD Hunting, part 30510 — [#153](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/153)
+- 30 cal 175 gr VLD Hunting, part 30512 — [#155](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/155)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 30 cal 175 gr file merges, still in VLD Hunting:
+After the 30 cal 185 gr file merges, still in VLD Hunting:
 
-1. 30 cal 185 gr VLD Hunting, part 30513
-2. 30 cal 190 gr VLD Hunting, part 30514
-3. 30 cal 210 gr VLD Hunting, part 30515
+1. 30 cal 190 gr VLD Hunting, part 30514
+2. 30 cal 210 gr VLD Hunting, part 30515
 
 After VLD Hunting: VLD Target, Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -99,6 +99,8 @@ These posts name a bullet weight and do not name the product line, or they name 
 - 30 cal 168 VLD, 300wsm, IMR4350, no charge, William Sublette: [300wsm and 168gr bullets](https://rokslide.com/forums/threads/300wsm-168gr-bullets.167197/)
 - 30 cal 175 VLD, 30-06, IMR4895 44.5 gr, Springfield, Lapua40X, May 31, 2017: [30-06](https://forum.accurateshooter.com/threads/30-06.3925001/)
 - 30 cal 175 VLD, .308, Varget 41.8 gr, SDB777: [load data for 308 Berger bullets](https://forum.accurateshooter.com/threads/load-data-for-308-berger-bullets.3599978/)
+- 30 cal 185, no line named, 300 WSM, rl16 65.5 gr, Alex Wheeler, Sep 15, 2026: [300 WSM 180 Berger powder choice](https://forum.accurateshooter.com/threads/300-wsm-180-berger-powder-choice.4187371/)
+- 30 cal 210 VLD, 300 WSM, H4350 60.5 to 61 gr, 2820-2840 fps, 30 in, WAMBO, Aug 19, 2016: [300 WSM velocities](https://forum.accurateshooter.com/threads/300-wsm-velocities.3907904/)
 - 6.5 mm 140 VLD, 6.5-270, 3090 fps, no charge, Shaun White: [6.5-270 with 140 bergers](https://forum.accurateshooter.com/threads/6-5-270-with-140-bergers-update.3642915/)
 - 6 mm 115 VLD, 240 Wby, H1000, 3150 fps, 23 in, no charge, irfubar, Nov 29, 2022: [Berger VLD Hunting](https://www.24hourcampfire.com/ubbthreads/ubbthreads.php/topics/1146696)
 
@@ -192,5 +194,7 @@ The 30 cal 155 gr VLD Hunting file adds no unmatched name. `.308` resolves to `3
 The 30 cal 168 gr VLD Hunting file adds no unmatched name. `.308` and `30-06` resolve. gtbc82 named H4895 in a .308 and gave no charge. Plumsask named H4350 in a 300 WSM and gave no numeric charge. No fired hunting charge turned up in 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 168 gr Hybrid Target or VLD Target sources.
 
 The 30 cal 175 gr VLD Hunting file adds no unmatched name. `308` resolves to `308-win`. Untagged 175 VLD charges are in the ambiguous list. No fired hunting charge turned up in 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 175 gr VLD Target source.
+
+The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
