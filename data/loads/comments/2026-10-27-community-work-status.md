@@ -14,7 +14,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150).
+The bullet in this pull request is the 30 cal 155 gr VLD Hunting, part 30508.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -55,19 +55,19 @@ Merged community files, with the pull request number:
 - 270 cal 150 gr VLD Hunting, part 27503 — [#145](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/145)
 - 7 mm 140 gr VLD Hunting, part 28503 — [#147](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/147)
 - 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148)
+- 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 7 mm 180 gr file merges, still in VLD Hunting:
+After the 30 cal 155 gr file merges, still in VLD Hunting:
 
-1. 30 cal 155 gr VLD Hunting, part 30508
-2. 30 cal 168 gr VLD Hunting, part 30510
-3. 30 cal 175 gr VLD Hunting, part 30512
-4. 30 cal 185 gr VLD Hunting, part 30513
-5. 30 cal 190 gr VLD Hunting, part 30514
-6. 30 cal 210 gr VLD Hunting, part 30515
+1. 30 cal 168 gr VLD Hunting, part 30510
+2. 30 cal 175 gr VLD Hunting, part 30512
+3. 30 cal 185 gr VLD Hunting, part 30513
+4. 30 cal 190 gr VLD Hunting, part 30514
+5. 30 cal 210 gr VLD Hunting, part 30515
 
 After VLD Hunting: VLD Target, Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -182,5 +182,7 @@ The 7 mm 140 gr file adds `7mm08`. `7MM-08`, `7mm-08`, `7-08`, and `7/08` resolv
 The 7 mm 168 gr file adds no unmatched name. `7mm rem mag` resolves to `7mm-rem-mag`. fourpower's 168 and 180 Berger charges do not name a line, so they are in the ambiguous list. Berger's emailed start and max table is not a community load. No fired hunting charge turned up in .284 or 7 SAUM.
 
 The 7 mm 180 gr file adds no unmatched name. `280 AI` resolves to `280-ai`. `7 SAUM` resolves to `7mm-saum`. `7 rem mag` resolves to `7mm-rem-mag`. Untagged 180 VLD and 180 Berger charges are in the ambiguous list. nakneker named H4831SC and CCI 250 for 180 hunting VLDs in a 7 Saum and gave no charge. No fired hunting charge turned up in 7mm PRC.
+
+The 30 cal 155 gr VLD Hunting file adds no unmatched name. `.308` resolves to `308-win`. `30-06` resolves. This file does not edit the 155 gr Hybrid Target source. Steve Donlon's 53 gr IMR 4064 is the 155.5 Fullbore, not this bullet. Down South named 168 Hunting VLDs in .308 and gave no charge.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
