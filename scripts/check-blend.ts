@@ -67,7 +67,7 @@ for (const [label, scenario] of scenarios) {
     const seen = [...loads.filter((l) => l.cartridgeId !== id), ...sc.keep];
     const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen), botEstimates });
     const physics = createFilledPhysics(cartridges, inputs);
-    const est = createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics });
+    const est = createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics, inputs });
     for (const w of sc.weights) {
       const t = estimateFromFit(truth, w).estimateFps;
       const e = est.estimate({ cartridgeId: id, bulletWeightGr: w, barrelLengthIn: BARREL });
