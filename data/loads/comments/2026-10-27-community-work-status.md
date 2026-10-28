@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. Each candidate lists the bullet weight, cartridge, powder, charge, and velocity as posted.
 
-This pull request is the ambiguous-list sweep. Match context is filed as VLD Target. Hunting context is filed as VLD Hunting. The 7 mm 180 gr VLD Target, part 28405, was searched and got no file: the fired 180 VLD charges are hunting loads.
+This pull request is the ambiguous-list sweep — [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180). Match context is filed as VLD Target. Hunting context is filed as VLD Hunting. The 7 mm 180 gr VLD Target, part 28405, was searched and got no file: the fired 180 VLD charges are hunting loads.
 
 A post about F-Class, F-TR, benchrest, PRS, or other match shooting, or in a competition thread, is filed as VLD Target. A post about an elk, deer, or other hunt, or in a hunting thread, is filed as VLD Hunting. The row notes say which context decided the line. A charge with no match or hunting context stays on the ambiguous list. Resolved rows are follow-up edits of the existing source, or a new source when that bullet had no file.
 
@@ -55,13 +55,13 @@ Merged community files, with the pull request number:
 - 6 mm 105 gr VLD Hunting, part 24528 — [#135](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/135)
 - 25 cal 115 gr VLD Hunting, part 25513 — [#137](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/137)
 - 6.5 mm 130 gr VLD Hunting, part 26503 — [#138](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/138)
-- 6.5 mm 140 gr VLD Hunting, part 26504 — [#140](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/140), follow-up in this pull request
+- 6.5 mm 140 gr VLD Hunting, part 26504 — [#140](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/140), follow-up [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180)
 - 270 cal 130 gr VLD Hunting, part 27501 — [#142](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/142)
 - 270 cal 140 gr VLD Hunting, part 27502 — [#143](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/143)
 - 270 cal 150 gr VLD Hunting, part 27503 — [#145](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/145)
 - 7 mm 140 gr VLD Hunting, part 28503 — [#147](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/147)
 - 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148), follow-up [#178](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/178)
-- 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150), follow-up in this pull request
+- 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150), follow-up [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180)
 - 30 cal 155 gr VLD Hunting, part 30508 — [#152](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/152)
 - 30 cal 168 gr VLD Hunting, part 30510 — [#153](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/153)
 - 30 cal 175 gr VLD Hunting, part 30512 — [#155](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/155)
@@ -73,8 +73,8 @@ Merged community files, with the pull request number:
 - 22 cal 80 gr VLD Target, part 22422 — [#164](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/164)
 - 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170)
 - 6 mm 105 gr VLD Target, part 24429 — [#171](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/171)
-- 6 mm 115 gr VLD Target, part 24430 — this pull request
-- 6 mm 115 gr VLD Hunting, part 24530 — this pull request
+- 6 mm 115 gr VLD Target, part 24430 — [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180)
+- 6 mm 115 gr VLD Hunting, part 24530 — [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180)
 - 6.5 mm 130 gr VLD Target, part 26403 — [#172](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/172)
 - 6.5 mm 140 gr VLD Target, part 26401 — [#174](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/174)
 - 7 mm 168 gr VLD Target, part 28401 — [#176](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/176)
