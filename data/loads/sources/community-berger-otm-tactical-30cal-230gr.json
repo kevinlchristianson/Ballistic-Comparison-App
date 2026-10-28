@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 30 Caliber 230 Grain Hybrid OTM Tactical",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-otm-tactical-30cal-230gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "300 RUM",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 230,
+      "bulletDescription": "230 Hybrid OTM",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "N570",
+      "charge": 91.2,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "215m",
+      "case": "ADG",
+      "coal": 3.813,
+      "coalUnit": "in",
+      "barrelLength": 26,
+      "barrelLengthUnit": "in",
+      "barrelLengthOrigin": "row",
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://www.longrangeonly.com/forum/threads/300-rum-230-berger-hybrid.3453/",
+      "sourcePage": "Long Range Only",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: cb4128; Posted: Dec 31, 2021; 230gr OTM. COAL 3.813, .020 off. He topped a pressure test at this charge and saw no pressure. He called the test pretty flat from 87.2-88.2 gr and again around 90.2-91.2 gr, same hole at 100 yards. He named nodes at 2,920, 2,980, and 3,000 fps and did not tie them to one charge."
+    }
+  ]
+}
