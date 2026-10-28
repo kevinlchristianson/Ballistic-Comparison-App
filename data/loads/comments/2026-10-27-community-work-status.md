@@ -14,7 +14,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148).
+The bullet in this pull request is the 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150).
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -54,20 +54,20 @@ Merged community files, with the pull request number:
 - 270 cal 140 gr VLD Hunting, part 27502 — [#143](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/143)
 - 270 cal 150 gr VLD Hunting, part 27503 — [#145](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/145)
 - 7 mm 140 gr VLD Hunting, part 28503 — [#147](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/147)
+- 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 7 mm 168 gr file merges, still in VLD Hunting:
+After the 7 mm 180 gr file merges, still in VLD Hunting:
 
-1. 7 mm 180 gr VLD Hunting, part 28502
-2. 30 cal 155 gr VLD Hunting, part 30508
-3. 30 cal 168 gr VLD Hunting, part 30510
-4. 30 cal 175 gr VLD Hunting, part 30512
-5. 30 cal 185 gr VLD Hunting, part 30513
-6. 30 cal 190 gr VLD Hunting, part 30514
-7. 30 cal 210 gr VLD Hunting, part 30515
+1. 30 cal 155 gr VLD Hunting, part 30508
+2. 30 cal 168 gr VLD Hunting, part 30510
+3. 30 cal 175 gr VLD Hunting, part 30512
+4. 30 cal 185 gr VLD Hunting, part 30513
+5. 30 cal 190 gr VLD Hunting, part 30514
+6. 30 cal 210 gr VLD Hunting, part 30515
 
 After VLD Hunting: VLD Target, Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -88,6 +88,13 @@ These posts name a bullet weight and do not name the product line, or they name 
 - 270 cal 140 Berger, no line named, 270WSM, Retumbo 71.5, 71, 70.5, 70, and 69.5 gr, loaded and not shot, JustOneMoreShot, May 30, 2014: [Getting the 270WSM ready, page 2](https://rokslide.com/forums/threads/getting-the-270wsm-ready.17913/page-2)
 - 7 mm 168 Berger, no line named, Remington 7mm mag, 68.5 to .69 gr, powder not named, fourpower, May 25, 2016: [7mm Rem Mag range results](https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/)
 - 7 mm 180 Berger, no line named, Remington 7mm mag, h-1000 67 gr, and Retumbo 70 gr, fourpower, May 25, 2016: [7mm Rem Mag range results](https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/)
+- 7 mm 180 VLD, 7mm Mag, Retumbo 70.5 gr, Fed 215, Winchester, right around 3000 fps, 26 in, Shooter264, Feb 27, 2010: [180gr VLDs in 7mm Rem Mag](https://forum.accurateshooter.com/threads/anybody-use-a-180gr-vlds-in-7mm-rem-mag.3742911/)
+- 7 mm 180 Berger, no line named, 7mm mag, Retumbo 69.5 gr, WLRM, jbrauning, Mar 1, 2010: [180gr VLDs in 7mm Rem Mag](https://forum.accurateshooter.com/threads/anybody-use-a-180gr-vlds-in-7mm-rem-mag.3742911/)
+- 7 mm 180 VLD, 7 Mag, 2850 fps, no charge, montana_native, Mar 5, 2010: [180gr VLDs in 7mm Rem Mag](https://forum.accurateshooter.com/threads/anybody-use-a-180gr-vlds-in-7mm-rem-mag.3742911/)
+- 7 mm 180 VLD, 7mm Rem Mag, Retumbo 68 gr, 215M, fed or WW brass, 0.010 off, limbic, Oct 7, 2009: [7mm remington pet loads](https://forum.accurateshooter.com/threads/7mm-remington-pet-loads-140-180-grain.3554902/)
+- 7 mm 168 VLD, 7mm Rem Mag, RL22 64 gr, 215M, limbic, Oct 7, 2009: [7mm remington pet loads](https://forum.accurateshooter.com/threads/7mm-remington-pet-loads-140-180-grain.3554902/)
+- 7 mm 168 VLD, 7mm Rem Mag, retumbo 71.5 gr, fed 215, Win brass, 3080-3100 fps, Shooter264, Mar 3, 2010: [7mm remington pet loads](https://forum.accurateshooter.com/threads/7mm-remington-pet-loads-140-180-grain.3554902/)
+- 7 mm 180 VLD, 7mm SAUM, 3050 fps, no charge, moondog, Apr 29, 2019: [180 gr VLD Hunting or Target](https://forum.accurateshooter.com/threads/berger-180-gr-vld-hunting-or-target.3978073/)
 - 6.5 mm 140 VLD, 6.5-270, 3090 fps, no charge, Shaun White: [6.5-270 with 140 bergers](https://forum.accurateshooter.com/threads/6-5-270-with-140-bergers-update.3642915/)
 - 6 mm 115 VLD, 240 Wby, H1000, 3150 fps, 23 in, no charge, irfubar, Nov 29, 2022: [Berger VLD Hunting](https://www.24hourcampfire.com/ubbthreads/ubbthreads.php/topics/1146696)
 
@@ -173,5 +180,7 @@ The 270 cal 150 gr file adds no unmatched name. `270WSM`, `270wsm`, and `.270 Wi
 The 7 mm 140 gr file adds `7mm08`. `7MM-08`, `7mm-08`, `7-08`, and `7/08` resolve to `7mm-08-rem`. `7mm-08AI` resolves to `7mm-08-ai`. Higginez's 140 Berger, which does not name a line, is in the ambiguous list. No fired hunting charge turned up in 7mm Rem Mag, 280 Rem, 284 Win, or 7mm SAUM. bsekf asked about a 7-08AI rimmed and got no charge.
 
 The 7 mm 168 gr file adds no unmatched name. `7mm rem mag` resolves to `7mm-rem-mag`. fourpower's 168 and 180 Berger charges do not name a line, so they are in the ambiguous list. Berger's emailed start and max table is not a community load. No fired hunting charge turned up in .284 or 7 SAUM.
+
+The 7 mm 180 gr file adds no unmatched name. `280 AI` resolves to `280-ai`. `7 SAUM` resolves to `7mm-saum`. `7 rem mag` resolves to `7mm-rem-mag`. Untagged 180 VLD and 180 Berger charges are in the ambiguous list. nakneker named H4831SC and CCI 250 for 180 hunting VLDs in a 7 Saum and gave no charge. No fired hunting charge turned up in 7mm PRC.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
