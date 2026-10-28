@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 20:06 UTC
+Last updated: 2026-10-28 20:12 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -63,6 +63,8 @@ Ten more library cartridges cite unique 4D case drawings and fill only empty fie
 Ten more library cartridges cite unique 4D case drawings and fill only empty fields. Each neck is 0.027–0.037 in over the bullet, and the shoulder length matches the printed angle. .204 Ruger is 30° and 0.3599 in. .222 Remington Magnum is 23° and 0.3571 in. .257 Roberts is 20°45' and 0.4294 in. .270 Winchester Short Magnum keeps the .300 WSM shoulder, 0.5381 in at 35°. .300 Norma Magnum, the non-belted page, is 20° and 0.5626 in. .300 Remington Short Action Ultra Magnum keeps the 300 RSAUM shoulder, 0.5347 in, at a printed 30°; the library already stores 35°, so that angle stays. .307 Winchester, .338 Federal, and .358 Winchester share the shoulder station 0.4540 in at 20°. .376 Steyr is 17°30' and 0.4748 in, with rim 0.4960 in and no belt printed. 7mm Remington Ultra Magnum was skipped because the junction lengths do not agree with the printed 30° shoulder. The 416 Ruger drawing is the same image as the 416-375 Ruger page, so it was not cited. .243 WSSM prints neck 0.2910, 0.048 in over the bullet, and the 28° cone matches, so that neck is the print; it was not stored in this batch. 99 library cartridges are still partly estimated.
 
 The late bullet-drawing check re-read four Berger product pages whose nose, bearing surface, and boattail miss overall length by more than 0.05 in. The pages print those figures: 30485 (1.575 versus 1.449), 37379 (2.236 versus 1.801), 37407 (2.347 versus 1.847), and 26403 (1.310 versus 1.403). No length was changed. See [`comments/2026-10-28-berger-length-segments.md`](comments/2026-10-28-berger-length-segments.md).
+
+Three Lehigh Defense Wide Flat Nose bullets print an inch meplat in the Wilson Combat Notes field, and that diameter is now `meplatIn`: .458 380 gr 0.346, .458 450 gr 0.279, and .375 270 gr 0.220. The .416 350 gr and .475 330 gr Wide Flat Nose pages do not print a meplat. Cutting Edge prints "67% Meplat" as a nose-profile name, not an inch diameter, so `meplatIn` stays empty. Hammer and Berger site searches return no product spec that prints a meplat. A Hammer tip length stays a tip length. Spot checks of Maker, Hawk, Swift, Woodleigh, Bear Creek, American Copper, and PVA pages do not print one.
 
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
 

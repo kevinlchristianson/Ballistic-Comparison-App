@@ -2418,7 +2418,7 @@
       "baseToOgiveIn": null,
       "noseLengthIn": null,
       "boattailLengthIn": null,
-      "meplatIn": null,
+      "meplatIn": 0.346,
       "ogiveType": null,
       "discontinued": null,
       "construction": [],
@@ -2432,9 +2432,9 @@
       "sources": [
         {
           "url": "https://wilsoncombat.com/458-diameter-380-grain-wide-flat-nose-bullets-50-count",
-          "retrievedOn": "2026-10-27",
+          "retrievedOn": "2026-10-28",
           "publisher": "Lehigh Defense",
-          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications. Meplat diameter from the printed Notes field, stored as meplatIn."
         }
       ],
       "conflicts": [],
@@ -2684,7 +2684,7 @@
       "baseToOgiveIn": null,
       "noseLengthIn": null,
       "boattailLengthIn": null,
-      "meplatIn": null,
+      "meplatIn": 0.279,
       "ogiveType": null,
       "discontinued": null,
       "construction": [],
@@ -2698,9 +2698,9 @@
       "sources": [
         {
           "url": "https://wilsoncombat.com/458-diameter-450-grain-wide-flat-nose-bullets-25-count",
-          "retrievedOn": "2026-10-27",
+          "retrievedOn": "2026-10-28",
           "publisher": "Lehigh Defense",
-          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications. Meplat diameter from the printed Notes field, stored as meplatIn."
         }
       ],
       "conflicts": [],
@@ -3329,7 +3329,7 @@
       "baseToOgiveIn": null,
       "noseLengthIn": null,
       "boattailLengthIn": null,
-      "meplatIn": null,
+      "meplatIn": 0.22,
       "ogiveType": null,
       "discontinued": null,
       "construction": [],
@@ -3343,9 +3343,9 @@
       "sources": [
         {
           "url": "https://wilsoncombat.com/375-diameter-270-grain-wide-flat-nose-bullets-50-count",
-          "retrievedOn": "2026-10-27",
+          "retrievedOn": "2026-10-28",
           "publisher": "Lehigh Defense",
-          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications."
+          "notes": "Wilson Combat product page. lehighdefense.com redirects to this storefront. Diameter, weight, length, sectional density, G1, and G7 are custom fields. G7 is omitted when the field says N/A. Ogive length is Ogive Length (inches). Item Length is the shipping box and is not stored. The terms page is a customer-service policy and does not forbid copying specifications. Meplat diameter from the printed Notes field, stored as meplatIn."
         }
       ],
       "conflicts": [],
