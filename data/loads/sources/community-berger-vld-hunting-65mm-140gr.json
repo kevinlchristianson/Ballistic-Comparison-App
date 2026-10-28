@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "loadCount": 10,
+  "loadCount": 11,
   "source": {
     "name": "Community Berger 6.5 mm 140 Grain VLD Hunting",
     "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-65mm-140gr.csv",
@@ -92,6 +92,34 @@
       "sourceUrl": "https://forum.accurateshooter.com/threads/260-rem-140gr-berger-bld-hunting.3835010/",
       "sourcePage": "Shooters' Forum",
       "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: HTSmith; Posted: Jan 31, 2014; 0.010 jammed. He did not repeat the bullet name. The thread is 140 gr Berger VLD hunting."
+    },
+    {
+      "cartridge": ".260 rem",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 140,
+      "bulletDescription": "140 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "H4350",
+      "charge": 42,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "CCI BR",
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/260-rem-140gr-berger-bld-hunting.3835010/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: RHux; Posted: Jan 31, 2014; 140 VLD. .010 jam. 1 in at 200 yards. He did not name the cartridge. The thread is .260 rem and 140 gr Berger VLD hunting. Filed as VLD Hunting because the thread is a hunting-bullet request."
     },
     {
       "cartridge": ".260 rem",
