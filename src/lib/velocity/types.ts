@@ -41,6 +41,8 @@ export interface VelocityEstimate {
    * cross-checks shown beside the answer, not part of it.
    */
   components?: EstimateComponent[];
+  /** Set when blend-v1 raised this estimate to a smaller same-bore case's published-load estimate. */
+  boreFloor?: { cartridgeId: string; name: string; fromFps: number };
 }
 
 export type ComponentSource = "load_data" | "load_data_extended" | "similar_cartridges" | "physics";

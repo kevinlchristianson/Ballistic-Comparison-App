@@ -38,7 +38,7 @@ export function createDefaultEstimator(cartridges: Cartridge[], loads: Normalize
   const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(loads) });
   const physics = createFilledPhysics(cartridges, inputs);
   const fits = loadFitSource(loads, physicsFpsPerInch(physics));
-  return createBlendEstimator({ cartridges, fits, physics });
+  return createBlendEstimator({ cartridges, fits, physics, inputs });
 }
 
 /**
@@ -53,7 +53,7 @@ export function createSiteEstimator(
   inputs: Map<string, CartridgeInputs> = estimateCartridgeInputs(cartridges),
 ): VelocityEstimator {
   const physics = createFilledPhysics(cartridges, inputs);
-  let est = createBlendEstimator({ cartridges, fits: tableFitSource(table), physics, loadModel: table.model });
+  let est = createBlendEstimator({ cartridges, fits: tableFitSource(table), physics, loadModel: table.model, inputs });
   if (userLoads.length > 0) {
     est = combine(createLoadDataEstimator(userLoads, { fpsPerInch: physicsFpsPerInch(physics), id: USER_LOADS_MODEL }), est);
   }

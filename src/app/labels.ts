@@ -84,6 +84,7 @@ export const FLAG_TEXT: Record<string, string> = {
   "fallback_from_loglog-v1": "No published loads cover this, so the physics model answered.",
   blended_estimate: "Published loads do not settle this on their own, so several estimates were blended.",
   single_source: "All published loads for this cartridge come from one source, often the cartridge's maker. One source can sit 4–6% away from others, so they were blended with similar cartridges and the physics model.",
+  raised_to_smaller_case: "Raised to match a smaller case of the same bullet diameter whose own published loads cover this bullet: a case that holds much more powder should not be estimated slower.",
   extended_beyond_published_weights: "Uses this cartridge's published loads, extended past their bullet weights along the physics model's weight curve.",
   similar_cartridges: "Uses cartridges with similar velocities that have published loads at this weight.",
   no_published_loads: "No published loads for this cartridge.",

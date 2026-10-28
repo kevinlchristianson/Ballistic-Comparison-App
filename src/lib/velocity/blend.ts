@@ -24,6 +24,13 @@
  *    library lacks them, and allowed outside its calibrated weight range
  *    with a wider range.
  *
+ * Bore floor: a blended estimate for a case that holds at least 15% more
+ * powder than another case of the same bullet diameter (at no lower a
+ * pressure limit, when both limits are published) is never below that smaller case's estimate when the
+ * smaller case's own published loads answer. Same bore, same bullet, more
+ * powder at the same pressure is not slower; a blend that says so is resting
+ * on thin data (often one maker's loads extended to a new weight).
+ *
  * The combination is a weighted mean in log space, each estimate weighted by
  * 1 / (its relative standard deviation)². The reported range is twice the
  * larger of the combined standard deviation and the spread between the
@@ -31,6 +38,7 @@
  * `low_confidence`.
  */
 import type { Cartridge } from "../cartridges.ts";
+import type { CartridgeInputs } from "./inputs.ts";
 import { estimateFromFit, LOW_CONFIDENCE_SPREAD, type FitSource, type LoadFit } from "./loadData.ts";
 import { NO_SUPPORT, type EstimateComponent, type VelocityEstimate, type VelocityEstimator, type VelocityQuery } from "./types.ts";
 
@@ -61,6 +69,9 @@ const PEER_LOADS_SD = 0.03;
  * top of its own scatter.
  */
 const SINGLE_SOURCE_SD = 0.045;
+/** Bore floor: the bigger case must hold at least this much more, at no less than this share of the smaller case's pressure. */
+const FLOOR_CAPACITY_RATIO = 1.15;
+const FLOOR_PRESSURE_RATIO = 0.95;
 
 export interface BlendOptions {
   cartridges: Cartridge[];
@@ -69,6 +80,8 @@ export interface BlendOptions {
   physics: VelocityEstimator;
   /** Model id reported when the published loads answer directly. */
   loadModel?: string;
+  /** Case capacity and pressure per cartridge, library or estimated (inputs.ts). Turns on the bore floor. */
+  inputs?: Map<string, CartridgeInputs>;
 }
 
 const relSdOf = (e: VelocityEstimate): number =>
@@ -182,6 +195,61 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
     };
   }
 
+  /** Same-bore cartridges whose case is much smaller, at no higher pressure limit. */
+  function smallerCases(c: Cartridge): Cartridge[] {
+    const mine = o.inputs?.get(c.id);
+    const d = c.bulletDiameterIn;
+    if (!mine?.caseCapacityGrH2O || !mine.mapPsi || d == null) return [];
+    return o.cartridges.filter((p) => {
+      if (p.id === c.id || p.kind === "user" || p.bulletDiameterIn == null || Math.abs(p.bulletDiameterIn - d) > DIAMETER_TOLERANCE_IN) return false;
+      const x = o.inputs!.get(p.id);
+      if (!x?.caseCapacityGrH2O || !x.mapPsi || mine.caseCapacityGrH2O! < FLOOR_CAPACITY_RATIO * x.caseCapacityGrH2O) return false;
+      // An estimated pressure is a rim-type or parent-case guess, too rough to rule a case out.
+      const bothKnown = !mine.pressureEstimate && !x.pressureEstimate;
+      return !bothKnown || mine.mapPsi! >= FLOOR_PRESSURE_RATIO * x.mapPsi;
+    });
+  }
+
+  /** Raises a blended estimate to the best smaller same-bore case whose published loads answer directly. */
+  function boreFloor(c: Cartridge, q: VelocityQuery, e: VelocityEstimate): VelocityEstimate {
+    if (e.estimateFps == null) return e;
+    let best: { c: Cartridge; fps: number } | null = null;
+    for (const p of smallerCases(c)) {
+      const pe = raw({ ...q, cartridgeId: p.id });
+      if (pe.estimateFps == null || pe.model === BLEND_MODEL) continue; // only a direct answer counts as strong evidence
+      // Raised to the smaller case's value, not past it. Adding the physics model's expected gain
+      // from the bigger case made hidden-data checks worse (npm run check-blend), so it is left out.
+      const fps = pe.estimateFps;
+      if (fps > e.estimateFps && (!best || fps > best.fps)) best = { c: p, fps };
+    }
+    if (!best) return e;
+    const k = best.fps / e.estimateFps;
+    const name = (id: string) => byId.get(id)?.name ?? id;
+    const inp = (id: string) => o.inputs!.get(id)!;
+    return {
+      ...e,
+      estimateFps: best.fps,
+      lowFps: e.lowFps! * k,
+      highFps: e.highFps! * k,
+      flags: [...e.flags, "raised_to_smaller_case"],
+      note: `${e.note ?? ""} Raised from ${fmtFps(e.estimateFps)} to ${fmtFps(best.fps)}: ${c.name} holds more powder than ${name(best.c.id)} (${Math.round(inp(c.id).caseCapacityGrH2O!)} vs ${Math.round(inp(best.c.id).caseCapacityGrH2O!)} gr H₂O), so it should not be slower; ${name(best.c.id)}'s own published loads give ${fmtFps(best.fps)}.`.trim(),
+      boreFloor: { cartridgeId: best.c.id, name: best.c.name, fromFps: e.estimateFps },
+    };
+  }
+
+  // Raw estimates are cached: the bore floor asks for the same smaller cases again and again.
+  const cache = new Map<string, VelocityEstimate>();
+  function raw(q: VelocityQuery): VelocityEstimate {
+    const key = `${q.cartridgeId}|${q.bulletWeightGr}|${q.barrelLengthIn}`;
+    let e = cache.get(key);
+    if (!e) {
+      if (cache.size > 5000) cache.clear();
+      e = rawEstimate(q);
+      cache.set(key, e);
+    }
+    return e;
+  }
+
   return {
     id: BLEND_MODEL,
     description:
@@ -192,6 +260,14 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
       "Similar cartridges are matched by velocity, not by powder or case shape.",
     ],
     estimate(q: VelocityQuery): VelocityEstimate {
+      const e = raw(q);
+      const c = byId.get(q.cartridgeId);
+      return c && o.inputs && e.model === BLEND_MODEL ? boreFloor(c, q, e) : e;
+    },
+  };
+
+  function rawEstimate(q: VelocityQuery): VelocityEstimate {
+    {
       const c = byId.get(q.cartridgeId);
       if (!c) return noData("Unknown cartridge.");
       const lookup = o.fits(c.id, q.barrelLengthIn);
@@ -265,6 +341,6 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
         note: `${why} This combines ${parts.length === 1 ? "one estimate" : `${parts.length} estimates`}, weighted by how certain each is.`,
         components: parts,
       };
-    },
-  };
+    }
+  }
 }
