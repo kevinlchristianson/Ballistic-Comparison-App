@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
+import { normalizeBullets, type RawBulletCatalog } from "../src/lib/normalize/bullets.ts";
 import { buildBulletProfile, bulletDrawable, bulletHalfOutline, type BulletDims, type BulletProfile } from "../src/lib/bulletProfile.ts";
 
 /** Berger 6.5 mm 140 gr Hybrid Target as published. */
@@ -81,7 +82,9 @@ describe("bullet profiles", () => {
   });
 
   it("draws every qualifying bullet in the library with a sound outline", () => {
-    const records = JSON.parse(readFileSync("data/normalized/bullets.json", "utf8")).records as BulletDims[];
+    // Normalized here from the bot's file: data/normalized/ is build output and not in git.
+    const raw = JSON.parse(readFileSync("data/bullets/bullets.json", "utf8")) as RawBulletCatalog;
+    const records = normalizeBullets(raw, "bullets.json").bullets as unknown as BulletDims[];
     const drawn = records.filter((b) => b.diameterIn && !bulletDrawable(b)).map(buildBulletProfile).filter((p): p is BulletProfile => !!p);
     expect(drawn.length).toBeGreaterThan(300);
     drawn.forEach(check);
