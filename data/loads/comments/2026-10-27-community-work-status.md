@@ -50,7 +50,7 @@ The 6.5 mm 140 gr Long Range BT Target, part 26409, is [#236](https://github.com
 
 The 30 cal 115 gr FB Target, part 30421, is [#237](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/237).
 
-This follow-up adds 4xforfun's 38 - 41.3 gr H4350 ladder to the 6.5 mm 140 gr Long Range BT Target file. The charge stays null and the notes keep the range.
+This follow-up adds 4xforfun's 38 - 41.3 gr H4350 ladder to the 6.5 mm 140 gr Long Range BT Target file — [#238](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/238). The charge stays null and the notes keep the range.
 
 This pull request clears OMW57's charge on the 6 mm 90 gr BT Target file — [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234). He wrote over 30 grains, a lower bound, so the charge stays null and the note keeps Charge_gr: over 30.
 
