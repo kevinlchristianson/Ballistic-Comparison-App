@@ -22,7 +22,11 @@ The Berger OTM Tactical line closes with this pull request — [#205](https://gi
 
 Community-reported loads for every Berger Varmint bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Varmint line, or the catalog has only that varmint bullet at the weight.
 
-The bullet in this pull request is the 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212).
+The bullet in this pull request is the 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
+
+22 cal 55 gr FB Varmint, part 22311, was searched. The post that names part 22311 gives no grain weight. afret wrote Berger 55 FBs and around 24 grains of AR Comp. That does not say Varmint or Target, and the catalog also has the 55 gr FB Target, part 22410. No file and no pull request.
+
+22 cal 60 gr FB Varmint, part 22312, was searched. Sniper338 named a 60-64 gr Berger flat base varmint and gave no charge. No file and no pull request.
 
 22 cal 40 gr FB Varmint, part 22303, was searched. Posts name 40 gr varmint bullets and the numbered charges are V-Max or Nosler, not this Berger. No file and no pull request.
 
@@ -112,17 +116,15 @@ Merged community files, with the pull request number:
 - 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207)
 - 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210)
 - 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212)
+- 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 52 gr file merges, still in Varmint. The 20 cal 40 gr BT Varmint, part 20304, and the 22 cal 40 gr FB Varmint, part 22303, were searched and got no file.
+After the 80 gr file merges, still in Varmint. The 22 cal 55 gr FB Varmint, part 22311, and the 22 cal 60 gr FB Varmint, part 22312, were searched and got no file.
 
-1. 22 cal 55 gr FB Varmint, part 22311
-2. 22 cal 60 gr FB Varmint, part 22312
-3. 6 mm 80 gr FB Varmint, part 24321
-4. 6 mm 88 gr High BC FB Varmint, part 24323
+1. 6 mm 88 gr High BC FB Varmint, part 24323
 
 After Varmint: the bullets whose product line is blank.
 
@@ -215,6 +217,13 @@ These spellings are in the merged Hybrid Target community files and still do not
 - .300 Ackley
 - .300 ATLAS
 - 26wssm Imp
+- 223 cal
+- 47
+- Standard edge
+- 338 Edges
+- Edge
+- 6BR-AI
+- 6mmbr Norma
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
@@ -301,6 +310,8 @@ The 17 cal 25 gr FB Varmint file adds no unmatched name. `17fireball` resolves t
 The 20 cal 35 gr FB Varmint file adds no unmatched name. `.20 Practical` and `20 Practical` resolve to `20-practical`. RussellJ posted part #204035 for the 35 gr Berger. The catalog sku is 20303, and that is the only 20 cal 35 gr bullet. No fired 35 gr FB Varmint charge turned up in 204 Ruger, 20 Vartarg, 20 Tactical, or 20 PPC. The 20 cal 40 gr BT search adds no unmatched name and no file. No fired 40 gr Berger BT charge turned up in 204 Ruger, 20 Practical, 20 Vartarg, 20 Tactical, or 20 PPC. The ambiguous VLD list is left unchanged.
 
 The 22 cal 52 gr FB Varmint file adds no unmatched name. `222` resolves to `222-rem`. mshelton's 21 gr IMR 4198 at 3300 fps and Drop Port's H-4198 20.0, 20.5, and 21.0 gr are the fired charges. Sniper338 named the 52 varmints in 22-250 and 2250AI and gave no charge. xswanted named 3800 fps and gave no charge. No fired 52 gr FB Varmint charge turned up in 223, 22-250, 220 Swift, 22 Nosler, 224 Valkyrie, 22 Hornet, 22 BR, or 22 PPC. The 22 cal 40 gr FB search adds no unmatched name and no file. No fired 40 gr Berger FB Varmint charge turned up in 222, 223, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged.
+
+The 6 mm 80 gr FB Varmint file adds `6BR-AI` and `6mmbr Norma`. `6mmBR` is the same unmatched name already listed. `6mm BR Norma`, `6br`, and `6BR` resolve to `6mm-norma-br`. Big Mc wrote 3550.6mmbr Norma with no space, so the velocity stays null and the cartridge is stored as `6mmbr Norma`. swadiver's N135 nodes are around 30 gr and around 32 gr, so those charges stay null. Fyrchief's velocity is about 3070, so it stays null, and his 2.230 in LOA is the COAL. Eric Leonard's 29.9 gr velocity is a high of 3120 and a low of 3105, so it stays null. Hpwrshooter posted 38 gr of H4350 with 80 gr Berger varmint bullets and did not name the cartridge. Idaho-Lefty's IMR 4350 ladder is Sierra 80 gr Varminters. Cory porter's 31.5 gr of 8208 is Bart's, not this Berger. swadiver posted 30.2 gr of Varget and 29.0 gr of IMR 8208 XBR and did not name the cartridge. ranger3 posted 29.8 gr of H4895 and did not name the cartridge. No fired 80 gr FB Varmint charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Creed, 243 AI, 6mm ARC, or 240 Wby. The 22 cal 55 gr and 60 gr searches add no unmatched name and no file. afret's Berger 55 FBs and around 24 grains of AR Comp do not say which 55 gr flat base. Sniper338 named a 60-64 gr Berger flat base varmint and gave no charge. No fired 55 gr FB Varmint charge turned up in 222, 223, 22-250, 220 Swift, 22 Nosler, 224 Valkyrie, 22 Hornet, 22 BR, or 22 PPC. No fired 60 gr FB Varmint charge turned up in 223, 22-250, 22-250 AI, 220 Swift, 222, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
