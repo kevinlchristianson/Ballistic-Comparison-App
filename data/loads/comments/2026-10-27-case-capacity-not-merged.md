@@ -1,6 +1,6 @@
 # Bot case capacity is dropped when the project already has the cartridge
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Published water capacity on a bot cartridge does not reach the library
 
@@ -34,6 +34,10 @@ Searched on 2026-10-27, and left null because no single published water capacity
 
 ## Working assumption until answered
 
-The bot file keeps the cited 98.4 and 93. The live library capacity for those two cartridges stays null. No parent-case estimate is written. The bullet bot's estimates cover cartridges that still have no published capacity.
+The bot file keeps the cited 98.4 and 93. PR #87 fills those empty library fields from the bot record and does not overwrite a value the library already has. No parent-case estimate is written. The bullet bot's estimates cover cartridges that still have no published capacity.
 
 ## Answer
+
+Answered by [PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) and `BOTS.md` (What changed, item 7, and the answer for this file). A bot record whose id or name is already in the library is still left out, and its sourced `caseCapacityGrH2O`, `neckLengthIn`, and `shoulderAngleDeg` fill those fields when the library has none. A value the library already has is never replaced.
+
+Confirmed on 2026-10-28 from `data/normalized/REPORT.md` after normalization: `26-nosler` caseCapacityGrH2O = 93 and `27-nosler` caseCapacityGrH2O = 98.4. Both records stay left out as duplicates. The 93 gr figure is Nosler's useable case capacity. The 98.4 gr figure is Nosler's fireformed overflow to the neck.
