@@ -22,7 +22,7 @@ import { join } from "node:path";
 import type { CartridgeLibrary } from "../src/lib/cartridges.ts";
 import type { NormalizedBullet, NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { createFilledPhysics, physicsFpsPerInch } from "../src/lib/velocity/index.ts";
-import { estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
+import { botCapacityEstimates, estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
 import { buildFitTable, COMMUNITY_FLAG } from "../src/lib/velocity/loadData.ts";
 import { PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
@@ -122,9 +122,12 @@ const fitLoadsInput = config.communityLoadsInEstimates === false ? loads.filter(
 // Heaviest published charge per cartridge, one input to the case-capacity
 // estimate for cartridges the library has no capacity for.
 const maxChargeGr = maxChargesFromLoads(fitLoadsInput);
-const physics = createFilledPhysics(lib.cartridges, estimateCartridgeInputs(lib.cartridges, { maxChargeGr }));
+// The bullet bot's case-profile capacity estimates, one more input where the library has no capacity.
+const BOT_ESTIMATES = "data/bullets/estimates/case-capacity.json";
+const botEstimates = existsSync(BOT_ESTIMATES) ? botCapacityEstimates(readJson<unknown>(BOT_ESTIMATES)) : {};
+const physics = createFilledPhysics(lib.cartridges, estimateCartridgeInputs(lib.cartridges, { maxChargeGr, botEstimates }));
 // The site gets the heaviest charges only when it publishes charges anyway.
-const estimateInputs = { maxChargeGr: rowsMode === "full" ? maxChargeGr : {} };
+const estimateInputs = { maxChargeGr: rowsMode === "full" ? maxChargeGr : {}, botEstimates };
 const fits = buildFitTable(fitLoadsInput, config.barrelRangeIn, physicsFpsPerInch(physics));
 
 // Load rows for the Load data tab, one file per cartridge.

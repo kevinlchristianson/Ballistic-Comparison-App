@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-27 (evening), after the SAAMI check of the cartridge library (PR #84). See **What changed on the project side** below.
+Last updated: 2026-10-28, after PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -78,6 +78,14 @@ Open requests:
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
 
+## What changed on the project side (2026-10-28)
+
+1. **Pacific Tool & Gauge dimensions are allowed (owner's decision, 2026-10-28).** Copy the printed numbers from PTG chamber-reamer drawings only, never the drawing images or other page text, and cite the reamer page for each cartridge in `source`. This replaces the PTG part of the `6-woa` answer. Recorded in `data/SOURCES.md`.
+2. **Cartridge schema 1.1.0** adds optional `baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder` and `lengthToNeck` (in `lengthUnit`). See `data/cartridges/bots/README.md`. 1.0.0 files still work; switch to 1.1.0 when you write the new keys.
+3. **The fill rule now covers the profile too:** an empty `rimDiameter`, `neckLength`, `shoulderAngleDeg`, `caseCapacityGrH2O` or any of the five profile lengths on a library cartridge is filled from your sourced record. A value the library has is never replaced. New PTG cartridges (wildcats the library lacks) are added as usual, `kind: "wildcat"`.
+4. **The site reads the bullet bot's `data/bullets/estimates/case-capacity.json`** as one input to its own capacity estimate, weighted by the calibration error in each row (`calibrationMedianAbsErrorGr`). Keep that file's shape. The site also now keeps an improved case's estimate at or above its parent, like the bot's Ackley floor.
+5. The Cartridges tab now shows base Ø, shoulder Ø, length to shoulder, shoulder angle and neck length.
+
 ## What changed on the project side (2026-10-27 evening)
 
 Read this before your next pull request.
@@ -101,6 +109,8 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 
 | File | Answer |
 | --- | --- |
+| `2026-10-28-ptg-reamer-dimensions.md` | 1: Allowed, numbers only, cited per cartridge (the owner's decision, 2026-10-28; see "What changed" item 1). 2: Schema 1.1.0 adds `baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder`, `lengthToNeck`; write them in `data/cartridges/bots/bullets.json` with `schemaVersion` "1.1.0". 3: Yes, the fill rule covers them and `rimDiameter`, filling empty fields only. On .243 AI: agreed with your check, and the site now applies the same floor. With real profiles, please re-run your geometric capacity model; the site will pick up the new estimates. |
+| `2026-10-27-case-capacity-estimates.md`, `2026-10-28-case-capacity-estimates-still-wanted.md` | Yes, still wanted, and stored exactly as you do now: a separate file with `caseCapacityEstimateGrH2O`, `estimated: true`, the method, inputs and calibration error, and never in `caseCapacityGrH2O`. The site now reads it as one input to its own estimate (see "What changed" item 4), shown with ≈. Keep re-running it when published capacities or dimensions arrive. |
 | `2026-10-27-american-copper-bullets.md` | Agreed: `weightGr` 55, with the printed `55g` and the tolerance sentence quoted in `notes`. |
 | `2026-10-27-berger-catalog-vs-product-page.md` | Agreed: keep the product-page G1 and G7, record the catalog values in `conflicts`, cite both, and keep part 27401's `productLine` as `Hybrid Target`. Please also add part 24486 (6 mm 120 gr Long Range Hybrid Target) from its product page: the load bot has published community loads for it, and they should link to a bullet. |
 | `2026-10-27-6-woa.md`, `bear-creek-components.md`, `bergara-no-bullets.md`, `cartridge-gaps.md`, `fiocchi-terms.md`, `geco-rottweil-impressum.md`, `hammer-lengths.md`, `hawk-components.md`, `jbm-length-list.md`, `maker-components.md`, `north-fork-terms.md`, `nosler-printed-diameters.md`, `peregrine-terms.md`, `ppu-components.md`, `printed-diameters.md`, `pva-components.md`, `remington-kinetic-terms.md`, `rmr-components.md`, `rws-impressum.md`, `sako-components.md`, `sellier-bellot-components.md`, `warner-terms.md`, `winchester-terms.md` (all 2026-10-27) | Agreed with the answer in each file. Sources whose terms forbid copying stay out unless the owner records written permission here. |
@@ -122,6 +132,7 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 
 | File | Answer |
 | --- | --- |
+| `2026-10-27-hammer-terms.md` | Agreed: the source-terms survey stands; the copyright line is noted for the owner. Please also put Hammer's printed "Case volume H20" values on records in `data/cartridges/bots/loads.json` (cited to the Hammer sheet) for cartridges the library has with no capacity: the 11 the bullet bot listed (.22-250 AI, .22 BR, .25-284, .30-06 AI, 6.5-06, 6.5 SAUM, 6mm-284, 6mm BR Rem, 6mm Dasher, 6mm PPC; .25 Nosler excepted below). The fill rule then makes them published library values. Skip 20 VarTarg (two figures). Leave `.25 Nosler` alone: the library holds a labelled estimate there, so the fill rule won't replace it, and the project will review Hammer's 99 gr against Nosler's usable-capacity figures. The 16 Hammer names not in the library can be added as wildcats if Hammer's sheet prints bullet diameter and case length. |
 | `2026-10-27-case-capacity-not-merged.md` | Done in this change: when your record's id (or name) is already in the library, the merge now fills the library's **empty** `caseCapacityGrH2O`, `neckLengthIn` and `shoulderAngleDeg` from your record, with your source in the field note, and lists each fill under "Empty library fields filled from bot records" in the normalization report. The record itself is still left out, and a value the library already has is never replaced. So keep the cited 98.4 (.27 Nosler) and 93 (.26 Nosler) in `loads.json`, and leave the other seven duplicates in place only if they carry such a value; otherwise delete them as item 3 above asks. Keep leaving capacity null when the sources disagree: the site now estimates missing capacities itself (shown with ≈) and never writes them back. |
 | `2026-10-27-community-cartridge-strings-6mm-108.md` | Keep the strings exactly as posted, as you did. The app now matches forum shorthand itself: "creed"/"CM" for Creedmoor, "WM", "RM", "LM", "NM", "BLK", a dropped "mm" ("6 creed" = "6mm Creedmoor"), case, and missing maker words when that leaves only one cartridge. "6 creed", "6 CM", "6xc" and "6mm creedmoor" now resolve to 6mm Creedmoor and 6XC. Any name still unmatched is listed in `REPORT.md` under "Cartridge names not in the library". You can now add the alias or cartridge yourself in `data/cartridges/bots/loads.json` (see "Both bots: adding cartridges"). A comment is no longer needed for each unmatched string. |
 | `2026-10-27-community-forum-terms.md` | Agreed: Shooters' Forum, Rokslide, Long Range Only and 24hourcampfire may be collected as you describe (public thread pages, robots.txt respected, 10 s between requests, terms quoted). The owner expects much more community data. Keep flagging copyright-retention lines as you did, and skip any forum whose terms bar copying or scraping. |
