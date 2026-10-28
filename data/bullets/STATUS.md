@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 18:40 UTC
+Last updated: 2026-10-28 19:20 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -37,6 +37,8 @@ Ten more cartridges cite unique 4D drawings whose titles match the pages. .500 A
 The 6mm/350 Rem Mag record now uses that printed title and parent `.350 Remington Magnum`. Its case length is 2.170 in, the same as the .350 Remington Magnum drawing. The separate page titled 6mm/6.5 Rem Mag is its own drawing (neck 0.2770 in, length to the neck 1.9300 in) and is not an alias. Ten more cartridges cite unique titled drawings: 6mm/6.5 Rem Mag, 243-250, 6.5x68mm Schuler, .375/444 Marlin, .358 Yukon, .243 Rockchucker, 9.3x57mm Mauser, .303 Savage, .308 Norma Magnum, and 8mm Remington Ultra Magnum. 20 PPC was skipped because the bore is ambiguous. The catalog still has uncited pages.
 
 Ten more cartridges cite unique 4D drawings whose titles match the pages. .22 Grendel is 30° on the 6.5 Grendel head. .220 Jaybird is 35°. 22x47 Lapua is 30°10' on the 6.5x47 head. .240 Cobra is 34°. 22/243 Winchester is 20° with the .243 Winchester shoulder, 0.4540 in. 338/6.5 Creedmoor is 30°. 7mm/338 Lapua Magnum is 20° with the .338 Lapua shoulder, 0.5440 in. 35-284 Winchester is 35° with the .284 Winchester shoulder, 0.4748 in. 6.5 Weatherby RPM is already in the library. 35/375 Ruger is 30°. 30x47 Lapua is 30°. 6.8 TVC does not print the case-mouth length. The catalog still has uncited pages.
+
+Ten more cartridges cite unique 4D drawings whose titles match the pages. 270-243 WSSM, 30/243 WSSM, and 338/243 WSSM keep the .243 WSSM shoulder, 0.5444 in at 28°. 270/300 RSAUM keeps the 300 RSAUM shoulder, 0.5347 in at 30°. 458 WSM keeps the .300 WSM shoulder, 0.5381 in at 35°, with a .458 neck. 35/30-30 Winchester keeps the .30-30 shoulder, 0.4013 in at 15°35'. 400 Whelen (Petrov) is 27°40' and 0.4580 in versus the .30-06 case drawing 0.4410 in. 408 Chey-Tac is 21°55' and shoulder 0.6040 in at 2.4394 in, the same shoulder station as the .416 CheyTac drawing. 450 Rigby is 35°15' on its own case. 37 XC is 30°. Skipped this pass: 6mm Grendel, because the drawing is titled 6mm Gredel; 6.5x57mm Mauser, because the product page is titled 6.5mm x 57 Mauser (CIP); .224 Weatherby Magnum and 22/240 Weatherby, because the double-radius shoulder has no printed angle. The catalog still has uncited pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
