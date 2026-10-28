@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 18:15 UTC
+Last updated: 2026-10-28 18:20 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -27,6 +27,8 @@ Ten more wildcats cite unique 4D drawings whose titles match the pages. .22-6mm 
 Ten more wildcats cite unique 4D drawings whose titles match the pages. .35 Ackley Magnum is 40° and 0.4930 in versus .300 H&H 0.4498 in. .30 Gibbs is 35° and 0.4550 in versus the .30-06 case drawing 0.4410 in. .338 Scovill is 25°5' and 0.4550 in versus 0.4410 in. .35 Brown Whelen is 34°35' and 0.4610 in versus 0.4410 in. .375-348 Improved (Scovill) is 25° and 0.5200 in versus .348 Winchester 0.4851 in. .450 Alaskan is 16°30' and 0.5200 in versus 0.4851 in. 6.5 Shooting Times Western and .257 STW are 25°45' and 25° on the 7mm STW case, shoulders 0.4870 in. 6mm Donaldson Wasp is 28°. .300 Dakota is 31°55' on its own rebated case. 22 Dasher was skipped: its 40° shoulder equals 6mm BR at 0.4600 in. 510 Whisper and .50 Alaskan do not print the junction lengths. The catalog still has uncited wildcat pages.
 
 Ten more wildcats cite unique 4D drawings whose titles match the pages. 22/30-30 Ackley is 40° and 0.4040 in versus .30-30 Winchester 0.4013 in. .375 Dakota is 29°40', .330 Dakota is 34°10', and .450 Dakota is 26°15', on the same rebated family as .300 Dakota. 7mm/300 WSM is 35° and 0.5381 in, the same shoulder as .300 WSM, with a 7mm neck. .416 Taylor is 35°30' on the .458 Winchester Magnum head. .17 Mach IV is 30° on the .221 Fireball head. .17 PPC is 30°. 220 Wotkyns-Wilson Arrow is 30°. .458 SOCOM is 25°. 6.5 BeanMore is not on a 4D page and no bullet-bot record covers it. The catalog still has uncited wildcat pages.
+
+Ten more wildcats cite unique 4D drawings whose titles match the pages. .22 K-Hornet is 40° and 0.2860 in versus .22 Hornet 0.2773 in. .240 Gibbs is 35° and 0.4550 in versus the .30-06 case drawing 0.4410 in. .243 Catbird is 34°50' and 0.4540 in versus 0.4410 in. 6.5/270 WSM and 35-300 WSM keep the WSM shoulder, 0.5381 in, at 35° and 30°. .277 Wolverine is 23° on a shortened .223 head. .17 Javelina is 32° and 0.3620 in versus .223 Remington 0.3542 in. .338 Spectre is 29°55'. 7mm LRM is 30°. .22 Cheetah Mach II is 28°. The 270 Sherman page is a wordmark, not a drawing. .50 Beowulf does not print a shoulder angle or junction lengths. The catalog still has uncited wildcat pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
