@@ -15,6 +15,9 @@ Do not copy an estimate into caseCapacityGrH2O, neckLengthIn, or
 shoulderAngleDeg on a bot cartridge. Those fields now fill empty library
 values, so an estimate placed there would be shown as a sourced capacity.
 
+An Ackley Improved estimate is raised to the parent's cited capacity when
+the model comes out lower. An improved case is not smaller than its parent.
+
   python3 scripts/bullets/estimate_case_capacity.py
 
 The library does not store base, shoulder, or neck outside diameters.
@@ -697,6 +700,9 @@ def build() -> dict:
         parent = by_id.get(cluster["parentId"] or "")
         parent_cap = _cited_measurement(parent) if parent else None
         parent_name = parent["name"] if parent else None
+        if _ackley_improved(cluster):
+            _floor_ackley(chosen, parent_cap)
+            _floor_ackley(alternate, parent_cap)
         estimates.append(_estimate_row(cluster, chosen, alternate, rim_note, geometric, parent_cap, parent_name))
 
     geo_errors = {}
@@ -779,7 +785,9 @@ def build() -> dict:
                     "no Ackley cartridge in the calibration set has a cited capacity, "
                     "and the library has no shoulder diameter. "
                     "The geometric model does use a stored Ackley shoulder angle when the row has one. "
-                    "A capacity the owner file already labels as an estimate is not used as a parent."
+                    "A capacity the owner file already labels as an estimate is not used as a parent. "
+                    "When this method, or the geometric method, comes out below the parent's cited capacity "
+                    "for an Ackley Improved cartridge, the estimate is raised to that parent capacity."
                 ),
                 "k": None if not parent_fit else _round(parent_fit["k"], 4),
                 "unit": "grains per inch per square inch of bore-area change",
@@ -868,6 +876,21 @@ def _choose(geo: dict | None, par: dict | None) -> tuple[dict | None, dict | Non
     return None, None
 
 
+def _ackley_improved(cluster: dict) -> bool:
+    """Ackley Improved and the same family (name or an -ai id)."""
+    if re.search(r"ackley|improved", cluster["name"], re.IGNORECASE):
+        return True
+    return bool(re.search(r"(^|-)ai$", cluster["id"]))
+
+
+def _floor_ackley(method: dict | None, parent_cap: float | None) -> None:
+    """An improved case is not smaller than the parent it is blown out from."""
+    if method is None or parent_cap is None or method["estimate"] >= parent_cap:
+        return
+    method["beforeAckleyFloorGr"] = method["estimate"]
+    method["estimate"] = parent_cap
+
+
 def _unable_reason(cluster: dict, rim_type: str | None, geometric: dict, parent_fit: dict | None) -> str:
     missing = []
     if cluster["caseLength"] is None:
@@ -908,6 +931,11 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
             f"Subtracted the geometric residual on parent {cluster['parentId']} "
             f"({_round(chosen['parentResidualGr'], 2):g} gr, model minus cited capacity)."
         )
+    if chosen.get("beforeAckleyFloorGr") is not None:
+        assumptions.append(
+            f"Raised from {_round(chosen['beforeAckleyFloorGr'], 1):g} gr to the parent capacity "
+            f"({_round(parent_cap, 1):g} gr). An Ackley Improved case is not smaller than its parent."
+        )
     assumptions.append("Superseded by a printed case volume when one is available.")
     inputs = {
         "caseLengthIn": _maybe(cluster["caseLength"]),
@@ -923,6 +951,8 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
         "parentCase": cluster["parentCase"],
         "parentId": cluster["parentId"],
     }
+    if chosen.get("beforeAckleyFloorGr") is not None:
+        inputs["estimateBeforeAckleyFloorGr"] = _round(chosen["beforeAckleyFloorGr"], 1)
     if cluster["conflicts"]:
         inputs["conflictingValuesNotUsed"] = cluster["conflicts"]
     row = {
@@ -951,6 +981,11 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
             "calibrationWorstAbsErrorGr": alternate["summary"]["worstAbsErrorGr"],
             "parentId": alternate.get("parentId"),
             "parentCitedCapacityGrH2O": _maybe(alternate.get("parentCapacity")),
+            **(
+                {"estimateBeforeAckleyFloorGr": _round(alternate["beforeAckleyFloorGr"], 1)}
+                if alternate.get("beforeAckleyFloorGr") is not None
+                else {}
+            ),
         },
         "supersededByPrintedValueWhenAvailable": True,
     }
