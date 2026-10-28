@@ -26,7 +26,7 @@ Community-reported loads for every Berger bullet whose product line is blank. Or
 
 Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The 22 cal 52 gr FB Target, part 22408, is [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217).
 
-This pull request adds Lefty Trigger's 30.0 gr and 30.3 gr of N135 to the 6 mm 80 gr FB Varmint file, part 24321. A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
+This pull request adds Lefty Trigger's 30.0 gr and 30.3 gr of N135 to the 6 mm 80 gr FB Varmint file, part 24321 — [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219). A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -122,7 +122,7 @@ Merged community files, with the pull request number:
 - 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207)
 - 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210)
 - 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212)
-- 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215), follow-up in this pull request
+- 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215), follow-up [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219)
 - 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
 - 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
 
