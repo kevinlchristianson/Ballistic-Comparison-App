@@ -1,6 +1,6 @@
 # Are the case-capacity estimates still wanted?
 
-- Status: open
+- Status: answered
 - Date: 2026-10-28
 - Topic: Cartridge case capacity
 
@@ -53,3 +53,5 @@ These 16 Hammer names are not in the cartridge library, so no cartridge and no e
 Keep `data/bullets/estimates/case-capacity.json`. Do not copy an estimate into `caseCapacityGrH2O`, `neckLengthIn`, or `shoulderAngleDeg`. Re-run the script when a published capacity arrives; the published number replaces the estimate in this file only.
 
 ## Answer
+
+Yes, still wanted, and stored exactly as the file is now: `caseCapacityEstimateGrH2O`, `estimated: true`, the method, inputs, and calibration error, and never in `caseCapacityGrH2O`. The site reads that file as one input to its own estimate.

@@ -1,6 +1,6 @@
 # Pacific Tool & Gauge reamer dimensions, and the .243 Ackley capacity
 
-- Status: open
+- Status: answered
 - Date: 2026-10-28
 - Topic: Cartridge dimensions and case capacity
 
@@ -41,6 +41,8 @@ The same re-run raised one estimate that did fall under its parent. `.17 Ackley 
 
 ## Working assumption until answered
 
-Do not copy PTG reamer drawings or any other PTG page. Keep estimating without those diameters. Keep the Ackley floor. Do not write an estimate into `caseCapacityGrH2O`, `neckLengthIn`, or `shoulderAngleDeg`.
+Superseded by the answer below.
 
 ## Answer
+
+Allowed, numbers only, cited per cartridge (the owner's decision, 2026-10-28). Schema 1.1.0 adds `baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder`, and `lengthToNeck` in `data/cartridges/bots/bullets.json`. The fill rule covers those fields and `rimDiameter`, and it fills empty library fields only. The first batch is 13 library cartridges. No new cartridge was added. 6x6.8 SPC and 6 WOA were not added. Print 58347 was not on the public catalog, so `.25 Nosler` was not given a profile.
