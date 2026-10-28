@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 18:57 UTC
+Last updated: 2026-10-28 19:03 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` aliases to `22-6mm`. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` aliases to `22-6mm`. Community shorthand from the Berger VLD and Classic Hunter files is aliased where a library id exists. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
 
 ## Case capacity
 
@@ -20,7 +20,17 @@ Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets
 
 Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` resolve to that id. Bullet-bot PR #184 added the standard case as `22-6mm`, name `22/6mm Remington`, alias `22-6mm Remington`: 26 degrees, shoulder 0.4310 in, case 2.253 in, parent 6mm Remington. Hammer's only 22-6mm load name is `22-6mm (Rem)`, 250 rows. The sheet has no second spelling. That name aliases to `22-6mm`, not to `22-6mm-ai`. Hammer prints case 2.233 in and coal "Not SAAMI Spec."; the alias follows the `(Rem)` label. No community file uses a 22-6mm name.
 
-Counted with `resolveCartridge` after that alias: 96,086 of 118,770 load rows resolve, and 22,684 do not. The 250 Hammer rows are in the resolved count. The single-source figures below are the earlier snapshot from PR #116.
+Counted with `resolveCartridge` after the community aliases below: 96,091 of 118,770 load rows resolve, and 22,679 do not. The 250 Hammer `22-6mm (Rem)` rows are in that count. The single-source figures below are the earlier snapshot from PR #116.
+
+`creed` aliases to `6-5-creedmoor`. The comparison key is already lowercase, so `Creed` matches the same alias. There was no separate `Creed` alias to fix. The shorthand also folds bare `Creedmoor` onto that key, so the two `Creedmoor` rows in the 6.5 mm 156 gr file resolve there too. `6mmBR` already aliases to `6mm-norma-br` (2 rows). `7mm08` aliases to `7mm-08-rem` (3 rows).
+
+`6X47 Lapua` (6 rows), `6x47` (1), `6X47 L` (3), and `6x47L` (1) stay unmatched. No library or bot record is the standard 6mm x 47 Lapua. `6-5x47-lapua` is the 6.5, and `6x47-lapua-ai` is the Ackley. Hodgdon's `6X47MM Lapua` (160 rows) shares the `6X47 Lapua` key, so that name stays unmatched with them.
+
+`338 norma` already resolves to `338-norma-mag` (1 row). The library alias `338 Norma` owns that key. A loose match drops `norma` and then refuses .338 Lapua, so the row does not join `338-lapua`. `338 Norma Mag` and `338 Norma Mag.` do the same. `338 Norma necked down to 30` stays unmatched. No new alias was added.
+
+`6mm BR / BRA / Dasher variants` (2 rows) does not join 6mm Norma BR. The resolver returns nothing unless every ` / ` piece names the same cartridge, and `Dasher variants` names none. The printed string is now an alias of `6mm-dasher`.
+
+Left unmatched as too ambiguous: `BRA` (4; the old alias to `6mm-bra` is removed; `6 BRA` still resolves), `.300 Ackley` (1), `.300 ATLAS` (1), and `26wssm Imp` (1).
 
 Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's printed "Case volume H20" lines are now in `inputs/hammer/case-data.csv`. 25 Nosler prints 99gr.
 
