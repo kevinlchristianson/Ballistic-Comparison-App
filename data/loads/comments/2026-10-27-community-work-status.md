@@ -117,11 +117,11 @@ Merged community files, with the pull request number:
 After the 35 gr file merges, still in Varmint. The 20 cal 40 gr BT Varmint, part 20304, was searched and got no file.
 
 1. 22 cal 40 gr FB Varmint, part 22303
-4. 22 cal 52 gr FB Varmint, part 22309
-5. 22 cal 55 gr FB Varmint, part 22311
-6. 22 cal 60 gr FB Varmint, part 22312
-7. 6 mm 80 gr FB Varmint, part 24321
-8. 6 mm 88 gr High BC FB Varmint, part 24323
+2. 22 cal 52 gr FB Varmint, part 22309
+3. 22 cal 55 gr FB Varmint, part 22311
+4. 22 cal 60 gr FB Varmint, part 22312
+5. 6 mm 80 gr FB Varmint, part 24321
+6. 6 mm 88 gr High BC FB Varmint, part 24323
 
 After Varmint: the bullets whose product line is blank.
 
