@@ -1,21 +1,20 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 16:50 UTC
+Last updated: 2026-10-28 16:55 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Case-capacity estimation moves to the app. The bullet bot supplies cited dimensions only and is not adding estimates. 4D cartridge drawings are preferred over PTG chamber prints. Twenty library cartridges now have 4D profiles. Thirty-four records still cite PTG, including the wildcats already in the file. 4D's printed Case Cap. is not in `caseCapacityGrH2O`.
+Case-capacity estimation moves to the app. The bullet bot supplies cited dimensions only and is not adding estimates. 4D cartridge drawings are preferred over PTG chamber prints. Thirty-five library cartridges now have 4D profiles. Fifteen wildcats already in the file still cite PTG, plus four library cartridges whose 4D page is not a usable cartridge drawing. 4D's printed Case Cap. is not in `caseCapacityGrH2O`.
 
-The latest ten 4D profiles are .222 Remington, .280 Remington, .338 Lapua Magnum, .338 Winchester Magnum, .375 H&H Magnum, 6.5 PRC, 6.5x55 Swedish, 7x57mm Mauser, 7x64 Brenneke, and 8mm Mauser. Belted cases store the body ahead of the belt as `baseDiameter`. `data/bullets/estimates/case-capacity.json` was not regenerated.
+The latest five 4D profiles are .264 Winchester Magnum, .300 Winchester Magnum, .300 WSM, 7mm Remington Magnum, and 9.3x62. Belted cases store the body ahead of the belt as `baseDiameter`. `data/bullets/estimates/case-capacity.json` was not regenerated. Four library cartridges still cite PTG because their 4D pages are not a standard cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case).
 
 ## Next
 
-1. Finish the library profiles that still have a usable 4D cartridge drawing: .264 Winchester Magnum, .300 Winchester Magnum, .300 WSM, 7mm Remington Magnum, and 9.3x62. .25-06 Remington has only a 25-06 Niedner page, not the standard cartridge. 277 SIG Fury's page shows a box photo, not dimensions. The 6.8 Western image is labeled "SAAMI Case" and the 6mm ARC image is labeled "C.I.P. Standard Case"; those drawings were not copied.
-2. After those library profiles, add wildcats from the 4D catalog that the library does not have. Same exclusions: anything already in `cartridges.json` or `loads.json`, Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`.
-3. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
-4. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
+1. Add wildcats from the 4D catalog that the library does not have, about ten per batch. Same exclusions: anything already in `cartridges.json` or `loads.json`, Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip pages that are a named variant of a library cartridge, and skip drawings labeled SAAMI or C.I.P.
+2. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
+3. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
 
 ## Blocked
 
