@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 18:35 UTC
+Last updated: 2026-10-28 18:40 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -35,6 +35,8 @@ Ten more wildcats cite unique 4D drawings whose titles match the pages. 223-300 
 Ten more cartridges cite unique 4D drawings whose titles match the pages. .500 A-Square is 35°. .318 Westley Richards is 25°10' and 0.4420 in versus the .30-06 case drawing 0.4410 in. .358 Gremlin is 30°. .358 Hoosier is 20°10' on the .308 head. 6mm/350 Rem Mag is 25° and case length 2.170 in, matching the .350 Remington Magnum drawing, not the 6.5 Remington Magnum page. .416 CheyTac is 21°35'. 7mm IHMSA is 38°. 7x61 Sharpe & Hart is 44°. .358 STA is 35° on the 8mm Remington Magnum head. .22 American is 35°. The 350 Rigby and 350 Rigby Magnum pages use the same drawing file, so neither was cited. .450-400 Nitro Express (3.0) and .458x2 American do not print a shoulder angle or the junction lengths. The catalog still has uncited pages.
 
 The 6mm/350 Rem Mag record now uses that printed title and parent `.350 Remington Magnum`. Its case length is 2.170 in, the same as the .350 Remington Magnum drawing. The separate page titled 6mm/6.5 Rem Mag is its own drawing (neck 0.2770 in, length to the neck 1.9300 in) and is not an alias. Ten more cartridges cite unique titled drawings: 6mm/6.5 Rem Mag, 243-250, 6.5x68mm Schuler, .375/444 Marlin, .358 Yukon, .243 Rockchucker, 9.3x57mm Mauser, .303 Savage, .308 Norma Magnum, and 8mm Remington Ultra Magnum. 20 PPC was skipped because the bore is ambiguous. The catalog still has uncited pages.
+
+Ten more cartridges cite unique 4D drawings whose titles match the pages. .22 Grendel is 30° on the 6.5 Grendel head. .220 Jaybird is 35°. 22x47 Lapua is 30°10' on the 6.5x47 head. .240 Cobra is 34°. 22/243 Winchester is 20° with the .243 Winchester shoulder, 0.4540 in. 338/6.5 Creedmoor is 30°. 7mm/338 Lapua Magnum is 20° with the .338 Lapua shoulder, 0.5440 in. 35-284 Winchester is 35° with the .284 Winchester shoulder, 0.4748 in. 6.5 Weatherby RPM is already in the library. 35/375 Ruger is 30°. 30x47 Lapua is 30°. 6.8 TVC does not print the case-mouth length. The catalog still has uncited pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
