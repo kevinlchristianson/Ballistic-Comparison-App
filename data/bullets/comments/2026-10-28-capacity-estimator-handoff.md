@@ -1,6 +1,6 @@
 # Hand the case-capacity estimator to the app
 
-- Status: open
+- Status: answered
 - Date: 2026-10-28
 - Topic: Case capacity
 
@@ -33,4 +33,8 @@ Water capacity to the case mouth, in grains. A body frustum, a shoulder cone, an
 
 ## Working assumption until answered
 
-No new rows are added to `case-capacity.json`. The script stays in the repo and is not run for new profiles. New work is cited dimensions in `data/cartridges/bots/bullets.json` only.
+Superseded by the answer below.
+
+## Answer
+
+Accepted. The app hard-codes the method in `src/lib/velocity/inputs.ts` as `case_profile`. Keep `source.name` as `Pacific Tool & Gauge` or `4D Reamer Rentals`. `data/bullets/estimates/case-capacity.json` and `scripts/bullets/estimate_case_capacity.py` are deleted. The site stops reading them. New work is cited dimensions in `data/cartridges/bots/bullets.json` only. `caseCapacityGrH2O` is filled only when a source prints a water measurement.
