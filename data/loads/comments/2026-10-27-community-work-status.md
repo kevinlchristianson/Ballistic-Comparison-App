@@ -14,13 +14,13 @@ The Berger VLD Hunting line is complete. The last new hunting bullet was the 30 
 
 The Berger VLD Target line closes with this pull request — [#181](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/181). The 6 mm 95 gr, part 24427, the 7 mm 180 gr, part 28405, and the 30 cal 168, 175, 185, and 210 gr VLD Target bullets were searched and got no file. No match-context charge turned up for those four 30 cal bullets in .308, 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby.
 
-The Berger Classic Hunter line closes with this pull request. The 6 mm 95 gr, part 24570, and the 270 cal 130 gr, part 27570, were searched and got no file.
+The Berger Classic Hunter line closes with this pull request — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193). The 6 mm 95 gr, part 24570, and the 270 cal 130 gr, part 27570, were searched and got no file.
 
 ## In progress
 
 Community-reported loads for every Berger Classic Hunter bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Classic Hunter line.
 
-The bullet in this pull request is the 30 cal 185 gr Classic Hunter, part 30571. This is the last Classic Hunter bullet.
+The bullet in this pull request is the 30 cal 185 gr Classic Hunter, part 30571 — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193). This is the last Classic Hunter bullet.
 
 270 cal 130 gr Classic Hunter, part 27570, was searched. Mt.Boy has the bullets in a 270 WSM and gave no fired charge. No numeric charge turned up in 270 Win, 270 WSM, 270 Weatherby, or 270 AI. No file and no pull request.
 
@@ -91,7 +91,7 @@ Merged community files, with the pull request number:
 - 7 mm 150 gr Classic Hunter, part 28571 — [#190](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/190)
 - 7 mm 168 gr Classic Hunter, part 28570 — [#191](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/191)
 - 30 cal 168 gr Classic Hunter, part 30570 — [#192](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/192)
-- 30 cal 185 gr Classic Hunter, part 30571 — this pull request
+- 30 cal 185 gr Classic Hunter, part 30571 — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
