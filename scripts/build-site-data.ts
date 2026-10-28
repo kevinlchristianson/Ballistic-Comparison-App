@@ -87,6 +87,8 @@ const bullets: SiteBullet[] = bulletEnv.records
     boattailLengthIn: b.boattailLengthIn,
     baseToOgiveIn: b.baseToOgiveIn,
     noseLengthIn: b.noseLengthIn,
+    ogiveType: b.ogiveType,
+    meplatIn: b.meplatIn,
     twistIn: b.twistRateInPerTurn,
     construction: b.construction,
     intendedUse: b.intendedUse,

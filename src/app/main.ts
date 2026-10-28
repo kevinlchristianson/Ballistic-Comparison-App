@@ -3,6 +3,7 @@ import { loadAppData, type AppData } from "./data.ts";
 import { clear, h } from "./dom.ts";
 import { aboutView } from "./views/about.ts";
 import { bulletsView } from "./views/bullets.ts";
+import { bulletDrawingsView } from "./views/bulletDrawings.ts";
 import { cartridgesView } from "./views/cartridges.ts";
 import { catalogView } from "./views/catalog.ts";
 import { compareView } from "./views/compare.ts";
@@ -13,6 +14,7 @@ const ROUTES: { id: string; label: string; view: (d: AppData) => HTMLElement }[]
   { id: "compare", label: "Compare", view: compareView },
   { id: "match", label: "Find a cartridge", view: matchView },
   { id: "bullets", label: "Bullets", view: bulletsView },
+  { id: "bullet-drawings", label: "Bullet drawings", view: bulletDrawingsView },
   { id: "cartridges", label: "Cartridges", view: cartridgesView },
   { id: "catalog", label: "Case drawings", view: catalogView },
   { id: "loads", label: "Load data", view: loadsView },
