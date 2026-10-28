@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 30 Caliber 168 Grain Classic Hunter",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-classic-hunter-30cal-168gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "308 Win",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 168,
+      "bulletDescription": "168 Classic Hunter",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "RL15",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": "210 fgmm",
+      "case": "lapua",
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": 24,
+      "barrelLengthUnit": "in",
+      "barrelLengthOrigin": "row",
+      "velocity": 2775,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/308-load-data.3889756/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: captben; Posted: Dec 23, 2015; Charge_gr: 44.-45; 168 berger classic hunters. The charge depends on the rifle and is for hunting. Very accurate, .5 moa out to 400 yards. Worked up in his rifles. He did not name the cartridge in the charge sentence. The thread is 308 Win, and he later wrote my 308's."
+    }
+  ]
+}
