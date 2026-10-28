@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 6.5 mm 140 Grain VLD Target",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-target-65mm-140gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "26wssm Imp",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 140,
+      "bulletDescription": "140 VLD Target",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "IMR4350",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": 28,
+      "barrelLengthUnit": "in",
+      "barrelLengthOrigin": "row",
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/berger-6-5-140vld-target-velocity.3988361/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: mikecr; Posted: Sep 27, 2019; Charge_gr: ~47; Velocity_fps: ~3025; Mid node with the 140 VLD Target. He wrote 26wssm Imp. He later said this velocity and r0tt3n1's 2877 fps are the same bullet. 28 in barrel."
+    }
+  ]
+}
