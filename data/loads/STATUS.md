@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-27 23:50 UTC
+Last updated: 2026-10-28 14:25 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-No load harvest is running. Published water capacities were searched for the bot cartridges that were still null. Estimates stay with the bullet bot.
+Adding Hammer wildcats whose case-data row prints a bullet diameter. No Z299.4 or C.I.P. drawings are copied. Estimates stay with the bullet bot.
 
 ## Case capacity
 
@@ -14,7 +14,11 @@ The bullet bot estimates capacities for cartridges that have none, in its own fi
 
 Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. `data/cartridges/bots/loads.json` was not edited here. A figure that is not an overflow to the mouth stays null on the cartridge record until that file is updated, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
 
-Two published figures are on the bot records: 27 Nosler overflow to the neck, 98.4 gr H2O, and 26 Nosler useable capacity, 93 gr H2O. The project library already has both ids, so `mergeBotCartridges` drops the whole bot record and the live capacities stay null. That is the app's merge, not a field-name mismatch. The question for the coding agent is [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
+Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 or C.I.P. sheets. Eight bot records whose dimensions came only from Z299.4 are removed, because PR #84 already put them in `cartridges.json`: 26 Nosler, 27 Nosler, 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`, are removed; the library already has those names. `.24 Nosler` stays, cited to The Ballistic Assistant, not the Z299.4 PDF. Lazzeroni records stay, cited to Lazzeroni's own profiles.
+
+Nosler prints a useable capacity of 93 gr H2O for the 26 Nosler and a fireformed overflow of 98.4 gr H2O for the 27 Nosler, but those pages do not print case length. A bot record needs a case length, and the only case length on file was the Z299.4 drawing, so those capacities are not kept on a bot record. See [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
+
+`7.62x39 (.308)` is an alias of library `7-62x39`. `7mm RSAUM` is an alias of `7mm-saum`. `25CM` already resolves to `25-creedmoor`.
 
 Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's printed "Case volume H20" lines are now in `inputs/hammer/case-data.csv`. 25 Nosler prints 99gr.
 
@@ -50,6 +54,6 @@ Community load files also merged today under `sources/`, including the Berger Hy
 
 ## Open questions
 
-Two comments are still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog. [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md) asks the coding agent to apply the published 27 Nosler and 26 Nosler water capacities that the bot merge drops.
+One comment is still open: [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md). It asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog.
 
 Every other file in [`comments/`](comments/) is answered. The decision line for each one is in the Questions table in [`README.md`](README.md).

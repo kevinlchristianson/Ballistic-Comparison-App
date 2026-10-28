@@ -2,14 +2,16 @@
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 21,
+  "cartridgeCount": 22,
   "aliasCount": 12,
   "cartridges": [
     {
       "id": "24-nosler",
       "name": ".24 Nosler",
       "kind": "saami",
-      "aliases": ["24 Nosler"],
+      "aliases": [
+        "24 Nosler"
+      ],
       "parentCase": null,
       "lengthUnit": "in",
       "bulletDiameter": 0.2435,
@@ -21,205 +23,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": null,
-      "pressure": { "value": 55000, "unit": "psi", "method": "piezo" },
+      "pressure": {
+        "value": 55000,
+        "unit": "psi",
+        "method": "piezo"
+      },
       "source": {
         "name": "The Ballistic Assistant, SAAMI Rifle Cartridge Catalog",
         "url": "https://www.theballisticassistant.com/saami-rifle-cartridge-catalog/",
         "retrievedOn": "2026-10-27"
       },
       "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler CASE HOLDS under the bullet differs by sheet: 55 gr 29.0, 70 gr 28.8, 80 gr 27.1, 85/90 gr 26.5, 105 gr 25.8."
-    },
-    {
-      "id": "26-nosler",
-      "name": ".26 Nosler",
-      "kind": "saami",
-      "aliases": ["26 Nosler"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.2645,
-      "caseLength": 2.59,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.534,
-      "neckLength": null,
-      "caseCapacityGrH2O": 93,
-      "shoulderAngleDeg": 35,
-      "rimType": null,
-      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 26 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing prints bullet .2645 - .0030, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints a useable case capacity of 93 grains of water: https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 94.3 (120 gr), 95.0 (123/125 gr), 93.0 (130 and 140 gr); those are not stored."
-    },
-    {
-      "id": "27-nosler",
-      "name": ".27 Nosler",
-      "kind": "saami",
-      "aliases": ["27 Nosler"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.278,
-      "caseLength": 2.59,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.534,
-      "neckLength": null,
-      "caseCapacityGrH2O": 98.4,
-      "shoulderAngleDeg": 35,
-      "rimType": null,
-      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 27 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing prints bullet .278 - .003, case 2.590 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler prints fireformed overflow to the neck as 98.4 gr H2O: https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge. Load-sheet CASE HOLDS under the bullet is 91.5 (150 gr) and 87.8 (165 gr); those are not stored."
-    },
-    {
-      "id": "33-nosler",
-      "name": ".33 Nosler",
-      "kind": "saami",
-      "aliases": ["33 Nosler"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.339,
-      "caseLength": 2.46,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.534,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35,
-      "rimType": null,
-      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 33 Nosler cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing prints bullet .3390 - .0030, case 2.460 - .020, COAL 3.160 min to 3.340 max, rim .534 - .010, shoulder basic 35°. Transducer MAP is printed 650 in the psi/100 column. Crusher not established. Nosler CASE HOLDS under the bullet differs by sheet: 225 gr 82.0, 250 gr 81.4, 300 gr 76.8. No single capacity is printed, so this stays null."
-    },
-    {
-      "id": "22-arc",
-      "name": "22 Advanced Rifle Cartridge",
-      "kind": "saami",
-      "aliases": ["22 ARC"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.2244,
-      "caseLength": 1.525,
-      "trimLength": null,
-      "maxCoal": 2.26,
-      "rimDiameter": 0.441,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30,
-      "rimType": null,
-      "pressure": { "value": 52000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 22 Advanced Rifle Cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 22 ADVANCED RIFLE CARTRIDGE [22 ARC]. Bullet .2244 - .0030, case 1.525 - .020, COAL 2.060 min to 2.260 max, rim .441 - .010, shoulder basic 30°. Transducer MAP printed 520 psi/100. Crusher not established."
-    },
-    {
-      "id": "300-rcm",
-      "name": "300 Ruger Compact Magnum",
-      "kind": "saami",
-      "aliases": ["300 RCM"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.309,
-      "caseLength": 2.1,
-      "trimLength": null,
-      "maxCoal": 2.84,
-      "rimDiameter": 0.532,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30,
-      "rimType": null,
-      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 300 Ruger Compact Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 300 RUGER COMPACT MAGNUM [300 RCM]. Bullet .309 - .003, case 2.100 - .020, COAL 2.715 min to 2.840 max, rim .532 - .010, shoulder basic 30°. Transducer MAP printed 650 psi/100. Crusher not established."
-    },
-    {
-      "id": "6-5-wby-rpm",
-      "name": "6.5 Weatherby Rebated Precision Magnum",
-      "kind": "saami",
-      "aliases": ["6.5 WBY RPM"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.2643,
-      "caseLength": 2.57,
-      "trimLength": null,
-      "maxCoal": 3.34,
-      "rimDiameter": 0.473,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35,
-      "rimType": "rebated",
-      "pressure": { "value": 65000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 6.5 Weatherby Rebated Precision Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 6.5 WEATHERBY REBATED PRECISION MAGNUM [6.5 WBY RPM]. Bullet .2643 - .0030, case 2.570 - .020, COAL 3.200 min to 3.340 max, rim .473 - .010, shoulder basic 35°. The name prints rebated. Transducer MAP printed 650 psi/100. Crusher not established."
-    },
-    {
-      "id": "30-rem-ar",
-      "name": "30 Remington AR",
-      "kind": "saami",
-      "aliases": ["30 REM AR"],
-      "parentCase": null,
-      "lengthUnit": "in",
-      "bulletDiameter": 0.309,
-      "caseLength": 1.53,
-      "trimLength": null,
-      "maxCoal": 2.26,
-      "rimDiameter": 0.492,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25,
-      "rimType": null,
-      "pressure": { "value": 55000, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 30 Remington AR drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Drawing title is 30 REMINGTON AR [30 REM AR]. Bullet .309 - .003, case 1.530 - .020, COAL 2.000 min to 2.260 max, rim .492 - .010, shoulder basic 25°. Transducer MAP printed 550 psi/100. Crusher not established."
-    },
-    {
-      "id": "338-norma-magnum",
-      "name": ".338 Norma Magnum",
-      "kind": "saami",
-      "aliases": ["338 Norma Magnum", "338 NM"],
-      "parentCase": null,
-      "lengthUnit": "mm",
-      "bulletDiameter": 8.6,
-      "caseLength": 63.3,
-      "trimLength": null,
-      "maxCoal": 93.5,
-      "rimDiameter": 14.93,
-      "neckLength": null,
-      "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.5,
-      "rimType": null,
-      "pressure": { "value": 62500, "unit": "psi", "method": "piezo" },
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 338 Norma Magnum cartridge drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      },
-      "note": "Metric-origin drawing. Bullet 8.60 - 0.076 mm (.3386 - .0030), case 63.30 - 0.51 mm (2.492 - .0200), COAL 90.33 mm min to 93.50 mm max, rim 14.93 - 0.25 mm (.588 - .010), shoulder basic 20° 30'. Stored lengths are the metric maxima. Transducer MAP is 625 psi/100. Crusher not established. Inch figures on the drawing are calculated from the metric."
     },
     {
       "id": "6-17-spitfire",
@@ -508,27 +322,225 @@
         "retrievedOn": "2026-10-27"
       },
       "note": "Handloader profile prints maximum case length 2.810\" and trim-to 2.790\". The caliber line prints (.416) with a decimal. The groove-diameter line prints 416\" without a decimal point. Per-bullet OAL is a tested seating length, so maxCoal is null. Primer FED 215. No cartridge MAP is printed."
+    },
+    {
+      "id": "338-300-wsm",
+      "name": "338/300 WSM",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "300 WSM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.09,
+      "trimLength": null,
+      "maxCoal": 2.86,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1DIGwc1-FcANj915CP212IHQFkgW6f0dZUlh9uckt7co/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: 300 WSM case, necked up to .338 cal. Case length cell: Case length - 2.090\" COAL cell: COAL Max - 2.860\" | Not SAAMI Spec."
+    },
+    {
+      "id": "25-prc",
+      "name": "25 PRC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "6.5 PRC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.03,
+      "trimLength": null,
+      "maxCoal": 2.955,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 67.8,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1eUhG6Oc83KXZ8tvJ9deEsFa78xaal3onGyADi9bnZA8/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: 6.5 PRC case neck down, .257cal. PSI max used - 65,000. Method is not identified, so pressure is null. Case length cell: Case length - 2.030\" COAL cell: COAL Max - 2.955\" | Not SAAMI Spec."
+    },
+    {
+      "id": "6-5mm-br",
+      "name": "6.5mm BR",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".308",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 1.51,
+      "trimLength": null,
+      "maxCoal": 2.4,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 38.7,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/12q8m0ziRV4i7WN_ZqNXWcsXA75u1aMgx2_dmnG76qaw/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: .308 case necked down to .264/6.5 PSI max used - 51,500. Method is not identified, so pressure is null. Case length cell: Case length cut down to - 1.510 COAL cell: COAL Max - 2.400\" | Not SAAMI Spec."
+    },
+    {
+      "id": "6x6-8-spc",
+      "name": "6x6.8 SPC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "6.8 SPC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.686,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 36.2,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1oEN6xH74MeqK0D9dz1X4WoDw_wWgIBp3Mff2C99Ap6I/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: 6.8 SPC Case necked down to .243 caliber PSI max used - 58,740. Method is not identified, so pressure is null. Case length cell: Case length - 1.686\" COAL cell: Not SAAMI Spec."
+    },
+    {
+      "id": "6mm-tcu",
+      "name": "6mm TCU",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".223",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.75,
+      "trimLength": null,
+      "maxCoal": 2.25,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 32.3,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1fCikgwWut6tPaFIdcHaBl2Jmy9yt1ZpgC3TVuwKdAgg/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: .223 case necked up to .243 or 6mm PSI max used - 55,000. Method is not identified, so pressure is null. Case length cell: Case length - 1.750\" COAL cell: COAL Max - 2.250\" | Not SAAMI Spec."
+    },
+    {
+      "id": "6x45mm",
+      "name": "6x45mm",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".223",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.76,
+      "trimLength": null,
+      "maxCoal": 2.26,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 30.7,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1uKUdfhC75lVA0ir4PmJ92-Y13hnkIBfk779RVRz9MjM/edit?gid=0#gid=0",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: .223 case necked up to .243/6mm PSI max used - 55,000. Method is not identified, so pressure is null. Case length cell: Case length - 1.760\" COAL cell: COAL Max - 2.260\" | Not SAAMI Spec."
+    },
+    {
+      "id": "7mm-tcu",
+      "name": "7mm TCU",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".223",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 1.745,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 32.3,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/12Kusj1ndgSp3JBAqV0KXxDtGbSwk5FMUPk1YTdGpeDI/edit?gid=0#gid=0",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: .223 case necked up to .284 cal PSI max used - 55,000. Method is not identified, so pressure is null. Case length cell: Case length - 1.745\""
+    },
+    {
+      "id": "8mm-06",
+      "name": "8mm-06",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "30.06",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.323,
+      "caseLength": 2.494,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1Opeb1fOWUR8SgAtQ9H0_OBWNQan-dRQH8478gTX0T9Y/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: 30.06 case necked up to .323\" Case length cell: Case length - 2.494\" COAL cell: COAL Max - 3.340\"- 2.494\" | Not SAAMI Spec."
+    },
+    {
+      "id": "375-raptor",
+      "name": "375 Raptor",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".308",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 1.865,
+      "trimLength": null,
+      "maxCoal": 2.8,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Hammer Bullets case data",
+        "url": "https://docs.google.com/spreadsheets/d/1-U5kGh8VCNNkI6LM9F8XNW8Qx3H3FPG4OkPOMPbwcGQ/edit?gid=0#gid=0",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Case info: .308 case necked up to .375cal. Case length cell: Case length - 1.865\" COAL cell: COAL Max - 2.800\" | Not SAAMI Spec."
     }
   ],
   "aliases": [
-    {
-      "cartridgeId": "7mm-saum",
-      "alias": "7mm REM SA ULTRA MAG",
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 7mm Remington Short Action Ultra Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      }
-    },
-    {
-      "cartridgeId": "300-saum",
-      "alias": "300 REM SA ULTRA MAG",
-      "source": {
-        "name": "ANSI/SAAMI Z299.4-2025, 300 Remington Short Action Ultra Magnum drawing",
-        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
-        "retrievedOn": "2026-10-27"
-      }
-    },
     {
       "cartridgeId": "30-rem-ar",
       "alias": "30 AR Remington",
@@ -617,6 +629,24 @@
         "name": "Shooters' Forum, 6.5 Creedmoor 140 Hybrid 26414",
         "url": "https://forum.accurateshooter.com/threads/starting-point-for-6-5-creedmoor-lapua-brass-140g-berger-hybrid-26414-fed-sr-match-primers-h4350.3957774/",
         "retrievedOn": "2026-10-27"
+      }
+    },
+    {
+      "cartridgeId": "7-62x39",
+      "alias": "7.62x39 (.308)",
+      "source": {
+        "name": "Hammer Bullets load sheet, 7.62x39 (.308)",
+        "url": "https://docs.google.com/spreadsheets/d/1TIF_GhlXiK90fuBVpDA7rxSDqScvlaaZozlndywZGNs/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "7mm-saum",
+      "alias": "7mm RSAUM",
+      "source": {
+        "name": "Community Berger 7 mm 184 Grain F-Open Hybrid Target",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-hybrid-target-7mm-184gr.csv",
+        "retrievedOn": "2026-10-28"
       }
     }
   ]
