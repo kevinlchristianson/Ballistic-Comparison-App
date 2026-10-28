@@ -22,6 +22,7 @@ The latest ten 4D profiles are .222 Remington, .280 Remington, .338 Lapua Magnum
 - Copy-banned or terms-blocked sources stay skipped: Speer, Federal, Remington, Alliant, Norma, RWS, Peregrine, Warner, North Fork, GECO, Rottweil, Fiocchi, Winchester, Hodgdon Reloading Data Center, SAAMI Z299.4 PDF, C.I.P. TDCC, 6mmBR.com diagrams, The Ballistic Assistant, Peterson, Alpha Munitions, Manson, Whidden, Starline, Nosler website-use policy, Weatherby, Barnes, LoadDevelopment, and Zima. Vihtavuori and Lapua table numbers were not copied. Wikipedia infoboxes were not copied. PTG reamer numbers are allowed. 4D Reamer Rentals numbers are allowed. Drawing images and other page text are not copied.
 - 6 WOA and 6x6.8 SPC stay out. See [`comments/2026-10-27-6-woa.md`](comments/2026-10-27-6-woa.md).
 - `.25 Nosler` gets no profile until PTG print 58347 is found. See [`comments/2026-10-28-ptg-print-58347.md`](comments/2026-10-28-ptg-print-58347.md).
+- 4D pages whose drawing is labeled SAAMI or C.I.P. were not copied: 6.8 Western and 6mm ARC. 277 SIG Fury has no dimension drawing on its page. .25-06 Remington is not the 25-06 Niedner page.
 
 ## Open questions
 
