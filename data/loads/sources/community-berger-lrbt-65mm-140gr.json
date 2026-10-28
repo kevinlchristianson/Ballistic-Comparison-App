@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "loadCount": 2,
+  "loadCount": 3,
   "source": {
     "name": "Community Berger 6.5 mm 140 Grain Long Range BT Target",
     "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-lrbt-65mm-140gr.csv",
@@ -9,6 +9,34 @@
     "testBarrelIn": null
   },
   "loads": [
+    {
+      "cartridge": "6.5-47L",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 140,
+      "bulletDescription": "140 Long Range BT Target",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "H4350",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/6-5x47l-140-berger-lrbt.3952496/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: 4xforfun; Posted: May 17, 2018; Charge_gr: 38 - 41.3; Double ladder in .3 increments from 38 - 41.3 with the 140 BT and H4350. The same post seats the 140 LRBT. On May 21 he wrote Berger 140 LRBT's and H 4350, ran the two ladders, and the agg was right at 2 inches at 750 yards. That is group size, not velocity. He did not restate the cartridge on the ladder post; his opening post in the thread is 6.5-47L."
+    },
     {
       "cartridge": "6.5x47",
       "bulletDiameterIn": null,
