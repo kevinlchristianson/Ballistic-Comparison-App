@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. None of the current candidates are a 22 cal 70 gr VLD, so the list is unchanged in this pull request.
 
-The bullet in this pull request is the 22 cal 70 gr VLD Target, part 22418 — [#161](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/161).
+The bullet in this pull request is the 22 cal 75 gr VLD Target, part 22421.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -64,27 +64,27 @@ Merged community files, with the pull request number:
 - 30 cal 185 gr VLD Hunting, part 30513 — [#156](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/156)
 - 30 cal 190 gr VLD Hunting, part 30514 — [#159](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/159)
 - 30 cal 210 gr VLD Hunting, part 30515 — [#160](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/160)
+- 22 cal 70 gr VLD Target, part 22418 — [#161](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/161)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 22 cal 70 gr file merges, still in VLD Target:
+After the 22 cal 75 gr file merges, still in VLD Target:
 
-1. 22 cal 75 gr VLD Target, part 22421
-2. 22 cal 80 gr VLD Target, part 22422
-3. 22 cal 90 gr VLD Target, part 22423
-4. 6 mm 95 gr VLD Target, part 24427
-5. 6 mm 105 gr VLD Target, part 24429
-6. 6 mm 115 gr VLD Target, part 24430
-7. 6.5 mm 130 gr VLD Target, part 26403
-8. 6.5 mm 140 gr VLD Target, part 26401
-9. 7 mm 168 gr VLD Target, part 28401
-10. 7 mm 180 gr VLD Target, part 28405
-11. 30 cal 168 gr VLD Target, part 30410
-12. 30 cal 175 gr VLD Target, part 30412
-13. 30 cal 185 gr VLD Target, part 30413
-14. 30 cal 210 gr VLD Target, part 30415
+1. 22 cal 80 gr VLD Target, part 22422
+2. 22 cal 90 gr VLD Target, part 22423
+3. 6 mm 95 gr VLD Target, part 24427
+4. 6 mm 105 gr VLD Target, part 24429
+5. 6 mm 115 gr VLD Target, part 24430
+6. 6.5 mm 130 gr VLD Target, part 26403
+7. 6.5 mm 140 gr VLD Target, part 26401
+8. 7 mm 168 gr VLD Target, part 28401
+9. 7 mm 180 gr VLD Target, part 28405
+10. 30 cal 168 gr VLD Target, part 30410
+11. 30 cal 175 gr VLD Target, part 30412
+12. 30 cal 185 gr VLD Target, part 30413
+13. 30 cal 210 gr VLD Target, part 30415
 
 After VLD Target: Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -223,5 +223,7 @@ The 30 cal 190 gr VLD Hunting file adds no unmatched name. `300 wsm` resolves to
 The 30 cal 210 gr VLD Hunting file adds `.300 Ackley` and `.300 ATLAS`. `300 wby` resolves to `300-wby`. Rick named the 210 VLD Hunting in a 300 WSM and gave no charge. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, or 30 Nosler. Untagged 210 VLD charges stay in the ambiguous list. This file does not edit the 210 gr VLD Target source.
 
 The 22 cal 70 gr VLD Target file adds no unmatched name. `223` resolves to `223-rem`. The catalog has no 70 gr VLD Hunting, so a 70 VLD is this target bullet. No fired charge turned up in 22-250 or 22-250 AI. Bocephus named Varget in a 223 AI and gave no charge.
+
+The 22 cal 75 gr VLD Target file adds no unmatched name. `.223` resolves to `223-rem`. The catalog has no 75 gr VLD Hunting. No fired 75 gr VLD charge turned up in 22-250 or 22-250 AI. No ambiguous-line candidate is this weight.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.

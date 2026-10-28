@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 22 Caliber 75 Grain VLD Target",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-target-22cal-75gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": ".223",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 75,
+      "bulletDescription": "75 VLD Target",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "RE-15",
+      "charge": 22.2,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": 2590,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/varget-vs-reloader-15.4102056/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: PopCharlie; Posted: Aug 18, 2023; 75 gr VLDs. 8 twist Hart bolt gun, about 3200 rounds. 0.006 off the lands. Lower node, bug holes at 100 yards. Varget would not shoot these 75 gr bullets for him. The 22.5 gr Varget in the same post is the 80.5 Fullbore, not this bullet. The 22 cal 75 gr VLD is the target line."
+    }
+  ]
+}
