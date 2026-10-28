@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 14:21 UTC
+Last updated: 2026-10-28 14:25 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Auditing `data/cartridges/bots/loads.json` against the SAAMI-copy rule in `BOTS.md`. No load harvest is running. Estimates stay with the bullet bot.
+Adding Hammer wildcats whose case-data row prints a bullet diameter. No Z299.4 or C.I.P. drawings are copied. Estimates stay with the bullet bot.
 
 ## Case capacity
 
