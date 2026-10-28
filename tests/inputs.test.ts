@@ -50,6 +50,15 @@ describe("estimated cartridge inputs", () => {
     expect(e.methods).toContain("heaviest_charge");
   });
 
+  it("leaves out a heaviest charge far below the other estimates (fast powder in an old case)", () => {
+    const id = "308-win";
+    const hidden = cartridges.map((x) => (x.id === id ? { ...x, caseCapacityGrH2O: null } : x));
+    const e = estimateCartridgeInputs(hidden, { maxChargeGr: { [id]: 8 } }).get(id)!.capacityEstimate!;
+    expect(e.methods).not.toContain("heaviest_charge");
+    expect(e.detail).toMatch(/left out/);
+    expect(e.value).toBeGreaterThan(40);
+  });
+
   it("takes pressure from the parent case when there is one", () => {
     const ai = cartridges.find((c) => c.mapPsi == null && c.id === "30-06-ai");
     if (!ai) return;

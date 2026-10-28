@@ -166,6 +166,8 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
 }
 
 const AI_BOOST = 1.05;
+/** A heaviest-charge capacity below this fraction of the other estimates (or above its inverse) is left out. */
+const CHARGE_OUTLIER_RATIO = 0.6;
 const isImproved = (name: string): boolean => /ackley|improved|\bai\b/i.test(name);
 
 function solve(X: number[][], y: number[]): number[] | null {
@@ -303,9 +305,6 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
       const v = pCap != null ? fromParent(c, p, pCap) : null;
       if (v) parts.push({ v, sd: Math.hypot(parentSd, pSd), m: "parent_case", note: `scaled from the parent case (${p.name})` });
     }
-    if (charges[c.id]) {
-      parts.push({ v: charges[c.id]! / Math.exp(chargeMean), sd: chargeSd, m: "heaviest_charge", note: `from the heaviest published charge (${charges[c.id]} gr)` });
-    }
     const prof = profileCapacity(c);
     if (prof) {
       const from = prof.surface === "case" ? "4D Reamer Rentals case drawing" : prof.surface === "chamber" ? "Pacific Tool & Gauge chamber print" : "printed case profile";
@@ -320,6 +319,20 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
     }
     const size = withRim?.features(c) ? withRim : noRim?.features(c) ? noRim : null;
     if (size) parts.push({ v: Math.exp(dot(size.features(c)!, size.coef)), sd: size.relSd, m: "case_size", note: `from ${size.label}` });
+    let chargeLeftOut = "";
+    if (charges[c.id]) {
+      const v = charges[c.id]! / Math.exp(chargeMean);
+      // Old straight and low-pressure cases are often loaded with fast pistol powders that fill a
+      // fraction of the case; such a charge says little about capacity. Leave it out when it is far
+      // from every other estimate.
+      const others = parts.map((x) => x.v);
+      const ref = others.length ? Math.exp(others.reduce((s, x) => s + Math.log(x), 0) / others.length) : null;
+      if (ref != null && (v / ref < CHARGE_OUTLIER_RATIO || ref / v < CHARGE_OUTLIER_RATIO)) {
+        chargeLeftOut = ` The heaviest published charge (${charges[c.id]} gr) was left out: it is far from the other estimates, as with fast powders in old or low-pressure cases.`;
+      } else {
+        parts.push({ v, sd: chargeSd, m: "heaviest_charge", note: `from the heaviest published charge (${charges[c.id]} gr)` });
+      }
+    }
     if (!parts.length) {
       capacityCache.set(c.id, null);
       return null;
@@ -338,7 +351,7 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
       value: Math.round(value * 10) / 10,
       relSd: Math.max(1 / Math.sqrt(sw), spread),
       methods: parts.map((x) => x.m),
-      detail: `Estimated ${parts.map((x) => x.note).join("; ")}.${floored ? ` Raised to the parent's ${floor} gr: an improved case is not smaller than its parent.` : ""}`,
+      detail: `Estimated ${parts.map((x) => x.note).join("; ")}.${chargeLeftOut}${floored ? ` Raised to the parent's ${floor} gr: an improved case is not smaller than its parent.` : ""}`,
     };
     capacityCache.set(c.id, est);
     return est;
