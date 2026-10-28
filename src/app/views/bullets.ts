@@ -5,6 +5,7 @@ import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { flagText } from "../labels.ts";
 import { load, save } from "../store.ts";
 import { userDataBar } from "../userdata.ts";
+import { sortableHead, sortRows, type SortState } from "../tableSort.ts";
 
 interface Filters {
   text: string;
@@ -15,6 +16,8 @@ interface Filters {
   needLength: boolean;
   needG7: boolean;
   sort: "weight" | "g7" | "g1" | "name";
+  /** Column heading sort; overrides "Sort by" until reset. */
+  col?: SortState;
 }
 
 const KEY = "bca.bullets.v1";
@@ -28,6 +31,7 @@ export function bulletsView(data: AppData): HTMLElement {
   const formEl = h("div", {});
   let limit = PAGE;
   const persist = () => save(KEY, f);
+  f.col ??= { key: "", desc: false };
 
   const makers = () => [...new Set(data.bullets.map((b) => b.manufacturer))].sort();
   const diameters = () => [...new Set(data.bullets.map((b) => b.diameterIn.toFixed(3)))].sort();
@@ -74,21 +78,33 @@ export function bulletsView(data: AppData): HTMLElement {
       g1: (a: SiteBullet, b: SiteBullet) => (b.bcG1 ?? -1) - (a.bcG1 ?? -1),
       name: (a: SiteBullet, b: SiteBullet) => a.manufacturer.localeCompare(b.manufacturer) || a.name.localeCompare(b.name),
     }[f.sort];
-    return out.sort(by);
+    return sortRows(out, f.col!, {
+      maker: (b) => b.manufacturer,
+      name: (b) => b.name,
+      dia: (b) => b.diameterIn,
+      weight: (b) => b.weightGr,
+      g1: (b) => b.bcG1,
+      g7: (b) => b.bcG7,
+      length: (b) => b.lengthIn,
+    }, by);
   }
 
   function renderList(): void {
     clear(listEl);
     const rows = filtered();
     listEl.append(
-      h("p", { class: "muted" }, `${rows.length.toLocaleString()} of ${data.bullets.length.toLocaleString()} bullets`),
+      h("p", { class: "muted" }, `${rows.length.toLocaleString()} of ${data.bullets.length.toLocaleString()} bullets. Click any column heading (⇅) to sort by it; click again to reverse, a third time to go back to "Sort by".`),
       h(
         "div",
         { class: "card scroll-x" },
         h(
           "table",
           { class: "data bullets" },
-          h("thead", {}, h("tr", {}, ["Maker", "Bullet", "Dia", "Weight", "G1", "G7", "Length", ""].map((t) => h("th", {}, t)))),
+          sortableHead(
+            [["Maker", "maker"], ["Bullet", "name"], ["Dia", "dia"], ["Weight", "weight"], ["G1", "g1"], ["G7", "g7"], ["Length", "length"], ["", null]],
+            f.col!,
+            (s) => ((f.col = s), persist(), renderList()),
+          ),
           h("tbody", {}, rows.slice(0, limit).map(bulletRow)),
         ),
       ),
