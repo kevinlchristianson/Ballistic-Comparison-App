@@ -11,12 +11,12 @@
     "waterGrainsPerCubicInch": 252.9,
     "geometric": {
       "summary": "Body frustum, shoulder cone, and neck cylinder. Neck inside diameter is the bullet diameter. Neck length is the stored neck, or one bullet diameter when neck length is null (the same assumption as src/lib/geometry.ts). Base outside diameter is the rim diameter plus a fitted rim-class offset (0 for rimless, where the rim is the head). The library has no base, shoulder, or neck outside diameters, so none were copied in. Effective wall, head web, and body taper were fitted on rimless cartridges that have a cited capacity and a shoulder angle, minimizing median absolute error. The fitted wall is thicker than typical brass because the model has no extractor groove. When the parent cartridge is in the calibration set, that parent's residual (model minus cited capacity) is subtracted from the child's geometric estimate.",
-      "effectiveWallIn": 0.034,
+      "effectiveWallIn": 0.038,
       "headWebIn": 0.1,
-      "bodyTaperOnDiameterIn": 0.02,
+      "bodyTaperOnDiameterIn": 0.005,
       "rimClassBaseOffsetIn": {
         "rimless": 0.0,
-        "rebated": 0.02,
+        "rebated": 0.022,
         "belted": -0.014
       },
       "preference": "When both methods can run, the geometric estimate is kept if its rim-class median absolute error is within 1 gr of the parent-case error. Otherwise the parent-case estimate is kept. The other number is stored as alternate."
@@ -30,224 +30,228 @@
   "calibration": {
     "geometric": {
       "overall": {
-        "n": 48,
-        "medianAbsErrorGr": 1.64,
-        "worstAbsErrorGr": 8.7,
+        "n": 49,
+        "medianAbsErrorGr": 1.72,
+        "worstAbsErrorGr": 9.26,
         "worstCartridgeId": "28-nosler",
         "residuals": [
           {
             "cartridgeId": "28-nosler",
-            "errorGr": 8.7
+            "errorGr": 9.26
           },
           {
             "cartridgeId": "338-lapua",
-            "errorGr": 8.17
+            "errorGr": 7.93
           },
           {
             "cartridgeId": "300-prc",
-            "errorGr": -6.74
+            "errorGr": -6.94
           },
           {
             "cartridgeId": "22-250-rem",
-            "errorGr": 6.62
-          },
-          {
-            "cartridgeId": "375-hh",
-            "errorGr": 6.01
+            "errorGr": 6.49
           },
           {
             "cartridgeId": "30-nosler",
-            "errorGr": 5.81
+            "errorGr": 6.37
+          },
+          {
+            "cartridgeId": "375-hh",
+            "errorGr": 5.79
           },
           {
             "cartridgeId": "6-5-prc",
-            "errorGr": 5.45
+            "errorGr": 5.3
           },
           {
             "cartridgeId": "6mm-rem",
-            "errorGr": 4.82
+            "errorGr": 4.67
           },
           {
             "cartridgeId": "6-8-western",
-            "errorGr": 4.16
-          },
-          {
-            "cartridgeId": "35-whelen",
-            "errorGr": 4.07
+            "errorGr": 4.57
           },
           {
             "cartridgeId": "7mm-prc",
-            "errorGr": -3.78
+            "errorGr": -3.96
+          },
+          {
+            "cartridgeId": "35-whelen",
+            "errorGr": 3.89
+          },
+          {
+            "cartridgeId": "9-3x62",
+            "errorGr": -3.31
           },
           {
             "cartridgeId": "6-5x55-swedish",
-            "errorGr": 3.04
+            "errorGr": 2.89
           },
           {
             "cartridgeId": "7x57-mauser",
-            "errorGr": 3.03
-          },
-          {
-            "cartridgeId": "270-win",
-            "errorGr": 2.72
+            "errorGr": 2.88
           },
           {
             "cartridgeId": "204-ruger",
-            "errorGr": -2.59
+            "errorGr": -2.69
           },
           {
-            "cartridgeId": "358-win",
-            "errorGr": 2.24
-          },
-          {
-            "cartridgeId": "6mm-creedmoor",
-            "errorGr": -2.13
-          },
-          {
-            "cartridgeId": "7mm-rem-mag",
-            "errorGr": -2.07
+            "cartridgeId": "270-win",
+            "errorGr": 2.54
           },
           {
             "cartridgeId": "325-wsm",
-            "errorGr": 2.07
+            "errorGr": 2.5
           },
           {
-            "cartridgeId": "280-rem",
-            "errorGr": 2.0
+            "cartridgeId": "7mm-rem-mag",
+            "errorGr": -2.26
           },
           {
-            "cartridgeId": "6mm-arc",
-            "errorGr": -1.92
+            "cartridgeId": "6mm-creedmoor",
+            "errorGr": -2.26
           },
           {
-            "cartridgeId": "6-5-284-norma",
-            "errorGr": -1.72
-          },
-          {
-            "cartridgeId": "6-5x47-lapua",
-            "errorGr": 1.69
-          },
-          {
-            "cartridgeId": "6-5-creedmoor",
-            "errorGr": -1.64
-          },
-          {
-            "cartridgeId": "6-5-grendel",
-            "errorGr": -1.63
-          },
-          {
-            "cartridgeId": "30-06",
-            "errorGr": 1.6
+            "cartridgeId": "358-win",
+            "errorGr": 2.11
           },
           {
             "cartridgeId": "300-wsm",
-            "errorGr": 1.58
+            "errorGr": 2.01
           },
           {
-            "cartridgeId": "25-06-rem",
-            "errorGr": 1.53
+            "cartridgeId": "6mm-arc",
+            "errorGr": -2.0
+          },
+          {
+            "cartridgeId": "280-rem",
+            "errorGr": 1.82
+          },
+          {
+            "cartridgeId": "6-5-creedmoor",
+            "errorGr": -1.77
+          },
+          {
+            "cartridgeId": "6-5-grendel",
+            "errorGr": -1.72
           },
           {
             "cartridgeId": "224-valkyrie",
-            "errorGr": -1.51
+            "errorGr": -1.61
           },
           {
             "cartridgeId": "7mm-08-rem",
-            "errorGr": -1.47
+            "errorGr": -1.6
           },
           {
-            "cartridgeId": "264-win-mag",
-            "errorGr": 1.3
+            "cartridgeId": "6-5x47-lapua",
+            "errorGr": 1.56
           },
           {
-            "cartridgeId": "284-win",
-            "errorGr": -1.24
-          },
-          {
-            "cartridgeId": "338-federal",
-            "errorGr": 1.23
-          },
-          {
-            "cartridgeId": "270-wsm",
-            "errorGr": -1.22
-          },
-          {
-            "cartridgeId": "308-win",
-            "errorGr": -1.13
-          },
-          {
-            "cartridgeId": "7mm-wsm",
-            "errorGr": -1.06
-          },
-          {
-            "cartridgeId": "260-rem",
-            "errorGr": 0.82
-          },
-          {
-            "cartridgeId": "223-rem",
-            "errorGr": -0.79
-          },
-          {
-            "cartridgeId": "17-rem",
-            "errorGr": 0.78
+            "cartridgeId": "30-06",
+            "errorGr": 1.43
           },
           {
             "cartridgeId": "338-rum",
-            "errorGr": 0.78
+            "errorGr": 1.39
           },
           {
-            "cartridgeId": "300-win-mag",
-            "errorGr": -0.72
+            "cartridgeId": "25-06-rem",
+            "errorGr": 1.36
+          },
+          {
+            "cartridgeId": "6-5-284-norma",
+            "errorGr": -1.32
           },
           {
             "cartridgeId": "300-rum",
-            "errorGr": 0.69
+            "errorGr": 1.32
+          },
+          {
+            "cartridgeId": "308-win",
+            "errorGr": -1.27
+          },
+          {
+            "cartridgeId": "264-win-mag",
+            "errorGr": 1.11
+          },
+          {
+            "cartridgeId": "338-federal",
+            "errorGr": 1.09
+          },
+          {
+            "cartridgeId": "300-win-mag",
+            "errorGr": -0.93
+          },
+          {
+            "cartridgeId": "223-rem",
+            "errorGr": -0.88
+          },
+          {
+            "cartridgeId": "284-win",
+            "errorGr": -0.84
+          },
+          {
+            "cartridgeId": "270-wsm",
+            "errorGr": -0.79
           },
           {
             "cartridgeId": "243-win",
-            "errorGr": -0.55
+            "errorGr": -0.69
           },
           {
-            "cartridgeId": "222-rem",
-            "errorGr": 0.47
+            "cartridgeId": "17-rem",
+            "errorGr": 0.69
           },
           {
-            "cartridgeId": "6-8-spc",
-            "errorGr": -0.32
+            "cartridgeId": "260-rem",
+            "errorGr": 0.68
           },
           {
-            "cartridgeId": "6mm-norma-br",
-            "errorGr": 0.21
-          },
-          {
-            "cartridgeId": "338-win-mag",
-            "errorGr": 0.09
+            "cartridgeId": "7mm-wsm",
+            "errorGr": -0.63
           },
           {
             "cartridgeId": "7mm-rum",
-            "errorGr": -0.06
+            "errorGr": 0.57
+          },
+          {
+            "cartridgeId": "6-8-spc",
+            "errorGr": -0.42
+          },
+          {
+            "cartridgeId": "222-rem",
+            "errorGr": 0.38
+          },
+          {
+            "cartridgeId": "6mm-norma-br",
+            "errorGr": 0.11
+          },
+          {
+            "cartridgeId": "338-win-mag",
+            "errorGr": -0.11
           }
         ]
       },
       "byRimType": {
         "rimless": {
-          "n": 31,
-          "medianAbsErrorGr": 1.69,
-          "worstAbsErrorGr": 8.17,
+          "n": 32,
+          "medianAbsErrorGr": 1.8,
+          "worstAbsErrorGr": 7.93,
           "worstCartridgeId": "338-lapua",
           "baseOffsetIn": 0.0
         },
         "rebated": {
           "n": 12,
-          "medianAbsErrorGr": 1.41,
-          "worstAbsErrorGr": 8.7,
+          "medianAbsErrorGr": 1.35,
+          "worstAbsErrorGr": 9.26,
           "worstCartridgeId": "28-nosler",
-          "baseOffsetIn": 0.02
+          "baseOffsetIn": 0.022
         },
         "belted": {
           "n": 5,
-          "medianAbsErrorGr": 1.3,
-          "worstAbsErrorGr": 6.01,
+          "medianAbsErrorGr": 1.11,
+          "worstAbsErrorGr": 5.79,
           "worstCartridgeId": "375-hh",
           "baseOffsetIn": -0.014
         }
@@ -437,12 +441,12 @@
       ]
     },
     "printedProfile": {
-      "n": 27,
-      "medianAbsErrorGr": 0.99,
-      "worstAbsErrorGr": 6.6,
+      "n": 30,
+      "medianAbsErrorGr": 1.05,
+      "worstAbsErrorGr": 6.52,
       "worstCartridgeId": "6-5-prc",
       "bodyClearanceOnDiameterIn": 0.005,
-      "neckClearanceOnDiameterIn": 0.004,
+      "neckClearanceOnDiameterIn": 0.006,
       "neckWallIn": 0.016,
       "bodyWallAtShoulderIn": 0.017,
       "bodyWallAtBaseIn": 0.03,
@@ -450,111 +454,123 @@
       "residuals": [
         {
           "cartridgeId": "6-5-prc",
-          "errorGr": 6.6
+          "errorGr": 6.52
+        },
+        {
+          "cartridgeId": "338-lapua",
+          "errorGr": 5.77
         },
         {
           "cartridgeId": "6-8-western",
-          "errorGr": 5.65
+          "errorGr": 5.56
         },
         {
           "cartridgeId": "300-wsm",
-          "errorGr": 3.94
+          "errorGr": 3.84
         },
         {
           "cartridgeId": "300-prc",
-          "errorGr": -3.6
+          "errorGr": -3.7
         },
         {
           "cartridgeId": "7mm-rem-mag",
-          "errorGr": -2.92
+          "errorGr": -3.0
         },
         {
           "cartridgeId": "375-hh",
-          "errorGr": -2.55
+          "errorGr": -2.67
         },
         {
           "cartridgeId": "22-250-rem",
-          "errorGr": 2.33
-        },
-        {
-          "cartridgeId": "260-rem",
-          "errorGr": 1.82
-        },
-        {
-          "cartridgeId": "284-win",
-          "errorGr": 1.8
+          "errorGr": 2.27
         },
         {
           "cartridgeId": "300-win-mag",
-          "errorGr": -1.72
+          "errorGr": -1.8
         },
         {
           "cartridgeId": "224-valkyrie",
-          "errorGr": -1.68
+          "errorGr": -1.74
+        },
+        {
+          "cartridgeId": "260-rem",
+          "errorGr": 1.74
+        },
+        {
+          "cartridgeId": "284-win",
+          "errorGr": 1.72
+        },
+        {
+          "cartridgeId": "6-5x47-lapua",
+          "errorGr": 1.61
         },
         {
           "cartridgeId": "7mm-prc",
-          "errorGr": -1.34
-        },
-        {
-          "cartridgeId": "280-rem",
-          "errorGr": 1.14
+          "errorGr": -1.43
         },
         {
           "cartridgeId": "6mm-creedmoor",
-          "errorGr": -0.99
+          "errorGr": -1.06
         },
         {
-          "cartridgeId": "270-win",
-          "errorGr": 0.96
+          "cartridgeId": "280-rem",
+          "errorGr": 1.03
         },
         {
           "cartridgeId": "6mm-arc",
-          "errorGr": -0.96
+          "errorGr": -1.02
         },
         {
           "cartridgeId": "338-win-mag",
-          "errorGr": -0.91
+          "errorGr": -1.01
         },
         {
-          "cartridgeId": "264-win-mag",
-          "errorGr": 0.68
+          "cartridgeId": "270-win",
+          "errorGr": 0.85
         },
         {
           "cartridgeId": "7mm-08-rem",
-          "errorGr": -0.63
+          "errorGr": -0.72
         },
         {
-          "cartridgeId": "30-06",
-          "errorGr": 0.63
+          "cartridgeId": "9-3x62",
+          "errorGr": -0.68
         },
         {
-          "cartridgeId": "6-5x55-swedish",
-          "errorGr": 0.53
+          "cartridgeId": "264-win-mag",
+          "errorGr": 0.6
         },
         {
           "cartridgeId": "6-5-grendel",
-          "errorGr": -0.46
+          "errorGr": -0.53
+        },
+        {
+          "cartridgeId": "30-06",
+          "errorGr": 0.51
         },
         {
           "cartridgeId": "6-5-creedmoor",
-          "errorGr": -0.43
+          "errorGr": -0.5
         },
         {
-          "cartridgeId": "243-win",
-          "errorGr": 0.36
+          "cartridgeId": "6-5x55-swedish",
+          "errorGr": 0.44
         },
         {
           "cartridgeId": "223-rem",
-          "errorGr": -0.3
+          "errorGr": -0.34
         },
         {
-          "cartridgeId": "222-rem",
-          "errorGr": 0.17
+          "cartridgeId": "243-win",
+          "errorGr": 0.28
         },
         {
           "cartridgeId": "308-win",
-          "errorGr": -0.04
+          "errorGr": -0.13
+        },
+        {
+          "cartridgeId": "222-rem",
+          "errorGr": 0.11
         }
       ],
       "method": "Reamer diameters are chamber diameters. Subtract body clearance for the case outside, then a tapered body wall (thicker at the web), a neck wall, and a solid head. Clearance and wall were chosen inside typical rifle-case bands to minimize median absolute error on cartridges that have both a printed profile and a published capacity."
@@ -734,10 +750,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 27.9,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "223-rem",
       "parentName": ".223 Remington",
       "parentCitedCapacityGrH2O": 28.5,
@@ -754,19 +770,19 @@
         "neckLengthIn": null,
         "parentCase": ".223 Remington",
         "parentId": "223-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.378,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.204,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 27.2,
-        "parentResidualGr": -0.79
+        "geometricBeforeParentResidualGr": 27.1,
+        "parentResidualGr": -0.88
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 223-rem (-0.79 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 223-rem (-0.88 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -790,10 +806,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 51.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 0.99,
-      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationMedianAbsErrorGr": 1.05,
+      "calibrationWorstAbsErrorGr": 6.52,
       "calibrationWorstCartridgeId": "6-5-prc",
-      "calibrationCount": 27,
+      "calibrationCount": 30,
       "parentId": "6-5-creedmoor",
       "parentName": "6.5 Creedmoor",
       "parentCitedCapacityGrH2O": 52.5,
@@ -826,10 +842,10 @@
         "lengthToShoulderIn": 1.4864,
         "lengthToNeckIn": 1.6648,
         "bodyClearanceOnDiameterIn": 0.005,
-        "neckClearanceOnDiameterIn": 0.004,
+        "neckClearanceOnDiameterIn": 0.006,
         "caseOutsideBaseDiameterIn": 0.4664,
         "caseOutsideShoulderDiameterIn": 0.458,
-        "caseOutsideNeckDiameterIn": 0.253,
+        "caseOutsideNeckDiameterIn": 0.251,
         "bodyWallAtBaseIn": 0.03,
         "bodyWallAtShoulderIn": 0.017,
         "neckWallIn": 0.016,
@@ -840,7 +856,7 @@
         "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.006 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
         "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
@@ -859,15 +875,16 @@
       "name": ".22 Nosler",
       "kind": "saami",
       "definedIn": [
+        "data/cartridges/bots/bullets.json",
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 30.9,
+      "caseCapacityEstimateGrH2O": 35.5,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
-      "calibrationWorstCartridgeId": "28-nosler",
-      "calibrationCount": 12,
+      "calibrationMedianAbsErrorGr": 1.05,
+      "calibrationWorstAbsErrorGr": 6.52,
+      "calibrationWorstCartridgeId": "6-5-prc",
+      "calibrationCount": 30,
       "parentId": null,
       "parentName": null,
       "parentCitedCapacityGrH2O": null,
@@ -884,16 +901,44 @@
         "neckLengthIn": null,
         "parentCase": null,
         "parentId": null,
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.398,
-        "baseOffsetIn": 0.02,
-        "neckLengthUsedIn": 0.224,
-        "rimTypeUsed": "rebated"
+        "conflictingValuesNotUsed": {
+          "rimDiameterIn": [
+            {
+              "value": 0.4252,
+              "source": "data/cartridges/bots/bullets.json"
+            }
+          ],
+          "shoulderAngleDeg": [
+            {
+              "value": 30.0,
+              "source": "data/cartridges/bots/bullets.json"
+            }
+          ]
+        },
+        "baseDiameterIn": 0.4217,
+        "baseDiameterSource": "data/cartridges/bots/bullets.json",
+        "shoulderDiameterIn": 0.4009,
+        "shoulderDiameterSource": "data/cartridges/bots/bullets.json",
+        "neckDiameterIn": 0.257,
+        "lengthToShoulderIn": 1.3886,
+        "lengthToNeckIn": 1.5132,
+        "bodyClearanceOnDiameterIn": 0.005,
+        "neckClearanceOnDiameterIn": 0.006,
+        "caseOutsideBaseDiameterIn": 0.4167,
+        "caseOutsideShoulderDiameterIn": 0.3959,
+        "caseOutsideNeckDiameterIn": 0.251,
+        "bodyWallAtBaseIn": 0.03,
+        "bodyWallAtShoulderIn": 0.017,
+        "neckWallIn": 0.016,
+        "headWebIn": 0.18,
+        "bodyLengthUsedIn": 1.2086,
+        "shoulderLengthUsedIn": 0.1246,
+        "neckLengthUsedIn": 0.2468,
+        "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.006 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": null,
@@ -907,12 +952,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 32.1,
+      "caseCapacityEstimateGrH2O": 32.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": null,
       "parentName": null,
       "parentCitedCapacityGrH2O": null,
@@ -929,9 +974,9 @@
         "neckLengthIn": null,
         "parentCase": ".220 Russian",
         "parentId": null,
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.441,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.224,
@@ -992,10 +1037,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 28.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "222-rem",
       "parentName": ".222 Remington",
       "parentCitedCapacityGrH2O": 26.0,
@@ -1012,19 +1057,19 @@
         "neckLengthIn": null,
         "parentCase": ".222 Remington",
         "parentId": "222-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.378,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.224,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 29.2,
-        "parentResidualGr": 0.47
+        "geometricBeforeParentResidualGr": 29.1,
+        "parentResidualGr": 0.38
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 222-rem (0.47 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 222-rem (0.38 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1047,10 +1092,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 28.5,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "223-rem",
       "parentName": ".223 Remington",
       "parentCitedCapacityGrH2O": 28.5,
@@ -1067,19 +1112,19 @@
         "neckLengthIn": null,
         "parentCase": ".223 Remington",
         "parentId": "223-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.378,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.224,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 27.7,
-        "parentResidualGr": -0.79
+        "geometricBeforeParentResidualGr": 27.6,
+        "parentResidualGr": -0.88
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 223-rem (-0.79 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 223-rem (-0.88 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1100,10 +1145,10 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 57.2,
+      "caseCapacityEstimateGrH2O": 57.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "300-wsm",
@@ -1122,19 +1167,19 @@
         "neckLengthIn": null,
         "parentCase": ".300 WSM",
         "parentId": "300-wsm",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.555,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.557,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.224,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 58.8,
-        "parentResidualGr": 1.58
+        "geometricBeforeParentResidualGr": 59.1,
+        "parentResidualGr": 2.01
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 300-wsm (1.58 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 300-wsm (2.01 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1156,12 +1201,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 56.5,
+      "caseCapacityEstimateGrH2O": 56.4,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 0.99,
-      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationMedianAbsErrorGr": 1.05,
+      "calibrationWorstAbsErrorGr": 6.52,
       "calibrationWorstCartridgeId": "6-5-prc",
-      "calibrationCount": 27,
+      "calibrationCount": 30,
       "parentId": "243-win",
       "parentName": ".243 Winchester",
       "parentCitedCapacityGrH2O": 54.0,
@@ -1194,10 +1239,10 @@
         "lengthToShoulderIn": 1.6849,
         "lengthToNeckIn": 1.7932,
         "bodyClearanceOnDiameterIn": 0.005,
-        "neckClearanceOnDiameterIn": 0.004,
+        "neckClearanceOnDiameterIn": 0.006,
         "caseOutsideBaseDiameterIn": 0.4664,
         "caseOutsideShoulderDiameterIn": 0.455,
-        "caseOutsideNeckDiameterIn": 0.273,
+        "caseOutsideNeckDiameterIn": 0.271,
         "bodyWallAtBaseIn": 0.03,
         "bodyWallAtShoulderIn": 0.017,
         "neckWallIn": 0.016,
@@ -1208,7 +1253,7 @@
         "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.006 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
         "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
@@ -1230,10 +1275,10 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 57.5,
+      "caseCapacityEstimateGrH2O": 57.4,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "300-wsm",
@@ -1252,19 +1297,19 @@
         "neckLengthIn": null,
         "parentCase": ".300 WSM",
         "parentId": "300-wsm",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.555,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.557,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 59.1,
-        "parentResidualGr": 1.58
+        "geometricBeforeParentResidualGr": 59.4,
+        "parentResidualGr": 2.01
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 300-wsm (1.58 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 300-wsm (2.01 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1287,10 +1332,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 67.3,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "25-06-rem",
       "parentName": ".25-06 Remington",
       "parentCitedCapacityGrH2O": 66.0,
@@ -1307,19 +1352,19 @@
         "neckLengthIn": null,
         "parentCase": ".25-06 Remington",
         "parentId": "25-06-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 68.8,
-        "parentResidualGr": 1.53
+        "geometricBeforeParentResidualGr": 68.7,
+        "parentResidualGr": 1.36
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 25-06-rem (1.53 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 25-06-rem (1.36 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1380,10 +1425,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 52.3,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6-5-creedmoor",
       "parentName": "6.5 Creedmoor",
       "parentCitedCapacityGrH2O": 52.5,
@@ -1400,19 +1445,19 @@
         "neckLengthIn": null,
         "parentCase": "6.5 Creedmoor",
         "parentId": "6-5-creedmoor",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.7,
-        "parentResidualGr": -1.64
+        "geometricBeforeParentResidualGr": 50.6,
+        "parentResidualGr": -1.77
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6-5-creedmoor (-1.64 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 6-5-creedmoor (-1.77 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1473,10 +1518,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 48.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "30-06",
       "parentName": ".30-06 Springfield",
       "parentCitedCapacityGrH2O": 68.0,
@@ -1493,19 +1538,19 @@
         "neckLengthIn": null,
         "parentCase": ".30-06 Springfield",
         "parentId": "30-06",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.3,
-        "parentResidualGr": 1.6
+        "geometricBeforeParentResidualGr": 50.1,
+        "parentResidualGr": 1.43
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 30-06 (1.6 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 30-06 (1.43 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1526,12 +1571,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 60.7,
+      "caseCapacityEstimateGrH2O": 60.6,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "257-roberts",
       "parentName": ".257 Roberts",
       "parentCitedCapacityGrH2O": null,
@@ -1548,9 +1593,9 @@
         "neckLengthIn": null,
         "parentCase": ".257 Roberts",
         "parentId": "257-roberts",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
@@ -1573,10 +1618,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 56.8,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "7x57-mauser",
       "parentName": "7x57mm Mauser",
       "parentCitedCapacityGrH2O": 58.0,
@@ -1593,19 +1638,19 @@
         "neckLengthIn": null,
         "parentCase": "7x57mm Mauser",
         "parentId": "7x57-mauser",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 59.8,
-        "parentResidualGr": 3.03
+        "geometricBeforeParentResidualGr": 59.6,
+        "parentResidualGr": 2.88
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 7x57-mauser (3.03 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 7x57-mauser (2.88 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1628,10 +1673,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 56.8,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "7x57-mauser",
       "parentName": "7x57mm Mauser",
       "parentCitedCapacityGrH2O": 58.0,
@@ -1648,19 +1693,19 @@
         "neckLengthIn": null,
         "parentCase": "7x57mm Mauser",
         "parentId": "7x57-mauser",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.257,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 59.8,
-        "parentResidualGr": 3.03
+        "geometricBeforeParentResidualGr": 59.6,
+        "parentResidualGr": 2.88
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 7x57-mauser (3.03 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 7x57-mauser (2.88 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1683,10 +1728,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 53.9,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "260-rem",
       "parentName": ".260 Remington",
       "parentCitedCapacityGrH2O": 53.0,
@@ -1703,19 +1748,19 @@
         "neckLengthIn": null,
         "parentCase": ".260 Remington",
         "parentId": "260-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.264,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 54.7,
-        "parentResidualGr": 0.82
+        "geometricBeforeParentResidualGr": 54.6,
+        "parentResidualGr": 0.68
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 260-rem (0.82 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 260-rem (0.68 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1733,15 +1778,16 @@
       "name": "277 SIG Fury",
       "kind": "saami",
       "definedIn": [
+        "data/cartridges/bots/bullets.json",
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 54.5,
-      "method": "parent-case",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 9.49,
+      "caseCapacityEstimateGrH2O": 56.5,
+      "method": "geometric",
+      "calibrationMedianAbsErrorGr": 1.05,
+      "calibrationWorstAbsErrorGr": 6.52,
       "calibrationWorstCartridgeId": "6-5-prc",
-      "calibrationCount": 35,
+      "calibrationCount": 30,
       "parentId": "308-win",
       "parentName": ".308 Winchester",
       "parentCitedCapacityGrH2O": 56.0,
@@ -1753,17 +1799,53 @@
         "rimDiameterIn": 0.473,
         "rimDiameterSource": "data/cartridges/cartridges.json",
         "rimType": "rebated",
-        "shoulderAngleDeg": null,
-        "shoulderAngleSource": null,
+        "shoulderAngleDeg": 30.0,
+        "shoulderAngleSource": "data/cartridges/bots/bullets.json",
         "neckLengthIn": null,
         "parentCase": ".308 Winchester",
-        "parentId": "308-win"
+        "parentId": "308-win",
+        "conflictingValuesNotUsed": {
+          "rimDiameterIn": [
+            {
+              "value": 0.4727,
+              "source": "data/cartridges/bots/bullets.json"
+            }
+          ]
+        },
+        "baseDiameterIn": 0.4714,
+        "baseDiameterSource": "data/cartridges/bots/bullets.json",
+        "shoulderDiameterIn": 0.4623,
+        "shoulderDiameterSource": "data/cartridges/bots/bullets.json",
+        "neckDiameterIn": 0.312,
+        "lengthToShoulderIn": 1.6261,
+        "lengthToNeckIn": 1.7562,
+        "bodyClearanceOnDiameterIn": 0.005,
+        "neckClearanceOnDiameterIn": 0.006,
+        "caseOutsideBaseDiameterIn": 0.4664,
+        "caseOutsideShoulderDiameterIn": 0.4573,
+        "caseOutsideNeckDiameterIn": 0.306,
+        "bodyWallAtBaseIn": 0.03,
+        "bodyWallAtShoulderIn": 0.017,
+        "neckWallIn": 0.016,
+        "headWebIn": 0.18,
+        "bodyLengthUsedIn": 1.4461,
+        "shoulderLengthUsedIn": 0.1301,
+        "neckLengthUsedIn": 0.2588,
+        "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Adjusted the parent's cited capacity for case length and bullet diameter. A blown-out shoulder is not added by this method.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.006 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
-      "alternate": null,
+      "alternate": {
+        "method": "parent-case",
+        "caseCapacityEstimateGrH2O": 54.5,
+        "calibrationMedianAbsErrorGr": 1.69,
+        "calibrationWorstAbsErrorGr": 9.49,
+        "parentId": "308-win",
+        "parentCitedCapacityGrH2O": 56.0
+      },
       "supersededByPrintedValueWhenAvailable": true
     },
     {
@@ -1776,10 +1858,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 68.4,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "280-rem",
       "parentName": ".280 Remington",
       "parentCitedCapacityGrH2O": 68.0,
@@ -1796,19 +1878,19 @@
         "neckLengthIn": null,
         "parentCase": ".280 Remington",
         "parentId": "280-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.284,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 70.4,
-        "parentResidualGr": 2.0
+        "geometricBeforeParentResidualGr": 70.2,
+        "parentResidualGr": 1.82
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 280-rem (2 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 280-rem (1.82 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1832,8 +1914,8 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 66.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "284-win",
@@ -1852,19 +1934,19 @@
         "neckLengthIn": null,
         "parentCase": ".284 Winchester",
         "parentId": "284-win",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.493,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.495,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.284,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 64.8,
-        "parentResidualGr": -1.24
+        "geometricBeforeParentResidualGr": 65.2,
+        "parentResidualGr": -0.84
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 284-win (-1.24 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 284-win (-0.84 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1887,8 +1969,8 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 66.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "284-win",
@@ -1907,19 +1989,19 @@
         "neckLengthIn": null,
         "parentCase": ".284 Winchester",
         "parentId": "284-win",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.493,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.495,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.308,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 65.5,
-        "parentResidualGr": -1.24
+        "geometricBeforeParentResidualGr": 65.9,
+        "parentResidualGr": -0.84
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 284-win (-1.24 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 284-win (-0.84 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1940,12 +2022,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 39.8,
+      "caseCapacityEstimateGrH2O": 39.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6mm-br-rem",
       "parentName": "6mm BR Remington",
       "parentCitedCapacityGrH2O": null,
@@ -1962,9 +2044,9 @@
         "neckLengthIn": null,
         "parentCase": "6mm BR Remington",
         "parentId": "6mm-br-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.308,
@@ -1987,10 +2069,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 53.3,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "308-win",
       "parentName": ".308 Winchester",
       "parentCitedCapacityGrH2O": 56.0,
@@ -2007,19 +2089,19 @@
         "neckLengthIn": null,
         "parentCase": ".308 Winchester",
         "parentId": "308-win",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.308,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 52.2,
-        "parentResidualGr": -1.13
+        "geometricBeforeParentResidualGr": 52.1,
+        "parentResidualGr": -1.27
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 308-win (-1.13 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 308-win (-1.27 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2080,8 +2162,8 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 89.2,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.3,
-      "calibrationWorstAbsErrorGr": 6.01,
+      "calibrationMedianAbsErrorGr": 1.11,
+      "calibrationWorstAbsErrorGr": 5.79,
       "calibrationWorstCartridgeId": "375-hh",
       "calibrationCount": 5,
       "parentId": "375-hh",
@@ -2100,19 +2182,19 @@
         "neckLengthIn": null,
         "parentCase": ".375 H&H Magnum",
         "parentId": "375-hh",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.518,
         "baseOffsetIn": -0.014,
         "neckLengthUsedIn": 0.308,
         "rimTypeUsed": "belted",
-        "geometricBeforeParentResidualGr": 95.2,
-        "parentResidualGr": 6.01
+        "geometricBeforeParentResidualGr": 95.0,
+        "parentResidualGr": 5.79
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 375-hh (6.01 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 375-hh (5.79 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2133,10 +2215,10 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 75.8,
+      "caseCapacityEstimateGrH2O": 75.5,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "300-rum",
@@ -2155,19 +2237,19 @@
         "neckLengthIn": null,
         "parentCase": ".300 Remington Ultra Magnum",
         "parentId": "300-rum",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.554,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.556,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.308,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 76.5,
-        "parentResidualGr": 0.69
+        "geometricBeforeParentResidualGr": 76.9,
+        "parentResidualGr": 1.32
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 300-rum (0.69 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 300-rum (1.32 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2188,12 +2270,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 50.7,
+      "caseCapacityEstimateGrH2O": 50.6,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "250-savage",
       "parentName": ".250 Savage",
       "parentCitedCapacityGrH2O": null,
@@ -2210,9 +2292,9 @@
         "neckLengthIn": null,
         "parentCase": ".250 Savage",
         "parentId": "250-savage",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.308,
@@ -2349,8 +2431,8 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 113.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "300-rum",
@@ -2369,19 +2451,19 @@
         "neckLengthIn": null,
         "parentCase": ".300 Remington Ultra Magnum",
         "parentId": "300-rum",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.554,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.556,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.338,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 114.4,
-        "parentResidualGr": 0.69
+        "geometricBeforeParentResidualGr": 115.0,
+        "parentResidualGr": 1.32
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 300-rum (0.69 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 300-rum (1.32 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2403,12 +2485,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 110.2,
+      "caseCapacityEstimateGrH2O": 110.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": null,
       "parentName": null,
       "parentCitedCapacityGrH2O": null,
@@ -2439,9 +2521,9 @@
             }
           ]
         },
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.5878,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.338,
@@ -2463,12 +2545,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 68.0,
-      "method": "parent-case",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 9.49,
-      "calibrationWorstCartridgeId": "6-5-prc",
-      "calibrationCount": 35,
+      "caseCapacityEstimateGrH2O": 68.1,
+      "method": "geometric",
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
+      "calibrationWorstCartridgeId": "338-lapua",
+      "calibrationCount": 32,
       "parentId": "35-whelen",
       "parentName": ".35 Whelen",
       "parentCitedCapacityGrH2O": 68.0,
@@ -2484,13 +2566,30 @@
         "shoulderAngleSource": "data/cartridges/cartridges.json",
         "neckLengthIn": null,
         "parentCase": ".35 Whelen",
-        "parentId": "35-whelen"
+        "parentId": "35-whelen",
+        "effectiveWallIn": 0.038,
+        "headWebIn": 0.1,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.473,
+        "baseOffsetIn": 0.0,
+        "neckLengthUsedIn": 0.358,
+        "rimTypeUsed": "rimless",
+        "geometricBeforeParentResidualGr": 72.0,
+        "parentResidualGr": 3.89
       },
       "assumptions": [
-        "Adjusted the parent's cited capacity for case length and bullet diameter. A blown-out shoulder is not added by this method.",
+        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
+        "Subtracted the geometric residual on parent 35-whelen (3.89 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
-      "alternate": null,
+      "alternate": {
+        "method": "parent-case",
+        "caseCapacityEstimateGrH2O": 68.0,
+        "calibrationMedianAbsErrorGr": 1.69,
+        "calibrationWorstAbsErrorGr": 9.49,
+        "parentId": "35-whelen",
+        "parentCitedCapacityGrH2O": 68.0
+      },
       "supersededByPrintedValueWhenAvailable": true
     },
     {
@@ -2769,10 +2868,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 52.8,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6-5-creedmoor",
       "parentName": "6.5 Creedmoor",
       "parentCitedCapacityGrH2O": 52.5,
@@ -2789,19 +2888,19 @@
         "neckLengthIn": null,
         "parentCase": "6.5 Creedmoor",
         "parentId": "6-5-creedmoor",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.264,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 51.2,
-        "parentResidualGr": -1.64
+        "geometricBeforeParentResidualGr": 51.0,
+        "parentResidualGr": -1.77
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6-5-creedmoor (-1.64 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 6-5-creedmoor (-1.77 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2823,10 +2922,10 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 78.0,
+      "caseCapacityEstimateGrH2O": 78.5,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": null,
@@ -2853,11 +2952,11 @@
             }
           ]
         },
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.493,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.495,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.264,
         "rimTypeUsed": "rebated"
       },
@@ -2878,10 +2977,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 38.2,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6mm-norma-br",
       "parentName": "6mm Norma BR",
       "parentCitedCapacityGrH2O": 39.0,
@@ -2898,19 +2997,19 @@
         "neckLengthIn": null,
         "parentCase": "6mm Norma BR",
         "parentId": "6mm-norma-br",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 38.4,
-        "parentResidualGr": 0.21
+        "geometricBeforeParentResidualGr": 38.3,
+        "parentResidualGr": 0.11
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6mm-norma-br (0.21 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 6mm-norma-br (0.11 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2933,10 +3032,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 39.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6mm-norma-br",
       "parentName": "6mm Norma BR",
       "parentCitedCapacityGrH2O": 39.0,
@@ -2953,19 +3052,19 @@
         "neckLengthIn": null,
         "parentCase": "6mm Norma BR",
         "parentId": "6mm-norma-br",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 39.2,
-        "parentResidualGr": 0.21
+        "geometricBeforeParentResidualGr": 39.1,
+        "parentResidualGr": 0.11
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6mm-norma-br (0.21 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 6mm-norma-br (0.11 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -2988,10 +3087,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 52.9,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "6mm-creedmoor",
       "parentName": "6mm Creedmoor",
       "parentCitedCapacityGrH2O": 52.5,
@@ -3008,19 +3107,19 @@
         "neckLengthIn": null,
         "parentCase": "6mm Creedmoor",
         "parentId": "6mm-creedmoor",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.8,
-        "parentResidualGr": -2.13
+        "geometricBeforeParentResidualGr": 50.7,
+        "parentResidualGr": -2.26
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6mm-creedmoor (-2.13 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 6mm-creedmoor (-2.26 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -3044,10 +3143,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 44.2,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 0.99,
-      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationMedianAbsErrorGr": 1.05,
+      "calibrationWorstAbsErrorGr": 6.52,
       "calibrationWorstCartridgeId": "6-5-prc",
-      "calibrationCount": 27,
+      "calibrationCount": 30,
       "parentId": "22-250-rem",
       "parentName": ".22-250 Remington",
       "parentCitedCapacityGrH2O": 43.0,
@@ -3072,10 +3171,10 @@
         "lengthToShoulderIn": 1.3,
         "lengthToNeckIn": 1.4335,
         "bodyClearanceOnDiameterIn": 0.005,
-        "neckClearanceOnDiameterIn": 0.004,
+        "neckClearanceOnDiameterIn": 0.006,
         "caseOutsideBaseDiameterIn": 0.466,
         "caseOutsideShoulderDiameterIn": 0.455,
-        "caseOutsideNeckDiameterIn": 0.269,
+        "caseOutsideNeckDiameterIn": 0.267,
         "bodyWallAtBaseIn": 0.03,
         "bodyWallAtShoulderIn": 0.017,
         "neckWallIn": 0.016,
@@ -3086,7 +3185,7 @@
         "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.006 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
         "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
@@ -3110,10 +3209,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 50.9,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "243-win",
       "parentName": ".243 Winchester",
       "parentCitedCapacityGrH2O": 54.0,
@@ -3130,19 +3229,19 @@
         "neckLengthIn": null,
         "parentCase": ".243 Winchester",
         "parentId": "243-win",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.4,
-        "parentResidualGr": -0.55
+        "geometricBeforeParentResidualGr": 50.2,
+        "parentResidualGr": -0.69
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 243-win (-0.55 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 243-win (-0.69 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -3165,10 +3264,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 42.4,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "22-250-rem",
       "parentName": ".22-250 Remington",
       "parentCitedCapacityGrH2O": 43.0,
@@ -3185,19 +3284,19 @@
         "neckLengthIn": null,
         "parentCase": ".22-250 Remington",
         "parentId": "22-250-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.243,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 49.0,
-        "parentResidualGr": 6.62
+        "geometricBeforeParentResidualGr": 48.9,
+        "parentResidualGr": 6.49
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 22-250-rem (6.62 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 22-250-rem (6.49 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -3258,10 +3357,10 @@
       "estimated": true,
       "caseCapacityEstimateGrH2O": 56.7,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
+      "calibrationMedianAbsErrorGr": 1.8,
+      "calibrationWorstAbsErrorGr": 7.93,
       "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationCount": 32,
       "parentId": "7mm-08-rem",
       "parentName": "7mm-08 Remington",
       "parentCitedCapacityGrH2O": 56.0,
@@ -3278,19 +3377,19 @@
         "neckLengthIn": null,
         "parentCase": "7mm-08 Remington",
         "parentId": "7mm-08-rem",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
         "baseOutsideDiameterIn": 0.473,
         "baseOffsetIn": 0.0,
         "neckLengthUsedIn": 0.284,
         "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 55.2,
-        "parentResidualGr": -1.47
+        "geometricBeforeParentResidualGr": 55.1,
+        "parentResidualGr": -1.6
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 7mm-08-rem (-1.47 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 7mm-08-rem (-1.6 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -3311,10 +3410,10 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 76.0,
+      "caseCapacityEstimateGrH2O": 75.8,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
+      "calibrationMedianAbsErrorGr": 1.35,
+      "calibrationWorstAbsErrorGr": 9.26,
       "calibrationWorstCartridgeId": "28-nosler",
       "calibrationCount": 12,
       "parentId": "300-rum",
@@ -3333,19 +3432,19 @@
         "neckLengthIn": null,
         "parentCase": ".300 Remington Ultra Magnum",
         "parentId": "300-rum",
-        "effectiveWallIn": 0.034,
+        "effectiveWallIn": 0.038,
         "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.554,
-        "baseOffsetIn": 0.02,
+        "bodyTaperOnDiameterIn": 0.005,
+        "baseOutsideDiameterIn": 0.556,
+        "baseOffsetIn": 0.022,
         "neckLengthUsedIn": 0.284,
         "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 76.7,
-        "parentResidualGr": 0.69
+        "geometricBeforeParentResidualGr": 77.1,
+        "parentResidualGr": 1.32
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 300-rum (0.69 gr, model minus cited capacity).",
+        "Subtracted the geometric residual on parent 300-rum (1.32 gr, model minus cited capacity).",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {

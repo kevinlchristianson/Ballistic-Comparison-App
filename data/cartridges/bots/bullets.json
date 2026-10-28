@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 30,
+  "cartridgeCount": 35,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -62,6 +62,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing PTG-14879. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
+      "id": "22-nosler",
+      "name": ".22 Nosler",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.76,
+      "trimLength": null,
+      "maxCoal": 2.26,
+      "rimDiameter": 0.4252,
+      "neckLength": null,
+      "baseDiameter": 0.4217,
+      "shoulderDiameter": 0.4009,
+      "neckDiameter": 0.257,
+      "lengthToShoulder": 1.3886,
+      "lengthToNeck": 1.5132,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/22-Nosler-SAAMI-Chamber-Reamer_p_114400.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10886. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "222-rem",
@@ -296,6 +325,35 @@
       "note": "Chamber reamer drawing BOP-10952. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
     },
     {
+      "id": "277-sig-fury",
+      "name": "277 SIG Fury",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".308 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.277,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": 2.825,
+      "rimDiameter": 0.4727,
+      "neckLength": null,
+      "baseDiameter": 0.4714,
+      "shoulderDiameter": 0.4623,
+      "neckDiameter": 0.312,
+      "lengthToShoulder": 1.6261,
+      "lengthToNeck": 1.7562,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/277-Sig-Fury-SAAMI-Chamber-Reamer_p_114401.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing PTG-15444. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
       "id": "280-rem",
       "name": ".280 Remington",
       "kind": "saami",
@@ -499,6 +557,35 @@
       "note": "Chamber reamer drawing BOP-11015. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
     },
     {
+      "id": "338-lapua",
+      "name": ".338 Lapua Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".416 Rigby",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.7244,
+      "trimLength": null,
+      "maxCoal": 3.6811,
+      "rimDiameter": 0.5916,
+      "neckLength": null,
+      "baseDiameter": 0.5873,
+      "shoulderDiameter": 0.5453,
+      "neckDiameter": 0.3744,
+      "lengthToShoulder": 2.1578,
+      "lengthToNeck": 2.3925,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.01,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338-Lapua-Magnum-SAAMI-Chamber-Reamer_p_114650.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-11030. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
       "id": "338-win-mag",
       "name": ".338 Winchester Magnum",
       "kind": "saami",
@@ -642,6 +729,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10790. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
+      "id": "6-5x47-lapua",
+      "name": "6.5x47 Lapua",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 1.85,
+      "trimLength": null,
+      "maxCoal": 2.756,
+      "rimDiameter": 0.474,
+      "neckLength": null,
+      "baseDiameter": 0.4723,
+      "shoulderDiameter": 0.4578,
+      "neckDiameter": 0.2933,
+      "lengthToShoulder": 1.4003,
+      "lengthToNeck": 1.5429,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65-x-47-mm-Lapua-CIP-Chamber-Reamer_p_114372.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10778. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "6-5x55-swedish",
@@ -874,6 +990,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10800. The belt diameter .5350 was not stored. baseDiameter is the body just forward of the belt. Axial lengths are from the belt datum, not the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
+      "id": "9-3x62",
+      "name": "9.3x62",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.366,
+      "caseLength": 2.441,
+      "trimLength": null,
+      "maxCoal": 3.291,
+      "rimDiameter": 0.4793,
+      "neckLength": null,
+      "baseDiameter": 0.4776,
+      "shoulderDiameter": 0.452,
+      "neckDiameter": 0.3917,
+      "lengthToShoulder": 2.0375,
+      "lengthToNeck": 2.1329,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 17.54,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/93-x-62-CIP-Chamber-Reamer_p_116882.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10831. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     }
   ],
   "aliases": []

@@ -1,14 +1,14 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 15:28 UTC
+Last updated: 2026-10-28 15:32 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-PTG reamer profiles now cover 30 library cartridges in `data/cartridges/bots/bullets.json` (schema 1.1.0). None are new cartridges. The merge fills 150 empty profile fields and does not replace a rim or shoulder angle the library already has. 6x6.8 SPC, 6 WOA, Hammer wildcats, and 300 SAM stay out. `.25 Nosler` still has no profile: print 58347 is not on the public catalog.
+PTG reamer profiles now cover 35 library cartridges in `data/cartridges/bots/bullets.json` (schema 1.1.0). None are new cartridges. 6x6.8 SPC, 6 WOA, Hammer wildcats, and 300 SAM stay out. `.25 Nosler` still has no profile: print 58347 is not on the public catalog.
 
-Belted reamer lengths are measured from the belt datum, and `baseDiameter` is the body just forward of the belt. On 27 cartridges with both a profile and a published capacity, median absolute error is 0.99 gr and the worst is 6.6 gr high on 6.5 PRC. `.300 Winchester Magnum` is 1.72 gr low. The older geometric model, used where no reamer profile exists, is still median 1.64 gr and worst 8.7 gr on `.28 Nosler`. Nothing was written into `caseCapacityGrH2O`.
+Belted reamer lengths are measured from the belt datum, and `baseDiameter` is the body just forward of the belt. On 30 cartridges with both a profile and a published capacity, median absolute error is 1.05 gr and the worst is 6.52 gr high on 6.5 PRC. The geometric model used where the reamer profile is not the source of the estimate is median 1.72 gr and worst 9.26 gr on `.28 Nosler`. Nothing was written into `caseCapacityGrH2O`.
 
 ## Next
 
