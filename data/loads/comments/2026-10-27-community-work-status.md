@@ -32,7 +32,9 @@ The 22 cal 55 gr FB Target, part 22410, is [#221](https://github.com/kevinlchris
 
 The 22 cal 73 gr BT Target, part 22420, is [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222).
 
-The bullet in this pull request is the 22 cal 80.5 gr FULLBORE Target, part 22427 — [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225).
+The 22 cal 80.5 gr FULLBORE Target, part 22427, is [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225).
+
+The bullet in this pull request is the 6 mm BR COLUMN Target, part 24407. The catalog weight is blank. The stored weight is 64, the figure implied by sectional density 0.155.
 
 22 cal 69 gr BT Target, part 22419, was searched. Posts name 69 gr SMKs or a powder with no Berger charge. No file and no pull request.
 
@@ -136,28 +138,28 @@ Merged community files, with the pull request number:
 - 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221)
 - 22 cal 73 gr BT Target, part 22420 — [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222)
 - 22 cal 80.5 gr FULLBORE Target, part 22427 — [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225)
+- 6 mm BR COLUMN Target, part 24407, catalog weight blank
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 80.5 gr file merges, still on the bullets whose product line is blank. The 6 mm BR COLUMN Target catalog weight is blank.
+After the BR COLUMN file merges, still on the bullets whose product line is blank.
 
-1. 6 mm BR COLUMN Target, part 24407
-2. 6 mm 65 gr BT Target, part 24408
-3. 6 mm 68 gr FB Target, part 24411
-4. 6 mm 90 gr BT Target, part 24425
-5. 6 mm 105 gr BT Target, part 24428
-6. 6 mm 108 gr BT Target, part 24431
-7. 6.5 mm 120 gr BT Target, part 26402
-8. 6.5 mm 140 gr Long Range BT Target, part 26409
-9. 30 cal 115 gr FB Target, part 30421
-10. 30 cal 150 gr FB Target, part 30407
-11. 30 cal 155.5 gr FULLBORE Target, part 30416
-12. 30 cal 175 gr Long Range BT Target, part 30420
-13. 30 cal 185 gr Juggernaut Target, part 30418
-14. 375 cal 379 gr ELR Match Solid, part 37379
-15. 375 cal 407 gr ELR Match Solid, part 37407
+1. 6 mm 65 gr BT Target, part 24408
+2. 6 mm 68 gr FB Target, part 24411
+3. 6 mm 90 gr BT Target, part 24425
+4. 6 mm 105 gr BT Target, part 24428
+5. 6 mm 108 gr BT Target, part 24431
+6. 6.5 mm 120 gr BT Target, part 26402
+7. 6.5 mm 140 gr Long Range BT Target, part 26409
+8. 30 cal 115 gr FB Target, part 30421
+9. 30 cal 150 gr FB Target, part 30407
+10. 30 cal 155.5 gr FULLBORE Target, part 30416
+11. 30 cal 175 gr Long Range BT Target, part 30420
+12. 30 cal 185 gr Juggernaut Target, part 30418
+13. 375 cal 379 gr ELR Match Solid, part 37379
+14. 375 cal 407 gr ELR Match Solid, part 37407
 
 ## Ambiguous VLD line candidates
 
@@ -360,6 +362,8 @@ The 22 cal 55 gr FB Target file adds no unmatched name. `223` resolves to `223-r
 The 22 cal 73 gr BT Target file adds no unmatched name. `.223` and `223` resolve to `223-rem`. Walt Berger's emailed start and max table is not a community load. mgdietrich's 23.2 gr is a place to start, not a fired charge. Fast14riot's 24 gr of Varget covers a 73-77 gr bullet, so it is not a 73-only row. pdhntr's 24.3 gr of Varget follows a 2012 post that ties the testing sentence to the Hodgdon 75 gr bullet, so it is not in this file. PopCharlie's 20 gr of VV N-133 and his April 26 restatement are one load. Zero333's bolt-rifle primers are CCI-450 or Fed.205m, and his AR primers are 205m or cci-450, so those primers stay null. No fired 73 gr BT Target charge turned up in 223 AI, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The 22 cal 69 gr BT Target search adds no unmatched name and no file. No fired 69 gr BT Target charge turned up in 223, 223 AI, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged.
 
 The 22 cal 80.5 gr FULLBORE Target file adds no unmatched name. `.223` and `223` resolve to `223-rem`. `223ai` resolves to `223-ai`. `22 Creedmoor` resolves to `22-creedmoor`. `22-250 ai` resolves to `22-250-ai`. JMH30's velocity is right at 2900, PopCharlie's is about 2650, and 284winner's is about 3550-3600, so those velocities stay null. rebs seated the 223 loads at 1.920 base to ogive and at 1.983, which are not COAL. Ned Ludd named H322 and about 2860 fps and gave no charge. swadiver named N140 and around 2920 fps and gave no charge. 284winner's around 37.5 grains is a suggestion. Berger's manual numbers and QuickLOAD figures are not community loads. Gary in MD named the 80.5 in a 22-250 and gave no charge. Clancy named H4350 and 3345 fps and gave no charge. No fired 80.5 gr FULLBORE charge turned up in 220 Swift, 5.56, 22 BR, 224 Valkyrie, 22 PPC, or 22 Dasher. The ambiguous lists are left unchanged. This file does not edit the 75 gr VLD Target source.
+
+The 6 mm BR COLUMN Target file adds no unmatched name. `6ppc` and `6 PPC` resolve to `6mm-ppc`. `6 BR` and `6BR` resolve to `6mm-norma-br`. The catalog weight is blank. The stored weight is 64, from sectional density 0.155. ReedG wrote 64.2 gr and weighed the lot at 64.3 gr. divingin's Varget velocity is about 3100, so it stays null. He also runs the same charges in Barts 66 FB bullets, which is noted and not a second bullet row. brxlefty's 28.9 gr of n133 does not name a cartridge, so it is not in this file. No fired BR COLUMN charge turned up in 243 Win, 6mm Rem, 6 Creed, 6mm ARC, or 240 Wby. The ambiguous lists are left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
