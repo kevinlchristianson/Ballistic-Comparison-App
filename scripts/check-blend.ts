@@ -86,3 +86,26 @@ for (const [label, scenario] of scenarios) {
     console.log(`  ${source.padEnd(20)} RMS error ${(rms(s.err) * 100).toFixed(1)}%, RMS z ${rms(s.z).toFixed(2)} (n ${s.err.length})`);
   }
 }
+
+// How far one source's loads sit from the other sources' for the same
+// cartridge: the basis of SINGLE_SOURCE_SD in blend.ts.
+{
+  const diffs: number[] = [];
+  for (const [id, own] of byCartridge) {
+    const sources = [...new Set(own.map((l) => l.source.name))];
+    if (sources.length < 2) continue;
+    for (const s of sources) {
+      const a = fitLoads(id, own.filter((l) => l.source.name === s), BARREL);
+      const b = fitLoads(id, own.filter((l) => l.source.name !== s), BARREL);
+      if (!a || !b || a.support.loadCount < 3) continue;
+      const lo = Math.max(a.minWeightGr, b.minWeightGr);
+      const hi = Math.min(a.maxWeightGr, b.maxWeightGr);
+      if (lo > hi) continue;
+      const w = Math.sqrt(lo * hi);
+      const va = estimateFromFit(a, w).estimateFps;
+      const vb = estimateFromFit(b, w).estimateFps;
+      if (va && vb) diffs.push(Math.log(va / vb));
+    }
+  }
+  console.log(`\none source vs the rest: ${diffs.length} pairs, RMS difference ${(rms(diffs) * 100).toFixed(1)}%`);
+}

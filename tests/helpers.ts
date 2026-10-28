@@ -18,3 +18,11 @@ export const fixtureLoads: NormalizedLoad[] = [
   ...normalizeLoads(fixtureA as unknown as RawLoadFile, "a", cartridges).loads,
   ...normalizeLoads(fixtureB as unknown as RawLoadFile, "b", cartridges).loads,
 ];
+
+/** The fixture loads plus a second, slightly faster source for the .308, so its fit rests on two sources. */
+export const twoSourceLoads: NormalizedLoad[] = [
+  ...fixtureLoads,
+  ...fixtureLoads
+    .filter((l) => l.cartridgeId === "308-win")
+    .map((l) => ({ ...l, id: `${l.id}-b`, velocityFps: l.velocityFps == null ? null : l.velocityFps + 20, source: { ...l.source, name: "Second fixture source", url: "https://example.com/second" } })),
+];

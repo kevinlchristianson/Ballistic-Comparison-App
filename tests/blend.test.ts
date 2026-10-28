@@ -1,7 +1,8 @@
 import { createDefaultEstimator } from "../src/lib/velocity/index.ts";
-import { cartridges, fixtureLoads } from "./helpers.ts";
+import { cartridges, fixtureLoads, twoSourceLoads } from "./helpers.ts";
 
 const est = createDefaultEstimator(cartridges, fixtureLoads);
+const est2 = createDefaultEstimator(cartridges, twoSourceLoads);
 
 describe("blend-v1", () => {
   it("estimates every cartridge in the library for a typical bullet", () => {
@@ -24,7 +25,7 @@ describe("blend-v1", () => {
   });
 
   it("lets published loads answer when they cover the weight, with the others as cross-checks", () => {
-    const e = est.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 });
+    const e = est2.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 });
     expect(e.model).toBe("loglog-v1");
     const [own, ...checks] = e.components!;
     expect(own!.source).toBe("load_data");
@@ -54,5 +55,17 @@ describe("blend-v1", () => {
     const peers = e.components!.find((c) => c.source === "similar_cartridges");
     expect(peers?.peers?.length).toBeGreaterThan(0);
     expect(e.flags).toContain("similar_cartridges");
+  });
+
+  it("blends a single source's loads with the other estimates instead of letting them answer alone", () => {
+    const one = est.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 });
+    const two = est2.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 });
+    expect(one.model).toBe("blend-v1");
+    expect(one.flags).toContain("single_source");
+    const own = one.components!.find((c) => c.source === "load_data")!;
+    expect(own.share).toBeGreaterThan(0.2);
+    expect(own.share).toBeLessThan(1);
+    // One source alone is less certain than two that agree.
+    expect(one.highFps! / one.estimateFps!).toBeGreaterThan(two.highFps! / two.estimateFps!);
   });
 });
