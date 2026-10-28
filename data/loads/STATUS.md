@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 17:44 UTC
+Last updated: 2026-10-28 18:57 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` stays unmatched. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` aliases to `22-6mm`. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
 
 ## Case capacity
 
@@ -18,7 +18,9 @@ Published water capacity is filled only on cartridges in `data/cartridges/bots/l
 
 Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets. Six bot records whose only dimensions came from that PDF are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`, are removed. The library already carries those short names. `30 AR Remington` stays as an alias of `30-rem-ar`. `.24 Nosler` and the Lazzeroni records stay.
 
-Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` already resolve to that id. Hammer's only matching load name is `22-6mm (Rem)`, 250 rows. `inputs/hammer/case-data.csv` prints case 2.233 in, coal "Not SAAMI Spec.", and a blank case-info cell. There is no shoulder angle, no parent, and no Ackley or AI label. The "(Rem)" is the Remington parent. Case length matches the improved drawing because an Ackley keeps the parent length, so length is not proof. No community file uses a 22-6mm name. Those 250 rows stay unmatched.
+Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` resolve to that id. Bullet-bot PR #184 added the standard case as `22-6mm`, name `22/6mm Remington`, alias `22-6mm Remington`: 26 degrees, shoulder 0.4310 in, case 2.253 in, parent 6mm Remington. Hammer's only 22-6mm load name is `22-6mm (Rem)`, 250 rows. The sheet has no second spelling. That name aliases to `22-6mm`, not to `22-6mm-ai`. Hammer prints case 2.233 in and coal "Not SAAMI Spec."; the alias follows the `(Rem)` label. No community file uses a 22-6mm name.
+
+Counted with `resolveCartridge` after that alias: 96,086 of 118,770 load rows resolve, and 22,684 do not. The 250 Hammer rows are in the resolved count. The single-source figures below are the earlier snapshot from PR #116.
 
 Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's printed "Case volume H20" lines are now in `inputs/hammer/case-data.csv`. 25 Nosler prints 99gr.
 
