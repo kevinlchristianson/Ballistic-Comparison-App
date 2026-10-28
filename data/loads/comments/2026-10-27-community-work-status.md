@@ -32,7 +32,7 @@ The 22 cal 55 gr FB Target, part 22410, is [#221](https://github.com/kevinlchris
 
 The 22 cal 73 gr BT Target, part 22420, is [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222).
 
-The bullet in this pull request is the 22 cal 80.5 gr FULLBORE Target, part 22427.
+The bullet in this pull request is the 22 cal 80.5 gr FULLBORE Target, part 22427 — [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225).
 
 22 cal 69 gr BT Target, part 22419, was searched. Posts name 69 gr SMKs or a powder with no Berger charge. No file and no pull request.
 
@@ -135,7 +135,7 @@ Merged community files, with the pull request number:
 - 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
 - 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221)
 - 22 cal 73 gr BT Target, part 22420 — [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222)
-- 22 cal 80.5 gr FULLBORE Target, part 22427
+- 22 cal 80.5 gr FULLBORE Target, part 22427 — [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
