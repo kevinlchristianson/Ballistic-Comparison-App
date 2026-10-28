@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 17:00 UTC
+Last updated: 2026-10-28 17:05 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -10,11 +10,11 @@ The app owns case-capacity estimation. `src/lib/velocity/inputs.ts` hard-codes i
 
 `data/bullets/estimates/case-capacity.json` and `scripts/bullets/estimate_case_capacity.py` are deleted. The site stops reading them. PR #128 did not change the estimates file.
 
-Thirty-five library cartridges have 4D profiles. Fifteen wildcats already in the file still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
+Thirty-five library cartridges have 4D profiles. The first ten new 4D wildcats are .218 Mashburn Bee, .243 WSSM Ackley Improved, .270 Winchester Ackley Improved, .30-40 Krag Ackley Improved, .338 Lapua Ackley Improved, .375 H&H Ackley Improved, .375 Whelen Improved, 6.5x55 Ackley Improved, 6x47 Lapua Ackley Improved, and 8mm-06 Ackley Improved. Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
 ## Next
 
-1. Add wildcats from the 4D catalog that the library does not have, about ten per batch. Same exclusions: anything already in `cartridges.json` or `loads.json`, Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip pages that are a named variant of a library cartridge, and skip drawings labeled SAAMI or C.I.P.
+1. More wildcats from the 4D catalog that the library and `loads.json` do not have, about ten per batch. Same exclusions: Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip drawings labeled SAAMI or C.I.P.
 2. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
 3. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
 
