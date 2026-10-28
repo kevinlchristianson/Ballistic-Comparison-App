@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 18:25 UTC
+Last updated: 2026-10-28 18:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -31,6 +31,8 @@ Ten more wildcats cite unique 4D drawings whose titles match the pages. 22/30-30
 Ten more wildcats cite unique 4D drawings whose titles match the pages. .22 K-Hornet is 40° and 0.2860 in versus .22 Hornet 0.2773 in. .240 Gibbs is 35° and 0.4550 in versus the .30-06 case drawing 0.4410 in. .243 Catbird is 34°50' and 0.4540 in versus 0.4410 in. 6.5/270 WSM and 35-300 WSM keep the WSM shoulder, 0.5381 in, at 35° and 30°. .277 Wolverine is 23° on a shortened .223 head. .17 Javelina is 32° and 0.3620 in versus .223 Remington 0.3542 in. .338 Spectre is 29°55'. 7mm LRM is 30°. .22 Cheetah Mach II is 28°. The 270 Sherman page is a wordmark, not a drawing. .50 Beowulf does not print a shoulder angle or junction lengths. The catalog still has uncited wildcat pages.
 
 Ten more wildcats cite unique 4D drawings whose titles match the pages. 223-300 WSM, 25/300 WSM, 6mm/300 WSM, and 8mm/300 WSM keep the .300 WSM shoulder, 0.5381 in. .25 Souper is 20° on the .308 head. 6.5mm TCU is 40° and 0.3680 in versus .223 Remington 0.3542 in. .30 PPC is 30° and 0.4300 in. .243 Super Rockchucker is 28°15' and 0.4420 in versus the .30-06 case drawing 0.4410 in. .338 Excalibur is 28°. 7mm PRCC is 30°. The page titled 338 Norma Mag is the library cartridge, so it was not added again. The catalog still has uncited wildcat pages.
+
+Ten more cartridges cite unique 4D drawings whose titles match the pages. .500 A-Square is 35°. .318 Westley Richards is 25°10' and 0.4420 in versus the .30-06 case drawing 0.4410 in. .358 Gremlin is 30°. .358 Hoosier is 20°10' on the .308 head. 6mm/350 Rem Mag is 25° on the 6.5 Remington Magnum head. .416 CheyTac is 21°35'. 7mm IHMSA is 38°. 7x61 Sharpe & Hart is 44°. .358 STA is 35° on the 8mm Remington Magnum head. .22 American is 35°. The 350 Rigby page drawing is titled 350 Rigby Magnum, so it was not used for .350 Rigby. .450-400 Nitro Express (3.0) and .458x2 American do not print a shoulder angle or the junction lengths. The catalog still has uncited pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
