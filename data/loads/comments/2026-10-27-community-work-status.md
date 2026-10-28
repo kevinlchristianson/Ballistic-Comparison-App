@@ -22,7 +22,7 @@ The Berger OTM Tactical line closes with this pull request — [#205](https://gi
 
 Community-reported loads for every Berger Varmint bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Varmint line, or the catalog has only that varmint bullet at the weight.
 
-The bullet in this pull request is the 20 cal 35 gr FB Varmint, part 20303.
+The bullet in this pull request is the 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210).
 
 20 cal 40 gr BT Varmint, part 20304, was searched. Posts name the 40 gr Bergers in 204 Ruger, 20 Practical, and 20 Vartarg and give no fired charge. The numbered 40 gr charges in those threads are V-Max or Sierra. No file and no pull request.
 
@@ -108,7 +108,7 @@ Merged community files, with the pull request number:
 - 338 cal 250 gr Hybrid OTM Tactical, part 33107 — [#203](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/203)
 - 338 cal 300 gr Hybrid OTM Tactical, part 33109 — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205)
 - 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207)
-- 20 cal 35 gr FB Varmint, part 20303 — this pull request
+- 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
