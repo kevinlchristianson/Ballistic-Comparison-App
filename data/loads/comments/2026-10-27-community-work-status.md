@@ -42,7 +42,7 @@ The 6 mm 68 gr FB Target, part 24411, is [#230](https://github.com/kevinlchristi
 
 The 6 mm 90 gr BT Target, part 24425, is [#232](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/232).
 
-The bullet in this pull request is the 6 mm 108 gr BT Target, part 24431.
+The bullet in this pull request is the 6 mm 108 gr BT Target, part 24431 — [#233](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/233).
 
 6 mm 105 gr BT Target, part 24428, was searched. Numbered 105 gr charges in the threads are Hybrid or VLD, not this boat-tail. No file and no pull request.
 
@@ -152,7 +152,7 @@ Merged community files, with the pull request number:
 - 6 mm 65 gr BT Target, part 24408 — [#229](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/229)
 - 6 mm 68 gr FB Target, part 24411 — [#230](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/230)
 - 6 mm 90 gr BT Target, part 24425 — [#232](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/232)
-- 6 mm 108 gr BT Target, part 24431
+- 6 mm 108 gr BT Target, part 24431 — [#233](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/233)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
