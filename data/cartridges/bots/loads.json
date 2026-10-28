@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 37,
-  "aliasCount": 18,
+  "aliasCount": 17,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -386,7 +386,7 @@
       "caseLength": 2.496,
       "trimLength": null,
       "maxCoal": 3.34,
-      "rimDiameter": null,
+      "rimDiameter": 0.4721,
       "neckLength": null,
       "baseDiameter": 0.4708,
       "shoulderDiameter": 0.4595,
@@ -402,7 +402,7 @@
         "url": "https://www.pacifictoolandgauge.com/7mm-Backcountry-7mm-BC-SAAMI-Chamber-Reamer_p_119951.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .2840 and a 30 degree shoulder. Hammer case-data prints Case 2.496\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1FY5LjXhQjagIEH_HOO5yJQsMc1ZvyUI_CbJH-aVy6mQ/edit?usp=sharing"
+      "note": "PTG print labels GROOVE SIZE .2840 and a 30 degree shoulder. The bolt-face rim diameter is (0.4721); rim type is not labeled. Hammer case-data prints Case 2.496\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1FY5LjXhQjagIEH_HOO5yJQsMc1ZvyUI_CbJH-aVy6mQ/edit?usp=sharing"
     },
     {
       "id": "338-300-wsm",
@@ -415,7 +415,7 @@
       "caseLength": 2.09,
       "trimLength": null,
       "maxCoal": 2.86,
-      "rimDiameter": null,
+      "rimDiameter": 0.5586,
       "neckLength": null,
       "baseDiameter": 0.5563,
       "shoulderDiameter": 0.5395,
@@ -431,7 +431,7 @@
         "url": "https://www.pacifictoolandgauge.com/338--300-Winchester-Short-Magnum-WSM-Chamber-Reamer_p_116449.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .3380, BASIC BRASS 300 WSM, and 35 degrees. Body .5563, shoulder .5395, neck .3390. Hammer prints Case length 2.090\" and COAL Max 2.860\". https://docs.google.com/spreadsheets/d/1DIGwc1-FcANj915CP212IHQFkgW6f0dZUlh9uckt7co/edit?usp=sharing"
+      "note": "PTG print labels GROOVE SIZE .3380, BASIC BRASS 300 WSM, and 35 degrees. Body .5563, shoulder .5395, neck .3390. Head diameter at the bolt face is 0.5586; rim type is not labeled. Hammer prints Case length 2.090\" and COAL Max 2.860\". https://docs.google.com/spreadsheets/d/1DIGwc1-FcANj915CP212IHQFkgW6f0dZUlh9uckt7co/edit?usp=sharing"
     },
     {
       "id": "22-gt",
@@ -473,7 +473,7 @@
       "caseLength": 2.57,
       "trimLength": null,
       "maxCoal": 3.34,
-      "rimDiameter": null,
+      "rimDiameter": 0.5037,
       "neckLength": null,
       "baseDiameter": 0.501,
       "shoulderDiameter": 0.479,
@@ -482,14 +482,14 @@
       "lengthToNeck": null,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35,
-      "rimType": null,
+      "rimType": "rebated",
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge reamer print PTG-15431",
         "url": "https://www.pacifictoolandgauge.com/25-Weatherby-Rebated-Precision-Magnum-RPM-SAAMI-Chamber-Reamer_p_120561.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2576. A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0"
+      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2576. The title prints REBATED. Bolt-face rim diameter is (0.5037). A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0"
     },
     {
       "id": "25-prc",
@@ -1149,15 +1149,6 @@
       "source": {
         "name": "Hammer Bullets load sheet, 22-6mm (Rem)",
         "url": "https://docs.google.com/spreadsheets/d/1whRCmsntK0CAxQ3dUSFsbZB-349CAnKmFHEdmgbNog8/edit?usp=sharing",
-        "retrievedOn": "2026-10-28"
-      }
-    },
-    {
-      "cartridgeId": "6-5-creedmoor",
-      "alias": "creed",
-      "source": {
-        "name": "Shooters' Forum, 6.5 Creedmoor 135 grain Berger Classic Hunter",
-        "url": "https://forum.accurateshooter.com/threads/6-5-creedmoor-135-grain-berger-classic-hunter.3950944/",
         "retrievedOn": "2026-10-28"
       }
     },

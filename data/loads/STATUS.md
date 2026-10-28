@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 19:03 UTC
+Last updated: 2026-10-28 19:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` aliases to `22-6mm`. Community shorthand from the Berger VLD and Classic Hunter files is aliased where a library id exists. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. The bare `creed` alias is removed. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
 
 ## Case capacity
 
@@ -20,9 +20,13 @@ Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets
 
 Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` resolve to that id. Bullet-bot PR #184 added the standard case as `22-6mm`, name `22/6mm Remington`, alias `22-6mm Remington`: 26 degrees, shoulder 0.4310 in, case 2.253 in, parent 6mm Remington. Hammer's only 22-6mm load name is `22-6mm (Rem)`, 250 rows. The sheet has no second spelling. That name aliases to `22-6mm`, not to `22-6mm-ai`. Hammer prints case 2.233 in and coal "Not SAAMI Spec."; the alias follows the `(Rem)` label. No community file uses a 22-6mm name.
 
-Counted with `resolveCartridge` after the community aliases below: 96,091 of 118,770 load rows resolve, and 22,679 do not. The 250 Hammer `22-6mm (Rem)` rows are in that count. The single-source figures below are the earlier snapshot from PR #116.
+Counted with `resolveCartridge` on the current catalog: 96,403 of 118,797 load rows resolve, and 22,394 do not. The single-source figures below are the earlier snapshot from PR #116.
 
-`creed` aliases to `6-5-creedmoor`. The comparison key is already lowercase, so `Creed` matches the same alias. There was no separate `Creed` alias to fix. The shorthand also folds bare `Creedmoor` onto that key, so the two `Creedmoor` rows in the 6.5 mm 156 gr file resolve there too. `6mmBR` already aliases to `6mm-norma-br` (2 rows). `7mm08` aliases to `7mm-08-rem` (3 rows).
+An alias cannot depend on bullet diameter. `resolveCartridge` takes only the name, and a bot alias is a string plus a cartridge id. The bare `creed` alias is removed. The four owned rows that used it are 6.5 mm bullets, so the posted name is stored as `6.5 Creedmoor`: one `creed` (135 gr Classic Hunter), one `Creed` (144 gr Long Range Hybrid Target), and two `Creedmoor` (156 gr EOL). All four resolve to `6-5-creedmoor`. No bare `Creed` row is a 6 mm Hybrid Target. Rows already written `6 Creed` or `6mm Creedmoor` still resolve to `6mm-creedmoor` without that alias. `223 cal` stays unmatched (2 rows).
+
+`6x47` (1), `6X47 Lapua` (6), and `6X47 L` (3) stay unmatched. They are not aliased to `6x47-lapua-ai`.
+
+PTG reamer prints that label a rim now fill that field. 7mm Backcountry rim diameter 0.4721, rim type not labeled. 338/300 WSM rim diameter 0.5586, rim type not labeled. 25 RPM rim diameter 0.5037 and rim type rebated, from the title word REBATED and the bolt-face diameter. 22 GT and 375 CheyTac print 0.4375 on the bolt nose, not on the case, so both rim fields stay null. Hammer case-data does not print a rim, so those records stay null. No SAAMI or C.I.P. rim was copied.
 
 `6X47 Lapua` (6 rows), `6x47` (1), `6X47 L` (3), and `6x47L` (1) stay unmatched. No library or bot record is the standard 6mm x 47 Lapua. `6-5x47-lapua` is the 6.5, and `6x47-lapua-ai` is the Ackley. Hodgdon's `6X47MM Lapua` (160 rows) shares the `6X47 Lapua` key, so that name stays unmatched with them.
 
