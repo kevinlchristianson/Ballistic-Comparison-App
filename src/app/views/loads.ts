@@ -6,7 +6,7 @@
 import { loadBulletIndex, loadRowsFor, matchesBulletQuery, newId, refresh, type AppData, type SiteLoadRow, type UserLoad } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { load, save } from "../store.ts";
-import { cartridgePicker } from "../cartridgePicker.ts";
+import { byDiameterThenCapacity, cartridgePicker, groupLabel } from "../cartridgePicker.ts";
 import { userDataBar } from "../userdata.ts";
 
 interface State {
@@ -15,9 +15,11 @@ interface State {
   maxWeight: number | null;
   level: "" | "max" | "start";
   source: string;
-  /** Browse one cartridge's loads, or one bullet's loads across every cartridge. */
-  mode: "cartridge" | "bullet";
+  /** Browse one cartridge's loads, one bullet's loads across every cartridge, or every load for one bullet diameter. */
+  mode: "cartridge" | "bullet" | "diameter";
   bulletQuery: string;
+  /** Bullet diameter in inches, as toFixed(3), for the diameter view. */
+  diameter: string;
   sortKey: string;
   sortDesc: boolean;
 }
@@ -31,6 +33,13 @@ export function openLoadsForBullet(query: string): void {
   location.hash = "#loads";
 }
 
+/** Opens the Load data tab on every load for one bullet diameter (inches). */
+export function openLoadsForDiameter(diameterIn: number): void {
+  const st = load<Partial<State>>(KEY, {});
+  save(KEY, { ...st, mode: "diameter", diameter: diameterIn.toFixed(3), source: "", minWeight: null, maxWeight: null });
+  location.hash = "#loads";
+}
+
 /** Opens the Load data tab on one cartridge. */
 export function openLoadsForCartridge(cartridgeId: string): void {
   const st = load<Partial<State>>(KEY, {});
@@ -39,13 +48,22 @@ export function openLoadsForCartridge(cartridgeId: string): void {
 }
 
 export function loadsView(data: AppData): HTMLElement {
-  const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "", mode: "cartridge", bulletQuery: "", sortKey: "", sortDesc: false });
+  const st = load<State>(KEY, { cartridgeId: "308-win", minWeight: null, maxWeight: null, level: "", source: "", mode: "cartridge", bulletQuery: "", diameter: "", sortKey: "", sortDesc: false });
+  st.diameter ??= "";
   const persist = () => save(KEY, st);
   const index = data.meta.loadRows ?? {};
   const pickerEl = h("div", { class: "card" });
   const mineEl = h("div", {});
   const publishedEl = h("div", {});
   const name = (id: string) => data.cartridges.find((c) => c.id === id)?.name ?? id;
+  const capacity = (c: (typeof data.cartridges)[number]) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O;
+  /** Library order (bullet diameter, then case capacity), used for the default sort across cartridges. */
+  const rank = new Map(data.cartridges.slice().sort(byDiameterThenCapacity(capacity)).map((c, i) => [c.id, i]));
+  const byRank = (a: string, b: string) => (rank.get(a) ?? 1e9) - (rank.get(b) ?? 1e9) || name(a).localeCompare(name(b));
+  const diaKey = (d: number | null) => (d == null ? "" : d.toFixed(3));
+  /** Cartridges with the chosen bullet diameter that have published or user loads. */
+  const diameterCartridges = (key: string) =>
+    data.cartridges.filter((c) => diaKey(c.bulletDiameterIn) === key && (index[c.id] || data.user.loads.some((l) => l.cartridgeId === c.id))).map((c) => c.id);
 
   // Built once and kept, so the search text survives re-renders.
   let picker: HTMLElement | null = null;
@@ -55,7 +73,7 @@ export function loadsView(data: AppData): HTMLElement {
     picker = cartridgePicker({
       cartridges: data.cartridges,
       value: st.cartridgeId,
-      capacity: (c) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O,
+      capacity,
       note: (c) => {
         const parts = [index[c.id] ? `${index[c.id]!.toLocaleString()} published` : "", mine(c.id) ? `${mine(c.id)} yours` : ""].filter(Boolean);
         return parts.length ? `(${parts.join(", ")})` : "(no loads)";
@@ -70,15 +88,41 @@ export function loadsView(data: AppData): HTMLElement {
     pickerEl.append(
       h(
         "div",
-        { class: "grid" },
-        field("Browse by", select(st.mode, [["cartridge", "Cartridge"], ["bullet", "Bullet, across cartridges"]], (v) => ((st.mode = v), (st.source = ""), persist(), renderAll()))),
-        st.mode === "bullet"
-          ? field("Bullet", bulletSearch())
-          : field("Cartridge", cartridgeSelect()),
+        { class: "grid loads-picker" },
+        field(
+          "Browse by",
+          select(st.mode, [["cartridge", "Cartridge"], ["bullet", "Bullet, across cartridges"], ["diameter", "Bullet diameter, across cartridges"]], (v) => ((st.mode = v), (st.source = ""), persist(), renderAll())),
+        ),
+        st.mode === "bullet" ? field("Bullet", bulletSearch()) : st.mode === "diameter" ? field("Bullet diameter", diameterSelect()) : field("Cartridge", cartridgeSelect()),
         field("Min weight (gr)", numberInput(st.minWeight, { min: 0, step: 1, onInput: (v) => ((st.minWeight = v), persist(), renderPublished()) })),
         field("Max weight (gr)", numberInput(st.maxWeight, { min: 0, step: 1, onInput: (v) => ((st.maxWeight = v), persist(), renderPublished()) })),
         field("Level", select(st.level, [["", "Start and max"], ["max", "Max only"], ["start", "Start only"]], (v) => ((st.level = v), persist(), renderPublished()))),
       ),
+    );
+  }
+
+  function diameterSelect(): HTMLSelectElement {
+    const counts = new Map<string, { loads: number; cartridges: number; d: number }>();
+    for (const c of data.cartridges) {
+      const key = diaKey(c.bulletDiameterIn);
+      const n = (index[c.id] ?? 0) + data.user.loads.filter((l) => l.cartridgeId === c.id).length;
+      if (!key || !n) continue;
+      const e = counts.get(key) ?? { loads: 0, cartridges: 0, d: c.bulletDiameterIn! };
+      e.loads += n;
+      e.cartridges += 1;
+      counts.set(key, e);
+    }
+    const options = [...counts.entries()].sort((a, b) => a[1].d - b[1].d);
+    if (!st.diameter || !counts.has(st.diameter)) {
+      // Start on the current cartridge's diameter.
+      const cur = diaKey(data.cartridges.find((c) => c.id === st.cartridgeId)?.bulletDiameterIn ?? null);
+      st.diameter = counts.has(cur) ? cur : (options[0]?.[0] ?? "");
+      persist();
+    }
+    return select(
+      st.diameter,
+      options.map(([k, e]): [string, string] => [k, `${groupLabel(e.d)} (${e.loads.toLocaleString()} loads, ${e.cartridges} cartridge${e.cartridges === 1 ? "" : "s"})`]),
+      (v) => ((st.diameter = v), (st.source = ""), persist(), renderAll()),
     );
   }
 
@@ -98,8 +142,9 @@ export function loadsView(data: AppData): HTMLElement {
 
   function renderMine(): void {
     clear(mineEl);
-    if (st.mode === "bullet") {
-      mineEl.append(h("div", { class: "card" }, h("p", { class: "hint" }, "Your own loads that match the search are listed with the published ones, tagged yours. To add one, browse by cartridge."), userDataBar(data, renderAll)));
+    if (st.mode !== "cartridge") {
+      const what = st.mode === "bullet" ? "that match the search" : "for this diameter";
+      mineEl.append(h("div", { class: "card" }, h("p", { class: "hint" }, `Your own loads ${what} are listed with the published ones, tagged yours. To add one, browse by cartridge.`), userDataBar(data, renderAll)));
       return;
     }
     const mine = data.user.loads.filter((l) => l.cartridgeId === st.cartridgeId);
@@ -261,13 +306,22 @@ export function loadsView(data: AppData): HTMLElement {
       const mine = data.user.loads.filter((l) => bulletMatches(l.bulletDescription, l.bulletWeightGr, q)).map(userRow);
       return { rows: [...mine, ...published.filter((r) => bulletMatches(r.bullet, r.bulletWeightGr, q))], title: `Loads for bullets matching "${st.bulletQuery.trim().replace(/\|\S+/g, "")}"`, empty: null };
     }
+    if (st.mode === "diameter") {
+      const ids = diameterCartridges(st.diameter);
+      const d = Number(st.diameter);
+      if (!ids.length) return { rows: [], title: "", empty: "Pick a bullet diameter to see every load for it, across cartridges." };
+      const published = (await Promise.all(ids.filter((id) => index[id]).map(async (id) => (await loadRowsFor(id)).map((r): Row => ({ ...r, cartridgeId: id }))))).flat();
+      const idSet = new Set(ids);
+      const mine = data.user.loads.filter((l) => idSet.has(l.cartridgeId)).map(userRow);
+      return { rows: [...mine, ...published], title: `Loads for ${groupLabel(d)} bullets`, empty: null };
+    }
     const count = index[st.cartridgeId] ?? 0;
     if (!count) return { rows: [], title: "", empty: `No published loads for ${name(st.cartridgeId)}.` };
     const rows = (await loadRowsFor(st.cartridgeId)).map((r): Row => ({ ...r, cartridgeId: st.cartridgeId }));
     return { rows, title: `Published loads for ${name(st.cartridgeId)}`, empty: null };
   }
 
-  type SortKey = "cartridge" | "bullet" | "weight" | "powder" | "charge" | "level" | "velocity" | "barrel" | "pressure" | "coal" | "source";
+  type SortKey = "cartridge" | "bullet" | "weight" | "powder" | "charge" | "level" | "velocity" | "barrel" | "pressure" | "coal" | "primer" | "source" | "note";
   const sortValue: Record<SortKey, (r: Row) => string | number | null> = {
     cartridge: (r) => name(r.cartridgeId),
     bullet: (r) => r.bullet,
@@ -279,14 +333,16 @@ export function loadsView(data: AppData): HTMLElement {
     barrel: (r) => r.barrelLengthIn,
     pressure: (r) => r.pressure?.value ?? null,
     coal: (r) => r.coalIn,
+    primer: (r) => [r.primer, r.case].filter(Boolean).join(" / ") || null,
     source: (r) => r.sourceName,
+    note: (r) => r.note ?? null,
   };
 
   function sortRows(rows: Row[]): Row[] {
     const key = st.sortKey as SortKey | "";
     if (!key || !sortValue[key]) {
-      // Default: by cartridge (bullet view), then weight, bullet and velocity, as published.
-      return st.mode === "bullet" ? [...rows].sort((a, b) => name(a.cartridgeId).localeCompare(name(b.cartridgeId)) || a.bulletWeightGr - b.bulletWeightGr) : rows;
+      // Default: across cartridges, by cartridge (library order: diameter, then case capacity), then weight; one cartridge stays as published.
+      return st.mode !== "cartridge" ? [...rows].sort((a, b) => byRank(a.cartridgeId, b.cartridgeId) || a.bulletWeightGr - b.bulletWeightGr) : rows;
     }
     const get = sortValue[key];
     const dir = st.sortDesc ? -1 : 1;
@@ -295,6 +351,7 @@ export function loadsView(data: AppData): HTMLElement {
       const y = get(b);
       if (x == null || x === "") return y == null || y === "" ? 0 : 1; // blanks last either way
       if (y == null || y === "") return -1;
+      if (key === "cartridge") return dir * byRank(a.cartridgeId, b.cartridgeId);
       return dir * (typeof x === "number" && typeof y === "number" ? x - y : String(x).localeCompare(String(y), undefined, { numeric: true }));
     });
   }
@@ -335,15 +392,14 @@ export function loadsView(data: AppData): HTMLElement {
     }
     const { rows, title } = got;
     const full = data.meta.loadRowsFull;
-    const byBullet = st.mode === "bullet";
+    const byBullet = st.mode !== "cartridge"; // show the Cartridge column across cartridges
     const sources = [...new Set(rows.map((r) => r.sourceName))].sort();
     const filtered = sortRows(rows.filter((r) => weightOk(r.bulletWeightGr) && (!st.level || r.level === st.level) && (!st.source || r.sourceName === st.source)));
     const LIMIT = 2000;
     const shown = filtered.slice(0, LIMIT);
     const withNotes = shown.some((r) => r.note);
 
-    const col = (label: string, key: SortKey | null): HTMLElement => {
-      if (!key) return h("th", {}, label);
+    const col = (label: string, key: SortKey): HTMLElement => {
       const active = st.sortKey === key;
       return h(
         "th",
@@ -359,7 +415,7 @@ export function loadsView(data: AppData): HTMLElement {
           },
         },
         label,
-        active ? (st.sortDesc ? " ▼" : " ▲") : "",
+        h("span", { class: active ? "sort-mark" : "sort-mark idle" }, active ? (st.sortDesc ? " ▼" : " ▲") : " ⇅"),
       );
     };
 
@@ -384,7 +440,7 @@ export function loadsView(data: AppData): HTMLElement {
         h(
           "p",
           { class: "hint" },
-          "Click a column heading to sort; click again to reverse, a third time to reset. Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates.",
+          "Click any column heading (⇅) to sort; click again to reverse, a third time to reset. Barrels marked * are the source's test barrel for the cartridge. C after a charge means compressed. ~ before a velocity means approximate or the middle of a reported range; rows without a velocity are shown but not used in estimates.",
         ),
         filtered.length > LIMIT ? h("p", { class: "warn" }, `Showing the first ${LIMIT.toLocaleString()}. Narrow the search or the weight range to see the rest.`) : null,
         h(
@@ -408,9 +464,9 @@ export function loadsView(data: AppData): HTMLElement {
                 col("Barrel", "barrel"),
                 col("Pressure", "pressure"),
                 col("COAL", "coal"),
-                full ? col("Primer / case", null) : null,
+                full ? col("Primer / case", "primer") : null,
                 col("Source", "source"),
-                withNotes ? col("Note", null) : null,
+                withNotes ? col("Note", "note") : null,
               ),
             ),
             h(
