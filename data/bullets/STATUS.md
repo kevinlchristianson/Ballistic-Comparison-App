@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 17:45 UTC
+Last updated: 2026-10-28 17:55 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -21,6 +21,8 @@ The ten wildcats from PR #136 were checked again against their parent pages. Non
 Ten more wildcats cite unique 4D drawings whose titles match the pages. Each Ackley is 40° and wider than the parent drawing: .204 Ruger AI 0.3650 in versus 0.3599 in; .222 Remington AI 0.3600 in versus the PTG parent 0.3583 in; .22-06 AI 0.4550 in versus the .30-06 drawing 0.4410 in; .25-35 AI 0.4095 in versus 0.3642 in; .300 RUM AI 0.5340 in versus 0.5250 in; .338 RUM AI 0.5340 in versus 0.5261 in; 6.5-257 AI 0.4534 in versus .257 Roberts 0.4294 in; 6mm/22-250 AI 0.4540 in versus 0.4147 in; 8x68S AI 0.5100 in versus 0.4780 in. 7mm Mashburn Magnum is 30° and 0.4950 in versus 7mm Remington Magnum 0.4909 in; it is not an Ackley. 219 Zipper Ackley was skipped: the drawing is titled Ackley but the shoulder is 28°. 375 RUM Ackley was skipped: the drawing does not print the shoulder angle or the junction lengths.
 
 Ten more wildcats cite unique 4D drawings whose titles match the pages. Ackley shoulders are 40° and wider than the parent drawing: .222 Remington Magnum AI 0.3600 in versus 0.3571 in; .25 Krag Ackley 0.4500 in versus .30-40 Krag 0.4190 in; .300 Ackley Magnum (H&H) 0.4950 in versus .300 H&H 0.4498 in; .35-348 AI 0.5400 in versus .348 Winchester 0.4851 in; .450-348 AI 0.5350 in versus 0.4851 in; 35 Mauser Wallup 0.4540 in versus 8mm Mauser 0.4310 in; 6.8mm Remington SPC AI 0.4130 in versus 0.4014 in; 6mm-257 Roberts AI 0.4534 in versus 0.4294 in; 7mm-307 Winchester AI 0.4600 in versus .307 Winchester 0.4540 in. .505 Gibbs is 37°45' on its own case, not an Ackley. Skipped: 22-243 AI (shoulder equals .243 Winchester at 0.454 in), 250 Ackley Magnum, 30 Ackley Magnum #2, and 7mm Ackley Magnum (28°), 6mm Krag Long AI (30°), 450 Ackley Magnum (angle and junction lengths not printed), and 270 Gibbs (shoulder equals the .30-06 case drawing at 0.441 in).
+
+Ten more wildcats cite unique 4D drawings whose titles match the pages. .22-6mm AI is 40° and 0.4595 in versus 22/6mm Remington 0.4310 in. .348 Winchester AI is 39°10' and 0.5220 in versus 0.4851 in. .375-348 AI is 40° and 0.5420 in versus 0.4851 in. .243-3000 Improved is 30° and 0.4500 in versus .250 Savage 0.4142 in. .25 Gibbs is 35° and 0.4420 in versus the .30-06 case drawing 0.4410 in. .30 Newton, .35 Newton, and .256 Newton are their own cases at 23°, 23°, and 14°. .300 Whisper is 15°20' on the .221 Fireball head. .219 Donaldson Wasp is 30°. 25-264 Ackley was skipped: its shoulder 0.4870 in is smaller than .264 Winchester Magnum 0.4910 in. 19-223 and 20-223 Ackley were skipped because the bore diameter is ambiguous. The 4D rifle catalog still has uncited wildcat pages.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
