@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 17 Caliber 25 Grain FB Varmint",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-varmint-17cal-25gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "17fireball",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 25,
+      "bulletDescription": "25 FB Varmint",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "4198",
+      "charge": 16,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/17-twist-rates.4088288/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: X Count; Posted: Mar 3, 2023; 25gr Berger hpfb. 9 twist 17fireball. Seating close to the lands shrank groups. He said the charge was pretty tolerant."
+    }
+  ]
+}
