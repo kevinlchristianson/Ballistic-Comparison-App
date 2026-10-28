@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. Each candidate lists the bullet weight, cartridge, powder, charge, and velocity as posted.
 
-The bullet in this pull request is the 6.5 mm 130 gr VLD Target, part 26403 — [#172](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/172).
+The bullet in this pull request is the 6.5 mm 140 gr VLD Target, part 26401 — [#174](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/174).
 
 6 mm 115 gr VLD Target, part 24430, was searched. No charge that named only the target line turned up. The 6mm Dasher thread titled for the target bullet has Berger and Lyman manual numbers and starting advice, not a fired community charge. Untagged 115 VLD charges are in the ambiguous list, with powder, charge, and velocity as posted. No file and no pull request for the target bullet.
 
@@ -72,20 +72,20 @@ Merged community files, with the pull request number:
 - 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170)
 - 6 mm 105 gr VLD Target, part 24429 — [#171](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/171)
 - 6.5 mm 130 gr VLD Target, part 26403 — [#172](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/172)
+- 6.5 mm 140 gr VLD Target, part 26401 — [#174](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/174)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 130 gr file merges, still in VLD Target. The 6 mm 95 gr VLD Target, part 24427, and the 6 mm 115 gr VLD Target, part 24430, were searched and got no file.
+After the 140 gr file merges, still in VLD Target. The 6 mm 95 gr VLD Target, part 24427, and the 6 mm 115 gr VLD Target, part 24430, were searched and got no file.
 
-1. 6.5 mm 140 gr VLD Target, part 26401
-2. 7 mm 168 gr VLD Target, part 28401
-3. 7 mm 180 gr VLD Target, part 28405
-4. 30 cal 168 gr VLD Target, part 30410
-5. 30 cal 175 gr VLD Target, part 30412
-6. 30 cal 185 gr VLD Target, part 30413
-7. 30 cal 210 gr VLD Target, part 30415
+1. 7 mm 168 gr VLD Target, part 28401
+2. 7 mm 180 gr VLD Target, part 28405
+3. 30 cal 168 gr VLD Target, part 30410
+4. 30 cal 175 gr VLD Target, part 30412
+5. 30 cal 185 gr VLD Target, part 30413
+6. 30 cal 210 gr VLD Target, part 30415
 
 After VLD Target: Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -116,7 +116,12 @@ These posts name a bullet weight and do not name the product line, or they name 
 - 6.5 mm 130 VLD, cartridge not named, 3000 fps, no charge, alf, May 1, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
 - 6.5 mm 130 VLD, 6.5x47 context, Varget 39.0 gr at 3000 fps, Yote Hunter, May 2, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
 - 6.5 mm 140 VLD, .260 rem, H4350 42 gr, 0.010 jam, RHux, Jan 31, 2014: [260 Rem 140 gr Berger hunting](https://forum.accurateshooter.com/threads/260-rem-140gr-berger-bld-hunting.3835010/)
-- 6.5 mm 140 VLD, 6.5 Creedmoor, H4350 41.5 gr, untagged berger 140vld: [6.5 creed and H4350](https://forum.accurateshooter.com/threads/6-5-creed-and-h4350.4056660/)
+- 6.5 mm 140 VLD, 6.5 Creedmoor thread, H4350, 41.5 gr, no velocity, JB10, Jan 31, 2022: [6.5 creed and H4350](https://forum.accurateshooter.com/threads/6-5-creed-and-h4350.4056660/)
+- 6.5 mm 140 VLD, 6.5-284 thread, H4831SC, no charge, no velocity, JCinCalif, May 23, 2013: [powders for a 6.5-284](https://forum.accurateshooter.com/threads/what-powders-for-a-6-5-284-140gr-bullets.3815730/)
+- 6.5 mm 140 Berger, no line named, 6.5-284 thread, H4831sc, 52.7 gr, 2915 fps, and Retumbo, 57 gr, no velocity, kwil13, May 24, 2013: [powders for a 6.5-284](https://forum.accurateshooter.com/threads/what-powders-for-a-6-5-284-140gr-bullets.3815730/)
+- 6.5 mm 140 Berger, no line named, 260ai thread, H4831sc, 46.0 gr, 2925 fps, Lapua, CCI 200, 26 in, STOMP442, May 21, 2019: [260ai powder preferences](https://forum.accurateshooter.com/threads/260ai-powder-preferences.3979664/)
+- 6.5 mm 140 VLD, 260AI thread, 4831sc, 48 gr, 2900 fps, seated at 2.990, Fast14riot, Aug 19, 2017: [260AI 140 RDF loads](https://forum.accurateshooter.com/threads/260ai-140rdf-loads.3932647/)
+- 6.5 mm 140 VLD, 260AI thread, 4350, 44.6 gr, 2925 fps, Geno C, Aug 20, 2017: [260AI 140 RDF loads](https://forum.accurateshooter.com/threads/260ai-140rdf-loads.3932647/)
 - 270 cal 140 Berger, no line named, .270 Win, H4831sc 58.2 gr at 2983 fps, 22 in, Higginez, May 28, 2015: [270 Winchester velocity](https://www.24hourcampfire.com/ubbthreads/ubbthreads.php/topics/691182)
 - 270 cal 140 Berger, no line named, 270WSM, Retumbo 71.5, 71, 70.5, 70, and 69.5 gr, loaded and not shot, JustOneMoreShot, May 30, 2014: [Getting the 270WSM ready, page 2](https://rokslide.com/forums/threads/getting-the-270wsm-ready.17913/page-2)
 - 7 mm 168 Berger, no line named, Remington 7mm mag, 68.5 to .69 gr, powder not named, fourpower, May 25, 2016: [7mm Rem Mag range results](https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/)
@@ -183,6 +188,7 @@ These spellings are in the merged Hybrid Target community files and still do not
 - 7mm08
 - .300 Ackley
 - .300 ATLAS
+- 26wssm Imp
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
@@ -257,5 +263,7 @@ The 6 mm 105 gr VLD Target file adds no unmatched name. `6BR` resolves to `6mm-n
 The 6 mm 115 gr VLD Target search adds no unmatched name and no file. No fired charge named only the target line. Searched 6mm Creedmoor, 6 Creed, 6mm Dasher, 6 GT, 6XC, 6-284, 243 Win, 6 BRA, and 6x47 Lapua. Berger and Lyman manual numbers in the Dasher thread are not community loads. Aggie14, Ironworker, STOMP442, MTlager, alf, and kendoka66 are on the ambiguous list with the powder, charge, and velocity as posted. MTlager's 600-yard ladder used hunting and target lots together and gave no separate charge.
 
 The 6.5 mm 130 gr VLD Target file adds no unmatched name. `6.5x47` and `6.5x47L` resolve to `6-5x47-lapua`. KT, Eric Leonard, and BradY named the target line or posted in the thread titled for the 130 gr target VLDs. jpistolero02 named hunting or target in one sentence, so that 40.8 gr H4350 row stays on the ambiguous list. cruiser49's 37.3 gr Reloder 15 does not say Hunting or Target. nhm16, DennisH, rpl6cm, and James EPS did not name a Berger 130 VLD. RED DIRT's Creedmoor thread names part 26403 and has no fired charge. No fired charge that named the target line turned up in 6.5 Creedmoor, 260 Rem, 260 AI, 6.5-284, 6.5 PRC, or 6.5 SAUM. A pasted 6.5 SAUM table of 130 VLD rows is not one poster's load. This file does not edit the 130 gr VLD Hunting source. Yote Hunter's 39.0 gr Varget and alf's no-charge velocities stay on the ambiguous list.
+
+The 6.5 mm 140 gr VLD Target file adds `26wssm Imp`. mikecr's mid node is about 47 gr IMR4350 at about 3025 fps in a 28 in barrel, and he said that velocity is the 140 VLD Target. r0tt3n1 named the 140 gr VLDT in a 6.5 CM at 2877 fps and gave no powder and no charge. Zilla named 140 Berger VLDs in an F-class 6.5-284 at around 3000 fps and gave no powder and no charge. Eagle Six named the 140 VLD Target and the 140 VLD Hunter together and gave no charge. STOMP442 named H4350 with 140 gr Berger VLDs in a 260 AI and gave no charge. JB10, JCinCalif, kwil13, Fast14riot, and Geno C stay on the ambiguous list. No fired charge that named the target line turned up in 6.5 Creedmoor, 260 Rem, 260 AI, 6.5-284, 6.5x47, 6.5 PRC, or 6.5 SAUM. A 6.5 SAUM post named moly 140 VLDs at 3400 fps or more and gave no charge. This file does not edit the 140 gr VLD Hunting, Hybrid Target, or Elite Hunter sources.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
