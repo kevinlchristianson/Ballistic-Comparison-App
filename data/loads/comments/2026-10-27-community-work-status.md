@@ -20,6 +20,8 @@ The Berger OTM Tactical line closes with this pull request — [#205](https://gi
 
 The Berger Varmint line closes with this pull request — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The 20 cal 40 gr BT, part 20304, the 22 cal 40 gr FB, part 22303, the 22 cal 55 gr FB, part 22311, and the 22 cal 60 gr FB, part 22312, were searched and got no file.
 
+The bullets whose product line is blank close with this pull request — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and got no file. Every Berger product line in the catalog is now harvested.
+
 ## In progress
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
@@ -56,7 +58,13 @@ This follow-up adds 4xforfun's 38 - 41.3 gr H4350 ladder to the 6.5 mm 140 gr Lo
 
 The 30 cal 155.5 gr FULLBORE Target, part 30416, is [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240).
 
-The bullet in this pull request is the 30 cal 175 gr Long Range BT Target, part 30420 — [#242](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/242).
+The 30 cal 175 gr Long Range BT Target, part 30420, is [#242](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/242).
+
+375 cal 379 gr ELR Match Solid, part 37379, was searched. No posted powder charge turned up. No file and no pull request. The EnABELR announcement gives 2900 fps from a 30 in barrel and names no powder.
+
+375 cal 407 gr ELR Match Solid, part 37407, was searched. No posted powder charge turned up. No file and no pull request. The same announcement gives 2800 fps from a 30 in barrel and names no powder. Searched 375 CheyTac, 375 EnABELR, 375 Snipetac, and 375 SOB. No 375 H&H or 375 Ruger post named either solid.
+
+The bullet in this pull request is the 30 cal 185 gr Juggernaut Target, part 30418 — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The blank product line group closes with this file.
 
 This pull request clears OMW57's charge on the 6 mm 90 gr BT Target file — [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234). He wrote over 30 grains, a lower bound, so the charge stays null and the note keeps Charge_gr: over 30.
 
@@ -170,20 +178,17 @@ Merged community files, with the pull request number:
 - 6 mm 90 gr BT Target, part 24425 — [#232](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/232), follow-up [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234)
 - 6 mm 108 gr BT Target, part 24431 — [#233](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/233)
 - 6.5 mm 120 gr BT Target, part 26402 — [#235](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/235)
-- 6.5 mm 140 gr Long Range BT Target, part 26409 — [#236](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/236)
+- 6.5 mm 140 gr Long Range BT Target, part 26409 — [#236](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/236), follow-up [#238](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/238)
 - 30 cal 115 gr FB Target, part 30421 — [#237](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/237)
 - 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240)
 - 30 cal 175 gr Long Range BT Target, part 30420 — [#242](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/242)
+- 30 cal 185 gr Juggernaut Target, part 30418 — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 175 gr file merges, still on the bullets whose product line is blank. The 150 gr FB Target search is above. No file.
-
-1. 30 cal 185 gr Juggernaut Target, part 30418
-2. 375 cal 379 gr ELR Match Solid, part 37379
-3. 375 cal 407 gr ELR Match Solid, part 37407
+The bullets whose product line is blank are closed — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and have no file.
 
 ## Ambiguous VLD line candidates
 
@@ -242,6 +247,8 @@ One posted charge names more than one product line. It is not in a community fil
 
 - 6.5 mm 140, Elite Hunter, Hybrid, and Long Range BT named together, 6.5x47, N550, 40 gr, no velocity in this post, JBT47, Sep 23, 2017. His Sep 5 post in the same thread gives 40 gr of Vihtavuori N550 under a 140 Hybrid at 2915 fps from a 28 in barrel, and he calls the Sep 6 Elite Hunter charge the same load. [6.5x47 loads, page 2](https://forum.accurateshooter.com/threads/6-5x47-loads-120-bt-and-135-classic-hunter.3933744/page-2)
 - 30 cal 155.5 Fullbore and 155 gr VLD named together, .308, N140, 43.0 gr, .040 off the lands, no velocity, k80skeet, Dec 23, 2025: [Berger 155s in 30-06](https://forum.accurateshooter.com/threads/berger-155s-in-30-06.4163854/)
+- 30 cal 185, Juggernaut OTM Tactical and Long Range Boattail named together, .308 Palma, Varget, 43.9 gr, no velocity, Wolf small rifle magnum, Lapua Palma, Krieger 30 in, effendude, Jul 4, 2012: [185 BTLR and Juggernaut OTM](https://forum.accurateshooter.com/threads/is-the-berger-185-btlr-target-bullet-same-as-juggernaught-otm-tactical.3790325/)
+- 30 cal 185, Juggernaut with no Target or OTM, .308 gas gun thread, 2000MR 47.5 gr and IMR-4320 44.2 gr, about 2,650-2,660 fps, Tx_Flyboy, May 9, 2026: [155s and H4895 in 308 gas guns](https://forum.accurateshooter.com/threads/155s-and-h4895-in-308-gas-guns.4173086/)
 
 ## Unresolved loads
 
@@ -416,6 +423,8 @@ The 6 mm 90 gr BT Target file adds `6brs`, `6HAGAR`, and `.240 Tomahawk`. `6 BR`
 The 6 mm 108 gr BT Target file adds no unmatched name. `6mm BR` and `6br` resolve to `6mm-norma-br`. spudgun's May 8 post calls the same ladder a 108 Berger target, and the catalog's 108 gr target bullet is this boat tail. Will o's velocity is 2880ish, so it stays null. One Eye Pete's right around 30 gn of Varget is shared with a 107 Sierra, so it is not a 108-only row. Deputy819's 33.6 gr of H4350 is the 108 Elite Hunter. The 6 mm 105 gr BT Target search adds no unmatched name and no file. No fired 105 gr BT Target charge turned up in 6BR, 6BRA, 6 Dasher, 6mm Creedmoor, or 243 Win. No fired 108 gr BT Target charge turned up in 6 Dasher, 6BRA, 6mm Creedmoor, or 243 Win. The ambiguous lists are left unchanged. This file does not edit the 105 gr Hybrid, 105 gr VLD, or 108 gr Elite Hunter sources.
 
 The 6.5 mm 120 gr BT Target file adds no unmatched name. `6.5x47` resolves to `6-5x47-lapua`. Santee116's 37.4 gr showed pressure, so that note says so, and the charge is still the number he fired. CTK's 37 gr has no velocity. His opening post wrote 23' for the barrel, so that length is not stored as inches. His 39 gr and 41 gr of RL 16 are 120 Ballistic Tips, not this Berger. No fired 120 gr BT Target charge turned up in 6.5 Creedmoor, 260 Rem, 6.5 PRC, 6.5-284, or 260 AI. The ambiguous lists are left unchanged. This file does not edit the 135 gr Classic Hunter source.
+
+The 30 cal 185 gr Juggernaut Target file adds no unmatched name. `.308` and `308` resolve to `308-win`. Posts that say 185 BT LR, 185 BTLR, or 185 LRBT are this bullet, part 30418. jbpmidas's ladder is 42.2 to 44.0 gr, so the charge stays null. XTR's 2.9+ OAL stays null. His March 7 charge is 44.1 gr. The same day's ~44 gn is that load's earlier wording. effendude's 43.9 gr names the OTM Tactical and the Long Range Boattail together, so it is on the shared-line list. Tx_Flyboy's Juggernaut charges do not say Target or OTM, so they are on that list too. Laurie's Viht N550 load for the 185 gives 2,800 fps give or take a bit and names no charge. No fired 185 gr Juggernaut Target charge turned up in 30 BR, 30-06, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, or 300 Weatherby. The 40 VLD entries are left unchanged. This file does not edit the 185 gr Juggernaut OTM Tactical source. The blank product line group closes here.
 
 The 30 cal 175 gr Long Range BT Target file adds no unmatched name. `.308` resolves to `308-win`. Laurie's 42.2 to 44 gr steps all shot, and 43.8 gr is the sweet spot, so the charge stored is 43.8. barefooter56 pasted Berger start and max numbers, which are not a fired load. M95M was thinking about 43 gr of Varget and 41 gr of RL-15 and had not fired them. seymour fish and GermanS1 named the 175 and gave no charge. dreever's 43.3 gr of Varget is the 175 OTM. AllanR21's 43 gr of Varget is 175 VLDs. No fired 175 gr Long Range BT charge turned up in 30 BR, 30-06, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, or 300 Weatherby. This file does not edit the 175 gr OTM Tactical source.
 
