@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 17:20 UTC
+Last updated: 2026-10-28 17:40 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -17,6 +17,8 @@ A 4D drawing is used only when its printed title names that cartridge, the geome
 Eleven library profiles were put back on PTG because the 4D gallery image is also on another reamer page: .222 Remington, .260 Remington, .30-06 Springfield, .300 PRC, .300 Winchester Magnum, .308 Winchester, 6.5-284 Norma, 6.5 PRC, 6.5x55 Swedish, 7mm PRC, and 7x64 Brenneke. Twenty-four library cartridges still cite a unique 4D drawing.
 
 The ten wildcats from PR #136 were checked again against their parent pages. None were removed. Each gallery image URL is unique. Printed titles match the pages. Ackley shoulders are 40° and wider than the parent drawing: 6x47 Lapua AI 0.4570 in versus 6x47 Lapua 0.455 in and 6.5x47 Lapua 0.4563 in; 6.5x55 AI 0.4500 in versus 0.4350 in; .270 Winchester AI 0.4540 in versus 0.4410 in; .338 Lapua AI 0.5720 in versus 0.5440 in; .375 H&H AI 0.4960 in versus 0.4478 in; 8mm-06 AI 0.4540 in versus 0.4410 in. The parent pages are 15° to 30°, not 40°. .218 Mashburn Bee is 35° and wider than .218 Bee; it is not an Ackley.
+
+Ten more wildcats cite unique 4D drawings whose titles match the pages. Each Ackley is 40° and wider than the parent drawing: .204 Ruger AI 0.3650 in versus 0.3599 in; .222 Remington AI 0.3600 in versus the PTG parent 0.3583 in; .22-06 AI 0.4550 in versus the .30-06 drawing 0.4410 in; .25-35 AI 0.4095 in versus 0.3642 in; .300 RUM AI 0.5340 in versus 0.5250 in; .338 RUM AI 0.5340 in versus 0.5261 in; 6.5-257 AI 0.4534 in versus .257 Roberts 0.4294 in; 6mm/22-250 AI 0.4540 in versus 0.4147 in; 8x68S AI 0.5100 in versus 0.4780 in. 7mm Mashburn Magnum is 30° and 0.4950 in versus 7mm Remington Magnum 0.4909 in; it is not an Ackley. 219 Zipper Ackley was skipped: the drawing is titled Ackley but the shoulder is 28°. 375 RUM Ackley was skipped: the drawing does not print the shoulder angle or the junction lengths.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
 
