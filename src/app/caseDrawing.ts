@@ -7,7 +7,7 @@ import { halfOutline, type CaseProfile } from "../lib/caseProfile.ts";
 
 const NS = "http://www.w3.org/2000/svg";
 
-function el<K extends keyof SVGElementTagNameMap>(tag: K, attrs: Record<string, string | number>, ...children: (SVGElement | string)[]): SVGElementTagNameMap[K] {
+export function el<K extends keyof SVGElementTagNameMap>(tag: K, attrs: Record<string, string | number>, ...children: (SVGElement | string)[]): SVGElementTagNameMap[K] {
   const e = document.createElementNS(NS, tag);
   for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, String(v));
   for (const c of children) e.append(c);
@@ -30,14 +30,14 @@ export interface DrawOptions {
   title?: string;
 }
 
-const fmt = (n: number) => Math.round(n * 100) / 100;
+export const fmt = (n: number) => Math.round(n * 100) / 100;
 
 /** Path for one side of a segment; side is +1 (right) or -1 (left). */
-function sidePath(points: [number, number][], X: (r: number) => number, Y: (x: number) => number): string {
+export function sidePath(points: [number, number][], X: (r: number) => number, Y: (x: number) => number): string {
   return points.map(([x, r], i) => `${i ? "L" : "M"}${fmt(X(r))} ${fmt(Y(x))}`).join(" ");
 }
 
-function frame(o: DrawOptions) {
+export function frame(o: DrawOptions) {
   const pad = o.pad ?? 6;
   const W = o.widthIn * o.pxPerIn + 2 * pad;
   const H = o.heightIn * o.pxPerIn + 2 * pad;

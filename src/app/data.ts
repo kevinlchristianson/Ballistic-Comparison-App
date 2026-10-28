@@ -34,6 +34,9 @@ export interface SiteBullet {
   boattailLengthIn: number | null;
   baseToOgiveIn: number | null;
   noseLengthIn: number | null;
+  /** Published ogive family and meplat Ø, for the bullet drawings. Absent on older data. */
+  ogiveType?: "tangent" | "secant" | "hybrid" | null;
+  meplatIn?: number | null;
   twistIn: number | null;
   construction: string[];
   intendedUse: string[];

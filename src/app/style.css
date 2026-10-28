@@ -235,3 +235,11 @@ table.data th.sortable:hover .sort-mark.idle { opacity: 0.8; }
 .line-key.est { border-top: 2px dashed var(--warn); }
 .line-key.coal { border-top: 1px dashed var(--muted); }
 table.data.case-table td, table.data.case-table thead th { text-align: left; min-width: 120px; max-width: 200px; white-space: normal; }
+/* Bullet drawings (views/bulletDrawings.ts) */
+:root { --copper: #d39a6a; --copper-line: #7a3f17; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --copper: #8d5a35; --copper-line: #f2c39c; } }
+:root[data-theme="dark"] { --copper: #8d5a35; --copper-line: #f2c39c; }
+.bullet-svg .case-fill { fill: var(--copper); }
+.bullet-svg .case-lines path { stroke: var(--copper-line); }
+.bullet-svg .ogive-mark { stroke: var(--muted); stroke-width: 1; }
+.bullet-grid { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
