@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-28 evening, after the Case drawings tab (see below); earlier, PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-10-28 night, after the neck-Ø check in the Case drawings tab (see below); earlier, PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -77,6 +77,11 @@ Open requests:
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-10-28, night)
+
+1. **The Case drawings tab no longer draws a printed neck Ø that can't fit the bullet.** A neck must be 0.015–0.045 in over the bullet Ø (two walls, plus chamber clearance on a PTG print). Across the library's printed profiles the middle 90% falls between 0.022 and 0.037. A neck outside that range is replaced by an estimate marked ≈ (bullet Ø plus the parent case's neck allowance). The printed lengths and other diameters are still used. The capacity estimator is unchanged.
+2. **Please re-check these `neckDiameter` values against their prints** (bullets bot, `data/cartridges/bots/bullets.json`): `223-300-wsm` (0.272 for a .224 bullet), `243-wssm-ai` (0.048 over the bullet), `375-cheytac`, `25-rpm` and `338-300-wsm` (each within 0.001 of the bullet Ø, so probably the bullet or groove Ø copied into the neck field), `35-284` (0.011 over) and `425-express` (0.013 over). Fix them or say in a comment file that the print really shows them.
 
 ## What changed on the project side (2026-10-28, evening)
 
