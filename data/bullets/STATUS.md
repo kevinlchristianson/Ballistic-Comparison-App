@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 19:40 UTC
+Last updated: 2026-10-28 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -57,6 +57,8 @@ The Case drawings tab draws every case from the five profile fields plus rim dia
 Ten more library cartridges cite unique 4D case drawings and fill only empty fields. .218 Bee is 15° and 0.3324 in. .25 Creedmoor is 30° and 0.4620 in. .26 Nosler and .28 Nosler are 35° and 0.5275 in on the same head, with different necks. .30 Remington AR is 25° and 0.4885 in. .30 Thompson Center is 30° and 0.4640 in. .32 Winchester Special is 14°31' and 0.4014 in, rim 0.5060 in. .308 Marlin Express is 20° and 0.4540 in. .338 Marlin Express is 25° and 0.4930 in. 9.3x74R is 5°15' and 0.4090 in, with the page form 9.3mm X 74R kept as the alias. 375 Winchester is a straight case with no shoulder. 325 WSM's junction lengths do not agree with the printed 35°5' shoulder.
 
 Fifteen older wildcats still cite PTG. Four library cartridges stay on PTG because their 4D page is not a usable cartridge drawing: .25-06 Remington (only 25-06 Niedner), 277 SIG Fury (no dimension drawing), 6.8 Western (image labeled SAAMI Case), and 6mm ARC (image labeled C.I.P. Standard Case). `.25 Nosler` stays without a profile.
+
+Ten more library cartridges cite unique 4D case drawings and fill only empty fields. Each neck is 0.022–0.036 in over the bullet, and the shoulder length matches the printed angle. 22 ARC is 30°15' and 0.4315 in. .30 BR is 30° and 0.4598 in. .338 Norma Magnum (the non-belted page) is 20°30' and 0.5709 in. .338 Remington Ultra Magnum is 30° and 0.5261 in. 370 Sako Magnum, drawn as 9.3x66mm Sako, is 17°30' and 0.4500 in. 6.5 SAUM, drawn as 6.5/300 RSAUM, keeps the 300 RSAUM shoulder, 0.5347 in at 30°. 6 BRX is 30° and 0.4580 in. 6 BRA is 40° and 0.4620 in versus the 6mm BR drawing 0.4600 in. 7mm-08 Ackley Improved is 40° and 0.4600 in versus the PTG .308 Winchester chamber shoulder 0.4551 in. 7mm Remington Short Action Ultra Magnum keeps that same 300 RSAUM shoulder at 30°. 458 Winchester Magnum is a straight belted case with no shoulder. About 109 library cartridges are still partly estimated.
 
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
 
