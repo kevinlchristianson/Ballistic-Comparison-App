@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 144,
+  "cartridgeCount": 154,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -738,6 +738,37 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .240 bore, 0.243 in; no groove is printed. Neck 0.2790 in at the shoulder junction; mouth 0.2780 in. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. Shoulder is printed 35 deg. This is not an Ackley. 4D Case Cap. 71.29 gr (printed figure, not stored as water)."
     },
     {
+      "id": "243-250",
+      "name": "243-250",
+      "kind": "wildcat",
+      "aliases": [
+        "6mm-250"
+      ],
+      "parentCase": ".22-250 Remington",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.912,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4697,
+      "shoulderDiameter": 0.4142,
+      "neckDiameter": 0.276,
+      "lengthToShoulder": 1.5148,
+      "lengthToNeck": 1.6447,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 28.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6mm22-250/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .243 bore, 0.243 in; no groove is printed. Neck 0.2760 in at the mouth and the shoulder junction. Body diameter printed at 0.1270 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 45.22 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "243-3000-imp",
       "name": ".243-3000 Improved",
       "kind": "wildcat",
@@ -827,6 +858,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .243 bore, 0.243 in; no groove is printed. Neck 0.2750 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. Shoulder is printed 34 deg 50 min. This is not an Ackley. 4D Case Cap. 70.27 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "243-rockchucker",
+      "name": ".243 Rockchucker",
+      "kind": "wildcat",
+      "aliases": [
+        "243 Rockchucker"
+      ],
+      "parentCase": ".308 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.218,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.471,
+      "shoulderDiameter": 0.434,
+      "neckDiameter": 0.277,
+      "lengthToShoulder": 1.736,
+      "lengthToNeck": 1.861,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 32.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/243-rock-chucker/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .243 bore, 0.243 in; no groove is printed. Neck 0.2770 in at the shoulder junction; mouth 0.2760 in. Body diameter printed at 0.1640 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 56.48 gr (printed figure, not stored as water)."
     },
     {
       "id": "243-super-rockchucker",
@@ -1859,6 +1921,37 @@
       "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3440 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1395 in from the head. Rim thickness 0.0500 in is printed and has no field. 4D Case Cap. 80.42 gr (printed figure, not stored as water)."
     },
     {
+      "id": "303-savage",
+      "name": ".303 Savage",
+      "kind": "wildcat",
+      "aliases": [
+        "303 Savage"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.505,
+      "neckLength": null,
+      "baseDiameter": 0.442,
+      "shoulderDiameter": 0.4135,
+      "neckDiameter": 0.341,
+      "lengthToShoulder": 1.3509,
+      "lengthToNeck": 1.4774,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 16.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/303-savage/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .303 Savage bore, 0.308 in; no groove is printed. Neck 0.3410 in at the shoulder junction; mouth 0.3322 in. Body diameter 0.4420 in. Rim thickness 0.0630 in has no field. 4D Case Cap. 44.27 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "308-ai",
       "name": ".308 Ackley Improved",
       "kind": "wildcat",
@@ -1888,6 +1981,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-11016. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
+      "id": "308-norma-mag",
+      "name": ".308 Norma Magnum",
+      "kind": "wildcat",
+      "aliases": [
+        "308 Norma Magnum"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.559,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.532,
+      "neckLength": null,
+      "baseDiameter": 0.513,
+      "shoulderDiameter": 0.49,
+      "neckDiameter": 0.34,
+      "lengthToShoulder": 2.084,
+      "lengthToNeck": 2.241,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.5,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/308-norma-magnum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .308 bore, 0.308 in; no groove is printed. Neck 0.3400 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2190 in from the head, ahead of the belt. Belt 0.5320 in at 0.1260 in has no field. Rim thickness 0.0490 in has no field. Shoulder is printed 25 deg 30 min. 4D Case Cap. 80.97 gr (printed figure, not stored as water)."
     },
     {
       "id": "308-win",
@@ -2566,6 +2690,37 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .358 bore, 0.358 in; no groove is printed. Neck 0.3820 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2300 in from the head, ahead of the belt. Belt 0.5320 in at 0.1380 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 106.19 gr (printed figure, not stored as water)."
     },
     {
+      "id": "358-yukon",
+      "name": ".358 Yukon",
+      "kind": "wildcat",
+      "aliases": [
+        "358 Yukon"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.358,
+      "caseLength": 2.56,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.534,
+      "neckDiameter": 0.391,
+      "lengthToShoulder": 2.099,
+      "lengthToNeck": 2.2198,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/358-yukon/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .358 bore, 0.358 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 101.20 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "375-348-ai",
       "name": ".375-348 Ackley Improved",
       "kind": "wildcat",
@@ -2626,6 +2781,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .375 bore, 0.375 in; no groove is printed. Neck 0.4030 in at the mouth and the shoulder junction. Body diameter 0.5530 in. Rim thickness 0.0700 in has no field. Shoulder is printed 25 deg. This is not an Ackley. 4D Case Cap. 86.47 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "375-444",
+      "name": ".375/444 Marlin",
+      "kind": "wildcat",
+      "aliases": [
+        "375/444 Marlin"
+      ],
+      "parentCase": ".444 Marlin",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 2.19,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.514,
+      "neckLength": null,
+      "baseDiameter": 0.4706,
+      "shoulderDiameter": 0.459,
+      "neckDiameter": 0.4,
+      "lengthToShoulder": 1.737,
+      "lengthToNeck": 1.8165,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/375-444-marlin/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .375 bore, 0.375 in; no groove is printed. Neck 0.4000 in at the mouth and the shoulder junction. Body diameter printed at 0.0983 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 63.13 gr (printed figure, not stored as water)."
     },
     {
       "id": "375-dakota",
@@ -3389,6 +3575,37 @@
       "note": "Chamber reamer drawing BOP-10781. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
+      "id": "6-5x68",
+      "name": "6.5x68mm Schuler",
+      "kind": "wildcat",
+      "aliases": [
+        "6.5x68 Schuler"
+      ],
+      "parentCase": "8x68S",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.6575,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.512,
+      "neckLength": null,
+      "baseDiameter": 0.5236,
+      "shoulderDiameter": 0.4795,
+      "neckDiameter": 0.2992,
+      "lengthToShoulder": 2.0374,
+      "lengthToNeck": 2.382,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 15.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-x-68-s/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 6.5 bore, 0.264 in; no groove is printed. Neck 0.2992 in at the mouth and the shoulder junction. Body diameter printed at 0.1378 in from the head. Rim thickness 0.0551 in has no field. Rim is smaller than the body. 4D Case Cap. 81.55 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "6-8-spc-ai",
       "name": "6.8mm Remington SPC Ackley Improved",
       "kind": "wildcat",
@@ -3605,12 +3822,10 @@
     },
     {
       "id": "6mm-350-rem-mag",
-      "name": "6mm/350 Remington Magnum",
+      "name": "6mm/350 Rem Mag",
       "kind": "wildcat",
-      "aliases": [
-        "6mm/6.5 Rem Mag"
-      ],
-      "parentCase": "6.5mm Remington Magnum",
+      "aliases": [],
+      "parentCase": ".350 Remington Magnum",
       "lengthUnit": "in",
       "bulletDiameter": 0.243,
       "caseLength": 2.17,
@@ -3632,7 +3847,36 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/6mm-350-remington-magnum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck 0.2760 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1280 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 68.04 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Title is 6mm/350 Rem Mag. Case length 2.1700 in matches the .350 Remington Magnum drawing. Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck 0.2760 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1280 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 68.04 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "6mm-65-rem-mag",
+      "name": "6mm/6.5 Rem Mag",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "6.5mm Remington Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.17,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.532,
+      "neckLength": null,
+      "baseDiameter": 0.513,
+      "shoulderDiameter": 0.494,
+      "neckDiameter": 0.277,
+      "lengthToShoulder": 1.7,
+      "lengthToNeck": 1.93,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6mm6-5-remington-magnum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck 0.2770 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1280 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 68.06 gr (printed figure, not stored as water)."
     },
     {
       "id": "6mm-arc",
@@ -4270,6 +4514,37 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3680 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 35 deg 5 min. Rim is smaller than the body. 4D Case Cap. 80.95 gr (printed figure, not stored as water)."
     },
     {
+      "id": "8mm-rum",
+      "name": "8mm Remington Ultra Magnum",
+      "kind": "wildcat",
+      "aliases": [
+        "8mm RUM"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.323,
+      "caseLength": 2.85,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.525,
+      "neckDiameter": 0.354,
+      "lengthToShoulder": 2.3873,
+      "lengthToNeck": 2.571,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm-remington-ultra-magnum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3540 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 111.12 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "8x57-ai",
       "name": "8mm Mauser Ackley Improved",
       "kind": "wildcat",
@@ -4359,6 +4634,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 8mm bore, 0.323 in; no groove is printed. Neck 0.3600 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0550 in has no field. 4D Case Cap. 92.29 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "9-3x57",
+      "name": "9.3x57mm Mauser",
+      "kind": "wildcat",
+      "aliases": [
+        "9.3x57 Mauser"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.366,
+      "caseLength": 2.235,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.47,
+      "shoulderDiameter": 0.431,
+      "neckDiameter": 0.391,
+      "lengthToShoulder": 1.819,
+      "lengthToNeck": 1.883,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 17.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-57-mauser/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 62.21 gr (printed figure, not stored as water)."
     },
     {
       "id": "9-3x62",
