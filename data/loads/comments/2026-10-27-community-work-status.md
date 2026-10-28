@@ -28,7 +28,7 @@ Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Com
 
 Lefty Trigger's 30.0 gr and 30.3 gr of N135 are in the 6 mm 80 gr FB Varmint follow-up — [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219).
 
-The bullet in this pull request is the 22 cal 55 gr FB Target, part 22410. A 55 gr flat base that does not say Target stays out of this file. afret's around 24 grains of AR Comp stays on the Varmint or Target list.
+The bullet in this pull request is the 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221). A 55 gr flat base that does not say Target stays out of this file. afret's around 24 grains of AR Comp stays on the Varmint or Target list.
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -127,7 +127,7 @@ Merged community files, with the pull request number:
 - 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215), follow-up [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219)
 - 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
 - 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
-- 22 cal 55 gr FB Target, part 22410
+- 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
