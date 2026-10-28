@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 37,
-  "aliasCount": 17,
+  "aliasCount": 20,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -419,7 +419,7 @@
       "neckLength": null,
       "baseDiameter": 0.5563,
       "shoulderDiameter": 0.5395,
-      "neckDiameter": 0.339,
+      "neckDiameter": 0.373,
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": null,
@@ -431,7 +431,7 @@
         "url": "https://www.pacifictoolandgauge.com/338--300-Winchester-Short-Magnum-WSM-Chamber-Reamer_p_116449.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .3380, BASIC BRASS 300 WSM, and 35 degrees. Body .5563, shoulder .5395, neck .3390. Head diameter at the bolt face is 0.5586; rim type is not labeled. Hammer prints Case length 2.090\" and COAL Max 2.860\". https://docs.google.com/spreadsheets/d/1DIGwc1-FcANj915CP212IHQFkgW6f0dZUlh9uckt7co/edit?usp=sharing"
+      "note": "PTG print labels GROOVE SIZE .3380, BASIC BRASS 300 WSM, and 35 degrees. Body .5563, shoulder .5395, neck .3730. .3390 is forward of the neck and is not stored. Head diameter at the bolt face is 0.5586; rim type is not labeled. Hammer prints Case length 2.090\" and COAL Max 2.860\". https://docs.google.com/spreadsheets/d/1DIGwc1-FcANj915CP212IHQFkgW6f0dZUlh9uckt7co/edit?usp=sharing"
     },
     {
       "id": "22-gt",
@@ -477,7 +477,7 @@
       "neckLength": null,
       "baseDiameter": 0.501,
       "shoulderDiameter": 0.479,
-      "neckDiameter": 0.2576,
+      "neckDiameter": 0.291,
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": null,
@@ -489,7 +489,7 @@
         "url": "https://www.pacifictoolandgauge.com/25-Weatherby-Rebated-Precision-Magnum-RPM-SAAMI-Chamber-Reamer_p_120561.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2576. The title prints REBATED. Bolt-face rim diameter is (0.5037). A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0"
+      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2910. .2576 is forward of the neck and is not stored. The title prints REBATED. Bolt-face rim diameter is (0.5037). A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0"
     },
     {
       "id": "25-prc",
@@ -1001,7 +1001,7 @@
       "neckLength": null,
       "baseDiameter": 0.6418,
       "shoulderDiameter": 0.6055,
-      "neckDiameter": 0.3755,
+      "neckDiameter": 0.407,
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": null,
@@ -1013,7 +1013,7 @@
         "url": "https://www.pacifictoolandgauge.com/375-CheyTac-Match-95x77-Finish-Chamber-Reamer_p_118989.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print 83693 labels Groove Size 0.375, Basic Brass 375 CT, and 22 degrees. Body .6418, shoulder .6055, neck .3755. Hammer case-data prints Case 3.028\". The CIP COAL cell is not stored. https://docs.google.com/spreadsheets/d/1jf5DHARupdYExb_w4QKep-y4aRfRueungfFVquWlU5M/edit?usp=sharing"
+      "note": "PTG print 83693 labels Groove Size 0.375, Basic Brass 375 CT, and 22 degrees. Body .6418, shoulder .6055, neck .407. .3755 is forward of the neck and is not stored. Hammer case-data prints Case 3.028\". The CIP COAL cell is not stored. https://docs.google.com/spreadsheets/d/1jf5DHARupdYExb_w4QKep-y4aRfRueungfFVquWlU5M/edit?usp=sharing"
     }
   ],
   "aliases": [
@@ -1167,6 +1167,33 @@
       "source": {
         "name": "Kevin's 6 mm 108 gr Elite Hunter notes",
         "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-kevin-6mm-108-eh-notes.csv",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "338 Edges",
+      "source": {
+        "name": "Long Range Only, 338 Edge loads",
+        "url": "https://www.longrangeonly.com/forum/threads/338-edge-loads.8122/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "Standard edge",
+      "source": {
+        "name": "Long Range Only, 338 Edge loads",
+        "url": "https://www.longrangeonly.com/forum/threads/338-edge-loads.8122/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "Edge",
+      "source": {
+        "name": "Long Range Only, N570 in a standard 338 Edge",
+        "url": "https://www.longrangeonly.com/forum/threads/n570-in-standard-338-edge.1021/",
         "retrievedOn": "2026-10-28"
       }
     }
