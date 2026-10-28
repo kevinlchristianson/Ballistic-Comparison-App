@@ -12,7 +12,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 The Berger VLD Hunting line is complete. The last new hunting bullet was the 30 cal 210 gr VLD Hunting, part 30515 — [#160](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/160). Later follow-ups added hunting rows that the match-or-hunt rule resolved.
 
-The Berger VLD Target line closes with this pull request. The 6 mm 95 gr, part 24427, the 7 mm 180 gr, part 28405, and the 30 cal 168, 175, 185, and 210 gr VLD Target bullets were searched and got no file. No match-context charge turned up for those four 30 cal bullets in .308, 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby.
+The Berger VLD Target line closes with this pull request — [#181](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/181). The 6 mm 95 gr, part 24427, the 7 mm 180 gr, part 28405, and the 30 cal 168, 175, 185, and 210 gr VLD Target bullets were searched and got no file. No match-context charge turned up for those four 30 cal bullets in .308, 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby.
 
 ## In progress
 
@@ -63,8 +63,8 @@ Merged community files, with the pull request number:
 - 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148), follow-up [#178](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/178)
 - 7 mm 180 gr VLD Hunting, part 28502 — [#150](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/150), follow-up [#180](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/180)
 - 30 cal 155 gr VLD Hunting, part 30508 — [#152](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/152)
-- 30 cal 168 gr VLD Hunting, part 30510 — [#153](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/153), follow-up in this pull request
-- 30 cal 175 gr VLD Hunting, part 30512 — [#155](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/155), follow-up in this pull request
+- 30 cal 168 gr VLD Hunting, part 30510 — [#153](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/153), follow-up [#181](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/181)
+- 30 cal 175 gr VLD Hunting, part 30512 — [#155](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/155), follow-up [#181](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/181)
 - 30 cal 185 gr VLD Hunting, part 30513 — [#156](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/156)
 - 30 cal 190 gr VLD Hunting, part 30514 — [#159](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/159)
 - 30 cal 210 gr VLD Hunting, part 30515 — [#160](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/160)
