@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 14:26 UTC
+Last updated: 2026-10-28 15:10 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-No load harvest is running. Published water capacities were searched for the bot cartridges that were still null. Estimates stay with the bullet bot.
+Adding unmatched Hammer and community cartridge names from Pacific Tool & Gauge reamer prints and Hammer case-data. No Z299.4 or C.I.P. drawings are copied. 25 Nosler, 6x6.8 SPC, and 6 WOA are left to the other files. Estimates stay with the bullet bot.
 
 ## Case capacity
 

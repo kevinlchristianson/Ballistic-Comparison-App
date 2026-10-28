@@ -287,6 +287,14 @@ Handgun names stay unmatched. Rifle names still unmatched include 22 GT, 6 x 45m
 
 `.338 Norma Magnum` was added on 2026-10-27 from the metric-origin drawing in ANSI/SAAMI Z299.4-2025. The two community rows under that name now resolve. The spelling `338 norma` stays unmatched.
 
+On 2026-10-28, Pacific Tool & Gauge reamer prints and Hammer `case-data.csv` were used for unmatched load names. Z299.4 and C.I.P. drawings were not copied. `25 Nosler` already resolves to library `25-nosler`, so no record was added. `6x6.8 SPC` and `6 WOA` are skipped until the bullet bot's records are on main.
+
+Added from a PTG print (groove size and shoulder) plus Hammer's labeled case length: 7mm Backcountry (groove .2840, case 2.496 in, COAL 3.340 in), 338/300 WSM (groove .3380, case 2.090 in, COAL 2.860 in), 22 GT (groove .224, case 1.740 in, 44.8 gr H2O), 25 RPM (groove .2570, case 2.570 in, COAL 3.340 in). Added from Hammer rows that print a thousandths diameter: 25 PRC, 6.5mm BR, 6mm TCU, 6x45mm, 7mm TCU, 8mm-06, 375 Raptor. Aliases: `7.62x39 (.308)` to `7-62x39`, `7mm RSAUM` to `7mm-saum`.
+
+`300 SAM` stays unmatched. Sam Hall's forum post says it is a 300 RSAUM case with a 40 degree shoulder and does not print case length or bullet diameter. The reamer image on that thread was not used.
+
+Names still without a print that shows bullet diameter and case length stay unmatched, including 223 Wylde, 5.56 NATO, 7mm BR Remington, 6.5x54 Mann.-Scho., 358 Norma Mag., 6.5 TCU, 6.5 BeanMore, 22-6mm (Rem), 6.5 Gibbs, 22 Cheetah Mark II, 8.6 Blackout, 375 Socom, 20 BR, 7mm SAUM AI, the 7-300 WSM spellings, and Straight 284.
+
 The community bot's unmatched names were checked on 2026-10-27 against the library after PR #70. No new cartridge was added. A name was added only when a maker, brass, or reamer page printed its dimensions, and none of the still-unmatched names had that page.
 
 Already resolve, so they were not added again: `28N` to `28-nosler` (1 community row). `260 AI` and `260AI` to `260-ai` (3 community rows). The library's `.260 Ackley Improved` lengths are copied from `.260 Remington`, and the 40° shoulder is the Ackley convention. No improved reamer print was substituted. `25CM` resolves to `25-creedmoor`.
