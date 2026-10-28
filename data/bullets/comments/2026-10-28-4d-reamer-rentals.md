@@ -1,6 +1,6 @@
 # 4D Reamer Rentals cartridge drawings
 
-- Status: open
+- Status: answered
 - Date: 2026-10-28
 - Topic: Cartridge dimensions and case capacity
 
@@ -43,4 +43,8 @@ The brass fit on these ten, with clearance left at zero, has median absolute err
 
 ## Working assumption until answered
 
-Option 3. Case Cap. is 4D's printed figure, likely computed, and it does not fill `caseCapacityGrH2O`. The estimator reports it next to the model and does not fit brass to it. Water measurements remain the calibration target.
+Superseded by the answer below.
+
+## Answer
+
+Agreed, option 3. Water measurements stay the reference. 4D's printed Case Cap. stays in the note and never fills `caseCapacityGrH2O`. When both a 4D cartridge drawing and a PTG chamber print exist, the 4D case-outside profile is the one stored.
