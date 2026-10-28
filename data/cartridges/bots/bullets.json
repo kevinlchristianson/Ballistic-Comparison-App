@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 13,
+  "cartridgeCount": 19,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -35,6 +35,35 @@
       "note": "Chamber reamer drawing PTG-10896. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
     },
     {
+      "id": "222-rem",
+      "name": ".222 Remington",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.7,
+      "trimLength": null,
+      "maxCoal": 2.13,
+      "rimDiameter": 0.3804,
+      "neckLength": null,
+      "baseDiameter": 0.3769,
+      "shoulderDiameter": 0.3583,
+      "neckDiameter": 0.255,
+      "lengthToShoulder": 1.2603,
+      "lengthToNeck": 1.3819,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 23.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/222-Remington-SAAMI-Chamber-Reamer_p_114329.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10904. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
       "id": "223-rem",
       "name": ".223 Remington",
       "kind": "saami",
@@ -62,6 +91,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10907. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
+    },
+    {
+      "id": "224-valkyrie",
+      "name": ".224 Valkyrie",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": "6.8 Remington SPC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.6,
+      "trimLength": null,
+      "maxCoal": 2.26,
+      "rimDiameter": 0.4255,
+      "neckLength": null,
+      "baseDiameter": 0.422,
+      "shoulderDiameter": 0.4045,
+      "neckDiameter": 0.258,
+      "lengthToShoulder": 1.1991,
+      "lengthToNeck": 1.326,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/224-Valkyrie-SAAMI-Chamber-Reamer_p_114335.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10912. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "243-ai",
@@ -151,6 +209,35 @@
       "note": "Chamber reamer drawing BOP-10945. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
     },
     {
+      "id": "264-win-mag",
+      "name": ".264 Winchester Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".375 H&H Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.5,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.514,
+      "shoulderDiameter": 0.492,
+      "neckDiameter": 0.3016,
+      "lengthToShoulder": 1.8281,
+      "lengthToNeck": 2.0323,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/264-Winchester-Magnum-SAAMI-Chamber-Reamer_p_114505.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10947. The belt diameter .5350 was not stored. baseDiameter is the body just forward of the belt. Axial lengths are from the belt datum, not the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
       "id": "270-win",
       "name": ".270 Winchester",
       "kind": "saami",
@@ -178,6 +265,64 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10952. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
+    },
+    {
+      "id": "280-rem",
+      "name": ".280 Remington",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".30-06 Springfield",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.54,
+      "trimLength": null,
+      "maxCoal": 3.33,
+      "rimDiameter": 0.4747,
+      "neckLength": null,
+      "baseDiameter": 0.4714,
+      "shoulderDiameter": 0.442,
+      "neckDiameter": 0.3176,
+      "lengthToShoulder": 1.9921,
+      "lengthToNeck": 2.1924,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 17.25,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/280-Remington-SAAMI-Chamber-Reamer_p_114429.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10960. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
+      "id": "284-win",
+      "name": ".284 Winchester",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.17,
+      "trimLength": null,
+      "maxCoal": 2.8,
+      "rimDiameter": 0.5042,
+      "neckLength": null,
+      "baseDiameter": 0.501,
+      "shoulderDiameter": 0.4759,
+      "neckDiameter": 0.323,
+      "lengthToShoulder": 1.7701,
+      "lengthToNeck": 1.8793,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/284-Winchester-SAAMI-Chamber-Reamer_p_114430.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10961. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "30-06",
@@ -235,7 +380,7 @@
         "url": "https://www.pacifictoolandgauge.com/300-Winchester-Magnum-SAAMI-Chamber-Reamer_p_114508.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing BOP-10999. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
+      "note": "Chamber reamer drawing BOP-10999. Diameters and lengths are the printed chamber figures. The belt diameter .5350 was not stored. baseDiameter .5140 is the body just forward of the belt. Axial lengths are from the belt datum, not the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "300-wsm",
@@ -352,6 +497,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10766. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
+    },
+    {
+      "id": "6-5x55-swedish",
+      "name": "6.5x55mm Swedish",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.165,
+      "trimLength": null,
+      "maxCoal": 2.955,
+      "rimDiameter": 0.4851,
+      "neckLength": null,
+      "baseDiameter": 0.4794,
+      "shoulderDiameter": 0.4362,
+      "neckDiameter": 0.3012,
+      "lengthToShoulder": 1.7071,
+      "lengthToNeck": 1.8518,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65-x-55-Swedish-SAAMI-Chamber-Reamer_p_114374.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10781. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
       "id": "6mm-creedmoor",

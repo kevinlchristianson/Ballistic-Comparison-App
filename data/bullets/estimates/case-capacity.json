@@ -437,10 +437,10 @@
       ]
     },
     "printedProfile": {
-      "n": 12,
+      "n": 18,
       "medianAbsErrorGr": 0.66,
-      "worstAbsErrorGr": 9.29,
-      "worstCartridgeId": "300-win-mag",
+      "worstAbsErrorGr": 3.63,
+      "worstCartridgeId": "300-wsm",
       "bodyClearanceOnDiameterIn": 0.006,
       "neckClearanceOnDiameterIn": 0.004,
       "neckWallIn": 0.016,
@@ -448,10 +448,6 @@
       "bodyWallAtBaseIn": 0.03,
       "webIn": 0.18,
       "residuals": [
-        {
-          "cartridgeId": "300-win-mag",
-          "errorGr": -9.29
-        },
         {
           "cartridgeId": "300-wsm",
           "errorGr": 3.63
@@ -461,12 +457,28 @@
           "errorGr": 2.12
         },
         {
+          "cartridgeId": "300-win-mag",
+          "errorGr": -2.08
+        },
+        {
+          "cartridgeId": "224-valkyrie",
+          "errorGr": -1.84
+        },
+        {
           "cartridgeId": "260-rem",
           "errorGr": 1.58
         },
         {
+          "cartridgeId": "284-win",
+          "errorGr": 1.52
+        },
+        {
           "cartridgeId": "6mm-creedmoor",
           "errorGr": -1.22
+        },
+        {
+          "cartridgeId": "280-rem",
+          "errorGr": 0.83
         },
         {
           "cartridgeId": "270-win",
@@ -485,6 +497,10 @@
           "errorGr": -0.46
         },
         {
+          "cartridgeId": "264-win-mag",
+          "errorGr": 0.34
+        },
+        {
           "cartridgeId": "30-06",
           "errorGr": 0.34
         },
@@ -493,8 +509,16 @@
           "errorGr": -0.27
         },
         {
+          "cartridgeId": "6-5x55-swedish",
+          "errorGr": 0.27
+        },
+        {
           "cartridgeId": "243-win",
           "errorGr": 0.12
+        },
+        {
+          "cartridgeId": "222-rem",
+          "errorGr": 0.03
         }
       ],
       "method": "Reamer diameters are chamber diameters. Subtract body clearance for the case outside, then a tapered body wall (thicker at the web), a neck wall, and a solid head. Clearance and wall were chosen inside typical rifle-case bands to minimize median absolute error on cartridges that have both a printed profile and a published capacity."
@@ -1079,9 +1103,9 @@
       "caseCapacityEstimateGrH2O": 56.2,
       "method": "geometric",
       "calibrationMedianAbsErrorGr": 0.66,
-      "calibrationWorstAbsErrorGr": 9.29,
-      "calibrationWorstCartridgeId": "300-win-mag",
-      "calibrationCount": 12,
+      "calibrationWorstAbsErrorGr": 3.63,
+      "calibrationWorstCartridgeId": "300-wsm",
+      "calibrationCount": 18,
       "parentId": "243-win",
       "parentName": ".243 Winchester",
       "parentCitedCapacityGrH2O": 54.0,
