@@ -437,11 +437,11 @@
       ]
     },
     "printedProfile": {
-      "n": 18,
-      "medianAbsErrorGr": 0.66,
-      "worstAbsErrorGr": 3.63,
-      "worstCartridgeId": "300-wsm",
-      "bodyClearanceOnDiameterIn": 0.006,
+      "n": 27,
+      "medianAbsErrorGr": 0.99,
+      "worstAbsErrorGr": 6.6,
+      "worstCartridgeId": "6-5-prc",
+      "bodyClearanceOnDiameterIn": 0.005,
       "neckClearanceOnDiameterIn": 0.004,
       "neckWallIn": 0.016,
       "bodyWallAtShoulderIn": 0.017,
@@ -449,76 +449,112 @@
       "webIn": 0.18,
       "residuals": [
         {
+          "cartridgeId": "6-5-prc",
+          "errorGr": 6.6
+        },
+        {
+          "cartridgeId": "6-8-western",
+          "errorGr": 5.65
+        },
+        {
           "cartridgeId": "300-wsm",
-          "errorGr": 3.63
+          "errorGr": 3.94
+        },
+        {
+          "cartridgeId": "300-prc",
+          "errorGr": -3.6
+        },
+        {
+          "cartridgeId": "7mm-rem-mag",
+          "errorGr": -2.92
+        },
+        {
+          "cartridgeId": "375-hh",
+          "errorGr": -2.55
         },
         {
           "cartridgeId": "22-250-rem",
-          "errorGr": 2.12
-        },
-        {
-          "cartridgeId": "300-win-mag",
-          "errorGr": -2.08
-        },
-        {
-          "cartridgeId": "224-valkyrie",
-          "errorGr": -1.84
+          "errorGr": 2.33
         },
         {
           "cartridgeId": "260-rem",
-          "errorGr": 1.58
+          "errorGr": 1.82
         },
         {
           "cartridgeId": "284-win",
-          "errorGr": 1.52
+          "errorGr": 1.8
         },
         {
-          "cartridgeId": "6mm-creedmoor",
-          "errorGr": -1.22
+          "cartridgeId": "300-win-mag",
+          "errorGr": -1.72
+        },
+        {
+          "cartridgeId": "224-valkyrie",
+          "errorGr": -1.68
+        },
+        {
+          "cartridgeId": "7mm-prc",
+          "errorGr": -1.34
         },
         {
           "cartridgeId": "280-rem",
-          "errorGr": 0.83
+          "errorGr": 1.14
+        },
+        {
+          "cartridgeId": "6mm-creedmoor",
+          "errorGr": -0.99
         },
         {
           "cartridgeId": "270-win",
-          "errorGr": 0.67
+          "errorGr": 0.96
         },
         {
-          "cartridgeId": "6-5-creedmoor",
-          "errorGr": -0.65
+          "cartridgeId": "6mm-arc",
+          "errorGr": -0.96
         },
         {
-          "cartridgeId": "6-5-grendel",
-          "errorGr": -0.62
-        },
-        {
-          "cartridgeId": "223-rem",
-          "errorGr": -0.46
+          "cartridgeId": "338-win-mag",
+          "errorGr": -0.91
         },
         {
           "cartridgeId": "264-win-mag",
-          "errorGr": 0.34
+          "errorGr": 0.68
+        },
+        {
+          "cartridgeId": "7mm-08-rem",
+          "errorGr": -0.63
         },
         {
           "cartridgeId": "30-06",
-          "errorGr": 0.34
-        },
-        {
-          "cartridgeId": "308-win",
-          "errorGr": -0.27
+          "errorGr": 0.63
         },
         {
           "cartridgeId": "6-5x55-swedish",
-          "errorGr": 0.27
+          "errorGr": 0.53
+        },
+        {
+          "cartridgeId": "6-5-grendel",
+          "errorGr": -0.46
+        },
+        {
+          "cartridgeId": "6-5-creedmoor",
+          "errorGr": -0.43
         },
         {
           "cartridgeId": "243-win",
-          "errorGr": 0.12
+          "errorGr": 0.36
+        },
+        {
+          "cartridgeId": "223-rem",
+          "errorGr": -0.3
         },
         {
           "cartridgeId": "222-rem",
-          "errorGr": 0.03
+          "errorGr": 0.17
+        },
+        {
+          "cartridgeId": "308-win",
+          "errorGr": -0.04
         }
       ],
       "method": "Reamer diameters are chamber diameters. Subtract body clearance for the case outside, then a tapered body wall (thicker at the web), a neck wall, and a solid head. Clearance and wall were chosen inside typical rifle-case bands to minimize median absolute error on cartridges that have both a printed profile and a published capacity."
@@ -748,15 +784,16 @@
       "name": ".22 Creedmoor",
       "kind": "saami",
       "definedIn": [
+        "data/cartridges/bots/bullets.json",
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 51.7,
+      "caseCapacityEstimateGrH2O": 51.0,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationMedianAbsErrorGr": 0.99,
+      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationWorstCartridgeId": "6-5-prc",
+      "calibrationCount": 27,
       "parentId": "6-5-creedmoor",
       "parentName": "6.5 Creedmoor",
       "parentCitedCapacityGrH2O": 52.5,
@@ -773,19 +810,38 @@
         "neckLengthIn": null,
         "parentCase": "6.5 Creedmoor",
         "parentId": "6-5-creedmoor",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.224,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.0,
-        "parentResidualGr": -1.64
+        "conflictingValuesNotUsed": {
+          "rimDiameterIn": [
+            {
+              "value": 0.4727,
+              "source": "data/cartridges/bots/bullets.json"
+            }
+          ]
+        },
+        "baseDiameterIn": 0.4714,
+        "baseDiameterSource": "data/cartridges/bots/bullets.json",
+        "shoulderDiameterIn": 0.463,
+        "shoulderDiameterSource": "data/cartridges/bots/bullets.json",
+        "neckDiameterIn": 0.257,
+        "lengthToShoulderIn": 1.4864,
+        "lengthToNeckIn": 1.6648,
+        "bodyClearanceOnDiameterIn": 0.005,
+        "neckClearanceOnDiameterIn": 0.004,
+        "caseOutsideBaseDiameterIn": 0.4664,
+        "caseOutsideShoulderDiameterIn": 0.458,
+        "caseOutsideNeckDiameterIn": 0.253,
+        "bodyWallAtBaseIn": 0.03,
+        "bodyWallAtShoulderIn": 0.017,
+        "neckWallIn": 0.016,
+        "headWebIn": 0.18,
+        "bodyLengthUsedIn": 1.3064,
+        "shoulderLengthUsedIn": 0.1784,
+        "neckLengthUsedIn": 0.2552,
+        "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6-5-creedmoor (-1.64 gr, model minus cited capacity).",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
@@ -1100,12 +1156,12 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 56.2,
+      "caseCapacityEstimateGrH2O": 56.5,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 0.66,
-      "calibrationWorstAbsErrorGr": 3.63,
-      "calibrationWorstCartridgeId": "300-wsm",
-      "calibrationCount": 18,
+      "calibrationMedianAbsErrorGr": 0.99,
+      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationWorstCartridgeId": "6-5-prc",
+      "calibrationCount": 27,
       "parentId": "243-win",
       "parentName": ".243 Winchester",
       "parentCitedCapacityGrH2O": 54.0,
@@ -1137,10 +1193,10 @@
         "neckDiameterIn": 0.277,
         "lengthToShoulderIn": 1.6849,
         "lengthToNeckIn": 1.7932,
-        "bodyClearanceOnDiameterIn": 0.006,
+        "bodyClearanceOnDiameterIn": 0.005,
         "neckClearanceOnDiameterIn": 0.004,
-        "caseOutsideBaseDiameterIn": 0.4654,
-        "caseOutsideShoulderDiameterIn": 0.454,
+        "caseOutsideBaseDiameterIn": 0.4664,
+        "caseOutsideShoulderDiameterIn": 0.455,
         "caseOutsideNeckDiameterIn": 0.273,
         "bodyWallAtBaseIn": 0.03,
         "bodyWallAtShoulderIn": 0.017,
@@ -1152,7 +1208,7 @@
         "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Printed reamer diameters are chamber sizes. Body clearance 0.006 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
         "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
@@ -2982,15 +3038,16 @@
       "name": "6mm GT",
       "kind": "saami",
       "definedIn": [
+        "data/cartridges/bots/bullets.json",
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 37.9,
+      "caseCapacityEstimateGrH2O": 44.2,
       "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
+      "calibrationMedianAbsErrorGr": 0.99,
+      "calibrationWorstAbsErrorGr": 6.6,
+      "calibrationWorstCartridgeId": "6-5-prc",
+      "calibrationCount": 27,
       "parentId": "22-250-rem",
       "parentName": ".22-250 Remington",
       "parentCitedCapacityGrH2O": 43.0,
@@ -3007,19 +3064,30 @@
         "neckLengthIn": null,
         "parentCase": ".22-250 Remington",
         "parentId": "22-250-rem",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.243,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 44.6,
-        "parentResidualGr": 6.62
+        "baseDiameterIn": 0.471,
+        "baseDiameterSource": "data/cartridges/bots/bullets.json",
+        "shoulderDiameterIn": 0.46,
+        "shoulderDiameterSource": "data/cartridges/bots/bullets.json",
+        "neckDiameterIn": 0.273,
+        "lengthToShoulderIn": 1.3,
+        "lengthToNeckIn": 1.4335,
+        "bodyClearanceOnDiameterIn": 0.005,
+        "neckClearanceOnDiameterIn": 0.004,
+        "caseOutsideBaseDiameterIn": 0.466,
+        "caseOutsideShoulderDiameterIn": 0.455,
+        "caseOutsideNeckDiameterIn": 0.269,
+        "bodyWallAtBaseIn": 0.03,
+        "bodyWallAtShoulderIn": 0.017,
+        "neckWallIn": 0.016,
+        "headWebIn": 0.18,
+        "bodyLengthUsedIn": 1.12,
+        "shoulderLengthUsedIn": 0.1335,
+        "neckLengthUsedIn": 0.2915,
+        "profile": "Printed reamer diameters are chamber diameters. Case outside is chamber minus the diametral clearance. Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
       },
       "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 22-250-rem (6.62 gr, model minus cited capacity).",
+        "Printed reamer diameters are chamber sizes. Body clearance 0.005 in and neck clearance 0.004 in on the diameter estimate the case outside. Brass removed: body wall 0.030 in at the web tapering to 0.017 in at the shoulder, neck wall 0.016 in, solid head 0.18 in. Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities.",
+        "Neck length is not stored. Used case length minus the printed length to the neck junction. Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head.",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": {
