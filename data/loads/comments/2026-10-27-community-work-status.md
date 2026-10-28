@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. None of the current candidates are a 22 cal 90 gr VLD, so the list is unchanged in this pull request.
 
-The bullet in this pull request is the 22 cal 90 gr VLD Target, part 22423.
+The bullet in this pull request is the 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170).
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -67,7 +67,7 @@ Merged community files, with the pull request number:
 - 22 cal 70 gr VLD Target, part 22418 — [#161](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/161)
 - 22 cal 75 gr VLD Target, part 22421 — [#163](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/163)
 - 22 cal 80 gr VLD Target, part 22422 — [#164](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/164)
-- 22 cal 90 gr VLD Target, part 22423 — this pull request
+- 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
