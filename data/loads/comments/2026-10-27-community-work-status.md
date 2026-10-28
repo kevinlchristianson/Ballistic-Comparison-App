@@ -20,7 +20,7 @@ The Berger Classic Hunter line closes with this pull request — [#193](https://
 
 Community-reported loads for every Berger OTM Tactical bullet. Order is smallest diameter, then lightest weight. Hybrid OTM, Juggernaut, and AR Hybrid bullets that the catalog lists under OTM Tactical are in this line. A post is filed here only when it names that bullet.
 
-The bullet in this pull request is the 6.5 mm 130 gr AR Hybrid OTM Tactical, part 26195 — [#196](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/196).
+The bullet in this pull request is the 30 cal 175 gr OTM Tactical, part 30105 — [#197](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/197).
 
 The Classic Hunter line is closed — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193).
 
@@ -96,18 +96,18 @@ Merged community files, with the pull request number:
 - 30 cal 185 gr Classic Hunter, part 30571 — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193)
 - 22 cal 77 gr OTM Tactical, part 22101 — [#194](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/194)
 - 6.5 mm 130 gr AR Hybrid OTM Tactical, part 26195 — [#196](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/196)
+- 30 cal 175 gr OTM Tactical, part 30105 — [#197](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/197)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 130 gr file merges, still in OTM Tactical.
+After the 175 gr file merges, still in OTM Tactical.
 
-1. 30 cal 175 gr OTM Tactical, part 30105
-2. 30 cal 185 gr Juggernaut OTM Tactical, part 30107
-3. 30 cal 230 gr Hybrid OTM Tactical, part 30112
-4. 338 cal 250 gr Hybrid OTM Tactical, part 33107
-5. 338 cal 300 gr Hybrid OTM Tactical, part 33109
+1. 30 cal 185 gr Juggernaut OTM Tactical, part 30107
+2. 30 cal 230 gr Hybrid OTM Tactical, part 30112
+3. 338 cal 250 gr Hybrid OTM Tactical, part 33107
+4. 338 cal 300 gr Hybrid OTM Tactical, part 33109
 
 After OTM Tactical: Varmint, then the bullets whose product line is blank.
 
@@ -270,6 +270,8 @@ The 30 cal 185 gr Classic Hunter file adds no unmatched name. `.308` resolves to
 The 22 cal 77 gr OTM Tactical file adds `223 cal`. `223` and `.223` resolve to `223-rem`, and `223 cal` does not. Cfshooter's N140 span is 23.7 to 24.5 gr, so the charge stays null. dstoenner's 23.5 gr varget is a fired magazine-length load. LVLAaron's 24.6-7 gr did not name a powder; the thread is N140 for a .223 bolt rifle. mac86951's 23.5-24.0 of Varget, n140, or h4895 is a starting window, not a fired charge. No fired 77 gr OTM Tactical charge turned up in 223 AI, 5.56, 22 BR, 22 Dasher, 22 GT, 22 Creedmoor, 224 Valkyrie, 22-250, 22-250 AI, 220 Swift, 22 PPC, or 223 WSSM. The ambiguous VLD list is left unchanged.
 
 The 6.5 mm 130 gr AR Hybrid OTM Tactical file adds `47`. `260` and `.260` resolve to `260-rem`. `6.5x47` resolves to `6-5x47-lapua`. `6.5 Creedmoor` resolves to `6-5-creedmoor`. `6.5 SAUM` resolves to `6-5-saum`. jsthntn247's Varget span is 37.2-37.6 gr, so the charge stays null. MikeMcCasland's H4350 steps are the ladder he fired. No fired 130 gr AR Hybrid charge turned up in 6.5 Grendel, 6.5 PRC, 6.5-284, 260 AI, or 6.5 WSM. The ambiguous VLD list is left unchanged.
+
+The 30 cal 175 gr OTM Tactical file adds no unmatched name. `308`, `.308`, and `308 Winchester` resolve to `308-win`. dreever's 43.3 gr Varget is two chronographs, 2620 fps in 2011 and 2615 fps in 2013. gsg5pk's 175 SMK and 175 LRBT charges are different bullets. Darkside named Grand, h.1000, n555, and n165 in a 300Wm and gave no charge. No fired 175 gr OTM Tactical charge turned up in 30-06, 300 Win Mag, 300 WSM, 300 PRC, 300 RUM, 300 Weatherby, or 300 SAUM. The ambiguous VLD list is left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
