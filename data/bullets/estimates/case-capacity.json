@@ -22,7 +22,7 @@
       "preference": "When both methods can run, the geometric estimate is kept if its rim-class median absolute error is within 1 gr of the parent-case error. Otherwise the parent-case estimate is kept. The other number is stored as alternate."
     },
     "parentCase": {
-      "summary": "parent capacity × (child case length / parent case length) + k × (parent bullet diameter² − child bullet diameter²) × child case length. k is fitted on pairs where the parent and the child both have a cited capacity. The adjustment covers a length change and a neck-bore change. It does not add the extra volume of a blown Ackley shoulder; no Ackley cartridge in the calibration set has a cited capacity, and the library has no shoulder diameter. The geometric model does use a stored Ackley shoulder angle when the row has one. A capacity the owner file already labels as an estimate is not used as a parent.",
+      "summary": "parent capacity × (child case length / parent case length) + k × (parent bullet diameter² − child bullet diameter²) × child case length. k is fitted on pairs where the parent and the child both have a cited capacity. The adjustment covers a length change and a neck-bore change. It does not add the extra volume of a blown Ackley shoulder; no Ackley cartridge in the calibration set has a cited capacity, and the library has no shoulder diameter. The geometric model does use a stored Ackley shoulder angle when the row has one. A capacity the owner file already labels as an estimate is not used as a parent. When this method, or the geometric method, comes out below the parent's cited capacity for an Ackley Improved cartridge, the estimate is raised to that parent capacity.",
       "k": -39.25,
       "unit": "grains per inch per square inch of bore-area change"
     }
@@ -554,7 +554,7 @@
         "data/cartridges/cartridges.json"
       ],
       "estimated": true,
-      "caseCapacityEstimateGrH2O": 12.3,
+      "caseCapacityEstimateGrH2O": 13.5,
       "method": "parent-case",
       "calibrationMedianAbsErrorGr": 1.57,
       "calibrationWorstAbsErrorGr": 9.82,
@@ -575,10 +575,12 @@
         "shoulderAngleSource": "data/cartridges/cartridges.json",
         "neckLengthIn": null,
         "parentCase": ".22 Hornet",
-        "parentId": "22-hornet"
+        "parentId": "22-hornet",
+        "estimateBeforeAckleyFloorGr": 12.3
       },
       "assumptions": [
         "Adjusted the parent's cited capacity for case length and bullet diameter. A blown-out shoulder is not added by this method.",
+        "Raised from 12.3 gr to the parent capacity (13.5 gr). An Ackley Improved case is not smaller than its parent.",
         "Superseded by a printed case volume when one is available."
       ],
       "alternate": null,
@@ -1671,11 +1673,12 @@
       ],
       "alternate": {
         "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 67.6,
+        "caseCapacityEstimateGrH2O": 68.0,
         "calibrationMedianAbsErrorGr": 1.57,
         "calibrationWorstAbsErrorGr": 9.82,
         "parentId": "280-rem",
-        "parentCitedCapacityGrH2O": 68.0
+        "parentCitedCapacityGrH2O": 68.0,
+        "estimateBeforeAckleyFloorGr": 67.6
       },
       "supersededByPrintedValueWhenAvailable": true
     },

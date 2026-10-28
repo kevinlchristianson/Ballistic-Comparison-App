@@ -1,12 +1,12 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 14:21 UTC
+Last updated: 2026-10-28 14:41 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Berger part 24486 (6 mm 120 gr Long Range Hybrid Target) is in `manufacturers/berger.json` and the combined catalog, placed after the 109 gr. Part 30551 (30 cal 217 gr Elite Hunter) was already present with the product-page BCs. Case-capacity estimates were regenerated so Hammer's printed "Case volume H20" values drop out of the table. 54 estimates remain. None were copied into `caseCapacityGrH2O`.
+Kevin asked for Pacific Tool & Gauge reamer dimensions on the cartridge list. No PTG page has been copied. The request, the terms ban, and the schema question are in [`comments/2026-10-28-ptg-reamer-dimensions.md`](comments/2026-10-28-ptg-reamer-dimensions.md). Case-capacity estimates still number 54. An Ackley Improved estimate is now raised to its parent's cited capacity when the model comes out lower. `.17 Ackley Hornet` moved from 12.3 gr to 13.5 gr. `.243 Ackley Improved` stays 55.2 gr, already above the stored `.243 Winchester` 54 gr. Nothing was written into `caseCapacityGrH2O`.
 
 ## Next
 
@@ -16,10 +16,12 @@ Berger part 24486 (6 mm 120 gr Long Range Hybrid Target) is in `manufacturers/be
 
 ## Blocked
 
-- Copy-banned or terms-blocked sources stay skipped: Speer, Federal, Remington, Alliant, Norma, RWS, Peregrine, Warner, North Fork, GECO, Rottweil, Fiocchi, Winchester, Hodgdon Reloading Data Center, SAAMI Z299.4 PDF, C.I.P. TDCC, 6mmBR.com diagrams, The Ballistic Assistant, Peterson, Alpha Munitions, PTG, Manson, Whidden, Starline, Nosler website-use policy, Weatherby, Barnes, LoadDevelopment, and Zima. Vihtavuori and Lapua table numbers were not copied. Wikipedia infoboxes were not copied.
+- Copy-banned or terms-blocked sources stay skipped: Speer, Federal, Remington, Alliant, Norma, RWS, Peregrine, Warner, North Fork, GECO, Rottweil, Fiocchi, Winchester, Hodgdon Reloading Data Center, SAAMI Z299.4 PDF, C.I.P. TDCC, 6mmBR.com diagrams, The Ballistic Assistant, Peterson, Alpha Munitions, PTG, Manson, Whidden, Starline, Nosler website-use policy, Weatherby, Barnes, LoadDevelopment, and Zima. Vihtavuori and Lapua table numbers were not copied. Wikipedia infoboxes were not copied. PTG stays out until `BOTS.md` lifts or narrows that ban. See [`comments/2026-10-28-ptg-reamer-dimensions.md`](comments/2026-10-28-ptg-reamer-dimensions.md).
 - 6 WOA and 6x6.8 SPC still have no printed bullet diameter or case length on a permitted page. Hammer prints a case volume for 6x6.8 SPC, and that name is not in the library, so no cartridge was added from it. See [`comments/2026-10-27-6-woa.md`](comments/2026-10-27-6-woa.md).
 
 ## Open questions
+
+[`comments/2026-10-28-ptg-reamer-dimensions.md`](comments/2026-10-28-ptg-reamer-dimensions.md) asks the coding agent to update `BOTS.md`: whether PTG reamer dimensions may be copied, which schema fields hold them, and whether the bot-file fill rule may write them onto owner cartridges.
 
 [`comments/2026-10-28-case-capacity-estimates-still-wanted.md`](comments/2026-10-28-case-capacity-estimates-still-wanted.md) asks whether the estimates file is still wanted now that the site estimates missing capacities itself, and how to store an estimate if it is. [`comments/2026-10-27-case-capacity-estimates.md`](comments/2026-10-27-case-capacity-estimates.md) is still open on the storage field. Until that is answered, estimates stay in `estimates/case-capacity.json` and do not fill `caseCapacityGrH2O`, `neckLengthIn`, or `shoulderAngleDeg`.
 
