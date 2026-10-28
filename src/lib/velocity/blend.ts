@@ -1,10 +1,12 @@
 /**
  * blend-v1: an estimate for every cartridge, bullet weight and barrel.
  *
- * When the cartridge's published loads cover the bullet weight (within 10%),
- * the published-load fit (loglog-v1) answers, as before. The physics model and
- * similar cartridges are worked out too and shown beside it as cross-checks;
- * a cross-check far from the published loads is flagged.
+ * When the cartridge's published loads cover the bullet weight (within 10%)
+ * and come from at least two sources and 3 or more loads, the published-load
+ * fit (loglog-v1) answers. The physics model and similar cartridges are worked
+ * out too and shown beside it as cross-checks; a cross-check far from the
+ * published loads is flagged. Thinner published data joins the blend below as
+ * one more estimate, with a single source's own error added.
  *
  * Otherwise up to three estimates are combined:
  *
@@ -52,6 +54,13 @@ const PHYSICS_VS_LOADS_SD = 0.05;
 /** Base relative sd of a similar cartridge scaled by the physics model, and by overlapping loads. */
 const PEER_PHYSICS_SD = 0.06;
 const PEER_LOADS_SD = 0.03;
+/**
+ * How far one source's loads sit from other sources' loads for the same
+ * cartridge: about 4–6% (RMS 5.8% across 395 source pairs; `npm run
+ * check-blend` prints it). A fit resting on a single source carries this on
+ * top of its own scatter.
+ */
+const SINGLE_SOURCE_SD = 0.045;
 
 export interface BlendOptions {
   cartridges: Cartridge[];
@@ -191,7 +200,10 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
       const ph = physicsComponent(c, q);
       const peer = similar(c, fit, q);
 
-      if (direct && direct.estimateFps != null) {
+      // Thin published data (one source, or under 3 loads) is blended with the
+      // other estimates instead of answering alone.
+      const thin = !!fit && (fit.support.sources.length < 2 || fit.flags.includes("thin_data"));
+      if (direct && direct.estimateFps != null && !thin) {
         // Published loads answer; the others are cross-checks.
         const flags = new Set(direct.flags);
         if (lookup!.rounded) flags.add("barrel_rounded");
@@ -202,7 +214,18 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
       }
 
       const parts: EstimateComponent[] = [];
-      const ext = fit ? extended(c, fit, q) : null;
+      const covered = direct?.estimateFps != null;
+      if (covered) {
+        const single = fit!.support.sources.length < 2;
+        parts.push({
+          source: "load_data",
+          fps: direct!.estimateFps!,
+          relSd: Math.hypot(relSdOf(direct!), single ? SINGLE_SOURCE_SD : 0),
+          share: 0,
+          detail: `${fit!.support.loadCount} published load${fit!.support.loadCount === 1 ? "" : "s"}, ${fit!.minWeightGr}–${fit!.maxWeightGr} gr, from ${single ? `one source (${fit!.support.sources[0]?.name})` : `${fit!.support.sources.length} sources`}.`,
+        });
+      }
+      const ext = fit && !covered ? extended(c, fit, q) : null;
       if (ext) parts.push(ext);
       if (peer) parts.push(peer);
       if (ph) parts.push(ph.comp);
@@ -219,6 +242,7 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
 
       const flags = new Set<string>(["blended_estimate"]);
       if (fit) for (const f of fit.flags) flags.add(f);
+      if (covered) flags.add(fit!.support.sources.length < 2 ? "single_source" : "thin_data");
       if (ext) flags.add("extended_beyond_published_weights");
       if (peer) flags.add("similar_cartridges");
       if (ph) for (const f of ph.est.flags) if (f !== "low_confidence" && f !== "physics_estimate") flags.add(f);
@@ -226,7 +250,9 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
       if (lookup?.rounded) flags.add("barrel_rounded");
       if (spread > LOW_CONFIDENCE_SPREAD) flags.add("low_confidence");
 
-      const why = fit
+      const why = covered
+        ? `Published loads for ${c.name} come from ${fit!.support.sources.length < 2 ? "a single source" : "fewer than 3 loads"}, so they are checked against similar cartridges and the physics model.`
+        : fit
         ? `Published loads for ${c.name} cover ${fit.minWeightGr}–${fit.maxWeightGr} gr, not ${q.bulletWeightGr} gr.`
         : `No published loads for ${c.name} at this barrel length.`;
       return {
