@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "loadCount": 2,
+  "loadCount": 3,
   "source": {
     "name": "Community Berger 30 Caliber 168 Grain VLD Hunting",
     "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-30cal-168gr.csv",
@@ -64,6 +64,34 @@
       "sourceUrl": "https://forum.accurateshooter.com/threads/anyone-use-the-berger-168-match-hunting-bullets.3814116/",
       "sourcePage": "Shooters' Forum",
       "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: smitty525; Posted: May 3, 2013; Velocity_fps: just over 2800; 168 gr match vld hunting. Pre-64 Winchester Model 70, Krieger barrel. No charge. Not touching the lands."
+    },
+    {
+      "cartridge": "308 Win",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 168,
+      "bulletDescription": "168 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "Varget",
+      "charge": 42,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "Win LR",
+      "case": "Hornady",
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": 2500,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/308-load-data.3889756/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: Citrusdude; Posted: Dec 10, 2015; Berger 168 gr Hunting VLDs. 1953 M70 Featherweight. 1 in groups at 200 yards. He went for accuracy, not velocity. The thread is a deer and elk rifle. Filed as VLD Hunting because he named the hunting bullet."
     }
   ]
 }
