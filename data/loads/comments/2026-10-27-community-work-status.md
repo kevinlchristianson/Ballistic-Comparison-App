@@ -14,9 +14,11 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 ## In progress
 
-Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. None of the current candidates are a 22 cal 90 gr VLD, so the list is unchanged in this pull request.
+Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. The 6 mm 105 gr candidates that still do not say Hunting or Target stay on the list.
 
-The bullet in this pull request is the 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170).
+The bullet in this pull request is the 6 mm 105 gr VLD Target, part 24429.
+
+6 mm 95 gr VLD Target, part 24427, was searched. No charge that named the target line turned up. Untagged 95 VLD charges are in the ambiguous list. Boatschool02's 95VLD-H charges are the hunting bullet. No file and no pull request for the target bullet.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -68,24 +70,23 @@ Merged community files, with the pull request number:
 - 22 cal 75 gr VLD Target, part 22421 — [#163](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/163)
 - 22 cal 80 gr VLD Target, part 22422 — [#164](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/164)
 - 22 cal 90 gr VLD Target, part 22423 — [#170](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/170)
+- 6 mm 105 gr VLD Target, part 24429 — this pull request
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 90 gr file merges, still in VLD Target:
+After the 105 gr file merges, still in VLD Target. The 6 mm 95 gr VLD Target, part 24427, was searched and got no file.
 
-1. 6 mm 95 gr VLD Target, part 24427
-2. 6 mm 105 gr VLD Target, part 24429
-3. 6 mm 115 gr VLD Target, part 24430
-4. 6.5 mm 130 gr VLD Target, part 26403
-5. 6.5 mm 140 gr VLD Target, part 26401
-6. 7 mm 168 gr VLD Target, part 28401
-7. 7 mm 180 gr VLD Target, part 28405
-8. 30 cal 168 gr VLD Target, part 30410
-9. 30 cal 175 gr VLD Target, part 30412
-10. 30 cal 185 gr VLD Target, part 30413
-11. 30 cal 210 gr VLD Target, part 30415
+1. 6 mm 115 gr VLD Target, part 24430
+2. 6.5 mm 130 gr VLD Target, part 26403
+3. 6.5 mm 140 gr VLD Target, part 26401
+4. 7 mm 168 gr VLD Target, part 28401
+5. 7 mm 180 gr VLD Target, part 28405
+6. 30 cal 168 gr VLD Target, part 30410
+7. 30 cal 175 gr VLD Target, part 30412
+8. 30 cal 185 gr VLD Target, part 30413
+9. 30 cal 210 gr VLD Target, part 30415
 
 After VLD Target: Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -95,6 +96,10 @@ These posts name a bullet weight and do not name the product line, or they name 
 
 - 6 mm 105 VLD, 6BR, Varget settled at 30.1 gr and RL15 31.0 gr shared with a Hybrid: [6BR 105 VLD Reloder 15](https://forum.accurateshooter.com/threads/6br-105-vld-reloder-15.4074323/)
 - 6 mm 105 VLD, 6X47 Lapua thread, charges that were not marked HVLD: [6X47 Lapua 105 Berger VLD](https://forum.accurateshooter.com/threads/6x47-lapua-load-data-105-breger-vld.3926490/)
+- 6 mm 105 VLD, 6xc, H4350 40.5 gr at 3050 fps, 26 in, tbeasley, Oct 7, 2016: [which is best, 6x47, 6XC, 6 Creedmoor](https://forum.accurateshooter.com/threads/which-is-best-6-x-47-6xc-6-creedmore-6slr.3911034/)
+- 6 mm 95 VLD, 6BR, Varget 31.4 gr, 0.005 into the lands, CCI 450, Toby Bradshaw, Mar 7, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
+- 6 mm 95 VLD, 6BR, either side of 31 grains of Varget, .010 off, Steve Ladino, Mar 11, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
+- 6 mm 95 VLD, 6BRX, H4350 from 34.5 to 37 gr, jammed .012, 26 in, Grimstod, Jun 3, 2017: [6BRX H4350 and Berger VLD 95gr](https://forum.accurateshooter.com/threads/6brx-h4350-and-berger-vld-95gr-loads.3927800/)
 - 6 mm 115 VLD, 6 Creed, RL-16 from 39 to 42.7 gr and H4831sc 43.6 gr at 3023 fps: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
 - 6 mm 115 VLD, 6mm Creedmoor, H4350 39.2 gr at 3015 fps, 28 in Shilen: [barrel friendly 6mm Creedmoor powder, page 2](https://forum.accurateshooter.com/threads/barrel-friendly-6mm-creedmoor-powder.4058244/page-2)
 - 6.5 mm 130 VLD, 6.5x47, 2820 fps, no charge, alf, Nov 8, 2021: [130 gr VLD hunting in a 260, page 2](https://forum.accurateshooter.com/threads/berger-130gr-vld-hunting-in-a-260.4049884/page-2)
@@ -234,5 +239,9 @@ The 22 cal 70 gr top-up adds no unmatched name. `223` and `223 Rem` resolve to `
 The 22 cal 75 gr top-up adds no unmatched name. `223` resolves to `223-rem`. Gary in MD is shooting them in an 8 twist 22-250 and gave no charge. No fired 75 gr VLD charge turned up in 223 AI, 5.56, 22 BR, 22 Dasher, 22 GT, 22 Creedmoor, 224 Valkyrie, 22-250 AI, 220 Swift, 22 PPC, or 223 WSSM.
 
 The 22 cal 90 gr VLD Target file adds no unmatched name. `223`, `.223`, and `.223 Rem` resolve to `223-rem`. `223AI` and `223 Ackley` resolve to `223-ai`. `22 PPC` resolves to `22-ppc`. `222` resolves to `222-rem`. The catalog has no 90 gr VLD Hunting. wc872 named H4831SC and 2973 fps for 90 gr Berger VLDs in a 22-250 and gave no charge. RDavies named N550 and H4350 in a 22BR and a 22BRX and gave no charge. No fired 90 gr VLD charge turned up in 5.56, 22 Dasher, 22 GT, 22 Creedmoor, 224 Valkyrie, 22-250 AI, 220 Swift, or 223 WSSM. shootmore's 24.3-24.8 gr N140 span covers both the 90 gr VLD and the 90 gr SMK, so it is not in this file. No ambiguous-line candidate is this weight.
+
+The 6 mm 95 gr VLD Target search adds no unmatched name and no file. No post named the target line and a fired charge. Searched 6BR, 6BRX, 6 Dasher, 6 BRA, 6mm Creedmoor, 243 Win, 6XC, 6 GT, and 6x47 Lapua. Toby Bradshaw's 31.4 gr Varget, Steve Ladino's Varget note, and Grimstod's H4350 ladder do not say Hunting or Target, so they are in the ambiguous list. Boatschool02's 31.6 gr at 3060 fps and 29.5-30.3 gr at 2860-2940 fps are 95VLD-H, the hunting bullet, and are not in the hunting file.
+
+The 6 mm 105 gr VLD Target file adds no unmatched name. `6BR` resolves to `6mm-norma-br`. OmegaRed named the target line. The 30.1 gr Varget node and the RL15 charge shared with a Hybrid stay on the ambiguous list. tbeasley's 40.5 gr H4350 in a 6xc does not name a line. DHuffman's 29.5 gr Varget is 105 HVLDs, the hunting bullet, and is not in the hunting file. Frankr's 40.5 gr RL17 is 105 HVLD in a 6XC and is not in the hunting file. Norma factory ammunition with a moly 105 VLD Target is not a community load. No fired charge that named the target line turned up in 6mm Creedmoor, 243 Win, 6 Dasher, 6 BRA, 6XC, 6x47 Lapua, or 6 GT. This file does not edit the 105 gr VLD Hunting or Hybrid Target sources.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.

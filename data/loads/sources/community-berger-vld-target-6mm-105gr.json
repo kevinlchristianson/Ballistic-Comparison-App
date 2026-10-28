@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 6 mm 105 Grain VLD Target",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-target-6mm-105gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "6BR",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 105,
+      "bulletDescription": "105 VLD Target",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "Varget",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/6br-105vld-30gr-of-varget-an-untried-combination.3954632/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: OmegaRed; Posted: Jun 17, 2018; Charge_gr: 29.8-30.0; 105 VLD target jammed .010. BAT SV, Krieger 1:8. 500 yard ladder. 29.8-30.0 was the sweet spot on both ladders. On the first, 29.6-30 was under an inch. He asked about starting seating tests at 29.9 gr; that is a plan, not a separate row."
+    }
+  ]
+}
