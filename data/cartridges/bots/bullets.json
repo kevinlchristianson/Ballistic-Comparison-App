@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 265,
+  "cartridgeCount": 275,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -190,6 +190,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2000 in at the mouth and the shoulder junction. Body diameter printed at 0.1420 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 29.95 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "204-ruger",
+      "name": ".204 Ruger",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.204,
+      "caseLength": 1.85,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.378,
+      "neckLength": null,
+      "baseDiameter": 0.3754,
+      "shoulderDiameter": 0.3599,
+      "neckDiameter": 0.231,
+      "lengthToShoulder": 1.5386,
+      "lengthToNeck": 1.6502,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/204-ruger/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .204 Ruger profile. Bullet diameter is the named .20 bore, 0.204 in; no groove is printed. Neck 0.2310 in at the mouth and the shoulder junction, 0.027 in over the bullet. Shoulder 0.3599 in at 30 deg. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.25 gr (printed figure, not stored as water)."
     },
     {
       "id": "204-ruger-ai",
@@ -953,6 +982,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .222 Remington bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 26.19 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "222-rem-mag",
+      "name": ".222 Remington Magnum",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.85,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.378,
+      "neckLength": null,
+      "baseDiameter": 0.3765,
+      "shoulderDiameter": 0.3571,
+      "neckDiameter": 0.253,
+      "lengthToShoulder": 1.4636,
+      "lengthToNeck": 1.5862,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 23.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/222-remington-magnum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .222 Remington Magnum profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction, 0.029 in over the bullet. Shoulder 0.3571 in at 23 deg. Body diameter printed at 0.1227 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.76 gr (printed figure, not stored as water)."
     },
     {
       "id": "222-rem-mag-ai",
@@ -1869,6 +1927,35 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .25 bore, 0.257 in; no groove is printed. Neck 0.2920 in at the shoulder junction; mouth 0.2910 in. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 60.89 gr (printed figure, not stored as water)."
     },
     {
+      "id": "257-roberts",
+      "name": ".257 Roberts",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.233,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4731,
+      "shoulderDiameter": 0.4294,
+      "neckDiameter": 0.29,
+      "lengthToShoulder": 1.7277,
+      "lengthToNeck": 1.9117,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.75,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/257-roberts/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .257 Roberts profile. Bullet diameter is the named .25 bore, 0.257 in; no groove is printed. Neck 0.2900 in at the mouth and the shoulder junction, 0.033 in over the bullet. Shoulder 0.4294 in at 20 deg 45 min. Body diameter printed at 0.1261 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 55.84 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "257-stw",
       "name": ".257 STW",
       "kind": "wildcat",
@@ -2200,6 +2287,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .270 Winchester bore, 0.277 in; no groove is printed. Neck 0.3080 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 67.54 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "270-wsm",
+      "name": ".270 Winchester Short Magnum",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.277,
+      "caseLength": 2.1,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.535,
+      "neckLength": null,
+      "baseDiameter": 0.555,
+      "shoulderDiameter": 0.5381,
+      "neckDiameter": 0.314,
+      "lengthToShoulder": 1.6635,
+      "lengthToNeck": 1.8235,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/270-wsm/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .270 Winchester Short Magnum profile. Bullet diameter is the named .270 bore, 0.277 in; no groove is printed. Neck 0.3140 in at the mouth and the shoulder junction, 0.037 in over the bullet. Shoulder 0.5381 in at 35 deg, the .300 WSM shoulder. Body diameter printed at 0.1390 in from the head. Rim 0.5350 in. No belt is printed. 4D Case Cap. 78.62 gr (printed figure, not stored as water)."
     },
     {
       "id": "277-sig-fury",
@@ -2994,6 +3110,35 @@
       "note": "4D cartridge drawing, case outside from the head. Fills the empty .300 H&H Magnum profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3380 in at the mouth and the shoulder junction. Shoulder 0.4498 in at 8 deg 30 min. Body 0.5137 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1277 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 81.31 gr (printed figure, not stored as water)."
     },
     {
+      "id": "300-norma-mag",
+      "name": ".300 Norma Magnum",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.492,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.588,
+      "neckLength": null,
+      "baseDiameter": 0.5845,
+      "shoulderDiameter": 0.5626,
+      "neckDiameter": 0.3417,
+      "lengthToShoulder": 1.892,
+      "lengthToNeck": 2.1954,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/300-norma-mag/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Page says non-belted; drawing title is 300 Norma Magnum. Fills the empty .300 Norma Magnum profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3417 in, 0.0337 in over the bullet. Shoulder 0.5626 in at 20 deg. Body diameter printed at 0.1406 in from the head. Rim 0.5880 in. No belt is printed. 4D Case Cap. 103.54 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "300-prc",
       "name": ".300 PRC",
       "kind": "saami",
@@ -3083,6 +3228,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .300 RUM bore, 0.308 in; no groove is printed. Neck 0.3440 in at the shoulder junction; mouth 0.3410 in. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. 4D Case Cap. 112.91 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "300-saum",
+      "name": ".300 Remington Short Action Ultra Magnum",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.5347,
+      "neckDiameter": 0.344,
+      "lengthToShoulder": 1.5383,
+      "lengthToNeck": 1.7035,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/300-rsaum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Title is 300 Remington Short Action Ultra Magnum. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3440 in, 0.036 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Library already has 35 deg, so that angle stays. Body at 0.1390 in from the head. Rim 0.5340 in. No belt is printed. 4D Case Cap. 73.51 gr (printed figure, not stored as water)."
     },
     {
       "id": "300-savage",
@@ -3265,6 +3439,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .303 Savage bore, 0.308 in; no groove is printed. Neck 0.3410 in at the shoulder junction; mouth 0.3322 in. Body diameter 0.4420 in. Rim thickness 0.0630 in has no field. 4D Case Cap. 44.27 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "307-win",
+      "name": ".307 Winchester",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.506,
+      "neckLength": null,
+      "baseDiameter": 0.4709,
+      "shoulderDiameter": 0.454,
+      "neckDiameter": 0.3435,
+      "lengthToShoulder": 1.5598,
+      "lengthToNeck": 1.7116,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/307-winchester/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .307 Winchester profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3435 in, 0.0355 in over the bullet. Shoulder 0.4540 in at 20 deg. Body diameter printed at 0.1463 in from the head. Rim 0.5060 in. No belt is printed. 4D Case Cap. 56.33 gr (printed figure, not stored as water)."
     },
     {
       "id": "308-ai",
@@ -3788,6 +3991,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .338 bore, 0.338 in; no groove is printed. Neck 0.3710 in at the shoulder junction; mouth 0.3680 in. Body diameter printed at 0.1320 in from the head. Rim thickness 0.0650 in has no field. 4D Case Cap. 132.88 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "338-federal",
+      "name": ".338 Federal",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4709,
+      "shoulderDiameter": 0.454,
+      "neckDiameter": 0.37,
+      "lengthToShoulder": 1.5598,
+      "lengthToNeck": 1.6752,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/338-federal/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .338 Federal profile. Bullet diameter is the named .338 bore, 0.338 in; no groove is printed. Neck 0.3700 in, 0.032 in over the bullet. Shoulder 0.4540 in at 20 deg, the same station as the .307 Winchester drawing. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 56.74 gr (printed figure, not stored as water)."
     },
     {
       "id": "338-lapua",
@@ -4679,6 +4911,35 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .358 bore, 0.358 in; no groove is printed. Neck 0.3820 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2300 in from the head, ahead of the belt. Belt 0.5320 in at 0.1380 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 106.19 gr (printed figure, not stored as water)."
     },
     {
+      "id": "358-win",
+      "name": ".358 Winchester",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.358,
+      "caseLength": 2.015,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4709,
+      "shoulderDiameter": 0.454,
+      "neckDiameter": 0.388,
+      "lengthToShoulder": 1.5598,
+      "lengthToNeck": 1.6505,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/358-winchester/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .358 Winchester profile. Bullet diameter is the named .358 bore, 0.358 in; no groove is printed. Neck 0.3880 in, 0.030 in over the bullet. Shoulder 0.4540 in at 20 deg, the same station as the .307 Winchester drawing. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 58.77 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "358-yukon",
       "name": ".358 Yukon",
       "kind": "wildcat",
@@ -5078,6 +5339,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .375 caliber; no groove is printed. Neck 0.4000 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 77.72 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "376-steyr",
+      "name": ".376 Steyr",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 2.362,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.496,
+      "neckLength": null,
+      "baseDiameter": 0.5081,
+      "shoulderDiameter": 0.4748,
+      "neckDiameter": 0.4031,
+      "lengthToShoulder": 1.8947,
+      "lengthToNeck": 2.0082,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 17.5,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/376-steyr/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .376 Steyr profile. Bullet diameter is the named .375 bore, 0.375 in; no groove is printed. Neck 0.4031 in, 0.0281 in over the bullet. Shoulder 0.4748 in at 17 deg 30 min. Body diameter printed at 0.1332 in from the head. Rim 0.4960 in. No belt is printed. 4D Case Cap. 77.23 gr (printed figure, not stored as water)."
     },
     {
       "id": "38-56-win",
