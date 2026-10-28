@@ -34,8 +34,8 @@ Searched on 2026-10-27, and left null because no single published water capacity
 
 ## Working assumption until answered
 
-The 26 and 27 Nosler bot records are gone. The live library capacity for those two stays null. No parent-case estimate is written. The bullet bot's estimates cover cartridges that still have no published capacity.
+The bot file keeps the cited 98.4 and 93. Bullet diameter, case length, and max COAL on those records are copied from the library entry. Rim, shoulder, and drawing pressure are null, so a Z299.4 dimension is not filled into the library. No parent-case estimate is written.
 
 ## Answer
 
-Answered by the project in `BOTS.md` (2026-10-27 evening): a clashing bot record can fill an empty `caseCapacityGrH2O`. On 2026-10-28 the load bot removed the 26 Nosler and 27 Nosler records anyway. Their case length, bullet diameter, and the other dimensions were copied from ANSI/SAAMI Z299.4, which bots may not copy. Nosler's own pages print 93 gr H2O (26 Nosler, useable) and 98.4 gr H2O (27 Nosler, overflow to the neck) and do not print case length, so those capacities cannot ride on a valid bot record without the forbidden drawing. The project library already has both cartridges.
+Answered by [PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) and `BOTS.md`. The duplicate record stays out, and its published capacity fills an empty library field. The 26 and 27 Nosler records remain for that fill. Their Z299.4-only dimensions are null.

@@ -1,6 +1,6 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 14:21 UTC
+Last updated: 2026-10-28 15:05 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -14,9 +14,9 @@ The bullet bot estimates capacities for cartridges that have none, in its own fi
 
 Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. `data/cartridges/bots/loads.json` was not edited here. A figure that is not an overflow to the mouth stays null on the cartridge record until that file is updated, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
 
-Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 or C.I.P. sheets. Eight bot records whose dimensions came only from Z299.4 are removed, because PR #84 already put them in `cartridges.json`: 26 Nosler, 27 Nosler, 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`, are removed; the library already has those names. `.24 Nosler` stays, cited to The Ballistic Assistant, not the Z299.4 PDF. Lazzeroni records stay, cited to Lazzeroni's own profiles.
+Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets. Six bot records whose only dimensions came from Z299.4 are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF are removed. `.24 Nosler` and the Lazzeroni records stay.
 
-Nosler prints a useable capacity of 93 gr H2O for the 26 Nosler and a fireformed overflow of 98.4 gr H2O for the 27 Nosler, but those pages do not print case length. A bot record needs a case length, and the only case length on file was the Z299.4 drawing, so those capacities are not kept on a bot record. See [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
+`.26 Nosler` and `.27 Nosler` stay so their Nosler water capacities can fill the empty library fields: 93 gr H2O useable, and 98.4 gr H2O overflow to the neck. Bullet diameter, case length, and max COAL on those two records are copied from the library entry. Rim, shoulder, and the drawing pressure are null. See [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
 
 `7.62x39 (.308)` is an alias of library `7-62x39`. `7mm RSAUM` is an alias of `7mm-saum`. `25CM` already resolves to `25-creedmoor`.
 

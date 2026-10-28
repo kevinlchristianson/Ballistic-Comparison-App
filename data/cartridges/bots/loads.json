@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 13,
+  "cartridgeCount": 15,
   "aliasCount": 12,
   "cartridges": [
     {
@@ -34,6 +34,58 @@
         "retrievedOn": "2026-10-27"
       },
       "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler CASE HOLDS under the bullet differs by sheet: 55 gr 29.0, 70 gr 28.8, 80 gr 27.1, 85/90 gr 26.5, 105 gr 25.8."
+    },
+    {
+      "id": "26-nosler",
+      "name": ".26 Nosler",
+      "kind": "saami",
+      "aliases": [
+        "26 Nosler"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 93,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Nosler, 26 Nosler cartridge page",
+        "url": "https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Nosler prints a useable case capacity of 93 grains of water. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
+    },
+    {
+      "id": "27-nosler",
+      "name": ".27 Nosler",
+      "kind": "saami",
+      "aliases": [
+        "27 Nosler"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.277,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": null,
+      "neckLength": null,
+      "caseCapacityGrH2O": 98.4,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Nosler, 27 Nosler cartridge page",
+        "url": "https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Nosler prints a fireformed case, overflowing to the neck, as 98.4 gr H2O. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
     },
     {
       "id": "6-17-spitfire",
