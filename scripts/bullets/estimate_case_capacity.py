@@ -140,11 +140,21 @@ def normalize_record(record: dict, source: str, *, inches_fields: bool) -> dict:
         case_len = _num(record.get("caseLengthIn"))
         rim = _num(record.get("rimDiameterIn"))
         neck = _num(record.get("neckLengthIn"))
+        base = _num(record.get("baseDiameterIn"))
+        shoulder_od = _num(record.get("shoulderDiameterIn"))
+        neck_od = _num(record.get("neckDiameterIn"))
+        length_to_shoulder = _num(record.get("lengthToShoulderIn"))
+        length_to_neck = _num(record.get("lengthToNeckIn"))
     else:
         bullet = _inches(record.get("bulletDiameter"), unit)
         case_len = _inches(record.get("caseLength"), unit)
         rim = _inches(record.get("rimDiameter"), unit)
         neck = _inches(record.get("neckLength"), unit)
+        base = _inches(record.get("baseDiameter"), unit)
+        shoulder_od = _inches(record.get("shoulderDiameter"), unit)
+        neck_od = _inches(record.get("neckDiameter"), unit)
+        length_to_shoulder = _inches(record.get("lengthToShoulder"), unit)
+        length_to_neck = _inches(record.get("lengthToNeck"), unit)
     return {
         "id": record["id"],
         "name": record.get("name") or record["id"],
@@ -157,6 +167,11 @@ def normalize_record(record: dict, source: str, *, inches_fields: bool) -> dict:
         "rimType": record.get("rimType"),
         "shoulder": _num(record.get("shoulderAngleDeg")),
         "neck": neck,
+        "base": base,
+        "shoulderOd": shoulder_od,
+        "neckOd": neck_od,
+        "lengthToShoulder": length_to_shoulder,
+        "lengthToNeck": length_to_neck,
         "capacity": _num(record.get("caseCapacityGrH2O")),
         "capacityIsPriorEstimate": _prior_estimate(record),
         "source": source,
@@ -247,6 +262,11 @@ def _merge_cluster(members: list[dict]) -> dict:
     rim_type, rim_type_src, rim_type_conflicts = _prefer(members, "rimType")
     shoulder, shoulder_src, shoulder_conflicts = _prefer(members, "shoulder")
     neck, neck_src, neck_conflicts = _prefer(members, "neck")
+    base, base_src, base_conflicts = _prefer(members, "base")
+    shoulder_od, shoulder_od_src, shoulder_od_conflicts = _prefer(members, "shoulderOd")
+    neck_od, neck_od_src, neck_od_conflicts = _prefer(members, "neckOd")
+    length_to_shoulder, length_to_shoulder_src, length_to_shoulder_conflicts = _prefer(members, "lengthToShoulder")
+    length_to_neck, length_to_neck_src, length_to_neck_conflicts = _prefer(members, "lengthToNeck")
     parent, parent_src, _parent_conflicts = _prefer(members, "parentCase")
     cited = []
     for rec in members:
@@ -280,6 +300,16 @@ def _merge_cluster(members: list[dict]) -> dict:
         "shoulderSource": shoulder_src,
         "neck": neck,
         "neckSource": neck_src,
+        "base": base,
+        "baseSource": base_src,
+        "shoulderOd": shoulder_od,
+        "shoulderOdSource": shoulder_od_src,
+        "neckOd": neck_od,
+        "neckOdSource": neck_od_src,
+        "lengthToShoulder": length_to_shoulder,
+        "lengthToShoulderSource": length_to_shoulder_src,
+        "lengthToNeck": length_to_neck,
+        "lengthToNeckSource": length_to_neck_src,
         "cited": cited,
         "conflicts": {
             key: value
@@ -290,6 +320,11 @@ def _merge_cluster(members: list[dict]) -> dict:
                 "rimType": rim_type_conflicts,
                 "shoulderAngleDeg": shoulder_conflicts,
                 "neckLengthIn": neck_conflicts,
+                "baseDiameterIn": base_conflicts,
+                "shoulderDiameterIn": shoulder_od_conflicts,
+                "neckDiameterIn": neck_od_conflicts,
+                "lengthToShoulderIn": length_to_shoulder_conflicts,
+                "lengthToNeckIn": length_to_neck_conflicts,
             }.items()
             if value
         },
@@ -351,6 +386,96 @@ def geometric_volume(case_length: float, base_od: float, bullet: float, angle: f
     shoulder = math.pi / 12 * shoulder_length * (shoulder_id**2 + shoulder_id * bullet + bullet**2)
     neck_vol = math.pi / 4 * bullet**2 * neck
     return (body + shoulder + neck_vol) * WATER_GRAINS_PER_CUBIC_INCH
+
+
+def _case_inside(chamber_od: float, clearance: float, wall: float) -> float:
+    """Case inside diameter: chamber minus diametral clearance, then two wall thicknesses."""
+    return chamber_od - clearance - 2 * wall
+
+
+def profile_volume(cluster: dict, spec: dict) -> float | None:
+    """Water capacity from a reamer print after clearance and brass are removed.
+
+    The print's diameters are chamber diameters. A diametral clearance is
+    subtracted to estimate the case outside, then a tapered body wall, a
+    neck wall, and a solid head web are removed. The neck inside diameter
+    is the case neck outside minus two neck walls, not the bullet diameter.
+    """
+    lengths = _profile_lengths(cluster, spec["webIn"])
+    if lengths is None or cluster.get("neckOd") is None:
+        return None
+    body_len, shoulder_len, neck_len = lengths
+    base_id = _case_inside(cluster["base"], spec["bodyClearanceIn"], spec["bodyWallAtBaseIn"])
+    shoulder_id = _case_inside(cluster["shoulderOd"], spec["bodyClearanceIn"], spec["bodyWallAtShoulderIn"])
+    neck_id = _case_inside(cluster["neckOd"], spec["neckClearanceIn"], spec["neckWallIn"])
+    if min(base_id, shoulder_id, neck_id) <= 0.05 or neck_id >= min(base_id, shoulder_id) - 0.005:
+        return None
+    body = math.pi / 12 * body_len * (base_id**2 + base_id * shoulder_id + shoulder_id**2)
+    shoulder = math.pi / 12 * shoulder_len * (shoulder_id**2 + shoulder_id * neck_id + neck_id**2)
+    neck_vol = math.pi / 4 * neck_id**2 * neck_len
+    return (body + shoulder + neck_vol) * WATER_GRAINS_PER_CUBIC_INCH
+
+
+def _profile_lengths(cluster: dict, web: float) -> tuple[float, float, float] | None:
+    """Body, shoulder, and neck lengths from a printed profile. None when incomplete."""
+    if any(cluster.get(key) is None for key in ("base", "shoulderOd", "neckOd", "lengthToShoulder", "lengthToNeck", "caseLength", "bullet")):
+        return None
+    if not cluster["lengthToShoulder"] < cluster["lengthToNeck"] < cluster["caseLength"]:
+        return None
+    neck = cluster["neck"] if cluster["neck"] is not None else cluster["caseLength"] - cluster["lengthToNeck"]
+    body = cluster["lengthToShoulder"] - web
+    shoulder = cluster["lengthToNeck"] - cluster["lengthToShoulder"]
+    if neck <= 0 or body < 0.05 or shoulder < 0.02:
+        return None
+    return body, shoulder, neck
+
+
+def fit_profile(rows: list[dict]) -> dict | None:
+    """Pick clearance and brass thickness inside documented rifle-case bands.
+
+    Bands are typical rifle-case values, not a printed table: body clearance
+    0.001–0.006 in on the diameter, neck clearance 0.002–0.006 in, neck wall
+    0.012–0.016 in, body wall 0.011–0.017 in at the shoulder and 0.018–0.030 in
+    at the web, solid head 0.18–0.26 in. These reamer prints show 0.200 in from
+    the bolt face, inside that head band. The combination with the smallest
+    median absolute error on published capacities is kept, then the smallest worst error.
+    """
+    if len(rows) < MIN_FIT_N:
+        return None
+    best = None
+    for clearance_i in (1, 2, 3, 4, 5, 6):
+        body_clearance = clearance_i * 0.001
+        for neck_clearance in (0.002, 0.003, 0.004, 0.005, 0.006):
+            for neck_wall in (0.012, 0.014, 0.016):
+                for wall_shoulder in (0.011, 0.014, 0.017):
+                    for wall_base in (0.018, 0.024, 0.030):
+                        for web in (0.18, 0.22, 0.26):
+                            spec = {
+                                "bodyClearanceIn": body_clearance,
+                                "neckClearanceIn": neck_clearance,
+                                "neckWallIn": neck_wall,
+                                "bodyWallAtShoulderIn": wall_shoulder,
+                                "bodyWallAtBaseIn": wall_base,
+                                "webIn": web,
+                            }
+                            errors = {}
+                            failed = False
+                            for row in rows:
+                                estimate = profile_volume(row, spec)
+                                if estimate is None:
+                                    failed = True
+                                    break
+                                errors[row["id"]] = estimate - row["capacity"]
+                            if failed or len(errors) < MIN_FIT_N:
+                                continue
+                            med = _median_abs(list(errors.values()))
+                            worst = max(abs(error) for error in errors.values())
+                            if best is None or (med, worst) < (best["median"], best["worst"]):
+                                best = {"median": med, "worst": worst, "spec": spec, "errors": errors}
+    if best is None:
+        return None
+    summary = _error_summary(best["errors"])
+    return {**best["spec"], "errors": best["errors"], "summary": summary}
 
 
 def _median_abs(errors: list[float]) -> float:
@@ -613,6 +738,8 @@ def build() -> dict:
             continue
         calibration.append({**cluster, "capacity": capacity})
     geometric = fit_geometric(calibration)
+    profile_rows = [row for row in calibration if _profile_lengths(row, 0.1) is not None]
+    profile_fit = fit_profile(profile_rows)
 
     pairs = []
     for cluster in calibration:
@@ -675,10 +802,10 @@ def build() -> dict:
             continue
 
         assumed_rim, rim_note = _assume_rim_type(cluster, by_id, children)
-        geo = _geometric_for(cluster, assumed_rim, geometric)
+        geo = _profile_for(cluster, profile_fit) or _geometric_for(cluster, assumed_rim, geometric)
         # The geometric model misses some family shape. When the parent has a
         # cited capacity, subtract that parent's residual (model minus cited).
-        if geo and cluster["parentId"] in geo_error_by_id:
+        if geo and not geo.get("profile") and cluster["parentId"] in geo_error_by_id:
             residual = geo_error_by_id[cluster["parentId"]]
             corrected = geo["estimate"] - residual
             if 1 <= corrected <= 500:
@@ -796,6 +923,25 @@ def build() -> dict:
         "calibration": {
             "geometric": {"overall": overall, "byRimType": class_summaries},
             "parentCase": parent_summary,
+            "printedProfile": None if profile_fit is None else {
+                **profile_fit["summary"],
+                "bodyClearanceOnDiameterIn": profile_fit["bodyClearanceIn"],
+                "neckClearanceOnDiameterIn": profile_fit["neckClearanceIn"],
+                "neckWallIn": profile_fit["neckWallIn"],
+                "bodyWallAtShoulderIn": profile_fit["bodyWallAtShoulderIn"],
+                "bodyWallAtBaseIn": profile_fit["bodyWallAtBaseIn"],
+                "webIn": profile_fit["webIn"],
+                "residuals": [
+                    {"cartridgeId": cartridge_id, "errorGr": _round(error, 2)}
+                    for cartridge_id, error in sorted(profile_fit["errors"].items(), key=lambda item: -abs(item[1]))
+                ],
+                "method": (
+                    "Reamer diameters are chamber diameters. Subtract body clearance for the case outside, "
+                    "then a tapered body wall (thicker at the web), a neck wall, and a solid head. "
+                    "Clearance and wall were chosen inside typical rifle-case bands to minimize median absolute error "
+                    "on cartridges that have both a printed profile and a published capacity."
+                ),
+            },
         },
         "estimateCount": len(estimates),
         "skippedCitedCount": len(skipped),
@@ -804,6 +950,37 @@ def build() -> dict:
         "estimates": estimates,
         "unable": unable,
         "skippedCited": skipped,
+    }
+
+
+def _profile_for(cluster: dict, profile_fit: dict | None) -> dict | None:
+    """Geometric estimate from a reamer print after clearance and brass are removed."""
+    if profile_fit is None:
+        return None
+    lengths = _profile_lengths(cluster, profile_fit["webIn"])
+    if lengths is None:
+        return None
+    body, shoulder, neck = lengths
+    estimate = profile_volume(cluster, profile_fit)
+    if estimate is None or not 1 <= estimate <= 500:
+        return None
+    return {
+        "method": "geometric",
+        "estimate": estimate,
+        "summary": profile_fit["summary"],
+        "rimTypeUsed": cluster.get("rimType"),
+        "baseOffsetIn": 0.0,
+        "neckIn": neck,
+        "neckAssumed": cluster["neck"] is None,
+        "profile": True,
+        "bodyIn": body,
+        "shoulderLenIn": shoulder,
+        "bodyClearanceIn": profile_fit["bodyClearanceIn"],
+        "neckClearanceIn": profile_fit["neckClearanceIn"],
+        "neckWallIn": profile_fit["neckWallIn"],
+        "bodyWallAtShoulderIn": profile_fit["bodyWallAtShoulderIn"],
+        "bodyWallAtBaseIn": profile_fit["bodyWallAtBaseIn"],
+        "webIn": profile_fit["webIn"],
     }
 
 
@@ -917,8 +1094,24 @@ def _unable_reason(cluster: dict, rim_type: str | None, geometric: dict, parent_
 
 def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note: str | None, geometric: dict, parent_cap: float | None, parent_name: str | None) -> dict:
     assumptions = []
+    if chosen.get("profile"):
+        assumptions.append(
+            "Printed reamer diameters are chamber sizes. "
+            f"Body clearance {chosen['bodyClearanceIn']:.3f} in and neck clearance {chosen['neckClearanceIn']:.3f} in "
+            "on the diameter estimate the case outside. "
+            f"Brass removed: body wall {chosen['bodyWallAtBaseIn']:.3f} in at the web tapering to "
+            f"{chosen['bodyWallAtShoulderIn']:.3f} in at the shoulder, neck wall {chosen['neckWallIn']:.3f} in, "
+            f"solid head {chosen['webIn']:.2f} in. "
+            "Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities."
+        )
     if chosen["method"] == "geometric" and chosen["neckAssumed"]:
-        assumptions.append("Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.")
+        if chosen.get("profile"):
+            assumptions.append(
+                "Neck length is not stored. Used case length minus the printed length to the neck junction. "
+                "Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head."
+            )
+        else:
+            assumptions.append("Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.")
     if rim_note and chosen["method"] == "geometric":
         assumptions.append(rim_note[0].upper() + rim_note[1:] + ".")
     if chosen["method"] == "parent-case":
@@ -989,7 +1182,32 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
         },
         "supersededByPrintedValueWhenAvailable": True,
     }
-    if chosen["method"] == "geometric":
+    if chosen.get("profile"):
+        row["inputs"]["baseDiameterIn"] = _maybe(cluster["base"])
+        row["inputs"]["baseDiameterSource"] = cluster.get("baseSource")
+        row["inputs"]["shoulderDiameterIn"] = _maybe(cluster["shoulderOd"])
+        row["inputs"]["shoulderDiameterSource"] = cluster.get("shoulderOdSource")
+        row["inputs"]["neckDiameterIn"] = _maybe(cluster["neckOd"])
+        row["inputs"]["lengthToShoulderIn"] = _maybe(cluster["lengthToShoulder"])
+        row["inputs"]["lengthToNeckIn"] = _maybe(cluster["lengthToNeck"])
+        row["inputs"]["bodyClearanceOnDiameterIn"] = chosen["bodyClearanceIn"]
+        row["inputs"]["neckClearanceOnDiameterIn"] = chosen["neckClearanceIn"]
+        row["inputs"]["caseOutsideBaseDiameterIn"] = _round(cluster["base"] - chosen["bodyClearanceIn"], 4)
+        row["inputs"]["caseOutsideShoulderDiameterIn"] = _round(cluster["shoulderOd"] - chosen["bodyClearanceIn"], 4)
+        row["inputs"]["caseOutsideNeckDiameterIn"] = _round(cluster["neckOd"] - chosen["neckClearanceIn"], 4)
+        row["inputs"]["bodyWallAtBaseIn"] = chosen["bodyWallAtBaseIn"]
+        row["inputs"]["bodyWallAtShoulderIn"] = chosen["bodyWallAtShoulderIn"]
+        row["inputs"]["neckWallIn"] = chosen["neckWallIn"]
+        row["inputs"]["headWebIn"] = chosen["webIn"]
+        row["inputs"]["bodyLengthUsedIn"] = _round(chosen["bodyIn"], 4)
+        row["inputs"]["shoulderLengthUsedIn"] = _round(chosen["shoulderLenIn"], 4)
+        row["inputs"]["neckLengthUsedIn"] = _round(chosen["neckIn"], 4)
+        row["inputs"]["profile"] = (
+            "Printed reamer diameters are chamber diameters. "
+            "Case outside is chamber minus the diametral clearance. "
+            "Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
+        )
+    elif chosen["method"] == "geometric":
         row["inputs"]["effectiveWallIn"] = _round(geometric["wallIn"], 4)
         row["inputs"]["headWebIn"] = _round(geometric["webIn"], 4)
         row["inputs"]["bodyTaperOnDiameterIn"] = _round(geometric["taperIn"], 4)

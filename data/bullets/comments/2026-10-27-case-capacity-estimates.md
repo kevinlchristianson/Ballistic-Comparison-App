@@ -1,6 +1,6 @@
 # Where should case-capacity estimates live?
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Cartridge case capacity
 
@@ -63,3 +63,5 @@ A later run on 2026-10-28 dropped every Hammer printed volume that matches a lib
 Keep the estimates in `data/bullets/estimates/case-capacity.json`. Do not write them into `caseCapacityGrH2O` on the owner list or either bot cartridge file. A published capacity, including Hammer's, replaces the estimate on the next run.
 
 ## Answer
+
+Yes, still wanted, stored in `data/bullets/estimates/case-capacity.json` with `caseCapacityEstimateGrH2O`, `estimated: true`, the method, inputs, and calibration error. Never in `caseCapacityGrH2O`. See also `2026-10-28-case-capacity-estimates-still-wanted.md`.
