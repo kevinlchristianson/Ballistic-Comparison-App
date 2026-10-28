@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 245,
+  "cartridgeCount": 255,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -27,7 +27,7 @@
       "lengthToNeck": 1.7115,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -58,7 +58,7 @@
       "lengthToNeck": 1.452,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -89,7 +89,7 @@
       "lengthToNeck": 1.5725,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -120,7 +120,7 @@
       "lengthToNeck": 1.29,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 32.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -151,7 +151,7 @@
       "lengthToNeck": 1.197,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -182,7 +182,7 @@
       "lengthToNeck": 1.275,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -213,7 +213,7 @@
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -221,6 +221,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .204 Ruger bore, 0.204 in; no groove is printed. Neck 0.2330 in at the shoulder junction; mouth 0.2310 in. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 30.08 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "218-bee",
+      "name": ".218 Bee",
+      "kind": "wildcat",
+      "aliases": [
+        "218 Bee"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.345,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.408,
+      "neckLength": null,
+      "baseDiameter": 0.3491,
+      "shoulderDiameter": 0.3324,
+      "neckDiameter": 0.2435,
+      "lengthToShoulder": 0.923,
+      "lengthToNeck": 1.0891,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 15.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/218-bee/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .218 Bee profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2435 in, mouth 0.2420 in. Shoulder 0.3324 in at 15 deg. Body diameter printed at 0.0870 in from the head. Rim 0.4080 in; rim thickness 0.0650 in has no field. 4D Case Cap. 19.05 gr (printed figure, not stored as water)."
     },
     {
       "id": "218-mashburn-bee",
@@ -244,7 +275,7 @@
       "lengthToNeck": 1.152,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -275,7 +306,7 @@
       "lengthToNeck": 1.497,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -304,7 +335,7 @@
       "lengthToNeck": 1.621,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 12.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -335,7 +366,7 @@
       "lengthToNeck": 2.2408,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -366,7 +397,7 @@
       "lengthToNeck": 1.834,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -395,7 +426,7 @@
       "lengthToNeck": 1.6636,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -426,7 +457,7 @@
       "lengthToNeck": 1.67,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -457,7 +488,7 @@
       "lengthToNeck": 1.8853,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 26.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -488,7 +519,7 @@
       "lengthToNeck": 1.8782,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -519,7 +550,7 @@
       "lengthToNeck": 1.3289,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -550,7 +581,7 @@
       "lengthToNeck": 1.752,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -579,7 +610,7 @@
       "lengthToNeck": 1.6658,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -610,7 +641,7 @@
       "lengthToNeck": 1.304,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -641,7 +672,7 @@
       "lengthToNeck": 1.0382,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -670,7 +701,7 @@
       "lengthToNeck": 1.515,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -701,7 +732,7 @@
       "lengthToNeck": 1.6304,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 14.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -732,7 +763,7 @@
       "lengthToNeck": 1.0744,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -763,7 +794,7 @@
       "lengthToNeck": 1.7,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -794,7 +825,7 @@
       "lengthToNeck": 1.8964,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -825,7 +856,7 @@
       "lengthToNeck": 1.8445,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -854,7 +885,7 @@
       "lengthToNeck": 1.3819,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -885,7 +916,7 @@
       "lengthToNeck": 1.3833,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -916,7 +947,7 @@
       "lengthToNeck": 1.5822,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -947,7 +978,7 @@
       "lengthToNeck": 1.914,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -976,7 +1007,7 @@
       "lengthToNeck": 1.5673,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1005,7 +1036,7 @@
       "lengthToNeck": 1.8452,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1034,7 +1065,7 @@
       "lengthToNeck": 1.326,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1063,7 +1094,7 @@
       "lengthToNeck": 1.393,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1094,7 +1125,7 @@
       "lengthToNeck": 1.579,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.1667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1125,7 +1156,7 @@
       "lengthToNeck": 1.875,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 34.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1156,7 +1187,7 @@
       "lengthToNeck": 2.2708,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1187,7 +1218,7 @@
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1218,7 +1249,7 @@
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1247,7 +1278,7 @@
       "lengthToNeck": 1.7932,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -1278,7 +1309,7 @@
       "lengthToNeck": 2.2068,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 34.8333,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1309,7 +1340,7 @@
       "lengthToNeck": 1.861,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 32.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1340,7 +1371,7 @@
       "lengthToNeck": 2.1345,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.25,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1369,7 +1400,7 @@
       "lengthToNeck": 1.804,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1400,7 +1431,7 @@
       "lengthToNeck": 1.384,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1429,7 +1460,7 @@
       "lengthToNeck": 2.1824,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.25,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -1460,7 +1491,7 @@
       "lengthToNeck": 1.8397,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1491,7 +1522,7 @@
       "lengthToNeck": 1.6927,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1522,7 +1553,7 @@
       "lengthToNeck": 1.5205,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1530,6 +1561,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .25 bore, 0.257 in; no groove is printed. Neck 0.2840 in at the mouth and the shoulder junction. Shoulder 0.3539 in at 23 deg. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. The drawing also titles the case 6.35x45mm. This is not an Ackley. 4D Case Cap. 29.12 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "25-creedmoor",
+      "name": ".25 Creedmoor",
+      "kind": "wildcat",
+      "aliases": [
+        "25 Creedmoor"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 1.92,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4707,
+      "shoulderDiameter": 0.462,
+      "neckDiameter": 0.286,
+      "lengthToShoulder": 1.4901,
+      "lengthToNeck": 1.6425,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/25-creedmoor-257/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .25 Creedmoor profile. Bullet diameter is the named .25 bore, 0.257 in; no groove is printed. Neck 0.2860 in at the mouth and the shoulder junction. Shoulder 0.4620 in at 30 deg. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 50.97 gr (printed figure, not stored as water)."
     },
     {
       "id": "25-gibbs",
@@ -1553,7 +1615,7 @@
       "lengthToNeck": 2.275,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1582,7 +1644,7 @@
       "lengthToNeck": 1.964,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0833,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1613,7 +1675,7 @@
       "lengthToNeck": 1.9398,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1644,7 +1706,7 @@
       "lengthToNeck": 1.7485,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1675,7 +1737,7 @@
       "lengthToNeck": 1.784,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1706,7 +1768,7 @@
       "lengthToNeck": 1.6377,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 26.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1737,7 +1799,7 @@
       "lengthToNeck": 1.6354,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -1768,7 +1830,7 @@
       "lengthToNeck": 2.17,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 14.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1809,6 +1871,37 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .257 bore, 0.257 in; no groove is printed. Neck 0.2920 in at the mouth and the shoulder junction. Body 0.5137 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1277 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 91.40 gr (printed figure, not stored as water)."
     },
     {
+      "id": "26-nosler",
+      "name": ".26 Nosler",
+      "kind": "wildcat",
+      "aliases": [
+        "26 Nosler"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.5275,
+      "neckDiameter": 0.297,
+      "lengthToShoulder": 2.1662,
+      "lengthToNeck": 2.3308,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/26-nosler-magnum/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .26 Nosler profile. Bullet diameter is the named .26 bore, 0.264 in; no groove is printed. Neck 0.2970 in at the mouth and the shoulder junction. Shoulder 0.5275 in at 35 deg. Body diameter printed at 0.1390 in from the head. Rim 0.5340 in; rim thickness 0.0500 in has no field. 4D Case Cap. 98.59 gr (printed figure, not stored as water)."
+    },
+    {
       "id": "260-rem",
       "name": ".260 Remington",
       "kind": "saami",
@@ -1828,7 +1921,7 @@
       "lengthToNeck": 1.7687,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -1859,7 +1952,7 @@
       "lengthToNeck": 1.266,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.1667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1919,7 +2012,7 @@
       "lengthToNeck": 1.7448,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -1950,7 +2043,7 @@
       "lengthToNeck": 1.4925,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -1979,7 +2072,7 @@
       "lengthToNeck": 1.372,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2010,7 +2103,7 @@
       "lengthToNeck": 1.7345,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2039,7 +2132,7 @@
       "lengthToNeck": 2.1557,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2070,7 +2163,7 @@
       "lengthToNeck": 2.087,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2099,7 +2192,7 @@
       "lengthToNeck": 1.7562,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -2130,7 +2223,7 @@
       "lengthToNeck": 1.293,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2138,6 +2231,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .277 bore, 0.277 in; no groove is printed. Neck 0.3050 in at the shoulder junction; mouth 0.3040 in. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 25.58 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "28-nosler",
+      "name": ".28 Nosler",
+      "kind": "wildcat",
+      "aliases": [
+        "28 Nosler"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.59,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.5275,
+      "neckDiameter": 0.317,
+      "lengthToShoulder": 2.1662,
+      "lengthToNeck": 2.3165,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/28-nosler/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .28 Nosler profile. Bullet diameter is the named .28 bore, 0.284 in; no groove is printed. Neck 0.3170 in at the mouth and the shoulder junction. Shoulder 0.5275 in at 35 deg. Body diameter printed at 0.1390 in from the head. Rim 0.5340 in; rim thickness 0.0500 in has no field. 4D Case Cap. 99.16 gr (printed figure, not stored as water)."
     },
     {
       "id": "280-rem",
@@ -2159,7 +2283,7 @@
       "lengthToNeck": 2.1993,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2188,7 +2312,7 @@
       "lengthToNeck": 1.8854,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2217,7 +2341,7 @@
       "lengthToNeck": 2.101,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.25,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -2248,7 +2372,7 @@
       "lengthToNeck": 1.0986,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2279,7 +2403,7 @@
       "lengthToNeck": 1.344,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2310,7 +2434,7 @@
       "lengthToNeck": 1.6092,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -2339,7 +2463,7 @@
       "lengthToNeck": 2.4383,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2401,7 +2525,7 @@
       "lengthToNeck": 2.327,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2430,7 +2554,7 @@
       "lengthToNeck": 2.1112,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2461,7 +2585,7 @@
       "lengthToNeck": 1.9226,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2492,7 +2616,7 @@
       "lengthToNeck": 2.2555,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.4167,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2521,7 +2645,7 @@
       "lengthToNeck": 1.5135,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.3333,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2552,7 +2676,7 @@
       "lengthToNeck": 2.252,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2583,7 +2707,7 @@
       "lengthToNeck": 2.205,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2614,7 +2738,7 @@
       "lengthToNeck": 1.1547,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2622,6 +2746,68 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3380 in at the mouth and the shoulder junction. Body diameter printed at 0.1360 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 35.22 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "30-rem-ar",
+      "name": ".30 Remington AR",
+      "kind": "wildcat",
+      "aliases": [
+        "30 Remington AR"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 1.53,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.492,
+      "neckLength": null,
+      "baseDiameter": 0.5005,
+      "shoulderDiameter": 0.4885,
+      "neckDiameter": 0.342,
+      "lengthToShoulder": 1.0681,
+      "lengthToNeck": 1.2252,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/30-rem-ar/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .30 Remington AR profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3420 in at the mouth and the shoulder junction. Shoulder 0.4885 in at 25 deg. Body diameter printed at 0.1580 in from the head. Rim 0.4920 in; rim thickness 0.0540 in has no field. 4D Case Cap. 45.10 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "30-tc",
+      "name": ".30 Thompson Center",
+      "kind": "wildcat",
+      "aliases": [
+        "30 Thompson Center"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 1.92,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": null,
+      "baseDiameter": 0.4705,
+      "shoulderDiameter": 0.464,
+      "neckDiameter": 0.337,
+      "lengthToShoulder": 1.512,
+      "lengthToNeck": 1.622,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/30-tc/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .30 Thompson Center profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3370 in at the mouth and the shoulder junction. Shoulder 0.4640 in at 30 deg. Body diameter printed at 0.1253 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 54.98 gr (printed figure, not stored as water)."
     },
     {
       "id": "300-ackley-mag",
@@ -2676,7 +2862,7 @@
       "lengthToNeck": 2.24,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 31.9167,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2767,7 +2953,7 @@
       "lengthToNeck": 2.2667,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -2798,7 +2984,7 @@
       "lengthToNeck": 1.795,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 29.9167,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2829,7 +3015,7 @@
       "lengthToNeck": 2.54,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2860,7 +3046,7 @@
       "lengthToNeck": 1.6503,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2891,7 +3077,7 @@
       "lengthToNeck": 1.102,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15.3333,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2949,7 +3135,7 @@
       "lengthToNeck": 1.8027,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -2980,7 +3166,7 @@
       "lengthToNeck": 1.89,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 16.9667,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3011,7 +3197,7 @@
       "lengthToNeck": 1.4774,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 16.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3042,7 +3228,7 @@
       "lengthToNeck": 1.6999,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -3050,6 +3236,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-11016. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
+      "id": "308-marlin-express",
+      "name": ".308 Marlin Express",
+      "kind": "wildcat",
+      "aliases": [
+        "308 Marlin Express"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 1.92,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.506,
+      "neckLength": null,
+      "baseDiameter": 0.4703,
+      "shoulderDiameter": 0.454,
+      "neckDiameter": 0.337,
+      "lengthToShoulder": 1.4601,
+      "lengthToNeck": 1.6207,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/308-marlin-express/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .308 Marlin Express profile. Bullet diameter is the named .30 bore, 0.308 in; no groove is printed. Neck 0.3370 in at the mouth and the shoulder junction. Shoulder 0.4540 in at 20 deg. Body diameter printed at 0.1463 in from the head. Rim 0.5060 in; rim thickness 0.0630 in has no field. 4D Case Cap. 52.80 gr (printed figure, not stored as water)."
     },
     {
       "id": "308-norma-mag",
@@ -3102,7 +3319,7 @@
       "lengthToNeck": 1.7039,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -3133,7 +3350,7 @@
       "lengthToNeck": 1.196,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3164,7 +3381,7 @@
       "lengthToNeck": 1.5064,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3195,7 +3412,7 @@
       "lengthToNeck": 2.0421,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.1667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3203,6 +3420,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .318 groove, 0.330 in; no groove is printed. Neck 0.3591 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. Shoulder is printed 25 deg 10 min. 4D Case Cap. 67.12 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "32-win-spl",
+      "name": ".32 Winchester Special",
+      "kind": "wildcat",
+      "aliases": [
+        "32 Winchester Special"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.321,
+      "caseLength": 2.04,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.506,
+      "neckLength": null,
+      "baseDiameter": 0.4219,
+      "shoulderDiameter": 0.4014,
+      "neckDiameter": 0.3456,
+      "lengthToShoulder": 1.4461,
+      "lengthToNeck": 1.5538,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 14.5167,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/32-winchester-special/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .32 Winchester Special profile. Bullet diameter is the named .32 bore, 0.321 in; no groove is printed. Neck junction 0.3456 in, mouth 0.3430 in. Shoulder 0.4014 in at 14 deg 31 min. Body diameter 0.4219 in. Rim 0.5060 in; rim thickness 0.0630 in has no field. 4D Case Cap. 44.26 gr (printed figure, not stored as water)."
     },
     {
       "id": "33-win",
@@ -3226,7 +3474,7 @@
       "lengthToNeck": 1.77,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 16.25,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3257,7 +3505,7 @@
       "lengthToNeck": 2.203,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 34.1667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3288,7 +3536,7 @@
       "lengthToNeck": 2.0495,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -3319,7 +3567,7 @@
       "lengthToNeck": 1.6658,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -3350,7 +3598,7 @@
       "lengthToNeck": 1.315,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3381,7 +3629,7 @@
       "lengthToNeck": 1.8547,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3410,7 +3658,7 @@
       "lengthToNeck": 1.682,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3441,7 +3689,7 @@
       "lengthToNeck": 1.5699,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3472,7 +3720,7 @@
       "lengthToNeck": 2.633,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3501,7 +3749,7 @@
       "lengthToNeck": 2.397,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3532,7 +3780,7 @@
       "lengthToNeck": 2.393,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3540,6 +3788,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .338 caliber; no groove is printed. Neck 0.3720 in at the mouth and the shoulder junction. Body diameter printed at 0.1230 in from the head. Rim thickness 0.0580 in has no field. 4D Case Cap. 124.89 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "338-marlin-express",
+      "name": ".338 Marlin Express",
+      "kind": "wildcat",
+      "aliases": [
+        "338 Marlin Express"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 1.89,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.506,
+      "neckLength": null,
+      "baseDiameter": 0.5068,
+      "shoulderDiameter": 0.493,
+      "neckDiameter": 0.368,
+      "lengthToShoulder": 1.4578,
+      "lengthToNeck": 1.5918,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25.0,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/338-marlin-express/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .338 Marlin Express profile. Bullet diameter is the named .338 bore, 0.338 in; no groove is printed. Neck 0.3680 in at the mouth and the shoulder junction. Shoulder 0.4930 in at 25 deg. Body diameter printed at 0.1463 in from the head. Rim 0.5060 in; rim thickness 0.0630 in has no field. 4D Case Cap. 62.21 gr (printed figure, not stored as water)."
     },
     {
       "id": "338-rum-ai",
@@ -3563,7 +3842,7 @@
       "lengthToNeck": 2.4261,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3594,7 +3873,7 @@
       "lengthToNeck": 2.135,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3625,7 +3904,7 @@
       "lengthToNeck": 0.975,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 29.9167,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3685,7 +3964,7 @@
       "lengthToNeck": 1.9082,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 39.1667,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3716,7 +3995,7 @@
       "lengthToNeck": 1.8505,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3745,7 +4024,7 @@
       "lengthToNeck": 1.4641,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15.5833,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3776,7 +4055,7 @@
       "lengthToNeck": 1.7957,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3807,7 +4086,7 @@
       "lengthToNeck": 1.7817,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3838,7 +4117,7 @@
       "lengthToNeck": 2.294,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3900,7 +4179,7 @@
       "lengthToNeck": 2.143,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 34.5833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3931,7 +4210,7 @@
       "lengthToNeck": 2.154,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3962,7 +4241,7 @@
       "lengthToNeck": 1.5843,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.4167,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -3993,7 +4272,7 @@
       "lengthToNeck": 2.032,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4024,7 +4303,7 @@
       "lengthToNeck": 2.018,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15.3167,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4053,7 +4332,7 @@
       "lengthToNeck": 2.2627,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.25,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4084,7 +4363,7 @@
       "lengthToNeck": 1.8855,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4115,7 +4394,7 @@
       "lengthToNeck": 1.6505,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "semi-rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4146,7 +4425,7 @@
       "lengthToNeck": 1.1873,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4177,7 +4456,7 @@
       "lengthToNeck": 1.51,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.1667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4208,7 +4487,7 @@
       "lengthToNeck": 1.2918,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4299,7 +4578,7 @@
       "lengthToNeck": 2.2198,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4330,7 +4609,7 @@
       "lengthToNeck": 2.698,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4392,7 +4671,7 @@
       "lengthToNeck": 1.7703,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4423,7 +4702,7 @@
       "lengthToNeck": 1.8855,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4454,7 +4733,7 @@
       "lengthToNeck": 1.8165,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4485,7 +4764,7 @@
       "lengthToNeck": 2.17,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 29.6667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4607,7 +4886,7 @@
       "lengthToNeck": 2.275,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4638,7 +4917,7 @@
       "lengthToNeck": 1.994,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4667,7 +4946,7 @@
       "lengthToNeck": 1.4,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 8.0833,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4698,7 +4977,7 @@
       "lengthToNeck": 2.021,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 27.6667,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4727,7 +5006,7 @@
       "lengthToNeck": 2.251,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 8.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4756,7 +5035,7 @@
       "lengthToNeck": 2.6409,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 21.9167,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4787,7 +5066,7 @@
       "lengthToNeck": 2.638,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 21.5833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4876,7 +5155,7 @@
       "lengthToNeck": 1.956,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 10.0833,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4907,7 +5186,7 @@
       "lengthToNeck": 1.7168,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4938,7 +5217,7 @@
       "lengthToNeck": 1.795,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 16.5,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4969,7 +5248,7 @@
       "lengthToNeck": 2.4,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 26.25,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -4998,7 +5277,7 @@
       "lengthToNeck": 2.4016,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.25,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5029,7 +5308,7 @@
       "lengthToNeck": 1.219,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5058,7 +5337,7 @@
       "lengthToNeck": 1.6948,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5089,7 +5368,7 @@
       "lengthToNeck": 2.888,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 6.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5120,7 +5399,7 @@
       "lengthToNeck": 2.925,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 6.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5182,7 +5461,7 @@
       "lengthToNeck": 2.498,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 37.75,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5211,7 +5490,7 @@
       "lengthToNeck": 2.46,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5242,7 +5521,7 @@
       "lengthToNeck": 2.1646,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5273,7 +5552,7 @@
       "lengthToNeck": 1.901,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.75,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5304,7 +5583,7 @@
       "lengthToNeck": 1.8865,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5335,7 +5614,7 @@
       "lengthToNeck": 1.84,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5366,7 +5645,7 @@
       "lengthToNeck": 1.8974,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5395,7 +5674,7 @@
       "lengthToNeck": 1.8967,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5426,7 +5705,7 @@
       "lengthToNeck": 1.6574,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15.5833,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5455,7 +5734,7 @@
       "lengthToNeck": 1.6347,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5484,7 +5763,7 @@
       "lengthToNeck": 1.265,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5513,7 +5792,7 @@
       "lengthToNeck": 1.7534,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5606,7 +5885,7 @@
       "lengthToNeck": 1.4942,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5635,7 +5914,7 @@
       "lengthToNeck": 1.5477,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5666,7 +5945,7 @@
       "lengthToNeck": 1.703,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5697,7 +5976,7 @@
       "lengthToNeck": 1.79,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5728,7 +6007,7 @@
       "lengthToNeck": 1.848,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5757,7 +6036,7 @@
       "lengthToNeck": 1.8518,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5788,7 +6067,7 @@
       "lengthToNeck": 2.382,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5819,7 +6098,7 @@
       "lengthToNeck": 1.4096,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5848,7 +6127,7 @@
       "lengthToNeck": 1.7381,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5879,7 +6158,7 @@
       "lengthToNeck": 2.5901,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5908,7 +6187,7 @@
       "lengthToNeck": 2.21,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -5939,7 +6218,7 @@
       "lengthToNeck": 2.2009,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -5970,7 +6249,7 @@
       "lengthToNeck": 1.6289,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6001,7 +6280,7 @@
       "lengthToNeck": 1.4967,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6032,7 +6311,7 @@
       "lengthToNeck": 1.5544,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -6063,7 +6342,7 @@
       "lengthToNeck": 1.8997,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6094,7 +6373,7 @@
       "lengthToNeck": 1.7625,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6125,7 +6404,7 @@
       "lengthToNeck": 1.851,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6212,7 +6491,7 @@
       "lengthToNeck": 1.2551,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -6241,7 +6520,7 @@
       "lengthToNeck": 1.6512,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6272,7 +6551,7 @@
       "lengthToNeck": 1.4085,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6301,7 +6580,7 @@
       "lengthToNeck": 1.4375,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6332,7 +6611,7 @@
       "lengthToNeck": 1.872,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -6364,7 +6643,7 @@
       "lengthToNeck": 1.53,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6395,7 +6674,7 @@
       "lengthToNeck": 1.555,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6424,7 +6703,7 @@
       "lengthToNeck": 1.739,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 22.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6455,7 +6734,7 @@
       "lengthToNeck": 1.74,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 18.7167,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6486,7 +6765,7 @@
       "lengthToNeck": 1.9684,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6517,7 +6796,7 @@
       "lengthToNeck": 1.092,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 19.0833,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6548,7 +6827,7 @@
       "lengthToNeck": 1.86,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 23.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6577,7 +6856,7 @@
       "lengthToNeck": 1.7508,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6639,7 +6918,7 @@
       "lengthToNeck": 1.819,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6670,7 +6949,7 @@
       "lengthToNeck": 1.7466,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6701,7 +6980,7 @@
       "lengthToNeck": 2.466,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6732,7 +7011,7 @@
       "lengthToNeck": 2.2976,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6763,7 +7042,7 @@
       "lengthToNeck": 1.566,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 38.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6794,7 +7073,7 @@
       "lengthToNeck": 2.132,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6854,7 +7133,7 @@
       "lengthToNeck": 1.9875,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -6885,7 +7164,7 @@
       "lengthToNeck": 1.7376,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6945,7 +7224,7 @@
       "lengthToNeck": 1.8565,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -6976,7 +7255,7 @@
       "lengthToNeck": 1.8597,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -7005,7 +7284,7 @@
       "lengthToNeck": 1.8664,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 21.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7036,7 +7315,7 @@
       "lengthToNeck": 1.865,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.5,
-      "rimType": "rimmed",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7096,7 +7375,7 @@
       "lengthToNeck": 2.178,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20.26,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -7127,7 +7406,7 @@
       "lengthToNeck": 2.082,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7158,7 +7437,7 @@
       "lengthToNeck": 1.7921,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35.0833,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7220,7 +7499,7 @@
       "lengthToNeck": 2.571,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 25.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7251,7 +7530,7 @@
       "lengthToNeck": 1.9232,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "Pacific Tool & Gauge",
@@ -7280,7 +7559,7 @@
       "lengthToNeck": 1.9236,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30.8,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7311,7 +7590,7 @@
       "lengthToNeck": 2.3228,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 14.5,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7342,7 +7621,7 @@
       "lengthToNeck": 2.3188,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40.0,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7373,7 +7652,7 @@
       "lengthToNeck": 1.883,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7402,7 +7681,7 @@
       "lengthToNeck": 2.134,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7433,7 +7712,7 @@
       "lengthToNeck": 2.176,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 17.5,
-      "rimType": "rebated",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
@@ -7441,6 +7720,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3950 in at the mouth and the shoulder junction. Body diameter printed at 0.1200 in from the head. Rim thickness 0.0510 in has no field. Rim is smaller than the body. Shoulder is printed 17 deg 30 min. This is not an Ackley. 4D Case Cap. 82.21 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "9-3x74r",
+      "name": "9.3x74R",
+      "kind": "wildcat",
+      "aliases": [
+        "9.3mm X 74R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.366,
+      "caseLength": 2.941,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.526,
+      "neckLength": null,
+      "baseDiameter": 0.469,
+      "shoulderDiameter": 0.409,
+      "neckDiameter": 0.391,
+      "lengthToShoulder": 2.323,
+      "lengthToNeck": 2.421,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 5.25,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-74r/",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 9.3x74R profile. Bullet diameter is the named 9.3 bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Shoulder 0.4090 in at 5 deg 15 min. Body diameter 0.4690 in. Rim 0.5260 in; rim thickness 0.0550 in has no field. 4D Case Cap. 77.15 gr (printed figure, not stored as water)."
     },
     {
       "id": "9x57",
@@ -7464,7 +7774,7 @@
       "lengthToNeck": 1.883,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 19.0,
-      "rimType": "rimless",
+      "rimType": null,
       "pressure": null,
       "source": {
         "name": "4D Reamer Rentals",
