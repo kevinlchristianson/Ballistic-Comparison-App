@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 48,
+  "cartridgeCount": 54,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -387,6 +387,37 @@
       "note": "Chamber reamer drawing BOP-10947. The belt diameter .5350 was not stored. baseDiameter is the body just forward of the belt. Axial lengths are from the belt datum, not the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
     },
     {
+      "id": "270-08-ai",
+      "name": ".270-08 Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "270-08 AI"
+      ],
+      "parentCase": ".308 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.278,
+      "caseLength": 2.045,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.472,
+      "neckLength": null,
+      "baseDiameter": 0.4706,
+      "shoulderDiameter": 0.46,
+      "neckDiameter": 0.311,
+      "lengthToShoulder": 1.656,
+      "lengthToNeck": 1.7448,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/270--08-Remington-Ackley-Improved-Chamber-Reamer_p_116874.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10956. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
       "id": "270-win",
       "name": ".270 Winchester",
       "kind": "saami",
@@ -710,6 +741,68 @@
       "note": "Chamber reamer drawing BOP-11015. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not the case profile and are not stored."
     },
     {
+      "id": "338-06-ai",
+      "name": ".338-06 Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "338-06 AI"
+      ],
+      "parentCase": ".338-06 A-Square",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.3385,
+      "caseLength": 2.502,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.4716,
+      "neckLength": null,
+      "baseDiameter": 0.4699,
+      "shoulderDiameter": 0.455,
+      "neckDiameter": 0.372,
+      "lengthToShoulder": 2.0,
+      "lengthToNeck": 2.0495,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338--06-A-Square-Ackley-Improved-Chamber-Reamer_p_116877.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-11041. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
+      "id": "338-08-ai",
+      "name": ".338-08 Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "338-08 AI"
+      ],
+      "parentCase": ".308 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.025,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.4703,
+      "neckLength": null,
+      "baseDiameter": 0.469,
+      "shoulderDiameter": 0.46,
+      "neckDiameter": 0.371,
+      "lengthToShoulder": 1.6127,
+      "lengthToNeck": 1.6658,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338--08-Winchester-Ackley-Improved-Chamber-Reamer_p_116876.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-11042. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
       "id": "338-lapua",
       "name": ".338 Lapua Magnum",
       "kind": "saami",
@@ -795,6 +888,68 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-11071. The belt diameter .5350 was not stored. baseDiameter is the body just forward of the belt. Axial lengths are from the belt datum, not the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+    },
+    {
+      "id": "6-5-06-ai",
+      "name": "6.5-06 Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "6.5-06 AI"
+      ],
+      "parentCase": "6.5-06 A-Square",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.502,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.472,
+      "neckLength": null,
+      "baseDiameter": 0.4704,
+      "shoulderDiameter": 0.455,
+      "neckDiameter": 0.298,
+      "lengthToShoulder": 2.071,
+      "lengthToNeck": 2.1646,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65--06-A-Square-Ackley-Improved-Chamber-Reamer_p_116462.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10772. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
+      "id": "6-5-284-ai",
+      "name": "6.5-284 Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "6.5-284 AI"
+      ],
+      "parentCase": ".284 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.2645,
+      "caseLength": 2.1799,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.5022,
+      "neckLength": null,
+      "baseDiameter": 0.5003,
+      "shoulderDiameter": 0.485,
+      "neckDiameter": 0.298,
+      "lengthToShoulder": 1.786,
+      "lengthToNeck": 1.8974,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65--284-Winchester-Ackley-Improved-Chamber-Reamer_p_116065.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing 82631. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
     },
     {
       "id": "6-5-284-norma",
@@ -1029,6 +1184,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "Chamber reamer drawing BOP-10750. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+    },
+    {
+      "id": "6mm-222-ai",
+      "name": "6mm-222 Remington Magnum Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "6mm-222 AI"
+      ],
+      "parentCase": ".222 Remington Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.862,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.3782,
+      "neckLength": null,
+      "baseDiameter": 0.3763,
+      "shoulderDiameter": 0.362,
+      "neckDiameter": 0.274,
+      "lengthToShoulder": 1.5014,
+      "lengthToNeck": 1.5544,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/6-mm--222-Remington-Magnum-Ackley-Imp-Chamber-Reamer_p_116850.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "Chamber reamer drawing BOP-10757. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
     },
     {
       "id": "6mm-arc",
