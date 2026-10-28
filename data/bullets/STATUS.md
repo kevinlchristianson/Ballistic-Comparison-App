@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 20:15 UTC
+Last updated: 2026-10-28 20:18 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -71,6 +71,8 @@ Beyond Berger, no checked maker prints a numeric nose length, bearing-surface le
 Five Hammer pages name the base, and `construction` already has that token: .375 137 gr Stone Hammer and .264 92 gr Power Hammer are `flat_base`; .284 154 gr HBC GEN II, .458 674 gr Target Hammer, and .308 196 gr Hammer Hunter are `boattail`. The notes now quote the sentence. The other Hammer pages do not name a base, so that token stays off.
 
 No checked page prints a boattail angle in degrees or an Rt/R. The .284 154 gr HBC page says the boat tail angle was adjusted and does not print the degrees. See [`comments/2026-10-28-boattail-angle-rt-r.md`](comments/2026-10-28-boattail-angle-rt-r.md).
+
+Ten more library cartridges cite unique 4D case drawings and fill only empty fields. Each neck is 0.025–0.0375 in over the bullet, and the shoulder length matches the printed angle. .220 Swift is 21° and 0.4020 in. .223 Ackley Improved is 40° and 0.3722 in versus the .223 Remington drawing 0.3542 in. .225 Winchester is 25° and 0.4060 in. .30-30 Winchester is 15°39' and 0.4013 in, with rim 0.5060 in. .30-40 Krag is 21°6' and 0.4190 in, with rim 0.5450 in. .300 Remington Ultra Magnum is 30° and 0.5250 in. .338 Ruger Compact Magnum is 30° and 0.5158 in, rim equal to the body. .348 Winchester is 19°4' and 0.4851 in, with rim 0.6100 in. 6mm Norma BR uses the case drawing titled 6mm BR Lapua/Norma, 30° and 0.4600 in. 8mm Remington Magnum is 25° and 0.4868 in on a printed belt. 89 library cartridges are still partly estimated.
 
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
 
