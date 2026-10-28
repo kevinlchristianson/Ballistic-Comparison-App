@@ -24,7 +24,7 @@ The Berger Varmint line closes with this pull request — [#216](https://github.
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
 
-Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The bullet in this pull request is the 22 cal 52 gr FB Target, part 22408. A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
+Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The bullet in this pull request is the 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217). A 52 gr flat base that does not say Target stays out of this file, because the catalog also has the 52 gr FB Varmint, part 22309.
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -122,7 +122,7 @@ Merged community files, with the pull request number:
 - 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212)
 - 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215)
 - 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
-- 22 cal 52 gr FB Target, part 22408
+- 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
