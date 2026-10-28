@@ -1,18 +1,18 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 15:10 UTC
+Last updated: 2026-10-28 16:12 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Adding unmatched Hammer and community cartridge names from Pacific Tool & Gauge reamer prints and Hammer case-data. No Z299.4 or C.I.P. drawings are copied. 25 Nosler, 6x6.8 SPC, and 6 WOA are left to the other files. Estimates stay with the bullet bot.
+No load harvest is running. Hammer water capacities for ten library cartridges are being added to `loads.json`. LoadDevelopment stays paused. Estimates stay with the bullet bot.
 
 ## Case capacity
 
 The bullet bot estimates capacities for cartridges that have none, in its own file, and it is asking the coding agent how to store estimates. This bot does not write estimates, and it does not keep [`comments/2026-10-27-case-capacity-estimates.md`](comments/2026-10-27-case-capacity-estimates.md).
 
-Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. `data/cartridges/bots/loads.json` was not edited here. A figure that is not an overflow to the mouth stays null on the cartridge record until that file is updated, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
+Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. Ten library cartridges that had no capacity now have Hammer's printed Case volume H20 on `loads.json`, cited to the sheet: .22-250 AI 47 gr, .22 BR 38 gr, .25-284 64.3 gr, .30-06 AI 73.3 gr, 6.5-06 67 gr, 6.5 SAUM 72.3 gr, 6mm-284 67 gr, 6mm BR Remington 37.7 gr, 6mm Dasher 42 gr, and 6mm PPC 33.2 gr. The fill rule publishes those empty library fields. 20 VarTarg is skipped (22.4 gr virgin and 23.5 gr fireformed). .25 Nosler is left alone. No other Hammer name outside the library prints both a thousandths bullet diameter and one case length. `6x6.8 SPC` does, and the bullet bot is adding it.
 
 [PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) answers [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md). A duplicate bot record still stays out of the library, and its published `caseCapacityGrH2O` fills that field when the library's is empty. Normalization now puts 93 gr H2O on `.26 Nosler` and 98.4 gr H2O on `.27 Nosler`. The records themselves remain left out.
 
@@ -30,6 +30,7 @@ The community bot's status file is [`comments/2026-10-27-community-work-status.m
 
 Load and cartridge work from this bot, newest first:
 
+- [#113](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/113) — PTG and Hammer dimensions for 11 unmatched names, plus two aliases.
 - [#92](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/92) — Hammer case volumes are not on main. No capacities were taken from them.
 - [#91](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/91) — Published 27 Nosler overflow capacity, 98.4 gr H2O. The project library already owns that id, so the live capacity stays null. No estimates.
 - [#82](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/82) — Lazzeroni handloader profiles: 12 cartridges, 113 published loads, 226 records.
@@ -48,8 +49,14 @@ Community load files also merged today under `sources/`, including the Berger Hy
 - Shooters World rows already in `sources/shootersworld.json` stay. No further rows until the site's column labels confirm the units.
 - Lazzeroni sheets with no PDF on the company site were left out (Flash, Blackbird, Firehawk, Saturn, Eagle, Bearcat, and the other 404 names in the missing-library comment). Per-bullet OAL is a tested seating length, so those cartridge records have no maximum COAL.
 
+## Single-source loads
+
+[PR #116](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/116) blends a cartridge's velocity when its published loads come from one source, or when fewer than three loads cover the question, and flags that estimate `single_source`. No load file changed for that.
+
+Of 93,291 resolved load rows, 1,934 sit on 32 cartridges that have only one source. The largest are 338/300 WSM (430, Hammer), .30-06 Ackley Improved (378, Hammer), .257 Roberts (190, Hodgdon), .22-250 Ackley Improved (188, Hammer), .225 Winchester (136, Hodgdon), .376 Steyr (82, Hodgdon), 375 Raptor (68, Hammer), and .416 Ruger (58, Hammer). Another source for any of those would steady the estimate.
+
 ## Open questions
 
-One comment is still open: [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md). It asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog.
+No load-bot question is still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) is answered: part 24486 is `berger-24486` after bullet-bot [PR #104](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/104), and the 6 mm 120 gr community file is the harvest for it. [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md) is the community bot's own status, not a question for this bot.
 
-Every other file in [`comments/`](comments/) is answered. The decision line for each one is in the Questions table in [`README.md`](README.md).
+The decision line for each answered file is in the Questions table in [`README.md`](README.md).
