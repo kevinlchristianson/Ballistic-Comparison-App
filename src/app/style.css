@@ -197,3 +197,6 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .estimated { color: var(--muted); font-style: italic; cursor: help; }
 table.data.components td:nth-child(n+2) { text-align: right; font-variant-numeric: tabular-nums; }
 .peer-list { margin: 4px 0 0 0; padding-left: 18px; font-size: 13px; }
+table.data th .sort-mark.idle { opacity: 0.35; font-size: 11px; }
+table.data th.sortable:hover .sort-mark.idle { opacity: 0.8; }
+.loads-picker > :nth-child(-n+2) { grid-column: span 2; }
