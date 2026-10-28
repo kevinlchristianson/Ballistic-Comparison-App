@@ -168,6 +168,34 @@ export function catalogView(data: AppData): HTMLElement {
     persist();
     renderGrid();
     renderCompare();
+    renderBar();
+  }
+
+  // A bar pinned to the bottom of the screen while cases are selected, so a
+  // selection made far down the catalog is visible and one tap away.
+  const barEl = h("div", { class: "compare-bar", role: "status", "aria-live": "polite" });
+  function renderBar(): void {
+    const n = state.selected.length;
+    barEl.hidden = n === 0;
+    if (!n) return barEl.replaceChildren();
+    const names = state.selected.map((id) => byId.get(id)?.name).filter(Boolean);
+    barEl.replaceChildren(
+      h(
+        "div",
+        { class: "wrap compare-bar-inner" },
+        h("span", { class: "compare-bar-text" }, h("strong", {}, `${n} selected`), n === 1 ? " · tap more cases to compare" : `: ${names.join(", ")}`),
+        h("button", { class: "primary", onclick: () => compareEl.scrollIntoView({ behavior: "smooth", block: "start" }) }, n === 1 ? "View ↑" : `Compare (${n}) ↑`),
+        h("button", { class: "link", onclick: clearSelection }, "Clear"),
+      ),
+    );
+  }
+
+  function clearSelection(): void {
+    state.selected = [];
+    persist();
+    renderGrid();
+    renderCompare();
+    renderBar();
   }
 
   function renderGrid(): void {
@@ -188,6 +216,7 @@ export function catalogView(data: AppData): HTMLElement {
         return h(
           "button",
           { class: `case-card${on ? " selected" : ""}`, "aria-pressed": on ? "true" : "false", title: `${c.name}. ${tip} Tap to ${on ? "remove from" : "add to"} the comparison.`, onclick: () => toggle(c.id) },
+          h("span", { class: "case-check", "aria-hidden": "true" }, on ? "✓" : ""),
           caseSvg(p, { pxPerIn: CARD_PX_PER_IN, heightIn, widthIn, title: c.name }),
           h("span", { class: "case-name" }, c.name),
           h("span", { class: "case-meta" }, `${c.bulletDiameterIn!.toFixed(3)}″ · ${c.caseLengthIn!.toFixed(3)}″`),
@@ -201,7 +230,7 @@ export function catalogView(data: AppData): HTMLElement {
     const sel = state.selected.map((id) => byId.get(id)).filter((c): c is Cartridge => !!c && profiles.has(c.id));
     if (!sel.length) {
       compareEl.replaceChildren(
-        h("div", { class: "card compare-empty" }, h("strong", {}, "Compare cases side by side. "), "Tap cases in the catalog below to add them here. They are drawn at the same scale, heads aligned."),
+        h("div", { class: "card compare-empty" }, h("strong", {}, "Compare cases side by side. "), "Tick the box on as many cases as you like in the catalog below (tap a case again to untick it). They appear here at the same scale, heads aligned."),
       );
       return;
     }
@@ -336,12 +365,7 @@ export function catalogView(data: AppData): HTMLElement {
             "button",
             {
               class: "link",
-              onclick: () => {
-                state.selected = [];
-                persist();
-                renderGrid();
-                renderCompare();
-              },
+              onclick: clearSelection,
             },
             "Clear",
           ),
@@ -355,6 +379,7 @@ export function catalogView(data: AppData): HTMLElement {
 
   renderGrid();
   renderCompare();
+  renderBar();
 
   return h(
     "section",
@@ -372,6 +397,8 @@ export function catalogView(data: AppData): HTMLElement {
     h("div", { class: "card legend case-legend" }, h("span", {}, h("span", { class: "line-key printed" }), "From a print"), h("span", {}, h("span", { class: "line-key est" }), "Estimated"), h("span", {}, h("span", { class: "line-key coal" }), "Max COAL")),
     compareEl,
     controls,
+    h("p", { class: "select-hint" }, "Tap cases to tick them. Tick two or more to compare them side by side; the ", h("strong", {}, "Compare"), " bar at the bottom takes you to them."),
     gridEl,
+    barEl,
   );
 }
