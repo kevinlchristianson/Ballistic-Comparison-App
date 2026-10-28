@@ -54,7 +54,9 @@ This follow-up adds 4xforfun's 38 - 41.3 gr H4350 ladder to the 6.5 mm 140 gr Lo
 
 30 cal 150 gr FB Target, part 30407, was searched. No posted charge turned up. No file and no pull request. ScottMcc wrote that a .308 likes the 150 flat base target and gave no charge. barefooter56 named the 150 gr FB and gave no charge. Searched 30 BR, .308, 30-06, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, and 300 Weatherby.
 
-The bullet in this pull request is the 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240).
+The 30 cal 155.5 gr FULLBORE Target, part 30416, is [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240).
+
+The bullet in this pull request is the 30 cal 175 gr Long Range BT Target, part 30420.
 
 This pull request clears OMW57's charge on the 6 mm 90 gr BT Target file — [#234](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/234). He wrote over 30 grains, a lower bound, so the charge stays null and the note keeps Charge_gr: over 30.
 
@@ -171,17 +173,17 @@ Merged community files, with the pull request number:
 - 6.5 mm 140 gr Long Range BT Target, part 26409 — [#236](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/236)
 - 30 cal 115 gr FB Target, part 30421 — [#237](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/237)
 - 30 cal 155.5 gr FULLBORE Target, part 30416 — [#240](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/240)
+- 30 cal 175 gr Long Range BT Target, part 30420
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 155.5 gr file merges, still on the bullets whose product line is blank. The 150 gr FB Target search is above. No file.
+After the 175 gr file merges, still on the bullets whose product line is blank. The 150 gr FB Target search is above. No file.
 
-1. 30 cal 175 gr Long Range BT Target, part 30420
-2. 30 cal 185 gr Juggernaut Target, part 30418
-3. 375 cal 379 gr ELR Match Solid, part 37379
-4. 375 cal 407 gr ELR Match Solid, part 37407
+1. 30 cal 185 gr Juggernaut Target, part 30418
+2. 375 cal 379 gr ELR Match Solid, part 37379
+3. 375 cal 407 gr ELR Match Solid, part 37407
 
 ## Ambiguous VLD line candidates
 
@@ -414,6 +416,8 @@ The 6 mm 90 gr BT Target file adds `6brs`, `6HAGAR`, and `.240 Tomahawk`. `6 BR`
 The 6 mm 108 gr BT Target file adds no unmatched name. `6mm BR` and `6br` resolve to `6mm-norma-br`. spudgun's May 8 post calls the same ladder a 108 Berger target, and the catalog's 108 gr target bullet is this boat tail. Will o's velocity is 2880ish, so it stays null. One Eye Pete's right around 30 gn of Varget is shared with a 107 Sierra, so it is not a 108-only row. Deputy819's 33.6 gr of H4350 is the 108 Elite Hunter. The 6 mm 105 gr BT Target search adds no unmatched name and no file. No fired 105 gr BT Target charge turned up in 6BR, 6BRA, 6 Dasher, 6mm Creedmoor, or 243 Win. No fired 108 gr BT Target charge turned up in 6 Dasher, 6BRA, 6mm Creedmoor, or 243 Win. The ambiguous lists are left unchanged. This file does not edit the 105 gr Hybrid, 105 gr VLD, or 108 gr Elite Hunter sources.
 
 The 6.5 mm 120 gr BT Target file adds no unmatched name. `6.5x47` resolves to `6-5x47-lapua`. Santee116's 37.4 gr showed pressure, so that note says so, and the charge is still the number he fired. CTK's 37 gr has no velocity. His opening post wrote 23' for the barrel, so that length is not stored as inches. His 39 gr and 41 gr of RL 16 are 120 Ballistic Tips, not this Berger. No fired 120 gr BT Target charge turned up in 6.5 Creedmoor, 260 Rem, 6.5 PRC, 6.5-284, or 260 AI. The ambiguous lists are left unchanged. This file does not edit the 135 gr Classic Hunter source.
+
+The 30 cal 175 gr Long Range BT Target file adds no unmatched name. `.308` resolves to `308-win`. Laurie's 42.2 to 44 gr steps all shot, and 43.8 gr is the sweet spot, so the charge stored is 43.8. barefooter56 pasted Berger start and max numbers, which are not a fired load. M95M was thinking about 43 gr of Varget and 41 gr of RL-15 and had not fired them. seymour fish and GermanS1 named the 175 and gave no charge. dreever's 43.3 gr of Varget is the 175 OTM. AllanR21's 43 gr of Varget is 175 VLDs. No fired 175 gr Long Range BT charge turned up in 30 BR, 30-06, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, or 300 Weatherby. This file does not edit the 175 gr OTM Tactical source.
 
 The 30 cal 155.5 gr FULLBORE Target file adds no unmatched name. `.308` and `30-06` resolve. watercam's charge is 46.5-47 gr, so it stays null, and his 2970 fps cold and 3050 fps hot stay in the notes. Steve Blair's velocity is ~2990, so it stays null. jlorenzo's tries at 43, 43.2, and 43.4 gr have no result, so that charge stays null. Mark S measured 3.210 in on a Hornady comparator, so that is not COAL. KMart's H4350 load is the 155 Hunting VLD. rminut's 46.0 gr of Varget is a Sierra 2156. k80skeet's 43.0 gr of N140 is shared with the 155 gr VLD, so it is on the shared-line list. No fired 155.5 gr FULLBORE charge turned up in 30 BR, 300 Blackout, 308 Norma Mag, 300 Win Mag, 300 WSM, 300 PRC, 30 Nosler, 300 Norma, 300 RUM, or 300 Weatherby. The 40 VLD entries are left unchanged.
 
