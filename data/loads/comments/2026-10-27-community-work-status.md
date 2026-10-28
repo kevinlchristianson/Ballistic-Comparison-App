@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. None of the current candidates are a 22 cal 70 gr VLD, so the list is unchanged in this pull request.
 
-The bullet in this pull request is a top-up of the 22 cal 70 gr VLD Target, part 22418 — [#166](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/166). Four more Shooters' Forum rows, all in 223 threads.
+The bullet in this pull request is a top-up of the 22 cal 75 gr VLD Target, part 22421 — [#167](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/167). Three more Shooters' Forum rows from a service-rifle thread.
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
@@ -72,7 +72,7 @@ Merged community files, with the pull request number:
 
 ## Next
 
-After the 22 cal 80 gr file merges, still in VLD Target:
+After the 75 gr top-up merges, still in VLD Target:
 
 1. 22 cal 90 gr VLD Target, part 22423
 2. 6 mm 95 gr VLD Target, part 24427
@@ -230,5 +230,7 @@ The 22 cal 75 gr VLD Target file adds no unmatched name. `.223` resolves to `223
 The 22 cal 80 gr VLD Target file adds no unmatched name. `.223` resolves to `223-rem`. The catalog has no 80 gr VLD Hunting. No fired 80 gr VLD charge turned up in 22-250 or 22-250 AI. No ambiguous-line candidate is this weight.
 
 The 22 cal 70 gr top-up adds no unmatched name. `223` and `223 Rem` resolve to `223-rem`. JayCutright shot 70 gr Bergers with H4831 in a 220 Swift for years and gave no charge. joejo suggested 33.1 gr Varget in a 22-250 and did not say he fired it. No fired 70 gr VLD charge turned up in 223 AI, 5.56, 22 BR, 22 Dasher, 22 GT, 22 Creedmoor, 224 Valkyrie, 22-250, 22-250 AI, 22 PPC, or 223 WSSM.
+
+The 22 cal 75 gr top-up adds no unmatched name. `223` resolves to `223-rem`. Gary in MD is shooting them in an 8 twist 22-250 and gave no charge. No fired 75 gr VLD charge turned up in 223 AI, 5.56, 22 BR, 22 Dasher, 22 GT, 22 Creedmoor, 224 Valkyrie, 22-250 AI, 220 Swift, 22 PPC, or 223 WSSM.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
