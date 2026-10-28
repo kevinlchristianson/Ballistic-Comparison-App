@@ -28,7 +28,11 @@ Varmint is closed — [#216](https://github.com/kevinlchristianson/Ballistic-Com
 
 Lefty Trigger's 30.0 gr and 30.3 gr of N135 are in the 6 mm 80 gr FB Varmint follow-up — [#219](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/219).
 
-The bullet in this pull request is the 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221). A 55 gr flat base that does not say Target stays out of this file. afret's around 24 grains of AR Comp stays on the Varmint or Target list.
+The 22 cal 55 gr FB Target, part 22410, is [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221). A 55 gr flat base that does not say Target stays out of that file. afret's around 24 grains of AR Comp stays on the Varmint or Target list.
+
+The bullet in this pull request is the 22 cal 73 gr BT Target, part 22420 — [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222).
+
+22 cal 69 gr BT Target, part 22419, was searched. Posts name 69 gr SMKs or a powder with no Berger charge. No file and no pull request.
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -128,31 +132,30 @@ Merged community files, with the pull request number:
 - 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
 - 22 cal 52 gr FB Target, part 22408 — [#217](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/217)
 - 22 cal 55 gr FB Target, part 22410 — [#221](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/221)
+- 22 cal 73 gr BT Target, part 22420 — [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 55 gr FB Target file merges, still on the bullets whose product line is blank. The 6 mm BR COLUMN Target catalog weight is blank.
+After the 73 gr file merges, still on the bullets whose product line is blank. The 22 cal 69 gr BT Target, part 22419, was searched and got no file. The 6 mm BR COLUMN Target catalog weight is blank.
 
-1. 22 cal 69 gr BT Target, part 22419
-2. 22 cal 73 gr BT Target, part 22420
-3. 22 cal 80.5 gr FULLBORE Target, part 22427
-4. 6 mm BR COLUMN Target, part 24407
-5. 6 mm 65 gr BT Target, part 24408
-6. 6 mm 68 gr FB Target, part 24411
-7. 6 mm 90 gr BT Target, part 24425
-8. 6 mm 105 gr BT Target, part 24428
-9. 6 mm 108 gr BT Target, part 24431
-10. 6.5 mm 120 gr BT Target, part 26402
-11. 6.5 mm 140 gr Long Range BT Target, part 26409
-12. 30 cal 115 gr FB Target, part 30421
-13. 30 cal 150 gr FB Target, part 30407
-14. 30 cal 155.5 gr FULLBORE Target, part 30416
-15. 30 cal 175 gr Long Range BT Target, part 30420
-16. 30 cal 185 gr Juggernaut Target, part 30418
-17. 375 cal 379 gr ELR Match Solid, part 37379
-18. 375 cal 407 gr ELR Match Solid, part 37407
+1. 22 cal 80.5 gr FULLBORE Target, part 22427
+2. 6 mm BR COLUMN Target, part 24407
+3. 6 mm 65 gr BT Target, part 24408
+4. 6 mm 68 gr FB Target, part 24411
+5. 6 mm 90 gr BT Target, part 24425
+6. 6 mm 105 gr BT Target, part 24428
+7. 6 mm 108 gr BT Target, part 24431
+8. 6.5 mm 120 gr BT Target, part 26402
+9. 6.5 mm 140 gr Long Range BT Target, part 26409
+10. 30 cal 115 gr FB Target, part 30421
+11. 30 cal 150 gr FB Target, part 30407
+12. 30 cal 155.5 gr FULLBORE Target, part 30416
+13. 30 cal 175 gr Long Range BT Target, part 30420
+14. 30 cal 185 gr Juggernaut Target, part 30418
+15. 375 cal 379 gr ELR Match Solid, part 37379
+16. 375 cal 407 gr ELR Match Solid, part 37407
 
 ## Ambiguous VLD line candidates
 
@@ -351,6 +354,8 @@ The 6 mm 88 gr High BC FB Varmint file adds no unmatched name. `6 BR` and `6BR` 
 The 22 cal 52 gr FB Target file adds no unmatched name. `223 Rem` resolves to `223-rem`. Zero333's COAL is 2.260 in plus or minus, so it stays null. Pawnee Bill posted the beginning charge, 23.5 gr, and the ending charge, 25.9 gr, of a nine-load H335 test. The middle charges are on the target photo, not in the text. urbanrifleman's Lt 32 charge is 25 grains ish, so it is not a row. msinc's 26.0 gr of W748 is in a thread that says Berger 52 gr and does not say FB Target. dstoenner's 23.7 gr is for a 52 and a 55 Berger and does not name the powder in the sentence. coldboreshot named the 52 FB target and gave no charge. No fired 52 gr FB Target charge turned up in 222, 22-250, 220 Swift, 22 BR, 22 PPC, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged. This file does not edit the 52 gr FB Varmint source.
 
 The 22 cal 55 gr FB Target file adds no unmatched name. `223` resolves to `223-rem`. dstoenner's April 1, 2020 post names 23.7 gr of 8208 for this bullet. His earlier 23.7 gr sentence that covers a 52 and a 55 does not name a powder, and that sentence stays out. His December 26, 2023 load is 24.8 gr of imr 8208. PopCharlie's 23.5 gr of n133 is seated .002 off, which is not COAL. afret named Berger 55 grain FB targets with AR Comp in a 222 and gave no charge. His around 24 grains of AR Comp with Berger 55s in a 223 does not say Target in that sentence, so it stays on the Varmint or Target list. velocette named N133 in a .222 and gave no charge. No fired 55 gr FB Target charge turned up in 22-250, 220 Swift, 22 BR, 22 PPC, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged. This file does not edit the 55 gr FB Varmint notes.
+
+The 22 cal 73 gr BT Target file adds no unmatched name. `.223` and `223` resolve to `223-rem`. Walt Berger's emailed start and max table is not a community load. mgdietrich's 23.2 gr is a place to start, not a fired charge. Fast14riot's 24 gr of Varget covers a 73-77 gr bullet, so it is not a 73-only row. pdhntr's 24.3 gr of Varget follows a 2012 post that ties the testing sentence to the Hodgdon 75 gr bullet, so it is not in this file. PopCharlie's 20 gr of VV N-133 and his April 26 restatement are one load. Zero333's bolt-rifle primers are CCI-450 or Fed.205m, and his AR primers are 205m or cci-450, so those primers stay null. No fired 73 gr BT Target charge turned up in 223 AI, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The 22 cal 69 gr BT Target search adds no unmatched name and no file. No fired 69 gr BT Target charge turned up in 223, 223 AI, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The ambiguous VLD list is left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
