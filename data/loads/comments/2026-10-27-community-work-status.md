@@ -16,11 +16,13 @@ The Berger VLD Target line closes with this pull request — [#181](https://gith
 
 The Berger Classic Hunter line closes with this pull request — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193). The 6 mm 95 gr, part 24570, and the 270 cal 130 gr, part 27570, were searched and got no file.
 
+The Berger OTM Tactical line closes with this pull request — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205). Hybrid OTM, Juggernaut, and AR Hybrid bullets listed under that product line are in it.
+
 ## In progress
 
 Community-reported loads for every Berger OTM Tactical bullet. Order is smallest diameter, then lightest weight. Hybrid OTM, Juggernaut, and AR Hybrid bullets that the catalog lists under OTM Tactical are in this line. A post is filed here only when it names that bullet.
 
-The bullet in this pull request is the 338 cal 250 gr Hybrid OTM Tactical, part 33107 — [#203](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/203).
+The bullet in this pull request is the 338 cal 300 gr Hybrid OTM Tactical, part 33109 — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205). This is the last OTM Tactical bullet.
 
 The Classic Hunter line is closed — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193).
 
@@ -100,16 +102,27 @@ Merged community files, with the pull request number:
 - 30 cal 185 gr Juggernaut OTM Tactical, part 30107 — [#198](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/198)
 - 30 cal 230 gr Hybrid OTM Tactical, part 30112 — [#201](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/201)
 - 338 cal 250 gr Hybrid OTM Tactical, part 33107 — [#203](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/203)
+- 338 cal 300 gr Hybrid OTM Tactical, part 33109 — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 250 gr file merges, still in OTM Tactical.
+After this file merges, OTM Tactical is closed.
 
-1. 338 cal 300 gr Hybrid OTM Tactical, part 33109
+Next is Varmint, smallest diameter then lightest weight.
 
-After OTM Tactical: Varmint, then the bullets whose product line is blank.
+1. 17 cal 25 gr FB Varmint, part 17308
+2. 20 cal 35 gr FB Varmint, part 20303
+3. 20 cal 40 gr BT Varmint, part 20304
+4. 22 cal 40 gr FB Varmint, part 22303
+5. 22 cal 52 gr FB Varmint, part 22309
+6. 22 cal 55 gr FB Varmint, part 22311
+7. 22 cal 60 gr FB Varmint, part 22312
+8. 6 mm 80 gr FB Varmint, part 24321
+9. 6 mm 88 gr High BC FB Varmint, part 24323
+
+After Varmint: the bullets whose product line is blank.
 
 ## Ambiguous VLD line candidates
 
@@ -278,6 +291,8 @@ The 30 cal 185 gr Juggernaut OTM Tactical file adds no unmatched name. `.308` re
 The 30 cal 230 gr Hybrid OTM Tactical file adds no unmatched name. `300 RUM` resolves to `300-rum`. cb4128's 91.2 gr N570 is the fired top of his pressure test. freebird's 88 gr of retumbo and of N570 was shared by the 230 hybrid target and the 230 hybrid tactical OTM, so it is not a tactical-only row. mullmann's 86.5 gr H1000 is a 230 hybrid and does not say OTM. Shotsfired's 88.5 gr H1000 does not say OTM. No fired 230 gr Hybrid OTM charge turned up in 300 Win Mag, 300 PRC, 300 WSM, 300 Norma, .308, or 30-06. The ambiguous VLD list is left unchanged. This file does not edit the 230 gr Hybrid Target source.
 
 The 338 cal 250 gr Hybrid OTM Tactical file adds no unmatched name. `338 Rem Ultra Mag` resolves to `338-rum`. `338 Lapua Magnum` resolves to `338-lapua`. GNERGY's 91.5 gr IMR 7828SSC at 3160 fps is his sighter. Michelle Gallagher posted another tester's 86.5 gr Reloader 22. CADDIE5's 338 win mag results are in a spreadsheet, not posted as text charges. No fired 250 gr Hybrid OTM charge turned up in 338 Win Mag, 338 Edge, or 338 Norma. The ambiguous VLD list is left unchanged.
+
+The 338 cal 300 gr Hybrid OTM Tactical file adds `Standard edge`, `338 Edges`, and `Edge`. `338 Lapua Mag` resolves to `338-lapua`. mabia's 102 gr velocity is `around 3020`, and ABC1000's velocity is `2,890-2,910`, so those velocities stay null. Walding11's H1000 and Retumbo loads are the 300 gr Elite Hunter, not this bullet. Knut Erik's 90 gr did not name the bullet. No fired 300 gr Hybrid OTM charge turned up in 338 Win Mag, 338 Norma, or 338 RUM. The ambiguous VLD list is left unchanged. This pull request closes the OTM Tactical line.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
