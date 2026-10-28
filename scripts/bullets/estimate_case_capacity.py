@@ -422,8 +422,15 @@ def _profile_lengths(cluster: dict, web: float) -> tuple[float, float, float] | 
         return None
     if not cluster["lengthToShoulder"] < cluster["lengthToNeck"] < cluster["caseLength"]:
         return None
-    neck = cluster["neck"] if cluster["neck"] is not None else cluster["caseLength"] - cluster["lengthToNeck"]
-    body = cluster["lengthToShoulder"] - web
+    # Belted prints measure from the belt datum, already forward of the solid head.
+    # The .300 and .264 Winchester Magnum drawings print 0.220 in from the bolt face to that datum.
+    belted = cluster.get("rimType") == "belted"
+    if belted:
+        body = cluster["lengthToShoulder"]
+        neck = cluster["neck"] if cluster["neck"] is not None else cluster["caseLength"] - 0.220 - cluster["lengthToNeck"]
+    else:
+        neck = cluster["neck"] if cluster["neck"] is not None else cluster["caseLength"] - cluster["lengthToNeck"]
+        body = cluster["lengthToShoulder"] - web
     shoulder = cluster["lengthToNeck"] - cluster["lengthToShoulder"]
     if neck <= 0 or body < 0.05 or shoulder < 0.02:
         return None
@@ -1104,6 +1111,12 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
             f"solid head {chosen['webIn']:.2f} in. "
             "Those thicknesses were chosen inside typical rifle-case bands by the median error on published capacities."
         )
+        if cluster.get("rimType") == "belted":
+            assumptions.append(
+                "This case is belted. The reamer lengths are from the belt datum, so the solid head behind that datum was not subtracted again. "
+                "baseDiameter is the body just forward of the belt, not the belt diameter. "
+                "Where neck length is not stored, 0.220 in from the bolt face to the belt datum, printed on the .300 and .264 Winchester Magnum drawings, is removed first."
+            )
     if chosen["method"] == "geometric" and chosen["neckAssumed"]:
         if chosen.get("profile"):
             assumptions.append(
