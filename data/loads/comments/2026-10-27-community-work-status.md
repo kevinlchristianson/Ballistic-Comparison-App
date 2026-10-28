@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 This pull request closes VLD Hunting. The next line is VLD Target, smallest diameter then lightest weight. Ambiguous-line candidates are filed with a target bullet only when the post's context makes that line clear.
 
-The bullet in this pull request is the 30 cal 210 gr VLD Hunting, part 30515.
+The bullet in this pull request is the 30 cal 210 gr VLD Hunting, part 30515 — [#160](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/160).
 
 6 mm 115 gr VLD Hunting, part 24530, was searched. No charge that was clearly this hunting bullet turned up. The 6mm Creedmoor thread mixed advice and DTAC loads. The RL-16 ladder did not say hunting. No file and no pull request.
 
