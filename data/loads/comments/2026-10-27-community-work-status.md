@@ -18,13 +18,13 @@ The Berger Classic Hunter line closes with this pull request — [#193](https://
 
 The Berger OTM Tactical line closes with this pull request — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205). Hybrid OTM, Juggernaut, and AR Hybrid bullets listed under that product line are in it.
 
-The Berger Varmint line closes with this pull request. The 20 cal 40 gr BT, part 20304, the 22 cal 40 gr FB, part 22303, the 22 cal 55 gr FB, part 22311, and the 22 cal 60 gr FB, part 22312, were searched and got no file.
+The Berger Varmint line closes with this pull request — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216). The 20 cal 40 gr BT, part 20304, the 22 cal 40 gr FB, part 22303, the 22 cal 55 gr FB, part 22311, and the 22 cal 60 gr FB, part 22312, were searched and got no file.
 
 ## In progress
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
 
-This pull request closes Varmint. The bullet is the 6 mm 88 gr High BC FB Varmint, part 24323.
+This pull request closes Varmint. The bullet is the 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216).
 
 The 6 mm 80 gr FB Varmint, part 24321, is [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215).
 
@@ -121,7 +121,7 @@ Merged community files, with the pull request number:
 - 20 cal 35 gr FB Varmint, part 20303 — [#210](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/210)
 - 22 cal 52 gr FB Varmint, part 22309 — [#212](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/212)
 - 6 mm 80 gr FB Varmint, part 24321 — [#215](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/215)
-- 6 mm 88 gr High BC FB Varmint, part 24323
+- 6 mm 88 gr High BC FB Varmint, part 24323 — [#216](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/216)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
