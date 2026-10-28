@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 16:12 UTC
+Last updated: 2026-10-28 16:55 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-No load harvest is running. Hammer water capacities for ten library cartridges are being added to `loads.json`. LoadDevelopment stays paused. Estimates stay with the bullet bot.
+Adding the new unmatched community names. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
 
 ## Case capacity
 
