@@ -26,7 +26,8 @@ function check(p: CaseProfile): void {
   for (let i = 1; i < pts.length; i++) expect(pts[i]![0]).toBeGreaterThanOrEqual(pts[i - 1]![0] - 1e-9);
   expect(p.headToShoulder.value).toBeLessThan(p.headToNeck.value);
   expect(p.headToNeck.value).toBeLessThan(p.caseLengthIn);
-  expect(p.neckDiameter.value).toBeGreaterThan(p.bulletDiameterIn);
+  expect(p.neckDiameter.value - p.bulletDiameterIn).toBeGreaterThanOrEqual(0.015);
+  expect(p.neckDiameter.value - p.bulletDiameterIn).toBeLessThanOrEqual(0.045);
   expect(p.shoulderDiameter.value).toBeGreaterThanOrEqual(p.neckDiameter.value);
   expect(p.baseDiameter.value).toBeGreaterThanOrEqual(p.shoulderDiameter.value);
   expect(p.shoulderAngleDeg).toBeGreaterThanOrEqual(0);
@@ -88,6 +89,20 @@ describe("case profiles", () => {
     expect(p.headToShoulder.estimated).toBe(true);
     expect(p.headToShoulder.note).toMatch(/not used: head to shoulder is not shorter than head to neck/);
     expect(p.baseDiameter.estimated).toBe(false);
+  });
+
+  it("does not draw a printed neck that can't fit the bullet, but keeps the printed lengths", () => {
+    // 223-300 WSM as the bot copied it: a .272 neck for a .224 bullet.
+    const wide: Cartridge = { ...printed308, id: "wide", name: "Wide neck", aliases: [], bulletDiameterIn: 0.224, neckDiameterIn: 0.272, parentCase: ".308 Winchester" };
+    const p = buildCaseProfiles([printed308, wide]).get("wide")!;
+    check(p);
+    expect(p.neckDiameter.estimated).toBe(true);
+    expect(p.neckDiameter.value).toBeCloseTo(0.224 + (0.3442 - 0.308), 4);
+    expect(p.neckDiameter.note).toMatch(/not used: neck Ø 0\.272 is 0\.048 in over/);
+    expect(p.headToNeck).toMatchObject({ value: 1.7039, estimated: false });
+    // And one barely over the bullet (a .339 neck for a .338 bullet).
+    const tight = buildCaseProfiles([{ ...printed308, neckDiameterIn: 0.309 }]).get("308-win")!;
+    expect(tight.neckDiameter.estimated).toBe(true);
   });
 
   it("keeps a straight-walled case straight rather than narrower than its neck", () => {

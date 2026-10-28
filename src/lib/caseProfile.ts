@@ -120,10 +120,25 @@ function knownProfile(c: Cartridge): Known | null {
   return orderProblem(k) ? null : k;
 }
 
+/**
+ * Neck Ø less bullet Ø, in inches, that a print can plausibly show: two neck
+ * walls, plus chamber clearance on a reamer print. Across the library's
+ * printed profiles the middle 90% falls between 0.022 and 0.037.
+ */
+export const NECK_ALLOWANCE = { min: 0.015, max: 0.045 } as const;
+
+/** Why a printed neck Ø can't be right for this bullet, or null when it can. */
+export function neckProblem(neck: number, bullet: number): string | null {
+  const a = neck - bullet;
+  if (a >= NECK_ALLOWANCE.min && a <= NECK_ALLOWANCE.max) return null;
+  return `neck Ø ${neck.toFixed(3)} is ${a.toFixed(3)} in over the ${bullet.toFixed(3)} bullet, which leaves a ${(a / 2).toFixed(4)} in wall each side; prints show ${NECK_ALLOWANCE.min}–${NECK_ALLOWANCE.max} in over the bullet`;
+}
+
 function orderProblem(k: Omit<Known, "c" | "rim">): string | null {
   if (!(k.toShoulder < k.toNeck)) return "head to shoulder is not shorter than head to neck";
   if (!(k.toNeck < k.len)) return "the neck starts beyond the case mouth";
-  if (!(k.neck > k.bullet)) return "neck Ø is not larger than the bullet";
+  const nk = neckProblem(k.neck, k.bullet);
+  if (nk) return nk;
   if (!(k.shoulder >= k.neck)) return "shoulder Ø is smaller than neck Ø";
   if (!(k.base >= k.shoulder)) return "base Ø is smaller than shoulder Ø";
   return null;
@@ -213,6 +228,9 @@ function buildCaseProfile(c: Cartridge, known: Map<string, Known>, index: Return
   };
   const rejected: string[] = [];
   if (!full) {
+    // A neck that can't fit the bullet is dropped on its own; the lengths may still be good.
+    const nk = raw.neck != null ? neckProblem(raw.neck, bullet) : null;
+    if (nk) (rejected.push(nk), (raw.neck = null));
     const all = [raw.base, raw.shoulder, raw.neck, raw.toShoulder, raw.toNeck];
     if (all.every((x) => x != null)) {
       const why = orderProblem({ base: raw.base!, shoulder: raw.shoulder!, neck: raw.neck!, toShoulder: raw.toShoulder!, toNeck: raw.toNeck!, len, bullet });
@@ -222,7 +240,6 @@ function buildCaseProfile(c: Cartridge, known: Map<string, Known>, index: Return
       }
     }
     if (raw.toNeck != null && raw.toNeck >= len) (rejected.push("the neck starts beyond the case mouth"), (raw.toNeck = null));
-    if (raw.neck != null && raw.neck <= bullet) (rejected.push("neck Ø is not larger than the bullet"), (raw.neck = null));
   }
   const offNote = off ? " Measured on the print from the belt datum; 0.220 in added to put it from the head." : "";
 
