@@ -1,10 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedOn": "2026-10-27",
+  "generatedOn": "2026-10-28",
   "estimated": true,
   "supersededByPrintedValueWhenAvailable": true,
   "doNotCopyIntoCaseCapacityGrH2O": true,
-  "description": "Estimated case capacity in grains of water, to the case mouth. None of these numbers are printed measurements. A cited caseCapacityGrH2O in data/cartridges/cartridges.json, data/cartridges/bots/bullets.json, data/cartridges/bots/loads.json, or a printed case-volume file (including Hammer load sheets, once they are in the tree) removes that cartridge from this table on the next run. Load-bot cartridges are included because capacity estimates were handed to the bullet bot. This file does not claim those cartridges.",
+  "doNotFillLibraryFields": true,
+  "description": "Estimated case capacity in grains of water, to the case mouth. None of these numbers are printed measurements. A cited caseCapacityGrH2O in data/cartridges/cartridges.json, data/cartridges/bots/bullets.json, data/cartridges/bots/loads.json, Hammer's printed Case volume H20 in data/loads/inputs/hammer/case-data.csv, or another printed case-volume file under data/loads removes that cartridge from this table on the next run. Do not copy caseCapacityEstimateGrH2O into a bot cartridge. A bot record's caseCapacityGrH2O, neckLengthIn, and shoulderAngleDeg now fill empty library fields, so an estimate placed there would be shown as published. Load-bot cartridges are included because capacity estimates were handed to the bullet bot. This file does not claim those cartridges.",
   "storageQuestion": "The cartridge schema has no estimated-value flag. These numbers were not written into caseCapacityGrH2O. How should an estimate be stored: a caseCapacityEstimateGrH2O field plus a method and source, or an estimated flag on caseCapacityGrH2O?",
   "model": {
     "waterGrainsPerCubicInch": 252.9,
@@ -411,9 +412,139 @@
       ]
     }
   },
-  "estimateCount": 65,
-  "skippedCitedCount": 68,
-  "unableCount": 60,
+  "estimateCount": 54,
+  "skippedCitedCount": 78,
+  "unableCount": 61,
+  "printedCaseVolumesNotMatched": [
+    {
+      "name": "17-223",
+      "valuesGr": [
+        27.0
+      ],
+      "text": "Case volume H20 - 27gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "20-223",
+      "valuesGr": [
+        29.3
+      ],
+      "text": "Case volume H20 - 29.3 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "20 BR",
+      "valuesGr": [
+        37.5
+      ],
+      "text": "Case volume H20 - 37.5 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "20 Tactical",
+      "valuesGr": [
+        29.3
+      ],
+      "text": "Case volume H20 - 29.3 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "22 Cheetah Mark II",
+      "valuesGr": [
+        56.3
+      ],
+      "text": "Case volume H20 - 56.3gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "22 GT",
+      "valuesGr": [
+        44.8
+      ],
+      "text": "Case volume H20 - 44.8gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "25 PRC",
+      "valuesGr": [
+        67.8
+      ],
+      "text": "Case volume H20 - 67.8 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "300 Lapua Mag.",
+      "valuesGr": [
+        113.0
+      ],
+      "text": "Case volume H20 - 113.0 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6.5 BeanMore",
+      "valuesGr": [
+        58.0
+      ],
+      "text": "Case volume H20 - 58 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6.5 Gibbs",
+      "valuesGr": [
+        74.3
+      ],
+      "text": "Case volume H20 - 74.3gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6.5 TCU",
+      "valuesGr": [
+        32.3
+      ],
+      "text": "Case volume H20 - 32.3 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6.5mm BR",
+      "valuesGr": [
+        38.7
+      ],
+      "text": "Case volume H20 - 38.7gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6x6.8 SPC",
+      "valuesGr": [
+        36.2
+      ],
+      "text": "Case volume H20 - 36.2gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6mm TCU",
+      "valuesGr": [
+        32.3
+      ],
+      "text": "Case volume H20 - 32.3 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "6x45mm",
+      "valuesGr": [
+        30.7
+      ],
+      "text": "Case volume H20 - 30.7 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    },
+    {
+      "name": "7mm TCU",
+      "valuesGr": [
+        32.3
+      ],
+      "text": "Case volume H20 - 32.3 gr.",
+      "source": "data/loads/inputs/hammer/case-data.csv"
+    }
+  ],
   "estimates": [
     {
       "cartridgeId": "17-ackley-hornet",
@@ -544,151 +675,6 @@
         "parentId": "223-rem",
         "parentCitedCapacityGrH2O": 28.5
       },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "20-vartarg",
-      "name": ".20 Vartarg",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 19.8,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "221-fireball",
-      "parentName": ".221 Remington Fireball",
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 1.34,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.204,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.378,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 30.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".221 Remington Fireball",
-        "parentId": "221-fireball",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.378,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.204,
-        "rimTypeUsed": "rimless"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "22-250-ai",
-      "name": ".22-250 Ackley Improved",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 43.7,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "22-250-rem",
-      "parentName": ".22-250 Remington",
-      "parentCitedCapacityGrH2O": 43.0,
-      "inputs": {
-        "caseLengthIn": 1.912,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.224,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 40.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".22-250 Remington",
-        "parentId": "22-250-rem",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.224,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 50.3,
-        "parentResidualGr": 6.62
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 22-250-rem (6.62 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 43.0,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "22-250-rem",
-        "parentCitedCapacityGrH2O": 43.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "22-br",
-      "name": ".22 BR Remington",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 37.6,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "6mm-br-rem",
-      "parentName": "6mm BR Remington",
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 1.52,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.224,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 30.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": "6mm BR Remington",
-        "parentId": "6mm-br-rem",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.224,
-        "rimTypeUsed": "rimless"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
       "supersededByPrintedValueWhenAvailable": true
     },
     {
@@ -1200,61 +1186,6 @@
         "calibrationMedianAbsErrorGr": 1.57,
         "calibrationWorstAbsErrorGr": 9.82,
         "parentId": "25-06-rem",
-        "parentCitedCapacityGrH2O": 66.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "25-284",
-      "name": ".25-284 Winchester",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 65.4,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
-      "calibrationWorstCartridgeId": "28-nosler",
-      "calibrationCount": 12,
-      "parentId": "284-win",
-      "parentName": ".284 Winchester",
-      "parentCitedCapacityGrH2O": 66.0,
-      "inputs": {
-        "caseLengthIn": 2.17,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.257,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rebated",
-        "shoulderAngleDeg": 35.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".284 Winchester",
-        "parentId": "284-win",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.493,
-        "baseOffsetIn": 0.02,
-        "neckLengthUsedIn": 0.257,
-        "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 64.1,
-        "parentResidualGr": -1.24
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 284-win (-1.24 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 64.8,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "284-win",
         "parentCitedCapacityGrH2O": 66.0
       },
       "supersededByPrintedValueWhenAvailable": true
@@ -1800,61 +1731,6 @@
         "calibrationWorstAbsErrorGr": 9.82,
         "parentId": "284-win",
         "parentCitedCapacityGrH2O": 66.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "30-06-ai",
-      "name": ".30-06 Ackley Improved",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 68.5,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "30-06",
-      "parentName": ".30-06 Springfield",
-      "parentCitedCapacityGrH2O": 68.0,
-      "inputs": {
-        "caseLengthIn": 2.494,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.308,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 40.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".30-06 Springfield",
-        "parentId": "30-06",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.308,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 70.1,
-        "parentResidualGr": 1.6
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 30-06 (1.6 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 68.0,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "30-06",
-        "parentCitedCapacityGrH2O": 68.0
       },
       "supersededByPrintedValueWhenAvailable": true
     },
@@ -2627,61 +2503,6 @@
       "supersededByPrintedValueWhenAvailable": true
     },
     {
-      "cartridgeId": "6-5-06",
-      "name": "6.5-06 A-Square",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 66.2,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "30-06",
-      "parentName": ".30-06 Springfield",
-      "parentCitedCapacityGrH2O": 68.0,
-      "inputs": {
-        "caseLengthIn": 2.494,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.264,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 17.5,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".30-06 Springfield",
-        "parentId": "30-06",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.264,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 67.8,
-        "parentResidualGr": 1.6
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 30-06 (1.6 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 65.5,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "30-06",
-        "parentCitedCapacityGrH2O": 68.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
       "cartridgeId": "6-5-300-wby",
       "name": "6.5-300 Weatherby Magnum",
       "kind": "saami",
@@ -2775,51 +2596,6 @@
       "supersededByPrintedValueWhenAvailable": true
     },
     {
-      "cartridgeId": "6-5-saum",
-      "name": "6.5 SAUM",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 76.3,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
-      "calibrationWorstCartridgeId": "28-nosler",
-      "calibrationCount": 12,
-      "parentId": "7mm-saum",
-      "parentName": "7mm Remington Short Action Ultra Magnum",
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 2.035,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.264,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.534,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rebated",
-        "shoulderAngleDeg": 35.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": "7mm Remington SAUM",
-        "parentId": "7mm-saum",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.554,
-        "baseOffsetIn": 0.02,
-        "neckLengthUsedIn": 0.264,
-        "rimTypeUsed": "rebated"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
       "cartridgeId": "6-5-wby-rpm",
       "name": "6.5 Weatherby RPM",
       "kind": "saami",
@@ -2865,106 +2641,6 @@
         "baseOffsetIn": 0.02,
         "neckLengthUsedIn": 0.264,
         "rimTypeUsed": "rebated"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "6mm-284",
-      "name": "6mm-284",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 65.1,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.41,
-      "calibrationWorstAbsErrorGr": 8.7,
-      "calibrationWorstCartridgeId": "28-nosler",
-      "calibrationCount": 12,
-      "parentId": "284-win",
-      "parentName": ".284 Winchester",
-      "parentCitedCapacityGrH2O": 66.0,
-      "inputs": {
-        "caseLengthIn": 2.17,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.243,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rebated",
-        "shoulderAngleDeg": 35.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".284 Winchester",
-        "parentId": "284-win",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.493,
-        "baseOffsetIn": 0.02,
-        "neckLengthUsedIn": 0.243,
-        "rimTypeUsed": "rebated",
-        "geometricBeforeParentResidualGr": 63.9,
-        "parentResidualGr": -1.24
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 284-win (-1.24 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 64.2,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "284-win",
-        "parentCitedCapacityGrH2O": 66.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "6mm-br-rem",
-      "name": "6mm BR Remington",
-      "kind": "saami",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 38.0,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": null,
-      "parentName": null,
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 1.52,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.243,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 30.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".308x1.5 Barnes",
-        "parentId": null,
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.243,
-        "rimTypeUsed": "rimless"
       },
       "assumptions": [
         "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
@@ -3139,61 +2815,6 @@
       "supersededByPrintedValueWhenAvailable": true
     },
     {
-      "cartridgeId": "6mm-dasher",
-      "name": "6mm Dasher",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 38.2,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": "6mm-norma-br",
-      "parentName": "6mm Norma BR",
-      "parentCitedCapacityGrH2O": 39.0,
-      "inputs": {
-        "caseLengthIn": 1.52,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.243,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.473,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 40.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": "6mm Norma BR",
-        "parentId": "6mm-norma-br",
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.473,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.243,
-        "rimTypeUsed": "rimless",
-        "geometricBeforeParentResidualGr": 38.4,
-        "parentResidualGr": 0.21
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Subtracted the geometric residual on parent 6mm-norma-br (0.21 gr, model minus cited capacity).",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": {
-        "method": "parent-case",
-        "caseCapacityEstimateGrH2O": 38.0,
-        "calibrationMedianAbsErrorGr": 1.57,
-        "calibrationWorstAbsErrorGr": 9.82,
-        "parentId": "6mm-norma-br",
-        "parentCitedCapacityGrH2O": 39.0
-      },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
       "cartridgeId": "6mm-gt",
       "name": "6mm GT",
       "kind": "saami",
@@ -3246,51 +2867,6 @@
         "parentId": "22-250-rem",
         "parentCitedCapacityGrH2O": 43.0
       },
-      "supersededByPrintedValueWhenAvailable": true
-    },
-    {
-      "cartridgeId": "6mm-ppc",
-      "name": "6mm PPC",
-      "kind": "wildcat",
-      "definedIn": [
-        "data/cartridges/cartridges.json"
-      ],
-      "estimated": true,
-      "caseCapacityEstimateGrH2O": 32.4,
-      "method": "geometric",
-      "calibrationMedianAbsErrorGr": 1.69,
-      "calibrationWorstAbsErrorGr": 8.17,
-      "calibrationWorstCartridgeId": "338-lapua",
-      "calibrationCount": 31,
-      "parentId": null,
-      "parentName": null,
-      "parentCitedCapacityGrH2O": null,
-      "inputs": {
-        "caseLengthIn": 1.503,
-        "caseLengthSource": "data/cartridges/cartridges.json",
-        "bulletDiameterIn": 0.243,
-        "bulletDiameterSource": "data/cartridges/cartridges.json",
-        "rimDiameterIn": 0.441,
-        "rimDiameterSource": "data/cartridges/cartridges.json",
-        "rimType": "rimless",
-        "shoulderAngleDeg": 30.0,
-        "shoulderAngleSource": "data/cartridges/cartridges.json",
-        "neckLengthIn": null,
-        "parentCase": ".220 Russian",
-        "parentId": null,
-        "effectiveWallIn": 0.034,
-        "headWebIn": 0.1,
-        "bodyTaperOnDiameterIn": 0.02,
-        "baseOutsideDiameterIn": 0.441,
-        "baseOffsetIn": 0.0,
-        "neckLengthUsedIn": 0.243,
-        "rimTypeUsed": "rimless"
-      },
-      "assumptions": [
-        "Neck length is not stored. Used one bullet diameter, the assumption in src/lib/geometry.ts.",
-        "Superseded by a printed case volume when one is available."
-      ],
-      "alternate": null,
       "supersededByPrintedValueWhenAvailable": true
     },
     {
@@ -3614,6 +3190,14 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "No geometric estimate (shoulder angle missing) and no parent with a cited capacity."
+    },
+    {
+      "cartridgeId": "20-vartarg",
+      "name": ".20 Vartarg",
+      "definedIn": [
+        "data/cartridges/cartridges.json"
+      ],
+      "reason": "Conflicting printed case volumes 22.4, 23.5 gr in data/loads/inputs/hammer/case-data.csv. No estimate was written."
     },
     {
       "cartridgeId": "218-bee",
@@ -4096,6 +3680,15 @@
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
     {
+      "cartridgeId": "22-250-ai",
+      "name": ".22-250 Ackley Improved",
+      "caseCapacityGrH2O": 47.0,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
+    },
+    {
       "cartridgeId": "22-250-rem",
       "name": ".22-250 Remington",
       "caseCapacityGrH2O": 43.0,
@@ -4103,6 +3696,15 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "22-br",
+      "name": ".22 BR Remington",
+      "caseCapacityGrH2O": 38.0,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "22-hornet",
@@ -4168,13 +3770,22 @@
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
     {
+      "cartridgeId": "25-284",
+      "name": ".25-284 Winchester",
+      "caseCapacityGrH2O": 64.3,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
+    },
+    {
       "cartridgeId": "25-nosler",
       "name": ".25 Nosler",
-      "caseCapacityGrH2O": 92.0,
+      "caseCapacityGrH2O": 99.0,
       "source": [
-        "data/cartridges/cartridges.json"
+        "data/loads/inputs/hammer/case-data.csv"
       ],
-      "reason": "Stored caseCapacityGrH2O is already an estimate, so it was not used to calibrate and was not replaced."
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "257-wby",
@@ -4283,6 +3894,15 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "30-06-ai",
+      "name": ".30-06 Ackley Improved",
+      "caseCapacityGrH2O": 73.3,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "30-30-win",
@@ -4465,6 +4085,15 @@
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
     {
+      "cartridgeId": "6-5-06",
+      "name": "6.5-06 A-Square",
+      "caseCapacityGrH2O": 67.0,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
+    },
+    {
       "cartridgeId": "6-5-284-norma",
       "name": "6.5-284 Norma",
       "caseCapacityGrH2O": 66.0,
@@ -4499,6 +4128,15 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "6-5-saum",
+      "name": "6.5 SAUM",
+      "caseCapacityGrH2O": 72.3,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "6-5x47-lapua",
@@ -4537,6 +4175,15 @@
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
     {
+      "cartridgeId": "6mm-284",
+      "name": "6mm-284",
+      "caseCapacityGrH2O": 67.0,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
+    },
+    {
       "cartridgeId": "6mm-arc",
       "name": "6mm ARC",
       "caseCapacityGrH2O": 34.0,
@@ -4544,6 +4191,15 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "6mm-br-rem",
+      "name": "6mm BR Remington",
+      "caseCapacityGrH2O": 37.7,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "6mm-creedmoor",
@@ -4555,6 +4211,15 @@
       "reason": "Stored caseCapacityGrH2O. Not replaced."
     },
     {
+      "cartridgeId": "6mm-dasher",
+      "name": "6mm Dasher",
+      "caseCapacityGrH2O": 42.0,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
+    },
+    {
       "cartridgeId": "6mm-norma-br",
       "name": "6mm Norma BR",
       "caseCapacityGrH2O": 39.0,
@@ -4562,6 +4227,15 @@
         "data/cartridges/cartridges.json"
       ],
       "reason": "Stored caseCapacityGrH2O. Not replaced."
+    },
+    {
+      "cartridgeId": "6mm-ppc",
+      "name": "6mm PPC",
+      "caseCapacityGrH2O": 33.2,
+      "source": [
+        "data/loads/inputs/hammer/case-data.csv"
+      ],
+      "reason": "Printed case volume. Supersedes an estimate."
     },
     {
       "cartridgeId": "6mm-rem",

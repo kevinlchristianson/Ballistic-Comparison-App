@@ -1,6 +1,6 @@
 # Berger 2026 catalog vs product page
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Which printed BC and product line to keep
 
@@ -38,3 +38,7 @@ Loaded-ammunition rows in the same PDF were not added. Every added row has a man
 Keep the product-page G1 and G7. Record the catalog numbers in `conflicts`. Cite the product page and the catalog on the row. For part 27401, `productLine` stays `Hybrid Target` because that is the published name and the catalog section. The page's "Long Range Hybrid Target" is recorded in `conflicts`. Part 24486 stays out until product pages that are in neither the all-bullets table nor the 2026 catalog are requested.
 
 ## Answer
+
+Agreed: keep the product-page G1 and G7, record the catalog values in `conflicts`, cite both, and keep part 27401's `productLine` as `Hybrid Target`. Part 30551 was already in `berger.json` with the product-page G1 0.695 and G7 0.356, and the catalog 0.702 / 0.347 in `conflicts`.
+
+Part 24486 was added on 2026-10-28 from <https://bergerbullets.com/product/6-mm-120-grain-long-range-hybrid-target/>, immediately after the 6 mm 109 gr. The page prints G1 0.657, G7 0.328, bullet diameter 0.243, OAL 1.383, sectional density 0.29, and minimum twist 1:7.5". It does not print bearing surface, nose length, base to ogive, or boat-tail length, so those stay null. The 500ct part number 24786 is an alternate SKU.

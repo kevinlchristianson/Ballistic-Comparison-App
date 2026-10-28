@@ -19,9 +19,10 @@ On each run the script skips a cartridge that already has a capacity in any of t
 - `data/cartridges/cartridges.json`
 - `data/cartridges/bots/bullets.json` (not in the tree yet)
 - `data/cartridges/bots/loads.json`
-- a later JSON file under `data/loads/` or `data/bullets/estimates/` that is not this output and that carries `caseCapacityGrH2O`, `caseVolumeGrH2O`, or `caseVolumeH2O` (the expected shape of the Hammer list)
+- a later JSON file under `data/loads/` or `data/bullets/estimates/` that is not this output and that carries `caseCapacityGrH2O`, `caseVolumeGrH2O`, or `caseVolumeH2O`
+- Hammer's `data/loads/inputs/hammer/case-data.csv` "Case volume H20" column
 
-A stored value whose `fieldNotes.caseCapacityGrH2O` starts with "Estimate" is also skipped. It is not a calibration target and not a parent donor. `.25 Nosler`'s 92 gr is that case. Published numbers already on `loads.json` are not replaced: `.26 Nosler` 93 gr (Nosler cartridge-page usable capacity) and `.27 Nosler` 98.4 gr (Nosler fireformed overflow). Hammer's printed "Case volume H2O" list is not on main. When it arrives, the next run drops any cartridge that list covers. Conflicting printed numbers for one cartridge produce no estimate.
+A stored value whose `fieldNotes.caseCapacityGrH2O` starts with "Estimate" is also skipped. It is not a calibration target and not a parent donor. `.25 Nosler`'s 92 gr is that case. Published numbers already on `loads.json` are not replaced: `.26 Nosler` 93 gr (Nosler cartridge-page usable capacity) and `.27 Nosler` 98.4 gr (Nosler fireformed overflow). Hammer's printed "Case volume H20" list is now `data/loads/inputs/hammer/case-data.csv`, and the 2026-10-28 run drops every cartridge it matches. Conflicting printed numbers for one cartridge produce no estimate.
 
 The library has no base, shoulder, or neck outside diameters. The geometric model builds an internal profile from case length, bullet diameter, rim diameter, rim type, shoulder angle, and neck length. Neck inside diameter is the bullet diameter. A missing neck length uses one bullet diameter, the same assumption as `src/lib/geometry.ts`. Water is 252.9 gr per cubic inch. Effective wall (0.034 in), head web (0.100 in), and body taper (0.020 in on the diameter) were fitted on rimless cartridges that already have a cited capacity and a shoulder angle. The fitted wall is thicker than real brass because the model has no extractor groove. Other rim classes with at least four cited cases get a fitted base-diameter offset only: rebated +0.020 in, belted −0.014 in. Rimmed and semi-rimmed were not fitted.
 
@@ -55,8 +56,10 @@ Sixty cartridges could not be estimated without inventing a shoulder angle, a ri
 
 `loads.json` cartridges were included. Thirteen of them are defined only there and all thirteen are in the unable list (the 12 Lazzeroni names plus `.24 Nosler`). Merged rows such as `.26 Nosler` use owner dimensions where both files have a value, and the load-bot rim and shoulder where the owner row is null. No cartridge was added to `data/cartridges/bots/bullets.json`.
 
+A later run on 2026-10-28 dropped every Hammer printed volume that matches a library cartridge. Current counts, and the question of whether these estimates are still wanted, are in [`2026-10-28-case-capacity-estimates-still-wanted.md`](2026-10-28-case-capacity-estimates-still-wanted.md). How to store an estimate is still open here.
+
 ## Working assumption until answered
 
-Keep the estimates in `data/bullets/estimates/case-capacity.json`. Do not write them into `caseCapacityGrH2O` on the owner list or either bot cartridge file. A published capacity, including Hammer's when it lands, replaces the estimate on the next run.
+Keep the estimates in `data/bullets/estimates/case-capacity.json`. Do not write them into `caseCapacityGrH2O` on the owner list or either bot cartridge file. A published capacity, including Hammer's, replaces the estimate on the next run.
 
 ## Answer
