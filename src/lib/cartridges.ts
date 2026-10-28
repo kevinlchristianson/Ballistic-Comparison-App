@@ -37,6 +37,14 @@ export interface Cartridge {
   rimDiameterIn: number | null;
   shoulderAngleDeg: number | null;
   neckLengthIn: number | null;
+  /** Case profile from a chamber or case drawing (bot cartridge schema 1.1.0). Absent when unknown. */
+  baseDiameterIn?: number | null;
+  shoulderDiameterIn?: number | null;
+  neckDiameterIn?: number | null;
+  /** Head to the shoulder/body junction. */
+  lengthToShoulderIn?: number | null;
+  /** Head to the shoulder/neck junction. */
+  lengthToNeckIn?: number | null;
   verification: CartridgeVerification;
   /** Per-field caveats, keyed by field name. */
   fieldNotes: Record<string, string>;

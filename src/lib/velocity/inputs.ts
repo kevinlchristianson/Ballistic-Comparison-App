@@ -29,7 +29,7 @@
 import { buildAliasIndex, resolveCartridge, type Cartridge } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
 
-export type CapacityMethod = "parent_case" | "heaviest_charge" | "case_size";
+export type CapacityMethod = "parent_case" | "heaviest_charge" | "case_size" | "bot_profile";
 export type PressureMethod = "parent_case" | "rim_type_median" | "library_median";
 
 export interface EstimatedValue<M extends string> {
@@ -53,6 +53,36 @@ export interface CartridgeInputs {
 export interface InputOptions {
   /** Heaviest non-start published charge per cartridge id, grains. */
   maxChargeGr?: Record<string, number>;
+  /** The bullet bot's case-capacity estimates (data/bullets/estimates/case-capacity.json), per cartridge id. */
+  botEstimates?: Record<string, BotCapacityEstimate>;
+}
+
+/** One row of the bullet bot's case-capacity estimates, as the site uses it. */
+export interface BotCapacityEstimate {
+  value: number;
+  /** "geometric" (case profile) or "parent-case". */
+  method: string;
+  /** The bot's calibration: median absolute error over cartridges with a cited capacity, grains. */
+  medianAbsErrorGr: number;
+}
+
+/**
+ * Reads the bullet bot's estimate file. Rows without a number, a method or a
+ * calibration error are skipped.
+ */
+export function botCapacityEstimates(file: unknown): Record<string, BotCapacityEstimate> {
+  const rows = (file as { estimates?: unknown[] } | null)?.estimates;
+  const out: Record<string, BotCapacityEstimate> = {};
+  if (!Array.isArray(rows)) return out;
+  for (const r of rows as Record<string, unknown>[]) {
+    const id = r?.cartridgeId;
+    const value = r?.caseCapacityEstimateGrH2O;
+    const err = r?.calibrationMedianAbsErrorGr;
+    if (typeof id === "string" && typeof value === "number" && value > 0 && typeof err === "number" && err > 0 && typeof r.method === "string") {
+      out[id] = { value, method: r.method, medianAbsErrorGr: err };
+    }
+  }
+  return out;
 }
 
 /** Heaviest non-start charge per cartridge, the input to the charge-based capacity estimate. */
@@ -198,6 +228,12 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
     if (charges[c.id]) {
       parts.push({ v: charges[c.id]! / Math.exp(chargeMean), sd: chargeSd, m: "heaviest_charge", note: `from the heaviest published charge (${charges[c.id]} gr)` });
     }
+    const bot = options.botEstimates?.[c.id];
+    if (bot) {
+      // Median absolute error to a standard deviation (× 1.4826), relative to this case.
+      const sd = Math.max((1.4826 * bot.medianAbsErrorGr) / bot.value, 0.02);
+      parts.push({ v: bot.value, sd, m: "bot_profile", note: `from the bullet bot's ${bot.method} model (${bot.value} gr)` });
+    }
     const size = withRim?.features(c) ? withRim : noRim?.features(c) ? noRim : null;
     if (size) parts.push({ v: Math.exp(dot(size.features(c)!, size.coef)), sd: size.relSd, m: "case_size", note: `from ${size.label}` });
     if (!parts.length) {
@@ -209,11 +245,16 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
     const mean = parts.reduce((s, x, i) => s + w[i]! * Math.log(x.v), 0) / sw;
     // Methods that disagree widen the uncertainty.
     const spread = Math.sqrt(parts.reduce((s, x, i) => s + w[i]! * (Math.log(x.v) - mean) ** 2, 0) / sw);
+    let value = Math.exp(mean);
+    // An improved case holds at least as much as its parent.
+    const floor = p && isImproved(c.name) && !isImproved(p.name) ? p.caseCapacityGrH2O ?? capacityCache.get(p.id)?.value ?? null : null;
+    const floored = floor != null && value < floor;
+    if (floored) value = floor;
     const est: EstimatedValue<CapacityMethod> = {
-      value: Math.round(Math.exp(mean) * 10) / 10,
+      value: Math.round(value * 10) / 10,
       relSd: Math.max(1 / Math.sqrt(sw), spread),
       methods: parts.map((x) => x.m),
-      detail: `Estimated ${parts.map((x) => x.note).join("; ")}.`,
+      detail: `Estimated ${parts.map((x) => x.note).join("; ")}.${floored ? ` Raised to the parent's ${floor} gr: an improved case is not smaller than its parent.` : ""}`,
     };
     capacityCache.set(c.id, est);
     return est;

@@ -12,7 +12,9 @@ import { aliasKey, buildAliasIndex, type BotSource, type Cartridge, type Cartrid
 
 export type { BotSource, CartridgeAddedBy } from "./cartridges.ts";
 
-export const BOT_CARTRIDGE_SCHEMA_VERSION = "1.0.0" as const;
+export const BOT_CARTRIDGE_SCHEMA_VERSION = "1.1.0" as const;
+/** Versions this app reads. 1.1.0 adds the optional case-profile fields; 1.0.0 files still work. */
+export const BOT_CARTRIDGE_SCHEMA_VERSIONS = ["1.0.0", "1.1.0"] as const;
 export const BOT_CARTRIDGE_DIR = "data/cartridges/bots";
 
 export interface BotCartridgeRecord {
@@ -29,6 +31,12 @@ export interface BotCartridgeRecord {
   maxCoal: number | null;
   rimDiameter: number | null;
   neckLength: number | null;
+  /** 1.1.0, optional: case profile, in `lengthUnit`. */
+  baseDiameter?: number | null;
+  shoulderDiameter?: number | null;
+  neckDiameter?: number | null;
+  lengthToShoulder?: number | null;
+  lengthToNeck?: number | null;
   caseCapacityGrH2O: number | null;
   shoulderAngleDeg: number | null;
   rimType: RimType | null;
@@ -70,7 +78,17 @@ export interface BotCartridgeReport {
  * the library leaves them empty. None of them is part of SAAMI or C.I.P. data
  * the project checks, so the project's values always win.
  */
-export const FILLABLE_FIELDS = ["caseCapacityGrH2O", "neckLengthIn", "shoulderAngleDeg"] as const;
+export const FILLABLE_FIELDS = [
+  "caseCapacityGrH2O",
+  "neckLengthIn",
+  "shoulderAngleDeg",
+  "rimDiameterIn",
+  "baseDiameterIn",
+  "shoulderDiameterIn",
+  "neckDiameterIn",
+  "lengthToShoulderIn",
+  "lengthToNeckIn",
+] as const;
 export type FillableField = (typeof FILLABLE_FIELDS)[number];
 
 export interface BotMergeResult {
@@ -124,6 +142,11 @@ export function botRecordToCartridge(r: BotCartridgeRecord, bot: string, file: s
     maxCoalIn: toIn(r.maxCoal, "maxCoalIn", 0.5, 6),
     rimDiameterIn: toIn(r.rimDiameter, "rimDiameterIn", 0.1, 1.2),
     neckLengthIn: toIn(r.neckLength, "neckLengthIn", 0.05, 1),
+    baseDiameterIn: toIn(r.baseDiameter, "baseDiameterIn", 0.2, 1.2),
+    shoulderDiameterIn: toIn(r.shoulderDiameter, "shoulderDiameterIn", 0.15, 1.2),
+    neckDiameterIn: toIn(r.neckDiameter, "neckDiameterIn", 0.1, 1.1),
+    lengthToShoulderIn: toIn(r.lengthToShoulder, "lengthToShoulderIn", 0.3, 5),
+    lengthToNeckIn: toIn(r.lengthToNeck, "lengthToNeckIn", 0.3, 5),
   };
   for (const [k, v] of Object.entries(lengths)) if (v === "bad") return `${k.replace(/In$/, "")} is not a number in range`;
   const L = lengths as Record<keyof typeof lengths, number | null>;
@@ -131,6 +154,12 @@ export function botRecordToCartridge(r: BotCartridgeRecord, bot: string, file: s
   if (L.caseLengthIn == null) return "missing case length";
   if (r.kind === "saami" && L.maxCoalIn == null) return "SAAMI cartridge missing max COAL";
   if (L.maxCoalIn != null && L.maxCoalIn <= L.caseLengthIn) return "max COAL is not longer than case length";
+  // Case profile, when given, must be in order from head to mouth and from base to neck.
+  if (L.lengthToShoulderIn != null && L.lengthToNeckIn != null && L.lengthToShoulderIn >= L.lengthToNeckIn) return "lengthToShoulder is not shorter than lengthToNeck";
+  if ((L.lengthToNeckIn ?? 0) >= L.caseLengthIn || (L.lengthToShoulderIn ?? 0) >= L.caseLengthIn) return "shoulder or neck junction is not inside the case length";
+  if (L.neckDiameterIn != null && L.neckDiameterIn <= L.bulletDiameterIn) return "neckDiameter is not larger than bullet diameter";
+  if (L.shoulderDiameterIn != null && L.neckDiameterIn != null && L.shoulderDiameterIn <= L.neckDiameterIn) return "shoulderDiameter is not larger than neckDiameter";
+  if (L.baseDiameterIn != null && L.shoulderDiameterIn != null && L.baseDiameterIn < L.shoulderDiameterIn) return "baseDiameter is smaller than shoulderDiameter";
   const capacity = finite(r.caseCapacityGrH2O);
   if (capacity != null && (capacity < 1 || capacity > 500)) return "caseCapacityGrH2O out of range";
   const shoulder = finite(r.shoulderAngleDeg);
@@ -224,8 +253,8 @@ export function mergeBotCartridges(base: CartridgeLibrary, files: { file: string
       rep.rejected.push({ item: "(file)", reason: "not a JSON object" });
       continue;
     }
-    if (f.schemaVersion !== BOT_CARTRIDGE_SCHEMA_VERSION) {
-      rep.rejected.push({ item: "(file)", reason: `unsupported_schema_version ${String(f.schemaVersion)}; this app reads ${BOT_CARTRIDGE_SCHEMA_VERSION}` });
+    if (!(BOT_CARTRIDGE_SCHEMA_VERSIONS as readonly unknown[]).includes(f.schemaVersion)) {
+      rep.rejected.push({ item: "(file)", reason: `unsupported_schema_version ${String(f.schemaVersion)}; this app reads ${BOT_CARTRIDGE_SCHEMA_VERSIONS.join(", ")}` });
       continue;
     }
     const bot = text(f.bot, 40) ?? "unnamed";

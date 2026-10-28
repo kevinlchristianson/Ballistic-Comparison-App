@@ -54,4 +54,22 @@ describe("estimated cartridge inputs", () => {
     if (!ai) return;
     expect(inputs.get(ai.id)!.pressureEstimate!.methods).toContain("parent_case");
   });
+
+  it("uses the bullet bot's estimates, weighted by its calibration error", async () => {
+    const { botCapacityEstimates } = await import("../src/lib/velocity/inputs.ts");
+    const bot = botCapacityEstimates({ estimates: [{ cartridgeId: "25-20-win", caseCapacityEstimateGrH2O: 19, method: "geometric", calibrationMedianAbsErrorGr: 0.3 }, { cartridgeId: "x", method: "geometric" }] });
+    expect(Object.keys(bot)).toEqual(["25-20-win"]);
+    const e = estimateCartridgeInputs(cartridges, { botEstimates: bot }).get("25-20-win")!.capacityEstimate!;
+    expect(e.methods).toContain("bot_profile");
+    // A tight bot calibration pulls the blend close to the bot's number.
+    expect(Math.abs(e.value - 19)).toBeLessThan(1.5);
+  });
+
+  it("never puts an improved case below its parent", () => {
+    for (const c of cartridges.filter((x) => /ackley|improved/i.test(x.name) && x.caseCapacityGrH2O == null)) {
+      const e = inputs.get(c.id)!;
+      const parent = cartridges.find((p) => p.name === c.parentCase);
+      if (parent?.caseCapacityGrH2O != null && !/ackley|improved/i.test(parent.name)) expect(e.caseCapacityGrH2O!).toBeGreaterThanOrEqual(parent.caseCapacityGrH2O);
+    }
+  });
 });

@@ -100,6 +100,26 @@ describe("bot cartridges", () => {
     expect(lib.cartridges.find((c) => c.id === empty.id)!.caseCapacityGrH2O).toBeNull();
   });
 
+  it("reads schema 1.1.0 case profiles, checks their order, and fills empty profile fields", () => {
+    const profile = { lengthUnit: "mm" as const, bulletDiameter: 6.17, caseLength: 44.7, maxCoal: 57.4, rimDiameter: 12.01, baseDiameter: 11.95, shoulderDiameter: 11.53, neckDiameter: 6.9, lengthToShoulder: 35.5, lengthToNeck: 38.3 };
+    const { library, reports } = mergeBotCartridges(lib, [
+      {
+        file: "f.json",
+        data: file([record({ ...profile }), record({ id: "bad-order", name: "Bad Order", ...profile, lengthToShoulder: 39 })], [], { schemaVersion: "1.1.0" }),
+      },
+    ]);
+    const c = library.cartridges.find((x) => x.id === "24-nosler")!;
+    expect(c.lengthToShoulderIn).toBeCloseTo(1.3976, 4);
+    expect(c.fieldNotes.shoulderDiameterIn).toContain("11.53 mm");
+    expect(reports[0]!.rejected.find((r) => r.item === "bad-order")!.reason).toMatch(/lengthToShoulder/);
+    const target = lib.cartridges.find((x) => x.kind === "saami")!;
+    const { library: l2, reports: r2 } = mergeBotCartridges(lib, [
+      { file: "g.json", data: file([record({ id: target.id, name: "Other", lengthUnit: "in", bulletDiameter: target.bulletDiameterIn, caseLength: target.caseLengthIn, maxCoal: target.maxCoalIn, baseDiameter: 0.47 })], [], { schemaVersion: "1.1.0" }) },
+    ]);
+    expect(r2[0]!.filled.map((f) => f.field)).toContain("baseDiameterIn");
+    expect(l2.cartridges.find((x) => x.id === target.id)!.baseDiameterIn).toBe(0.47);
+  });
+
   it("adds aliases to existing cartridges unless the name already belongs to another", () => {
     const { library, reports } = mergeBotCartridges(lib, [
       {

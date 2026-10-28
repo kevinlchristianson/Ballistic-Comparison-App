@@ -12,11 +12,11 @@
  * means the sd is honest). Re-run after changing blend.ts, physics.ts or
  * inputs.ts. Needs `npm run normalize` first. Slow-ish: a few seconds.
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import type { NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { createBlendEstimator } from "../src/lib/velocity/blend.ts";
 import { createFilledPhysics, physicsFpsPerInch } from "../src/lib/velocity/index.ts";
-import { estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
+import { botCapacityEstimates, estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
 import { estimateFromFit, fitLoads, loadFitSource } from "../src/lib/velocity/loadData.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
@@ -26,6 +26,8 @@ const cartridges = loadCartridgeLibrary().library.cartridges;
 const config = JSON.parse(readFileSync("data/site-config.json", "utf8")) as { excludedLoadSources: string[] };
 const excluded = new Set(config.excludedLoadSources);
 const loads = (JSON.parse(readFileSync("data/normalized/loads.json", "utf8")) as NormalizedEnvelope<NormalizedLoad>).records.filter((l) => !excluded.has(l.source.name));
+const BOT_ESTIMATES = "data/bullets/estimates/case-capacity.json";
+const botEstimates = existsSync(BOT_ESTIMATES) ? botCapacityEstimates(JSON.parse(readFileSync(BOT_ESTIMATES, "utf8"))) : {};
 const byCartridge = new Map<string, NormalizedLoad[]>();
 for (const l of loads) (byCartridge.get(l.cartridgeId) ?? byCartridge.set(l.cartridgeId, []).get(l.cartridgeId)!).push(l);
 const rms = (x: number[]) => (x.length ? Math.sqrt(x.reduce((s, v) => s + v * v, 0) / x.length) : NaN);
@@ -63,7 +65,7 @@ for (const [label, scenario] of scenarios) {
     const sc = scenario(own);
     if (!sc) continue;
     const seen = [...loads.filter((l) => l.cartridgeId !== id), ...sc.keep];
-    const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen) });
+    const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen), botEstimates });
     const physics = createFilledPhysics(cartridges, inputs);
     const est = createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics });
     for (const w of sc.weights) {
