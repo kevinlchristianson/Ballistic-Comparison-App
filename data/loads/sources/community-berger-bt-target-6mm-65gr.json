@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 6 mm 65 Grain BT Target",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-bt-target-6mm-65gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": "6 br",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 65,
+      "bulletDescription": "65 BT Target",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "varget",
+      "charge": 33,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "cci br4",
+      "case": "lapua",
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": 3350,
+      "velocityUnit": "fps",
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/6-br-varget-65gr-bergers.2686091/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: shooter74; Posted: May 4, 2008; 65gr bergers. The catalog has only this 65 gr Berger. 1-12 twist Hart, XR 100 Rem. Groups in the .3s and .2s, and he says they will shoot in the 1s. He asked whether 3500 would be asking too much, which is not a second velocity. He did not restate the cartridge or the powder; the thread title is 6 br varget/65gr bergers."
+    }
+  ]
+}

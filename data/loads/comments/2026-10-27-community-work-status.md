@@ -34,7 +34,9 @@ The 22 cal 73 gr BT Target, part 22420, is [#222](https://github.com/kevinlchris
 
 The 22 cal 80.5 gr FULLBORE Target, part 22427, is [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225).
 
-The bullet in this pull request is the 6 mm BR COLUMN Target, part 24407 — [#227](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/227). The catalog weight is blank. The stored weight is 64, the figure implied by sectional density 0.155.
+The 6 mm BR COLUMN Target, part 24407, is [#227](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/227). The catalog weight is blank. The stored weight is 64, the figure implied by sectional density 0.155.
+
+The bullet in this pull request is the 6 mm 65 gr BT Target, part 24408 — [#229](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/229). The catalog has only this 65 gr Berger.
 
 22 cal 69 gr BT Target, part 22419, was searched. Posts name 69 gr SMKs or a powder with no Berger charge. No file and no pull request.
 
@@ -139,27 +141,27 @@ Merged community files, with the pull request number:
 - 22 cal 73 gr BT Target, part 22420 — [#222](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/222)
 - 22 cal 80.5 gr FULLBORE Target, part 22427 — [#225](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/225)
 - 6 mm BR COLUMN Target, part 24407, catalog weight blank, stored weight 64 — [#227](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/227)
+- 6 mm 65 gr BT Target, part 24408 — [#229](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/229)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the BR COLUMN file merges, still on the bullets whose product line is blank.
+After the 65 gr file merges, still on the bullets whose product line is blank.
 
-1. 6 mm 65 gr BT Target, part 24408
-2. 6 mm 68 gr FB Target, part 24411
-3. 6 mm 90 gr BT Target, part 24425
-4. 6 mm 105 gr BT Target, part 24428
-5. 6 mm 108 gr BT Target, part 24431
-6. 6.5 mm 120 gr BT Target, part 26402
-7. 6.5 mm 140 gr Long Range BT Target, part 26409
-8. 30 cal 115 gr FB Target, part 30421
-9. 30 cal 150 gr FB Target, part 30407
-10. 30 cal 155.5 gr FULLBORE Target, part 30416
-11. 30 cal 175 gr Long Range BT Target, part 30420
-12. 30 cal 185 gr Juggernaut Target, part 30418
-13. 375 cal 379 gr ELR Match Solid, part 37379
-14. 375 cal 407 gr ELR Match Solid, part 37407
+1. 6 mm 68 gr FB Target, part 24411
+2. 6 mm 90 gr BT Target, part 24425
+3. 6 mm 105 gr BT Target, part 24428
+4. 6 mm 108 gr BT Target, part 24431
+5. 6.5 mm 120 gr BT Target, part 26402
+6. 6.5 mm 140 gr Long Range BT Target, part 26409
+7. 30 cal 115 gr FB Target, part 30421
+8. 30 cal 150 gr FB Target, part 30407
+9. 30 cal 155.5 gr FULLBORE Target, part 30416
+10. 30 cal 175 gr Long Range BT Target, part 30420
+11. 30 cal 185 gr Juggernaut Target, part 30418
+12. 375 cal 379 gr ELR Match Solid, part 37379
+13. 375 cal 407 gr ELR Match Solid, part 37407
 
 ## Ambiguous VLD line candidates
 
@@ -211,6 +213,12 @@ These posts name a bullet weight and do not name the product line, or they name 
 These posts name a flat base and do not say Varmint or Target. The catalog has both lines at the weight. They are not in a community file yet.
 
 - 22 cal 55 FB, 223 Remington thread, cartridge not named in the post, AR Comp, around 24 grains, no velocity, Shilen 14 twist, afret, Jun 27, 2024: [1 in 14 twist 223 Remington barrel projectiles](https://forum.accurateshooter.com/threads/1-in-14-twist-223-remington-barrel-projectiles.4127811/)
+
+## Unresolved loads
+
+These posts name a charge and do not name a cartridge. The thread title and the subforum do not make the cartridge clear.
+
+- 6 mm BR COLUMN, brxlefty, Aug 1, 2023, n133 28.9 gr, .008 off the lands, no velocity. Thread title "Berger columns with n133?". Subforum Reloading Forum (All Calibers). The opening post does not name a cartridge. [Berger columns with n133](https://forum.accurateshooter.com/threads/berger-columns-with-n133.4100852/)
 
 ## Hammer Bullets import, started elsewhere
 
@@ -363,7 +371,9 @@ The 22 cal 73 gr BT Target file adds no unmatched name. `.223` and `223` resolve
 
 The 22 cal 80.5 gr FULLBORE Target file adds no unmatched name. `.223` and `223` resolve to `223-rem`. `223ai` resolves to `223-ai`. `22 Creedmoor` resolves to `22-creedmoor`. `22-250 ai` resolves to `22-250-ai`. JMH30's velocity is right at 2900, PopCharlie's is about 2650, and 284winner's is about 3550-3600, so those velocities stay null. rebs seated the 223 loads at 1.920 base to ogive and at 1.983, which are not COAL. Ned Ludd named H322 and about 2860 fps and gave no charge. swadiver named N140 and around 2920 fps and gave no charge. 284winner's around 37.5 grains is a suggestion. Berger's manual numbers and QuickLOAD figures are not community loads. Gary in MD named the 80.5 in a 22-250 and gave no charge. Clancy named H4350 and 3345 fps and gave no charge. No fired 80.5 gr FULLBORE charge turned up in 220 Swift, 5.56, 22 BR, 224 Valkyrie, 22 PPC, or 22 Dasher. The ambiguous lists are left unchanged. This file does not edit the 75 gr VLD Target source.
 
-The 6 mm BR COLUMN Target file adds no unmatched name. `6ppc` and `6 PPC` resolve to `6mm-ppc`. `6 BR` and `6BR` resolve to `6mm-norma-br`. The catalog weight is blank. The stored weight is 64, from sectional density 0.155. ReedG wrote 64.2 gr and weighed the lot at 64.3 gr. divingin's Varget velocity is about 3100, so it stays null. He also runs the same charges in Barts 66 FB bullets, which is noted and not a second bullet row. brxlefty's 28.9 gr of n133 does not name a cartridge, so it is not in this file. No fired BR COLUMN charge turned up in 243 Win, 6mm Rem, 6 Creed, 6mm ARC, or 240 Wby. The ambiguous lists are left unchanged.
+The 6 mm BR COLUMN Target file adds no unmatched name. `6ppc` and `6 PPC` resolve to `6mm-ppc`. `6 BR` and `6BR` resolve to `6mm-norma-br`. The catalog weight is blank. The stored weight is 64, from sectional density 0.155. ReedG wrote 64.2 gr and weighed the lot at 64.3 gr. divingin's Varget velocity is about 3100, so it stays null. He also runs the same charges in Barts 66 FB bullets, which is noted and not a second bullet row. brxlefty's 28.9 gr of n133 does not name a cartridge. The thread title is "Berger columns with n133?" and the subforum is Reloading Forum (All Calibers), so the cartridge stays unresolved. No fired BR COLUMN charge turned up in 243 Win, 6mm Rem, 6 Creed, 6mm ARC, or 240 Wby. The ambiguous lists are left unchanged.
+
+The 6 mm 65 gr BT Target file adds no unmatched name. `6 br` resolves to `6mm-norma-br`. shooter74's 33 gr charge is the only fired number. He did not restate the powder; his thread title is varget. The catalog has only this 65 gr Berger. AckleymanII's 33.6 g is a load he is familiar with, and his 31.0 gr is a place to start. Eric Leonard's 31.0 gr of LT32 is in a 6BRA thread and he did not say Berger. divingin's 31 gr and 33.5 gr are the Column bullet, already in that file. Charlie-NY's 30.0 gr of Varget is the 105 Berger. A 6BR deer post named the 65 Gr. Berger BT and about 3400 fps and gave no charge. 6PPC posts named 65 gr Bergers and gave no charge. No fired 65 gr BT Target charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Creed, 6mm ARC, or 240 Wby. The ambiguous lists are left unchanged.
 
 The 30 cal 185 gr VLD Hunting file adds no unmatched name. `300 WSM` resolves to `300-wsm`. Alex Wheeler's 65.5 gr rl16 does not name a line, so it is in the ambiguous list. No fired hunting charge turned up in .308, 30-06, 300 Win Mag, 300 PRC, 300 RUM, 30 Nosler, or 300 Weatherby. This file does not edit the 185 gr Hybrid Target or VLD Target sources.
 
