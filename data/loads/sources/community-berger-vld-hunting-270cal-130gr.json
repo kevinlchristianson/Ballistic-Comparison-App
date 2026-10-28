@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-10-27",
+  "loadCount": 1,
+  "source": {
+    "name": "Community Berger 270 Caliber 130 Grain VLD Hunting",
+    "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-270cal-130gr.csv",
+    "retrievedOn": "2026-10-27",
+    "testBarrelIn": null
+  },
+  "loads": [
+    {
+      "cartridge": ".270",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 130,
+      "bulletDescription": "130 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "adi2209",
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/berger-130-vld-load-for-a-sako-75-270-hunter-stainless.3739820/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: clint27; Posted: Jan 23, 2010; Velocity_fps: around 3050; 130 gn VLD in a Sako 75 .270. No charge. Seated to magazine length, about 10 to 20 thou off the lands. Groups under 2 inches at 260 yards. He said it was accurate to 700 yards."
+    }
+  ]
+}

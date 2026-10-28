@@ -12,11 +12,11 @@
  * means the sd is honest). Re-run after changing blend.ts, physics.ts or
  * inputs.ts. Needs `npm run normalize` first. Slow-ish: a few seconds.
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import type { NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { createBlendEstimator } from "../src/lib/velocity/blend.ts";
 import { createFilledPhysics, physicsFpsPerInch } from "../src/lib/velocity/index.ts";
-import { estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
+import { botCapacityEstimates, estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
 import { estimateFromFit, fitLoads, loadFitSource } from "../src/lib/velocity/loadData.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
@@ -26,6 +26,8 @@ const cartridges = loadCartridgeLibrary().library.cartridges;
 const config = JSON.parse(readFileSync("data/site-config.json", "utf8")) as { excludedLoadSources: string[] };
 const excluded = new Set(config.excludedLoadSources);
 const loads = (JSON.parse(readFileSync("data/normalized/loads.json", "utf8")) as NormalizedEnvelope<NormalizedLoad>).records.filter((l) => !excluded.has(l.source.name));
+const BOT_ESTIMATES = "data/bullets/estimates/case-capacity.json";
+const botEstimates = existsSync(BOT_ESTIMATES) ? botCapacityEstimates(JSON.parse(readFileSync(BOT_ESTIMATES, "utf8"))) : {};
 const byCartridge = new Map<string, NormalizedLoad[]>();
 for (const l of loads) (byCartridge.get(l.cartridgeId) ?? byCartridge.set(l.cartridgeId, []).get(l.cartridgeId)!).push(l);
 const rms = (x: number[]) => (x.length ? Math.sqrt(x.reduce((s, v) => s + v * v, 0) / x.length) : NaN);
@@ -63,7 +65,7 @@ for (const [label, scenario] of scenarios) {
     const sc = scenario(own);
     if (!sc) continue;
     const seen = [...loads.filter((l) => l.cartridgeId !== id), ...sc.keep];
-    const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen) });
+    const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen), botEstimates });
     const physics = createFilledPhysics(cartridges, inputs);
     const est = createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics });
     for (const w of sc.weights) {
@@ -83,4 +85,27 @@ for (const [label, scenario] of scenarios) {
   for (const [source, s] of Object.entries(bySource)) {
     console.log(`  ${source.padEnd(20)} RMS error ${(rms(s.err) * 100).toFixed(1)}%, RMS z ${rms(s.z).toFixed(2)} (n ${s.err.length})`);
   }
+}
+
+// How far one source's loads sit from the other sources' for the same
+// cartridge: the basis of SINGLE_SOURCE_SD in blend.ts.
+{
+  const diffs: number[] = [];
+  for (const [id, own] of byCartridge) {
+    const sources = [...new Set(own.map((l) => l.source.name))];
+    if (sources.length < 2) continue;
+    for (const s of sources) {
+      const a = fitLoads(id, own.filter((l) => l.source.name === s), BARREL);
+      const b = fitLoads(id, own.filter((l) => l.source.name !== s), BARREL);
+      if (!a || !b || a.support.loadCount < 3) continue;
+      const lo = Math.max(a.minWeightGr, b.minWeightGr);
+      const hi = Math.min(a.maxWeightGr, b.maxWeightGr);
+      if (lo > hi) continue;
+      const w = Math.sqrt(lo * hi);
+      const va = estimateFromFit(a, w).estimateFps;
+      const vb = estimateFromFit(b, w).estimateFps;
+      if (va && vb) diffs.push(Math.log(va / vb));
+    }
+  }
+  console.log(`\none source vs the rest: ${diffs.length} pairs, RMS difference ${(rms(diffs) * 100).toFixed(1)}%`);
 }

@@ -3,7 +3,7 @@ import { createDefaultEstimator, createSiteEstimator, physicsFpsPerInch, USER_LO
 import { buildFitTable, createFitTableEstimator, createLoadDataEstimator, DEFAULT_LOGLOG_SLOPE } from "../src/lib/velocity/loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { NormalizedLoad } from "../src/lib/normalize/types.ts";
-import { cartridges, fixtureLoads } from "./helpers.ts";
+import { cartridges, fixtureLoads, twoSourceLoads } from "./helpers.ts";
 
 const physics = createPhysicsEstimator(cartridges);
 
@@ -120,7 +120,7 @@ describe("default estimator", () => {
   const est = createDefaultEstimator(cartridges, fixtureLoads);
 
   it("prefers published loads when they cover the query", () => {
-    expect(est.estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 }).model).toBe("loglog-v1");
+    expect(createDefaultEstimator(cartridges, twoSourceLoads).estimate({ cartridgeId: "308-win", bulletWeightGr: 168, barrelLengthIn: 24 }).model).toBe("loglog-v1");
   });
 
   it("blends when published loads do not cover the weight, and says why", () => {

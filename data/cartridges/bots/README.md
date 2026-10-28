@@ -4,11 +4,13 @@ The bots may add cartridges, and new names for existing cartridges, to the libra
 
 Every push and pull request merges these files into the project's [`cartridges.json`](../cartridges.json) during normalization. The project's library always wins. A record that clashes with it, has no source, or has values out of range is left out and listed under **Cartridges added by bots** in the normalization report (the Check run's summary), and the rest of the file still counts. Bot-added cartridges show a "bot" tag and a source link on the site's Cartridges tab, and are marked unverified until the project checks them.
 
-## Format (schema 1.0.0)
+## Format (schema 1.1.0)
+
+Schema 1.1.0 (2026-10-28) adds five optional case-profile lengths to each cartridge record, in `lengthUnit` like the others: `baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder` (head to the body/shoulder junction) and `lengthToNeck` (head to the shoulder/neck junction). Leave them out or `null` when the source does not print them. Files marked 1.0.0 are still read.
 
 ```json
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 1,
@@ -27,6 +29,11 @@ Every push and pull request merges these files into the project's [`cartridges.j
       "maxCoal": 2.260,
       "rimDiameter": 0.473,
       "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "rebated",
@@ -50,6 +57,8 @@ The example values are placeholders, not checked data.
 - **Required:** `id` (lowercase slug: letters, digits, dots, hyphens), `name`, `kind` (`saami`, `cip` or `wildcat`), bullet diameter, case length, and a source. SAAMI cartridges also need max COAL, and max COAL must be longer than the case.
 - **Centerfire rifle only.** Handgun and rimfire are out of scope for now.
 - **Don't duplicate.** An id already in the library, or a name or alias that already matches another cartridge, is left out. If the library has the cartridge under another name, add an entry to `aliases` instead. Forum shorthand ("6 creed", "300 WM") already matches without an alias.
-- **Filling gaps.** A record left out because the library already has the cartridge still fills the library's empty `caseCapacityGrH2O`, `neckLengthIn` and `shoulderAngleDeg`, citing your `source`. It never replaces a value the library has. Each fill is listed in the normalization report.
+- **Filling gaps.** A record left out because the library already has the cartridge still fills the library's empty `caseCapacityGrH2O`, `neckLength`, `shoulderAngleDeg`, `rimDiameter` and the five profile lengths, citing your `source`. It never replaces a value the library has. Each fill is listed in the normalization report. The record must still pass the checks above (name, bullet diameter, case length, max COAL for SAAMI), so copy those from the library entry.
+- **Profile order.** When given, `lengthToShoulder` < `lengthToNeck` < case length, and bullet diameter < `neckDiameter` < `shoulderDiameter` ≤ `baseDiameter`. A record that breaks this is left out.
+- **Never an estimate.** Every number is a printed value. Estimates (like the bullet bot's case-capacity table) stay in their own files.
 - **Counts match.** `cartridgeCount` and `aliasCount` equal the array lengths.
 - **Tell the project before changing the format.** A file with an unknown `schemaVersion` is skipped entirely.

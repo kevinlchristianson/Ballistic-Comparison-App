@@ -1,6 +1,6 @@
 # Berger Hybrid Target bullets the catalog lacks
 
-- Status: open
+- Status: answered
 - Date: 2026-10-27
 - Topic: Hybrid Target and Long Range Hybrid Target parts missing from berger.json
 
@@ -44,3 +44,5 @@ Not in `berger.json`: part 24486, 6 mm 120 Grain Long Range Hybrid Target. Produ
 Collect community loads for the 22 catalog bullets above, in that order. Also collect part 24486 after the 109 gr, because the product page names it a Long Range Hybrid Target. Do not add it to the bullet catalog from this bot.
 
 ## Answer
+
+Answered. The bullet bot added part 24486 in [PR #104](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/104) as `berger-24486`, 6 mm 120 Grain Long Range Hybrid Target, diameter 0.243, 120 gr. `BOTS.md` asks for that bullet. The community file `sources/community-berger-hybrid-target-6mm-120gr.json` is the harvest for it. The site matches a load to a bullet from the maker and the bullet text: rows such as "120 Grain Long Range Hybrid Target" with maker Berger match that part.

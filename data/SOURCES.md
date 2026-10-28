@@ -22,6 +22,8 @@ The catalogs come from the manufacturers' own sites: Barnes, Berger, Cutting Edg
 
 Hodgdon's Terms of Service limit the Reloading Data Center to personal, non-commercial use and forbid republishing it or collecting it with scrapers without written consent (quoted in the survey below). The project owner was shown those terms on 2026-10-27 and chose to keep publishing Hodgdon rows; `excludedLoadSources` in `data/site-config.json` turns them off.
 
+Pacific Tool & Gauge's terms forbid copying any part of its site without written permission. The project owner was shown those terms on 2026-10-28 and chose to allow the bots to copy the **printed dimensions only** from PTG chamber-reamer drawings (no drawings, images or other page content), each value cited to the reamer page it came from. The dimensions go into the bot cartridge files in `data/cartridges/bots/` (schema 1.1.0).
+
 The load bot's terms survey for other sources (Hodgdon, Barnes and others) is in `data/loads/comments/2026-10-27-source-terms-survey.md`. Development and tests use synthetic fixtures in `tests/fixtures/loads/`, which are not real data and are never published.
 
 ### Community loads: known coverage gaps

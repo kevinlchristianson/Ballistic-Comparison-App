@@ -1,24 +1,24 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 15:05 UTC
+Last updated: 2026-10-28 17:44 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Auditing `data/cartridges/bots/loads.json` against the SAAMI-copy rule in `BOTS.md`. No load harvest is running. Estimates stay with the bullet bot.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. Hammer's `22-6mm (Rem)` stays unmatched. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. LoadDevelopment stays paused.
 
 ## Case capacity
 
 The bullet bot estimates capacities for cartridges that have none, in its own file, and it is asking the coding agent how to store estimates. This bot does not write estimates, and it does not keep [`comments/2026-10-27-case-capacity-estimates.md`](comments/2026-10-27-case-capacity-estimates.md).
 
-Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. `data/cartridges/bots/loads.json` was not edited here. A figure that is not an overflow to the mouth stays null on the cartridge record until that file is updated, and the bullet bot's estimates cover it. This bot is not writing parent-case estimates in the meantime.
+Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. Ten library cartridges that had no capacity now have Hammer's printed Case volume H20 on `loads.json`, cited to the sheet: .22-250 AI 47 gr, .22 BR 38 gr, .25-284 64.3 gr, .30-06 AI 73.3 gr, 6.5-06 67 gr, 6.5 SAUM 72.3 gr, 6mm-284 67 gr, 6mm BR Remington 37.7 gr, 6mm Dasher 42 gr, and 6mm PPC 33.2 gr. The fill rule publishes those empty library fields. 20 VarTarg is skipped (22.4 gr virgin and 23.5 gr fireformed). .25 Nosler is left alone. No other Hammer name outside the library prints both a thousandths bullet diameter and one case length. `6x6.8 SPC` does, and the bullet bot is adding it.
 
-Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets. Six bot records whose only dimensions came from Z299.4 are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF are removed. `.24 Nosler` and the Lazzeroni records stay.
+[PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) answers [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md). A duplicate bot record still stays out of the library, and its published `caseCapacityGrH2O` fills that field when the library's is empty. `.26 Nosler` stays at 93 gr H2O and `.27 Nosler` stays at 98.4 gr H2O. Bullet diameter, case length, and max COAL on those two records are copied from the library entry. Rim, shoulder, and the drawing pressure are null, so a Z299.4 dimension is not filled.
 
-`.26 Nosler` and `.27 Nosler` stay so their Nosler water capacities can fill the empty library fields: 93 gr H2O useable, and 98.4 gr H2O overflow to the neck. Bullet diameter, case length, and max COAL on those two records are copied from the library entry. Rim, shoulder, and the drawing pressure are null. See [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md).
+Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets. Six bot records whose only dimensions came from that PDF are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`, are removed. The library already carries those short names. `30 AR Remington` stays as an alias of `30-rem-ar`. `.24 Nosler` and the Lazzeroni records stay.
 
-`7.62x39 (.308)` is an alias of library `7-62x39`. `7mm RSAUM` is an alias of `7mm-saum`. `25CM` already resolves to `25-creedmoor`.
+Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` already resolve to that id. Hammer's only matching load name is `22-6mm (Rem)`, 250 rows. `inputs/hammer/case-data.csv` prints case 2.233 in, coal "Not SAAMI Spec.", and a blank case-info cell. There is no shoulder angle, no parent, and no Ackley or AI label. The "(Rem)" is the Remington parent. Case length matches the improved drawing because an Ackley keeps the parent length, so length is not proof. No community file uses a 22-6mm name. Those 250 rows stay unmatched.
 
 Nosler load sheets print CASE HOLDS under the seated bullet, and the number changes with the bullet, so 24 Nosler and 33 Nosler stay null. Hornady's 22 ARC page, Weatherby's pages, Remington's catalogs, Lapua, Peterson, ADG, the Lazzeroni profiles, and the Vihtavuori and Shooters World files do not print a single water capacity for the other bot cartridges. Hammer's printed "Case volume H20" lines are now in `inputs/hammer/case-data.csv`. 25 Nosler prints 99gr.
 
@@ -34,6 +34,9 @@ The community bot's status file is [`comments/2026-10-27-community-work-status.m
 
 Load and cartridge work from this bot, newest first:
 
+- [#134](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/134) — Aliased `300 norm` and `6mmBR`, and added 375 CheyTac from the PTG print.
+- [#124](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/124) — Hammer water capacities for ten library cartridges. 20 VarTarg skipped. .25 Nosler left alone.
+- [#113](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/113) — PTG and Hammer dimensions for 11 unmatched names, plus two aliases.
 - [#92](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/92) — Hammer case volumes are not on main. No capacities were taken from them.
 - [#91](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/91) — Published 27 Nosler overflow capacity, 98.4 gr H2O. The project library already owns that id, so the live capacity stays null. No estimates.
 - [#82](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/82) — Lazzeroni handloader profiles: 12 cartridges, 113 published loads, 226 records.
@@ -52,8 +55,14 @@ Community load files also merged today under `sources/`, including the Berger Hy
 - Shooters World rows already in `sources/shootersworld.json` stay. No further rows until the site's column labels confirm the units.
 - Lazzeroni sheets with no PDF on the company site were left out (Flash, Blackbird, Firehawk, Saturn, Eagle, Bearcat, and the other 404 names in the missing-library comment). Per-bullet OAL is a tested seating length, so those cartridge records have no maximum COAL.
 
+## Single-source loads
+
+[PR #116](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/116) blends a cartridge's velocity when its published loads come from one source, or when fewer than three loads cover the question, and flags that estimate `single_source`. No load file changed for that.
+
+Of 93,291 resolved load rows, 1,934 sit on 32 cartridges that have only one source. The largest are 338/300 WSM (430, Hammer), .30-06 Ackley Improved (378, Hammer), .257 Roberts (190, Hodgdon), .22-250 Ackley Improved (188, Hammer), .225 Winchester (136, Hodgdon), .376 Steyr (82, Hodgdon), 375 Raptor (68, Hammer), and .416 Ruger (58, Hammer). Another source for any of those would steady the estimate.
+
 ## Open questions
 
-One comment is still open: [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md). It asks whether to keep collecting Hybrid Target loads for Berger part 24486, which is on the product page and absent from `berger.json`. The working assumption is to collect it and not to edit the bullet catalog.
+No load-bot question is still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) is answered: part 24486 is `berger-24486` after bullet-bot [PR #104](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/104), and the 6 mm 120 gr community file is the harvest for it. [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md) is the community bot's own status, not a question for this bot.
 
-Every other file in [`comments/`](comments/) is answered. The decision line for each one is in the Questions table in [`README.md`](README.md).
+The decision line for each answered file is in the Questions table in [`README.md`](README.md).

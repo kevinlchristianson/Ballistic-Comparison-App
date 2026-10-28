@@ -285,7 +285,21 @@ Load rows that resolve with this file and did not resolve against `cartridges.js
 
 Handgun names stay unmatched. Rifle names still unmatched include 22 GT, 6 x 45mm (6mm-223), 6X47MM Lapua, 7.62 x 39mm Russian, 6mm-250, 7.62 x 54R, and 6.5mm BR, because this pass had no page that prints their dimensions. 6X47MM Lapua stays off 6.5x47 Lapua. Hodgdon sections of a cartridge the library already has, such as M1 Garand Service Rifle and a trailing ` - Pistol`, stay unmatched.
 
-`.338 Norma Magnum` was added on 2026-10-27 from the metric-origin drawing in ANSI/SAAMI Z299.4-2025. The two community rows under that name now resolve. The spelling `338 norma` stays unmatched.
+`.338 Norma Magnum` is library `338-norma-mag`. The bot copy cited only to the Z299.4 drawing was removed on 2026-10-28, along with the same kind of copy for 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, and 30 Rem AR. The library already has those names. The spelling `338 norma` stays unmatched.
+
+On 2026-10-28, after the community status list was re-read: `300 norm` aliases to `300-norma-mag`. `6mmBR` aliases to `6mm-norma-br` (`6BR` already resolved; `6mmBR` does not, because `mm` is glued to the next word). `375 CheyTac`, `375CT`, and Hammer's `375 Cheytac` are `375-cheytac`, from the PTG 9.5x77 Match print (groove 0.375, 22 degrees) and Hammer's labeled case length 3.028 in. The 4D 375 Chey-Tac page has no drawing. 4D Case Cap. is not stored. `.25 Nosler` already resolves and was not given a profile.
+
+`338 Norma necked down to 30` stays unmatched. Those rows print a 35 degree shoulder and Dakota or Norma brass, so they are not the factory 300 Norma Magnum. `300 norma improved` stays unmatched. It is not an alias of 300 Norma Magnum, and no maker, PTG, or 4D page printed its bullet diameter and case length. `6X47 L` stays off 6.5x47 Lapua. `300 SAM` still has no printed case length or bullet diameter.
+
+On 2026-10-28, Pacific Tool & Gauge reamer prints and Hammer `case-data.csv` were used for unmatched load names. Z299.4 and C.I.P. drawings were not copied. `25 Nosler` already resolves to library `25-nosler`, so no record was added. `6x6.8 SPC` and `6 WOA` are skipped until the bullet bot's records are on main.
+
+Added from a PTG print (groove size and shoulder) plus Hammer's labeled case length: 7mm Backcountry (groove .2840, case 2.496 in, COAL 3.340 in), 338/300 WSM (groove .3380, case 2.090 in, COAL 2.860 in), 22 GT (groove .224, case 1.740 in, 44.8 gr H2O), 25 RPM (groove .2570, case 2.570 in, COAL 3.340 in). Added from Hammer rows that print a thousandths diameter: 25 PRC, 6.5mm BR, 6mm TCU, 6x45mm, 7mm TCU, 8mm-06, 375 Raptor. Aliases: `7.62x39 (.308)` to `7-62x39`, `7mm RSAUM` to `7mm-saum`.
+
+`300 SAM` stays unmatched. Sam Hall's forum post says it is a 300 RSAUM case with a 40 degree shoulder and does not print case length or bullet diameter. The reamer image on that thread was not used.
+
+Names still without a print that shows bullet diameter and case length stay unmatched, including 223 Wylde, 5.56 NATO, 7mm BR Remington, 6.5x54 Mann.-Scho., 358 Norma Mag., 6.5 TCU, 6.5 BeanMore, 6.5 Gibbs, 22 Cheetah Mark II, 8.6 Blackout, 375 Socom, 20 BR, 7mm SAUM AI, the 7-300 WSM spellings, and Straight 284.
+
+`22-6mm (Rem)` stays unmatched on purpose. Bullet-bot PR #149 added `22/6mm Ackley Improved` as `22-6mm-ai` (alias `22-6mm AI`) from the 4D drawing at https://4drentals.com/product/reamer-rentals/rifle/22-6mm-ackley/. That drawing is 40 degrees with case length 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` resolve to `22-6mm-ai`. Hammer's sheet has one 22-6mm name, `22-6mm (Rem)`, 250 rows in `sources/hammer.json`. `inputs/hammer/case-data.csv` prints `Case 2.233"`, coal `Not SAAMI Spec.`, and a blank case-info cell. There is no shoulder angle, no parent case, and no Ackley or AI label. The "(Rem)" names the Remington parent. The shared case length is not proof, because an Ackley Improved keeps the parent length. No community file uses a 22-6mm name. Bare `22-6mm`, `22-6mm (Rem)`, and `22/6mm Remington` are not aliased to `22-6mm-ai`.
 
 The community bot's unmatched names were checked on 2026-10-27 against the library after PR #70. No new cartridge was added. A name was added only when a maker, brass, or reamer page printed its dimensions, and none of the still-unmatched names had that page.
 

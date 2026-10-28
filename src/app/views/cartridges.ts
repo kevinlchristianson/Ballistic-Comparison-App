@@ -7,6 +7,8 @@ import { capacityText, pressureText } from "../estimated.ts";
 import { verificationSummary } from "../labels.ts";
 import { userDataBar } from "../userdata.ts";
 import { openLoadsForCartridge } from "./loads.ts";
+import { load, save } from "../store.ts";
+import { sortableHead, sortRows, type SortState } from "../tableSort.ts";
 
 export function cartridgesView(data: AppData): HTMLElement {
   const root = h("section", { class: "view" });
@@ -14,6 +16,10 @@ export function cartridgesView(data: AppData): HTMLElement {
   const wildcatEl = h("div", {});
   const loadsEl = h("div", {});
   let text = "";
+  const SORT_KEY = "bca.cartridges.sort.v1";
+  let sort = load<SortState>(SORT_KEY, { key: "", desc: false });
+  const standard = (c: Cartridge) => (c.kind === "saami" ? "SAAMI" : c.kind === "cip" ? "C.I.P." : c.kind === "user" ? "Yours" : "Wildcat");
+  const capacity = (c: Cartridge) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O;
 
   function renderTable(): void {
     clear(tableEl);
@@ -28,9 +34,29 @@ export function cartridgesView(data: AppData): HTMLElement {
     const loadCount = (id: string) => (published[id] ?? 0) + data.user.loads.filter((l) => l.cartridgeId === id).length;
     const renderRows = () => {
       const t = text.toLowerCase().trim();
-      const rows = data.cartridges
-        .filter((c) => !t || `${c.name} ${c.aliases.join(" ")} ${c.bulletDiameterIn ?? ""}`.toLowerCase().includes(t))
-        .sort(byDiameterThenCapacity((c) => data.inputs.get(c.id)?.caseCapacityGrH2O ?? c.caseCapacityGrH2O));
+      const matching = data.cartridges.filter((c) => !t || `${c.name} ${c.aliases.join(" ")} ${c.bulletDiameterIn ?? ""}`.toLowerCase().includes(t));
+      // Default order: bullet diameter, then case capacity.
+      const rows = sortRows(
+        matching,
+        sort,
+        {
+          name: (c) => c.name,
+          standard,
+          bullet: (c) => c.bulletDiameterIn,
+          case: (c) => c.caseLengthIn,
+          coal: (c) => c.maxCoalIn,
+          base: (c) => c.baseDiameterIn,
+          shoulder: (c) => c.shoulderDiameterIn,
+          toShoulder: (c) => c.lengthToShoulderIn,
+          angle: (c) => c.shoulderAngleDeg,
+          neck: (c) => c.neckLengthIn,
+          capacity,
+          pressure: (c) => data.inputs.get(c.id)?.mapPsi ?? c.mapPsi,
+          loads: (c) => loadCount(c.id) || null,
+          data: (c) => (c.verification.status === "verified" ? "Verified" : c.kind === "user" ? "Yours" : "Unverified"),
+        },
+        byDiameterThenCapacity(capacity),
+      );
       count.textContent = `${rows.length} of ${data.cartridges.length} cartridges`;
       body.replaceChildren(
         ...rows.map((c) =>
@@ -44,10 +70,15 @@ export function cartridgesView(data: AppData): HTMLElement {
               c.kind === "user" ? h("span", { class: "tag" }, "yours") : null,
               c.addedBy ? h("span", { class: "tag", title: `Added by the ${c.addedBy.bot} bot from ${c.addedBy.source.name}. Not checked by the project.` }, "bot") : null,
             ),
-            h("td", {}, c.kind === "saami" ? "SAAMI" : c.kind === "cip" ? "C.I.P." : c.kind === "user" ? "Yours" : "Wildcat"),
+            h("td", {}, standard(c)),
             h("td", {}, fmt.in(c.bulletDiameterIn)),
             h("td", {}, fmt.in(c.caseLengthIn)),
             h("td", {}, fmt.in(c.maxCoalIn)),
+            h("td", {}, fmt.in(c.baseDiameterIn)),
+            h("td", {}, fmt.in(c.shoulderDiameterIn)),
+            h("td", {}, fmt.in(c.lengthToShoulderIn)),
+            h("td", {}, c.shoulderAngleDeg != null ? `${c.shoulderAngleDeg}°` : "—"),
+            h("td", {}, fmt.in(c.neckLengthIn)),
             h("td", { class: "num" }, capacityText(c, data.inputs)),
             h("td", { class: "num" }, pressureText(c, data.inputs)),
             h("td", { class: "num" }, loadCount(c.id) ? loadCount(c.id).toLocaleString() : "—"),
@@ -62,15 +93,31 @@ export function cartridgesView(data: AppData): HTMLElement {
       );
     };
     renderRows();
+    const head = () =>
+      sortableHead(
+        [
+          ["Cartridge", "name"], ["Standard", "standard"], ["Bullet", "bullet"], ["Case", "case"], ["Max COAL", "coal"], ["Base Ø", "base"], ["Shoulder Ø", "shoulder"],
+          ["To shoulder", "toShoulder"], ["Shoulder angle", "angle"], ["Neck", "neck"], ["Capacity (gr H₂O)", "capacity"], ["Max pressure (psi)", "pressure"],
+          ["Loads in library", "loads"], ["Data", "data"],
+        ],
+        sort,
+        (s) => {
+          sort = s;
+          save(SORT_KEY, sort);
+          headEl.replaceWith((headEl = head()));
+          renderRows();
+        },
+      );
+    let headEl = head();
     tableEl.append(
-      h("div", { class: "card" }, field("Filter", search), count),
+      h("div", { class: "card" }, field("Filter", search), count, h("p", { class: "hint" }, "Sorted by bullet diameter, then case capacity. Click any column heading (⇅) to sort by it; click again to reverse, a third time to go back.")),
       h(
         "div",
         { class: "card scroll-x" },
         h(
           "table",
           { class: "data" },
-          h("thead", {}, h("tr", {}, ["Cartridge", "Standard", "Bullet", "Case", "Max COAL", "Capacity (gr H₂O)", "Max pressure (psi)", "Loads in library", "Data"].map((x) => h("th", {}, x)))),
+          headEl,
           body,
         ),
       ),
