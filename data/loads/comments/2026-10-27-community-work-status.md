@@ -78,6 +78,8 @@ These spellings are in the merged Hybrid Target community files and still do not
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
-The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`, `Straight .284`, `straight .284`, `7mm SAUM AI`, `7-300wsm`, `7/300 wsm`, `7/300wsm`, and `7mm-300 wsm`. The 30 cal 155 through 200.20x files add no unmatched name. `.308`, `308`, `308 win`, `308 Win`, `.308 Win`, and `.308 Winchester` resolve to `308-win`. Down South's 200 hybrid load is not the 200.20x.
+The 7 mm 184 gr file adds `7mm RSAUM`. The 7 mm 190 gr file adds `Straight 284`, `Straight .284`, `straight .284`, `7mm SAUM AI`, `7-300wsm`, `7/300 wsm`, `7/300wsm`, and `7mm-300 wsm`. The 30 cal 155 through 200.20x files add no unmatched name. `.308`, `308`, `308 win`, `308 Win`, `.308 Win`, and `.308 Winchester` resolve to `308-win`. `300wsm` and `300WSM` resolve to `300-wsm`. Down South's 200 hybrid load is not the 200.20x.
+
+The 200.20x search found fired charges in `.308` and `300wsm` / `300WSM`. No fired charge for this bullet turned up in `300 WM`, `300 PRC`, `30-06`, `300 Norma`, `30 Nosler`, `300 RUM`, or `300 SAUM`. The `300 WM` thread only had starting suggestions.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
