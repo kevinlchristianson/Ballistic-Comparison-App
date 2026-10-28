@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 37,
-  "aliasCount": 16,
+  "aliasCount": 18,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -1054,15 +1054,6 @@
       }
     },
     {
-      "cartridgeId": "6mm-bra",
-      "alias": "BRA",
-      "source": {
-        "name": "Shooters' Forum, 6 Dasher 109gr N150",
-        "url": "https://forum.accurateshooter.com/threads/6-dasher-109gr-n150-load-data.4038925/",
-        "retrievedOn": "2026-10-27"
-      }
-    },
-    {
       "cartridgeId": "6mm-brx",
       "alias": "BRX",
       "source": {
@@ -1158,6 +1149,33 @@
       "source": {
         "name": "Hammer Bullets load sheet, 22-6mm (Rem)",
         "url": "https://docs.google.com/spreadsheets/d/1whRCmsntK0CAxQ3dUSFsbZB-349CAnKmFHEdmgbNog8/edit?usp=sharing",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "6-5-creedmoor",
+      "alias": "creed",
+      "source": {
+        "name": "Shooters' Forum, 6.5 Creedmoor 135 grain Berger Classic Hunter",
+        "url": "https://forum.accurateshooter.com/threads/6-5-creedmoor-135-grain-berger-classic-hunter.3950944/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "7mm-08-rem",
+      "alias": "7mm08",
+      "source": {
+        "name": "Shooters' Forum, 140 Berger VLD Hunting in the 7mm-08",
+        "url": "https://forum.accurateshooter.com/threads/140-berger-vld-hunting-in-the-7mm-08.3793318/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "6mm-dasher",
+      "alias": "6mm BR / BRA / Dasher variants",
+      "source": {
+        "name": "Kevin's 6 mm 108 gr Elite Hunter notes",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-kevin-6mm-108-eh-notes.csv",
         "retrievedOn": "2026-10-28"
       }
     }
