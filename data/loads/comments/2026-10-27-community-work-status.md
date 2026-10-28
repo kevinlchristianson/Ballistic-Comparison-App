@@ -14,7 +14,7 @@ The Berger Hybrid Target, Long Range Hybrid Target, and F-Open Hybrid Target lin
 
 Community-reported loads for every Berger VLD Hunting bullet. Order is smallest diameter, then lightest weight. Forums used: Shooters' Forum / AccurateShooter, Rokslide, Long Range Only, and 24hourcampfire. One source file and one pull request per bullet. A bullet with no posted charge gets no file.
 
-The bullet in this pull request is the 6 mm 95 gr VLD Hunting, part 24527 — [#131](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/131).
+The bullet in this pull request is the 6 mm 105 gr VLD Hunting, part 24528.
 
 ## Done
 
@@ -43,30 +43,30 @@ Merged community files, with the pull request number:
 - 30 cal 245 gr Long Range Hybrid Target, part 30487, new community file — [#114](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/114)
 - 375 cal 410 gr Hybrid Target, part 37401 — [#115](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/115)
 - 6 mm 87 gr VLD Hunting, part 24524 — [#129](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/129)
+- 6 mm 95 gr VLD Hunting, part 24527 — [#131](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/131)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
 ## Next
 
-After the 95 gr file merges, still in VLD Hunting:
+After the 105 gr file merges, still in VLD Hunting:
 
-1. 6 mm 105 gr VLD Hunting, part 24528
-2. 6 mm 115 gr VLD Hunting, part 24530
-3. 25 cal 115 gr VLD Hunting, part 25513
-4. 6.5 mm 130 gr VLD Hunting, part 26503
-5. 6.5 mm 140 gr VLD Hunting, part 26504
-6. 270 cal 130 gr VLD Hunting, part 27501
-7. 270 cal 140 gr VLD Hunting, part 27502
-8. 270 cal 150 gr VLD Hunting, part 27503
-9. 7 mm 140 gr VLD Hunting, part 28503
-10. 7 mm 168 gr VLD Hunting, part 28501
-11. 7 mm 180 gr VLD Hunting, part 28502
-12. 30 cal 155 gr VLD Hunting, part 30508
-13. 30 cal 168 gr VLD Hunting, part 30510
-14. 30 cal 175 gr VLD Hunting, part 30512
-15. 30 cal 185 gr VLD Hunting, part 30513
-16. 30 cal 190 gr VLD Hunting, part 30514
-17. 30 cal 210 gr VLD Hunting, part 30515
+1. 6 mm 115 gr VLD Hunting, part 24530
+2. 25 cal 115 gr VLD Hunting, part 25513
+3. 6.5 mm 130 gr VLD Hunting, part 26503
+4. 6.5 mm 140 gr VLD Hunting, part 26504
+5. 270 cal 130 gr VLD Hunting, part 27501
+6. 270 cal 140 gr VLD Hunting, part 27502
+7. 270 cal 150 gr VLD Hunting, part 27503
+8. 7 mm 140 gr VLD Hunting, part 28503
+9. 7 mm 168 gr VLD Hunting, part 28501
+10. 7 mm 180 gr VLD Hunting, part 28502
+11. 30 cal 155 gr VLD Hunting, part 30508
+12. 30 cal 168 gr VLD Hunting, part 30510
+13. 30 cal 175 gr VLD Hunting, part 30512
+14. 30 cal 185 gr VLD Hunting, part 30513
+15. 30 cal 190 gr VLD Hunting, part 30514
+16. 30 cal 210 gr VLD Hunting, part 30515
 
 After VLD Hunting: VLD Target, Classic Hunter, OTM Tactical, Varmint, then the bullets whose product line is blank.
 
@@ -109,6 +109,8 @@ These spellings are in the merged Hybrid Target community files and still do not
 - 6mmBR
 - 6X47 L
 - BRA
+- 6X47 Lapua
+- 6x47
 
 `260 AI` and `260AI` are not on this list. They resolve to cartridge id `260-ai`. `284 Shehane` resolves to `284-shehane`.
 
@@ -131,5 +133,7 @@ The 410 gr file adds `375 CheyTac` and `375CT`. No fired 410 gr Hybrid Target ch
 The 6 mm 87 gr VLD Hunting file adds `6mmBR`, `6X47 L`, and `BRA`. `6br` and `6BR` resolve to `6mm-norma-br`. No fired charge for that bullet turned up in 6mm Creedmoor, 243 Win, or 6 Dasher. V-Max charges in those threads are a different bullet.
 
 The 6 mm 95 gr VLD Hunting file adds no new unmatched name. `6X47 L` is already on the list. `243`, `6br`, and `6BR` resolve. 6 Dasher and 6BRA were named with no charge. No fired charge turned up in 6mm Creedmoor.
+
+The 6 mm 105 gr VLD Hunting file adds `6X47 Lapua` and `6x47`. Posts that named the hunting VLD in 6BR, 6 Dasher, 6mm BR, and 6XC gave seating only. No fired hunting-VLD charge turned up in 6mm Creedmoor or 243 Win. A 6x22-250 post named H-4831SC and gave no charge.
 
 `7mm Rem Mag`, `7 Rem mag`, `7mm saum`, and `.284` resolve. `284 Shehane` resolves to `284-shehane`.
