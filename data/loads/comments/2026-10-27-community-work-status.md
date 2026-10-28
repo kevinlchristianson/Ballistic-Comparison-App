@@ -22,7 +22,7 @@ The Berger OTM Tactical line closes with this pull request — [#205](https://gi
 
 Community-reported loads for every Berger Varmint bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Varmint line, or the catalog has only that varmint bullet at the weight.
 
-The bullet in this pull request is the 17 cal 25 gr FB Varmint, part 17308.
+The bullet in this pull request is the 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207).
 
 OTM Tactical is closed — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205).
 
@@ -105,7 +105,7 @@ Merged community files, with the pull request number:
 - 30 cal 230 gr Hybrid OTM Tactical, part 30112 — [#201](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/201)
 - 338 cal 250 gr Hybrid OTM Tactical, part 33107 — [#203](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/203)
 - 338 cal 300 gr Hybrid OTM Tactical, part 33109 — [#205](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/205)
-- 17 cal 25 gr FB Varmint, part 17308 — this pull request
+- 17 cal 25 gr FB Varmint, part 17308 — [#207](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/207)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
