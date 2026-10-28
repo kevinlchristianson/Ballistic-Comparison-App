@@ -6015,7 +6015,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-300-rsaum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Drawing title is 6.5/300 RSAUM, the library 6.5 SAUM. Bullet diameter is the named 6.5 bore, 0.264 in; no groove is printed. Neck 0.2910 in at the mouth and the shoulder junction, 0.027 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Body diameter printed at 0.1390 in from the head. Rim 0.5340 in; rim thickness 0.0500 in has no field. No belt is printed. 4D Case Cap. 71.80 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Title is 6.5/300 RSAUM, the library 6.5 SAUM. Bullet diameter is the named 6.5 bore, 0.264 in; no groove is printed. Neck 0.2910 in, 0.027 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Library already has 35 deg and case 2.035 in, so those stay; the print case is 2.015 in. Body at 0.1390 in from the head. Rim 0.5340 in. No belt is printed. 4D Case Cap. 71.80 gr (printed figure, not stored as water)."
     },
     {
       "id": "6-5-stw",
@@ -6714,7 +6714,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/6mm-bra-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. The page is 6mm BRA (BR Ackley Improved). Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck junction 0.2715 in, mouth 0.2705 in, 0.0285 in over the bullet. Shoulder 0.4620 in at 40 deg versus the 6mm BR drawing 0.4600 in. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 37.53 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Page is 6mm BRA (BR Ackley Improved). Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck junction 0.2715 in, mouth 0.2705 in, 0.0285 in over the bullet. Shoulder 0.4620 in at 40 deg versus the 6mm BR Lapua/Norma case drawing 0.4600 in. Library already has 30 deg and case 1.535 in, so those stay; the print case is 1.560 in. 4D Case Cap. 37.53 gr (printed figure, not stored as water)."
     },
     {
       "id": "6mm-brx",
@@ -7112,7 +7112,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-08-ackley/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm-08 Ackley Improved profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3160 in at the mouth and the shoulder junction, 0.032 in over the bullet. Shoulder 0.4600 in at 40 deg versus the PTG .308 Winchester chamber shoulder 0.4551 in. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 56.30 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm-08 Ackley Improved profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3160 in, 0.032 in over the bullet. Shoulder 0.4600 in at 40 deg versus the PTG .308 Winchester chamber shoulder 0.4551 in. Library already has case 2.035 in, so that stays; the print case is 2.045 in. 4D Case Cap. 56.30 gr (printed figure, not stored as water)."
     },
     {
       "id": "7mm-08-rem",
@@ -7509,7 +7509,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-rsaum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Drawing title is 7mm Remington Short Action Ultra Magnum. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3200 in at the mouth and the shoulder junction, 0.036 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Body diameter printed at 0.1390 in from the head. Rim 0.5340 in; rim thickness 0.0500 in has no field. No belt is printed. 4D Case Cap. 70.71 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Title is 7mm Remington Short Action Ultra Magnum. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3200 in, 0.036 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Library already has 35 deg, so that angle stays. Body at 0.1390 in from the head. Rim 0.5340 in. No belt is printed. 4D Case Cap. 70.71 gr (printed figure, not stored as water)."
     },
     {
       "id": "7mm-wsm",
