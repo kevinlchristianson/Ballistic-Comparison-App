@@ -2,24 +2,28 @@ import { readFileSync } from "node:fs";
 import { createDefaultEstimator, createSiteEstimator, physicsFpsPerInch, USER_LOADS_MODEL } from "../src/lib/velocity/index.ts";
 import { buildFitTable, createFitTableEstimator, createLoadDataEstimator, DEFAULT_LOGLOG_SLOPE } from "../src/lib/velocity/loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
+import { loadCartridgeLibrary } from "../scripts/cartridge-library.ts";
 import type { NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { cartridges, fixtureLoads, twoSourceLoads } from "./helpers.ts";
 
 const physics = createPhysicsEstimator(cartridges);
 
 describe("physics-v1", () => {
-  const cal = JSON.parse(readFileSync("data/calibration/factory-velocities.json", "utf8")) as {
+  const cal = JSON.parse(readFileSync("data/calibration/physics-calibration.json", "utf8")) as {
     points: { cartridgeId: string; bulletWeightGr: number; velocityFps: number; barrelLengthIn: number }[];
   };
 
-  it("reproduces its calibration set: RMS error under 2.5%, worst case under 6%", () => {
+  it("reproduces its calibration set of published loads: RMS error under 5%, worst case under 20%", () => {
+    // The calibration uses the merged library (bot records fill some capacities), as the site does.
+    const merged = createPhysicsEstimator(loadCartridgeLibrary().library.cartridges, PHYSICS_PARAMS, { extrapolate: true });
     const errors = cal.points.map((p) => {
-      const e = physics.estimate({ cartridgeId: p.cartridgeId, bulletWeightGr: p.bulletWeightGr, barrelLengthIn: p.barrelLengthIn });
+      const e = merged.estimate({ cartridgeId: p.cartridgeId, bulletWeightGr: p.bulletWeightGr, barrelLengthIn: p.barrelLengthIn });
       return (e.estimateFps! - p.velocityFps) / p.velocityFps;
     });
     const rms = Math.sqrt(errors.reduce((s, e) => s + e * e, 0) / errors.length);
-    expect(rms).toBeLessThan(0.025);
-    expect(Math.max(...errors.map(Math.abs))).toBeLessThan(0.06);
+    expect(cal.points.length).toBeGreaterThan(100);
+    expect(rms).toBeLessThan(0.05);
+    expect(Math.max(...errors.map(Math.abs))).toBeLessThan(0.2);
     expect(PHYSICS_PARAMS.residualSd).toBeGreaterThan(0);
   });
 

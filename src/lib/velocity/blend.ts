@@ -53,12 +53,6 @@ const MAX_SPREAD = 0.35;
 const EXTEND_SD_PER_LOG = 0.25;
 /** A cross-check this far from the published loads is flagged. */
 const DISAGREE = 0.1;
-/**
- * Extra relative sd for the physics model against published maximum loads.
- * Its own range comes from factory velocities; against published loads it
- * misses by about 7–9% (`npm run check-blend` measures this).
- */
-const PHYSICS_VS_LOADS_SD = 0.05;
 /** Base relative sd of a similar cartridge scaled by the physics model, and by overlapping loads. */
 const PEER_PHYSICS_SD = 0.06;
 const PEER_LOADS_SD = 0.03;
@@ -188,7 +182,8 @@ export function createBlendEstimator(o: BlendOptions): VelocityEstimator {
       comp: {
         source: "physics",
         fps: e.estimateFps,
-        relSd: Math.hypot(relSdOf(e), PHYSICS_VS_LOADS_SD),
+        // Fitted to published maximum loads, so its own range already carries its error against them.
+        relSd: relSdOf(e),
         share: 0,
         detail: `Case capacity, pressure limit and barrel length${est.length ? ` (with ${est.join(" and ")})` : ""}.`,
       },
