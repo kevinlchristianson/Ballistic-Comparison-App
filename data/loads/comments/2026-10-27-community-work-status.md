@@ -20,7 +20,7 @@ The Berger Classic Hunter line closes with this pull request — [#193](https://
 
 Community-reported loads for every Berger OTM Tactical bullet. Order is smallest diameter, then lightest weight. Hybrid OTM, Juggernaut, and AR Hybrid bullets that the catalog lists under OTM Tactical are in this line. A post is filed here only when it names that bullet.
 
-The bullet in this pull request is the 22 cal 77 gr OTM Tactical, part 22101.
+The bullet in this pull request is the 22 cal 77 gr OTM Tactical, part 22101 — [#194](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/194).
 
 The Classic Hunter line is closed — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193).
 
@@ -94,7 +94,7 @@ Merged community files, with the pull request number:
 - 7 mm 168 gr Classic Hunter, part 28570 — [#191](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/191)
 - 30 cal 168 gr Classic Hunter, part 30570 — [#192](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/192)
 - 30 cal 185 gr Classic Hunter, part 30571 — [#193](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/193)
-- 22 cal 77 gr OTM Tactical, part 22101 — this pull request
+- 22 cal 77 gr OTM Tactical, part 22101 — [#194](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/194)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
