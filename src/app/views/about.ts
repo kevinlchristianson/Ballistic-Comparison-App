@@ -5,7 +5,7 @@ import { verificationSummary } from "../labels.ts";
 
 export const KNOWN_LIMITATIONS: string[] = [
   "Cartridge values not yet checked against SAAMI or C.I.P. documents are marked unverified on the Cartridges tab. Case capacity is not part of either standard and is a typical figure.",
-  "The physics velocity model is fitted to 27 factory velocities and assumes a maximum-pressure load with a suitable powder. Real rifles vary by 2–5% or more.",
+  "The physics velocity model is fitted to published maximum loads for 64 cartridges and assumes a maximum-pressure load with a suitable powder. It does not model powder burn rate. Real rifles vary by 2–5% or more.",
   "Published-load estimates mix powders, bullets and test barrels. Their ranges are wide on purpose.",
   "Every cartridge gets a velocity estimate, but estimates far from any published load lean on the physics model and on similar cartridges. Checked against hidden published loads they are typically 6–9% off, and they are flagged low confidence when the range is wide.",
   "Case capacities and pressures marked ≈ are estimates, not standard values.",
@@ -74,7 +74,7 @@ export function aboutView(data: AppData): HTMLElement {
       h(
         "dd",
         {},
-        `Treats the powder gas as expanding from the case into the bore. The energy given to the bullet depends on case capacity, the cartridge's pressure limit and the expansion ratio set by barrel length. Three constants are fitted to 27 published factory velocities (K = ${m.physicsParams.k}, p = ${m.physicsParams.p}, n = ${m.physicsParams.n}). The range shown is about two standard deviations of the fit.`,
+        `Treats the powder gas as expanding from the case into the bore. The energy given to the bullet depends on case capacity, the cartridge's pressure limit and the expansion ratio set by barrel length. Three constants are fitted to published maximum loads for 64 cartridges with a cited case capacity and pressure limit and loads from at least two sources (K = ${m.physicsParams.k}, p = ${m.physicsParams.p}, n = ${m.physicsParams.n}). Its barrel-length effect is also matched to maker loads printed for two barrel lengths. On a cartridge left out of the fit it misses by about 4% (one standard deviation), and the range shown is about two of those. It does not model powder burn rate, heat loss or bore friction.`,
       ),
       h("dt", {}, "Published-load estimate (loglog-v1)"),
       h(

@@ -9,7 +9,10 @@
  *
  * where charge = 0.85 × case capacity (grains of water), ER is the expansion
  * ratio (case + bore volume over case volume), and K, p, n are fitted to
- * typical factory velocities in data/calibration/factory-velocities.json.
+ * published maximum loads (data/calibration/physics-calibration.json, built
+ * by scripts/calibrate-physics.ts: 64 cartridges with a cited case capacity
+ * and pressure limit and loads from 2+ sources, plus maker loads printed for
+ * two barrel lengths for the barrel slope).
  * Velocity then follows from E = ½ (bullet + charge/3) v², the charge/3 term
  * being the usual Lagrange allowance for moving the powder gas.
  *
@@ -35,16 +38,17 @@ export interface PhysicsParams {
 }
 
 /**
- * Fitted by scripts/calibrate-physics.ts against 27 factory velocity points.
- * Re-run that script and paste its output here whenever the calibration data
- * or the model changes.
+ * Fitted by scripts/calibrate-physics.ts against published maximum loads
+ * (`npm run calibrate`). residualSd is the error leaving one cartridge out
+ * at a time. Re-run the script and paste its output here whenever the load
+ * data, the cartridge library or the model changes much.
  */
 export const PHYSICS_PARAMS: PhysicsParams = {
-  k: 299.08,
-  p: 0.6062,
-  n: 0.1091,
+  k: 215.0761,
+  p: 0.607,
+  n: 0.1753,
   chargeFraction: 0.85,
-  residualSd: 0.0205,
+  residualSd: 0.0421,
 };
 
 const GRAINS_WATER_PER_CUBIC_INCH = 252.9;
@@ -100,11 +104,11 @@ export function createPhysicsEstimator(cartridges: Cartridge[], params: PhysicsP
   return {
     id: "physics-v1",
     description:
-      "Estimates velocity from the cartridge's case capacity, maximum pressure and barrel length with an adiabatic gas-expansion model fitted to typical factory velocities.",
+      "Estimates velocity from the cartridge's case capacity, maximum pressure and barrel length with an adiabatic gas-expansion model fitted to published maximum loads.",
     limitations: [
       "Assumes a maximum-pressure load with a powder suited to the bullet weight.",
       "Ignores powder choice, burn rate, bullet construction and chamber or barrel differences.",
-      "Calibrated on factory figures from 24 to 26 in test barrels; least reliable for very short or very long barrels, very light or very heavy bullets, and low-pressure cartridges.",
+      "Calibrated on published maximum loads moved to a 24 in barrel; least reliable for very short or very long barrels, very light or very heavy bullets, and low-pressure cartridges.",
       "Uses cartridge library values that are not yet verified against SAAMI.",
     ],
     estimate(q: VelocityQuery): VelocityEstimate {

@@ -19,7 +19,7 @@ const load = (id: string, cartridgeId: string, w: number, v: number, source: str
 });
 const loads: NormalizedLoad[] = [
   ...[0, 1, 2].flatMap((i) => [load(`a${i}`, "25-06-rem", 110 + 7 * i, 3080 - 40 * i, "Maker A"), load(`b${i}`, "25-06-rem", 110 + 7 * i, 3090 - 40 * i, "Maker B")]),
-  ...[75, 80, 87].map((w, i) => load(`w${i}`, "257-wby", w, 2700 - 5 * i, "One maker")),
+  ...[75, 80, 87].map((w, i) => load(`w${i}`, "257-wby", w, 2300 - 5 * i, "One maker")),
 ];
 
 describe("bore floor", () => {
