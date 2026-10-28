@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 37,
-  "aliasCount": 17,
+  "aliasCount": 20,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -1167,6 +1167,33 @@
       "source": {
         "name": "Kevin's 6 mm 108 gr Elite Hunter notes",
         "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-kevin-6mm-108-eh-notes.csv",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "338 Edges",
+      "source": {
+        "name": "Long Range Only, 338 Edge loads",
+        "url": "https://www.longrangeonly.com/forum/threads/338-edge-loads.8122/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "Standard edge",
+      "source": {
+        "name": "Long Range Only, 338 Edge loads",
+        "url": "https://www.longrangeonly.com/forum/threads/338-edge-loads.8122/",
+        "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "338-edge",
+      "alias": "Edge",
+      "source": {
+        "name": "Long Range Only, N570 in a standard 338 Edge",
+        "url": "https://www.longrangeonly.com/forum/threads/n570-in-standard-338-edge.1021/",
         "retrievedOn": "2026-10-28"
       }
     }

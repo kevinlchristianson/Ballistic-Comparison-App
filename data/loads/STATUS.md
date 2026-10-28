@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 19:41 UTC
+Last updated: 2026-10-28 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. The bare `creed` alias is removed. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. `338 Edges`, `Standard edge`, and bare `Edge` alias to library `338-edge`. `47` stays unmatched. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
 
 ## Case capacity
 
@@ -20,9 +20,11 @@ Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets
 
 Bullet-bot PR #149 added `22/6mm Ackley Improved` (`22-6mm-ai`, alias `22-6mm AI`) from the 4D drawing, 40 degrees, case 2.233 in. `22-6mm AI` and `22/6mm Ackley Improved` resolve to that id. Bullet-bot PR #184 added the standard case as `22-6mm`, name `22/6mm Remington`, alias `22-6mm Remington`: 26 degrees, shoulder 0.4310 in, case 2.253 in, parent 6mm Remington. Hammer's only 22-6mm load name is `22-6mm (Rem)`, 250 rows. The sheet has no second spelling. That name aliases to `22-6mm`, not to `22-6mm-ai`. Hammer prints case 2.233 in and coal "Not SAAMI Spec."; the alias follows the `(Rem)` label. No community file uses a 22-6mm name.
 
-Counted with `resolveCartridge` on the current catalog: 96,403 of 118,797 load rows resolve, and 22,394 do not. The single-source figures below are the earlier snapshot from PR #116.
+Counted with `resolveCartridge` on the current catalog: 96,433 of 118,827 load rows resolve, and 22,394 do not. That includes the 7 Edge rows below. The single-source figures below are the earlier snapshot from PR #116.
 
 An alias cannot depend on bullet diameter. `resolveCartridge` takes only the name, and a bot alias is a string plus a cartridge id. The bare `creed` alias is removed. The four owned rows that used it are 6.5 mm bullets, so the posted name is stored as `6.5 Creedmoor`: one `creed` (135 gr Classic Hunter), one `Creed` (144 gr Long Range Hybrid Target), and two `Creedmoor` (156 gr EOL). All four resolve to `6-5-creedmoor`. No bare `Creed` row is a 6 mm Hybrid Target. Rows already written `6 Creed` or `6mm Creedmoor` still resolve to `6mm-creedmoor` without that alias. `223 cal` stays unmatched (2 rows).
+
+Library `338-edge` is `.338 Edge`, alias `338 Edge`, bullet 0.338. `338 Edges` (1 row) and `Standard edge` (1 row) alias to it. Every row whose cartridge is exactly `Edge` is in the 338-caliber 300 gr Hybrid OTM file (5 rows, 300 gr), so bare `Edge` aliases to `338-edge` too. `47` (1 row, 130 gr AR Hybrid in the 6.5x47 thread) stays unmatched. No 338 Edge record was added.
 
 `6x47` (1), `6X47 Lapua` (6), and `6X47 L` (3) stay unmatched. They are not aliased to `6x47-lapua-ai`.
 
