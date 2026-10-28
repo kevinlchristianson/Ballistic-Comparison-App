@@ -1,12 +1,12 @@
 # Bullet bot status
 
-Last updated: 2026-10-28 15:40 UTC
+Last updated: 2026-10-28 15:44 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-PTG reamer work is in `data/cartridges/bots/bullets.json` (schema 1.1.0): 40 library cartridges with profiles, plus 8 new wildcats the library did not have (.220 Swift Ackley Improved, 6mm Remington Ackley Improved, .250 Savage Ackley Improved, 7x57mm Mauser Ackley Improved, .308 Ackley Improved, 6mm-06 Ackley Improved, .30-30 Ackley Improved, and 8mm Mauser Ackley Improved). 6x6.8 SPC, 6 WOA, Hammer wildcats, 300 SAM, and `.25 Nosler` stay out.
+PTG reamer work is in `data/cartridges/bots/bullets.json` (schema 1.1.0): 40 library cartridges with profiles, plus 14 new wildcats the library did not have, including .270-08, .338-08, 6.5-284, 6.5-06, .338-06, and 6mm-222 Remington Magnum Ackley Improved in the latest batch. 6x6.8 SPC, 6 WOA, Hammer wildcats, 300 SAM, and `.25 Nosler` stay out.
 
 On 35 cartridges with both a profile and a published capacity, median absolute error is 0.97 gr and the worst is 5.98 gr high on 6.5 PRC. The geometric model used where a reamer profile is not the estimate source is median 1.63 gr and worst 8.7 gr on `.28 Nosler`. New wildcat capacities are only in the estimates file. Nothing was written into `caseCapacityGrH2O`.
 
