@@ -18,7 +18,7 @@ The Berger VLD Target line closes with this pull request — [#181](https://gith
 
 Community-reported loads for every Berger Classic Hunter bullet. Order is smallest diameter, then lightest weight. A post is filed here only when it names the Classic Hunter line.
 
-The bullet in this pull request is the 6.5 mm 135 gr Classic Hunter, part 26571.
+The bullet in this pull request is the 6.5 mm 135 gr Classic Hunter, part 26571 — [#183](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/183).
 
 6 mm 95 gr Classic Hunter, part 24570, was searched. No numeric charge turned up. Frankm named a 6 ARC velocity and gave no charge. 80x80 named n540 and 2888 fps in a 6mm Turbo and gave no charge. Slowrunning named leverevolution above 2900 fps in a 6 ARC and gave no charge. No file and no pull request.
 
@@ -82,7 +82,7 @@ Merged community files, with the pull request number:
 - 6.5 mm 130 gr VLD Target, part 26403 — [#172](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/172)
 - 6.5 mm 140 gr VLD Target, part 26401 — [#174](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/174)
 - 7 mm 168 gr VLD Target, part 28401 — [#176](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/176)
-- 6.5 mm 135 gr Classic Hunter, part 26571 — this pull request
+- 6.5 mm 135 gr Classic Hunter, part 26571 — [#183](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/183)
 
 270 cal 150 gr Hybrid Target, part 27401, was searched. No posted charge turned up. No file and no pull request. The Rokslide thread `277-150-gr-berger-hybrid-target.392145` is from around the release and has no charge. Older 150 gr Berger posts are VLD or Classic Hunter.
 
