@@ -16,7 +16,7 @@ The Berger VLD Hunting line closes with this pull request. The last bullet is th
 
 Community-reported loads for every Berger VLD Target bullet. Order is smallest diameter, then lightest weight. Ambiguous-line candidates are filed here only when the post's context makes the target line clear. Each candidate lists the bullet weight, cartridge, powder, charge, and velocity as posted.
 
-The bullet in this pull request is a follow-up of the 7 mm 168 gr VLD Hunting, part 28501 — [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148). Elk and named-hunting rows from the ambiguous list are filed here. The target file is [#176](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/176).
+The bullet in this pull request is a follow-up of the 7 mm 168 gr VLD Hunting, part 28501 — [#178](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/178), editing the source from [#148](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/148). Elk and named-hunting rows from the ambiguous list are filed here. The target file is [#176](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/176).
 
 A post about F-Class, F-TR, benchrest, PRS, or other match shooting, or in a competition thread, is filed as VLD Target. A post about an elk, deer, or other hunt, or in a hunting thread, is filed as VLD Hunting. The row notes say which context decided the line. A charge with no match or hunting context stays on the ambiguous list. Resolved rows are follow-up edits of the existing source, or a new source when that bullet had no file.
 
