@@ -25,6 +25,12 @@ The geometric model builds an internal profile from the fields it does
 store (case length, bullet diameter, rim diameter, rim type, shoulder
 angle, neck length) plus a wall thickness, head-web length, and body
 taper fitted on cartridges that already have a cited capacity.
+
+A Pacific Tool & Gauge profile is a chamber print: the fit subtracts a
+diametral clearance, then brass. A 4D Reamer Rentals profile is the
+cartridge outside: the fit skips clearance and subtracts brass only.
+4D's printed Case Cap. is compared with the model and is not the fit
+target, and it is not written into caseCapacityGrH2O.
 """
 
 from __future__ import annotations
@@ -48,6 +54,8 @@ _GRAIN_IN_TEXT = re.compile(r"(\d+(?:\.\d+)?)\s*gr\b", re.IGNORECASE)
 
 # Same constant as src/lib/geometry.ts and src/lib/velocity/physics.ts.
 WATER_GRAINS_PER_CUBIC_INCH = 252.9
+# 4D prints "Case Cap. 51.23 gr" on the cartridge drawing. It is not a water measurement.
+_FOUR_D_CAP = re.compile(r"4D Case Cap\. (\d+(?:\.\d+)?) gr")
 MM_PER_IN = 25.4
 MIN_FIT_N = 4
 # Prefer the geometric estimate when its calibration error is not worse
@@ -132,6 +140,30 @@ def _prior_estimate(record: dict) -> bool:
     return str(note).lstrip().lower().startswith("estimate")
 
 
+def _profile_surface(record: dict) -> str | None:
+    """Chamber prints need clearance. Cartridge drawings are already case outside."""
+    source = record.get("source")
+    name = source.get("name") if isinstance(source, dict) else None
+    if not isinstance(name, str):
+        return None
+    if name.startswith("4D"):
+        return "cartridge"
+    if "Pacific Tool" in name:
+        return "chamber"
+    return None
+
+
+def _printed_four_d_cap(record: dict) -> float | None:
+    """4D's printed Case Cap. figure. Not a cited water capacity."""
+    note = record.get("note")
+    if not isinstance(note, str):
+        return None
+    match = _FOUR_D_CAP.search(note)
+    if not match:
+        return None
+    return float(match.group(1))
+
+
 def normalize_record(record: dict, source: str, *, inches_fields: bool) -> dict:
     """One cartridge row, lengths in inches."""
     unit = record.get("lengthUnit") or "in"
@@ -175,6 +207,8 @@ def normalize_record(record: dict, source: str, *, inches_fields: bool) -> dict:
         "capacity": _num(record.get("caseCapacityGrH2O")),
         "capacityIsPriorEstimate": _prior_estimate(record),
         "source": source,
+        "profileSurface": _profile_surface(record),
+        "printedFourDCaseCap": _printed_four_d_cap(record),
     }
 
 
@@ -253,6 +287,42 @@ def _prefer(members: list[dict], field: str):
     return chosen, chosen_source, conflicts
 
 
+def _prefer_profile(members: list[dict], field: str):
+    """Owner value wins. Otherwise a cartridge-outside profile wins over a chamber print."""
+    owner = [rec for rec in members if rec["source"] == "data/cartridges/cartridges.json" and rec[field] is not None]
+    if owner:
+        return _prefer(members, field)
+    cartridge = [rec for rec in members if rec.get("profileSurface") == "cartridge" and rec[field] is not None]
+    if not cartridge:
+        return _prefer(members, field)
+    chosen = cartridge[0][field]
+    chosen_source = cartridge[0]["source"]
+    conflicts = []
+    for rec in members:
+        value = rec[field]
+        if value is None or rec is cartridge[0]:
+            continue
+        if value != chosen and not (isinstance(value, float) and isinstance(chosen, float) and abs(value - chosen) < 1e-6):
+            conflicts.append({"value": value, "source": rec["source"]})
+    return chosen, chosen_source, conflicts
+
+
+def _cluster_profile_surface(members: list[dict], base: float | None, base_source: str | None) -> str | None:
+    """Surface of the profile that supplied base diameter. Owner values are unlabeled."""
+    if base is None or base_source == "data/cartridges/cartridges.json":
+        return None
+    surfaces = {
+        rec.get("profileSurface")
+        for rec in members
+        if rec["source"] == base_source and rec.get("base") is not None and abs(rec["base"] - base) < 1e-6 and rec.get("profileSurface")
+    }
+    if "cartridge" in surfaces:
+        return "cartridge"
+    if "chamber" in surfaces:
+        return "chamber"
+    return None
+
+
 def _merge_cluster(members: list[dict]) -> dict:
     owner = [rec for rec in members if rec["source"] == "data/cartridges/cartridges.json"]
     identity = owner[0] if owner else sorted(members, key=lambda rec: rec["id"])[0]
@@ -262,11 +332,11 @@ def _merge_cluster(members: list[dict]) -> dict:
     rim_type, rim_type_src, rim_type_conflicts = _prefer(members, "rimType")
     shoulder, shoulder_src, shoulder_conflicts = _prefer(members, "shoulder")
     neck, neck_src, neck_conflicts = _prefer(members, "neck")
-    base, base_src, base_conflicts = _prefer(members, "base")
-    shoulder_od, shoulder_od_src, shoulder_od_conflicts = _prefer(members, "shoulderOd")
-    neck_od, neck_od_src, neck_od_conflicts = _prefer(members, "neckOd")
-    length_to_shoulder, length_to_shoulder_src, length_to_shoulder_conflicts = _prefer(members, "lengthToShoulder")
-    length_to_neck, length_to_neck_src, length_to_neck_conflicts = _prefer(members, "lengthToNeck")
+    base, base_src, base_conflicts = _prefer_profile(members, "base")
+    shoulder_od, shoulder_od_src, shoulder_od_conflicts = _prefer_profile(members, "shoulderOd")
+    neck_od, neck_od_src, neck_od_conflicts = _prefer_profile(members, "neckOd")
+    length_to_shoulder, length_to_shoulder_src, length_to_shoulder_conflicts = _prefer_profile(members, "lengthToShoulder")
+    length_to_neck, length_to_neck_src, length_to_neck_conflicts = _prefer_profile(members, "lengthToNeck")
     parent, parent_src, _parent_conflicts = _prefer(members, "parentCase")
     cited = []
     for rec in members:
@@ -310,6 +380,8 @@ def _merge_cluster(members: list[dict]) -> dict:
         "lengthToShoulderSource": length_to_shoulder_src,
         "lengthToNeck": length_to_neck,
         "lengthToNeckSource": length_to_neck_src,
+        "profileSurface": _cluster_profile_surface(members, base, base_src),
+        "printedFourDCaseCap": next((rec["printedFourDCaseCap"] for rec in members if rec.get("printedFourDCaseCap") is not None and rec.get("profileSurface") == "cartridge"), None),
         "cited": cited,
         "conflicts": {
             key: value
@@ -422,9 +494,10 @@ def _profile_lengths(cluster: dict, web: float) -> tuple[float, float, float] | 
         return None
     if not cluster["lengthToShoulder"] < cluster["lengthToNeck"] < cluster["caseLength"]:
         return None
-    # Belted prints measure from the belt datum, already forward of the solid head.
+    # Belted chamber prints measure from the belt datum, already forward of the solid head.
     # The .300 and .264 Winchester Magnum drawings print 0.220 in from the bolt face to that datum.
-    belted = cluster.get("rimType") == "belted"
+    # A cartridge drawing measures from the head, so that datum is not removed again.
+    belted = cluster.get("rimType") == "belted" and cluster.get("profileSurface") != "cartridge"
     if belted:
         body = cluster["lengthToShoulder"]
         neck = cluster["neck"] if cluster["neck"] is not None else cluster["caseLength"] - 0.220 - cluster["lengthToNeck"]
@@ -482,11 +555,76 @@ def fit_profile(rows: list[dict]) -> dict | None:
     if best is None:
         return None
     summary = _error_summary(best["errors"])
-    return {**best["spec"], "errors": best["errors"], "summary": summary}
+    return {**best["spec"], "errors": best["errors"], "summary": summary, "surface": "chamber"}
+
+
+def fit_cartridge_profile(rows: list[dict]) -> dict | None:
+    """Pick brass thickness for cartridge-outside diameters. Clearance stays zero.
+
+    Same wall and web bands as fit_profile. Body and neck clearance are not
+    searched: a 4D drawing already prints the case outside.
+    """
+    if len(rows) < MIN_FIT_N:
+        return None
+    best = None
+    for neck_wall in (0.012, 0.014, 0.016):
+        for wall_shoulder in (0.011, 0.014, 0.017):
+            for wall_base in (0.018, 0.024, 0.030):
+                for web in (0.18, 0.22, 0.26):
+                    spec = {
+                        "bodyClearanceIn": 0.0,
+                        "neckClearanceIn": 0.0,
+                        "neckWallIn": neck_wall,
+                        "bodyWallAtShoulderIn": wall_shoulder,
+                        "bodyWallAtBaseIn": wall_base,
+                        "webIn": web,
+                    }
+                    errors = {}
+                    failed = False
+                    for row in rows:
+                        estimate = profile_volume(row, spec)
+                        if estimate is None:
+                            failed = True
+                            break
+                        errors[row["id"]] = estimate - row["capacity"]
+                    if failed or len(errors) < MIN_FIT_N:
+                        continue
+                    med = _median_abs(list(errors.values()))
+                    worst = max(abs(error) for error in errors.values())
+                    if best is None or (med, worst) < (best["median"], best["worst"]):
+                        best = {"median": med, "worst": worst, "spec": spec, "errors": errors}
+    if best is None:
+        return None
+    summary = _error_summary(best["errors"])
+    return {**best["spec"], "errors": best["errors"], "summary": summary, "surface": "cartridge"}
 
 
 def _median_abs(errors: list[float]) -> float:
     return statistics.median(abs(error) for error in errors)
+
+
+def _four_d_comparison(rows: list[dict], spec: dict) -> list[dict]:
+    """Model against water and against 4D's printed Case Cap. The fit used water only."""
+    compared = []
+    for row in rows:
+        printed = row.get("printedFourDCaseCap")
+        if printed is None:
+            continue
+        estimate = profile_volume(row, spec)
+        if estimate is None:
+            continue
+        compared.append(
+            {
+                "cartridgeId": row["id"],
+                "publishedWaterGr": _round(row["capacity"], 2),
+                "fourDPrintedCaseCapGr": _round(printed, 2),
+                "modelGr": _round(estimate, 2),
+                "modelMinusWaterGr": _round(estimate - row["capacity"], 2),
+                "modelMinusFourDGr": _round(estimate - printed, 2),
+            }
+        )
+    compared.sort(key=lambda item: item["cartridgeId"])
+    return compared
 
 
 def fit_geometric(calibration: list[dict]) -> dict:
@@ -746,7 +884,10 @@ def build() -> dict:
         calibration.append({**cluster, "capacity": capacity})
     geometric = fit_geometric(calibration)
     profile_rows = [row for row in calibration if _profile_lengths(row, 0.1) is not None]
-    profile_fit = fit_profile(profile_rows)
+    chamber_rows = [row for row in profile_rows if row.get("profileSurface") != "cartridge"]
+    cartridge_rows = [row for row in profile_rows if row.get("profileSurface") == "cartridge"]
+    profile_fit = fit_profile(chamber_rows)
+    cartridge_fit = fit_cartridge_profile(cartridge_rows)
 
     pairs = []
     for cluster in calibration:
@@ -809,7 +950,8 @@ def build() -> dict:
             continue
 
         assumed_rim, rim_note = _assume_rim_type(cluster, by_id, children)
-        geo = _profile_for(cluster, profile_fit) or _geometric_for(cluster, assumed_rim, geometric)
+        active_profile = cartridge_fit if cluster.get("profileSurface") == "cartridge" else profile_fit
+        geo = _profile_for(cluster, active_profile) or _geometric_for(cluster, assumed_rim, geometric)
         # The geometric model misses some family shape. When the parent has a
         # cited capacity, subtract that parent's residual (model minus cited).
         if geo and not geo.get("profile") and cluster["parentId"] in geo_error_by_id:
@@ -946,7 +1088,31 @@ def build() -> dict:
                     "Reamer diameters are chamber diameters. Subtract body clearance for the case outside, "
                     "then a tapered body wall (thicker at the web), a neck wall, and a solid head. "
                     "Clearance and wall were chosen inside typical rifle-case bands to minimize median absolute error "
-                    "on cartridges that have both a printed profile and a published capacity."
+                    "on cartridges that have both a chamber profile and a published water capacity. "
+                    "Cartridge-outside profiles from 4D Reamer Rentals are fitted separately, with clearance left at zero."
+                ),
+            },
+            "printedCartridgeProfile": None if cartridge_fit is None else {
+                **cartridge_fit["summary"],
+                "bodyClearanceOnDiameterIn": 0.0,
+                "neckClearanceOnDiameterIn": 0.0,
+                "neckWallIn": cartridge_fit["neckWallIn"],
+                "bodyWallAtShoulderIn": cartridge_fit["bodyWallAtShoulderIn"],
+                "bodyWallAtBaseIn": cartridge_fit["bodyWallAtBaseIn"],
+                "webIn": cartridge_fit["webIn"],
+                "residuals": [
+                    {"cartridgeId": cartridge_id, "errorGr": _round(error, 2)}
+                    for cartridge_id, error in sorted(cartridge_fit["errors"].items(), key=lambda item: -abs(item[1]))
+                ],
+                "fourDPrintedCaseCapNotUsedAsFitTarget": _four_d_comparison(cartridge_rows, cartridge_fit),
+                "method": (
+                    "4D Reamer Rentals diameters are case outside dimensions. "
+                    "No chamber clearance is subtracted. "
+                    "A tapered body wall, a neck wall, and a solid head are removed. "
+                    "Wall and web were chosen inside typical rifle-case bands to minimize median absolute error "
+                    "on published water capacities. "
+                    "4D's printed Case Cap. is listed beside the model and was not a fit target, "
+                    "and it was not written into caseCapacityGrH2O."
                 ),
             },
         },
@@ -980,6 +1146,7 @@ def _profile_for(cluster: dict, profile_fit: dict | None) -> dict | None:
         "neckIn": neck,
         "neckAssumed": cluster["neck"] is None,
         "profile": True,
+        "profileSurface": cluster.get("profileSurface") or "chamber",
         "bodyIn": body,
         "shoulderLenIn": shoulder,
         "bodyClearanceIn": profile_fit["bodyClearanceIn"],
@@ -1101,7 +1268,16 @@ def _unable_reason(cluster: dict, rim_type: str | None, geometric: dict, parent_
 
 def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note: str | None, geometric: dict, parent_cap: float | None, parent_name: str | None) -> dict:
     assumptions = []
-    if chosen.get("profile"):
+    if chosen.get("profile") and chosen.get("profileSurface") == "cartridge":
+        assumptions.append(
+            "Printed diameters are case outside dimensions from a cartridge drawing. "
+            "No chamber clearance was subtracted. "
+            f"Brass removed: body wall {chosen['bodyWallAtBaseIn']:.3f} in at the web tapering to "
+            f"{chosen['bodyWallAtShoulderIn']:.3f} in at the shoulder, neck wall {chosen['neckWallIn']:.3f} in, "
+            f"solid head {chosen['webIn']:.2f} in. "
+            "Those thicknesses were chosen inside typical rifle-case bands by the median error on published water capacities."
+        )
+    elif chosen.get("profile"):
         assumptions.append(
             "Printed reamer diameters are chamber sizes. "
             f"Body clearance {chosen['bodyClearanceIn']:.3f} in and neck clearance {chosen['neckClearanceIn']:.3f} in "
@@ -1118,7 +1294,12 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
                 "Where neck length is not stored, 0.220 in from the bolt face to the belt datum, printed on the .300 and .264 Winchester Magnum drawings, is removed first."
             )
     if chosen["method"] == "geometric" and chosen["neckAssumed"]:
-        if chosen.get("profile"):
+        if chosen.get("profile") and chosen.get("profileSurface") == "cartridge":
+            assumptions.append(
+                "Neck length is not stored. Used case length minus the printed length to the neck junction. "
+                "Case-outside diameters were reduced by the brass wall and solid head only."
+            )
+        elif chosen.get("profile"):
             assumptions.append(
                 "Neck length is not stored. Used case length minus the printed length to the neck junction. "
                 "Chamber diameters were reduced by the fitted clearance, then by the brass wall and solid head."
@@ -1215,11 +1396,18 @@ def _estimate_row(cluster: dict, chosen: dict, alternate: dict | None, rim_note:
         row["inputs"]["bodyLengthUsedIn"] = _round(chosen["bodyIn"], 4)
         row["inputs"]["shoulderLengthUsedIn"] = _round(chosen["shoulderLenIn"], 4)
         row["inputs"]["neckLengthUsedIn"] = _round(chosen["neckIn"], 4)
-        row["inputs"]["profile"] = (
-            "Printed reamer diameters are chamber diameters. "
-            "Case outside is chamber minus the diametral clearance. "
-            "Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
-        )
+        if chosen.get("profileSurface") == "cartridge":
+            row["inputs"]["profile"] = (
+                "Printed diameters are case outside dimensions. "
+                "No chamber clearance was subtracted. "
+                "Water capacity removes a tapered body wall, a neck wall, and a solid head web."
+            )
+        else:
+            row["inputs"]["profile"] = (
+                "Printed reamer diameters are chamber diameters. "
+                "Case outside is chamber minus the diametral clearance. "
+                "Water capacity then removes a tapered body wall, a neck wall, and a solid head web."
+            )
     elif chosen["method"] == "geometric":
         row["inputs"]["effectiveWallIn"] = _round(geometric["wallIn"], 4)
         row["inputs"]["headWebIn"] = _round(geometric["webIn"], 4)
@@ -1258,6 +1446,12 @@ def main() -> int:
     print(
         f"parent-case median {par['medianAbsErrorGr']} gr, worst {par['worstAbsErrorGr']} gr ({par['worstCartridgeId']}), n {par['n']}"
     )
+    for label in ("printedProfile", "printedCartridgeProfile"):
+        block = payload["calibration"].get(label) or {}
+        if block.get("n"):
+            print(
+                f"{label} median {block['medianAbsErrorGr']} gr, worst {block['worstAbsErrorGr']} gr ({block['worstCartridgeId']}), n {block['n']}"
+            )
     methods = defaultdict(int)
     for row in payload["estimates"]:
         methods[row["method"]] += 1
