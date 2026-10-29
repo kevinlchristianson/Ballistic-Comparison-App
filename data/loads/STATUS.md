@@ -1,12 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-28 19:45 UTC
+Last updated: 2026-10-29 14:25 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
 
-Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. `338 Edges`, `Standard edge`, and bare `Edge` alias to library `338-edge`. `47` stays unmatched. Hodgdon pistol is next. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
+Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. `338 Edges`, `Standard edge`, and bare `Edge` alias to library `338-edge`. `47` stays unmatched. Hodgdon pistol and shotshell are out of scope. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
 
 ## Case capacity
 
@@ -26,13 +26,21 @@ An alias cannot depend on bullet diameter. `resolveCartridge` takes only the nam
 
 Library `338-edge` is `.338 Edge`, alias `338 Edge`, bullet 0.338. `338 Edges` (1 row) and `Standard edge` (1 row) alias to it. Every row whose cartridge is exactly `Edge` is in the 338-caliber 300 gr Hybrid OTM file (5 rows, 300 gr), so bare `Edge` aliases to `338-edge` too. `47` (1 row, 130 gr AR Hybrid in the 6.5x47 thread) stays unmatched. No 338 Edge record was added.
 
-`6x47` (1), `6X47 Lapua` (6), and `6X47 L` (3) stay unmatched. They are not aliased to `6x47-lapua-ai`.
+Before this rifle pass, 96,577 of 118,976 load rows resolved and 22,399 did not, across 286 names. After the aliases, and after moving Hodgdon's 50 `6 x 47mm` rows off `6x47-lapua`, 97,745 resolve and 21,231 do not. Handgun names in the old unmatched set are 14,111 rows and stay unmatched. They are out of scope.
+
+`6x47-lapua` is the standard 6mm x 47 Lapua, not `6x47-lapua-ai`. The 4D Berger case drawing prints case 1.850, neck 0.273, shoulder 0.455 at 30 degrees, body 0.471, and rim 0.473. The bullet diameter is PTG groove 0.2430. `6X47MM Lapua` (160) and `6X47 Lapua` (6) share one key. `6X47 L` (3) and `6x47L` (1) share another. Bare `6x47` (1) still resolves to it, because a loose match drops the word Lapua. Hodgdon's separate `6 x 47mm` (50 rows, 1:14 twist, COL 2.400) is the .222 Remington Magnum necked to 6mm, not this case. Those rows are stored as `6 x 47mm benchrest` and do not resolve. A parenthetical `222 Rem Mag` would have resolved to `.222 Remington Magnum`. The 4D drawing of that wildcat prints case 1.850 and neck 0.266 and does not print a bullet diameter, so no record was added. See [`comments/2026-10-29-6x47-loose-match.md`](comments/2026-10-29-6x47-loose-match.md).
+
+Aliases to records already on main: `6.5x54 Mann.-Scho.` (314) to `6-5x54-ms`, `22 Cheetah Mark II` (202) to `22-cheetah-mk2`, `6.5 x 50mm Japanese` (70) to `6-5x50-arisaka`, `7.62 x 39mm Russian` (145) to `7-62x39`, and the Hodgdon sections `45-70 Government (HP)*` (175) and `45-70 Government (Trapdoor Rifles)*` (91) to `45-70-govt`.
+
+Rifle names still unmatched, largest first, with no allowed bullet-diameter and case-length source found in this pass: 7mm BR Remington (432), 223 Wylde (420), 5.56 NATO (420), 6.5 BeanMore (258), 8.6 Blackout (250), 6.5 Gibbs (248), 6.5x57 (232), 338-378 Wby. Mag (230) and 338-378 Weatherby Magnum (166), 350 Remington Mag. (216) and 350 Remington Magnum (56), 300 Lapua Mag. (212), M1 Garand Service Rifle (186), 338 ARC (179), 25 Remington (168), 6x6.8 SPC (164), 375 Socom (148), 20 Tactical (126), 7,62 x 53R (7,62 Russian) (112), 224 Weatherby Mag. (104) and 224 Weatherby Magnum (66), 5.56x45mm NATO (98), 20 BR (90). 5.56 is not aliased to .223. 223 Wylde is a chamber. 7,62 x 53R is not 7.62x54R.
+
+`6x47`, `6X47 Lapua`, and `6X47 L` now resolve to `6x47-lapua`, not to `6x47-lapua-ai`.
 
 PTG reamer prints that label a rim now fill that field. 7mm Backcountry rim diameter 0.4721, rim type not labeled. 338/300 WSM rim diameter 0.5586, rim type not labeled. 25 RPM rim diameter 0.5037 and rim type rebated, from the title word REBATED and the bolt-face diameter. 22 GT and 375 CheyTac print 0.4375 on the bolt nose, not on the case, so both rim fields stay null. Hammer case-data does not print a rim, so those records stay null. No SAAMI or C.I.P. rim was copied.
 
 A printed neck must be 0.015–0.045 in over the bullet. Three stored necks were the diameter just forward of the neck, next to the groove, so they were replaced with the neck-cylinder diameter on the same PTG print. 338/300 WSM neck 0.339 became 0.373 (print Ø.3730; bullet stays 0.338 from GROOVE SIZE .3380). 25 RPM neck 0.2576 became 0.291 (print Ø.2910; bullet stays 0.257 from GROOVE SIZE .2570). 375 CheyTac neck 0.3755 became 0.407 (print .407; bullet stays 0.375 from Groove Size 0.375). 7mm Backcountry 0.319 and 22 GT 0.255 already sit in range. Every other neck in this file is null.
 
-`6X47 Lapua` (6 rows), `6x47` (1), `6X47 L` (3), and `6x47L` (1) stay unmatched. No library or bot record is the standard 6mm x 47 Lapua. `6-5x47-lapua` is the 6.5, and `6x47-lapua-ai` is the Ackley. Hodgdon's `6X47MM Lapua` (160 rows) shares the `6X47 Lapua` key, so that name stays unmatched with them.
+`6X47 Lapua`, `6x47`, `6X47 L`, and Hodgdon `6X47MM Lapua` resolve to `6x47-lapua`. `6-5x47-lapua` is the 6.5, and `6x47-lapua-ai` is the Ackley. They are not used for these names.
 
 `338 norma` already resolves to `338-norma-mag` (1 row). The library alias `338 Norma` owns that key. A loose match drops `norma` and then refuses .338 Lapua, so the row does not join `338-lapua`. `338 Norma Mag` and `338 Norma Mag.` do the same. `338 Norma necked down to 30` stays unmatched. No new alias was added.
 
@@ -46,7 +54,9 @@ Nosler load sheets print CASE HOLDS under the seated bullet, and the number chan
 
 The community bot's status file is [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md), on main with [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90). `28N`, `260 AI`, and `260AI` already resolve. The other handed-over names are still unmatched; no dimension page was found. The row counts are in [`comments/2026-10-27-cartridges-missing-from-library.md`](comments/2026-10-27-cartridges-missing-from-library.md). There was no earlier pull request for that name pass.
 
-1. Hodgdon pistol loads, then shotshells. The rifle list is already complete (318 cartridges in [#74](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/74)). Pistol and shotshell were left out of that file.
+The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not planned. Handgun cartridges, including Hodgdon sections named `- Pistol` and carbine or `- Rifle` listings of a handgun case, stay in the load files and stay unmatched. That is 14,111 rows. They are out of scope, not a to-do.
+
+1. Rifle names that are still unmatched, from the most rows down. A spelling of a library or bot record can be aliased when it is the same case. A new record needs a PTG print, a 4D drawing, Hammer case data, or a maker or brass page that prints bullet diameter and case length. No SAAMI Z299.4 or C.I.P. copy.
 2. Shooters World stays paused until the website's own column labels confirm grains and feet per second. See [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
 3. LoadDevelopment stays paused. The terms forbid copying the tables, `sources/loaddevelopment.json` is an empty envelope, and there is no parser. See [`comments/2026-10-27-terms-block-full-tables.md`](comments/2026-10-27-terms-block-full-tables.md) and [`comments/2026-10-27-harvest-stopped.md`](comments/2026-10-27-harvest-stopped.md).
 

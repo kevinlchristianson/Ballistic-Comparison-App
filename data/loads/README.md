@@ -193,3 +193,4 @@ Answered in `BOTS.md` from PR #3, PR #14, PR #29, and PR #41, and copied into th
 | [2026-10-27-case-capacity-not-merged.md](comments/2026-10-27-case-capacity-not-merged.md) | Answered by PR #87. Empty library capacity is filled from the bot record. 26 Nosler is 93 gr H2O and 27 Nosler is 98.4. Drawing dimensions on those records are null. |
 | [2026-10-27-community-108-cartridge-coverage.md](comments/2026-10-27-community-108-cartridge-coverage.md) | Agreed. Coverage gaps are in `data/SOURCES.md`. Long Range Hunting and Texas Hunting Forum stay out. |
 | [2026-10-27-hammer-terms.md](comments/2026-10-27-hammer-terms.md) | Open. The sheets are committed. The footer `Copyright 2026 © Hammer Bullets®.` is flagged for the owner. |
+| [2026-10-29-6x47-loose-match.md](comments/2026-10-29-6x47-loose-match.md) | Open. A loose match drops Lapua, so Hodgdon `6 x 47mm` resolves to `6x47-lapua`. |

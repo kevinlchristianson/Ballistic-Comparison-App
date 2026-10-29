@@ -2,8 +2,8 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-27",
   "bot": "load-data",
-  "cartridgeCount": 37,
-  "aliasCount": 20,
+  "cartridgeCount": 38,
+  "aliasCount": 28,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -1014,6 +1014,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "PTG print 83693 labels Groove Size 0.375, Basic Brass 375 CT, and 22 degrees. Body .6418, shoulder .6055, neck .407. .3755 is forward of the neck and is not stored. Hammer case-data prints Case 3.028\". The CIP COAL cell is not stored. https://docs.google.com/spreadsheets/d/1jf5DHARupdYExb_w4QKep-y4aRfRueungfFVquWlU5M/edit?usp=sharing"
+    },
+    {
+      "id": "6x47-lapua",
+      "name": "6x47 Lapua",
+      "kind": "wildcat",
+      "aliases": [
+        "6 x 47 Lapua"
+      ],
+      "parentCase": "6.5x47 Lapua",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.85,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": 0.287,
+      "baseDiameter": 0.471,
+      "shoulderDiameter": 0.455,
+      "neckDiameter": 0.273,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6x47-lapua/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D Berger case drawing prints case 1.850, neck 0.273, shoulder 0.455 at 30 degrees, body 0.471, rim 0.473, and 0.244 at the bullet. PTG print PTG-10753 labels GROOVE SIZE .2430, stored as the bullet diameter. Not the Ackley. https://www.pacifictoolandgauge.com/6-x-47-Lapua-Chamber-Reamer_p_116849.html"
     }
   ],
   "aliases": [
@@ -1195,6 +1226,78 @@
         "name": "Long Range Only, N570 in a standard 338 Edge",
         "url": "https://www.longrangeonly.com/forum/threads/n570-in-standard-338-edge.1021/",
         "retrievedOn": "2026-10-28"
+      }
+    },
+    {
+      "cartridgeId": "6-5x54-ms",
+      "alias": "6.5x54 Mann.-Scho.",
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-x-54-ms/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "22-cheetah-mk2",
+      "alias": "22 Cheetah Mark II",
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/22-cheetah-mk-ii/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "6-5x50-arisaka",
+      "alias": "6.5 x 50mm Japanese",
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-japanese-arisaka/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "7-62x39",
+      "alias": "7.62 x 39mm Russian",
+      "source": {
+        "name": "Hodgdon Reloading Data Center",
+        "url": "https://hodgdonreloading.com/rldc/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "45-70-govt",
+      "alias": "45-70 Government (HP)*",
+      "source": {
+        "name": "Hodgdon Reloading Data Center",
+        "url": "https://hodgdonreloading.com/rldc/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "45-70-govt",
+      "alias": "45-70 Government (Trapdoor Rifles)*",
+      "source": {
+        "name": "Hodgdon Reloading Data Center",
+        "url": "https://hodgdonreloading.com/rldc/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "6x47-lapua",
+      "alias": "6X47MM Lapua",
+      "source": {
+        "name": "Hodgdon Reloading Data Center",
+        "url": "https://hodgdonreloading.com/rldc/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "6x47-lapua",
+      "alias": "6X47 L",
+      "source": {
+        "name": "Community Berger 6 mm 105 Grain VLD Hunting",
+        "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-6mm-105gr.csv",
+        "retrievedOn": "2026-10-29"
       }
     }
   ]
