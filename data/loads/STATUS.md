@@ -70,6 +70,8 @@ The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not 
 
 ## Recently merged
 
+- 2026-10-29, held cartridge rows (`data/cartridges/bots/loads.json`, now 90 records): 7 new cartridges (375 Weatherby, 338-378 Weatherby, 350 Rem Mag, 33 XC, 7mm-300 PRC, 300 WSM AI, 404 Dakota); profile fills for library 33 Nosler and 300 Weatherby; 27 Nosler and 7mm Backcountry records replaced. Case lengths per the owner's 2026-10-29 rule: Wikipedia (27/33 Nosler, 375 Wby, 7mm Backcountry, 300 Wby), designer (33 XC, David Tubb), or PTG chamber length minus 0.010 marked ESTIMATE/PARTIAL (7mm-300 PRC, 300 WSM AI, 404 Dakota). PTG's own prints titled SAAMI used per the owner's ruling. The 13 Sherman records got the BOTS.md alias spellings (not `30 Sherman`, `25 SWC`, `27 Sherman Mag`) and no longer say BOTS.md omits Sherman. Still out: 35 and 36 Nosler (SAAMI kind needs a max COAL and none is published outside SAAMI), 7mm Sherman Short Tactical (no printed length anywhere), 300 HAM'R (fills nothing). BOTS.md says Sherman dimensions should come from 4D's Sherman drawings (43 chambers); those are not read yet.
+
 Load and cartridge work from this bot, newest first:
 
 - `loads/cartridge-dims-2026-10-29` — 4D/PTG/Sherman cartridge dimensions .27 and up (this PR). Bullet bot's [#267](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/267) merged first; rows it already covers were dropped.
