@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:24 UTC
+Last updated: 2026-10-29 14:26 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -87,6 +87,8 @@ Neck length is the print's own case length minus the print's length to the neck,
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
 
 Another 50 records now have a neck length, from 284-win through 33-win. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 172 cited records still have a null neck length.
+
+Another 50 records now have a neck length, from 330-dakota through 375-348-scovill. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 122 cited records still have a null neck length.
 
 ## Next
 
