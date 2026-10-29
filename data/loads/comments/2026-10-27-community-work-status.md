@@ -192,7 +192,7 @@ The bullets whose product line is blank are closed — [#243](https://github.com
 
 ## Ambiguous VLD line candidates
 
-The 40 VLD entries that did not name Hunting or Target are filed. Each posted charge is a row in the VLD Hunting file and the VLD Target file for that weight. The note on each row says the poster did not name the line. The 270 cal 140 gr posts are hunting only, because the catalog has no 270 cal 140 gr VLD Target. One list entry was not filed: the 6X47 Lapua 105 gr note that some charges were not marked HVLD names no powder, charge, velocity, or author. This pull request is the filing.
+The 40 VLD entries that did not name Hunting or Target are filed. Each posted charge is a row in the VLD Hunting file and the VLD Target file for that weight. The note on each row says the poster did not name the line. The 270 cal 140 gr posts are hunting only, because the catalog has no 270 cal 140 gr VLD Target. One list entry was not filed: the 6X47 Lapua 105 gr note that some charges were not marked HVLD names no powder, charge, velocity, or author. This pull request is the filing — [#250](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/250).
 
 ## Dropped as ambiguous
 
