@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "load-data",
-  "cartridgeCount": 90,
+  "cartridgeCount": 92,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -246,19 +246,24 @@
       "bulletDiameter": 0.308,
       "caseLength": 2.81,
       "trimLength": 2.79,
-      "maxCoal": null,
-      "rimDiameter": null,
-      "neckLength": null,
+      "maxCoal": 3.63,
+      "rimDiameter": 0.581,
+      "neckLength": 0.314,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": null,
-      "rimType": null,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
       "pressure": null,
       "source": {
         "name": "Lazzeroni Arms Company handloader profile",
         "url": "https://www.lazzeroni.com/assets/images/load-data/Loading-Data-Lazzeroni-Caliber-782-(308)-Warbird.pdf",
         "retrievedOn": "2026-10-27"
       },
-      "note": "Handloader profile prints maximum case length 2.810\" and trim-to 2.790\". The caliber line prints (.308) with a decimal. The groove-diameter line prints 308\" without a decimal point. Per-bullet OAL is a tested seating length, so maxCoal is null. Primer FED 215. No cartridge MAP is printed."
+      "note": "Handloader profile prints maximum case length 2.810\" and trim-to 2.790\". The caliber line prints (.308) with a decimal. The groove-diameter line prints 308\" without a decimal point. Per-bullet OAL is a tested seating length, so maxCoal is null. Primer FED 215. No cartridge MAP is printed. Profile filled from the 4D drawing labeled 'C.I.P. Standard Case' (https://4drentals.com/product/reamer-rentals/lazzeroni/lazzeroni-782-warbird/, retrieved 2026-10-29; Kevin approved C.I.P. as a source on 2026-10-29): case length 2.810 matches; max COAL 3.630, neck 0.345 (0.346 at the junction), neck length 0.314, shoulder 0.560 at 2.311, 30 deg 0' 48\", rim 0.581. The body diameter label is cut off on the image, so baseDiameter stays null.",
+      "shoulderDiameter": 0.56,
+      "neckDiameter": 0.345,
+      "lengthToShoulder": 2.311,
+      "lengthToNeck": 2.496,
+      "baseDiameter": null
     },
     {
       "id": "8-59-galaxy",
@@ -2653,6 +2658,72 @@
         "retrievedOn": "2026-10-29"
       },
       "note": "Fills the empty profile of library 300-wby. The 4D 300 Weatherby page has no drawing. PTG drawing PTG-10997 rev A, 300 WBY MAG SAAMI (PTG own print), lengths from the belt datum. GROOVE SIZE .3080. Body 0.5137 in past the belt (0.5340 belt). Shoulder (0.4960) and neck 0.3400 in at (2.0857) and (2.2875) in, PTG reference dims; Weatherby radius shoulder, no angle printed. 2.6240 in is the chamber neck end measured from the belt datum, not a case length. Its lengths run from the belt datum and the print gives no belt thickness to shift them to the case head, so lengthToShoulder and lengthToNeck are null. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.825 in and max COAL 3.562 in from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum)."
+    },
+    {
+      "aliases": [
+        "8x64S",
+        "8 x 64S"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "trimLength": null,
+      "maxCoal": 3.445,
+      "rimDiameter": 0.472,
+      "neckLength": 0.41,
+      "baseDiameter": 0.47,
+      "shoulderDiameter": 0.427,
+      "neckDiameter": 0.353,
+      "lengthToShoulder": 2.03,
+      "lengthToNeck": 2.11,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 28,
+      "rimType": "rimless",
+      "pressure": null,
+      "id": "8x64-s",
+      "name": "8x64mm S",
+      "kind": "cip",
+      "bulletDiameter": 0.323,
+      "caseLength": 2.52,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm-x-64s/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D drawing labeled 'C.I.P. Standard Case' (Kevin approved copying C.I.P. as a source on 2026-10-29). Case length 2.520, COAL 3.445, neck 0.353 at the mouth and junction, neck length 0.410, shoulder 0.427 at 2.030, 28 deg 0' 5\", body 0.470, rim 0.472. The sketch labels the bullet .324; bulletDiameter uses the 8mm S .323 groove. 4D printed capacity not stored."
+    },
+    {
+      "aliases": [
+        "7.5x55 Swiss",
+        "7.5 Swiss",
+        "7.5x55 Schmidt-Rubin",
+        "GP11"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "trimLength": null,
+      "maxCoal": 3.059,
+      "rimDiameter": 0.498,
+      "neckLength": null,
+      "baseDiameter": 0.4996,
+      "shoulderDiameter": 0.4665,
+      "neckDiameter": 0.3386,
+      "lengthToShoulder": 1.8114,
+      "lengthToNeck": 1.8671,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 27.5,
+      "rimType": "rimless",
+      "pressure": null,
+      "id": "7-5x55-swiss",
+      "name": "7.5x55mm Swiss",
+      "kind": "cip",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.189,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/75-x-55-Suisse-Swiss-CIP-Chamber-Reamer_p_116869.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. PTG drawing BOP-10813 rev B, 7.5 X 55 SUISSE CIP (PTG's own C.I.P.-titled print; Kevin approved copying C.I.P. on 2026-10-29), chamber dimensions from the bolt face: body 0.4996 at 0.1362, shoulder 0.4665 at 1.8114 max (1.8075 min), 27 deg 30', neck 0.3386 at (1.8671); groove .3059. 2.2185 in is a chamber length, not a case length. caseLength 55.60 mm (2.189 in), max COAL 77.70 mm (3.059 in) and rim 12.65 mm (0.498 in) from Wikipedia (https://en.wikipedia.org/wiki/7.5%C3%9755mm_Swiss)."
     }
   ],
   "aliases": [

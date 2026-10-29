@@ -1,8 +1,14 @@
 # Load-data bot status
 
-Last updated: 2026-10-29 19:20 UTC
+Last updated: 2026-10-29 19:50 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## Owner ruling: SAAMI and C.I.P. may be copied (2026-10-29)
+
+Kevin ruled in the Ballistic App room on 2026-10-29 that bots may copy SAAMI (ANSI/SAAMI Z299.4, saami.org drawings) and C.I.P. sheets or C.I.P.-labeled 4D/PTG drawings, cited. **BOTS.md still bans both and needs updating to match.** This PR adds 8x64 S (4D C.I.P. drawing) and 7.5x55 Swiss (PTG C.I.P. print, Wikipedia case length/COAL) and fills the 7.82 Warbird profile from 4D's C.I.P. drawing. Still out: 35 and 36 Nosler and 338-378 Weatherby are not in the public Z299.4-2025 PDF (https://saami.org/wp-content/uploads/2026/10/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-10-21.pdf), so no SAAMI value was copied; 270x57 has no drawing on 4D (the page image is a bushing photo); 30-06 CIP is the library .30-06.
+
+**BOTS.md Sherman line is wrong:** it tells bots to cite 4D drawings for Shermans, but all 43 4D Sherman pages show only 8 shared line title graphics and no drawing. Sherman records cite Sherman's cheat sheet instead.
 
 ## In progress
 
