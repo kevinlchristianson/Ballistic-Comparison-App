@@ -124,6 +124,7 @@ describe("estimated cartridge inputs", () => {
       // A bot's own mm record carries only a conversion note on the field; its source name decides.
       const own = { ...c, fieldNotes: { baseDiameterIn: "Converted from 11.96 mm as published." }, addedBy: { bot: "bullets", source: { name: "C.I.P. TDCC", url: null } } } as unknown as Cartridge;
       expect(profileSurface(own)).toBe("case");
+      expect(profileSurface({ ...c, fieldNotes: src("SAAMI Z299.4 chamber drawing") })).toBe("chamber");
       expect(profileSurface({ ...c, fieldNotes: src("Some other page") })).toBeNull();
     });
 
