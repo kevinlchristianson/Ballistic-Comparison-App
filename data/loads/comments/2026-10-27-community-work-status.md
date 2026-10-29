@@ -42,7 +42,7 @@ The 22 cal 80 gr HPBT/CN MatchKing, sku 9390T, is [#260](https://github.com/kevi
 
 The 22 cal 90 gr HPBT/CN MatchKing, sku 9290T, is [#261](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/261).
 
-The bullet in this pull request is the 22 cal 95 gr HPBT/CN MatchKing, sku 1396.
+The bullet in this pull request is the 22 cal 95 gr HPBT/CN MatchKing, sku 1396 — [#262](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/262).
 
 The 22 cal 52 gr file adds no unmatched name. `.223` resolves to `223-rem`. `22-250` resolves to `22-250-rem`. Linko's charge is 24.4 thru 25.8 gr, so it stays null. His 2.250 COAL is the Sierra manual figure. greybeard wrote 24' and 1 in 14', so those lengths are not stored as inches. bigfishman's 38 gr of H380 is for a Speer 52 and a Sierra 52 together, so it is dropped. The 223 load thread's 55/52 grain charges are shared by both weights, so they are dropped. Keith Glasscock's 27+ gr of Varget is 50-55 grain bullets. No fired 52 gr MatchKing charge turned up in 222 Rem, 220 Swift, 22 BR, 22 PPC, 22 Nosler, 224 Valkyrie, or 223 AI.
 
