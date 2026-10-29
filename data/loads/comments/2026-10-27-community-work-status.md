@@ -42,7 +42,9 @@ The 22 cal 80 gr HPBT/CN MatchKing, sku 9390T, is [#260](https://github.com/kevi
 
 The 22 cal 90 gr HPBT/CN MatchKing, sku 9290T, is [#261](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/261).
 
-The bullet in this pull request is the 22 cal 95 gr HPBT/CN MatchKing, sku 1396 — [#262](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/262).
+The 22 cal 95 gr HPBT/CN MatchKing, sku 1396, is [#262](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/262).
+
+The bullet in this pull request is the 6 mm 70 gr HPBT MatchKing, sku 1505 — [#264](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/264).
 
 The 22 cal 52 gr file adds no unmatched name. `.223` resolves to `223-rem`. `22-250` resolves to `22-250-rem`. Linko's charge is 24.4 thru 25.8 gr, so it stays null. His 2.250 COAL is the Sierra manual figure. greybeard wrote 24' and 1 in 14', so those lengths are not stored as inches. bigfishman's 38 gr of H380 is for a Speer 52 and a Sierra 52 together, so it is dropped. The 223 load thread's 55/52 grain charges are shared by both weights, so they are dropped. Keith Glasscock's 27+ gr of Varget is 50-55 grain bullets. No fired 52 gr MatchKing charge turned up in 222 Rem, 220 Swift, 22 BR, 22 PPC, 22 Nosler, 224 Valkyrie, or 223 AI.
 
@@ -57,6 +59,8 @@ The 22 cal 80 gr file adds no unmatched name. `223` and `.223` resolve. jsthntn2
 The 22 cal 90 gr file adds no unmatched name. `223` and `223 rem` resolve to `223-rem`. MikeMcCasland's five 8208 XBR steps are the charges he chronographed. His 2.085 in reading is a Hornady tool, not COAL. JERRYHM's charge column is printed 2X.6, 2X.8, and 2X.0, which is not a readable grain weight, so those rows are not filed. navyrad8r's 23.5 gr of Varget is a suggestion to try. Ned Ludd's Quickload numbers are predictions. A 224 Valkyrie AI post named a 90 g Sierra MK at over 3000 fps and gave no charge. No fired 90 gr MatchKing charge turned up in 22-250, 220 Swift, or 223 AI.
 
 The 22 cal 95 gr file adds no new unmatched name. `22GT` is already on the unmatched list. `224 Valkyrie` resolves to `224-valkyrie`. `223` resolves to `223-rem`. Jdne5b's velocity is 2720-50, so it stays null. Someone online gave 2500 fps and no powder or charge. Rocketvapor's 22 Nosler velocity is 2850-2900 and he gave no charge, so that post is not a row. No fired 95 gr MatchKing charge turned up in 22-250, 220 Swift, 22 BR, or 223 AI.
+
+The 6 mm 70 gr file adds no unmatched name. `6BR` resolves to `6mm-norma-br`. ehkempf's 30.7 g of H4895 is shared by a Sierra 70 and a Berger 70, so it is dropped. A 32.8 gr Dasher charge is tied to 107 SMKs in the same post. broncman's Varget load is Sierra's book maximum and he gave no number. No fired 70 gr MatchKing charge turned up in 243 Win, 6mm Rem, 6 PPC, 6 Dasher, 6 Creed, or 6XC.
 
 ## In progress
 
