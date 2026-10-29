@@ -1,8 +1,16 @@
 # Load-data bot status
 
-Last updated: 2026-10-29 19:50 UTC
+Last updated: 2026-10-29 21:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## SAAMI and C.I.P. cartridge drawings, .277 and up (2026-10-29)
+
+Added to `data/cartridges/bots/loads.json` from the cartridge (case) drawings only: C.I.P. TDCC "cartridge maxi" columns (mm, Pmax in bar, `kind: cip`) and the SAAMI Z299.4-2025 maximum cartridge drawing (inches, `kind: saami`).
+- New (14, C.I.P.): 338 WSM, 300 Lapua Mag, 300/338/375 Blaser Mag, 8x60 S, 8x75 S, 9.3 RSM, 375 XLR, 375 SWISS P, 416 Barrett, 338 ARC, 30-338 Prechtl Mag, 10.75x68.
+- Fills (4): 30-284 and 7x65R (C.I.P.), 300 HAM'R and 416 Weatherby Magnum (SAAMI).
+- C.I.P. cone angle alpha is the included angle, so `shoulderAngleDeg` is left empty on C.I.P. rows.
+- Held: 50 BMG (C.I.P. neck 14.22 mm is 1.24 mm, 0.049 in, over the 12.98 mm bullet, outside the 0.015-0.045 in rule). 35 and 36 Nosler are in neither the public Z299.4 nor the C.I.P. TDCC list (checked 2026-10-29), so they wait on Kevin. Straight cases (350 Legend, 360 Buckhammer, 375 Win, 405 Win, 444, 45-70, 450s, 458s, 500 NE) are not filled.
 
 ## Owner ruling: SAAMI and C.I.P. may be copied (2026-10-29)
 
