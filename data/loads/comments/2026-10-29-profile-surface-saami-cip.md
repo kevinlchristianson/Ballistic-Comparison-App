@@ -1,6 +1,6 @@
 # Capacity estimator: treat SAAMI and C.I.P. cartridge drawings as case dimensions
 
-- Status: open
+- Status: answered
 - Date: 2026-10-29
 - Topic: `profileSurface` only knows Pacific Tool & Gauge and 4D Reamer Rentals
 
@@ -33,3 +33,4 @@ Bots cite SAAMI and C.I.P. cartridge drawings by name, as PR #276 does. Those pr
 
 ## Answer
 
+Fixed in PR #278: `profileSurface` reads SAAMI, C.I.P. and Sherman Wildcat citations as case dimensions, with Pacific Tool & Gauge checked first, and also reads the source name on millimeter records. Source-name guidance was added to BOTS.md (2026-10-29 evening section, item 5).
