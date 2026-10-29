@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-28 late, after the Bullet drawings tab (see below); earlier, PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-10-29, Sherman Wildcat Cartridges added as a load source (see below); earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -68,6 +68,7 @@ Open requests:
 1. **Keep surveying terms before collecting.** Your survey's working assumption is agreed (see Answers). Quote each terms page you find in the comment file, and flag any that could be read as covering the tables, as you did for Vihtavuori, so the project owner can decide.
 2. **Velocity, barrel length and the full recipe.** The app needs cartridge, bullet, bullet weight, barrel length, velocity, pressure with unit and method, and a source link for estimates. The Load data tab also shows powder, charge, primer, case and COAL exactly as you store them, so copy them exactly as printed.
 3. **Do not resume LoadDevelopment** unless the project owner gets written permission from Driven Media Group and says so here.
+4. **Collect the Sherman Wildcat Cartridges load data** (the owner's request, 2026-10-29). Details are in **What changed on the project side (2026-10-29)** below.
 
 ## Both bots: adding cartridges
 
@@ -77,6 +78,65 @@ Open requests:
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-10-29)
+
+**New load source: Sherman Wildcat Cartridges (the project owner's request, 2026-10-29).** Recorded in `data/SOURCES.md`.
+
+**Load-data bot:**
+
+1. Collect the load PDF linked from https://shermanwildcatcartridges.com/reloading-data/ ("Sherman Load Data 12-24-25", https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/Sherman%20Load%20Data%2012-24-25.pdf). Keep the PDF in your gitignored `raw/` folder. If a newer dated PDF is linked when you collect, use that one and say so in the PR.
+2. Terms: the project found no terms text on 2026-10-29 (the Terms & Conditions link is `#`), only "Copyright © 2026 Sherman Wildcat Cartridges". Look again when you collect and quote anything you find in a comment file, as you did for Hammer. Stop and say so if a page forbids copying.
+3. **The rows are community reports.** The PDF says the loads are "a compilation of clients". Name the source so it starts with `Community`, for example `Community: Sherman Wildcat Cartridges load data`, and set `sourcePage` to "Sherman Wildcat Cartridges (client-reported loads)". Point `source.url` at the PDF, and put the reloading-data page in `notes` or the envelope.
+4. Schema 1.0.0 as usual. The PDF's columns are "Cartridge", "Barrel Length (inches)", "Twist (inches)", "Bullet/Weight", "Powder", "Grains", "Velocity (FPS)", "Length", "Brass & Prep", "Primer", "Notes", and its second section has no header row. Copy values as printed. Twist, brass prep and anything the schema can't hold go in `notes` (`Twist_in: <text>; Brass: <text>`). COAL printed in "Length" or the notes goes in COAL only when it is labelled or clearly a cartridge length. Pressure is null; keep "Max pressure" and similar text in `notes`. Use `level` `max` only where the row or its heading says max. A row with no velocity is still published (the site shows it without fitting it).
+5. Keep each cartridge string exactly as printed. The names below make them match.
+
+**Cartridges and names (either bot may add them; the bullet bot already reads 4D drawings, so it is asked first).** None of the Sherman cartridges are in the library. Sherman's own pages print no case dimensions, so cite the 4D Reamer Rentals drawing for each (https://4drentals.com/product/reamer-rentals/sherman-rentals/, 43 Sherman chambers plus the 375 Yukon), under the rules in `data/cartridges/bots/README.md`, `kind: "wildcat"`, parent case as the drawing or Sherman names it. Where 4D has several freebore versions of one case (for example 7mm Sherman MEGA at 0.146, 0.205 and 0.235 in FB), add **one** cartridge and list the freebore lengths in `note`. Water capacity printed in Sherman's "SHERMAN CHEAT SHEET.xlsx" (same page) may fill `caseCapacityGrH2O`, cited to that file. Put these aliases on the records, so the strings in Sherman's PDF and the forum rows we already have resolve:
+
+| Suggested id | Name | Aliases (as printed by Sherman, 4D or the forums, plus the short form) |
+| --- | --- | --- |
+| `6-sherman-sst` | 6mm Sherman Short Tactical | `6SST`, `6 SST`, `6mm Sherman SST/B` |
+| `6-sherman-ss` | 6mm Sherman Short | `6 SS`, `6mm Sherman SS/B` |
+| `6-sherman-max` | 6mm Sherman Max | `6 Max`, `6mm Sherman MAX` |
+| `6-sherman-prc-si` | 6mm Sherman PRC/SI | `6 PRC/SI` |
+| `25-sherman-sst` | 25 Sherman Short Tactical | `25 SST`, `25SST`, `25 Sherman SST/B` |
+| `25-sherman-ss` | 25 Sherman Short | `25 SS`, `25 Sherman SS/B` |
+| `25-sherman-max` | 25 Sherman Max | `25 MAX` |
+| `25-sherman-mega` | 25 Sherman Mega | `25 Mega` |
+| `25-sherman-la` | 25 Sherman LA | `25 Sherman LA` |
+| `25-sherman-prc-si` | 25 Sherman PRC/SI | `25 PRC/SI` |
+| `6-5-sherman-sst` | 6.5 Sherman Short Tactical | `6.5 SST`, `6.5mm Sherman SST/B` |
+| `6-5-sherman-ss` | 6.5 Sherman Short | `6.5SS`, `6.5 SS`, `6.5mm Sherman SS/B` |
+| `6-5-sherman-max` | 6.5 Sherman Max | `6.5 Max`, `6.5 Sherman max`, `6.5mm Sherman Max` |
+| `264-sherman-mega` | 264 Sherman Mega | `6.5 Mega` |
+| `6-5-sherman-la` | 6.5 Sherman LA | `6.5mm Sherman LA` (and `6.5 Sherman` only if the PDF's context shows it is the LA case) |
+| `6-5-sherman-prc-si` | 6.5 Sherman PRC/SI | `6.5 PRC/SI`, `6.5mm Sherman PRC/SI` |
+| `26-sherman-mag` | 26 Sherman Magnum | `26 Sherman MAG` |
+| `270-sherman-ss` | 270 Sherman Short | `270 SS`, `270 Sherman SS/B` |
+| `270-sherman-max` | 270 Sherman Max | `270 Max` |
+| `270-sherman-la` | 270 Sherman LA | `270 Sherman` (Sherman's long-action page calls the LA case "270 Sherman") |
+| `7-sherman-sst` | 7mm Sherman Short Tactical | `7 SST`, `7mm Sherman SST/B` |
+| `7-sherman-ss` | 7mm Sherman Short | `7 SS`, `7SS`, `7MM Sherman Short`, `7mm Sherman SS/B` |
+| `7-sherman-max` | 7mm Sherman Max | `7 Max`, `7mm Sherman MAX` |
+| `7-sherman-mega` | 7mm Sherman Mega | `7 Mega`, `7mm Sherman MEGA` |
+| `7-sherman-swc` | 7mm Sherman SWC | `7 SWC`, `Alpha 7 SWC` |
+| `280-sherman-la` | 280 Sherman LA | `280 Sherman` |
+| `28-sherman-mag` | 28 Sherman Magnum | `28 Sherman MAG` |
+| `300-sherman-ss` | 300 Sherman Short | `300 SS`, `300 Sherman SS/B` |
+| `300-sherman-max` | 300 Sherman Max | `300 Max` |
+| `300-sherman-mega` | 300 Sherman Mega | `300 Mega` |
+| `300-sherman-la` | 300 Sherman LA | `300 Sherman` |
+| `30-sherman-mag` | 30 Sherman Magnum | `30 Sherman MAG` |
+| `338-sherman-ss` | 338 Sherman Short | `338 SS`, `338 Sherman SS/B` |
+| `338-sherman-max` | 338 Sherman Max | `338 Max` |
+| `338-sherman-mega` | 338 Sherman Mega | `338 Mega` |
+| `338-sherman-la` | 338 Sherman LA | `338 Sherman` |
+| `33-sherman-mag` | 33 Sherman Magnum | `33 Sherman MAG` |
+| `375-yukon` | 375 Yukon | (Sherman's; not the existing `358-yukon`) |
+
+Bullet diameter is the named bore (6mm 0.243, 25 0.257, 6.5/26/264 0.264, 270 0.277, 7mm/28/280 0.284, 30/300 0.308, 33/338 0.338, 375 0.375 in) unless the drawing prints another; say so in `note`, as you already do.
+
+Names to leave **unmatched**: `30 Sherman` (one forum row; could be the 300 Sherman LA or the 30 Sherman Magnum), `25 SWC` and `27 Sherman Mag` (in the PDF, but 4D has no drawing for them; add them only from a page that prints their dimensions). The project checked on 2026-10-29 that none of these strings matches an existing library cartridge today, so nothing is mis-filed in the meantime.
 
 ## What changed on the project side (2026-10-28, late)
 
