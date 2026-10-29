@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 329,
+  "cartridgeCount": 334,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -586,6 +586,37 @@
       "note": "PTG chamber drawing BOP-10866, 20 VT (VARTARG), basic brass 221 Remington, from the bolt face. Fills the empty .20 Vartarg profile. The 4D page has no dimensions. Neck 0.2320 in, 0.028 in over the 0.204 bullet. Shoulder 0.3600 in at 30 deg, against the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3762 in. Library case 1.340 in stays; the print case is 1.400 in. Library rim 0.378 in stays. No belt is printed. Neck length 0.2232 in is the print case minus the length to the neck."
     },
     {
+      "kind": "wildcat",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "rimType": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "aliases": [
+        "20 Vartarg Lapua"
+      ],
+      "parentCase": ".221 Remington Fireball",
+      "id": "20-vartarg-lapua",
+      "name": "20 VarTarg Lapua",
+      "bulletDiameter": 0.204,
+      "caseLength": 1.4,
+      "rimDiameter": 0.3809,
+      "baseDiameter": 0.3747,
+      "shoulderDiameter": 0.36,
+      "neckDiameter": 0.231,
+      "lengthToShoulder": 1.066,
+      "lengthToNeck": 1.1762,
+      "neckLength": 0.2238,
+      "shoulderAngleDeg": 30,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/20-VT-VarTarg-Lapua-Finish-Chamber-Reamer_p_118085.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "PTG chamber drawing 10105, titled 20 Vartarg Lapua, from the bolt face. The 4D page shares its image with 20-223 WSSM. Bullet diameter is the named .20 bore, 0.204 in. Neck 0.231 in, 0.027 in over the bullet. Shoulder 0.360 in at 30 deg, against the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3747 in. Rim 0.3809 in. No belt is printed. Neck length 0.2238 in is the print case minus the length to the neck."
+    },
+    {
       "id": "204-ruger",
       "name": ".204 Ruger",
       "kind": "wildcat",
@@ -799,6 +830,64 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 70.15 gr (printed figure, not stored as water). Neck length 0.2532 in is the print case minus the length to the neck."
     },
     {
+      "kind": "wildcat",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "rimType": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "aliases": [],
+      "parentCase": ".243 Winchester",
+      "id": "22-243-middlestead",
+      "name": "22-243 Middlestead",
+      "bulletDiameter": 0.224,
+      "caseLength": 2.045,
+      "rimDiameter": null,
+      "baseDiameter": 0.47,
+      "shoulderDiameter": 0.4531,
+      "neckDiameter": 0.26,
+      "lengthToShoulder": 1.6368,
+      "lengthToNeck": 1.804,
+      "neckLength": 0.241,
+      "shoulderAngleDeg": 30,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/22-243-middlestead/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in. Neck 0.2600 in, 0.036 in over the bullet. Shoulder 0.4531 in at 30 deg, against the .243 Winchester shoulder 0.4540 in at 20 deg. Body 0.4700 in. The rim figure is not clear, so it is not stored. No belt is printed. 4D Case Cap. 54.55 gr is not stored. Neck length 0.2410 in is the print case minus the length to the neck."
+    },
+    {
+      "kind": "wildcat",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "rimType": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "aliases": [],
+      "parentCase": ".243 Winchester",
+      "id": "22-243-rayhill",
+      "name": "22-243 Rayhill Rocket",
+      "bulletDiameter": 0.224,
+      "caseLength": 2.055,
+      "rimDiameter": 0.473,
+      "baseDiameter": 0.4709,
+      "shoulderDiameter": 0.455,
+      "neckDiameter": 0.2595,
+      "lengthToShoulder": 1.554,
+      "lengthToNeck": 1.822,
+      "neckLength": 0.233,
+      "shoulderAngleDeg": 20,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/22-243-rayhill-rocket/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in. Neck 0.2595 in, 0.0355 in over the bullet. Shoulder 0.4550 in at 20 deg, the .243 Winchester shoulder. Body 0.4709 in. Rim 0.4730 in. No belt is printed. 4D Case Cap. 52.53 gr is not stored. Neck length 0.2330 in is the print case minus the length to the neck."
+    },
+    {
       "id": "22-243-win",
       "name": "22/243 Winchester",
       "kind": "wildcat",
@@ -833,7 +922,9 @@
       "id": "22-250-ai",
       "name": ".22-250 Ackley Improved",
       "kind": "wildcat",
-      "aliases": [],
+      "aliases": [
+        "22-250 Remington Ackley"
+      ],
       "parentCase": null,
       "lengthUnit": "in",
       "bulletDiameter": 0.224,
@@ -886,6 +977,37 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2560 in is the shoulder junction; the mouth prints 0.2540 in. Body diameter is printed at 0.1270 in from the head. Rim thickness 0.0490 in is printed and has no field. 4D Case Cap. 44.72 gr (printed figure, not stored as water). Neck length 0.2484 in is the print case minus the length to the neck."
+    },
+    {
+      "kind": "wildcat",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "rimType": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "aliases": [
+        "22-284"
+      ],
+      "parentCase": ".284 Winchester",
+      "id": "22-284-win",
+      "name": "22-284 Winchester",
+      "bulletDiameter": 0.224,
+      "caseLength": 2.17,
+      "rimDiameter": 0.473,
+      "baseDiameter": 0.501,
+      "shoulderDiameter": 0.475,
+      "neckDiameter": 0.249,
+      "lengthToShoulder": 1.775,
+      "lengthToNeck": 1.9365,
+      "neckLength": 0.2335,
+      "shoulderAngleDeg": 35,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/22-284-winchester/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in. Neck 0.2490 in, 0.025 in over the bullet. Shoulder 0.4750 in at 35 deg, the .284 Winchester shoulder 0.4748 in. Body 0.5010 in. Rim 0.4730 in. No belt is printed. 4D Case Cap. 66.28 gr is not stored. Neck length 0.2335 in is the print case minus the length to the neck."
     },
     {
       "id": "22-30-30-ai",
@@ -1250,6 +1372,35 @@
       "note": "PTG chamber drawing BOP-10887, titled 22 PPC (.243 NECK), from the bolt face. Fills the empty .22 PPC profile. Neck 0.2430 in, 0.019 in over the 0.224 bullet, and the 30 deg cone matches that neck. Shoulder 0.4310 in at 30 deg, against the 6mm PPC shoulder 0.4300 in at 30 deg. Body 0.4402 in. Library case 1.505 in stays; the print case is 1.525 in. Library rim 0.441 in stays. No belt is printed. Neck length 0.2873 in is the print case minus the length to the neck."
     },
     {
+      "kind": "wildcat",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "rimType": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "aliases": [],
+      "parentCase": null,
+      "id": "22-rem-jet",
+      "name": "22 Remington Jet",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.288,
+      "rimDiameter": 0.44,
+      "baseDiameter": 0.381,
+      "shoulderDiameter": 0.3657,
+      "neckDiameter": 0.251,
+      "lengthToShoulder": 0.5984,
+      "lengthToNeck": 1.0883,
+      "neckLength": 0.1997,
+      "shoulderAngleDeg": 6.6667,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/22-remington-jett/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in. Neck 0.2510 in, 0.027 in over the bullet. Shoulder 0.3657 in at 6 deg 40 min. Body 0.3810 in. Rim 0.4400 in. No belt is printed. 4D Case Cap. 18.79 gr is not stored. Neck length 0.1997 in is the print case minus the length to the neck."
+    },
+    {
       "id": "22-savage-hi-power",
       "name": "22 Savage High-Power",
       "kind": "wildcat",
@@ -1376,7 +1527,8 @@
       "name": ".220 Swift Ackley Improved",
       "kind": "wildcat",
       "aliases": [
-        "220 Swift AI"
+        "220 Swift AI",
+        "220 Swift Ackley"
       ],
       "parentCase": ".220 Swift",
       "lengthUnit": "in",

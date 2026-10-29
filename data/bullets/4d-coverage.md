@@ -9,12 +9,12 @@ Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still li
 | Caliber | 4D pages | On file | Missing |
 | --- | ---: | ---: | ---: |
 | Match | 33 | 1 | 32 |
-| .22 | 67 | 42 | 25 |
 | .243 and 6mm | 59 | 39 | 20 |
 | .45 | 30 | 10 | 20 |
 | .264 and 6.5mm | 49 | 30 | 19 |
 | .30 and .308 | 76 | 57 | 19 |
 | .40 | 29 | 10 | 19 |
+| .22 | 67 | 49 | 18 |
 | .280 and 7mm | 48 | 34 | 14 |
 | .25 and .257 | 33 | 20 | 13 |
 | .338 and .340 | 37 | 25 | 12 |
@@ -25,7 +25,7 @@ Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still li
 | .32 and 8mm | 21 | 14 | 7 |
 | .19 | 5 | 0 | 5 |
 | .17 | 14 | 10 | 4 |
-| .20 and .204 | 18 | 14 | 4 |
+| .20 and .204 | 18 | 15 | 3 |
 | .366 and 9.3mm | 8 | 6 | 2 |
 | .577 | 3 | 1 | 2 |
 | .43 and 11mm | 1 | 0 | 1 |
@@ -36,7 +36,7 @@ Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still li
 | .425 | 2 | 2 | 0 |
 | .470 and .475 | 3 | 3 | 0 |
 | 5.7mm | 1 | 1 | 0 |
-| **Total** | **641** | **383** | **258** |
+| **Total** | **641** | **391** | **250** |
 
 Unique rifle and match pages in these archives: 626. A cartridge listed in two caliber archives is counted in each row, so the table total is higher.
 
@@ -78,7 +78,7 @@ Missing:
 
 ## .20 and .204
 
-18 pages. 14 on file. 4 missing.
+18 pages. 15 on file. 3 missing.
 
 On file:
 
@@ -89,6 +89,7 @@ On file:
 - 20 Squirrel — bullets `20-squirrel`
 - 20 Tactical (Tac 20) — bullets `20-tactical`
 - 20 VarTarg — library `20-vartarg`
+- 20 VarTarg Lapua — bullets `20-vartarg-lapua`
 - 20-22 Nosler (22 No-Z-ler) — bullets `20-22-nosler`
 - 20-220 Swift — bullets `20-220-swift`
 - 20-223 Ackley — bullets `20-223-ai`
@@ -100,13 +101,12 @@ On file:
 Missing:
 
 - 20 Ackley Bee — https://4drentals.com/product/reamer-rentals/rifle/20-ackley-bee/
-- 20 VarTarg Lapua — https://4drentals.com/product/reamer-rentals/rifle/20-vartarg-lapua/
 - 20-223 WSSM — https://4drentals.com/product/reamer-rentals/rifle/20-223-wssm/
 - 20-250 Remington (20/22-250) — https://4drentals.com/product/reamer-rentals/rifle/20-250/
 
 ## .22
 
-67 pages. 42 on file. 25 missing.
+67 pages. 49 on file. 18 missing.
 
 On file:
 
@@ -126,17 +126,23 @@ On file:
 - 22 Nosler — bullets `22-nosler`
 - 22 PPC — library `22-ppc`
 - 22 PPC USA — library `22-ppc`
+- 22 Remington Jet — bullets `22-rem-jet`
 - 22 Savage Hi Power — bullets `22-savage-hi-power`
 - 22 Spitfire — bullets `22-spitfire`
 - 22&#215;47 Lapua — bullets `22x47-lapua`
 - 22-06 Ackley Improved — bullets `22-06-ai`
+- 22-243 Middlestead — bullets `22-243-middlestead`
+- 22-243 Rayhill Rocket — bullets `22-243-rayhill`
 - 22-243 Winchester — bullets `22-243-win`
 - 22-250 Remington — bullets `22-250-rem`
+- 22-250 Remington Ackley — bullets `22-250-ai`
+- 22-284 Winchester — bullets `22-284-win`
 - 22-6mm Ackley Improved — bullets `22-6mm-ai`
 - 22-6mm Remington — bullets `22-6mm`
 - 22/30-30 Ackley Improved — bullets `22-30-30-ai`
 - 220 Jaybird — bullets `220-jaybird`
 - 220 Swift — bullets `220-swift`
+- 220 Swift Ackley — bullets `220-swift-ai`
 - 220 Wilson Arrow — bullets `220-wilson-arrow`
 - 221 Remington Fireball — bullets `221-fireball`
 - 222 Remington — library `222-rem`
@@ -147,6 +153,7 @@ On file:
 - 223 Remington — bullets `223-rem`
 - 223 Remington Ackley Improved — bullets `223-ai`
 - 223 WSSM — library `223-wssm`
+- 223 Wylde — loads `223-rem`
 - 223-300 WSM — bullets `223-300-wsm`
 - 224 Vais — bullets `224-vais`
 - 224 Valkyrie — bullets `224-valkyrie`
@@ -161,20 +168,13 @@ Missing:
 - 22 Cheetah MK I — https://4drentals.com/product/reamer-rentals/rifle/22-cheetah-mk-i/
 - 22 Dasher — https://4drentals.com/product/reamer-rentals/rifle/22-dasher/
 - 22 Lindahl Chucker — https://4drentals.com/product/reamer-rentals/rifle/22-lindahl-chucker/
-- 22 Remington Jet — https://4drentals.com/product/reamer-rentals/rifle/22-remington-jett/
 - 22 Super Jett — https://4drentals.com/product/reamer-rentals/rifle/22-super-jett/
 - 22 XC — https://4drentals.com/product/reamer-rentals/rifle/22-xc/
 - 22-240 Weatherby — https://4drentals.com/product/reamer-rentals/rifle/22-240-weatherby/
-- 22-243 Middlestead — https://4drentals.com/product/reamer-rentals/rifle/22-243-middlestead/
-- 22-243 Rayhill Rocket — https://4drentals.com/product/reamer-rentals/rifle/22-243-rayhill-rocket/
 - 22-243 Win. Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/22-243ackley-improved/
-- 22-250 Remington Ackley — https://4drentals.com/product/reamer-rentals/rifle/22-250-remington-ackley/
-- 22-284 Winchester — https://4drentals.com/product/reamer-rentals/rifle/22-284-winchester/
 - 22-30/30 Winchester — https://4drentals.com/product/reamer-rentals/rifle/22-30-30-winchester/
-- 220 Swift Ackley — https://4drentals.com/product/reamer-rentals/rifle/220-swift-ackley/
 - 222 Remington .250 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-250-neck/
 - 222 Remington .251 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-251-neck/
-- 223 Wylde — https://4drentals.com/product/reamer-rentals/rifle/223-wylde/
 - 224 Texas Trophy Hunter (TTH) — https://4drentals.com/product/reamer-rentals/rifle/224-texas-trophy-hunter/
 - 224 Weatherby — https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/
 - 5.45&#215;39 — https://4drentals.com/product/reamer-rentals/rifle/5-45x39/
