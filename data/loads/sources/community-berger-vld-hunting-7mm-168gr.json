@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "loadCount": 7,
+  "loadCount": 9,
   "source": {
     "name": "Community Berger 7 mm 168 Grain VLD Hunting",
     "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-7mm-168gr.csv",
@@ -64,6 +64,34 @@
       "sourceUrl": "https://forum.accurateshooter.com/threads/need-7mm-saum-loads-for-1000-yd-f-class.3801590/",
       "sourcePage": "Shooters' Forum",
       "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: trailrider121; Posted: Jan 2, 2013; Charge_gr: 63-63.5; 168s. Upper-end node around 63 to 63.5 gr. He did not test it further. Same Savage 24 in barrel as the H4350 hunting load. Filed as VLD Hunting because the same post names the 168 vld hunting bullet."
+    },
+    {
+      "cartridge": "7mm Rem Mag",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 168,
+      "bulletDescription": "168 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": "RL22",
+      "charge": 64,
+      "chargeUnit": "gr",
+      "chargeLevel": "other",
+      "compressed": null,
+      "primer": "215M",
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/7mm-remington-pet-loads-140-180-grain.3554902/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: limbic; Posted: Oct 7, 2009; Line not stated in post; also filed under VLD Hunting/Target."
     },
     {
       "cartridge": "7mm Rem mag",
@@ -204,6 +232,34 @@
       "sourceUrl": "https://forum.accurateshooter.com/threads/7saum-168-vld.3797156/",
       "sourcePage": "Shooters' Forum",
       "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: trailrider121; Posted: Oct 21, 2012; Charge_gr: 58.0 to 58.8; Berger 168 VLD Hunting. 24 in Criterion. Seated .010 off. Letters F, G, and H, 58.0, 58.4, and 58.8 gr, shared a point of impact and were under MOA. He said he would work around 58.0 to 58.8 gr. Filed as VLD Hunting because he named the hunting bullet."
+    },
+    {
+      "cartridge": "Remington 7mm mag",
+      "bulletDiameterIn": null,
+      "bulletWeightGr": 168,
+      "bulletDescription": "168 VLD Hunting",
+      "bulletManufacturer": "Berger",
+      "bulletSku": null,
+      "powder": null,
+      "charge": null,
+      "chargeUnit": null,
+      "chargeLevel": null,
+      "compressed": null,
+      "primer": null,
+      "case": null,
+      "coal": null,
+      "coalUnit": null,
+      "barrelLength": null,
+      "barrelLengthUnit": null,
+      "barrelLengthOrigin": null,
+      "velocity": null,
+      "velocityUnit": null,
+      "pressure": null,
+      "pressureUnit": null,
+      "pressureMethod": null,
+      "sourceUrl": "https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/",
+      "sourcePage": "Shooters' Forum",
+      "notes": "Community-reported anecdotal load, not a published manufacturer load; Author: fourpower; Posted: May 25, 2016; Charge_gr: 68.5 to .69; Line not stated in post; also filed under VLD Hunting/Target. Powder not named. No line named."
     }
   ]
 }

@@ -192,70 +192,11 @@ The bullets whose product line is blank are closed — [#243](https://github.com
 
 ## Ambiguous VLD line candidates
 
-These posts name a bullet weight and do not name the product line, or they name a VLD and do not say Hunting or Target. They are not in a community file yet. File them with the matching line once that line is harvested.
+The 40 VLD entries that did not name Hunting or Target are filed. Each posted charge is a row in the VLD Hunting file and the VLD Target file for that weight. The note on each row says the poster did not name the line. The 270 cal 140 gr posts are hunting only, because the catalog has no 270 cal 140 gr VLD Target. One list entry was not filed: the 6X47 Lapua 105 gr note that some charges were not marked HVLD names no powder, charge, velocity, or author. This pull request is the filing.
 
-- 6 mm 105 VLD, 6BR, Varget settled at 30.1 gr and RL15 31.0 gr shared with a Hybrid: [6BR 105 VLD Reloder 15](https://forum.accurateshooter.com/threads/6br-105-vld-reloder-15.4074323/)
-- 6 mm 105 VLD, 6X47 Lapua thread, charges that were not marked HVLD: [6X47 Lapua 105 Berger VLD](https://forum.accurateshooter.com/threads/6x47-lapua-load-data-105-breger-vld.3926490/)
-- 6 mm 105 VLD, 6xc, H4350 40.5 gr at 3050 fps, 26 in, tbeasley, Oct 7, 2016: [which is best, 6x47, 6XC, 6 Creedmoor](https://forum.accurateshooter.com/threads/which-is-best-6-x-47-6xc-6-creedmore-6slr.3911034/)
-- 6 mm 95 VLD, 6BR, Varget 31.4 gr, 0.005 into the lands, CCI 450, Toby Bradshaw, Mar 7, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
-- 6 mm 95 VLD, 6BR, either side of 31 grains of Varget, .010 off, Steve Ladino, Mar 11, 2018: [6BR recipe for 95gr and Varget](https://forum.accurateshooter.com/threads/6br-receipe-for-95gr-bullet-and-varget.3947128/)
-- 6 mm 95 VLD, 6BRX, H4350 from 34.5 to 37 gr, jammed .012, 26 in, Grimstod, Jun 3, 2017: [6BRX H4350 and Berger VLD 95gr](https://forum.accurateshooter.com/threads/6brx-h4350-and-berger-vld-95gr-loads.3927800/)
-- 6 mm 115 VLD, 6 Creed thread, cartridge not named in the post, Reloder 16, 39 to 42.7 gr, velocity jumps of 30-35 fps, 41 gr the only decent group, Aggie14, Feb 28, 2021: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
-- 6 mm 115 VLD, 6 Creed thread, cartridge not named in the post, H4831sc, 43.6 gr, 3023 fps, 0.015 off, Aggie14, Feb 28, 2021: [6 creed with RL 16 and 115 vld, page 2](https://forum.accurateshooter.com/threads/6-creed-with-rl-16-115-vld.4029232/page-2)
-- 6 mm 115 VLD, 6mm Creedmoor, H4350 39.2 gr at 3015 fps, 28 in Shilen: [barrel friendly 6mm Creedmoor powder, page 2](https://forum.accurateshooter.com/threads/barrel-friendly-6mm-creedmoor-powder.4058244/page-2)
-- 6 mm 115 VLD, 6XC, H4350, 40.0 gr, 3064 fps, STOMP442, Jul 23, 2021: [range results 115 Berger VLD](https://forum.accurateshooter.com/threads/range-results-115-berger-vld-mm-creedmoor.4042383/)
-- 30 cal 185 VLD, cartridge not named, Varget, 44.5 gr at about 2730 fps and 43 gr at 2690 fps, 32 in Bartlein, .020 jump, watercam, Jan 21, 2014: [.308 Berger 185 VLD](https://forum.accurateshooter.com/threads/308-berger-185-vld.3834842/)
-- 6 mm 115 VLD, 6-284, no powder, no charge, 3200 fps, alf, May 12, 2010: [6-284 favorite load](https://forum.accurateshooter.com/threads/6-284-whats-your-favorite-load.3746298/)
-- 6 mm 115 VLD, 6-284 thread, RL25, 52.5 gr, 3060 fps, COAL 3.050, 26 in, kendoka66, Jun 7, 2010: [6-284 favorite load](https://forum.accurateshooter.com/threads/6-284-whats-your-favorite-load.3746298/)
-- 6 mm 115 VLD, 6x284, Retumbo, 54.0 gr he called max, shared with the 105, no velocity, 31 in Krieger 1-8, kendoka66, Jul 7, 2011: [6-284 ready for delivery, page 2](https://forum.accurateshooter.com/threads/6-284-ready-for-delivery.3767927/page-2)
-- 6.5 mm 130 VLD, 6.5x47 thread, H4350, 40.8 gr, right around 2900 fps, CCI 450, 26 in Krieger, hunting or target in the same sentence, jpistolero02, Mar 19, 2012: [6.5x47 with 130 VLD and H4350](https://forum.accurateshooter.com/threads/6-5x47-with-130-vld-and-h4350.3783849/)
-- 6.5 mm 130 VLD, 6.5x47 thread, Reloder 15, 37.3 gr, 2925 fps, seated at the lands, BR4, 30 in Criterion, cruiser49, Mar 22, 2012: [6.5x47 with 130 VLD and H4350](https://forum.accurateshooter.com/threads/6-5x47-with-130-vld-and-h4350.3783849/)
-- 6.5 mm 130 VLD, cartridge not named, 3000 fps, no charge, alf, May 1, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
-- 6.5 mm 130 VLD, 6.5x47 context, Varget 39.0 gr at 3000 fps, Yote Hunter, May 2, 2018: [6.5x47 130 gr loads](https://forum.accurateshooter.com/threads/6-5x47-130gr-loads-or-120.3951519/)
-- 6.5 mm 140 VLD, 6.5 Creedmoor thread, H4350, 41.5 gr, no velocity, JB10, Jan 31, 2022: [6.5 creed and H4350](https://forum.accurateshooter.com/threads/6-5-creed-and-h4350.4056660/)
-- 6.5 mm 140 VLD, 6.5-284 thread, H4831SC, no charge, no velocity, JCinCalif, May 23, 2013: [powders for a 6.5-284](https://forum.accurateshooter.com/threads/what-powders-for-a-6-5-284-140gr-bullets.3815730/)
-- 6.5 mm 140 Berger, no line named, 6.5-284 thread, H4831sc, 52.7 gr, 2915 fps, and Retumbo, 57 gr, no velocity, kwil13, May 24, 2013: [powders for a 6.5-284](https://forum.accurateshooter.com/threads/what-powders-for-a-6-5-284-140gr-bullets.3815730/)
-- 6.5 mm 140 Berger, no line named, 260ai thread, H4831sc, 46.0 gr, 2925 fps, Lapua, CCI 200, 26 in, STOMP442, May 21, 2019: [260ai powder preferences](https://forum.accurateshooter.com/threads/260ai-powder-preferences.3979664/)
-- 6.5 mm 140 VLD, 260AI thread, 4831sc, 48 gr, 2900 fps, seated at 2.990, Fast14riot, Aug 19, 2017: [260AI 140 RDF loads](https://forum.accurateshooter.com/threads/260ai-140rdf-loads.3932647/)
-- 6.5 mm 140 VLD, 260AI thread, 4350, 44.6 gr, 2925 fps, Geno C, Aug 20, 2017: [260AI 140 RDF loads](https://forum.accurateshooter.com/threads/260ai-140rdf-loads.3932647/)
-- 270 cal 140 Berger, no line named, .270 Win, H4831sc 58.2 gr at 2983 fps, 22 in, Higginez, May 28, 2015: [270 Winchester velocity](https://www.24hourcampfire.com/ubbthreads/ubbthreads.php/topics/691182)
-- 270 cal 140 Berger, no line named, 270WSM, Retumbo 71.5, 71, 70.5, 70, and 69.5 gr, loaded and not shot, JustOneMoreShot, May 30, 2014: [Getting the 270WSM ready, page 2](https://rokslide.com/forums/threads/getting-the-270wsm-ready.17913/page-2)
-- 7 mm 168 Berger, no line named, Remington 7mm mag, 68.5 to .69 gr, powder not named, fourpower, May 25, 2016: [7mm Rem Mag range results](https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/)
-- 7 mm 180 Berger, no line named, Remington 7mm mag, h-1000 67 gr, and Retumbo 70 gr, fourpower, May 25, 2016: [7mm Rem Mag range results](https://forum.accurateshooter.com/threads/7mm-rem-mag-range-results.3902315/)
-- 7 mm 180 VLD, 7 Mag, 2850 fps, no charge, montana_native, Mar 5, 2010: [180gr VLDs in 7mm Rem Mag](https://forum.accurateshooter.com/threads/anybody-use-a-180gr-vlds-in-7mm-rem-mag.3742911/)
-- 7 mm 168 VLD, 7mm Rem Mag, RL22 64 gr, 215M, limbic, Oct 7, 2009: [7mm remington pet loads](https://forum.accurateshooter.com/threads/7mm-remington-pet-loads-140-180-grain.3554902/)
-- 7 mm 180 VLD, 7mm SAUM, 3050 fps, no charge, moondog, Apr 29, 2019: [180 gr VLD Hunting or Target](https://forum.accurateshooter.com/threads/berger-180-gr-vld-hunting-or-target.3978073/)
-- 30 cal 168 VLD, 300WSM, RL-17, no charge, Larryh128, Nov 19, 2012: [168 gr Berger VLDs in 300WSM](https://forum.accurateshooter.com/threads/168-gr-berger-vlds-in-300wsm.3798809/)
-- 30 cal 168 VLD, 300wsm, IMR4350, no charge, William Sublette: [300wsm and 168gr bullets](https://rokslide.com/forums/threads/300wsm-168gr-bullets.167197/)
-- 30 cal 175 VLD, 30-06, IMR4895 44.5 gr, Springfield, Lapua40X, May 31, 2017: [30-06](https://forum.accurateshooter.com/threads/30-06.3925001/)
-- 30 cal 175 VLD, .308, Varget 41.8 gr, SDB777: [load data for 308 Berger bullets](https://forum.accurateshooter.com/threads/load-data-for-308-berger-bullets.3599978/)
-- 30 cal 185, no line named, 300 WSM, rl16 65.5 gr, Alex Wheeler, Sep 15, 2026: [300 WSM 180 Berger powder choice](https://forum.accurateshooter.com/threads/300-wsm-180-berger-powder-choice.4187371/)
-- 30 cal 210 VLD, 300 WSM, H4350 60.5 to 61 gr, 2820-2840 fps, 30 in, WAMBO, Aug 19, 2016: [300 WSM velocities](https://forum.accurateshooter.com/threads/300-wsm-velocities.3907904/)
-- 30 cal 210 VLD, .308, Varget 41.2 gr at 2425 fps, X-Caveman: [308 win 210 VLD loads](https://forum.accurateshooter.com/threads/308-win-210-vld-loads-anyone.3851564/)
-- 30 cal 210 VLD, 300 wby, RL 25 73 to 83 gr, match barrels, 4xforfun, Sep 4, 2012: [300 weatherby 210 vld](https://forum.accurateshooter.com/threads/300-weatherby-and-berger-210-vld-load-info.3794217/)
-- 6.5 mm 140 VLD, 6.5-270, 3090 fps, no charge, Shaun White: [6.5-270 with 140 bergers](https://forum.accurateshooter.com/threads/6-5-270-with-140-bergers-update.3642915/)
+## Dropped as ambiguous
 
-## Ambiguous Varmint or Target
-
-These posts name a flat base and do not say Varmint or Target. The catalog has both lines at the weight. They are not in a community file yet.
-
-- 22 cal 55 FB, 223 Remington thread, cartridge not named in the post, AR Comp, around 24 grains, no velocity, Shilen 14 twist, afret, Jun 27, 2024: [1 in 14 twist 223 Remington barrel projectiles](https://forum.accurateshooter.com/threads/1-in-14-twist-223-remington-barrel-projectiles.4127811/)
-
-## Ambiguous shared line
-
-One posted charge names more than one product line. It is not in a community file. The 40 VLD entries above are unchanged.
-
-- 6.5 mm 140, Elite Hunter, Hybrid, and Long Range BT named together, 6.5x47, N550, 40 gr, no velocity in this post, JBT47, Sep 23, 2017. His Sep 5 post in the same thread gives 40 gr of Vihtavuori N550 under a 140 Hybrid at 2915 fps from a 28 in barrel, and he calls the Sep 6 Elite Hunter charge the same load. [6.5x47 loads, page 2](https://forum.accurateshooter.com/threads/6-5x47-loads-120-bt-and-135-classic-hunter.3933744/page-2)
-- 30 cal 155.5 Fullbore and 155 gr VLD named together, .308, N140, 43.0 gr, .040 off the lands, no velocity, k80skeet, Dec 23, 2025: [Berger 155s in 30-06](https://forum.accurateshooter.com/threads/berger-155s-in-30-06.4163854/)
-- 30 cal 185, Juggernaut OTM Tactical and Long Range Boattail named together, .308 Palma, Varget, 43.9 gr, no velocity, Wolf small rifle magnum, Lapua Palma, Krieger 30 in, effendude, Jul 4, 2012: [185 BTLR and Juggernaut OTM](https://forum.accurateshooter.com/threads/is-the-berger-185-btlr-target-bullet-same-as-juggernaught-otm-tactical.3790325/)
-- 30 cal 185, Juggernaut with no Target or OTM, .308 gas gun thread, 2000MR 47.5 gr and IMR-4320 44.2 gr, about 2,650-2,660 fps, Tx_Flyboy, May 9, 2026: [155s and H4895 in 308 gas guns](https://forum.accurateshooter.com/threads/155s-and-h4895-in-308-gas-guns.4173086/)
-
-## Unresolved loads
-
-These posts name a charge and do not name a cartridge. The thread title and the subforum do not make the cartridge clear.
-
-- 6 mm BR COLUMN, brxlefty, Aug 1, 2023, n133 28.9 gr, .008 off the lands, no velocity. Thread title "Berger columns with n133?". Subforum Reloading Forum (All Calibers). The opening post does not name a cartridge. [Berger columns with n133](https://forum.accurateshooter.com/threads/berger-columns-with-n133.4100852/)
-- 6 mm 90 BT, PopCharlie, Aug 21, 2022, h4895 28.1 gr, br4, approx. 2850 fps, seated into the lands, 8 twist, no cartridge. Thread title "Berger 90 gr BT, 6mm, anyone?". Subforum Reloading Forum (All Calibers). [Berger 90 gr BT, 6mm, anyone?](https://forum.accurateshooter.com/threads/berger-90-gr-bt-6mm-anyone.4073077/)
+The Varmint-or-Target entry, the shared-line posts, and the unresolved loads with no cartridge were dropped as ambiguous on Kevin's say-so (2026-10-29). Earlier notes in this file that point at those lists are closed by that decision. Going forward, a post that is too ambiguous to file is dropped rather than kept on a sort-later list.
 
 ## Hammer Bullets import, started elsewhere
 
