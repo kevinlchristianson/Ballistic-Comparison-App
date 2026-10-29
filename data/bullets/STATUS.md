@@ -1,10 +1,16 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:52 UTC
+Last updated: 2026-10-29
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
+## Done (2026-10-29)
+
+Batch 1 is in `data/cartridges/bots/bullets.json` (cartridgeCount 334 to 367): 21 new 4D rows for .17–.264 (seven .224, six 6mm, four 6.5, two .25, 5.45x39, 6.5x52 Carcano); 12 Sherman wildcats .264 and under cited to Sherman Wildcat Cartridges (case length, trim length and printed water capacity; 30° on the SAUM parent for the Short Tacticals, 40° on the WSM case for the 264 Mega; bolt face and freebore in notes; diameters and shoulder position left for the app to estimate). Kevin approved Sherman Wildcat Cartridges as a source in the Ballistic App room on 2026-10-29; BOTS.md still needs that source added. The 8x57 Mauser shoulder angle is corrected from 30.8° to 20.8° (the drawing reads 20°48′).
+
 ## In progress
+
+.17–.264 4D/PTG reads continue from `4d-coverage.md`, with PTG for pages that failed the image-reuse or Ackley checks or had no drawing. `4d-coverage.md` is stale for 243 AI, 6mm BR Remington, 6mm-284, 6.5-06 AI and 250 Savage AI.
 
 The app owns case-capacity estimation. `src/lib/velocity/inputs.ts` hard-codes it as `case_profile` and reads the profile source from the citation, so `source.name` stays `Pacific Tool & Gauge` or `4D Reamer Rentals`. This bot supplies cited dimensions only. `caseCapacityGrH2O` is filled only when a source prints a water measurement. 4D's printed Case Cap. stays in the note and never fills that field.
 
