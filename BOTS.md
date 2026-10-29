@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-29, Sherman Wildcat Cartridges added as a load source (see below); earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -75,9 +75,23 @@ Open requests:
 **Project decision (2026-10-27).** The project owner asked that the bots be able to add cartridges to the library themselves, instead of asking the project in a comment. Write them to `data/cartridges/bots/` (load-data bot: `loads.json`, bullet bot: `bullets.json`) in the format in [`data/cartridges/bots/README.md`](data/cartridges/bots/README.md). You can also add new names (aliases) for cartridges the library already has.
 
 - Cite the page that prints the dimensions, and copy values in the units printed. Null for anything not printed.
+- **Allowed dimension sources** (owner's rulings to 2026-10-29): ANSI/SAAMI Z299.4 drawings and tables, C.I.P. TDCC sheets, Pacific Tool & Gauge reamer prints, 4D Reamer Rentals drawings, maker and designer spec pages, and Sherman Wildcat Cartridges' pages and cheat sheet. Copy the printed numbers only (never images or other page text) and cite the sheet or page for each cartridge.
+- **PTG prints titled "SAAMI"** are PTG's own reamer prints and are fine to use like any other PTG print. Cite PTG, not SAAMI.
+- **Case length when a print gives only chamber lengths** (for example a PTG-only cartridge): take the published case length from Wikipedia or the designer's or maker's spec and cite its URL in `note`. If neither publishes one, use the chamber length minus 0.010 in and mark it estimated in `note` (start the note with `ESTIMATE`). This is the one derived value the rules allow.
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-10-29, evening)
+
+The project owner's rulings, 2026-10-29. These replace the older rules they contradict, including the `cartridge-gaps.md` answer.
+
+1. **SAAMI and C.I.P. sheets are allowed.** Bots may copy the printed numbers from ANSI/SAAMI Z299.4 cartridge and chamber drawings and its pressure tables, and from C.I.P. TDCC sheets, citing the standard (with its page or drawing) or the sheet for each cartridge. Numbers only, no drawing images. Use `kind: "saami"` or `"cip"` for those cartridges, `pressure` with method `piezo` (SAAMI) or `cip` (C.I.P. Pmax, in bar as printed), and `maxCoal` from the drawing. This unblocks SAAMI cartridges that need a max COAL, such as 35 and 36 Nosler. The project's `cartridges.json` still wins where it has the cartridge, but the fill rule applies.
+2. **Sherman dimensions come from Sherman, not 4D.** The 4D Sherman pages have no drawings. Cite Sherman's cheat sheet and cartridge pages, filed as estimated/partial values the way the 2026-10-29 records already are. The Sherman section below is corrected.
+3. **Case length for print-only cartridges.** When a source gives only chamber lengths (a PTG-only cartridge, say), take the case length from Wikipedia or the designer's or maker's spec and cite it in `note`. If neither has one, use the chamber length minus 0.010 in, marked `ESTIMATE` in `note`.
+4. **PTG prints titled "SAAMI"** are PTG's own reamer prints and fine to use. Cite them as Pacific Tool & Gauge. With SAAMI itself now allowed, this matters less.
+
+The rules under **Both bots: adding cartridges** and in `data/cartridges/bots/README.md` now say the same.
 
 ## What changed on the project side (2026-10-29)
 
@@ -91,7 +105,7 @@ Open requests:
 4. Schema 1.0.0 as usual. The PDF's columns are "Cartridge", "Barrel Length (inches)", "Twist (inches)", "Bullet/Weight", "Powder", "Grains", "Velocity (FPS)", "Length", "Brass & Prep", "Primer", "Notes", and its second section has no header row. Copy values as printed. Twist, brass prep and anything the schema can't hold go in `notes` (`Twist_in: <text>; Brass: <text>`). COAL printed in "Length" or the notes goes in COAL only when it is labelled or clearly a cartridge length. Pressure is null; keep "Max pressure" and similar text in `notes`. Use `level` `max` only where the row or its heading says max. A row with no velocity is still published (the site shows it without fitting it).
 5. Keep each cartridge string exactly as printed. The names below make them match.
 
-**Cartridges and names (either bot may add them; the bullet bot already reads 4D drawings, so it is asked first).** None of the Sherman cartridges are in the library. Sherman's own pages print no case dimensions, so cite the 4D Reamer Rentals drawing for each (https://4drentals.com/product/reamer-rentals/sherman-rentals/, 43 Sherman chambers plus the 375 Yukon), under the rules in `data/cartridges/bots/README.md`, `kind: "wildcat"`, parent case as the drawing or Sherman names it. Where 4D has several freebore versions of one case (for example 7mm Sherman MEGA at 0.146, 0.205 and 0.235 in FB), add **one** cartridge and list the freebore lengths in `note`. Water capacity printed in Sherman's "SHERMAN CHEAT SHEET.xlsx" (same page) may fill `caseCapacityGrH2O`, cited to that file. Put these aliases on the records, so the strings in Sherman's PDF and the forum rows we already have resolve:
+**Cartridges and names (corrected 2026-10-29 evening).** None of the Sherman cartridges are in the project library. 4D Reamer Rentals lists Sherman reamers, but **none of those 4D pages has a drawing**, so don't cite 4D for them. Cite Sherman's own "SHERMAN CHEAT SHEET.xlsx" and cartridge pages (https://shermanwildcatcartridges.com/reloading-data/ and https://shermanwildcatcartridges.com/cartridges/), `kind: "wildcat"`, and file what they print (case length, trim length, water capacity, shoulder angle, parent case, bolt face and freebore in `note`) as estimated/partial values, as the records already filed do. Leave the profile diameters and shoulder position null for the app to estimate from the parent case. Where Sherman lists several freebore versions of one case, add **one** cartridge and list them in `note`. Printed water capacity fills `caseCapacityGrH2O`, cited to the cheat sheet. Put these aliases on the records, so the strings in Sherman's PDF and the forum rows we already have resolve:
 
 | Suggested id | Name | Aliases (as printed by Sherman, 4D or the forums, plus the short form) |
 | --- | --- | --- |
@@ -136,7 +150,7 @@ Open requests:
 
 Bullet diameter is the named bore (6mm 0.243, 25 0.257, 6.5/26/264 0.264, 270 0.277, 7mm/28/280 0.284, 30/300 0.308, 33/338 0.338, 375 0.375 in) unless the drawing prints another; say so in `note`, as you already do.
 
-Names to leave **unmatched**: `30 Sherman` (one forum row; could be the 300 Sherman LA or the 30 Sherman Magnum), `25 SWC` and `27 Sherman Mag` (in the PDF, but 4D has no drawing for them; add them only from a page that prints their dimensions). The project checked on 2026-10-29 that none of these strings matches an existing library cartridge today, so nothing is mis-filed in the meantime.
+Names to leave **unmatched**: `30 Sherman` (one forum row; could be the 300 Sherman LA or the 30 Sherman Magnum). `25 SWC` and `27 Sherman Mag` may be added (and aliased) when the cheat sheet or a Sherman page prints a case length for them, as the bullet bot did for `25-sherman-swc`. The project checked on 2026-10-29 that none of these strings matches an existing library cartridge today, so nothing is mis-filed in the meantime.
 
 ## What changed on the project side (2026-10-28, late)
 
@@ -180,7 +194,7 @@ Names to leave **unmatched**: `30 Sherman` (one forum row; could be the 300 Sher
 Read this before your next pull request.
 
 1. **Cartridge matching (PR #70).** Shorthand right after the number now matches (`300wm`, `338wm`, `7RM`, `6cm`, `28N`). A loose match may drop a maker word but not swap it, so `338 norma` no longer joins .338 Lapua. A ` / ` string resolves only when every piece names the same cartridge, so `6mm BR / BRA / Dasher variants` is unmatched. Keep cartridge strings exactly as posted; the app does the matching.
-2. **SAAMI check (PR #84).** The project checked `cartridges.json` against ANSI/SAAMI Z299.4-2025, from a text copy the owner supplied (method and results in [`data/cartridges/SAAMI-CHECK.md`](data/cartridges/SAAMI-CHECK.md)). 104 entries are now `verified`, 40 had values corrected, and 27 SAAMI cartridges were added. That permission covers the project's check only; the rule in `cartridge-gaps.md` stands, and bots still must not copy Z299.4, its drawings or C.I.P. sheets.
+2. **SAAMI check (PR #84).** The project checked `cartridges.json` against ANSI/SAAMI Z299.4-2025, from a text copy the owner supplied (method and results in [`data/cartridges/SAAMI-CHECK.md`](data/cartridges/SAAMI-CHECK.md)). 104 entries are now `verified`, 40 had values corrected, and 27 SAAMI cartridges were added. ~~That permission covers the project's check only; bots still must not copy Z299.4, its drawings or C.I.P. sheets.~~ Replaced on 2026-10-29: bots may now cite Z299.4 and C.I.P. sheets (see **What changed on the project side (2026-10-29, evening)**).
 3. **Your duplicates are now left out.** The project file always wins. These entries in `data/cartridges/bots/loads.json` are now in `cartridges.json` and are skipped (see "Cartridges added by bots" in the normalization report): `26-nosler`, `27-nosler`, `33-nosler`, `22-arc`, `300-rcm`, `6-5-wby-rpm`, `30-rem-ar`, and `338-norma-magnum` (the library id is `338-norma-mag`). Please delete them from your file, and move any alias you still need to the `aliases` list against the library id. Keep `24-nosler`: it is not in Z299.4's active list, so the library does not have it.
 4. **.25 Nosler** is being added by the project as a wildcat. Don't add it.
 5. **The site now counts verified cartridges (PR #87)** instead of saying all are unverified. Bot-added cartridges stay unverified with a "bot" tag.
