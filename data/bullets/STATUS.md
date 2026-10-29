@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:22 UTC
+Last updated: 2026-10-29 14:24 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -85,6 +85,8 @@ Seven more library cartridges cite a Pacific Tool & Gauge chamber print and fill
 Neck length is the print's own case length minus the print's length to the neck, both on the same datum. A printed neck length would be copied instead, and none of these drawings states one separately. A result outside 0.5–2.0 bullet diameters stays empty until the print is re-read. The first 50 records, in id order, are done: 46 now have that neck length, and the library keeps a neck length it already stored (.223 Remington stays 0.203 in). The band was widened from 0.6–1.6 because small calibers have real long necks. The next 50 are filled, including 22/6mm 0.3677 in, .22 Hornet 0.3857 in, .22 Savage Hi-Power 0.4196 in, and 220 Wotkyns-Wilson Arrow 0.3605 in. Nothing in this batch is outside 0.5–2.0. The other cited records still have a null neck length.
 
 The night neck check covered every `bullets.json` profile. Only four necks sit outside 0.015–0.045 in over the bullet: 223-300 WSM 0.2720 (0.048 over 0.224), .243 WSSM Ackley 0.2910 (0.048 over 0.243), 35-284 Winchester 0.3690 (0.011 over 0.358), and 425 Express 0.4480 (0.013 over 0.435). Each drawing prints that neck, and the shoulder length matches the printed angle. They stay. See [`comments/2026-10-28-neck-diameter-check.md`](comments/2026-10-28-neck-diameter-check.md). `375-cheytac`, `25-rpm`, and `338-300-wsm` are not in this file.
+
+Another 50 records now have a neck length, from 284-win through 33-win. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 172 cited records still have a null neck length.
 
 ## Next
 
