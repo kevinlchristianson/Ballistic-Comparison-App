@@ -1,10 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-10-29 14:25 UTC
+Last updated: 2026-10-29 19:20 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
 ## In progress
+
+Cartridge-dimension pass for .27 and up (4D drawings, PTG prints, Sherman Wildcat Cartridges), PR `loads/cartridge-dims-2026-10-29`: 46 records in `data/cartridges/bots/loads.json` — 23 new cartridges, 13 Sherman records marked ESTIMATE/PARTIAL, 10 profile fills on library cartridges (270 Wby, 7mm Wby, 7-30 Waters, 30R Blaser, 7.62x39, 340 Wby, 338 Wby RPM, 378 Wby, 470 NE, 30-06 AI), and our own 7mm TCU and 8.59 Galaxy records updated with 4D profiles (Hammer/Lazzeroni values kept and cited in notes).
 
 Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. `338 Edges`, `Standard edge`, and bare `Edge` alias to library `338-edge`. `47` stays unmatched. Hodgdon pistol and shotshell are out of scope. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
 
@@ -54,6 +56,10 @@ Nosler load sheets print CASE HOLDS under the seated bullet, and the number chan
 
 ## Next
 
+- Recheck the 300 Weatherby PTG print and the SAAMI-titled PTG rows once Kevin decides.
+- Rows staged but held because the app's normalizer would reject them (no case length on PTG chamber-only prints: 7mm-300 PRC, 300 WSM AI, 33 XC, 404 Dakota; Sherman 7mm SST; kind saami without max COAL: 338-378 Wby, 350 Rem Mag). Find a printed case length / max COAL or reclassify.
+- Remaining .32–.50 wildcats not yet tried on PTG (8x60, 9x39, 416 Aagaard, 375 Flanged, 416 Wby).
+
 The community bot's status file is [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md), on main with [#90](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/90). `28N`, `260 AI`, and `260AI` already resolve. The other handed-over names are still unmatched; no dimension page was found. The row counts are in [`comments/2026-10-27-cartridges-missing-from-library.md`](comments/2026-10-27-cartridges-missing-from-library.md). There was no earlier pull request for that name pass.
 
 The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not planned. Handgun cartridges, including Hodgdon sections named `- Pistol` and carbine or `- Rifle` listings of a handgun case, stay in the load files and stay unmatched. That is 14,111 rows. They are out of scope, not a to-do.
@@ -66,6 +72,7 @@ The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not 
 
 Load and cartridge work from this bot, newest first:
 
+- `loads/cartridge-dims-2026-10-29` — 4D/PTG/Sherman cartridge dimensions .27 and up (this PR). Bullet bot's [#267](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/267) merged first; rows it already covers were dropped.
 - [#134](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/134) — Aliased `300 norm` and `6mmBR`, and added 375 CheyTac from the PTG print.
 - [#124](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/124) — Hammer water capacities for ten library cartridges. 20 VarTarg skipped. .25 Nosler left alone.
 - [#113](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/113) — PTG and Hammer dimensions for 11 unmatched names, plus two aliases.
@@ -81,6 +88,11 @@ Community load files also merged today under `sources/`, including the Berger Hy
 
 ## Known data issues
 
+- 300 Weatherby: the PTG 2.624 figure is not a chamber length (case is 2.825); row held until the print is reread.
+- PTG prints titled SAAMI (27 Nosler, 33 Nosler, 35 Nosler, 36 Nosler, 375 Weatherby, 300 HAM'R, 7mm Backcountry) are held pending Kevin; the bots' rule skips SAAMI- or C.I.P.-labeled drawings whoever printed them.
+- 50 BMG: the 4D neck (0.560) is 0.050 over the 0.510 bullet, above the 0.045 neck rule; not staged.
+- PTG prints show the chamber, so PTG chamber lengths go in notes only and never into `caseLength`.
+- Sherman Wildcat Cartridges was approved as a source by Kevin on 2026-10-29, but BOTS.md does not list it yet; the app side needs to add it. Sherman bolt face and freebore are in notes only.
 - Hodgdon prints a start charge above the maximum for 22 BR Remington - Pistol with Varget: 33.5 gr start, 31.5 gr maximum, 40 gr BT. Both numbers are kept. `validate.py --strict` reports that pair and no other error. See the Hodgdon paragraph in [`README.md`](README.md).
 - After the rifle rebuild, 32,147 of 49,506 Hodgdon records resolved and 17,359 did not, across 177 names. Handguns and rifle names with no cited dimension page stay unmatched. The snapshot and the later Lazzeroni note are in [`comments/2026-10-27-cartridges-missing-from-library.md`](comments/2026-10-27-cartridges-missing-from-library.md).
 - Hodgdon diameters printed as 0.511 in (500 Linebaugh, 500 Maximum), 0.550 in (550 Magnum), and 0.512 in (50-140 Sharps) are kept. `validate.py` warns that they sit above the usual 0.51 in band.
