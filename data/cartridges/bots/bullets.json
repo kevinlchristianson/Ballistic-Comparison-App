@@ -10778,7 +10778,9 @@
       "kind": "wildcat",
       "aliases": [
         "6 SST",
-        "6 SST/B"
+        "6 SST/B",
+        "6SST",
+        "6mm Sherman SST/B"
       ],
       "parentCase": ".300 Remington Short Action Ultra Magnum",
       "lengthUnit": "in",
@@ -10810,7 +10812,9 @@
       "kind": "wildcat",
       "aliases": [
         "25 SST",
-        "25SST/B"
+        "25SST/B",
+        "25SST",
+        "25 Sherman SST/B"
       ],
       "parentCase": ".300 Remington Short Action Ultra Magnum",
       "lengthUnit": "in",
@@ -10842,7 +10846,8 @@
       "kind": "wildcat",
       "aliases": [
         "6.5 SST",
-        "6.5SST/B"
+        "6.5SST/B",
+        "6.5mm Sherman SST/B"
       ],
       "parentCase": ".300 Remington Short Action Ultra Magnum",
       "lengthUnit": "in",
@@ -10875,7 +10880,8 @@
       "aliases": [
         "6 SS",
         "6SS/B",
-        "6mm SS-B"
+        "6mm SS-B",
+        "6mm Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -10907,7 +10913,8 @@
       "kind": "wildcat",
       "aliases": [
         "25 SS",
-        "25SS/B"
+        "25SS/B",
+        "25 Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -10939,7 +10946,9 @@
       "kind": "wildcat",
       "aliases": [
         "6.5 SS",
-        "6.5SS/B"
+        "6.5SS/B",
+        "6.5SS",
+        "6.5mm Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -10971,7 +10980,8 @@
       "kind": "wildcat",
       "aliases": [
         "6 Max",
-        "6 MAX/B"
+        "6 MAX/B",
+        "6mm Sherman MAX"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -11003,7 +11013,8 @@
       "kind": "wildcat",
       "aliases": [
         "25 Max",
-        "25 MAX/B"
+        "25 MAX/B",
+        "25 MAX"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -11035,7 +11046,9 @@
       "kind": "wildcat",
       "aliases": [
         "6.5 Max",
-        "6.5 MAX/B"
+        "6.5 MAX/B",
+        "6.5 Sherman max",
+        "6.5mm Sherman Max"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -11098,7 +11111,8 @@
       "name": "26 Sherman Magnum",
       "kind": "wildcat",
       "aliases": [
-        "26 Sherman Mag"
+        "26 Sherman Mag",
+        "26 Sherman MAG"
       ],
       "parentCase": null,
       "lengthUnit": "in",
