@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:26 UTC
+Last updated: 2026-10-29 14:28 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -89,6 +89,8 @@ The night neck check covered every `bullets.json` profile. Only four necks sit o
 Another 50 records now have a neck length, from 284-win through 33-win. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 172 cited records still have a null neck length.
 
 Another 50 records now have a neck length, from 330-dakota through 375-348-scovill. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 122 cited records still have a null neck length.
+
+Another 50 records now have a neck length, from 375-444 through 6-5x54-ms. Each one is the print case minus the length to the neck, except a belted PTG print, which uses the belt datum for both. Nothing in the batch is outside 0.5–2.0 calibers. 72 cited records still have a null neck length.
 
 ## Next
 
