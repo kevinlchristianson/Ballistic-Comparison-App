@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:32 UTC
+Last updated: 2026-10-29 14:36 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -95,6 +95,8 @@ Another 50 records now have a neck length, from 375-444 through 6-5x54-ms. Each 
 Another 50 records now have a neck length, from 6-5x55-ai through 7mm-rum. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 22 cited records still have a null neck length.
 
 The last 22 cited records now have a neck length, from 7mm-saum through 9x57. Each one is the print case minus the length to the neck. Nothing is outside 0.5–2.0 calibers. Every cited record now has a neck length. New profiles include one from here on.
+
+.17 Remington now cites the PTG chamber print, 23° and 0.3568 in, against the .223 Remington shoulder 0.3542 in. Neck 0.2010 in is 0.029 in over the bullet. Neck length 0.2775 in is the print case 1.808 in minus the length to the neck. The library case 1.796 in stays. 7-30 Waters was not cited: the print's datum line is not a clear belt, and the junction lengths do not agree with the printed 17°13' shoulder. 55 library cartridges are still partly estimated.
 
 ## Next
 

@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 318,
+  "cartridgeCount": 319,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -219,6 +219,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2000 in at the mouth and the shoulder junction. Body diameter printed at 0.1420 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 29.95 gr (printed figure, not stored as water). Neck length 0.2450 in is the print case minus the length to the neck."
+    },
+    {
+      "id": "17-rem",
+      "name": ".17 Remington",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".223 Remington",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.172,
+      "caseLength": 1.808,
+      "trimLength": null,
+      "maxCoal": 2.15,
+      "rimDiameter": null,
+      "neckLength": 0.2775,
+      "baseDiameter": 0.3769,
+      "shoulderDiameter": 0.3568,
+      "neckDiameter": 0.201,
+      "lengthToShoulder": 1.3469,
+      "lengthToNeck": 1.5305,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 23,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/17-Remington-SAAMI-Chamber-Reamer_p_114629.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "PTG chamber drawing PTG-10847, 17 REMINGTON SAAMI, from the bolt face. Fills the empty .17 Remington profile. Neck 0.2010 in, 0.029 in over the 0.172 bullet. Shoulder 0.3568 in at 23 deg, against the .223 Remington shoulder 0.3542 in at 23 deg. Body 0.3769 in. Library case 1.796 in stays; the print case is 1.808 in. Library rim 0.378 in stays. No belt is printed. Neck length 0.2775 in is the print case minus the length to the neck."
     },
     {
       "id": "20-vartarg",
