@@ -6,9 +6,8 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## Owner ruling: SAAMI and C.I.P. may be copied (2026-10-29)
 
-Kevin ruled in the Ballistic App room on 2026-10-29 that bots may copy SAAMI (ANSI/SAAMI Z299.4, saami.org drawings) and C.I.P. sheets or C.I.P.-labeled 4D/PTG drawings, cited. **BOTS.md still bans both and needs updating to match.** This PR adds 8x64 S (4D C.I.P. drawing) and 7.5x55 Swiss (PTG C.I.P. print, Wikipedia case length/COAL) and fills the 7.82 Warbird profile from 4D's C.I.P. drawing. Still out: 35 and 36 Nosler and 338-378 Weatherby are not in the public Z299.4-2025 PDF (https://saami.org/wp-content/uploads/2026/10/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-10-21.pdf), so no SAAMI value was copied; 270x57 has no drawing on 4D (the page image is a bushing photo); 30-06 CIP is the library .30-06.
+Kevin ruled in the Ballistic App room on 2026-10-29 that bots may copy SAAMI (ANSI/SAAMI Z299.4, saami.org drawings) and C.I.P. sheets or C.I.P.-labeled 4D/PTG drawings, cited. This PR adds 8x64 S (4D C.I.P. drawing) and 7.5x55 Swiss (PTG C.I.P. print, Wikipedia case length/COAL) and fills the 7.82 Warbird profile from 4D's C.I.P. drawing. Still out: 35 and 36 Nosler and 338-378 Weatherby are not in the public Z299.4-2025 PDF (https://saami.org/wp-content/uploads/2026/10/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-10-21.pdf), so no SAAMI value was copied; 270x57 has no drawing on 4D (the page image is a bushing photo); 30-06 CIP is the library .30-06.
 
-**BOTS.md Sherman line is wrong:** it tells bots to cite 4D drawings for Shermans, but all 43 4D Sherman pages show only 8 shared line title graphics and no drawing. Sherman records cite Sherman's cheat sheet instead.
 
 ## In progress
 
@@ -70,13 +69,14 @@ The community bot's status file is [`comments/2026-10-27-community-work-status.m
 
 The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not planned. Handgun cartridges, including Hodgdon sections named `- Pistol` and carbine or `- Rifle` listings of a handgun case, stay in the load files and stay unmatched. That is 14,111 rows. They are out of scope, not a to-do.
 
-1. Rifle names that are still unmatched, from the most rows down. A spelling of a library or bot record can be aliased when it is the same case. A new record needs a PTG print, a 4D drawing, Hammer case data, or a maker or brass page that prints bullet diameter and case length. No SAAMI Z299.4 or C.I.P. copy.
+1. Rifle names that are still unmatched, from the most rows down. A spelling of a library or bot record can be aliased when it is the same case. A new record needs a PTG print, a 4D drawing, Hammer case data, or a maker or brass page that prints bullet diameter and case length. SAAMI Z299.4 and C.I.P. TDCC numbers are allowed, cited (`kind` saami/cip, `maxCoal` from the drawing).
 2. Shooters World stays paused until the website's own column labels confirm grains and feet per second. See [`comments/2026-10-27-source-terms-survey.md`](comments/2026-10-27-source-terms-survey.md).
 3. LoadDevelopment stays paused. The terms forbid copying the tables, `sources/loaddevelopment.json` is an empty envelope, and there is no parser. See [`comments/2026-10-27-terms-block-full-tables.md`](comments/2026-10-27-terms-block-full-tables.md) and [`comments/2026-10-27-harvest-stopped.md`](comments/2026-10-27-harvest-stopped.md).
 
 ## Recently merged
 
-- 2026-10-29, held cartridge rows (`data/cartridges/bots/loads.json`, now 90 records): 7 new cartridges (375 Weatherby, 338-378 Weatherby, 350 Rem Mag, 33 XC, 7mm-300 PRC, 300 WSM AI, 404 Dakota); profile fills for library 33 Nosler and 300 Weatherby; 27 Nosler and 7mm Backcountry records replaced. Case lengths per the owner's 2026-10-29 rule: Wikipedia (27/33 Nosler, 375 Wby, 7mm Backcountry, 300 Wby), designer (33 XC, David Tubb), or PTG chamber length minus 0.010 marked ESTIMATE/PARTIAL (7mm-300 PRC, 300 WSM AI, 404 Dakota). PTG's own prints titled SAAMI used per the owner's ruling. The 13 Sherman records got the BOTS.md alias spellings (not `30 Sherman`, `25 SWC`, `27 Sherman Mag`) and no longer say BOTS.md omits Sherman. Still out: 35 and 36 Nosler (SAAMI kind needs a max COAL and none is published outside SAAMI), 7mm Sherman Short Tactical (no printed length anywhere), 300 HAM'R (fills nothing). BOTS.md says Sherman dimensions should come from 4D's Sherman drawings (43 chambers); those are not read yet.
+- 2026-10-29, BOTS.md 19:45Z follow-up (STATUS.md only): checked the 23 `loads.json` records the normalizer skips as already in the library; every one fills at least one empty library field (listed under "Empty library fields filled from bot records"), so none was deleted. 35 and 36 Nosler are still not in `cartridges.json` or the public Z299.4-2025 PDF (https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf), and no other citable SAAMI/C.I.P. source prints them, so they stay out. Removed the stale notes saying BOTS.md bans SAAMI/C.I.P. and that its Sherman/4D line is wrong.
+- 2026-10-29, held cartridge rows (`data/cartridges/bots/loads.json`, now 90 records): 7 new cartridges (375 Weatherby, 338-378 Weatherby, 350 Rem Mag, 33 XC, 7mm-300 PRC, 300 WSM AI, 404 Dakota); profile fills for library 33 Nosler and 300 Weatherby; 27 Nosler and 7mm Backcountry records replaced. Case lengths per the owner's 2026-10-29 rule: Wikipedia (27/33 Nosler, 375 Wby, 7mm Backcountry, 300 Wby), designer (33 XC, David Tubb), or PTG chamber length minus 0.010 marked ESTIMATE/PARTIAL (7mm-300 PRC, 300 WSM AI, 404 Dakota). PTG's own prints titled SAAMI used per the owner's ruling. The 13 Sherman records got the BOTS.md alias spellings (not `30 Sherman`, `25 SWC`, `27 Sherman Mag`) and no longer say BOTS.md omits Sherman. Still out: 35 and 36 Nosler (SAAMI kind needs a max COAL and none is published outside SAAMI), 7mm Sherman Short Tactical (no printed length anywhere), 300 HAM'R (fills nothing).
 
 Load and cartridge work from this bot, newest first:
 
@@ -97,7 +97,6 @@ Community load files also merged today under `sources/`, including the Berger Hy
 ## Known data issues
 
 - 300 Weatherby: the PTG 2.624 figure is not a chamber length (case is 2.825); row held until the print is reread.
-- PTG prints titled SAAMI (27 Nosler, 33 Nosler, 35 Nosler, 36 Nosler, 375 Weatherby, 300 HAM'R, 7mm Backcountry) are held pending Kevin; the bots' rule skips SAAMI- or C.I.P.-labeled drawings whoever printed them.
 - 50 BMG: the 4D neck (0.560) is 0.050 over the 0.510 bullet, above the 0.045 neck rule; not staged.
 - PTG prints show the chamber, so PTG chamber lengths go in notes only and never into `caseLength`.
 - Sherman Wildcat Cartridges was approved as a source by Kevin on 2026-10-29, but BOTS.md does not list it yet; the app side needs to add it. Sherman bolt face and freebore are in notes only.
