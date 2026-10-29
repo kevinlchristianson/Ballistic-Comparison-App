@@ -36,7 +36,9 @@ The 22 cal 69 gr HPBT MatchKing, sku 1380, is [#257](https://github.com/kevinlch
 
 22 cal 77 gr HPBT MatchKing with a cannelure, sku 9377GT, was searched. No posted charge named the cannelure or 9377GT. Mk 262 descriptions name the cannelured 77 and a factory velocity, not a powder charge. No file and no pull request.
 
-The bullet in this pull request is the 22 cal 77 gr HPBT MatchKing, sku 9377T — [#258](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/258).
+The 22 cal 77 gr HPBT MatchKing, sku 9377T, is [#258](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/258).
+
+The bullet in this pull request is the 22 cal 80 gr HPBT/CN MatchKing, sku 9390T — [#260](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/260).
 
 The 22 cal 52 gr file adds no unmatched name. `.223` resolves to `223-rem`. `22-250` resolves to `22-250-rem`. Linko's charge is 24.4 thru 25.8 gr, so it stays null. His 2.250 COAL is the Sierra manual figure. greybeard wrote 24' and 1 in 14', so those lengths are not stored as inches. bigfishman's 38 gr of H380 is for a Speer 52 and a Sierra 52 together, so it is dropped. The 223 load thread's 55/52 grain charges are shared by both weights, so they are dropped. Keith Glasscock's 27+ gr of Varget is 50-55 grain bullets. No fired 52 gr MatchKing charge turned up in 222 Rem, 220 Swift, 22 BR, 22 PPC, 22 Nosler, 224 Valkyrie, or 223 AI.
 
@@ -45,6 +47,8 @@ The 22 cal 53 gr file adds no unmatched name. `.223` and `223` resolve to `223-r
 The 22 cal 69 gr file adds no unmatched name. `223` resolves to `223-rem`. SKWERLZ wrote 23 something grains, so that charge stays null. Jeff Porter's 2.240 in is the OAL. Several posts did not name the cartridge; the thread is 69 grain SMK. JLT's 23.8 gr of 8208 is shared by a Hornady 68 gr and the 69 gr SMK, so it is dropped. No fired 69 gr MatchKing charge turned up in 222 Rem, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie.
 
 The 22 cal 77 gr file adds no unmatched name. `223` resolves to `223-rem`. Charges shared with another bullet are dropped: Jeff Porter's 8208 and H4895 with a Lapua Scenar, CADDIE5's RE15 with an 80.5 Berger, PeteB's H4895 with a Nosler, and B muzguy's tipped MatchKing. kevinbritvec's 23.5 to 24.0 gr of Varget is a list of commonly used loads, not one he fired. No fired 77 gr MatchKing charge turned up in 222 Rem, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie. The cannelure 77, sku 9377GT, has no file.
+
+The 22 cal 80 gr file adds no unmatched name. `223` and `.223` resolve. jsthntn247 wrote 4895. Park ranger wrote an 80 in the 80 gr SMK thread. dsinfour's 80 grain pill does not name MatchKing, so it is dropped. swadiver's charges are 80.5 Berger Fullbores. Linko's 20.7 to 22.9 gr is the Sierra manual span he planned to start from, not a fired charge. DocBII's up to 26 gr of N-550 is a work-up ceiling. No fired 80 gr MatchKing charge turned up in 222 Rem, 22-250, 220 Swift, 22 Nosler, or 224 Valkyrie.
 
 ## In progress
 
