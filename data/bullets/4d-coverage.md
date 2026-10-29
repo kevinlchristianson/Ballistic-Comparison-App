@@ -9,23 +9,23 @@ Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still li
 | Caliber | 4D pages | On file | Missing |
 | --- | ---: | ---: | ---: |
 | Match | 33 | 1 | 32 |
-| .243 and 6mm | 59 | 39 | 20 |
+| .243 and 6mm | 59 | 49 | 10 |
 | .45 | 30 | 10 | 20 |
-| .264 and 6.5mm | 49 | 30 | 19 |
+| .264 and 6.5mm | 49 | 36 | 13 |
 | .30 and .308 | 76 | 57 | 19 |
 | .40 | 29 | 10 | 19 |
-| .22 | 67 | 49 | 18 |
+| .22 | 67 | 57 | 10 |
 | .280 and 7mm | 48 | 34 | 14 |
-| .25 and .257 | 33 | 20 | 13 |
+| .25 and .257 | 33 | 25 | 8 |
 | .338 and .340 | 37 | 25 | 12 |
 | .50 | 16 | 4 | 12 |
 | .375 and .38 | 28 | 19 | 9 |
 | .270 and 6.8mm | 21 | 13 | 8 |
 | .35 and 9mm | 32 | 24 | 8 |
 | .32 and 8mm | 21 | 14 | 7 |
-| .19 | 5 | 0 | 5 |
+| .19 | 5 | 4 | 1 |
 | .17 | 14 | 10 | 4 |
-| .20 and .204 | 18 | 15 | 3 |
+| .20 and .204 | 18 | 16 | 2 |
 | .366 and 9.3mm | 8 | 6 | 2 |
 | .577 | 3 | 1 | 2 |
 | .43 and 11mm | 1 | 0 | 1 |
@@ -36,7 +36,7 @@ Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still li
 | .425 | 2 | 2 | 0 |
 | .470 and .475 | 3 | 3 | 0 |
 | 5.7mm | 1 | 1 | 0 |
-| **Total** | **641** | **391** | **250** |
+| **Total** | **641** | **425** | **216** |
 
 Unique rifle and match pages in these archives: 626. A cartridge listed in two caliber archives is counted in each row, so the table total is higher.
 
@@ -66,22 +66,26 @@ Missing:
 
 ## .19
 
-5 pages. 0 on file. 5 missing.
+5 pages. 4 on file. 1 missing.
+
+On file:
+
+- 19 Fireball — bullets `19-fireball`
+- 19 Hawk — bullets `19-hawk`
+- 19 Squirrel — bullets `19-squirrel`
+- 19-223 Ackley Improved — bullets `19-223-ai`
 
 Missing:
 
-- 19 Fireball — https://4drentals.com/product/reamer-rentals/rifle/19-fireball/
-- 19 Hawk — https://4drentals.com/product/reamer-rentals/rifle/19-hawk/
-- 19 Squirrel — https://4drentals.com/product/reamer-rentals/rifle/19-squirrel/
-- 19-223 Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/19-223-ackley-improved/
 - 4.6mm x 30 — https://4drentals.com/product/reamer-rentals/rifle/4-6mm-x-30/
 
 ## .20 and .204
 
-18 pages. 15 on file. 3 missing.
+18 pages. 16 on file. 2 missing.
 
 On file:
 
+- 20 Ackley Bee — bullets `20-ackley-bee`
 - 20 BR — bullets `20-br`
 - 20 Nosler — bullets `20-nosler`
 - 20 PPC .2258" Nk — bullets `20-ppc`
@@ -100,25 +104,27 @@ On file:
 
 Missing:
 
-- 20 Ackley Bee — https://4drentals.com/product/reamer-rentals/rifle/20-ackley-bee/
 - 20-223 WSSM — https://4drentals.com/product/reamer-rentals/rifle/20-223-wssm/
 - 20-250 Remington (20/22-250) — https://4drentals.com/product/reamer-rentals/rifle/20-250/
 
 ## .22
 
-67 pages. 49 on file. 18 missing.
+67 pages. 57 on file. 10 missing.
 
 On file:
 
 - 218 Bee — bullets `218-bee`
 - 218 Mashburn Bee — bullets `218-mashburn-bee`
 - 219 Donaldson Wasp — bullets `219-donaldson-wasp`
+- 219 Zipper Ackley Improved — bullets `219-zipper-ai`
 - 219 Zipper — bullets `219-zipper`
 - 22 American — bullets `22-american`
 - 22 ARC — bullets `22-arc`
 - 22 BR (Remington) — library `22-br`
+- 22 Cheetah MK I — bullets `22-cheetah-mk1`
 - 22 Cheetah MK II — bullets `22-cheetah-mk2`
 - 22 Creedmoor — bullets `22-creedmoor`
+- 22 Dasher — bullets `22-dasher`
 - 22 Grendel — bullets `22-grendel`
 - 22 GT — loads `22-gt`
 - 22 Hornet — bullets `22-hornet`
@@ -131,8 +137,10 @@ On file:
 - 22 Spitfire — bullets `22-spitfire`
 - 22&#215;47 Lapua — bullets `22x47-lapua`
 - 22-06 Ackley Improved — bullets `22-06-ai`
+- 22-240 Weatherby — bullets `22-240-wby`
 - 22-243 Middlestead — bullets `22-243-middlestead`
 - 22-243 Rayhill Rocket — bullets `22-243-rayhill`
+- 22-243 Win. Ackley Improved — bullets `22-243-ai`
 - 22-243 Winchester — bullets `22-243-win`
 - 22-250 Remington — bullets `22-250-rem`
 - 22-250 Remington Ackley — bullets `22-250-ai`
@@ -155,51 +163,51 @@ On file:
 - 223 WSSM — library `223-wssm`
 - 223 Wylde — loads `223-rem`
 - 223-300 WSM — bullets `223-300-wsm`
+- 224 Texas Trophy Hunter (TTH) — bullets `224-tth`
 - 224 Vais — bullets `224-vais`
 - 224 Valkyrie — bullets `224-valkyrie`
+- 224 Weatherby — bullets `224-wby-mag`
 - 225 Comet — bullets `225-comet`
 - 225 Winchester — bullets `225-win`
+- 5.45&#215;39 — bullets `5-45x39`
 
 Missing:
 
 - 219 Donaldson Rimless — https://4drentals.com/product/reamer-rentals/rifle/219-donaldson-rimless/
-- 219 Zipper Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/219-zipper-ackley-improved/
 - 22 BR Norma/Lapua — https://4drentals.com/product/reamer-rentals/rifle/22-br-norma-lapua/
-- 22 Cheetah MK I — https://4drentals.com/product/reamer-rentals/rifle/22-cheetah-mk-i/
-- 22 Dasher — https://4drentals.com/product/reamer-rentals/rifle/22-dasher/
 - 22 Lindahl Chucker — https://4drentals.com/product/reamer-rentals/rifle/22-lindahl-chucker/
 - 22 Super Jett — https://4drentals.com/product/reamer-rentals/rifle/22-super-jett/
 - 22 XC — https://4drentals.com/product/reamer-rentals/rifle/22-xc/
-- 22-240 Weatherby — https://4drentals.com/product/reamer-rentals/rifle/22-240-weatherby/
-- 22-243 Win. Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/22-243ackley-improved/
 - 22-30/30 Winchester — https://4drentals.com/product/reamer-rentals/rifle/22-30-30-winchester/
 - 222 Remington .250 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-250-neck/
 - 222 Remington .251 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-251-neck/
-- 224 Texas Trophy Hunter (TTH) — https://4drentals.com/product/reamer-rentals/rifle/224-texas-trophy-hunter/
-- 224 Weatherby — https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/
-- 5.45&#215;39 — https://4drentals.com/product/reamer-rentals/rifle/5-45x39/
 - 5.56&#215;45 NATO — https://4drentals.com/product/reamer-rentals/rifle/5-56x45-nato/
 - 5.6&#215;39 Sharp Shooter — https://4drentals.com/product/reamer-rentals/rifle/5-6x39-sharpshooter/
 
 ## .243 and 6mm
 
-59 pages. 39 on file. 20 missing.
+59 pages. 49 on file. 10 missing.
 
 On file:
 
 - 24 Nosler — loads `24-nosler`
 - 240 Cobra — bullets `240-cobra`
 - 240 Gibbs — bullets `240-gibbs`
+- 240 Hawk — bullets `240-hawk`
+- 240 Page Super Pooper — bullets `240-psp`
 - 240 Weatherby Magnum — library `240-wby`
 - 243 Catbird — bullets `243-catbird`
 - 243 Rock Chucker — bullets `243-rockchucker`
 - 243 Super Rock Chucker — bullets `243-super-rockchucker`
+- 243 Winchester Ackley Improved — bullets `243-ai`
 - 243 Winchester — bullets `243-win`
 - 243 WSSM (Winchester Super Short Magnum) — library `243-wssm`
 - 243 WSSM AI (Ackley Improved) — bullets `243-wssm-ai`
 - 243-3000 Savage Ackley Improved — bullets `243-3000-imp`
+- 244 (6mm) Remington Ackley Improved — bullets `6mm-rem-ai`
 - 244 (6mm) Remington — library `6mm-rem`
 - 6mm ARC — library `6mm-arc`
+- 6mm BPC (bolt action Grendel) — bullets `6mm-bpc`
 - 6mm BR Lapua — bullets `6mm-norma-br`
 - 6mm BR Norma — library `6mm-norma-br`
 - 6mm BRA  (BR Ackley Improved) — bullets `6mm-bra`
@@ -209,32 +217,32 @@ On file:
 - 6mm Donaldson Wasp — bullets `6mm-donaldson-wasp`
 - 6mm GT — bullets `6mm-gt`
 - 6mm PPC — bullets `6mm-ppc`
+- 6mm Remington BR — library `6mm-br-rem`
 - 6mm SLR (Super Long Range) — library `6mm-slr`
 - 6mm TCU — loads `6mm-tcu`
 - 6mm X 45 (6mm-223) — loads `6x45mm`
 - 6mm X 45 Ackley Improved (6mm-223 AI) — bullets `6x45-ai`
+- 6mm X 47 (6mm-222 Rem Mag) — bullets `6x47-222-rem-mag`
 - 6mm X 47 Lapua — loads `6x47-lapua`
 - 6mm X 47 Lapua Ackley Improved — bullets `6x47-lapua-ai`
+- 6mm X 54 Rimmed — bullets `6x54r`
 - 6mm XC — library `6xc`
 - 6mm-06 — bullets `6mm-06`
 - 6mm-06 Ackley Improved — bullets `6mm-06-ai`
 - 6mm-22 Nosler — bullets `6mm-22-nosler`
 - 6mm-257 Roberts Ackley Improved — bullets `6mm-257-ai`
+- 6mm-284 Winchester — library `6mm-284`
 - 6mm-300 RSAUM — bullets `6mm-300-rsaum`
 - 6mm-300 WSM — bullets `6mm-300-wsm`
 - 6mm-350 Remington Magnum (6mm-6.5mm Remington Magnum) — bullets `6mm-350-rem-mag`
 - 6mm-6.5 Remington Magnum — bullets `6mm-65-rem-mag`
 - 6mm/22-250 — bullets `243-250`
 - 6mm/22-250 Ackley Improved (AI) — bullets `6mm-22-250-ai`
+- 6mm/30-30 Ackley Improved — bullets `6mm-30-30-ai`
 
 Missing:
 
-- 240 Hawk — https://4drentals.com/product/reamer-rentals/rifle/240-hawk/
 - 240 NMC — https://4drentals.com/product/reamer-rentals/rifle/240-nmc/
-- 240 Page Super Pooper — https://4drentals.com/product/reamer-rentals/rifle/240-page-super-pooper/
-- 243 Winchester Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/243-winchester-ackley-improved/
-- 244 (6mm) Remington Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/244-remington-ackley/
-- 6mm BPC (bolt action Grendel) — https://4drentals.com/product/reamer-rentals/rifle/6mm-bpc-bolt-action-grendel/
 - 6mm Cheetah MK I — https://4drentals.com/product/reamer-rentals/rifle/6mm-cheetah-mk-i/
 - 6mm Competition Match — https://4drentals.com/product/reamer-rentals/match/6mm-competition-match/
 - 6mm Dasher 14x World Champion — https://4drentals.com/product/reamer-rentals/match/6mm-dasher-14x-world-champion/
@@ -243,16 +251,11 @@ Missing:
 - 6mm Grendel — https://4drentals.com/product/reamer-rentals/rifle/6mm-grendel/
 - 6mm Krag Long, Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/6mm-krag-long-ackley-improved/
 - 6mm PPC Sako — https://4drentals.com/product/reamer-rentals/rifle/6mm-ppc-sako/
-- 6mm Remington BR — https://4drentals.com/product/reamer-rentals/rifle/6mm-remington-br/
-- 6mm X 47 (6mm-222 Rem Mag) — https://4drentals.com/product/reamer-rentals/rifle/6-x-47-6mm222-rem-mag/
-- 6mm X 54 Rimmed — https://4drentals.com/product/reamer-rentals/rifle/6mmx54-rimmed/
-- 6mm-284 Winchester — https://4drentals.com/product/reamer-rentals/rifle/6mm-284-winchester/
 - 6mm-6.8 Remington SPC — https://4drentals.com/product/reamer-rentals/rifle/6mm-68-remington-spc/
-- 6mm/30-30 Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/6mm-30-30-ackley-improved/
 
 ## .25 and .257
 
-33 pages. 20 on file. 13 missing.
+33 pages. 25 on file. 8 missing.
 
 On file:
 
@@ -262,16 +265,21 @@ On file:
 - 25 Krag Ackley — bullets `25-krag-ai`
 - 25 Souper (25-308) — bullets `25-souper`
 - 25 WSSM — library `25-wssm`
+- 25-06 Niedner — bullets `25-niedner`
 - 25-06 Remington — library `25-06-rem`
 - 25-06 Remington Ackley — bullets `25-06-ai`
 - 25-20 Winchester — library `25-20-win`
+- 25-264 Winchester Magnum Ackley Improved — bullets `25-264-ai`
 - 25-284  Winchester — library `25-284`
 - 25-300 RSAUM — bullets `25-rsaum`
 - 25-300 WSM — bullets `25-300-wsm`
 - 25-35 Ackley Improved — bullets `25-35-ai`
 - 25-35 Winchester — bullets `25-35-win`
 - 25-45 Sharps (SRC) — bullets `25-45-sharps`
+- 250 Ackley Magnum — bullets `250-ackley-mag`
+- 250 Savage Ackley — bullets `250-savage-ai`
 - 250 Savage — bullets `250-savage`
+- 257 Hawk — bullets `257-hawk`
 - 257 Roberts — bullets `257-roberts`
 - 257 Roberts (Min Freebore) — library `257-roberts`
 - 257 Roberts Ackley — bullets `257-ai`
@@ -285,27 +293,25 @@ Missing:
 - 25 Weatherby RPM — https://4drentals.com/product/reamer-rentals/rifle/25-rpm/
 - 25 Western — https://4drentals.com/product/reamer-rentals/rifle/25-western/
 - 25 x 47 Lapua — https://4drentals.com/product/reamer-rentals/rifle/25x47-lapua/
-- 25-06 Niedner — https://4drentals.com/product/reamer-rentals/rifle/25-06-neidner/
 - 25-20 Single Shot — https://4drentals.com/product/reamer-rentals/rifle/25-20-single-shot/
-- 25-264 Winchester Magnum Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/25264-ackley/
 - 25-375 H&H Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/25375-hh-ackley/
-- 250 Ackley Magnum — https://4drentals.com/product/reamer-rentals/rifle/250-ackley-magnum/
-- 250 Savage Ackley — https://4drentals.com/product/reamer-rentals/rifle/250-savage-ackley/
-- 257 Hawk — https://4drentals.com/product/reamer-rentals/rifle/257-hawk/
 
 ## .264 and 6.5mm
 
-49 pages. 30 on file. 19 missing.
+49 pages. 36 on file. 13 missing.
 
 On file:
 
 - 256 Newton — bullets `256-newton`
 - 26 Nosler Magnum — bullets `26-nosler`
+- 260 Cheetah — bullets `260-cheetah`
 - 260 Remington — library `260-rem`
 - 260 Remington Ackley — bullets `260-ai`
+- 264 Hawk — bullets `264-hawk`
 - 264 LBC-AR (Grendel) — bullets `264-lbc-ar`
 - 264 Winchester Magnum — bullets `264-win-mag`
 - 6.5mm / 30-30 Winchester — bullets `6-5-30-30`
+- 6.5mm BPC (bolt action Grendel) — bullets `6-5-bpc`
 - 6.5mm BR — loads `6-5mm-br`
 - 6.5mm Creedmoor — bullets `6-5-creedmoor`
 - 6.5mm Grendel (SAAMI) — bullets `6-5-grendel`
@@ -318,12 +324,15 @@ On file:
 - 6.5mm X 257 Roberts — bullets `6-5-257`
 - 6.5mm X 257 Roberts Ackley — bullets `6-5-257-ai`
 - 6.5mm X 47 Lapua — bullets `6-5x47-lapua`
+- 6.5mm X 52 Carcano — bullets `6-5x52-carcano`
 - 6.5mm X 54 MS — bullets `6-5x54-ms`
 - 6.5mm X 55 — library `6-5x55-swedish`
 - 6.5mm X 55 Ackley — bullets `6-5x55-ai`
 - 6.5mm X 68S — bullets `6-5x68`
+- 6.5mm-06 Ackley — bullets `6-5-06-ai`
 - 6.5mm-06 — bullets `6-5-06`
 - 6.5mm-270 WSM (6.5-300 WSM) — bullets `6-5-270-wsm`
+- 6.5mm-280 Ackley — bullets `6-5-280-ai`
 - 6.5mm-284 Ackley Improved — bullets `6-5-284-ai`
 - 6.5mm-284 Norma — library `6-5-284-norma`
 - 6.5mm-300 RSAUM — bullets `6-5-saum`
@@ -332,21 +341,15 @@ On file:
 
 Missing:
 
-- 260 Cheetah — https://4drentals.com/product/reamer-rentals/rifle/260-cheetah/
 - 260 Remington Tactical — https://4drentals.com/product/reamer-rentals/rifle/260-remington-tactical/
-- 264 Hawk — https://4drentals.com/product/reamer-rentals/rifle/264-hawk/
-- 6.5mm BPC (bolt action Grendel) — https://4drentals.com/product/reamer-rentals/rifle/6-5mm-bpc-bolt-grendel/
 - 6.5mm BRA  (BR Ackley Improved) — https://4drentals.com/product/reamer-rentals/rifle/65mm-bra/
 - 6.5mm PRC AW2 Spec — https://4drentals.com/product/reamer-rentals/rifle/6-5-prc-aw2/
 - 6.5mm X 47 Lapua Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/65x47-lapua-ackley-improved/
-- 6.5mm X 52 Carcano — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-52-carcano/
 - 6.5mm X 55 Skandinavian — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-55-skandinavian/
 - 6.5mm X 55 Zero Freebore — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-55-zfb/
 - 6.5mm x 57 Mauser (CIP) (title says C.I.P.) — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-57-mauser/
 - 6.5mm X 65 RWS — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-65-rws/
 - 6.5mm X 65R (Rimmed) RWS — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-65r-rimmed-rws/
-- 6.5mm-06 Ackley — https://4drentals.com/product/reamer-rentals/rifle/6-5-06-ackley/
-- 6.5mm-280 Ackley — https://4drentals.com/product/reamer-rentals/rifle/6-5-280-ackley/
 - 6.5mm-280 RCBS 30° — https://4drentals.com/product/reamer-rentals/rifle/6-5-280-rcbs-30/
 - 6.5mm-284 Lapua — https://4drentals.com/product/reamer-rentals/rifle/6-5-284-lapua/
 - 6.5mm-284 Winchester — https://4drentals.com/product/reamer-rentals/rifle/6-5-284-winchester/
