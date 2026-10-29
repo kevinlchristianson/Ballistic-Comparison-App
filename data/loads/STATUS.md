@@ -6,7 +6,7 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## In progress
 
-Cartridge-dimension pass for .27 and up (4D drawings, PTG prints, Sherman Wildcat Cartridges), PR `loads/cartridge-dims-2026-10-29`: 46 records in `data/cartridges/bots/loads.json` — 23 new cartridges, 13 Sherman records marked ESTIMATE/PARTIAL, 10 profile fills on library cartridges (270 Wby, 7mm Wby, 7-30 Waters, 30R Blaser, 7.62x39, 340 Wby, 338 Wby RPM, 378 Wby, 470 NE, 30-06 AI), and our own 7mm TCU and 8.59 Galaxy records updated with 4D profiles (Hammer/Lazzeroni values kept and cited in notes).
+Cartridge-dimension pass for .27 and up (4D drawings, PTG prints, Sherman Wildcat Cartridges), PR `loads/cartridge-dims-2026-10-29`: 46 records in `data/cartridges/bots/loads.json` — 21 new cartridges, 13 Sherman records marked ESTIMATE/PARTIAL, 10 profile fills on library cartridges (270 Wby, 7mm Wby, 7-30 Waters, 30R Blaser, 7.62x39, 340 Wby, 338 Wby RPM, 378 Wby, 470 NE, 30-06 AI), and our own 7mm TCU and 8.59 Galaxy records updated with 4D profiles (Hammer/Lazzeroni values kept and cited in notes).
 
 Z299.4 drawing copies are out of `data/cartridges/bots/loads.json`. New cartridge records get `rimType` and `rimDiameter` when the cited PTG or Hammer source prints them. `338 Edges`, `Standard edge`, and bare `Edge` alias to library `338-edge`. `47` stays unmatched. Hodgdon pistol and shotshell are out of scope. The app owns capacity estimates. 4D Case Cap. is not stored. `.25 Nosler` gets no profile. This bot does not add profiles for the partly estimated library cartridges. LoadDevelopment stays paused.
 
