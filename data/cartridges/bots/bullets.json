@@ -19,7 +19,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2005,
       "baseDiameter": 0.4697,
       "shoulderDiameter": 0.4142,
       "neckDiameter": 0.205,
@@ -34,7 +34,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-250-remington/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck junction 0.2050 in, mouth 0.2030 in. Body diameter printed at 0.1270 in from the head. Rim thickness 0.0490 in has no field. Shoulder 0.4142 in at 28 deg, length to the shoulder 1.5148 in, against the .22-250 drawing 0.4147 in at that station, with a .17 neck. This is not an Ackley. 4D Case Cap. 43.81 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck junction 0.2050 in, mouth 0.2030 in. Body diameter printed at 0.1270 in from the head. Rim thickness 0.0490 in has no field. Shoulder 0.4142 in at 28 deg, length to the shoulder 1.5148 in, against the .22-250 drawing 0.4147 in at that station, with a .17 neck. This is not an Ackley. 4D Case Cap. 43.81 gr (printed figure, not stored as water). Neck length 0.2005 in is the print case minus the length to the neck."
     },
     {
       "id": "17-222",
@@ -50,7 +50,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.248,
       "baseDiameter": 0.3773,
       "shoulderDiameter": 0.358,
       "neckDiameter": 0.199,
@@ -65,7 +65,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-222-remington/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. Shoulder 0.3580 in at 23 deg is the .222 Remington shoulder, with a .17 neck. This is not an Ackley. 4D Case Cap. 24.96 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. Shoulder 0.3580 in at 23 deg is the .222 Remington shoulder, with a .17 neck. This is not an Ackley. 4D Case Cap. 24.96 gr (printed figure, not stored as water). Neck length 0.2480 in is the print case minus the length to the neck."
     },
     {
       "id": "17-223",
@@ -81,7 +81,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.1875,
       "baseDiameter": 0.3772,
       "shoulderDiameter": 0.3542,
       "neckDiameter": 0.199,
@@ -96,7 +96,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-practical-17-223/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. Shoulder 0.3542 in at 1.4381 in matches the .223 drawing station. Printed angle is 30 deg; the .223 drawing is 23 deg. Not an Ackley. 4D Case Cap. 26.29 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. Shoulder 0.3542 in at 1.4381 in matches the .223 drawing station. Printed angle is 30 deg; the .223 drawing is 23 deg. Not an Ackley. 4D Case Cap. 26.29 gr (printed figure, not stored as water). Neck length 0.1875 in is the print case minus the length to the neck."
     },
     {
       "id": "17-fireball",
@@ -110,7 +110,7 @@
       "trimLength": null,
       "maxCoal": 1.83,
       "rimDiameter": null,
-      "neckLength": null,
+      "neckLength": 0.2211,
       "baseDiameter": 0.3769,
       "shoulderDiameter": 0.3666,
       "neckDiameter": 0.206,
@@ -125,7 +125,7 @@
         "url": "https://www.pacifictoolandgauge.com/17-Remington-Fireball-SAAMI-Chamber-Reamer_p_114630.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG chamber drawing PTG-13714, 17 REMINGTON FIREBALL, from the bolt face. Fills the empty .17 Remington Fireball profile. The 4D page is titled as a chamber. Neck 0.2060 in, 0.034 in over the 0.172 bullet. Shoulder 0.3666 in at 30 deg; 0.3673 in is also printed, and 0.3666 in matches the junctions. Wider than the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3769 in. Library case 1.410 in stays; the print case is 1.420 in. Library rim 0.378 in stays. No belt is printed."
+      "note": "PTG chamber drawing PTG-13714, 17 REMINGTON FIREBALL, from the bolt face. Fills the empty .17 Remington Fireball profile. The 4D page is titled as a chamber. Neck 0.2060 in, 0.034 in over the 0.172 bullet. Shoulder 0.3666 in at 30 deg; 0.3673 in is also printed, and 0.3666 in matches the junctions. Wider than the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3769 in. Library case 1.410 in stays; the print case is 1.420 in. Library rim 0.378 in stays. No belt is printed. Neck length 0.2211 in is the print case minus the length to the neck."
     },
     {
       "id": "17-javelina",
@@ -141,7 +141,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.245,
       "baseDiameter": 0.3772,
       "shoulderDiameter": 0.362,
       "neckDiameter": 0.201,
@@ -156,7 +156,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-javalina/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2010 in at the mouth and the shoulder junction. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 21.33 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2010 in at the mouth and the shoulder junction. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 21.33 gr (printed figure, not stored as water). Neck length 0.2450 in is the print case minus the length to the neck."
     },
     {
       "id": "17-mach-iv",
@@ -172,7 +172,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.203,
       "baseDiameter": 0.376,
       "shoulderDiameter": 0.361,
       "neckDiameter": 0.199,
@@ -187,7 +187,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-mach-iv/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1250 in from the head. Rim thickness 0.0450 in has no field. Shoulder is printed 30 deg. This is not an Ackley. 4D Case Cap. 20.34 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.1990 in at the mouth and the shoulder junction. Body diameter printed at 0.1250 in from the head. Rim thickness 0.0450 in has no field. Shoulder is printed 30 deg. This is not an Ackley. 4D Case Cap. 20.34 gr (printed figure, not stored as water). Neck length 0.2030 in is the print case minus the length to the neck."
     },
     {
       "id": "17-ppc",
@@ -203,7 +203,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.445,
-      "neckLength": null,
+      "neckLength": 0.245,
       "baseDiameter": 0.443,
       "shoulderDiameter": 0.431,
       "neckDiameter": 0.2,
@@ -218,7 +218,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/17-ppc/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2000 in at the mouth and the shoulder junction. Body diameter printed at 0.1420 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 29.95 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .17 bore, 0.172 in; no groove is printed. Neck 0.2000 in at the mouth and the shoulder junction. Body diameter printed at 0.1420 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 29.95 gr (printed figure, not stored as water). Neck length 0.2450 in is the print case minus the length to the neck."
     },
     {
       "id": "20-vartarg",
@@ -232,7 +232,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": null,
-      "neckLength": null,
+      "neckLength": 0.2232,
       "baseDiameter": 0.3762,
       "shoulderDiameter": 0.36,
       "neckDiameter": 0.232,
@@ -247,7 +247,7 @@
         "url": "https://www.pacifictoolandgauge.com/20-VT-VarTarg-Chamber-Reamer_p_116970.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG chamber drawing BOP-10866, 20 VT (VARTARG), basic brass 221 Remington, from the bolt face. Fills the empty .20 Vartarg profile. The 4D page has no dimensions. Neck 0.2320 in, 0.028 in over the 0.204 bullet. Shoulder 0.3600 in at 30 deg, against the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3762 in. Library case 1.340 in stays; the print case is 1.400 in. Library rim 0.378 in stays. No belt is printed."
+      "note": "PTG chamber drawing BOP-10866, 20 VT (VARTARG), basic brass 221 Remington, from the bolt face. Fills the empty .20 Vartarg profile. The 4D page has no dimensions. Neck 0.2320 in, 0.028 in over the 0.204 bullet. Shoulder 0.3600 in at 30 deg, against the .221 Fireball shoulder 0.3607 in at 23 deg. Body 0.3762 in. Library case 1.340 in stays; the print case is 1.400 in. Library rim 0.378 in stays. No belt is printed. Neck length 0.2232 in is the print case minus the length to the neck."
     },
     {
       "id": "204-ruger",
@@ -261,7 +261,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.1998,
       "baseDiameter": 0.3754,
       "shoulderDiameter": 0.3599,
       "neckDiameter": 0.231,
@@ -276,7 +276,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/204-ruger/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .204 Ruger profile. Bullet diameter is the named .20 bore, 0.204 in; no groove is printed. Neck 0.2310 in at the mouth and the shoulder junction, 0.027 in over the bullet. Shoulder 0.3599 in at 30 deg. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.25 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .204 Ruger profile. Bullet diameter is the named .20 bore, 0.204 in; no groove is printed. Neck 0.2310 in at the mouth and the shoulder junction, 0.027 in over the bullet. Shoulder 0.3599 in at 30 deg. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.25 gr (printed figure, not stored as water). Neck length 0.1998 in is the print case minus the length to the neck."
     },
     {
       "id": "204-ruger-ai",
@@ -292,7 +292,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.2053,
       "baseDiameter": 0.3769,
       "shoulderDiameter": 0.365,
       "neckDiameter": 0.233,
@@ -307,7 +307,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/204-ruger-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .204 Ruger bore, 0.204 in; no groove is printed. Neck 0.2330 in at the shoulder junction; mouth 0.2310 in. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 30.08 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .204 Ruger bore, 0.204 in; no groove is printed. Neck 0.2330 in at the shoulder junction; mouth 0.2310 in. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 30.08 gr (printed figure, not stored as water). Neck length 0.2053 in is the print case minus the length to the neck."
     },
     {
       "id": "218-bee",
@@ -323,7 +323,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.408,
-      "neckLength": null,
+      "neckLength": 0.2559,
       "baseDiameter": 0.3491,
       "shoulderDiameter": 0.3324,
       "neckDiameter": 0.2435,
@@ -338,7 +338,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/218-bee/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .218 Bee profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2435 in, mouth 0.2420 in. Shoulder 0.3324 in at 15 deg. Body diameter printed at 0.0870 in from the head. Rim 0.4080 in; rim thickness 0.0650 in has no field. 4D Case Cap. 19.05 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .218 Bee profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2435 in, mouth 0.2420 in. Shoulder 0.3324 in at 15 deg. Body diameter printed at 0.0870 in from the head. Rim 0.4080 in; rim thickness 0.0650 in has no field. 4D Case Cap. 19.05 gr (printed figure, not stored as water). Neck length 0.2559 in is the print case minus the length to the neck."
     },
     {
       "id": "218-mashburn-bee",
@@ -354,7 +354,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.408,
-      "neckLength": null,
+      "neckLength": 0.193,
       "baseDiameter": 0.3491,
       "shoulderDiameter": 0.3374,
       "neckDiameter": 0.2435,
@@ -369,7 +369,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/218-mashburn-bee/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .218 Bee bore, 0.224 in; no groove is printed. Neck 0.2435 in at the shoulder junction; mouth 0.2420 in. Body diameter printed at 0.0870 in from the head. Rim thickness 0.0650 in has no field. 4D Case Cap. 20.50 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .218 Bee bore, 0.224 in; no groove is printed. Neck 0.2435 in at the shoulder junction; mouth 0.2420 in. Body diameter printed at 0.0870 in from the head. Rim thickness 0.0650 in has no field. 4D Case Cap. 20.50 gr (printed figure, not stored as water). Neck length 0.1930 in is the print case minus the length to the neck."
     },
     {
       "id": "219-donaldson-wasp",
@@ -385,7 +385,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.506,
-      "neckLength": null,
+      "neckLength": 0.316,
       "baseDiameter": 0.416,
       "shoulderDiameter": 0.406,
       "neckDiameter": 0.251,
@@ -400,7 +400,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/219-donaldson-wasp/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the shoulder junction; mouth 0.2500 in. Body diameter 0.4160 in. Rim thickness 0.0630 in has no field. 4D Case Cap. 35.40 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the shoulder junction; mouth 0.2500 in. Body diameter 0.4160 in. Rim thickness 0.0630 in has no field. 4D Case Cap. 35.40 gr (printed figure, not stored as water). Neck length 0.3160 in is the print case minus the length to the neck."
     },
     {
       "id": "219-zipper",
@@ -414,7 +414,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.506,
-      "neckLength": null,
+      "neckLength": 0.317,
       "baseDiameter": 0.422,
       "shoulderDiameter": 0.365,
       "neckDiameter": 0.253,
@@ -429,7 +429,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/219-zipper/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.0930 in from the head. Rim thickness 0.0630 in has no field. Shoulder is printed 12 deg. This is not an Ackley. 4D Case Cap. 32.99 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.0930 in from the head. Rim thickness 0.0630 in has no field. Shoulder is printed 12 deg. This is not an Ackley. 4D Case Cap. 32.99 gr (printed figure, not stored as water). Neck length 0.3170 in is the print case minus the length to the neck."
     },
     {
       "id": "22-06-ai",
@@ -445,7 +445,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2532,
       "baseDiameter": 0.471,
       "shoulderDiameter": 0.455,
       "neckDiameter": 0.257,
@@ -460,7 +460,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-06-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 70.15 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter printed at 0.1247 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 70.15 gr (printed figure, not stored as water). Neck length 0.2532 in is the print case minus the length to the neck."
     },
     {
       "id": "22-243-win",
@@ -476,7 +476,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.211,
       "baseDiameter": 0.4709,
       "shoulderDiameter": 0.454,
       "neckDiameter": 0.254,
@@ -491,7 +491,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-243-winchester/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2540 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 52.37 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2540 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 52.37 gr (printed figure, not stored as water). Neck length 0.2110 in is the print case minus the length to the neck."
     },
     {
       "id": "22-250-ai",
@@ -505,7 +505,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": null,
-      "neckLength": null,
+      "neckLength": 0.2686,
       "baseDiameter": 0.468,
       "shoulderDiameter": 0.455,
       "neckDiameter": 0.257,
@@ -520,7 +520,7 @@
         "url": "https://www.pacifictoolandgauge.com/22--250-Remington-Ackley-Improved-Chamber-Reamer_p_114569.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG chamber drawing BOP-10895, 22-250 REMINGTON ACKLEY IMPROVED, from the bolt face. Fills the empty .22-250 Ackley Improved profile. The 4D junctions do not agree with its 40 deg shoulder. Neck junction 0.2570 in, mouth 0.2550 in, 0.033 in over the 0.224 bullet. Shoulder 0.4550 in at 40 deg, wider than the .22-250 drawing 0.4147 in at 28 deg. Body 0.4680 in. Library case 1.912 in stays; the print case is 1.924 in. Library rim 0.473 in stays. No belt is printed."
+      "note": "PTG chamber drawing BOP-10895, 22-250 REMINGTON ACKLEY IMPROVED, from the bolt face. Fills the empty .22-250 Ackley Improved profile. The 4D junctions do not agree with its 40 deg shoulder. Neck junction 0.2570 in, mouth 0.2550 in, 0.033 in over the 0.224 bullet. Shoulder 0.4550 in at 40 deg, wider than the .22-250 drawing 0.4147 in at 28 deg. Body 0.4680 in. Library case 1.912 in stays; the print case is 1.924 in. Library rim 0.473 in stays. No belt is printed. Neck length 0.2686 in is the print case minus the length to the neck."
     },
     {
       "id": "22-250-rem",
@@ -534,7 +534,7 @@
       "trimLength": null,
       "maxCoal": 2.35,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2484,
       "baseDiameter": 0.4697,
       "shoulderDiameter": 0.4147,
       "neckDiameter": 0.256,
@@ -549,7 +549,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-250-remington/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2560 in is the shoulder junction; the mouth prints 0.2540 in. Body diameter is printed at 0.1270 in from the head. Rim thickness 0.0490 in is printed and has no field. 4D Case Cap. 44.72 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2560 in is the shoulder junction; the mouth prints 0.2540 in. Body diameter is printed at 0.1270 in from the head. Rim thickness 0.0490 in is printed and has no field. 4D Case Cap. 44.72 gr (printed figure, not stored as water). Neck length 0.2484 in is the print case minus the length to the neck."
     },
     {
       "id": "22-30-30-ai",
@@ -565,7 +565,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.506,
-      "neckLength": null,
+      "neckLength": 0.268,
       "baseDiameter": 0.422,
       "shoulderDiameter": 0.404,
       "neckDiameter": 0.253,
@@ -580,7 +580,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-30-30-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.0930 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 39.36 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.0930 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 39.36 gr (printed figure, not stored as water). Neck length 0.2680 in is the print case minus the length to the neck."
     },
     {
       "id": "22-6mm",
@@ -611,7 +611,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-6mm-remington/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2580 in, mouth 0.2570 in. Body diameter printed at 0.1341 in from the head. Rim thickness 0.0490 in has no field. Shoulder 0.4310 in at 26 deg, with a .22 neck. The 22/6mm Ackley drawing is 0.4595 in at 40 deg. This is not an Ackley. 4D Case Cap. 53.99 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2580 in, mouth 0.2570 in. Body diameter printed at 0.1341 in from the head. Rim thickness 0.0490 in has no field. Shoulder 0.4310 in at 26 deg, with a .22 neck. The 22/6mm Ackley drawing is 0.4595 in at 40 deg. This is not an Ackley. 4D Case Cap. 53.99 gr (printed figure, not stored as water). Case minus the length to the neck is 0.3677 in, 1.64 calibers, outside 0.6\u20131.6, so neck length stays empty."
     },
     {
       "id": "22-6mm-ai",
@@ -627,7 +627,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.3548,
       "baseDiameter": 0.4729,
       "shoulderDiameter": 0.4595,
       "neckDiameter": 0.257,
@@ -642,7 +642,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-6mm-ackley/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter printed at 0.1341 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 58.43 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter printed at 0.1341 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 58.43 gr (printed figure, not stored as water). Neck length 0.3548 in is the print case minus the length to the neck."
     },
     {
       "id": "22-american",
@@ -658,7 +658,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.422,
-      "neckLength": null,
+      "neckLength": 0.3529,
       "baseDiameter": 0.4218,
       "shoulderDiameter": 0.4095,
       "neckDiameter": 0.25,
@@ -673,7 +673,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-american/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2500 in at the mouth and the shoulder junction. Body diameter printed at 0.1259 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 31.95 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2500 in at the mouth and the shoulder junction. Body diameter printed at 0.1259 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 31.95 gr (printed figure, not stored as water). Neck length 0.3529 in is the print case minus the length to the neck."
     },
     {
       "id": "22-arc",
@@ -687,7 +687,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.441,
-      "neckLength": null,
+      "neckLength": 0.221,
       "baseDiameter": 0.441,
       "shoulderDiameter": 0.4315,
       "neckDiameter": 0.253,
@@ -702,7 +702,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-arc/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 22 ARC profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction, 0.029 in over the bullet. Shoulder 0.4315 in at 30 deg 15 min. Body diameter printed at 0.1460 in from the head. Rim 0.4410 in equals the body; rim thickness 0.0590 in has no field. 4D Case Cap. 31.35 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 22 ARC profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction, 0.029 in over the bullet. Shoulder 0.4315 in at 30 deg 15 min. Body diameter printed at 0.1460 in from the head. Rim 0.4410 in equals the body; rim thickness 0.0590 in has no field. 4D Case Cap. 31.35 gr (printed figure, not stored as water). Neck length 0.2210 in is the print case minus the length to the neck."
     },
     {
       "id": "22-cheetah-mk2",
@@ -718,7 +718,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2574,
       "baseDiameter": 0.4709,
       "shoulderDiameter": 0.4535,
       "neckDiameter": 0.251,
@@ -733,7 +733,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-cheetah-mk-ii/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. Shoulder is printed 28 deg. This is not an Ackley. 4D Case Cap. 53.31 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. Shoulder is printed 28 deg. This is not an Ackley. 4D Case Cap. 53.31 gr (printed figure, not stored as water). Neck length 0.2574 in is the print case minus the length to the neck."
     },
     {
       "id": "22-creedmoor",
@@ -747,7 +747,7 @@
       "trimLength": null,
       "maxCoal": 2.7,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2542,
       "baseDiameter": 0.4707,
       "shoulderDiameter": 0.462,
       "neckDiameter": 0.259,
@@ -762,7 +762,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-creedmoor/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2590 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1516 in from the head. Rim thickness 0.0540 in is printed and has no field. 4D Case Cap. 50.28 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2590 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1516 in from the head. Rim thickness 0.0540 in is printed and has no field. 4D Case Cap. 50.28 gr (printed figure, not stored as water). Neck length 0.2542 in is the print case minus the length to the neck."
     },
     {
       "id": "22-grendel",
@@ -778,7 +778,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.444,
-      "neckLength": null,
+      "neckLength": 0.226,
       "baseDiameter": 0.442,
       "shoulderDiameter": 0.429,
       "neckDiameter": 0.251,
@@ -793,7 +793,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-grendel/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 31.19 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2510 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0590 in has no field. 4D Case Cap. 31.19 gr (printed figure, not stored as water). Neck length 0.2260 in is the print case minus the length to the neck."
     },
     {
       "id": "22-hornet",
@@ -822,7 +822,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-hornet/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .22 Hornet profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2448 in, mouth 0.2425 in, 0.0208 in over the bullet. Shoulder 0.2773 in at 5 deg 38 min. Body diameter 0.2989 in. Rim 0.3500 in. No belt is printed. 4D Case Cap. 14.59 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .22 Hornet profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2448 in, mouth 0.2425 in, 0.0208 in over the bullet. Shoulder 0.2773 in at 5 deg 38 min. Body diameter 0.2989 in. Rim 0.3500 in. No belt is printed. 4D Case Cap. 14.59 gr (printed figure, not stored as water). Case minus the length to the neck is 0.3857 in, 1.72 calibers, outside 0.6\u20131.6, so neck length stays empty."
     },
     {
       "id": "22-k-hornet",
@@ -838,7 +838,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.35,
-      "neckLength": null,
+      "neckLength": 0.3468,
       "baseDiameter": 0.2967,
       "shoulderDiameter": 0.286,
       "neckDiameter": 0.2415,
@@ -853,7 +853,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-k-hornet/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .22 Hornet bore, 0.224 in; no groove is printed. Neck 0.2415 in at the mouth and the shoulder junction. Body diameter 0.2967 in. Rim thickness 0.0650 in has no field. 4D Case Cap. 15.31 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .22 Hornet bore, 0.224 in; no groove is printed. Neck 0.2415 in at the mouth and the shoulder junction. Body diameter 0.2967 in. Rim thickness 0.0650 in has no field. 4D Case Cap. 15.31 gr (printed figure, not stored as water). Neck length 0.3468 in is the print case minus the length to the neck."
     },
     {
       "id": "22-nosler",
@@ -867,7 +867,7 @@
       "trimLength": null,
       "maxCoal": 2.26,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.245,
       "baseDiameter": 0.42,
       "shoulderDiameter": 0.4,
       "neckDiameter": 0.255,
@@ -882,7 +882,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-nosler/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2550 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1259 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 30 deg. 4D Case Cap. 34.72 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2550 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1259 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 30 deg. 4D Case Cap. 34.72 gr (printed figure, not stored as water). Neck length 0.2450 in is the print case minus the length to the neck."
     },
     {
       "id": "22-ppc",
@@ -896,7 +896,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": null,
-      "neckLength": null,
+      "neckLength": 0.2873,
       "baseDiameter": 0.4402,
       "shoulderDiameter": 0.431,
       "neckDiameter": 0.243,
@@ -911,7 +911,7 @@
         "url": "https://www.pacifictoolandgauge.com/22-PPC-Chamber-Reamer_p_114460.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG chamber drawing BOP-10887, titled 22 PPC (.243 NECK), from the bolt face. Fills the empty .22 PPC profile. Neck 0.2430 in, 0.019 in over the 0.224 bullet, and the 30 deg cone matches that neck. Shoulder 0.4310 in at 30 deg, against the 6mm PPC shoulder 0.4300 in at 30 deg. Body 0.4402 in. Library case 1.505 in stays; the print case is 1.525 in. Library rim 0.441 in stays. No belt is printed."
+      "note": "PTG chamber drawing BOP-10887, titled 22 PPC (.243 NECK), from the bolt face. Fills the empty .22 PPC profile. Neck 0.2430 in, 0.019 in over the 0.224 bullet, and the 30 deg cone matches that neck. Shoulder 0.4310 in at 30 deg, against the 6mm PPC shoulder 0.4300 in at 30 deg. Body 0.4402 in. Library case 1.505 in stays; the print case is 1.525 in. Library rim 0.441 in stays. No belt is printed. Neck length 0.2873 in is the print case minus the length to the neck."
     },
     {
       "id": "22-savage-hi-power",
@@ -942,7 +942,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-savage-hi-power/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 Savage High-Power bore, 0.228 in; no groove is printed. Neck 0.2540 in at the mouth and the shoulder junction. Body diameter 0.4160 in is printed without a head station. Rim thickness 0.0630 in has no field. Shoulder is printed 14 deg. This is not an Ackley. 4D Case Cap. 34.33 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 Savage High-Power bore, 0.228 in; no groove is printed. Neck 0.2540 in at the mouth and the shoulder junction. Body diameter 0.4160 in is printed without a head station. Rim thickness 0.0630 in has no field. Shoulder is printed 14 deg. This is not an Ackley. 4D Case Cap. 34.33 gr (printed figure, not stored as water). Case minus the length to the neck is 0.4196 in, 1.84 calibers, outside 0.6\u20131.6, so neck length stays empty."
     },
     {
       "id": "22-spitfire",
@@ -958,7 +958,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.36,
-      "neckLength": null,
+      "neckLength": 0.2156,
       "baseDiameter": 0.3569,
       "shoulderDiameter": 0.328,
       "neckDiameter": 0.252,
@@ -973,7 +973,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-spitfire/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2520 in at the mouth and the shoulder junction. Body diameter printed at 0.1141 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 28 deg 5 min. This is not an Ackley. 4D Case Cap. 17.55 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2520 in at the mouth and the shoulder junction. Body diameter printed at 0.1141 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 28 deg 5 min. This is not an Ackley. 4D Case Cap. 17.55 gr (printed figure, not stored as water). Neck length 0.2156 in is the print case minus the length to the neck."
     },
     {
       "id": "220-jaybird",
@@ -989,7 +989,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.3,
       "baseDiameter": 0.4709,
       "shoulderDiameter": 0.46,
       "neckDiameter": 0.246,
@@ -1004,7 +1004,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/220-jaybird/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2460 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 52.15 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2460 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 52.15 gr (printed figure, not stored as water). Neck length 0.3000 in is the print case minus the length to the neck."
     },
     {
       "id": "220-swift",
@@ -1018,7 +1018,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2993,
       "baseDiameter": 0.4473,
       "shoulderDiameter": 0.402,
       "neckDiameter": 0.2615,
@@ -1033,7 +1033,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/220-swift/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .220 Swift profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2615 in, mouth 0.2600 in, 0.0375 in over the bullet. Shoulder 0.4020 in at 21 deg. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 47.66 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .220 Swift profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck junction 0.2615 in, mouth 0.2600 in, 0.0375 in over the bullet. Shoulder 0.4020 in at 21 deg. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 47.66 gr (printed figure, not stored as water). Neck length 0.2993 in is the print case minus the length to the neck."
     },
     {
       "id": "220-swift-ai",
@@ -1049,7 +1049,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.4472,
-      "neckLength": null,
+      "neckLength": 0.3146,
       "baseDiameter": 0.4458,
       "shoulderDiameter": 0.435,
       "neckDiameter": 0.2625,
@@ -1064,7 +1064,7 @@
         "url": "https://www.pacifictoolandgauge.com/220-Swift-Ackley-Improved-Chamber-Reamer_p_114469.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing BOP-10901. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+      "note": "Chamber reamer drawing BOP-10901. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees. Neck length 0.3146 in is the print case minus the length to the neck."
     },
     {
       "id": "220-wilson-arrow",
@@ -1095,7 +1095,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/220-wilson-arrow/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2615 in at the shoulder junction; mouth 0.2600 in. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 47.19 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2615 in at the shoulder junction; mouth 0.2600 in. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 47.19 gr (printed figure, not stored as water). Case minus the length to the neck is 0.3605 in, 1.61 calibers, outside 0.6\u20131.6, so neck length stays empty."
     },
     {
       "id": "221-fireball",
@@ -1109,7 +1109,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.2025,
       "baseDiameter": 0.3772,
       "shoulderDiameter": 0.3607,
       "neckDiameter": 0.253,
@@ -1124,7 +1124,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/221-remington-fireball/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. The drawing is titled 221 Fire Ball. Fills the empty .221 Remington Fireball profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in, 0.029 in over the bullet. Shoulder 0.3607 in at 23 deg. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 21.01 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. The drawing is titled 221 Fire Ball. Fills the empty .221 Remington Fireball profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in, 0.029 in over the bullet. Shoulder 0.3607 in at 23 deg. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 21.01 gr (printed figure, not stored as water). Neck length 0.2025 in is the print case minus the length to the neck."
     },
     {
       "id": "222-rem",
@@ -1138,7 +1138,7 @@
       "trimLength": null,
       "maxCoal": 2.13,
       "rimDiameter": 0.3804,
-      "neckLength": null,
+      "neckLength": 0.3181,
       "baseDiameter": 0.3769,
       "shoulderDiameter": 0.3583,
       "neckDiameter": 0.255,
@@ -1153,7 +1153,7 @@
         "url": "https://www.pacifictoolandgauge.com/222-Remington-SAAMI-Chamber-Reamer_p_114329.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing BOP-10904. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+      "note": "Chamber reamer drawing BOP-10904. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored. Neck length 0.3181 in is the print case minus the length to the neck."
     },
     {
       "id": "222-rem-ai",
@@ -1169,7 +1169,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.3167,
       "baseDiameter": 0.3773,
       "shoulderDiameter": 0.36,
       "neckDiameter": 0.253,
@@ -1184,7 +1184,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/222-remington-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .222 Remington bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 26.19 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .222 Remington bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.1186 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 26.19 gr (printed figure, not stored as water). Neck length 0.3167 in is the print case minus the length to the neck."
     },
     {
       "id": "222-rem-mag",
@@ -1198,7 +1198,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.2638,
       "baseDiameter": 0.3765,
       "shoulderDiameter": 0.3571,
       "neckDiameter": 0.253,
@@ -1213,7 +1213,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/222-remington-magnum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .222 Remington Magnum profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction, 0.029 in over the bullet. Shoulder 0.3571 in at 23 deg. Body diameter printed at 0.1227 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.76 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .222 Remington Magnum profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction, 0.029 in over the bullet. Shoulder 0.3571 in at 23 deg. Body diameter printed at 0.1227 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.76 gr (printed figure, not stored as water). Neck length 0.2638 in is the print case minus the length to the neck."
     },
     {
       "id": "222-rem-mag-ai",
@@ -1229,7 +1229,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.2678,
       "baseDiameter": 0.3765,
       "shoulderDiameter": 0.36,
       "neckDiameter": 0.253,
@@ -1244,7 +1244,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/222-remington-magnum-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .222 Remington Magnum bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.1227 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 30.40 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .222 Remington Magnum bore, 0.224 in; no groove is printed. Neck 0.2530 in at the mouth and the shoulder junction. Body diameter printed at 0.1227 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 30.40 gr (printed figure, not stored as water). Neck length 0.2678 in is the print case minus the length to the neck."
     },
     {
       "id": "223-300-wsm",
@@ -1260,7 +1260,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.535,
-      "neckLength": null,
+      "neckLength": 0.186,
       "baseDiameter": 0.555,
       "shoulderDiameter": 0.5381,
       "neckDiameter": 0.272,
@@ -1275,7 +1275,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/223-300-wsm/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .223 bore, 0.224 in; no groove is printed. Neck 0.2720 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 79.33 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .223 bore, 0.224 in; no groove is printed. Neck 0.2720 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 79.33 gr (printed figure, not stored as water). Neck length 0.1860 in is the print case minus the length to the neck."
     },
     {
       "id": "223-ai",
@@ -1289,7 +1289,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.2027,
       "baseDiameter": 0.3772,
       "shoulderDiameter": 0.3722,
       "neckDiameter": 0.253,
@@ -1304,7 +1304,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/223-remington-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .223 Ackley Improved profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in, 0.029 in over the bullet. Shoulder 0.3722 in at 40 deg versus the .223 Remington drawing 0.3542 in. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.57 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .223 Ackley Improved profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2530 in, 0.029 in over the bullet. Shoulder 0.3722 in at 40 deg versus the .223 Remington drawing 0.3542 in. Body diameter printed at 0.1235 in from the head. Rim thickness 0.0450 in has no field. 4D Case Cap. 29.57 gr (printed figure, not stored as water). Neck length 0.2027 in is the print case minus the length to the neck."
     },
     {
       "id": "223-rem",
@@ -1318,7 +1318,7 @@
       "trimLength": null,
       "maxCoal": 2.26,
       "rimDiameter": 0.378,
-      "neckLength": null,
+      "neckLength": 0.1927,
       "baseDiameter": 0.3772,
       "shoulderDiameter": 0.3542,
       "neckDiameter": 0.263,
@@ -1333,7 +1333,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/223-remington/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2630 in is the shoulder junction; the mouth prints 0.2530 in. Body diameter is printed at 0.1235 in from the head. Rim thickness 0.0450 in is printed and has no field. 4D Case Cap. 28.41 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2630 in is the shoulder junction; the mouth prints 0.2530 in. Body diameter is printed at 0.1235 in from the head. Rim thickness 0.0450 in is printed and has no field. 4D Case Cap. 28.41 gr (printed figure, not stored as water). Neck length 0.1927 in is the print case minus the length to the neck."
     },
     {
       "id": "224-vais",
@@ -1347,7 +1347,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.479,
-      "neckLength": null,
+      "neckLength": 0.3198,
       "baseDiameter": 0.4792,
       "shoulderDiameter": 0.465,
       "neckDiameter": 0.255,
@@ -1362,7 +1362,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-vais/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .224 bore, 0.224 in; no groove is printed. Neck 0.2550 in at the mouth and the shoulder junction. Body diameter printed at 0.1198 in from the head. Rim thickness 0.0510 in has no field. Shoulder is printed 35 deg. This is not an Ackley. 4D Case Cap. 54.99 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .224 bore, 0.224 in; no groove is printed. Neck 0.2550 in at the mouth and the shoulder junction. Body diameter printed at 0.1198 in from the head. Rim thickness 0.0510 in has no field. Shoulder is printed 35 deg. This is not an Ackley. 4D Case Cap. 54.99 gr (printed figure, not stored as water). Neck length 0.3198 in is the print case minus the length to the neck."
     },
     {
       "id": "224-valkyrie",
@@ -1376,7 +1376,7 @@
       "trimLength": null,
       "maxCoal": 2.26,
       "rimDiameter": 0.422,
-      "neckLength": null,
+      "neckLength": 0.284,
       "baseDiameter": 0.4218,
       "shoulderDiameter": 0.4015,
       "neckDiameter": 0.254,
@@ -1391,7 +1391,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-valkyrie/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2540 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1259 in from the head. Rim thickness 0.0490 in is printed and has no field. Drawing prints case length 1.6100 in. 4D Case Cap. 30.53 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2540 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1259 in from the head. Rim thickness 0.0490 in is printed and has no field. Drawing prints case length 1.6100 in. 4D Case Cap. 30.53 gr (printed figure, not stored as water). Neck length 0.2840 in is the print case minus the length to the neck."
     },
     {
       "id": "225-comet",
@@ -1405,7 +1405,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.322,
       "baseDiameter": 0.4238,
       "shoulderDiameter": 0.399,
       "neckDiameter": 0.257,
@@ -1420,7 +1420,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/225-comet/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter 0.4238 in is printed without a head station. Rim thickness 0.0490 in has no field. Shoulder is printed 30 deg. This is not an Ackley. 4D Case Cap. 31.64 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2570 in at the mouth and the shoulder junction. Body diameter 0.4238 in is printed without a head station. Rim thickness 0.0490 in has no field. Shoulder is printed 30 deg. This is not an Ackley. 4D Case Cap. 31.64 gr (printed figure, not stored as water). Neck length 0.3220 in is the print case minus the length to the neck."
     },
     {
       "id": "225-win",
@@ -1434,7 +1434,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.2435,
       "baseDiameter": 0.4238,
       "shoulderDiameter": 0.406,
       "neckDiameter": 0.26,
@@ -1449,7 +1449,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/225-winchester/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty .225 Winchester profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2600 in at the mouth and the shoulder junction, 0.036 in over the bullet. Shoulder 0.4060 in at 25 deg. Body diameter 0.4238 in. Rim 0.4730 in. No belt is printed. 4D Case Cap. 38.66 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty .225 Winchester profile. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2600 in at the mouth and the shoulder junction, 0.036 in over the bullet. Shoulder 0.4060 in at 25 deg. Body diameter 0.4238 in. Rim 0.4730 in. No belt is printed. 4D Case Cap. 38.66 gr (printed figure, not stored as water). Neck length 0.2435 in is the print case minus the length to the neck."
     },
     {
       "id": "22x47-lapua",
@@ -1465,7 +1465,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.28,
       "baseDiameter": 0.4709,
       "shoulderDiameter": 0.4578,
       "neckDiameter": 0.25,
@@ -1480,7 +1480,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22x47-lapua/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2500 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. Shoulder is printed 30 deg 10 min. 4D Case Cap. 46.71 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .22 bore, 0.224 in; no groove is printed. Neck 0.2500 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. Shoulder is printed 30 deg 10 min. 4D Case Cap. 46.71 gr (printed figure, not stored as water). Neck length 0.2800 in is the print case minus the length to the neck."
     },
     {
       "id": "240-cobra",
@@ -1496,7 +1496,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.33,
       "baseDiameter": 0.4473,
       "shoulderDiameter": 0.429,
       "neckDiameter": 0.278,
@@ -1511,7 +1511,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/240-cobra/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .240 bore, 0.243 in; no groove is printed. Neck 0.2780 in at the shoulder junction; mouth 0.2777 in. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 53.34 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .240 bore, 0.243 in; no groove is printed. Neck 0.2780 in at the shoulder junction; mouth 0.2777 in. Body diameter printed at 0.1138 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 53.34 gr (printed figure, not stored as water). Neck length 0.3300 in is the print case minus the length to the neck."
     },
     {
       "id": "240-gibbs",
