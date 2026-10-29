@@ -8973,7 +8973,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.534,
-      "neckLength": null,
+      "neckLength": 0.3108,
       "baseDiameter": 0.55,
       "shoulderDiameter": 0.5347,
       "neckDiameter": 0.32,
@@ -8988,7 +8988,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-rsaum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Title is 7mm Remington Short Action Ultra Magnum. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3200 in, 0.036 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Library already has 35 deg, so that angle stays. Body at 0.1390 in from the head. Rim 0.5340 in. No belt is printed. 4D Case Cap. 70.71 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Title is 7mm Remington Short Action Ultra Magnum. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3200 in, 0.036 in over the bullet. Shoulder 0.5347 in at 30 deg, the 300 RSAUM shoulder. Library already has 35 deg, so that angle stays. Body at 0.1390 in from the head. Rim 0.5340 in. No belt is printed. 4D Case Cap. 70.71 gr (printed figure, not stored as water). Neck length 0.3108 in is the print case minus the length to the neck."
     },
     {
       "id": "7mm-stw",
@@ -9002,7 +9002,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.532,
-      "neckLength": null,
+      "neckLength": 0.278,
       "baseDiameter": 0.513,
       "shoulderDiameter": 0.487,
       "neckDiameter": 0.316,
@@ -9017,7 +9017,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-stw/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm Shooting Times Westerner profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3160 in, 0.032 in over the bullet. Shoulder 0.4870 in at 25 deg. Body diameter 0.5130 in. A belt is printed. Rim 0.5320 in. 4D Case Cap. 90.85 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm Shooting Times Westerner profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3160 in, 0.032 in over the bullet. Shoulder 0.4870 in at 25 deg. Body diameter 0.5130 in. A belt is printed. Rim 0.5320 in. 4D Case Cap. 90.85 gr (printed figure, not stored as water). Neck length 0.2780 in is the print case minus the length to the neck."
     },
     {
       "id": "7mm-wsm",
@@ -9033,7 +9033,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.535,
-      "neckLength": null,
+      "neckLength": 0.2435,
       "baseDiameter": 0.555,
       "shoulderDiameter": 0.5377,
       "neckDiameter": 0.321,
@@ -9048,7 +9048,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-wsm/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm Winchester Short Magnum profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3210 in at the mouth and the shoulder junction. Shoulder 0.5377 in at 35 deg, against the .300 WSM drawing 0.5381 in. Body diameter printed at 0.1390 in from the head. Rim 0.5350 in is smaller than the body; rim thickness 0.0500 in has no field. 4D Case Cap. 80.30 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 7mm Winchester Short Magnum profile. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3210 in at the mouth and the shoulder junction. Shoulder 0.5377 in at 35 deg, against the .300 WSM drawing 0.5381 in. Body diameter printed at 0.1390 in from the head. Rim 0.5350 in is smaller than the body; rim thickness 0.0500 in has no field. 4D Case Cap. 80.30 gr (printed figure, not stored as water). Neck length 0.2435 in is the print case minus the length to the neck."
     },
     {
       "id": "7x57-ai",
@@ -9064,7 +9064,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.4745,
-      "neckLength": null,
+      "neckLength": 0.3943,
       "baseDiameter": 0.4723,
       "shoulderDiameter": 0.455,
       "neckDiameter": 0.323,
@@ -9079,7 +9079,7 @@
         "url": "https://www.pacifictoolandgauge.com/7-mm-Mauser-7x57-Ackley-Improved-Chamber-Reamer_p_114491.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing BOP-10810. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+      "note": "Chamber reamer drawing BOP-10810. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees. Neck length 0.3943 in is the print case minus the length to the neck."
     },
     {
       "id": "7x57-mauser",
@@ -9093,7 +9093,7 @@
       "trimLength": null,
       "maxCoal": 3.065,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.3686,
       "baseDiameter": 0.4729,
       "shoulderDiameter": 0.4294,
       "neckDiameter": 0.3243,
@@ -9108,7 +9108,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7-x-57/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3243 in is the shoulder junction; the mouth prints 0.3207 in. Body diameter is printed at 0.1332 in from the head. Rim thickness 0.0490 in is printed and has no field. 4D Case Cap. 55.19 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3243 in is the shoulder junction; the mouth prints 0.3207 in. Body diameter is printed at 0.1332 in from the head. Rim thickness 0.0490 in is printed and has no field. 4D Case Cap. 55.19 gr (printed figure, not stored as water). Neck length 0.3686 in is the print case minus the length to the neck."
     },
     {
       "id": "7x57r",
@@ -9124,7 +9124,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.532,
-      "neckLength": null,
+      "neckLength": 0.379,
       "baseDiameter": 0.474,
       "shoulderDiameter": 0.43,
       "neckDiameter": 0.325,
@@ -9139,7 +9139,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7-x-57-rimmed-mauser/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3250 in at the mouth and the shoulder junction. Shoulder 0.4300 in at 20 deg 30 min. Body diameter 0.4740 in is printed without a head station. Rim thickness 0.0630 in has no field. This is not an Ackley. 4D Case Cap. 53.45 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3250 in at the mouth and the shoulder junction. Shoulder 0.4300 in at 20 deg 30 min. Body diameter 0.4740 in is printed without a head station. Rim thickness 0.0630 in has no field. This is not an Ackley. 4D Case Cap. 53.45 gr (printed figure, not stored as water). Neck length 0.3790 in is the print case minus the length to the neck."
     },
     {
       "id": "7x61-sh",
@@ -9155,7 +9155,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.532,
-      "neckLength": null,
+      "neckLength": 0.41,
       "baseDiameter": 0.513,
       "shoulderDiameter": 0.476,
       "neckDiameter": 0.315,
@@ -9170,7 +9170,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7-x-61-sh/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3150 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1320 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 71.07 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 7mm bore, 0.284 in; no groove is printed. Neck 0.3150 in at the mouth and the shoulder junction. Body 0.5130 in at 0.2200 in from the head, ahead of the belt. Belt 0.5320 in at 0.1320 in has no field. Rim thickness 0.0500 in has no field. 4D Case Cap. 71.07 gr (printed figure, not stored as water). Neck length 0.4100 in is the print case minus the length to the neck."
     },
     {
       "id": "7x64",
@@ -9184,7 +9184,7 @@
       "trimLength": null,
       "maxCoal": 3.307,
       "rimDiameter": 0.4704,
-      "neckLength": null,
+      "neckLength": 0.3417,
       "baseDiameter": 0.4677,
       "shoulderDiameter": 0.4264,
       "neckDiameter": 0.3142,
@@ -9199,7 +9199,7 @@
         "url": "https://www.pacifictoolandgauge.com/7-x-64-Brenneke-SAAMI-Chamber-Reamer_p_116867.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing BOP-10812. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored."
+      "note": "Chamber reamer drawing BOP-10812. Diameters and lengths are the printed chamber figures measured from the bolt face. Headspace minimum and maximum, throat, and bore are not stored. Neck length 0.3417 in is the print case minus the length to the neck."
     },
     {
       "id": "8mm-06-ai",
@@ -9215,7 +9215,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.412,
       "baseDiameter": 0.471,
       "shoulderDiameter": 0.454,
       "neckDiameter": 0.354,
@@ -9230,7 +9230,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm06-ackley/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 8mm bore, 0.323 in; no groove is printed. Neck 0.3540 in at the mouth and the shoulder junction. Body diameter printed at 0.1250 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 72.30 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 8mm bore, 0.323 in; no groove is printed. Neck 0.3540 in at the mouth and the shoulder junction. Body diameter printed at 0.1250 in from the head. Rim thickness 0.0490 in has no field. 4D Case Cap. 72.30 gr (printed figure, not stored as water). Neck length 0.4120 in is the print case minus the length to the neck."
     },
     {
       "id": "8mm-300-wsm",
@@ -9246,7 +9246,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.536,
-      "neckLength": null,
+      "neckLength": 0.3079,
       "baseDiameter": 0.555,
       "shoulderDiameter": 0.5381,
       "neckDiameter": 0.368,
@@ -9261,7 +9261,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm300-wsm/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3680 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 35 deg 5 min. Rim is smaller than the body. 4D Case Cap. 80.95 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3680 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 35 deg 5 min. Rim is smaller than the body. 4D Case Cap. 80.95 gr (printed figure, not stored as water). Neck length 0.3079 in is the print case minus the length to the neck."
     },
     {
       "id": "8mm-338-win-mag",
@@ -9277,7 +9277,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.532,
-      "neckLength": null,
+      "neckLength": 0.308,
       "baseDiameter": 0.513,
       "shoulderDiameter": 0.491,
       "neckDiameter": 0.349,
@@ -9292,7 +9292,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm338-winchester-magnum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3490 in at the mouth and the shoulder junction. Body ahead of the belt 0.5130 in at 0.2200 in. Belt diameter 0.5320 in at 0.1280 in has no field. Rim thickness 0.0500 in has no field. Shoulder 0.4910 in at 25 deg matches the .338 Winchester Magnum drawing, with an 8mm neck. 4D Case Cap. 84.91 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3490 in at the mouth and the shoulder junction. Body ahead of the belt 0.5130 in at 0.2200 in. Belt diameter 0.5320 in at 0.1280 in has no field. Rim thickness 0.0500 in has no field. Shoulder 0.4910 in at 25 deg matches the .338 Winchester Magnum drawing, with an 8mm neck. 4D Case Cap. 84.91 gr (printed figure, not stored as water). Neck length 0.3080 in is the print case minus the length to the neck."
     },
     {
       "id": "8mm-rem-mag",
@@ -9306,7 +9306,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.532,
-      "neckLength": null,
+      "neckLength": 0.3198,
       "baseDiameter": 0.5132,
       "shoulderDiameter": 0.4868,
       "neckDiameter": 0.3551,
@@ -9321,7 +9321,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm-remington-magnum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 8mm Remington Magnum profile. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck junction 0.3551 in, mouth 0.3541 in, 0.0321 in over the bullet. Shoulder 0.4868 in at 25 deg. Body diameter 0.5132 in at 0.2200 in from the head. A belt is printed. Rim 0.5320 in. 4D Case Cap. 90.33 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 8mm Remington Magnum profile. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck junction 0.3551 in, mouth 0.3541 in, 0.0321 in over the bullet. Shoulder 0.4868 in at 25 deg. Body diameter 0.5132 in at 0.2200 in from the head. A belt is printed. Rim 0.5320 in. 4D Case Cap. 90.33 gr (printed figure, not stored as water). Neck length 0.3198 in is the print case minus the length to the neck."
     },
     {
       "id": "8mm-rum",
@@ -9337,7 +9337,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.534,
-      "neckLength": null,
+      "neckLength": 0.279,
       "baseDiameter": 0.55,
       "shoulderDiameter": 0.525,
       "neckDiameter": 0.354,
@@ -9352,7 +9352,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm-remington-ultra-magnum/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3540 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 111.12 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3540 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Rim is smaller than the body. 4D Case Cap. 111.12 gr (printed figure, not stored as water). Neck length 0.2790 in is the print case minus the length to the neck."
     },
     {
       "id": "8x57-ai",
@@ -9368,7 +9368,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.4729,
-      "neckLength": null,
+      "neckLength": 0.3195,
       "baseDiameter": 0.471,
       "shoulderDiameter": 0.455,
       "neckDiameter": 0.3583,
@@ -9383,7 +9383,7 @@
         "url": "https://www.pacifictoolandgauge.com/8-mm-Mauser-8-x-57-Ackley-Improved-Chamber-Reamer_p_116474.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "Chamber reamer drawing 16982. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees."
+      "note": "Chamber reamer drawing 16982. New wildcat. Bullet diameter is the printed groove size. Case length is the printed length from the bolt face to the end of the neck. Shoulder angle printed 40 degrees. Neck length 0.3195 in is the print case minus the length to the neck."
     },
     {
       "id": "8x57-mauser",
@@ -9397,7 +9397,7 @@
       "trimLength": null,
       "maxCoal": 3.25,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.3164,
       "baseDiameter": 0.4716,
       "shoulderDiameter": 0.431,
       "neckDiameter": 0.3507,
@@ -9412,7 +9412,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8-x-57-mauser/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3507 in is the shoulder junction; the mouth prints 0.3493 in. Body diameter is printed at 0.1251 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 30 deg 48 min. 4D Case Cap. 59.04 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3507 in is the shoulder junction; the mouth prints 0.3493 in. Body diameter is printed at 0.1251 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 30 deg 48 min. 4D Case Cap. 59.04 gr (printed figure, not stored as water). Neck length 0.3164 in is the print case minus the length to the neck."
     },
     {
       "id": "8x68s",
@@ -9428,7 +9428,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.512,
-      "neckLength": null,
+      "neckLength": 0.3342,
       "baseDiameter": 0.524,
       "shoulderDiameter": 0.478,
       "neckDiameter": 0.36,
@@ -9443,7 +9443,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8-x-68s/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3600 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0550 in has no field. Rim is smaller than the body. Shoulder is printed 14 deg 30 min. This is not an Ackley. 4D Case Cap. 84.45 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 8mm bore, 0.323 in; no groove is printed. Neck 0.3600 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0550 in has no field. Rim is smaller than the body. Shoulder is printed 14 deg 30 min. This is not an Ackley. 4D Case Cap. 84.45 gr (printed figure, not stored as water). Neck length 0.3342 in is the print case minus the length to the neck."
     },
     {
       "id": "8x68s-ai",
@@ -9459,7 +9459,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.512,
-      "neckLength": null,
+      "neckLength": 0.3382,
       "baseDiameter": 0.524,
       "shoulderDiameter": 0.51,
       "neckDiameter": 0.36,
@@ -9474,7 +9474,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8-x-68s-ackley-improved/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 8mm bore, 0.323 in; no groove is printed. Neck 0.3600 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0550 in has no field. 4D Case Cap. 92.29 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 8mm bore, 0.323 in; no groove is printed. Neck 0.3600 in at the mouth and the shoulder junction. Body diameter printed at 0.1460 in from the head. Rim thickness 0.0550 in has no field. 4D Case Cap. 92.29 gr (printed figure, not stored as water). Neck length 0.3382 in is the print case minus the length to the neck."
     },
     {
       "id": "9-3x57",
@@ -9490,7 +9490,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.352,
       "baseDiameter": 0.47,
       "shoulderDiameter": 0.431,
       "neckDiameter": 0.391,
@@ -9505,7 +9505,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-57-mauser/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 62.21 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0630 in has no field. 4D Case Cap. 62.21 gr (printed figure, not stored as water). Neck length 0.3520 in is the print case minus the length to the neck."
     },
     {
       "id": "9-3x62",
@@ -9519,7 +9519,7 @@
       "trimLength": null,
       "maxCoal": 3.291,
       "rimDiameter": 0.47,
-      "neckLength": null,
+      "neckLength": 0.307,
       "baseDiameter": 0.4763,
       "shoulderDiameter": 0.4508,
       "neckDiameter": 0.391,
@@ -9534,7 +9534,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-62-mauser/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3910 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1280 in from the head. Rim thickness 0.0510 in is printed and has no field. Shoulder angle is printed 17 deg 30 min. 4D Case Cap. 71.30 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3910 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1280 in from the head. Rim thickness 0.0510 in is printed and has no field. Shoulder angle is printed 17 deg 30 min. 4D Case Cap. 71.30 gr (printed figure, not stored as water). Neck length 0.3070 in is the print case minus the length to the neck."
     },
     {
       "id": "9-3x64",
@@ -9550,7 +9550,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.496,
-      "neckLength": null,
+      "neckLength": 0.344,
       "baseDiameter": 0.507,
       "shoulderDiameter": 0.474,
       "neckDiameter": 0.395,
@@ -9565,7 +9565,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-64-brenneke/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3950 in at the mouth and the shoulder junction. Body diameter printed at 0.1200 in from the head. Rim thickness 0.0510 in has no field. Rim is smaller than the body. Shoulder is printed 17 deg 30 min. This is not an Ackley. 4D Case Cap. 82.21 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9.3mm bore, 0.366 in; no groove is printed. Neck 0.3950 in at the mouth and the shoulder junction. Body diameter printed at 0.1200 in from the head. Rim thickness 0.0510 in has no field. Rim is smaller than the body. Shoulder is printed 17 deg 30 min. This is not an Ackley. 4D Case Cap. 82.21 gr (printed figure, not stored as water). Neck length 0.3440 in is the print case minus the length to the neck."
     },
     {
       "id": "9-3x74r",
@@ -9581,7 +9581,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.526,
-      "neckLength": null,
+      "neckLength": 0.52,
       "baseDiameter": 0.469,
       "shoulderDiameter": 0.409,
       "neckDiameter": 0.391,
@@ -9596,7 +9596,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/9-3-x-74r/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Fills the empty 9.3x74R profile. Bullet diameter is the named 9.3 bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Shoulder 0.4090 in at 5 deg 15 min. Body diameter 0.4690 in. Rim 0.5260 in; rim thickness 0.0550 in has no field. 4D Case Cap. 77.15 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Fills the empty 9.3x74R profile. Bullet diameter is the named 9.3 bore, 0.366 in; no groove is printed. Neck 0.3910 in at the mouth and the shoulder junction. Shoulder 0.4090 in at 5 deg 15 min. Body diameter 0.4690 in. Rim 0.5260 in; rim thickness 0.0550 in has no field. 4D Case Cap. 77.15 gr (printed figure, not stored as water). Neck length 0.5200 in is the print case minus the length to the neck."
     },
     {
       "id": "9x57",
@@ -9612,7 +9612,7 @@
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.47,
-      "neckLength": null,
+      "neckLength": 0.3532,
       "baseDiameter": 0.467,
       "shoulderDiameter": 0.431,
       "neckDiameter": 0.387,
@@ -9627,7 +9627,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/9mm-x-57-mauser/",
         "retrievedOn": "2026-10-28"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9mm bore, 0.356 in; no groove is printed. Neck 0.3870 in at the mouth and the shoulder junction. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0490 in has no field. Shoulder is printed 19 deg. This is not an Ackley. 4D Case Cap. 60.37 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 9mm bore, 0.356 in; no groove is printed. Neck 0.3870 in at the mouth and the shoulder junction. Body diameter printed at 0.1260 in from the head. Rim thickness 0.0490 in has no field. Shoulder is printed 19 deg. This is not an Ackley. 4D Case Cap. 60.37 gr (printed figure, not stored as water). Neck length 0.3532 in is the print case minus the length to the neck."
     }
   ],
   "aliases": []

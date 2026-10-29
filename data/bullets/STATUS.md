@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29 14:30 UTC
+Last updated: 2026-10-29 14:32 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -94,13 +94,14 @@ Another 50 records now have a neck length, from 375-444 through 6-5x54-ms. Each 
 
 Another 50 records now have a neck length, from 6-5x55-ai through 7mm-rum. Each one is the print case minus the length to the neck. Nothing in the batch is outside 0.5–2.0 calibers. 22 cited records still have a null neck length.
 
+The last 22 cited records now have a neck length, from 7mm-saum through 9x57. Each one is the print case minus the length to the neck. Nothing is outside 0.5–2.0 calibers. Every cited record now has a neck length. New profiles include one from here on.
+
 ## Next
 
-1. Finish `neckLength` on the remaining cited records, about 50 per batch. It is the print's case length minus the length to the neck, both from the same datum (belt datum for a belted PTG print). A figure outside 0.5–2.0 bullet diameters is re-read and filled when the junctions and the shoulder angle agree. Library rows fill only an empty neck length.
-2. Then cited profiles for the cartridges that are still partly estimated on the Case drawings tab, the ones in `cartridges.json` first. Every new profile includes `neckLength`. A neck diameter is stored only when it is 0.015–0.045 in over the bullet diameter, or the print is read again and the shoulder geometry agrees. A 4D case drawing is used when its title matches, its image is not shared, and the shoulder geometry agrees. PTG chamber prints are the fallback, measured from the belt datum when the case is belted. The record uses the library id so it fills only empty fields. New wildcats wait until those library profiles are in.
-3. Same drawing exclusions as before: Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip drawings labeled SAAMI, C.I.P., or chamber. Skip a shared image, a title that names a different cartridge, segment lengths, a straight case with no shoulder, or an Ackley shoulder that is not about 40° and larger than the parent.
-4. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
-5. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
+1. Cited profiles for the cartridges that are still partly estimated on the Case drawings tab, the ones in `cartridges.json` first. Every new profile includes `neckLength`. A neck diameter is stored only when it is 0.015–0.045 in over the bullet diameter, or the print is read again and the shoulder geometry agrees. A 4D case drawing is used when its title matches, its image is not shared, and the shoulder geometry agrees. PTG chamber prints are the fallback, measured from the belt datum when the case is belted. The record uses the library id so it fills only empty fields. New wildcats wait until those library profiles are in.
+2. Same drawing exclusions as before: Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip drawings labeled SAAMI, C.I.P., or chamber. Skip a shared image, a title that names a different cartridge, segment lengths, a straight case with no shoulder, or an Ackley shoulder that is not about 40° and larger than the parent.
+3. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
+4. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
 
 ## Blocked
 
