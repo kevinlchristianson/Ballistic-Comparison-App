@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "bullets",
-  "cartridgeCount": 374,
+  "cartridgeCount": 379,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -10286,7 +10286,7 @@
       "bulletDiameter": 0.224,
       "caseLength": 1.923,
       "trimLength": null,
-      "maxCoal": null,
+      "maxCoal": 2.33,
       "rimDiameter": 0.4295,
       "neckLength": 0.25,
       "baseDiameter": 0.415,
@@ -10303,7 +10303,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. Drawn cartridge length 2.3300 in is not a max COAL. 4D Case Cap. 35.95 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum"
     },
     {
       "id": "219-zipper-ai",
@@ -10690,11 +10690,11 @@
       "parentCase": ".280 Remington",
       "lengthUnit": "in",
       "bulletDiameter": 0.264,
-      "caseLength": null,
+      "caseLength": 2.525,
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
-      "neckLength": null,
+      "neckLength": 0.34,
       "baseDiameter": 0.471,
       "shoulderDiameter": 0.45,
       "neckDiameter": 0.298,
@@ -10709,7 +10709,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-280-ackley/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Drawing titled 6.5/280 Ackley Improved. Neck junction 0.2980 in, mouth 0.2960 in. Shoulder 0.4500 in at 40 deg. Body 0.4710 in at 0.1320 in. Rim 0.4730 in, thickness 0.0490 in. The case-length figure is cropped at the top edge of the image and not read, so caseLength and neckLength are empty. 4D Case Cap. 70.03 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Drawing titled 6.5/280 Ackley Improved. Neck junction 0.2980 in, mouth 0.2960 in. Shoulder 0.4500 in at 40 deg. Body 0.4710 in at 0.1320 in. Rim 0.4730 in, thickness 0.0490 in. 4D Case Cap. 70.03 gr (printed figure, not stored as water). caseLength 2.525 in is the parent .280 Ackley Improved case length on Wikipedia, https://en.wikipedia.org/wiki/.280_Ackley_Improved (case not shortened when necked down)."
     },
     {
       "id": "25-264-ai",
@@ -11363,6 +11363,160 @@
         "retrievedOn": "2026-10-29"
       },
       "note": "4D page shows the Hawk Cartridges case drawing. Neck junction 0.292 in, mouth 0.291 in; neck 0.297 in long, so length to neck is 2.540 - 0.297 = 2.243 in. Shoulder 0.454 in at 25 deg 0 min at 2.069 in. Body 0.471 in at 0.200 in, extractor groove 0.409 in, rim 0.473 in, thickness 0.049 in. Drawn cartridge length 3.240 in is not a max COAL."
+    },
+    {
+      "id": "25-gt",
+      "name": "25 GT",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "6mm GT",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 1.722,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": 0.3002,
+      "baseDiameter": 0.47418,
+      "shoulderDiameter": 0.46,
+      "neckDiameter": 0.2895,
+      "lengthToShoulder": 1.3,
+      "lengthToNeck": 1.4218,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/25-GT-Chamber-Reamer_p_117226.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D 25 GT page image is a generic bushing photo. PTG print 83341 rev C, 25 GT (135 gr Hybrid), from the bolt face; basic brass 6mm GT; groove 0.2572. Chamber body 0.47418 in at the bolt face, 0.472 in at 0.200; shoulder 0.460 in at 1.300 in, 35 deg; neck 0.2895 in at 1.4218 in. caseLength 1.722 in is estimated as the PTG chamber neck-end length 1.732 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
+    },
+    {
+      "id": "240-nmc",
+      "name": "240 NMC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": ".22-250 Remington",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.906,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": 0.2648,
+      "baseDiameter": 0.4717,
+      "shoulderDiameter": 0.455,
+      "neckDiameter": 0.2765,
+      "lengthToShoulder": 1.4734,
+      "lengthToNeck": 1.6412,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 28,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/240-NMC-Chamber-Reamer_p_120256.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D page has no drawing. PTG print 329 (sheet 83-240), 240 NMC, from the bolt face; basic brass 22-250; groove 0.243. Chamber body 0.4717 in at the bolt face, 0.4695 in at 0.200; shoulder 0.455 in at 1.4734 in, 28 deg; neck 0.2765 in at 1.6412 in. caseLength 1.906 in is estimated as the PTG chamber neck-end length 1.916 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
+    },
+    {
+      "id": "6mm-prc",
+      "name": "6mm PRC",
+      "kind": "wildcat",
+      "aliases": [
+        "6mm Precision Rifle Cartridge",
+        "6-6.5mm PRC"
+      ],
+      "parentCase": "6.5 PRC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.03,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": 0.2571,
+      "baseDiameter": 0.5354,
+      "shoulderDiameter": 0.5168,
+      "neckDiameter": 0.2765,
+      "lengthToShoulder": 1.5648,
+      "lengthToNeck": 1.7729,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/6-mm-Precision-Rifle-Cartridge-PRC-Chamber-Reamer_p_118706.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D 6mm PRC page has no drawing. PTG print 72171 rev B, 6mm PRC STD (not titled SAAMI), from the bolt face; basic brass 300 RCM; groove 0.243. Chamber body 0.5354 in at the bolt face, 0.533 in at 0.200; shoulder 0.5168 in at 1.5648 in, 30 deg; neck 0.2765 in at 1.7729 in. caseLength 2.03 in is estimated as the PTG chamber neck-end length 2.040 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: not a SAAMI-standard cartridge."
+    },
+    {
+      "id": "17-ackley-bee",
+      "name": "17 Ackley Bee",
+      "kind": "wildcat",
+      "aliases": [
+        "17 Bee Ackley Improved",
+        "17 Ackley Improved Bee"
+      ],
+      "parentCase": ".218 Bee",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.172,
+      "caseLength": 1.35,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.3485,
+      "shoulderDiameter": 0.34,
+      "neckDiameter": 0.195,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/17-Bee-Ackley-Improved-30-Deg-Chamber-Reamer_p_116432.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D page has no drawing. PTG print 4736 rev A, 17 Ack Bee Imp. (30 deg); basic brass 218 Bee; groove 0.172. Chamber body 0.3485 in at the rim datum; shoulder 0.3400 in, 30 deg; neck 0.1950 in. Lengths run from the rim (belt) datum and the print gives no clear rim thickness, so lengthToShoulder and lengthToNeck are null. caseLength 1.35 in from Wikipedia, https://en.wikipedia.org/wiki/.17_Ackley_Bee"
+    },
+    {
+      "id": "25-20-single-shot",
+      "name": "25-20 Single Shot",
+      "kind": "wildcat",
+      "aliases": [
+        "25-20 Winchester Single Shot",
+        "25/20 Single Shot"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 1.631,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": 0.315,
+      "baseDiameter": 0.316,
+      "shoulderDiameter": 0.3036,
+      "neckDiameter": 0.2814,
+      "lengthToShoulder": 1.062,
+      "lengthToNeck": 1.316,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 2.5,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/25--20-Winchester-Single-Shot-Finish-Chamber-Reamer_p_118174.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D page image is a generic reamer photo. PTG print 15054 rev A, 25/20 Single Shot; groove 0.256, bullet stored as 0.257. Chamber body 0.316 in, 0.3036 at the shoulder, 2.5 deg; neck 0.2814 in. Print lengths run from the rim datum; 0.052 in rim added, so shoulder 1.062, neck 1.316 from the head. caseLength 1.631 in is estimated as the PTG chamber neck-end length 1.641 in from the head minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: no max COAL found."
     }
   ],
   "aliases": []
