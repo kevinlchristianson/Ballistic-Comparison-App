@@ -22,6 +22,16 @@ The Berger Varmint line closes with this pull request — [#216](https://github.
 
 The bullets whose product line is blank close with this pull request — [#243](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/243). The 22 cal 69 gr BT Target, the 6 mm 105 gr BT Target, the 30 cal 150 gr FB Target, and both 375 ELR Match Solids were searched and got no file. Every Berger product line in the catalog is now harvested.
 
+## Sierra
+
+`data/bullets/manufacturers/sierra.json` has 199 bullets. `productLine` is null on 106 of them. The line is in the name (MatchKing, Tipped MatchKing, MatchKing-X, Tipped GameKing, GameKing, Pro-Hunter, Tipped VarmintKing, VarmintKing). This harvest groups by `productLine` when it is set, and by the name when it is null. `sierra.json` is not edited. Kevin's coding agent should fill `productLine` for those 106 bullets.
+
+MatchKing is first, smallest diameter then lightest weight. A post is filed only when it names MatchKing, SMK, or the HPBT MatchKing at this weight. A post that does not say which Sierra line is dropped. Sort-later lists are not kept.
+
+The bullet in this pull request is the 22 cal 52 gr HPBT MatchKing, sku 1410 — [#254](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/254).
+
+The 22 cal 52 gr file adds no unmatched name. `.223` resolves to `223-rem`. `22-250` resolves to `22-250-rem`. Linko's charge is 24.4 thru 25.8 gr, so it stays null. His 2.250 COAL is the Sierra manual figure. greybeard wrote 24' and 1 in 14', so those lengths are not stored as inches. bigfishman's 38 gr of H380 is for a Speer 52 and a Sierra 52 together, so it is dropped. The 223 load thread's 55/52 grain charges are shared by both weights, so they are dropped. Keith Glasscock's 27+ gr of Varget is 50-55 grain bullets. No fired 52 gr MatchKing charge turned up in 222 Rem, 220 Swift, 22 BR, 22 PPC, 22 Nosler, 224 Valkyrie, or 223 AI.
+
 ## In progress
 
 Community-reported loads for every Berger bullet whose product line is blank. Order is smallest diameter, then lightest weight. A post is filed on a named line only when it names that line, or the catalog has only one bullet at the weight.
