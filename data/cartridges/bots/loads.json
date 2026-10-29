@@ -3,7 +3,7 @@
   "generatedOn": "2026-10-27",
   "bot": "load-data",
   "cartridgeCount": 38,
-  "aliasCount": 28,
+  "aliasCount": 32,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -1297,6 +1297,42 @@
       "source": {
         "name": "Community Berger 6 mm 105 Grain VLD Hunting",
         "url": "https://github.com/kevinlchristianson/Ballistic-Comparison-App/blob/main/data/loads/inputs/2026-10-27-berger-vld-hunting-6mm-105gr.csv",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "223-rem",
+      "alias": "5.56 NATO",
+      "source": {
+        "name": "owner decision 2026-10-29: shares the parent case",
+        "url": "https://hammerbullets.com/load-data/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "223-rem",
+      "alias": "5.56x45mm NATO",
+      "source": {
+        "name": "owner decision 2026-10-29: shares the parent case",
+        "url": "https://shootersworldpowder.com/data-table/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "223-rem",
+      "alias": "223 Wylde",
+      "source": {
+        "name": "owner decision 2026-10-29: shares the parent case",
+        "url": "https://hammerbullets.com/load-data/",
+        "retrievedOn": "2026-10-29"
+      }
+    },
+    {
+      "cartridgeId": "30-06",
+      "alias": "M1 Garand Service Rifle",
+      "source": {
+        "name": "owner decision 2026-10-29: shares the parent case",
+        "url": "https://hodgdonreloading.com/rldc/",
         "retrievedOn": "2026-10-29"
       }
     }
