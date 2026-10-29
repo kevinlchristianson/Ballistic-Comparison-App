@@ -1,4 +1,4 @@
-import { estimateCartridgeInputs, maxChargesFromLoads, profileCapacity } from "../src/lib/velocity/inputs.ts";
+import { estimateCartridgeInputs, maxChargesFromLoads, profileCapacity, profileSurface } from "../src/lib/velocity/inputs.ts";
 import type { Cartridge } from "../src/lib/cartridges.ts";
 import { cartridges, fixtureLoads } from "./helpers.ts";
 
@@ -113,6 +113,18 @@ describe("estimated cartridge inputs", () => {
       expect(Math.abs(p.value - 91)).toBeLessThan(4);
       // The same numbers read as a case drawing hold more: no clearance, and the solid head comes off differently.
       expect(profileCapacity({ ...print, fieldNotes: src("4D Reamer Rentals") })!.value).not.toBeCloseTo(p.value, 0);
+    });
+
+    it("reads SAAMI, C.I.P. and Sherman citations as case drawings, but a PTG print titled SAAMI as a chamber", () => {
+      const c = win308(cartridges.find((x) => x.id === "308-win")!);
+      expect(profileSurface({ ...c, fieldNotes: src("SAAMI Z299.4") })).toBe("case");
+      expect(profileSurface({ ...c, fieldNotes: src("C.I.P. TDCC") })).toBe("case");
+      expect(profileSurface({ ...c, fieldNotes: src("Sherman Wildcat Cartridges") })).toBe("case");
+      expect(profileSurface({ ...c, fieldNotes: src("Pacific Tool & Gauge reamer print 6mm REMINGTON SAAMI") })).toBe("chamber");
+      // A bot's own mm record carries only a conversion note on the field; its source name decides.
+      const own = { ...c, fieldNotes: { baseDiameterIn: "Converted from 11.96 mm as published." }, addedBy: { bot: "bullets", source: { name: "C.I.P. TDCC", url: null } } } as unknown as Cartridge;
+      expect(profileSurface(own)).toBe("case");
+      expect(profileSurface({ ...c, fieldNotes: src("Some other page") })).toBeNull();
     });
 
     it("needs the whole profile, in order", () => {

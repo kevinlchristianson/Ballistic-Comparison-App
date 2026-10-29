@@ -108,13 +108,19 @@ const WATER_GR_PER_IN3 = 252.9;
 
 /**
  * Whether a profile's diameters are a chamber (Pacific Tool & Gauge reamer
- * prints) or the case outside (4D Reamer Rentals cartridge drawings). Read
+ * prints) or the case outside (4D Reamer Rentals, SAAMI Z299.4 and C.I.P. TDCC
+ * cartridge drawings, Sherman Wildcat Cartridges). Read
  * from the source the bot cited for the profile fields.
  */
 export function profileSurface(c: Cartridge): "chamber" | "case" | null {
-  const text = c.fieldNotes?.baseDiameterIn ?? c.addedBy?.source.name ?? "";
+  // The field note (set when a bot fills a library cartridge) names the source;
+  // a bot's own record may only carry a unit-conversion note, so also read its source name.
+  const text = `${c.fieldNotes?.baseDiameterIn ?? ""} ${c.addedBy?.source.name ?? ""}`;
   if (/4D Reamer/i.test(text)) return "case";
+  // Checked before SAAMI: PTG print titles often contain "SAAMI" but are still chamber prints.
   if (/Pacific Tool/i.test(text)) return "chamber";
+  // SAAMI Z299.4 and C.I.P. TDCC cartridge (case) drawings, and Sherman's own case figures.
+  if (/SAAMI|C\.I\.P\.|Sherman Wildcat/i.test(text)) return "case";
   return null;
 }
 
@@ -307,7 +313,7 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
     }
     const prof = profileCapacity(c);
     if (prof) {
-      const from = prof.surface === "case" ? "4D Reamer Rentals case drawing" : prof.surface === "chamber" ? "Pacific Tool & Gauge chamber print" : "printed case profile";
+      const from = prof.surface === "case" ? "printed case drawing" : prof.surface === "chamber" ? "Pacific Tool & Gauge chamber print" : "printed case profile";
       parts.push({ v: prof.value, sd: profileSd, m: "case_profile", note: `from the case profile (${from}, ${Math.round(prof.value * 10) / 10} gr)` });
     }
     // The bot's frozen estimate file, only where the app's own profile method cannot run.
