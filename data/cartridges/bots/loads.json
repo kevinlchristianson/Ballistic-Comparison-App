@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "load-data",
-  "cartridgeCount": 81,
+  "cartridgeCount": 90,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -76,16 +76,21 @@
       "maxCoal": 3.34,
       "rimDiameter": null,
       "neckLength": null,
+      "baseDiameter": 0.5533,
+      "shoulderDiameter": 0.5292,
+      "neckDiameter": 0.316,
+      "lengthToShoulder": 2.1043,
+      "lengthToNeck": 2.2566,
       "caseCapacityGrH2O": 98.4,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
-        "name": "Nosler, 27 Nosler cartridge page",
-        "url": "https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge",
-        "retrievedOn": "2026-10-28"
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/27-Nosler-SAAMI-Chamber-Reamer_p_114528.html",
+        "retrievedOn": "2026-10-29"
       },
-      "note": "Nosler prints a fireformed case, overflowing to the neck, as 98.4 gr H2O. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
+      "note": "Replaces our loads.json 27-nosler record; keep its capacity. PTG chamber drawing BOP-10948, 27 NOSLER SAAMI (PTG own print, not a Z299.4 sheet), from the bolt face. 4D page has no drawing. GROOVE SIZE .2770. Body 0.5533 in at the bolt face, 0.5510 in at 0.200. Shoulder 0.5292 in at 35 deg at 2.1043 in. Neck 0.3160 in at 2.2566 in, 0.039 over the bullet. Print case 2.6000 in; library case 2.590 stays. Capacity 98.4 gr H2O is from Nosler (https://www.nosler.com/explore/nosler-cartridges/27-nosler-rifle-cartridge, retrieved 2026-10-28); max COAL 3.34 is the library value. PTG prints chamber dimensions: 2.6000 in is the chamber length to the neck end, not a case length, so it is not stored as the case length (library case 2.59 stays). PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.590 in from Wikipedia (https://en.wikipedia.org/wiki/Nosler_cartridges, .27 Nosler infobox)."
     },
     {
       "id": "6-17-spitfire",
@@ -384,30 +389,32 @@
       "id": "7mm-backcountry",
       "name": "7mm Backcountry",
       "kind": "wildcat",
-      "aliases": [],
+      "aliases": [
+        "7mm BC"
+      ],
       "parentCase": null,
       "lengthUnit": "in",
       "bulletDiameter": 0.284,
-      "caseLength": 2.496,
+      "caseLength": 2.417,
       "trimLength": null,
       "maxCoal": 3.34,
       "rimDiameter": 0.4721,
-      "neckLength": null,
-      "baseDiameter": 0.4708,
+      "neckLength": 0.3559,
+      "baseDiameter": 0.4721,
       "shoulderDiameter": 0.4595,
       "neckDiameter": 0.319,
-      "lengthToShoulder": null,
-      "lengthToNeck": null,
+      "lengthToShoulder": 2.0189,
+      "lengthToNeck": 2.1401,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
-        "name": "Pacific Tool & Gauge reamer print PTG-14902",
+        "name": "Pacific Tool & Gauge",
         "url": "https://www.pacifictoolandgauge.com/7mm-Backcountry-7mm-BC-SAAMI-Chamber-Reamer_p_119951.html",
-        "retrievedOn": "2026-10-28"
+        "retrievedOn": "2026-10-29"
       },
-      "note": "PTG print labels GROOVE SIZE .2840 and a 30 degree shoulder. The bolt-face rim diameter is (0.4721); rim type is not labeled. Hammer case-data prints Case 2.496\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1FY5LjXhQjagIEH_HOO5yJQsMc1ZvyUI_CbJH-aVy6mQ/edit?usp=sharing"
+      "note": "Replaces our loads.json 7mm-backcountry record, adding the two missing lengths. PTG drawing PTG-14902 rev B from the bolt face; 4D page has no drawing. GROOVE SIZE .2840. Bolt-face body (0.4721) and 0.4708 at 0.200. Shoulder (0.4595) at 30 deg at (2.0189) in; neck 0.3190 in at (2.1401) in; parenthesised values are PTG reference dims. Case 2.496 in and max COAL 3.340 in are from Hammer case data (https://docs.google.com/spreadsheets/d/1FY5LjXhQjagIEH_HOO5yJQsMc1ZvyUI_CbJH-aVy6mQ/edit?usp=sharing); PTG chamber neck runs to 2.4270 in. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.417 in and max COAL 3.34 in from Wikipedia (https://en.wikipedia.org/wiki/7mm_Backcountry), replacing the Hammer case 2.496 in, which is longer than the PTG chamber neck end (2.4270 in)."
     },
     {
       "id": "338-300-wsm",
@@ -1958,7 +1965,10 @@
         "7 SS",
         "7SS/B",
         "7mm SS-B",
-        "7mm Sherman SS-B"
+        "7mm Sherman SS-B",
+        "7SS",
+        "7MM Sherman Short",
+        "7mm Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -1982,7 +1992,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "300-sherman-short",
@@ -1992,7 +2002,8 @@
         "300 SS",
         "300SS/B",
         "300 SS-B",
-        "300 Sherman SS-B"
+        "300 Sherman SS-B",
+        "300 Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -2016,7 +2027,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "338-sherman-short",
@@ -2026,7 +2037,8 @@
         "338 SS",
         "338SS/B",
         "338 SS-B",
-        "338 Sherman SS-B"
+        "338 Sherman SS-B",
+        "338 Sherman SS/B"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -2050,7 +2062,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '0.027 (as printed; other rows are in thousandths)' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '0.027 (as printed; other rows are in thousandths)' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "7mm-sherman-swc",
@@ -2060,7 +2072,8 @@
         "7SWC",
         "7mm SWC",
         "7mm Sherman SWC",
-        "Sherman Alpha 7"
+        "Sherman Alpha 7",
+        "7 SWC"
       ],
       "parentCase": null,
       "lengthUnit": "in",
@@ -2084,7 +2097,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.844\", brass max length 1.854\" (caseLength), water capacity 51 gr, bolt face printed (see below), freebore '240' (thousandths of an inch as printed; no schema field), action SA. Page describes it as a short action .470 bolt face design. Bolt face 0.47 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.844\", brass max length 1.854\" (caseLength), water capacity 51 gr, bolt face printed (see below), freebore '240' (thousandths of an inch as printed; no schema field), action SA. Page describes it as a short action .470 bolt face design. Bolt face 0.47 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "7mm-sherman-max",
@@ -2117,7 +2130,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.015\", brass max length 2.025\" (caseLength), water capacity 77 gr, bolt face printed (see below), freebore '200, Fclass 240' (thousandths of an inch as printed; no schema field), action MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.015\", brass max length 2.025\" (caseLength), water capacity 77 gr, bolt face printed (see below), freebore '200, Fclass 240' (thousandths of an inch as printed; no schema field), action MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "300-sherman-max",
@@ -2149,7 +2162,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.005\", brass max length 2.015\" (caseLength), water capacity 78 gr, bolt face printed (see below), freebore '150' (thousandths of an inch as printed; no schema field), action MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.005\", brass max length 2.015\" (caseLength), water capacity 78 gr, bolt face printed (see below), freebore '150' (thousandths of an inch as printed; no schema field), action MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "338-sherman-max",
@@ -2181,7 +2194,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.995\", brass max length 2.005\" (caseLength), water capacity 79 gr, bolt face printed (see below), freebore '0.083 (as printed)' (thousandths of an inch as printed; no schema field), action SA(-230gr), MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.995\", brass max length 2.005\" (caseLength), water capacity 79 gr, bolt face printed (see below), freebore '0.083 (as printed)' (thousandths of an inch as printed; no schema field), action SA(-230gr), MA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "7mm-sherman-mega",
@@ -2189,7 +2202,8 @@
       "kind": "wildcat",
       "aliases": [
         "7 Mega",
-        "7mm Mega"
+        "7mm Mega",
+        "7mm Sherman MEGA"
       ],
       "parentCase": "WSM",
       "lengthUnit": "in",
@@ -2213,7 +2227,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.155\", brass max length 2.165\" (caseLength), water capacity 84 gr, bolt face printed (see below), freebore '146(MA),205(LA), FCLASS 235' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. 4D lists 7 Mega 146/205/235 freebore variants. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.155\", brass max length 2.165\" (caseLength), water capacity 84 gr, bolt face printed (see below), freebore '146(MA),205(LA), FCLASS 235' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. 4D lists 7 Mega 146/205/235 freebore variants. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "300-sherman-mega",
@@ -2244,7 +2258,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.150\", brass max length 2.160\" (caseLength), water capacity 85 gr, bolt face printed (see below), freebore '149(MA), 180(LA)' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.150\", brass max length 2.160\" (caseLength), water capacity 85 gr, bolt face printed (see below), freebore '149(MA), 180(LA)' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "338-sherman-mega",
@@ -2275,7 +2289,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.140\", brass max length 2.150\" (caseLength), water capacity 86 gr, bolt face printed (see below), freebore '270 MA & LA' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.140\", brass max length 2.150\" (caseLength), water capacity 86 gr, bolt face printed (see below), freebore '270 MA & LA' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "28-sherman-mag",
@@ -2307,7 +2321,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.580\", brass max length 2.590\" (caseLength), water capacity 96 gr, bolt face printed (see below), freebore '225' (thousandths of an inch as printed; no schema field), action LA. Sheet prints capacity as '96ge' (typo for gr). Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.580\", brass max length 2.590\" (caseLength), water capacity 96 gr, bolt face printed (see below), freebore '225' (thousandths of an inch as printed; no schema field), action LA. Sheet prints capacity as '96ge' (typo for gr). Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "30-sherman-mag",
@@ -2339,7 +2353,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '237' (thousandths of an inch as printed; no schema field), action LA. Page: can fire factory 300 PRC ammunition (suggests PRC-family case; parentCase left null as not stated). Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '237' (thousandths of an inch as printed; no schema field), action LA. Page: can fire factory 300 PRC ammunition (suggests PRC-family case; parentCase left null as not stated). Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "33-sherman-mag",
@@ -2371,7 +2385,274 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '100(-250gr), 312(250gr+)' (thousandths of an inch as printed; no schema field), action LA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Kevin approved Sherman Wildcat Cartridges as a source on 2026-10-29; BOTS.md does not list it yet."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '100(-250gr), 312(250gr+)' (thousandths of an inch as printed; no schema field), action LA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+    },
+    {
+      "id": "33-nosler",
+      "name": ".33 Nosler",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.46,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5533,
+      "shoulderDiameter": 0.5303,
+      "neckDiameter": 0.372,
+      "lengthToShoulder": 2.0115,
+      "lengthToNeck": 2.1246,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/33-Nosler-SAAMI-Chamber-Reamer_p_114532.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Fills the empty profile of library 33-nosler. 4D page image is a bushing photo. PTG drawing BOP-11028, 33 NOSLER SAAMI (PTG own print), from the bolt face. GROOVE SIZE .3380. Chamber body 0.5533 in at the bolt face, 0.5510 at 0.200. Shoulder 0.5303 in at 35 deg at 2.0115 in; neck 0.3720 in at 2.1246 in; 2.4700 in to the chamber neck end. PTG prints chamber dimensions: 2.4700 in is the chamber length to the neck end, not a case length, so it is not stored as the case length (library case 2.46 stays). PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.460 in and max COAL 3.340 in from Wikipedia (https://en.wikipedia.org/wiki/Nosler_cartridges, .33 Nosler infobox)."
+    },
+    {
+      "id": "375-wby",
+      "name": ".375 Weatherby Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 2.86,
+      "trimLength": null,
+      "maxCoal": 3.6,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5136,
+      "shoulderDiameter": 0.496,
+      "neckDiameter": 0.407,
+      "lengthToShoulder": 2.407,
+      "lengthToNeck": 2.5637,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/375-Weatherby-Magnum-SAAMI-Chamber-Reamer_p_114617.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D page has no drawing. PTG drawing PTG-11076, 375 WBY MAG SAAMI (PTG own print); groove 0.3760. Lengths are printed from the belt datum; the print gives the datum as 0.2200 min / 0.2240 max from the bolt face, so 0.2200 was added to put them on the case head: shoulder 0.4960 in at 2.1870 -> 2.4070 in; neck 0.4070 in at 2.3437 -> 2.5637 in. Body 0.5136 in (0.5140 just ahead of the belt); belt recess 0.5340 in. Weatherby radius shoulder (R.1820/R.1200, 45 deg chord printed), so no angle stored. PTG prints chamber dimensions: 2.6550 in from the datum (2.8750 from the head) is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.860 in and max COAL 3.600 in from Wikipedia (https://en.wikipedia.org/wiki/.375_Weatherby_Magnum)."
+    },
+    {
+      "id": "7mm-300-prc",
+      "name": "7mm-300 PRC",
+      "kind": "wildcat",
+      "aliases": [
+        "7mm/300 PRC",
+        "7mm x 300 PRC"
+      ],
+      "parentCase": ".300 PRC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.575,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5348,
+      "shoulderDiameter": 0.516,
+      "neckDiameter": 0.32,
+      "lengthToShoulder": 2.1168,
+      "lengthToNeck": 2.234,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/7-mm--300-Precision-Rifle-Cartridge-PRC-Match-Chamber-Reamer_p_117973.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "ESTIMATE/PARTIAL: PTG chamber print 24035, 7mm x 300 PRC, from the bolt face; the 4D page has no drawing. Groove 0.2845, stored bullet 0.284. Body 0.5348 in at the bolt face, 0.533 in at 0.200. Shoulder 0.516 in at 30 deg at 2.1168 in. Neck 0.320 in at 2.234 in. Print case 2.585 in. Basic brass 375 R; note says it uses the 300 PRC die with a 7mm bushing. PTG prints chamber dimensions: 2.5850 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. No Wikipedia or designer case length found; caseLength 2.575 in is the PTG chamber length 2.585 minus 0.010 (owner rule 2026-10-29)."
+    },
+    {
+      "id": "300-wsm-ai",
+      "name": "300 WSM Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "300 WSM AI",
+        "300 WSM Imp"
+      ],
+      "parentCase": ".300 WSM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.09,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5584,
+      "shoulderDiameter": 0.541,
+      "neckDiameter": 0.336,
+      "lengthToShoulder": 1.68,
+      "lengthToNeck": 1.802,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/300-Winchester-Short-Magnum-WSM-Ackley-Improved-Chamber-Reamer_p_118261.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "ESTIMATE/PARTIAL: PTG chamber print 6425, 300 WSM Imp, from the bolt face; the 4D page has no drawing. Groove 0.308. Body 0.5584 in at the bolt face, 0.5564 at 0.200. Shoulder 0.541 in at 40 deg at 1.680 in; neck 0.336 in at 1.802 in (MAX). Print case 2.100 in. PTG prints chamber dimensions: 2.1000 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. No Wikipedia or designer case length found; caseLength 2.090 in is the PTG chamber length 2.100 minus 0.010 (owner rule 2026-10-29)."
+    },
+    {
+      "id": "33-xc",
+      "name": "33 XC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 3.087,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5865,
+      "shoulderDiameter": 0.563,
+      "neckDiameter": 0.3765,
+      "lengthToShoulder": 2.5579,
+      "lengthToNeck": 2.691,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/33-XC-Tubb-Chamber-Reamer_p_118650.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D page has no drawing. PTG print 83056 rev C, 33 XC TUBB, from the bolt face; basic brass 338 Norma; groove 0.3382. Chamber body 0.5865 in at the bolt face and at 0.200; shoulder 0.5630 in at 2.5579 in, 35 deg; neck 0.3765 in at 2.691 in. PTG prints chamber dimensions: 3.095 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. caseLength 3.087 in from the designer, David Tubb (https://www.davidtubb.com/image/data/davidtubb/articles/33XC37XC41XC%20writeup%20(5.15.23).pdf, \"Total case overall length is 3.087\")."
+    },
+    {
+      "id": "404-dakota",
+      "name": ".404 Dakota",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.423,
+      "caseLength": 2.57,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5481,
+      "shoulderDiameter": 0.531,
+      "neckDiameter": 0.455,
+      "lengthToShoulder": 2.063,
+      "lengthToNeck": 2.1288,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/404-Dakota-Chamber-Reamer_p_118383.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "ESTIMATE/PARTIAL: 4D page has no drawing. PTG print 3982 rev A (12/23/2003), 404 Dakota, from the bolt face; groove 0.423. Chamber body 0.5481 in at the bolt face, 0.5470 at 0.1300; shoulder 0.5310 in at 2.0630 in, 30 deg (headspace 0.5000 in at 2.0898 min); neck 0.455 in at 2.1288 in, 0.453 at 2.5800. PTG prints chamber dimensions: 2.5800 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. No Wikipedia or Dakota Arms case length found; caseLength 2.570 in is the PTG chamber length 2.580 minus 0.010 (owner rule 2026-10-29)."
+    },
+    {
+      "id": "338-378-wby",
+      "name": ".338-378 Weatherby Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".378 Weatherby Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.913,
+      "trimLength": null,
+      "maxCoal": 3.65,
+      "rimDiameter": 0.579,
+      "neckLength": 0.3563,
+      "baseDiameter": 0.582,
+      "shoulderDiameter": 0.561,
+      "neckDiameter": 0.37,
+      "lengthToShoulder": 2.345,
+      "lengthToNeck": 2.5567,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/338-378-weatherby-magnum/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. 4D drawing (low-resolution image): neck 0.3700 in at the mouth and junction; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. Max COAL 3.650 in from Wikipedia (https://en.wikipedia.org/wiki/.338-378_Weatherby_Magnum); Wikipedia case 2.905 in, 4D drawing case 2.913 kept."
+    },
+    {
+      "id": "350-rem-mag",
+      "name": ".350 Remington Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.358,
+      "caseLength": 2.17,
+      "trimLength": null,
+      "maxCoal": 2.8,
+      "rimDiameter": 0.532,
+      "neckLength": 0.355,
+      "baseDiameter": 0.5132,
+      "shoulderDiameter": 0.4952,
+      "neckDiameter": 0.388,
+      "lengthToShoulder": 1.7001,
+      "lengthToNeck": 1.815,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "4D Reamer Rentals",
+        "url": "https://4drentals.com/product/reamer-rentals/rifle/350-remington-magnum/",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "4D drawing: neck 0.3880 in at the mouth and junction; shoulder 0.4952 in at 25 deg; body 0.5132 in at 0.2200 in; belt 0.5320 in at 0.1277 in; rim 0.5320 in, thickness 0.0500 in. 4D printed capacity not stored. Max COAL 2.800 in from Wikipedia (https://en.wikipedia.org/wiki/.350_Remington_Magnum)."
+    },
+    {
+      "id": "300-wby",
+      "name": ".300 Weatherby Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.825,
+      "trimLength": null,
+      "maxCoal": 3.562,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5137,
+      "shoulderDiameter": 0.496,
+      "neckDiameter": 0.34,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/300-Weatherby-Magnum-SAAMI-Chamber-Reamer_p_114615.html",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Fills the empty profile of library 300-wby. The 4D 300 Weatherby page has no drawing. PTG drawing PTG-10997 rev A, 300 WBY MAG SAAMI (PTG own print), lengths from the belt datum. GROOVE SIZE .3080. Body 0.5137 in past the belt (0.5340 belt). Shoulder (0.4960) and neck 0.3400 in at (2.0857) and (2.2875) in, PTG reference dims; Weatherby radius shoulder, no angle printed. 2.6240 in is the chamber neck end measured from the belt datum, not a case length. Its lengths run from the belt datum and the print gives no belt thickness to shift them to the case head, so lengthToShoulder and lengthToNeck are null. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.825 in and max COAL 3.562 in from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum)."
     }
   ],
   "aliases": [
