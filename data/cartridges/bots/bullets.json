@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-28",
   "bot": "bullets",
-  "cartridgeCount": 311,
+  "cartridgeCount": 318,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -883,6 +883,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.2550 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1259 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 30 deg. 4D Case Cap. 34.72 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "22-ppc",
+      "name": ".22 PPC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.525,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.4402,
+      "shoulderDiameter": 0.431,
+      "neckDiameter": 0.243,
+      "lengthToShoulder": 1.0749,
+      "lengthToNeck": 1.2377,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/22-PPC-Chamber-Reamer_p_114460.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing BOP-10887, titled 22 PPC (.243 NECK), from the bolt face. Fills the empty .22 PPC profile. Neck 0.2430 in, 0.019 in over the 0.224 bullet, and the 30 deg cone matches that neck. Shoulder 0.4310 in at 30 deg, against the 6mm PPC shoulder 0.4300 in at 30 deg. Body 0.4402 in. Library case 1.505 in stays; the print case is 1.525 in. Library rim 0.441 in stays. No belt is printed."
     },
     {
       "id": "22-savage-hi-power",
@@ -2844,6 +2873,35 @@
       "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3150 in is printed at the mouth and at the shoulder junction. Body diameter is printed at 0.1248 in from the head. Rim thickness 0.0490 in is printed and has no field. Shoulder angle is printed 17 deg 30 min. 4D Case Cap. 66.98 gr (printed figure, not stored as water)."
     },
     {
+      "id": "284-shehane",
+      "name": ".284 Shehane",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.1816,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.501,
+      "shoulderDiameter": 0.485,
+      "neckDiameter": 0.3175,
+      "lengthToShoulder": 1.7636,
+      "lengthToNeck": 1.8832,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/284-Shehane-Chamber-Reamer_p_117196.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing PTG-13852, 284 SHEHANE, from the bolt face. Fills the empty .284 Shehane profile. Neck 0.3175 in, 0.0335 in over the 0.284 bullet. Shoulder 0.4850 in at 35 deg, wider than the .284 Winchester drawing 0.4748 in at 35 deg. Body 0.5010 in. Library case 2.170 in stays; the print case is 2.1816 in. Library rim 0.473 in stays. No belt is printed."
+    },
+    {
       "id": "284-win",
       "name": ".284 Winchester",
       "kind": "saami",
@@ -4385,6 +4443,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the .330 Dakota bore, 0.338 in; no groove is printed. Neck 0.3710 in at the mouth and the shoulder junction. Body diameter printed at 0.1390 in from the head. Rim thickness 0.0500 in has no field. Shoulder is printed 34 deg 10 min. Rim is smaller than the body. 4D Case Cap. 95.90 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "338-06",
+      "name": ".338-06 A-Square",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.504,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.4708,
+      "shoulderDiameter": 0.4425,
+      "neckDiameter": 0.373,
+      "lengthToShoulder": 1.94,
+      "lengthToNeck": 2.0519,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 17.25,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338--06-A-Square-Chamber-Reamer_p_114499.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing BOP-11039, 338-06 A-SQUARE, basic brass .30-06, from the bolt face. Fills the empty .338-06 profile. Neck 0.3730 in, 0.035 in over the 0.338 bullet. Shoulder 0.4425 in at 17 deg 15 min, the .30-06 chamber shoulder diameter. Body 0.4708 in. Library case 2.494 in stays; the print case is 2.504 in. Library rim 0.473 in stays. No belt is printed."
     },
     {
       "id": "338-06-ai",
@@ -6273,6 +6360,35 @@
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named .416 bore, 0.416 in; no groove is printed. Neck 0.4466 in at the shoulder junction; mouth 0.4450 in. Body diameter printed at 0.1480 in from the head. Rim thickness 0.0650 in has no field. Shoulder is printed 21 deg 35 min. 4D Case Cap. 168.19 gr (printed figure, not stored as water)."
     },
     {
+      "id": "416-rem-mag",
+      "name": ".416 Remington Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.416,
+      "caseLength": 2.85,
+      "trimLength": null,
+      "maxCoal": 3.6,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.514,
+      "shoulderDiameter": 0.4878,
+      "neckDiameter": 0.449,
+      "lengthToShoulder": 2.177,
+      "lengthToNeck": 2.2186,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/416-Remington-Magnum-SAAMI-Finish-Chamber-Reamer--Elliot-Solid_p_118394.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing BOP-11110, 416 REMINGTON MAGNUM SAAMI. Lengths are from the belt datum. Fills the empty .416 Remington Magnum profile. The 4D junctions do not agree with its 25 deg shoulder. Neck 0.4490 in, 0.033 in over the 0.416 bullet. Shoulder 0.4878 in at 25 deg, against the 8mm Remington Magnum shoulder 0.4868 in at 25 deg. Body 0.5140 in just forward of the belt. Library case 2.850 in stays. Library rim 0.532 in stays; the belt 0.5350 in is not the rim."
+    },
+    {
       "id": "416-rigby",
       "name": ".416 Rigby",
       "kind": "wildcat",
@@ -8113,6 +8229,35 @@
       "note": "4D cartridge drawing, case outside from the head. Fills the empty 6mm PPC profile. Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck 0.2620 in, 0.019 in over the bullet. Shoulder 0.4300 in at 30 deg. Body diameter 0.4380 in. The library rim 0.441 in stays; the print rim is 0.4400 in. No belt is printed. 4D Case Cap. 32.24 gr (printed figure, not stored as water)."
     },
     {
+      "id": "6mm-rem",
+      "name": "6mm Remington",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.2539,
+      "trimLength": null,
+      "maxCoal": 2.825,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.4724,
+      "shoulderDiameter": 0.4316,
+      "neckDiameter": 0.2781,
+      "lengthToShoulder": 1.7187,
+      "lengthToNeck": 1.876,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 26,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/6-mm-Remington-244-SAAMI-Chamber-Reamer_p_114478.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing BOP-10742, 6mm REMINGTON SAAMI, from the bolt face. Fills the empty 6mm Remington profile. Neck 0.2781 in, 0.035 in over the 0.243 bullet. Shoulder 0.4316 in at 26 deg, against the 7x57mm Mauser shoulder 0.4294 in at 20 deg 30 min. Body 0.4724 in. Library case 2.233 in stays; the print case is 2.2539 in. Library rim 0.473 in stays. No belt is printed."
+    },
+    {
       "id": "6mm-rem-ai",
       "name": "6mm Remington Ackley Improved",
       "kind": "wildcat",
@@ -8205,6 +8350,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the named 6mm bore, 0.243 in; no groove is printed. Neck 0.2700 in at the mouth and the shoulder junction. Body diameter printed at 0.1516 in from the head. Rim thickness 0.0540 in has no field. 4D Case Cap. 47.69 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "6xc",
+      "name": "6XC",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.911,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.47,
+      "shoulderDiameter": 0.4551,
+      "neckDiameter": 0.275,
+      "lengthToShoulder": 1.45,
+      "lengthToNeck": 1.606,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/6-XC-Match-Chamber-Reamer_p_117900.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing 39181, titled 6mm XC Match, basic brass .22-250, from the bolt face. Fills the empty 6XC profile. Neck 0.275 in, 0.032 in over the 0.243 bullet. Shoulder 0.4551 in at 30 deg, wider than the .22-250 drawing 0.4147 in at 28 deg. Body 0.470 in. Library case 1.875 in stays; the print case is 1.911 in. Library rim 0.473 in stays. No belt is printed."
     },
     {
       "id": "7-35-carcano",
@@ -8755,6 +8929,35 @@
         "retrievedOn": "2026-10-28"
       },
       "note": "4D cartridge drawing: case outside dimensions from the head, not a chamber. neckDiameter 0.3150 in is printed at the mouth and at the shoulder junction. Body diameter 0.5130 in is printed at 0.2200 in from the head, ahead of the belt. Belt diameter 0.5320 in is printed at 0.1277 in and has no field. Rim thickness 0.0500 in is printed and has no field. 4D Case Cap. 78.95 gr (printed figure, not stored as water)."
+    },
+    {
+      "id": "7mm-rum",
+      "name": "7mm Remington Ultra Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.86,
+      "trimLength": null,
+      "maxCoal": 3.6,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.551,
+      "shoulderDiameter": 0.5261,
+      "neckDiameter": 0.324,
+      "lengthToShoulder": 2.3823,
+      "lengthToNeck": 2.5573,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/7-mm-Remington-Ultra-Magnum-RUM-SAAMI-Chamber-Reamer_p_114642.html",
+        "retrievedOn": "2026-10-28"
+      },
+      "note": "PTG chamber drawing BOP-10803, 7mm REMINGTON ULTRA MAGNUM SAAMI, from the bolt face. Fills the empty 7mm RUM profile. The 4D junctions do not agree with its 30 deg shoulder. Neck 0.3240 in, 0.040 in over the 0.284 bullet. Shoulder 0.5261 in at 30 deg, against the .300 RUM shoulder 0.5250 in at 30 deg. Body 0.5510 in. Library case 2.850 in stays; the print case is 2.860 in. Library rim 0.534 in stays. No belt is printed."
     },
     {
       "id": "7mm-saum",
