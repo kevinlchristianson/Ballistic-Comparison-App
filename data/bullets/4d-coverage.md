@@ -4,6 +4,8 @@ Retrieved 2026-10-29 from the 4D rifle caliber archives and the match archive, i
 
 Pages whose title says SAAMI, C.I.P., or chamber, and Hammer pages, are still listed. They stay out of the add list.
 
+Not from 4D (2026-10-29, batch 3): 17 Hornet, .223 WSSM, .243 WSSM, .25-20 Winchester, .257 Weatherby Magnum, 6.5-300 Weatherby Magnum, .257 Roberts +P and 6.5 Weatherby RPM now carry SAAMI Z299.4 profiles in `bullets.json`; 6.5 G.A.P. 4S, 6.5mm Lahoz, 6.5x64 Brenneke, 6mm D.B.G. and 6x47 Atzl were added from C.I.P. TDCC sheets. The 4D counts below are unchanged.
+
 ## Summary
 
 | Caliber | 4D pages | On file | Missing |

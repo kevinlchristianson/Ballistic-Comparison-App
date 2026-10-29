@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "bullets",
-  "cartridgeCount": 379,
+  "cartridgeCount": 392,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -11405,7 +11405,7 @@
         "url": "https://www.pacifictoolandgauge.com/25-GT-Chamber-Reamer_p_117226.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D 25 GT page image is a generic bushing photo. PTG print 83341 rev C, 25 GT (135 gr Hybrid), from the bolt face; basic brass 6mm GT; groove 0.2572. Chamber body 0.47418 in at the bolt face, 0.472 in at 0.200; shoulder 0.460 in at 1.300 in, 35 deg; neck 0.2895 in at 1.4218 in. caseLength 1.722 in is estimated as the PTG chamber neck-end length 1.732 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
+      "note": "ESTIMATE: caseLength is PTG chamber length minus 0.010 in. New. 4D 25 GT page image is a generic bushing photo. PTG print 83341 rev C, 25 GT (135 gr Hybrid), from the bolt face; basic brass 6mm GT; groove 0.2572. Chamber body 0.47418 in at the bolt face, 0.472 in at 0.200; shoulder 0.460 in at 1.300 in, 35 deg; neck 0.2895 in at 1.4218 in. caseLength 1.722 in is estimated as the PTG chamber neck-end length 1.732 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
     },
     {
       "id": "240-nmc",
@@ -11434,7 +11434,7 @@
         "url": "https://www.pacifictoolandgauge.com/240-NMC-Chamber-Reamer_p_120256.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D page has no drawing. PTG print 329 (sheet 83-240), 240 NMC, from the bolt face; basic brass 22-250; groove 0.243. Chamber body 0.4717 in at the bolt face, 0.4695 in at 0.200; shoulder 0.455 in at 1.4734 in, 28 deg; neck 0.2765 in at 1.6412 in. caseLength 1.906 in is estimated as the PTG chamber neck-end length 1.916 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
+      "note": "ESTIMATE: caseLength is PTG chamber length minus 0.010 in. New. 4D page has no drawing. PTG print 329 (sheet 83-240), 240 NMC, from the bolt face; basic brass 22-250; groove 0.243. Chamber body 0.4717 in at the bolt face, 0.4695 in at 0.200; shoulder 0.455 in at 1.4734 in, 28 deg; neck 0.2765 in at 1.6412 in. caseLength 1.906 in is estimated as the PTG chamber neck-end length 1.916 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29)."
     },
     {
       "id": "6mm-prc",
@@ -11466,7 +11466,7 @@
         "url": "https://www.pacifictoolandgauge.com/6-mm-Precision-Rifle-Cartridge-PRC-Chamber-Reamer_p_118706.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D 6mm PRC page has no drawing. PTG print 72171 rev B, 6mm PRC STD (not titled SAAMI), from the bolt face; basic brass 300 RCM; groove 0.243. Chamber body 0.5354 in at the bolt face, 0.533 in at 0.200; shoulder 0.5168 in at 1.5648 in, 30 deg; neck 0.2765 in at 1.7729 in. caseLength 2.03 in is estimated as the PTG chamber neck-end length 2.040 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: not a SAAMI-standard cartridge."
+      "note": "ESTIMATE: caseLength is PTG chamber length minus 0.010 in. New. 4D 6mm PRC page has no drawing. PTG print 72171 rev B, 6mm PRC STD (not titled SAAMI), from the bolt face; basic brass 300 RCM; groove 0.243. Chamber body 0.5354 in at the bolt face, 0.533 in at 0.200; shoulder 0.5168 in at 1.5648 in, 30 deg; neck 0.2765 in at 1.7729 in. caseLength 2.03 in is estimated as the PTG chamber neck-end length 2.040 in minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: not a SAAMI-standard cartridge. Checked 2026-10-29: 6mm PRC is not in ANSI/SAAMI Z299.4-2025 or the C.I.P. TDCC list, so the estimate stays."
     },
     {
       "id": "17-ackley-bee",
@@ -11530,7 +11530,419 @@
         "url": "https://www.pacifictoolandgauge.com/25--20-Winchester-Single-Shot-Finish-Chamber-Reamer_p_118174.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D page image is a generic reamer photo. PTG print 15054 rev A, 25/20 Single Shot; groove 0.256, bullet stored as 0.257. Chamber body 0.316 in, 0.3036 at the shoulder, 2.5 deg; neck 0.2814 in. Print lengths run from the rim datum; 0.052 in rim added, so shoulder 1.062, neck 1.316 from the head. caseLength 1.631 in is estimated as the PTG chamber neck-end length 1.641 in from the head minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: no max COAL found."
+      "note": "ESTIMATE: caseLength is PTG chamber length minus 0.010 in. New. 4D page image is a generic reamer photo. PTG print 15054 rev A, 25/20 Single Shot; groove 0.256, bullet stored as 0.257. Chamber body 0.316 in, 0.3036 at the shoulder, 2.5 deg; neck 0.2814 in. Print lengths run from the rim datum; 0.052 in rim added, so shoulder 1.062, neck 1.316 from the head. caseLength 1.631 in is estimated as the PTG chamber neck-end length 1.641 in from the head minus 0.010 in; no published case length found (Kevin's rule, 2026-10-29). Kind wildcat: no max COAL found."
+    },
+    {
+      "id": "17-hornet",
+      "name": ".17 Hornet",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".22 Hornet",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.172,
+      "caseLength": 1.35,
+      "trimLength": null,
+      "maxCoal": 1.72,
+      "rimDiameter": 0.35,
+      "neckLength": 0.1957,
+      "baseDiameter": 0.2982,
+      "shoulderDiameter": 0.294,
+      "neckDiameter": 0.194,
+      "lengthToShoulder": 1.0471,
+      "lengthToNeck": 1.1543,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.57, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.2982 at 0.200, shoulder 0.294 at 1.0471, neck 0.194 at 1.1543 (intersections), case 1.35; neckLength is case minus length to neck; shoulder 25 deg B. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "223-wssm",
+      "name": ".223 Winchester Super Short Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".300 WSM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 1.67,
+      "trimLength": null,
+      "maxCoal": 2.36,
+      "rimDiameter": 0.535,
+      "neckLength": 0.2639,
+      "baseDiameter": 0.555,
+      "shoulderDiameter": 0.5444,
+      "neckDiameter": 0.272,
+      "lengthToShoulder": 1.1499,
+      "lengthToNeck": 1.4061,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 28,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.72, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.555 at 0.200, shoulder 0.5444 at 1.1499, neck 0.272 at 1.4061 (intersections), case 1.67; neckLength is case minus length to neck; shoulder 28 deg B (library keeps its 30). Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "243-wssm",
+      "name": ".243 Winchester Super Short Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".300 WSM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.67,
+      "trimLength": null,
+      "maxCoal": 2.36,
+      "rimDiameter": 0.535,
+      "neckLength": 0.278,
+      "baseDiameter": 0.555,
+      "shoulderDiameter": 0.5444,
+      "neckDiameter": 0.287,
+      "lengthToShoulder": 1.1499,
+      "lengthToNeck": 1.392,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 28,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.75, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.555 at 0.200, shoulder 0.5444 at 1.1499, neck 0.287 at 1.392 (intersections), case 1.67; neckLength is case minus length to neck; shoulder 28 deg B (library keeps its 30). Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "25-20-win",
+      "name": ".25-20 Winchester",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".32-20 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 1.33,
+      "trimLength": null,
+      "maxCoal": 1.592,
+      "rimDiameter": 0.408,
+      "neckLength": 0.3773,
+      "baseDiameter": 0.3465,
+      "shoulderDiameter": 0.3332,
+      "neckDiameter": 0.2765,
+      "lengthToShoulder": 0.8573,
+      "lengthToNeck": 0.9527,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 16.57,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.78, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.3465 at 0.200, shoulder 0.3332 at 0.8573, neck 0.2765 at 0.9527 (intersections), case 1.33; neckLength is case minus length to neck; shoulder 16 deg 34' B; neck 0.2765 at the junction, 0.2738 at the mouth. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "257-wby",
+      "name": ".257 Weatherby Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".300 H&H Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.549,
+      "trimLength": null,
+      "maxCoal": 3.209,
+      "rimDiameter": 0.5315,
+      "neckLength": 0.319,
+      "baseDiameter": 0.5117,
+      "shoulderDiameter": 0.492,
+      "neckDiameter": 0.285,
+      "lengthToShoulder": 2.012,
+      "lengthToNeck": 2.23,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.82, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.5117 at 0.200, shoulder 0.492 at 2.012, neck 0.285 at 2.23 (intersections), case 2.549; neckLength is case minus length to neck; double-radius shoulder, no angle printed; base diameter 0.5117 is ahead of the belt at 0.250 in. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "6-5-300-wby",
+      "name": "6.5-300 Weatherby Magnum",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": ".300 Weatherby Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.825,
+      "trimLength": null,
+      "maxCoal": 3.6,
+      "rimDiameter": 0.5315,
+      "neckLength": 0.2995,
+      "baseDiameter": 0.5117,
+      "shoulderDiameter": 0.492,
+      "neckDiameter": 0.295,
+      "lengthToShoulder": 2.2986,
+      "lengthToNeck": 2.5255,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.40, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.5117 at 0.200, shoulder 0.492 at 2.2986, neck 0.295 at 2.5255 (intersections), case 2.825; neckLength is case minus length to neck; double-radius shoulder, no angle printed; base diameter 0.5117 is ahead of the belt at 0.250 in. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "257-roberts-p",
+      "name": ".257 Roberts +P",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": "7x57mm Mauser",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.233,
+      "trimLength": null,
+      "maxCoal": 2.78,
+      "rimDiameter": 0.473,
+      "neckLength": 0.3213,
+      "baseDiameter": 0.4711,
+      "shoulderDiameter": 0.4294,
+      "neckDiameter": 0.29,
+      "lengthToShoulder": 1.7277,
+      "lengthToNeck": 1.9117,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 20.75,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.81, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.4711 at 0.200, shoulder 0.4294 at 1.7277, neck 0.29 at 1.9117 (intersections), case 2.233; neckLength is case minus length to neck; drawing shared by 257 Roberts and 257 Roberts +P; shoulder 20 deg 45' B. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "6-5-wby-rpm",
+      "name": "6.5 Weatherby RPM",
+      "kind": "saami",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.57,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.473,
+      "neckLength": 0.282,
+      "baseDiameter": 0.5,
+      "shoulderDiameter": 0.4739,
+      "neckDiameter": 0.295,
+      "lengthToShoulder": 2.1603,
+      "lengthToNeck": 2.288,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": "rebated",
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4",
+        "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "Library fill (empty fields only). ANSI/SAAMI Z299.4-2025 cartridge drawing p.38, maximum cartridge, inches from the head; SAAMI copying allowed per Kevin, 2026-10-29. Body 0.5 at 0.200, shoulder 0.4739 at 2.1603, neck 0.295 at 2.288 (intersections), case 2.57; neckLength is case minus length to neck; shoulder 35 deg B; rim 0.473 under body 0.500. Name, bullet, case length and max COAL copied from the library."
+    },
+    {
+      "id": "6-5-gap-4s",
+      "name": "6.5 G.A.P. 4S",
+      "kind": "cip",
+      "aliases": [
+        "6.5 GAP 4S",
+        "6,5 G.A.P. 4S"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.71,
+      "caseLength": 51.18,
+      "trimLength": null,
+      "maxCoal": 76.3,
+      "rimDiameter": 13.56,
+      "neckLength": 6.88,
+      "baseDiameter": 14.0,
+      "shoulderDiameter": 13.58,
+      "neckDiameter": 7.42,
+      "lengthToShoulder": 38.96,
+      "lengthToNeck": 44.3,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-gap-4s-190329-1-en.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5 G.A.P. 4S (dated 19-05-22, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.96, L2 44.3, L3 51.18, L6 76.3, R1 13.56, P1 14.0, P2 13.58, H1 7.42, Pmax 4400 bar. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "6-5mm-lahoz",
+      "name": "6.5mm Lahoz",
+      "kind": "cip",
+      "aliases": [
+        "6,5 mm Lahoz",
+        "6.5 Lahoz"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.71,
+      "caseLength": 42.87,
+      "trimLength": null,
+      "maxCoal": 57.4,
+      "rimDiameter": 11.45,
+      "neckLength": 5.57,
+      "baseDiameter": 11.41,
+      "shoulderDiameter": 10.94,
+      "neckDiameter": 7.55,
+      "lengthToShoulder": 33.52,
+      "lengthToNeck": 37.3,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3450,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-mm-lahoz-en.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm Lahoz (dated 11-05-25, origin FR), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 33.52, L2 37.3, L3 42.87, L6 57.4, R1 11.45, P1 11.41, P2 10.94, H1 7.55, Pmax 3450 bar. Cone angle alpha 48°18'15\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "6-5x64-brenneke",
+      "name": "6.5x64 Brenneke",
+      "kind": "cip",
+      "aliases": [
+        "6,5 x 64 Brenneke",
+        "6.5x64mm Brenneke"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.7,
+      "caseLength": 64.52,
+      "trimLength": null,
+      "maxCoal": 84.84,
+      "rimDiameter": 12.01,
+      "neckLength": 9.12,
+      "baseDiameter": 11.97,
+      "shoulderDiameter": 11.21,
+      "neckDiameter": 7.45,
+      "lengthToShoulder": 49.5,
+      "lengthToNeck": 55.4,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-x-64-brenneke-en.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x64 Brenneke (dated 92-02-27, rev. 13-05-22, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 49.5, L2 55.4, L3 64.52, L6 84.84, R1 12.01, P1 11.97, P2 11.21, H1 7.45, Pmax 4300 bar. Cone angle alpha 35°20'54\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "6mm-dbg",
+      "name": "6mm D.B.G.",
+      "kind": "cip",
+      "aliases": [
+        "6 mm D.B.G.",
+        "6mm DBG"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.17,
+      "caseLength": 41.0,
+      "trimLength": null,
+      "maxCoal": 58.0,
+      "rimDiameter": 10.72,
+      "neckLength": 5.09,
+      "baseDiameter": 10.65,
+      "shoulderDiameter": 10.34,
+      "neckDiameter": 6.77,
+      "lengthToShoulder": 32.82,
+      "lengthToNeck": 35.91,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4150,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-dbg-en.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm D.B.G. (dated 16-05-18, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 32.82, L2 35.91, L3 41.0, L6 58.0, R1 10.72, P1 10.65, P2 10.34, H1 6.77, Pmax 4150 bar. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "6x47-atzl",
+      "name": "6x47 Atzl",
+      "kind": "cip",
+      "aliases": [
+        "6 x 47 ATZL",
+        "6x47mm Atzl"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.17,
+      "caseLength": 47.0,
+      "trimLength": null,
+      "maxCoal": 63.0,
+      "rimDiameter": 9.6,
+      "neckLength": 7.07,
+      "baseDiameter": 9.56,
+      "shoulderDiameter": 9.07,
+      "neckDiameter": 6.65,
+      "lengthToShoulder": 37.08,
+      "lengthToNeck": 39.93,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-x-47-atzl-en.pdf",
+        "retrievedOn": "2026-10-29"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6x47 Atzl (dated 97-11-05, rev. 11-05-25, origin AT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 37.08, L2 39.93, L3 47.0, L6 63.0, R1 9.6, P1 9.56, P2 9.07, H1 6.65, Pmax 4050 bar. Cone angle alpha 46°00'30\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     }
   ],
   "aliases": []
