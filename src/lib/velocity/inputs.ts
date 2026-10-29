@@ -117,8 +117,9 @@ export function profileSurface(c: Cartridge): "chamber" | "case" | null {
   // a bot's own record may only carry a unit-conversion note, so also read its source name.
   const text = `${c.fieldNotes?.baseDiameterIn ?? ""} ${c.addedBy?.source.name ?? ""}`;
   if (/4D Reamer/i.test(text)) return "case";
-  // Checked before SAAMI: PTG print titles often contain "SAAMI" but are still chamber prints.
-  if (/Pacific Tool/i.test(text)) return "chamber";
+  // Checked before SAAMI: PTG print titles often contain "SAAMI" but are still chamber prints,
+  // and a SAAMI or C.I.P. chamber drawing is cited with the word "chamber".
+  if (/Pacific Tool|chamber/i.test(text)) return "chamber";
   // SAAMI Z299.4 and C.I.P. TDCC cartridge (case) drawings, and Sherman's own case figures.
   if (/SAAMI|C\.I\.P\.|Sherman Wildcat/i.test(text)) return "case";
   return null;
