@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-10-29",
+  "generatedOn": "2026-10-30",
   "bot": "load-data",
-  "cartridgeCount": 110,
+  "cartridgeCount": 196,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -3338,6 +3338,2962 @@
         "retrievedOn": "2026-10-29"
       },
       "note": "Fills the empty library profile. SAAMI Z299.4-2025 maximum cartridge drawing, p.151, inches; SAAMI copying allowed per Kevin, 2026-10-29. Belted; belt .6035 not stored. Body .5817 at .280 (belt front), shoulder .5642 at 2.345, neck .444 at 2.521 (intersections), lengths from the head, shoulder 45 deg basic, rim .579, case 2.913, COAL 3.650 min to 3.750 max. Neck .028 over the .416 bullet. neckLength is case length minus the length to the neck."
+    },
+    {
+      "id": "7x33-sako",
+      "name": "7x33 Sako",
+      "kind": "cip",
+      "aliases": [
+        "7 x 33 Sako"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.26,
+      "caseLength": 33.33,
+      "trimLength": null,
+      "maxCoal": 44.44,
+      "rimDiameter": 10.0,
+      "neckLength": 4.23,
+      "baseDiameter": 9.93,
+      "shoulderDiameter": 9.52,
+      "neckDiameter": 7.95,
+      "lengthToShoulder": 26.68,
+      "lengthToNeck": 29.1,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page32.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 x 33 Sako (dated 95-03-09, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.26, L1 26.68, L2 29.10, L3 33.33, L6 44.44, R1 10.00, P1 9.93, P2 9.52, H1 7.95, Pmax 2800 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7x44-penna",
+      "name": "7x44 Penna",
+      "kind": "cip",
+      "aliases": [
+        "7 X 44 Penna"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.04,
+      "caseLength": 44.5,
+      "trimLength": null,
+      "maxCoal": 60.0,
+      "rimDiameter": 9.6,
+      "neckLength": 5.83,
+      "baseDiameter": 9.58,
+      "shoulderDiameter": 9.03,
+      "neckDiameter": 7.6,
+      "lengthToShoulder": 35.0,
+      "lengthToNeck": 38.67,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/7-x-44-penna-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 X 44 Penna (dated 13-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.04, L1 35.00, L2 38.67, L3 44.50, L6 60.00, R1 9.60, P1 9.58, P2 9.03, H1 7.60, Pmax 4400 bar. Neck 0.56 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7-47-gs",
+      "name": "7-47 GS",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.06,
+      "caseLength": 47.0,
+      "trimLength": null,
+      "maxCoal": 71.0,
+      "rimDiameter": 12.01,
+      "neckLength": 8.1,
+      "baseDiameter": 11.95,
+      "shoulderDiameter": 11.59,
+      "neckDiameter": 7.77,
+      "lengthToShoulder": 35.68,
+      "lengthToNeck": 38.9,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4350,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/7-47-gs-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7-47 GS (dated 13-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.06, L1 35.68, L2 38.90, L3 47.00, L6 71.00, R1 12.01, P1 11.95, P2 11.59, H1 7.77, Pmax 4350 bar. Neck 0.71 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7mm-blaser-mag",
+      "name": "7mm Blaser Magnum",
+      "kind": "cip",
+      "aliases": [
+        "7 mm Blaser Mag."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.22,
+      "caseLength": 59.7,
+      "trimLength": null,
+      "maxCoal": 80.0,
+      "rimDiameter": 13.59,
+      "neckLength": 8.05,
+      "baseDiameter": 13.84,
+      "shoulderDiameter": 13.09,
+      "neckDiameter": 8.0,
+      "lengthToShoulder": 47.24,
+      "lengthToNeck": 51.65,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4200,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page36.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 mm Blaser Mag. (dated 09-05-05), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.22, L1 47.24, L2 51.65, L3 59.70, L6 80.00, R1 13.59, P1 13.84, P2 13.09, H1 8.00, Pmax 4200 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7mm-km",
+      "name": "7mm KM",
+      "kind": "cip",
+      "aliases": [
+        "7 mm KM"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.23,
+      "caseLength": 69.2,
+      "trimLength": null,
+      "maxCoal": 93.5,
+      "rimDiameter": 14.93,
+      "neckLength": 8.48,
+      "baseDiameter": 14.91,
+      "shoulderDiameter": 13.82,
+      "neckDiameter": 8.14,
+      "lengthToShoulder": 54.9,
+      "lengthToNeck": 60.72,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/7-mm-km-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 mm KM (dated 99-09-01, rev. 11-05-25), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.23, L1 54.90, L2 60.72, L3 69.20, L6 93.50, R1 14.93, P1 14.91, P2 13.82, H1 8.14, Pmax 4400 bar. Neck 0.91 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7mm-se-vh",
+      "name": "7mm SE v.H.",
+      "kind": "cip",
+      "aliases": [
+        "7 mm SE v.H."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.24,
+      "caseLength": 66.0,
+      "trimLength": null,
+      "maxCoal": 84.0,
+      "rimDiameter": 13.0,
+      "neckLength": 8.48,
+      "baseDiameter": 13.85,
+      "shoulderDiameter": 12.7,
+      "neckDiameter": 8.17,
+      "lengthToShoulder": 53.6,
+      "lengthToNeck": 57.52,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page42.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 mm SE v.H. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.24, L1 53.60, L2 57.52, L3 66.00, L6 84.00, R1 13.00, P1 13.85, P2 12.70, H1 8.17, Pmax 4400 bar. Neck 0.93 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7mm-zentile",
+      "name": "7mm Zentile",
+      "kind": "cip",
+      "aliases": [
+        "7 mm Zentile"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.23,
+      "caseLength": 45.0,
+      "trimLength": null,
+      "maxCoal": 65.0,
+      "rimDiameter": 13.59,
+      "neckLength": 8.48,
+      "baseDiameter": 14.12,
+      "shoulderDiameter": 13.76,
+      "neckDiameter": 8.0,
+      "lengthToShoulder": 33.09,
+      "lengthToNeck": 36.52,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/7-mm-zentile-190408-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7 mm Zentile (dated 18-10-17, rev. 19-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.23, L1 33.09, L2 36.52, L3 45.00, L6 65.00, R1 13.59, P1 14.12, P2 13.76, H1 8.00, Pmax 4400 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7-270-wsm",
+      "name": "7-270 Winchester Short Magnum",
+      "kind": "cip",
+      "aliases": [
+        "7-270 Win. Short Mag."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.22,
+      "caseLength": 53.34,
+      "trimLength": null,
+      "maxCoal": 72.64,
+      "rimDiameter": 13.59,
+      "neckLength": 7.03,
+      "baseDiameter": 35.0,
+      "shoulderDiameter": 13.67,
+      "neckDiameter": 8.01,
+      "lengthToShoulder": 42.27,
+      "lengthToNeck": 46.31,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/7-270-wsm-200824-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7-270 Win. Short Mag. (dated 20-11-10), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.22, L1 42.27, L2 46.31, L3 53.34, L6 72.64, R1 13.59, P1 35, P2 13.67, H1 8.01, Pmax 4400 bar. Neck 0.79 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7-62x45",
+      "name": "7.62x45",
+      "kind": "cip",
+      "aliases": [
+        "7,62 x 45"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.83,
+      "caseLength": 45.0,
+      "trimLength": null,
+      "maxCoal": 60.0,
+      "rimDiameter": 11.3,
+      "neckLength": 6.75,
+      "baseDiameter": 11.3,
+      "shoulderDiameter": 10.56,
+      "neckDiameter": 8.66,
+      "lengthToShoulder": 36.2,
+      "lengthToNeck": 38.25,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page48.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7,62 x 45 (dated 92-08-03, rev. 08-09-23), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.83, L1 36.20, L2 38.25, L3 45.00, L6 60.00, R1 11.30, P1 11.30, P2 10.56, H1 8.66, Pmax 4300 bar. Neck 0.83 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7-62-ukm",
+      "name": "7.62 UKM",
+      "kind": "cip",
+      "aliases": [
+        "7,62 UKM"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 57.0,
+      "trimLength": null,
+      "maxCoal": 79.0,
+      "rimDiameter": 14.93,
+      "neckLength": 8.04,
+      "baseDiameter": 14.91,
+      "shoulderDiameter": 14.08,
+      "neckDiameter": 8.68,
+      "lengthToShoulder": 41.57,
+      "lengthToNeck": 48.96,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page49.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 7,62 UKM (dated 02-01-22, rev. 08-09-23), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 41.57, L2 48.96, L3 57.00, L6 79.00, R1 14.93, P1 14.91, P2 14.08, H1 8.68, Pmax 4400 bar. Neck 0.83 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x51-mauser-k",
+      "name": "8x51 (Mauser K)",
+      "kind": "cip",
+      "aliases": [
+        "8 x 51 (Mauser K)"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.07,
+      "caseLength": 50.7,
+      "trimLength": null,
+      "maxCoal": 68.0,
+      "rimDiameter": 11.95,
+      "neckLength": 8.54,
+      "baseDiameter": 11.95,
+      "shoulderDiameter": 11.15,
+      "neckDiameter": 8.97,
+      "lengthToShoulder": 38.09,
+      "lengthToNeck": 42.16,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page54.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8 x 51 (Mauser K) (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.07, L1 38.09, L2 42.16, L3 50.70, L6 68.00, R1 11.95, P1 11.95, P2 11.15, H1 8.97, Pmax 3400 bar. Neck 0.90 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x56-ms",
+      "name": "8x56 Mannlicher-Schoenauer",
+      "kind": "cip",
+      "aliases": [
+        "8 x 56 M.-Sch."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.25,
+      "caseLength": 56.4,
+      "trimLength": null,
+      "maxCoal": 77.8,
+      "rimDiameter": 11.85,
+      "neckLength": 8.1,
+      "baseDiameter": 11.77,
+      "shoulderDiameter": 10.8,
+      "neckDiameter": 8.95,
+      "lengthToShoulder": 46.0,
+      "lengthToNeck": 48.3,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3200,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page55.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8 x 56 M.-Sch. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.25, L1 46.00, L2 48.30, L3 56.40, L6 77.80, R1 11.85, P1 11.77, P2 10.80, H1 8.95, Pmax 3200 bar. Neck 0.70 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x57-j",
+      "name": "8x57 I (8x57 J)",
+      "kind": "cip",
+      "aliases": [
+        "8 x 57 I"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.09,
+      "caseLength": 57.0,
+      "trimLength": null,
+      "maxCoal": 82.0,
+      "rimDiameter": 11.95,
+      "neckLength": 7.97,
+      "baseDiameter": 11.94,
+      "shoulderDiameter": 10.95,
+      "neckDiameter": 8.99,
+      "lengthToShoulder": 46.2,
+      "lengthToNeck": 49.03,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/8-x-57-i-250401-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8 x 57 I (dated 84-06-14, rev. 25-05-13), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.09, L1 46.20, L2 49.03, L3 57.00, L6 82.00, R1 11.95, P1 11.94, P2 10.95, H1 8.99, Pmax 3800 bar. Neck 0.90 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x64",
+      "name": "8x64",
+      "kind": "cip",
+      "aliases": [
+        "8 x 64"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.09,
+      "caseLength": 63.7,
+      "trimLength": null,
+      "maxCoal": 86.0,
+      "rimDiameter": 12.0,
+      "neckLength": 7.91,
+      "baseDiameter": 11.95,
+      "shoulderDiameter": 10.85,
+      "neckDiameter": 8.86,
+      "lengthToShoulder": 51.8,
+      "lengthToNeck": 55.79,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page61.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8 x 64 (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.09, L1 51.80, L2 55.79, L3 63.70, L6 86.00, R1 12.00, P1 11.95, P2 10.85, H1 8.86, Pmax 4050 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5x55-blaser",
+      "name": "8.5x55 Blaser",
+      "kind": "cip",
+      "aliases": [
+        "8,5 x 55 Blaser"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.59,
+      "caseLength": 54.7,
+      "trimLength": null,
+      "maxCoal": 75.84,
+      "rimDiameter": 13.59,
+      "neckLength": 9.02,
+      "baseDiameter": 13.84,
+      "shoulderDiameter": 13.17,
+      "neckDiameter": 9.36,
+      "lengthToShoulder": 42.38,
+      "lengthToNeck": 45.68,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/8-5-x-55-blaser-190411-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8,5 x 55 Blaser (dated 19-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.59, L1 42.38, L2 45.68, L3 54.70, L6 75.84, R1 13.59, P1 13.84, P2 13.17, H1 9.36, Pmax 4300 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5x63",
+      "name": "8.5x63",
+      "kind": "cip",
+      "aliases": [
+        "8,5 x 63"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.59,
+      "caseLength": 63.0,
+      "trimLength": null,
+      "maxCoal": 84.0,
+      "rimDiameter": 12.01,
+      "neckLength": 8.31,
+      "baseDiameter": 11.89,
+      "shoulderDiameter": 11.47,
+      "neckDiameter": 9.33,
+      "lengthToShoulder": 53.42,
+      "lengthToNeck": 54.69,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/8-5-x-63-210205-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8,5 x 63 (dated 92-02-27, rev. 21-04-07), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.59, L1 53.42, L2 54.69, L3 63.00, L6 84.00, R1 12.01, P1 11.89, P2 11.47, H1 9.33, Pmax 4300 bar. Neck 0.74 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5x68-fanzoj",
+      "name": "8.5x68 Fanzoj",
+      "kind": "cip",
+      "aliases": [
+        "8,5 x 68 Fanzoj"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.59,
+      "caseLength": 67.5,
+      "trimLength": null,
+      "maxCoal": 87.0,
+      "rimDiameter": 13.0,
+      "neckLength": 9.1,
+      "baseDiameter": 13.3,
+      "shoulderDiameter": 12.15,
+      "neckDiameter": 9.45,
+      "lengthToShoulder": 53.2,
+      "lengthToNeck": 58.4,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/8-5-x-68-fanzoj-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8,5 x 68 Fanzoj (dated 12-05-30), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.59, L1 53.20, L2 58.40, L3 67.50, L6 87.00, R1 13.00, P1 13.30, P2 12.15, H1 9.45, Pmax 4400 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5-messner-mag",
+      "name": "8.5mm Messner Magnum",
+      "kind": "cip",
+      "aliases": [
+        "8,5 mm Messner Mag."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.59,
+      "caseLength": 63.85,
+      "trimLength": null,
+      "maxCoal": 88.0,
+      "rimDiameter": 13.6,
+      "neckLength": 8.84,
+      "baseDiameter": 14.35,
+      "shoulderDiameter": 13.93,
+      "neckDiameter": 9.35,
+      "lengthToShoulder": 50.88,
+      "lengthToNeck": 55.01,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/8-5-mm-messner-mag-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 8,5 mm Messner Mag. (dated 13-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.59, L1 50.88, L2 55.01, L3 63.85, L6 88.00, R1 13.60, P1 14.35, P2 13.93, H1 9.35, Pmax 4400 bar. Neck 0.76 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9x56-ms",
+      "name": "9x56 Mannlicher-Schoenauer",
+      "kind": "cip",
+      "aliases": [
+        "9 x 56 M.-Sch."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.08,
+      "caseLength": 56.3,
+      "trimLength": null,
+      "maxCoal": 81.0,
+      "rimDiameter": 11.9,
+      "neckLength": 8.3,
+      "baseDiameter": 11.8,
+      "shoulderDiameter": 10.7,
+      "neckDiameter": 9.65,
+      "lengthToShoulder": 46.48,
+      "lengthToNeck": 48.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2080,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page66.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 9 x 56 M.-Sch. (dated 95-06-28, rev. 05-07-01), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.08, L1 46.48, L2 48.00, L3 56.30, L6 81.00, R1 11.90, P1 11.80, P2 10.70, H1 9.65, Pmax 2080 bar. Neck 0.57 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9-5x57-ms",
+      "name": "9.5x57 Mannlicher-Schoenauer",
+      "kind": "cip",
+      "aliases": [
+        "9,5 x 57 M.-Sch."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.55,
+      "caseLength": 57.0,
+      "trimLength": null,
+      "maxCoal": 75.0,
+      "rimDiameter": 11.9,
+      "neckLength": 8.98,
+      "baseDiameter": 11.9,
+      "shoulderDiameter": 11.4,
+      "neckDiameter": 10.23,
+      "lengthToShoulder": 46.5,
+      "lengthToNeck": 48.02,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page72.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 9,5 x 57 M.-Sch. (dated 95-06-28, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 46.50, L2 48.02, L3 57.00, L6 75.00, R1 11.90, P1 11.90, P2 11.40, H1 10.23, Pmax 3050 bar. Neck 0.68 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9-5x66-se-vh",
+      "name": "9.5x66 SE v.H.",
+      "kind": "cip",
+      "aliases": [
+        "9,5 x 66 SE v. H."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.55,
+      "caseLength": 66.0,
+      "trimLength": null,
+      "maxCoal": 85.0,
+      "rimDiameter": 13.0,
+      "neckLength": 9.0,
+      "baseDiameter": 13.85,
+      "shoulderDiameter": 13.7,
+      "neckDiameter": 10.26,
+      "lengthToShoulder": 55.0,
+      "lengthToNeck": 57.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page73.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 9,5 x 66 SE v. H. (dated 96-05-24, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 55.00, L2 57.00, L3 66.00, L6 85.00, R1 13.00, P1 13.85, P2 13.70, H1 10.26, Pmax 4400 bar. Neck 0.71 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "10-3-capra",
+      "name": "10.3 Capra",
+      "kind": "cip",
+      "aliases": [
+        "10,3 Capra"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.54,
+      "caseLength": 68.51,
+      "trimLength": null,
+      "maxCoal": 84.0,
+      "rimDiameter": 12.01,
+      "neckLength": 13.73,
+      "baseDiameter": 12.57,
+      "shoulderDiameter": 12.2,
+      "neckDiameter": 11.1,
+      "lengthToShoulder": 53.58,
+      "lengthToNeck": 54.78,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4100,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/10-3-capra-180313-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 10,3 Capra (dated 18-05-16), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.54, L1 53.58, L2 54.78, L3 68.51, L6 84.00, R1 12.01, P1 12.57, P2 12.20, H1 11.10, Pmax 4100 bar. Neck 0.56 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "10-3-csp",
+      "name": "10.3 CSP",
+      "kind": "cip",
+      "aliases": [
+        "10,3 CSP"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.54,
+      "caseLength": 52.5,
+      "trimLength": null,
+      "maxCoal": 72.7,
+      "rimDiameter": 13.59,
+      "neckLength": 8.61,
+      "baseDiameter": 14.12,
+      "shoulderDiameter": 13.67,
+      "neckDiameter": 11.4,
+      "lengthToShoulder": 42.27,
+      "lengthToNeck": 43.89,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/10-3-csp-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 10,3 CSP (dated 16-05-18), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.54, L1 42.27, L2 43.89, L3 52.50, L6 72.70, R1 13.59, P1 14.12, P2 13.67, H1 11.40, Pmax 4400 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "12-7x70-schuler",
+      "name": "12.7x70 (500 Schüler)",
+      "kind": "cip",
+      "aliases": [
+        "12,7 x 70 (500 Schüler)"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 12.96,
+      "caseLength": 70.0,
+      "trimLength": null,
+      "maxCoal": 88.0,
+      "rimDiameter": 14.65,
+      "neckLength": 8.7,
+      "baseDiameter": 15.73,
+      "shoulderDiameter": 15.32,
+      "neckDiameter": 13.65,
+      "lengthToShoulder": 59.0,
+      "lengthToNeck": 61.3,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page75.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 12,7 x 70 (500 Schüler) (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 12.96, L1 59.00, L2 61.30, L3 70.00, L6 88.00, R1 14.65, P1 15.73, P2 15.32, H1 13.65, Pmax 3300 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "12-7x108",
+      "name": "12.7x108",
+      "kind": "cip",
+      "aliases": [
+        "12,7 x 108"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 13.01,
+      "caseLength": 108.0,
+      "trimLength": null,
+      "maxCoal": 147.0,
+      "rimDiameter": 21.8,
+      "neckLength": 15.4,
+      "baseDiameter": 21.85,
+      "shoulderDiameter": 19.05,
+      "neckDiameter": 14.05,
+      "lengthToShoulder": 84.8,
+      "lengthToNeck": 92.6,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/12-7-x-108-170419-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 12,7 x 108 (dated 17-05-17), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 13.01, L1 84.80, L2 92.60, L3 108.00, L6 147.00, R1 21.80, P1 21.85, P2 19.05, H1 14.05, Pmax 3050 bar. Neck 1.04 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "275-hv-rigby",
+      "name": "275 H.V. Rigby",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.21,
+      "caseLength": 56.9,
+      "trimLength": null,
+      "maxCoal": 77.98,
+      "rimDiameter": 12.06,
+      "neckLength": 9.55,
+      "baseDiameter": 12.04,
+      "shoulderDiameter": 10.87,
+      "neckDiameter": 8.23,
+      "lengthToShoulder": 43.79,
+      "lengthToNeck": 47.35,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3200,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page101.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 275 H.V. Rigby (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.21, L1 43.79, L2 47.35, L3 56.90, L6 77.98, R1 12.06, P1 12.04, P2 10.87, H1 8.23, Pmax 3200 bar. Neck 1.02 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "277-gs",
+      "name": "277 GS",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.06,
+      "caseLength": 67.0,
+      "trimLength": null,
+      "maxCoal": 87.0,
+      "rimDiameter": 13.0,
+      "neckLength": 7.03,
+      "baseDiameter": 13.3,
+      "shoulderDiameter": 12.8,
+      "neckDiameter": 7.94,
+      "lengthToShoulder": 56.5,
+      "lengthToNeck": 59.97,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/277-gs-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 277 GS (dated 96-11-26, rev. 11-05-25), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.06, L1 56.50, L2 59.97, L3 67.00, L6 87.00, R1 13.00, P1 13.30, P2 12.80, H1 7.94, Pmax 4400 bar. Neck 0.88 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "280-ross-rimmed",
+      "name": "280 Rimmed Nitro Express Ross",
+      "kind": "cip",
+      "aliases": [
+        "280 Riml. N.E. Ross"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.29,
+      "caseLength": 66.32,
+      "trimLength": null,
+      "maxCoal": 87.88,
+      "rimDiameter": 14.22,
+      "neckLength": 8.33,
+      "baseDiameter": 13.59,
+      "shoulderDiameter": 10.72,
+      "neckDiameter": 8.13,
+      "lengthToShoulder": 55.4,
+      "lengthToNeck": 57.99,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3250,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page104.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 280 Riml. N.E. Ross (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.29, L1 55.40, L2 57.99, L3 66.32, L6 87.88, R1 14.22, P1 13.59, P2 10.72, H1 8.13, Pmax 3250 bar. Neck 0.84 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "284-tony",
+      "name": "284 Tony",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.21,
+      "caseLength": 54.87,
+      "trimLength": null,
+      "maxCoal": 78.0,
+      "rimDiameter": 12.01,
+      "neckLength": 7.07,
+      "baseDiameter": 12.69,
+      "shoulderDiameter": 12.29,
+      "neckDiameter": 8.0,
+      "lengthToShoulder": 44.74,
+      "lengthToNeck": 47.8,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/284-tony-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 284 Tony (dated 16-10-18), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.21, L1 44.74, L2 47.80, L3 54.87, L6 78.00, R1 12.01, P1 12.69, P2 12.29, H1 8.00, Pmax 4400 bar. Neck 0.79 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-rem",
+      "name": "30 Remington",
+      "kind": "cip",
+      "aliases": [
+        "30 Rem."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.8,
+      "caseLength": 52.07,
+      "trimLength": null,
+      "maxCoal": 64.14,
+      "rimDiameter": 10.72,
+      "neckLength": 11.97,
+      "baseDiameter": 10.71,
+      "shoulderDiameter": 10.19,
+      "neckDiameter": 8.45,
+      "lengthToShoulder": 38.05,
+      "lengthToNeck": 40.1,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page108.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 30 Rem. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.80, L1 38.05, L2 40.10, L3 52.07, L6 64.14, R1 10.72, P1 10.71, P2 10.19, H1 8.45, Pmax 2800 bar. Neck 0.65 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-06-court",
+      "name": "30-06 Court Cartry",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 60.8,
+      "trimLength": null,
+      "maxCoal": 82.3,
+      "rimDiameter": 12.01,
+      "neckLength": 7.24,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 11.2,
+      "neckDiameter": 8.63,
+      "lengthToShoulder": 49.49,
+      "lengthToNeck": 53.56,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3500,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page110.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 30-06 Court Cartry (dated 95-12-10, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 49.49, L2 53.56, L3 60.80, L6 82.30, R1 12.01, P1 11.96, P2 11.20, H1 8.63, Pmax 3500 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-284-nolasco",
+      "name": "30-284 Nolasco",
+      "kind": "cip",
+      "aliases": [
+        "30-284 NOLASCO"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 55.1,
+      "trimLength": null,
+      "maxCoal": 76.0,
+      "rimDiameter": 12.01,
+      "neckLength": 7.74,
+      "baseDiameter": 12.72,
+      "shoulderDiameter": 12.06,
+      "neckDiameter": 8.72,
+      "lengthToShoulder": 44.98,
+      "lengthToNeck": 47.36,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page112.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 30-284 NOLASCO (dated 07-05-14, rev. 09-05-05), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 44.98, L2 47.36, L3 55.10, L6 76.00, R1 12.01, P1 12.72, P2 12.06, H1 8.72, Pmax 3800 bar. Neck 0.87 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-47-gs",
+      "name": "30-47 GS",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.82,
+      "caseLength": 47.0,
+      "trimLength": null,
+      "maxCoal": 66.6,
+      "rimDiameter": 12.01,
+      "neckLength": 8.5,
+      "baseDiameter": 11.95,
+      "shoulderDiameter": 11.59,
+      "neckDiameter": 8.33,
+      "lengthToShoulder": 35.68,
+      "lengthToNeck": 38.5,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4350,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/30-47-gs-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 30-47 GS (dated 14-05-20), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.82, L1 35.68, L2 38.50, L3 47.00, L6 66.60, R1 12.01, P1 11.95, P2 11.59, H1 8.33, Pmax 4350 bar. Neck 0.51 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "300-blacktornado",
+      "name": "300 Blacktornado",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.83,
+      "caseLength": 62.0,
+      "trimLength": null,
+      "maxCoal": 84.0,
+      "rimDiameter": 14.85,
+      "neckLength": 11.7,
+      "baseDiameter": 14.74,
+      "shoulderDiameter": 14.26,
+      "neckDiameter": 8.56,
+      "lengthToShoulder": 46.9,
+      "lengthToNeck": 50.3,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/300-blacktornado-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 300 Blacktornado (dated 15-05-19, rev. 16-05-18), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.83, L1 46.90, L2 50.30, L3 62.00, L6 84.00, R1 14.85, P1 14.74, P2 14.26, H1 8.56, Pmax 4400 bar. Neck 0.73 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "300-cr",
+      "name": "300 CR",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 51.06,
+      "trimLength": null,
+      "maxCoal": 71.0,
+      "rimDiameter": 12.01,
+      "neckLength": 9.14,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 11.34,
+      "neckDiameter": 8.65,
+      "lengthToShoulder": 39.59,
+      "lengthToNeck": 41.92,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page115.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 300 CR (dated 06-05-16, rev. 08-04-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 39.59, L2 41.92, L3 51.06, L6 71.00, R1 12.01, P1 11.96, P2 11.34, H1 8.65, Pmax 4300 bar. Neck 0.80 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "300-pegasus",
+      "name": "300 Pegasus",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.82,
+      "caseLength": 75.95,
+      "trimLength": null,
+      "maxCoal": 95.25,
+      "rimDiameter": 14.73,
+      "neckLength": 8.29,
+      "baseDiameter": 14.73,
+      "shoulderDiameter": 14.38,
+      "neckDiameter": 8.61,
+      "lengthToShoulder": 62.23,
+      "lengthToNeck": 67.66,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/300-pegasus-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 300 Pegasus (dated 14-05-20), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.82, L1 62.23, L2 67.66, L3 75.95, L6 95.25, R1 14.73, P1 14.73, P2 14.38, H1 8.61, Pmax 4300 bar. Neck 0.79 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "308-eh",
+      "name": "308 EH",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 41.0,
+      "trimLength": null,
+      "maxCoal": 57.5,
+      "rimDiameter": 12.01,
+      "neckLength": 6.69,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 11.53,
+      "neckDiameter": 8.72,
+      "lengthToShoulder": 30.45,
+      "lengthToNeck": 34.31,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page123.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 308 EH (dated 89-09-20, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 30.45, L2 34.31, L3 41.00, L6 57.50, R1 12.01, P1 11.96, P2 11.53, H1 8.72, Pmax 3800 bar. Neck 0.87 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "308-match",
+      "name": "308 Match",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.84,
+      "caseLength": 51.18,
+      "trimLength": null,
+      "maxCoal": 71.12,
+      "rimDiameter": 12.01,
+      "neckLength": 7.7,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 11.53,
+      "neckDiameter": 8.72,
+      "lengthToShoulder": 39.62,
+      "lengthToNeck": 43.48,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4150,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/308-match-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 308 Match (dated 14-05-20), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.84, L1 39.62, L2 43.48, L3 51.18, L6 71.12, R1 12.01, P1 11.96, P2 11.53, H1 8.72, Pmax 4150 bar. Neck 0.88 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "318-rimless-ne",
+      "name": "318 Rimless Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "318 Riml. N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.38,
+      "caseLength": 60.96,
+      "trimLength": null,
+      "maxCoal": 89.66,
+      "rimDiameter": 11.89,
+      "neckLength": 9.09,
+      "baseDiameter": 11.89,
+      "shoulderDiameter": 11.23,
+      "neckDiameter": 9.14,
+      "lengthToShoulder": 49.63,
+      "lengthToNeck": 51.87,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/318-riml-ne-200421-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 318 Riml. N.E. (dated 84-06-14, rev. 20-04-21), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.38, L1 49.63, L2 51.87, L3 60.96, L6 89.66, R1 11.89, P1 11.89, P2 11.23, H1 9.14, Pmax 3300 bar. Neck 0.76 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "32-rem",
+      "name": "32 Remington",
+      "kind": "cip",
+      "aliases": [
+        "32 Rem."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.15,
+      "caseLength": 52.07,
+      "trimLength": null,
+      "maxCoal": 64.14,
+      "rimDiameter": 10.72,
+      "neckLength": 12.4,
+      "baseDiameter": 10.71,
+      "shoulderDiameter": 10.19,
+      "neckDiameter": 8.81,
+      "lengthToShoulder": 38.05,
+      "lengthToNeck": 39.67,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2950,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page127.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 32 Rem. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.15, L1 38.05, L2 39.67, L3 52.07, L6 64.14, R1 10.72, P1 10.71, P2 10.19, H1 8.81, Pmax 2950 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "333-rimless-ne",
+      "name": "333 Rimless Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "333 Riml. N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.46,
+      "caseLength": 62.86,
+      "trimLength": null,
+      "maxCoal": 88.9,
+      "rimDiameter": 13.79,
+      "neckLength": 13.66,
+      "baseDiameter": 13.84,
+      "shoulderDiameter": 12.7,
+      "neckDiameter": 9.27,
+      "lengthToShoulder": 44.45,
+      "lengthToNeck": 49.2,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page129.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 333 Riml. N.E. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.46, L1 44.45, L2 49.20, L3 62.86, L6 88.90, R1 13.79, P1 13.84, P2 12.70, H1 9.27, Pmax 3300 bar. Neck 0.81 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "375-holderlin",
+      "name": "375 Hölderlin",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.55,
+      "caseLength": 67.5,
+      "trimLength": null,
+      "maxCoal": 87.0,
+      "rimDiameter": 13.0,
+      "neckLength": 10.93,
+      "baseDiameter": 13.3,
+      "shoulderDiameter": 12.15,
+      "neckDiameter": 10.4,
+      "lengthToShoulder": 53.2,
+      "lengthToNeck": 56.57,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page141.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 375 Hölderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 13.00, P1 13.30, P2 12.15, H1 10.40, Pmax 3800 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "416-tyr",
+      "name": "416 TYR",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.57,
+      "caseLength": 80.3,
+      "trimLength": null,
+      "maxCoal": 118.5,
+      "rimDiameter": 17.78,
+      "neckLength": 11.3,
+      "baseDiameter": 17.78,
+      "shoulderDiameter": 16.8,
+      "neckDiameter": 11.55,
+      "lengthToShoulder": 64.06,
+      "lengthToNeck": 69.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/416-tyr-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 416 TYR (dated 14-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 64.06, L2 69.00, L3 80.30, L6 118.50, R1 17.78, P1 17.78, P2 16.80, H1 11.55, Pmax 4400 bar. Neck 0.98 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "460-steyr",
+      "name": "460 Steyr",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 11.65,
+      "caseLength": 90.0,
+      "trimLength": null,
+      "maxCoal": 140.0,
+      "rimDiameter": 20.42,
+      "neckLength": 13.47,
+      "baseDiameter": 20.42,
+      "shoulderDiameter": 18.25,
+      "neckDiameter": 12.72,
+      "lengthToShoulder": 71.4,
+      "lengthToNeck": 76.53,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3700,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page151.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 460 Steyr (dated 06-05-16), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 11.65, L1 71.40, L2 76.53, L3 90.00, L6 140.00, R1 20.42, P1 20.42, P2 18.25, H1 12.72, Pmax 3700 bar. Neck 1.07 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "500-jeffery",
+      "name": "500 Jeffery",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 12.95,
+      "caseLength": 69.85,
+      "trimLength": null,
+      "maxCoal": 88.09,
+      "rimDiameter": 14.61,
+      "neckLength": 8.33,
+      "baseDiameter": 15.72,
+      "shoulderDiameter": 15.42,
+      "neckDiameter": 13.67,
+      "lengthToShoulder": 57.61,
+      "lengthToNeck": 61.52,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page153.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 500 Jeffery (dated 99-01-12, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 12.95, L1 57.61, L2 61.52, L3 69.85, L6 88.09, R1 14.61, P1 15.72, P2 15.42, H1 13.67, Pmax 3300 bar. Neck 0.72 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7x50r",
+      "name": "7x50 R",
+      "kind": "cip",
+      "aliases": [
+        "7 x 50 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.25,
+      "caseLength": 49.5,
+      "trimLength": null,
+      "maxCoal": 68.0,
+      "rimDiameter": 10.9,
+      "neckLength": 6.6,
+      "baseDiameter": 9.59,
+      "shoulderDiameter": 9.4,
+      "neckDiameter": 7.83,
+      "lengthToShoulder": 41.97,
+      "lengthToNeck": 42.9,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3650,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page21.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 7 x 50 R (dated 92-02-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.25, L1 41.97, L2 42.90, L3 49.50, L6 68.00, R1 10.90, P1 9.59, P2 9.40, H1 7.83, Pmax 3650 bar. Neck 0.58 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "275-hh-flanged",
+      "name": "7mm (275) Magnum Flanged H&H",
+      "kind": "cip",
+      "aliases": [
+        "7 mm Mag.Fl. H&H"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.21,
+      "caseLength": 63.5,
+      "trimLength": null,
+      "maxCoal": 82.8,
+      "rimDiameter": 12.95,
+      "neckLength": 8.89,
+      "baseDiameter": 11.68,
+      "shoulderDiameter": 10.29,
+      "neckDiameter": 8.08,
+      "lengthToShoulder": 49.53,
+      "lengthToNeck": 54.61,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page23.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 7 mm Mag.Fl. H&H (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.21, L1 49.53, L2 54.61, L3 63.50, L6 82.80, R1 12.95, P1 11.68, P2 10.29, H1 8.08, Pmax 3300 bar. Neck 0.87 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7x75r-se-vh",
+      "name": "7x75 R SE v.H.",
+      "kind": "cip",
+      "aliases": [
+        "7 x 75 R SE.v. H."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.24,
+      "caseLength": 75.0,
+      "trimLength": null,
+      "maxCoal": 97.0,
+      "rimDiameter": 13.35,
+      "neckLength": 8.2,
+      "baseDiameter": 11.9,
+      "shoulderDiameter": 10.7,
+      "neckDiameter": 7.95,
+      "lengthToShoulder": 59.0,
+      "lengthToNeck": 66.8,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4150,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page27.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 7 x 75 R SE.v. H. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.24, L1 59.00, L2 66.80, L3 75.00, L6 97.00, R1 13.35, P1 11.90, P2 10.70, H1 7.95, Pmax 4150 bar. Neck 0.71 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "7-62x53r",
+      "name": "7.62x53 R",
+      "kind": "cip",
+      "aliases": [
+        "7,62 x 53 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 53.5,
+      "trimLength": null,
+      "maxCoal": 77.0,
+      "rimDiameter": 14.4,
+      "neckLength": 9.45,
+      "baseDiameter": 12.42,
+      "shoulderDiameter": 11.61,
+      "neckDiameter": 8.55,
+      "lengthToShoulder": 39.61,
+      "lengthToNeck": 44.05,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3900,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page28.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 7,62 x 53 R (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 39.61, L2 44.05, L3 53.50, L6 77.00, R1 14.40, P1 12.42, P2 11.61, H1 8.55, Pmax 3900 bar. Neck 0.70 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x50r",
+      "name": "8x50 R",
+      "kind": "cip",
+      "aliases": [
+        "8 x 50 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 50.2,
+      "trimLength": null,
+      "maxCoal": 76.0,
+      "rimDiameter": 14.2,
+      "neckLength": 6.03,
+      "baseDiameter": 12.6,
+      "shoulderDiameter": 12.09,
+      "neckDiameter": 9.04,
+      "lengthToShoulder": 38.29,
+      "lengthToNeck": 44.17,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3550,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page30.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 50 R (dated 89-10-06, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 38.29, L2 44.17, L3 50.20, L6 76.00, R1 14.20, P1 12.60, P2 12.09, H1 9.04, Pmax 3550 bar. Neck 0.82 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x56r",
+      "name": "8x56 R (M30S)",
+      "kind": "cip",
+      "aliases": [
+        "8 x 56 R M30S"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.4,
+      "caseLength": 55.75,
+      "trimLength": null,
+      "maxCoal": 76.5,
+      "rimDiameter": 14.2,
+      "neckLength": 6.22,
+      "baseDiameter": 12.55,
+      "shoulderDiameter": 12.15,
+      "neckDiameter": 9.1,
+      "lengthToShoulder": 37.03,
+      "lengthToNeck": 49.53,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3550,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page31.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 56 R M30S (dated 88-01-30, rev. 06-08-02), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.40, L1 37.03, L2 49.53, L3 55.75, L6 76.50, R1 14.20, P1 12.55, P2 12.15, H1 9.10, Pmax 3550 bar. Neck 0.70 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x56r-kropatschek",
+      "name": "8x56 R M89 Portuguese Kropatschek",
+      "kind": "cip",
+      "aliases": [
+        "8 x 56 R M89 Port. Krop."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.2,
+      "caseLength": 56.0,
+      "trimLength": null,
+      "maxCoal": 81.0,
+      "rimDiameter": 15.9,
+      "neckLength": 11.75,
+      "baseDiameter": 13.85,
+      "shoulderDiameter": 12.0,
+      "neckDiameter": 9.0,
+      "lengthToShoulder": 38.65,
+      "lengthToNeck": 44.25,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/8-x-56-r-m89-p-k-220214-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 56 R M89 Port. Krop. (dated 84-06-14, rev. 22-04-26), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.20, L1 38.65, L2 44.25, L3 56.00, L6 81.00, R1 15.90, P1 13.85, P2 12.00, H1 9.00, Pmax 3400 bar. Neck 0.80 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x57r-360",
+      "name": "8x57 R 360",
+      "kind": "cip",
+      "aliases": [
+        "8 x 57 R 360"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.09,
+      "caseLength": 57.0,
+      "trimLength": null,
+      "maxCoal": 77.0,
+      "rimDiameter": 12.4,
+      "neckLength": 9.0,
+      "baseDiameter": 11.0,
+      "shoulderDiameter": 9.7,
+      "neckDiameter": 8.78,
+      "lengthToShoulder": 46.0,
+      "lengthToNeck": 48.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2450,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page33.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 57 R 360 (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.09, L1 46.00, L2 48.00, L3 57.00, L6 77.00, R1 12.40, P1 11.00, P2 9.70, H1 8.78, Pmax 2450 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x57-jrs",
+      "name": "8x57 IRS (8x57 JRS)",
+      "kind": "cip",
+      "aliases": [
+        "8 x 57 IRS"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 57.0,
+      "trimLength": null,
+      "maxCoal": 82.0,
+      "rimDiameter": 13.32,
+      "neckLength": 8.15,
+      "baseDiameter": 11.92,
+      "shoulderDiameter": 10.95,
+      "neckDiameter": 9.08,
+      "lengthToShoulder": 46.0,
+      "lengthToNeck": 48.85,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/8-x-57-irs-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 57 IRS (dated 84-06-14, rev. 16-05-18), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 46.00, L2 48.85, L3 57.00, L6 82.00, R1 13.32, P1 11.92, P2 10.95, H1 9.08, Pmax 3300 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x60r",
+      "name": "8x60 R",
+      "kind": "cip",
+      "aliases": [
+        "8 x 60 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.09,
+      "caseLength": 60.0,
+      "trimLength": null,
+      "maxCoal": 82.0,
+      "rimDiameter": 13.4,
+      "neckLength": 8.95,
+      "baseDiameter": 12.03,
+      "shoulderDiameter": 10.95,
+      "neckDiameter": 8.99,
+      "lengthToShoulder": 48.22,
+      "lengthToNeck": 51.05,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page37.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 60 R (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.09, L1 48.22, L2 51.05, L3 60.00, L6 82.00, R1 13.40, P1 12.03, P2 10.95, H1 8.99, Pmax 3400 bar. Neck 0.90 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x60rs",
+      "name": "8x60 RS",
+      "kind": "cip",
+      "aliases": [
+        "8 x 60 RS"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 60.0,
+      "trimLength": null,
+      "maxCoal": 83.6,
+      "rimDiameter": 13.4,
+      "neckLength": 9.08,
+      "baseDiameter": 12.03,
+      "shoulderDiameter": 10.95,
+      "neckDiameter": 9.08,
+      "lengthToShoulder": 48.22,
+      "lengthToNeck": 50.92,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page38.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 60 RS (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 48.22, L2 50.92, L3 60.00, L6 83.60, R1 13.40, P1 12.03, P2 10.95, H1 9.08, Pmax 3400 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x65r",
+      "name": "8x65 R",
+      "kind": "cip",
+      "aliases": [
+        "8 x 65 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.09,
+      "caseLength": 64.7,
+      "trimLength": null,
+      "maxCoal": 86.0,
+      "rimDiameter": 13.32,
+      "neckLength": 8.91,
+      "baseDiameter": 11.95,
+      "shoulderDiameter": 10.85,
+      "neckDiameter": 8.86,
+      "lengthToShoulder": 51.8,
+      "lengthToNeck": 55.79,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3900,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page39.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 65 R (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.09, L1 51.80, L2 55.79, L3 64.70, L6 86.00, R1 13.32, P1 11.95, P2 10.85, H1 8.86, Pmax 3900 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x65rs",
+      "name": "8x65 RS",
+      "kind": "cip",
+      "aliases": [
+        "8 x 65 RS"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 65.0,
+      "trimLength": null,
+      "maxCoal": 87.5,
+      "rimDiameter": 13.32,
+      "neckLength": 9.41,
+      "baseDiameter": 11.99,
+      "shoulderDiameter": 10.85,
+      "neckDiameter": 8.96,
+      "lengthToShoulder": 51.8,
+      "lengthToNeck": 55.59,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page40.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 65 RS (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 51.80, L2 55.59, L3 65.00, L6 87.50, R1 13.32, P1 11.99, P2 10.85, H1 8.96, Pmax 4050 bar. Neck 0.74 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8x75rs",
+      "name": "8x75 RS",
+      "kind": "cip",
+      "aliases": [
+        "8 x 75 RS"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 74.6,
+      "trimLength": null,
+      "maxCoal": 96.0,
+      "rimDiameter": 13.35,
+      "neckLength": 5.54,
+      "baseDiameter": 11.9,
+      "shoulderDiameter": 10.4,
+      "neckDiameter": 9.08,
+      "lengthToShoulder": 66.2,
+      "lengthToNeck": 69.06,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page42.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 x 75 RS (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 66.20, L2 69.06, L3 74.60, L6 96.00, R1 13.35, P1 11.90, P2 10.40, H1 9.08, Pmax 3800 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8mm-348-win",
+      "name": "8mm-348 Winchester",
+      "kind": "cip",
+      "aliases": [
+        "8 mm – 348 Win."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 57.28,
+      "trimLength": null,
+      "maxCoal": 82.0,
+      "rimDiameter": 15.49,
+      "neckLength": 10.4,
+      "baseDiameter": 14.05,
+      "shoulderDiameter": 12.32,
+      "neckDiameter": 8.88,
+      "lengthToShoulder": 41.91,
+      "lengthToNeck": 46.88,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3000,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page43.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 mm – 348 Win. (dated 99-03-16, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 41.91, L2 46.88, L3 57.28, L6 82.00, R1 15.49, P1 14.05, P2 12.32, H1 8.88, Pmax 3000 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-2x53r",
+      "name": "8.2x53 R",
+      "kind": "cip",
+      "aliases": [
+        "8,2 x 53 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.22,
+      "caseLength": 53.3,
+      "trimLength": null,
+      "maxCoal": 76.0,
+      "rimDiameter": 14.4,
+      "neckLength": 9.75,
+      "baseDiameter": 12.42,
+      "shoulderDiameter": 11.61,
+      "neckDiameter": 8.9,
+      "lengthToShoulder": 39.61,
+      "lengthToNeck": 43.55,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page45.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8,2 x 53 R (dated 95-03-09, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 39.61, L2 43.55, L3 53.30, L6 76.00, R1 14.40, P1 12.42, P2 11.61, H1 8.90, Pmax 3400 bar. Neck 0.68 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5x63r",
+      "name": "8.5x63 R",
+      "kind": "cip",
+      "aliases": [
+        "8,5 x 63 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.59,
+      "caseLength": 63.0,
+      "trimLength": null,
+      "maxCoal": 84.0,
+      "rimDiameter": 13.32,
+      "neckLength": 8.31,
+      "baseDiameter": 11.91,
+      "shoulderDiameter": 11.47,
+      "neckDiameter": 9.33,
+      "lengthToShoulder": 53.42,
+      "lengthToNeck": 54.69,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/8-3-x-63-r-210205-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8,5 x 63 R (dated 92-02-27, rev. 21-04-07), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.59, L1 53.42, L2 54.69, L3 63.00, L6 84.00, R1 13.32, P1 11.91, P2 11.47, H1 9.33, Pmax 3800 bar. Neck 0.74 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "8-5x75r-scheiring",
+      "name": "8.5x75 R Scheiring",
+      "kind": "cip",
+      "aliases": [
+        "8,5 x 75 R Scheiring"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 8.61,
+      "caseLength": 74.7,
+      "trimLength": null,
+      "maxCoal": 96.0,
+      "rimDiameter": 13.35,
+      "neckLength": 6.2,
+      "baseDiameter": 11.9,
+      "shoulderDiameter": 11.43,
+      "neckDiameter": 9.41,
+      "lengthToShoulder": 67.3,
+      "lengthToNeck": 68.5,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/8-5-x-75-r-scheiring-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8,5 x 75 R Scheiring (dated 14-05-20), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.61, L1 67.30, L2 68.50, L3 74.70, L6 96.00, R1 13.35, P1 11.90, P2 11.43, H1 9.41, Pmax 3800 bar. Neck 0.80 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9x53r",
+      "name": "9x53 R",
+      "kind": "cip",
+      "aliases": [
+        "9 x 53 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.27,
+      "caseLength": 53.0,
+      "trimLength": null,
+      "maxCoal": 67.0,
+      "rimDiameter": 14.48,
+      "neckLength": 10.55,
+      "baseDiameter": 12.42,
+      "shoulderDiameter": 11.61,
+      "neckDiameter": 9.86,
+      "lengthToShoulder": 39.68,
+      "lengthToNeck": 42.45,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page47.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 9 x 53 R (dated 99-03-23, rev. 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.27, L1 39.68, L2 42.45, L3 53.00, L6 67.00, R1 14.48, P1 12.42, P2 11.61, H1 9.86, Pmax 3400 bar. Neck 0.59 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9x57r",
+      "name": "9x57 R",
+      "kind": "cip",
+      "aliases": [
+        "9 x 57 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.08,
+      "caseLength": 56.8,
+      "trimLength": null,
+      "maxCoal": 81.0,
+      "rimDiameter": 13.4,
+      "neckLength": 9.04,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 10.95,
+      "neckDiameter": 9.83,
+      "lengthToShoulder": 46.14,
+      "lengthToNeck": 47.76,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page48.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 9 x 57 R (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.08, L1 46.14, L2 47.76, L3 56.80, L6 81.00, R1 13.40, P1 11.96, P2 10.95, H1 9.83, Pmax 2800 bar. Neck 0.75 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "9-3x53r",
+      "name": "9.3x53 R Finnish",
+      "kind": "cip",
+      "aliases": [
+        "9,3 x 53 R Finnish"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.3,
+      "caseLength": 53.3,
+      "trimLength": null,
+      "maxCoal": 76.0,
+      "rimDiameter": 14.4,
+      "neckLength": 11.36,
+      "baseDiameter": 12.42,
+      "shoulderDiameter": 11.61,
+      "neckDiameter": 9.96,
+      "lengthToShoulder": 39.61,
+      "lengthToNeck": 41.94,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page49.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 9,3 x 53 R Finnish (dated 95-03-09, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.30, L1 39.61, L2 41.94, L3 53.30, L6 76.00, R1 14.40, P1 12.42, P2 11.61, H1 9.96, Pmax 3400 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "10-3x60r",
+      "name": "10.3x60 R",
+      "kind": "cip",
+      "aliases": [
+        "10,3 x 60 R"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.54,
+      "caseLength": 60.8,
+      "trimLength": null,
+      "maxCoal": 85.0,
+      "rimDiameter": 15.7,
+      "neckLength": 14.0,
+      "baseDiameter": 13.85,
+      "shoulderDiameter": 12.5,
+      "neckDiameter": 11.4,
+      "lengthToShoulder": 40.8,
+      "lengthToNeck": 46.8,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2700,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/10-3-x-60-r-250401-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 10,3 x 60 R (dated 84-06-14, rev. 25-05-13), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.54, L1 40.80, L2 46.80, L3 60.80, L6 85.00, R1 15.70, P1 13.85, P2 12.50, H1 11.40, Pmax 2700 bar. Neck 0.86 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "280-flanged-ne",
+      "name": "280 Flanged Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "280 Fl. N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.29,
+      "caseLength": 66.32,
+      "trimLength": null,
+      "maxCoal": 87.88,
+      "rimDiameter": 15.49,
+      "neckLength": 8.33,
+      "baseDiameter": 13.69,
+      "shoulderDiameter": 10.72,
+      "neckDiameter": 8.13,
+      "lengthToShoulder": 55.4,
+      "lengthToNeck": 57.99,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2950,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page63.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 280 Fl. N.E. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.29, L1 55.40, L2 57.99, L3 66.32, L6 87.88, R1 15.49, P1 13.69, P2 10.72, H1 8.13, Pmax 2950 bar. Neck 0.84 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-flanged-purdey",
+      "name": "30 Flanged Nitro Express Purdey",
+      "kind": "cip",
+      "aliases": [
+        "30 Fl. N.E. Purdey"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.82,
+      "caseLength": 58.78,
+      "trimLength": null,
+      "maxCoal": 75.69,
+      "rimDiameter": 13.84,
+      "neckLength": 11.69,
+      "baseDiameter": 11.73,
+      "shoulderDiameter": 10.69,
+      "neckDiameter": 8.59,
+      "lengthToShoulder": 43.03,
+      "lengthToNeck": 47.09,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3200,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/30-fi-ne-purdey-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 30 Fl. N.E. Purdey (dated 84-06-14, rev. 11-05-25), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.82, L1 43.03, L2 47.09, L3 58.78, L6 75.69, R1 13.84, P1 11.73, P2 10.69, H1 8.59, Pmax 3200 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "300-hh-flanged",
+      "name": "30 Super Flanged H&H (300 Flanged)",
+      "kind": "cip",
+      "aliases": [
+        "30 Super Fl. H&H"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.82,
+      "caseLength": 74.68,
+      "trimLength": null,
+      "maxCoal": 93.73,
+      "rimDiameter": 14.53,
+      "neckLength": 9.53,
+      "baseDiameter": 13.13,
+      "shoulderDiameter": 11.43,
+      "neckDiameter": 8.59,
+      "lengthToShoulder": 55.63,
+      "lengthToNeck": 65.15,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3200,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/30-super-fi-h-h-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 30 Super Fl. H&H (dated 84-06-14, rev. 11-05-25), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.82, L1 55.63, L2 65.15, L3 74.68, L6 93.73, R1 14.53, P1 13.13, P2 11.43, H1 8.59, Pmax 3200 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "30-06r-stief",
+      "name": "30-06 R Stief",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.85,
+      "caseLength": 63.35,
+      "trimLength": null,
+      "maxCoal": 84.84,
+      "rimDiameter": 13.32,
+      "neckLength": 10.0,
+      "baseDiameter": 11.99,
+      "shoulderDiameter": 11.2,
+      "neckDiameter": 8.63,
+      "lengthToShoulder": 49.27,
+      "lengthToNeck": 53.35,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page69.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 30-06 R Stief (dated 09-05-05), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.85, L1 49.27, L2 53.35, L3 63.35, L6 84.84, R1 13.32, P1 11.99, P2 11.20, H1 8.63, Pmax 4050 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "303-sporting",
+      "name": "303 Sporting",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 7.92,
+      "caseLength": 52.82,
+      "trimLength": null,
+      "maxCoal": 74.49,
+      "rimDiameter": 13.92,
+      "neckLength": 8.43,
+      "baseDiameter": 11.7,
+      "shoulderDiameter": 10.19,
+      "neckDiameter": 8.64,
+      "lengthToShoulder": 41.85,
+      "lengthToNeck": 44.39,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page76.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 303 Sporting (dated 00-11-13, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.92, L1 41.85, L2 44.39, L3 52.82, L6 74.49, R1 13.92, P1 11.70, P2 10.19, H1 8.64, Pmax 3300 bar. Neck 0.72 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "350-rigby-no2",
+      "name": "350 Rigby No. 2",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.07,
+      "caseLength": 69.88,
+      "trimLength": null,
+      "maxCoal": 93.73,
+      "rimDiameter": 13.46,
+      "neckLength": 12.73,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 10.64,
+      "neckDiameter": 9.73,
+      "lengthToShoulder": 53.34,
+      "lengthToNeck": 57.15,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/350-rigby-n2-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 350 Rigby No. 2 (dated 84-06-14, rev. 24-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.07, L1 53.34, L2 57.15, L3 69.88, L6 93.73, R1 13.46, P1 11.96, P2 10.64, H1 9.73, Pmax 3300 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "369-purdey",
+      "name": "369 Nitro Express Purdey",
+      "kind": "cip",
+      "aliases": [
+        "369 N.E. Purdey"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.52,
+      "caseLength": 68.58,
+      "trimLength": null,
+      "maxCoal": 91.44,
+      "rimDiameter": 15.85,
+      "neckLength": 7.62,
+      "baseDiameter": 13.74,
+      "shoulderDiameter": 12.19,
+      "neckDiameter": 10.29,
+      "lengthToShoulder": 55.88,
+      "lengthToNeck": 60.96,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page92.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 369 N.E. Purdey (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.52, L1 55.88, L2 60.96, L3 68.58, L6 91.44, R1 15.85, P1 13.74, P2 12.19, H1 10.29, Pmax 3050 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "375-flanged-mag-ne",
+      "name": "375 Flanged Magnum Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "375 Fl. Mag. N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.52,
+      "caseLength": 74.68,
+      "trimLength": null,
+      "maxCoal": 96.52,
+      "rimDiameter": 14.35,
+      "neckLength": 11.18,
+      "baseDiameter": 13.13,
+      "shoulderDiameter": 11.43,
+      "neckDiameter": 10.29,
+      "lengthToShoulder": 60.96,
+      "lengthToNeck": 63.5,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3250,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/375-fi-mag-ne-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 375 Fl. Mag. N.E. (dated 84-06-14, rev. 13-05-22), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.52, L1 60.96, L2 63.50, L3 74.68, L6 96.52, R1 14.35, P1 13.13, P2 11.43, H1 10.29, Pmax 3250 bar. Neck 0.77 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "375r-holderlin",
+      "name": "375 R Hölderlin",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.55,
+      "caseLength": 67.5,
+      "trimLength": null,
+      "maxCoal": 87.0,
+      "rimDiameter": 14.95,
+      "neckLength": 10.93,
+      "baseDiameter": 13.34,
+      "shoulderDiameter": 12.15,
+      "neckDiameter": 10.4,
+      "lengthToShoulder": 53.2,
+      "lengthToNeck": 56.57,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3600,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page95.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 375 R Hölderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 14.95, P1 13.34, P2 12.15, H1 10.40, Pmax 3600 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "375r-verney-carron",
+      "name": "375 R Verney-Carron",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.53,
+      "caseLength": 73.0,
+      "trimLength": null,
+      "maxCoal": 92.25,
+      "rimDiameter": 15.9,
+      "neckLength": 9.5,
+      "baseDiameter": 13.95,
+      "shoulderDiameter": 13.45,
+      "neckDiameter": 10.21,
+      "lengthToShoulder": 60.58,
+      "lengthToNeck": 63.5,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 4100,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page96.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 375 R Verney-Carron (dated 10-05-26), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.53, L1 60.58, L2 63.50, L3 73.00, L6 92.25, R1 15.90, P1 13.95, P2 13.45, H1 10.21, Pmax 4100 bar. Neck 0.68 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "400-350-ne",
+      "name": "400/350 Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "400/350 N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 9.04,
+      "caseLength": 69.85,
+      "trimLength": null,
+      "maxCoal": 93.73,
+      "rimDiameter": 13.46,
+      "neckLength": 12.7,
+      "baseDiameter": 11.96,
+      "shoulderDiameter": 10.64,
+      "neckDiameter": 9.73,
+      "lengthToShoulder": 53.34,
+      "lengthToNeck": 57.15,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/400-350-ne-200908-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 400/350 N.E. (dated 84-06-14, rev. 20-11-10), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.04, L1 53.34, L2 57.15, L3 69.85, L6 93.73, R1 13.46, P1 11.96, P2 10.64, H1 9.73, Pmax 2800 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "416-rigby-no2",
+      "name": "416 Rigby No. 2",
+      "kind": "cip",
+      "aliases": [
+        "416 Rigby N°2"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.57,
+      "caseLength": 73.66,
+      "trimLength": null,
+      "maxCoal": 95.25,
+      "rimDiameter": 17.0,
+      "neckLength": 12.74,
+      "baseDiameter": 14.99,
+      "shoulderDiameter": 13.72,
+      "neckDiameter": 11.35,
+      "lengthToShoulder": 59.73,
+      "lengthToNeck": 60.92,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3250,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/416rigbyn2-180516-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 416 Rigby N°2 (dated 18-05-16), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 59.73, L2 60.92, L3 73.66, L6 95.25, R1 17.00, P1 14.99, P2 13.72, H1 11.35, Pmax 3250 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "450-no2-ne",
+      "name": "450 No. 2 Nitro Express 3 1/2\"",
+      "kind": "cip",
+      "aliases": [
+        "450 N° 2 N.E. 3“1/2 Eley"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 11.63,
+      "caseLength": 88.9,
+      "trimLength": null,
+      "maxCoal": 109.98,
+      "rimDiameter": 16.76,
+      "neckLength": 11.43,
+      "baseDiameter": 14.35,
+      "shoulderDiameter": 13.97,
+      "neckDiameter": 12.24,
+      "lengthToShoulder": 72.39,
+      "lengthToNeck": 77.47,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page116.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 450 N° 2 N.E. 3“1/2 Eley (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 11.63, L1 72.39, L2 77.47, L3 88.90, L6 109.98, R1 16.76, P1 14.35, P2 13.97, H1 12.24, Pmax 2800 bar. Neck 0.61 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "450-400-mag-ne-3-1-4",
+      "name": "450/400 Magnum Nitro Express 3 1/4\"",
+      "kind": "cip",
+      "aliases": [
+        "450/400 Mag. N.E. 31/4"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.41,
+      "caseLength": 82.55,
+      "trimLength": null,
+      "maxCoal": 100.33,
+      "rimDiameter": 15.85,
+      "neckLength": 24.13,
+      "baseDiameter": 13.84,
+      "shoulderDiameter": 12.65,
+      "neckDiameter": 11.15,
+      "lengthToShoulder": 50.8,
+      "lengthToNeck": 58.42,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2950,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page118.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 450/400 Mag. N.E. 31/4 (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.41, L1 50.80, L2 58.42, L3 82.55, L6 100.33, R1 15.85, P1 13.84, P2 12.65, H1 11.15, Pmax 2950 bar. Neck 0.74 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "500-al-sharqi",
+      "name": "500 Al Sharqi",
+      "kind": "cip",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 12.95,
+      "caseLength": 75.0,
+      "trimLength": null,
+      "maxCoal": 98.5,
+      "rimDiameter": 19.05,
+      "neckLength": 12.17,
+      "baseDiameter": 16.81,
+      "shoulderDiameter": 16.5,
+      "neckDiameter": 13.65,
+      "lengthToShoulder": 58.0,
+      "lengthToNeck": 62.83,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3000,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/500-al-sharqi-210831-en.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 500 Al Sharqi (dated 21-11-09), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 12.95, L1 58.00, L2 62.83, L3 75.00, L6 98.50, R1 19.05, P1 16.81, P2 16.50, H1 13.65, Pmax 3000 bar. Neck 0.70 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "500-416-ne",
+      "name": "500/416 Nitro Express 3 1/4\"",
+      "kind": "cip",
+      "aliases": [
+        "500/416 N.E. 3“1/4"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 10.57,
+      "caseLength": 82.55,
+      "trimLength": null,
+      "maxCoal": 101.09,
+      "rimDiameter": 16.64,
+      "neckLength": 17.55,
+      "baseDiameter": 14.55,
+      "shoulderDiameter": 13.49,
+      "neckDiameter": 11.35,
+      "lengthToShoulder": 60.96,
+      "lengthToNeck": 65.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 3150,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page124.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 500/416 N.E. 3“1/4 (dated 96-12-20, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 60.96, L2 65.00, L3 82.55, L6 101.09, R1 16.64, P1 14.55, P2 13.49, H1 11.35, Pmax 3150 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "500-465-ne",
+      "name": "500/465 Nitro Express",
+      "kind": "cip",
+      "aliases": [
+        "500/465 N.E."
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 11.89,
+      "caseLength": 82.55,
+      "trimLength": null,
+      "maxCoal": 99.06,
+      "rimDiameter": 16.64,
+      "neckLength": 16.51,
+      "baseDiameter": 14.58,
+      "shoulderDiameter": 13.56,
+      "neckDiameter": 12.55,
+      "lengthToShoulder": 55.88,
+      "lengthToNeck": 66.04,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": {
+        "value": 2450,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC cartridge maxi",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page125.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "New. C.I.P. TDCC Tab. II sheet, 500/465 N.E. (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 11.89, L1 55.88, L2 66.04, L3 82.55, L6 99.06, R1 16.64, P1 14.58, P2 13.56, H1 12.55, Pmax 2450 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "35-nosler",
+      "name": "35 Nosler",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "33 Nosler",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.358,
+      "caseLength": 2.46,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.534,
+      "neckLength": 0.3436,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.53,
+      "neckDiameter": 0.389,
+      "lengthToShoulder": 2.0163,
+      "lengthToNeck": 2.1164,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4-2025 maximum cartridge drawing (33 Nosler, p.121)",
+        "url": "https://saami.org/wp-content/uploads/2025/02/ANSI-SAAMI-Z299.4-CFR-Approved-2025-02-10-Posting-Copy.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: derived from the 33 Nosler per Kevin's ruling in the Ballistic App room, 2026-10-30 (35 Nosler is the 33 Nosler necked up). Copied from the SAAMI Z299.4-2025 33 Nosler maximum cartridge drawing, p.121: rim .534, body .5500 at .200, shoulder .5300 at 2.0163 at 35 deg, case 2.460, max COAL 3.340. ESTIMATE values: neckDiameter 0.389 is the 0.358 bullet plus the 33 Nosler's 0.031 in neck allowance (.370 neck over .339 bullet); lengthToNeck 2.1164 moves the 33 Nosler's 2.1300 neck junction back for the wider neck at the same 35 deg shoulder; neckLength is case minus lengthToNeck; max COAL is the 33 Nosler's. Not in the public Z299.4 or the C.I.P. TDCC list (checked 2026-10-29)."
+    },
+    {
+      "id": "36-nosler",
+      "name": "36 Nosler",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": "33 Nosler",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.366,
+      "caseLength": 2.46,
+      "trimLength": null,
+      "maxCoal": 3.34,
+      "rimDiameter": 0.534,
+      "neckLength": 0.3493,
+      "baseDiameter": 0.55,
+      "shoulderDiameter": 0.53,
+      "neckDiameter": 0.397,
+      "lengthToShoulder": 2.0163,
+      "lengthToNeck": 2.1107,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "SAAMI Z299.4-2025 maximum cartridge drawing (33 Nosler, p.121)",
+        "url": "https://saami.org/wp-content/uploads/2025/02/ANSI-SAAMI-Z299.4-CFR-Approved-2025-02-10-Posting-Copy.pdf",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: derived from the 33 Nosler per Kevin's ruling in the Ballistic App room, 2026-10-30 (36 Nosler is the 33 Nosler necked up). Copied from the SAAMI Z299.4-2025 33 Nosler maximum cartridge drawing, p.121: rim .534, body .5500 at .200, shoulder .5300 at 2.0163 at 35 deg, case 2.460, max COAL 3.340. ESTIMATE values: neckDiameter 0.397 is the 0.366 bullet plus the 33 Nosler's 0.031 in neck allowance (.370 neck over .339 bullet); lengthToNeck 2.1107 moves the 33 Nosler's 2.1300 neck junction back for the wider neck at the same 35 deg shoulder; neckLength is case minus lengthToNeck; max COAL is the 33 Nosler's. Not in the public Z299.4 or the C.I.P. TDCC list (checked 2026-10-29)."
     }
   ],
   "aliases": [

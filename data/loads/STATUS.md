@@ -1,8 +1,14 @@
 # Load-data bot status
 
-Last updated: 2026-10-29 21:30 UTC
+Last updated: 2026-10-30 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## C.I.P. batch 2 and 35/36 Nosler (2026-10-30)
+
+- 84 new C.I.P. TDCC cartridges (Tab. I and Tab. II, "cartridge maxi", mm, Pmax in bar), .277 and up, none in the library or bullets.json: European rimmed and rimless (8x56 R, 8x57 IRS, 8x60 R/RS, 8x65 R/RS, 9.3x53 R, 7x75 R SE v.H., 7.62x53 R ...), Nitro Express double-rifle rounds (450 No. 2, 500/416, 500/465, 450/400 Mag 3 1/4", 400/350, 375 Flanged Mag, 416 Rigby No. 2, 350 Rigby No. 2 ...), 300 Pegasus, 300 Blacktornado, 7mm Blaser Mag, 8.5x55 Blaser, 416 TYR, 460 Steyr, 12.7x108 and more. Shoulder angle is empty (C.I.P. prints the included angle).
+- 35 Nosler and 36 Nosler added as ESTIMATE rows derived from the SAAMI 33 Nosler maximum cartridge drawing (Kevin, 2026-10-30: both are the 33 Nosler necked up). Case 2.460 in from the 33 Nosler; a third-party page gives 2.490 in for 35 Nosler, which conflicts and is not used.
+- Not taken: covered names (library or bullets.json), straight or near-straight cases, cases with neck outside 0.015-0.045 in (500 TLD, 510 DTC, 10x100 BWA, 577/450), sheets that did not parse cleanly (8x60, 8x57 IR, 8x57 PCC, 9x39), 416 A-TEC, 45 Blaser, 7x72 R, 475 No. 2 (both close to bullets.json 475-jeffery-2).
 
 ## SAAMI and C.I.P. cartridge drawings, .277 and up (2026-10-29)
 
