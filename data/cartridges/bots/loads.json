@@ -2678,7 +2678,11 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 28,
       "rimType": "rimless",
-      "pressure": null,
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
       "id": "8x64-s",
       "name": "8x64mm S",
       "kind": "cip",
@@ -2689,7 +2693,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/8mm-x-64s/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D drawing labeled 'C.I.P. Standard Case' (Kevin approved copying C.I.P. as a source on 2026-10-29). Case length 2.520, COAL 3.445, neck 0.353 at the mouth and junction, neck length 0.410, shoulder 0.427 at 2.030, 28 deg 0' 5\", body 0.470, rim 0.472. The sketch labels the bullet .324; bulletDiameter uses the 8mm S .323 groove. 4D printed capacity not stored."
+      "note": "New. 4D drawing labeled 'C.I.P. Standard Case' (Kevin approved copying C.I.P. as a source on 2026-10-29). Case length 2.520, COAL 3.445, neck 0.353 at the mouth and junction, neck length 0.410, shoulder 0.427 at 2.030, 28 deg 0' 5\", body 0.470, rim 0.472. The sketch labels the bullet .324; bulletDiameter uses the 8mm S .323 groove. 4D printed capacity not stored. Pressure: C.I.P. Pmax 4050 bar from the C.I.P. TDCC Tab. I sheet 8 x 64 S (dated 84-06-14, rev. 02-05-15) (https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page62.pdf, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
     },
     {
       "aliases": [
@@ -2712,7 +2716,11 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 27.5,
       "rimType": "rimless",
-      "pressure": null,
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
       "id": "7-5x55-swiss",
       "name": "7.5x55mm Swiss",
       "kind": "cip",
@@ -2723,7 +2731,7 @@
         "url": "https://www.pacifictoolandgauge.com/75-x-55-Suisse-Swiss-CIP-Chamber-Reamer_p_116869.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. PTG drawing BOP-10813 rev B, 7.5 X 55 SUISSE CIP (PTG's own C.I.P.-titled print; Kevin approved copying C.I.P. on 2026-10-29), chamber dimensions from the bolt face: body 0.4996 at 0.1362, shoulder 0.4665 at 1.8114 max (1.8075 min), 27 deg 30', neck 0.3386 at (1.8671); groove .3059. 2.2185 in is a chamber length, not a case length. caseLength 55.60 mm (2.189 in), max COAL 77.70 mm (3.059 in) and rim 12.65 mm (0.498 in) from Wikipedia (https://en.wikipedia.org/wiki/7.5%C3%9755mm_Swiss)."
+      "note": "New. PTG drawing BOP-10813 rev B, 7.5 X 55 SUISSE CIP (PTG's own C.I.P.-titled print; Kevin approved copying C.I.P. on 2026-10-29), chamber dimensions from the bolt face: body 0.4996 at 0.1362, shoulder 0.4665 at 1.8114 max (1.8075 min), 27 deg 30', neck 0.3386 at (1.8671); groove .3059. 2.2185 in is a chamber length, not a case length. caseLength 55.60 mm (2.189 in), max COAL 77.70 mm (3.059 in) and rim 12.65 mm (0.498 in) from Wikipedia (https://en.wikipedia.org/wiki/7.5%C3%9755mm_Swiss). Pressure: C.I.P. Pmax 3800 bar from the C.I.P. TDCC Tab. I sheet 7,5 x 55 Suisse (dated 84-06-14, rev. 02-05-15) (https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page46.pdf, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
     },
     {
       "id": "338-wsm",
