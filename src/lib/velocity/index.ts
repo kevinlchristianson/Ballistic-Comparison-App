@@ -8,11 +8,12 @@
  */
 import type { Cartridge } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
-import { createBlendEstimator } from "./blend.ts";
+import { BLEND_MODEL, createBlendEstimator } from "./blend.ts";
+import { createBoreFloorEstimator } from "./boreFloor.ts";
 import { estimateCartridgeInputs, maxChargesFromLoads, type CartridgeInputs } from "./inputs.ts";
 import { createLoadDataEstimator, loadFitSource, tableFitSource, type FitTable, type FpsPerInch } from "./loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "./physics.ts";
-import { createHandloadEstimator, type PressureBasis } from "./pressure.ts";
+import { createHandloadEstimator, handloadMaxPsi, type PressureBasis } from "./pressure.ts";
 import type { VelocityEstimate, VelocityEstimator, VelocityQuery } from "./types.ts";
 
 export * from "./types.ts";
@@ -35,12 +36,28 @@ export function createFilledPhysics(cartridges: Cartridge[], inputs: Map<string,
   return createPhysicsEstimator(cartridges, PHYSICS_PARAMS, { inputs, extrapolate: true });
 }
 
+/**
+ * Adds the bore floor (boreFloor.ts) on top of an estimator whose estimates
+ * are made at `basis` pressure.
+ */
+export function withBoreFloor(est: VelocityEstimator, cartridges: Cartridge[], inputs: Map<string, CartridgeInputs>, basis: PressureBasis = "factory"): VelocityEstimator {
+  return createBoreFloorEstimator(est, {
+    cartridges,
+    inputs,
+    pressureOf: (id) => {
+      const p = inputs.get(id)?.mapPsi ?? null;
+      return p == null ? null : basis === "handload" ? handloadMaxPsi(p) : p;
+    },
+    isDirect: (e) => e.model !== BLEND_MODEL && e.model !== USER_LOADS_MODEL,
+  });
+}
+
 /** Fits published loads directly. Used by tests and scripts that hold the load rows. */
 export function createDefaultEstimator(cartridges: Cartridge[], loads: NormalizedLoad[]): VelocityEstimator {
   const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(loads) });
   const physics = createFilledPhysics(cartridges, inputs);
   const fits = loadFitSource(loads, physicsFpsPerInch(physics));
-  return createBlendEstimator({ cartridges, fits, physics, inputs });
+  return withBoreFloor(createBlendEstimator({ cartridges, fits, physics, inputs }), cartridges, inputs);
 }
 
 /**
@@ -62,6 +79,8 @@ export function createSiteEstimator(
   const physics = createFilledPhysics(cartridges, inputs);
   let est = createBlendEstimator({ cartridges, fits: tableFitSource(table), physics, loadModel: table.model, inputs });
   if (basis === "handload") est = createHandloadEstimator(est, cartridges, inputs);
+  // The floor runs on the estimates as shown, so it never stacks with the pressure step.
+  est = withBoreFloor(est, cartridges, inputs, basis);
   if (userLoads.length > 0) {
     est = combine(createLoadDataEstimator(userLoads, { fpsPerInch: physicsFpsPerInch(physics), id: USER_LOADS_MODEL }), est);
   }
