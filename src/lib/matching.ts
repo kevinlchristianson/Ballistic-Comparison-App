@@ -13,8 +13,8 @@
  *    - stretch: only the high end reaches it
  *    - short: the high end falls short
  *    - no_data: the model declined to estimate
- * 4. Ranking: status first, then candidates backed by published loads before
- *    physics-only estimates, then by how far the estimate clears the target.
+ * 4. Ranking: fastest estimate first, whatever the status; cartridges with
+ *    no estimate last.
  *
  * Loads above SAAMI maximum pressure are never used (the velocity module
  * drops them), so no match depends on an above-max published load. The
@@ -69,12 +69,9 @@ export function matchCartridges(query: MatchQuery, cartridges: Cartridge[], esti
     return { cartridge, estimate, status: statusFor(estimate, query.targetVelocityFps), margin };
   });
   return matches.sort((a, b) => {
-    const s = STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status);
-    if (s !== 0) return s;
-    const d = Number(b.estimate.support.loadCount > 0) - Number(a.estimate.support.loadCount > 0);
-    if (d !== 0) return d;
-    // More headroom over the target ranks higher.
-    if (a.margin != null && b.margin != null) return b.margin - a.margin;
-    return a.cartridge.name.localeCompare(b.cartridge.name);
+    const va = a.estimate.estimateFps;
+    const vb = b.estimate.estimateFps;
+    if (va == null || vb == null) return va == null && vb == null ? a.cartridge.name.localeCompare(b.cartridge.name) : va == null ? 1 : -1;
+    return vb - va || a.cartridge.name.localeCompare(b.cartridge.name);
   });
 }

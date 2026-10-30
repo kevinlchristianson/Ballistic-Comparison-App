@@ -24,9 +24,9 @@ describe("matchCartridges", () => {
     expect(results.find((r) => r.cartridge.id === "303-british")).toBeUndefined();
   });
 
-  it("sorts by status, then by data support, then by headroom", () => {
-    const order = results.map((r) => STATUS_ORDER.indexOf(r.status));
-    expect([...order].sort((a, b) => a - b)).toEqual(order);
+  it("sorts fastest first", () => {
+    const v = results.map((r) => r.estimate.estimateFps!);
+    expect([...v].sort((a, b) => b - a)).toEqual(v);
   });
 
   it("finds magnums comfortable and the .30-30 short for a 175 gr bullet at 2,750 fps", () => {
@@ -34,13 +34,6 @@ describe("matchCartridges", () => {
     expect(by("300-win-mag").status).toBe("comfortable");
     expect(by("30-30-win").status).toBe("short");
     expect(["likely", "stretch", "short"]).toContain(by("308-win").status);
-  });
-
-  it("ranks a cartridge backed by published loads above a physics-only one with the same status", () => {
-    const sameStatus = results.filter((r) => r.status === results.find((x) => x.cartridge.id === "308-win")!.status);
-    const firstPhysics = sameStatus.findIndex((r) => r.estimate.support.loadCount === 0);
-    const lastData = sameStatus.map((r) => r.estimate.support.loadCount > 0).lastIndexOf(true);
-    if (firstPhysics >= 0 && lastData >= 0) expect(lastData).toBeLessThan(firstPhysics);
   });
 
   it("estimates every cartridge of the diameter, never \"no data\"", () => {

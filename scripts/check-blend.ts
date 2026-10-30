@@ -15,7 +15,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import type { NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/types.ts";
 import { createBlendEstimator } from "../src/lib/velocity/blend.ts";
-import { createFilledPhysics, physicsFpsPerInch } from "../src/lib/velocity/index.ts";
+import { createFilledPhysics, physicsFpsPerInch, withBoreFloor } from "../src/lib/velocity/index.ts";
 import { botCapacityEstimates, estimateCartridgeInputs, maxChargesFromLoads } from "../src/lib/velocity/inputs.ts";
 import { estimateFromFit, fitLoads, loadFitSource } from "../src/lib/velocity/loadData.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
@@ -67,7 +67,7 @@ for (const [label, scenario] of scenarios) {
     const seen = [...loads.filter((l) => l.cartridgeId !== id), ...sc.keep];
     const inputs = estimateCartridgeInputs(cartridges, { maxChargeGr: maxChargesFromLoads(seen), botEstimates });
     const physics = createFilledPhysics(cartridges, inputs);
-    const est = createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics, inputs });
+    const est = withBoreFloor(createBlendEstimator({ cartridges, fits: loadFitSource(seen, physicsFpsPerInch(physics)), physics, inputs }), cartridges, inputs);
     for (const w of sc.weights) {
       const t = estimateFromFit(truth, w).estimateFps;
       const e = est.estimate({ cartridgeId: id, bulletWeightGr: w, barrelLengthIn: BARREL });

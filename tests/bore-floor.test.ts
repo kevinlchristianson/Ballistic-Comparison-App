@@ -42,3 +42,19 @@ describe("bore floor", () => {
     expect(small.flags).not.toContain("raised_to_smaller_case");
   });
 });
+
+describe("bore floor on published answers and after the pressure step", () => {
+  // Here the bigger case's own published loads (two sources) answer, but sit below the smaller case's.
+  const slowBig = [
+    ...loads.filter((l) => l.cartridgeId === "25-06-rem"),
+    ...[0, 1, 2].flatMap((i) => [load(`x${i}`, "257-wby", 110 + 7 * i, 2950 - 40 * i, "Maker C"), load(`y${i}`, "257-wby", 110 + 7 * i, 2960 - 40 * i, "Maker D")]),
+  ];
+  const est = createDefaultEstimator(cartridges, slowBig);
+  it("raises a bigger case even when its own published loads answer", () => {
+    const small = est.estimate({ cartridgeId: "25-06-rem", bulletWeightGr: 117, barrelLengthIn: 24 });
+    const big = est.estimate({ cartridgeId: "257-wby", bulletWeightGr: 117, barrelLengthIn: 24 });
+    expect(big.model).toBe("loglog-v1");
+    expect(big.flags).toContain("raised_to_smaller_case");
+    expect(big.estimateFps!).toBeCloseTo(small.estimateFps!, 3);
+  });
+});
