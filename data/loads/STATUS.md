@@ -9,8 +9,9 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 - Filled: C.I.P. Pmax on the two bot-only C.I.P. records that had none, 7.5x55 Swiss (3800 bar) and 8x64 S (4050 bar), cited to the C.I.P. TDCC Tab. I sheets.
 - Blocked on the app side: most gaps BOTS.md names (30-40 Krag, 358 Win, 6.5x47 Lapua, the library Weatherby magnums) are library cartridges, and `FILLABLE_FIELDS` in `src/lib/botCartridges.ts` does not include `mapPsi`/`mapMethod`, so a bot record cannot fill a library pressure. Published values found for the project to add directly, or to make fillable:
   - C.I.P. Tab. I Pmax (piezo at case mouth): 6.5x47 Lapua 4350 bar (tabical-en-page19), 358 Win 4050 bar (page139), 250 Savage 3650 bar (page93), 6mm BR Rem 4050 bar (page13), 6mm Norma BR 4050 bar (page12), 6 XC 4400 bar (page17), 6mm PPC-USA 4050 bar (page15), 22 PPC-USA 4050 bar (page81).
-  - SAAMI Z299.4-2025 velocity and pressure tables print CUP only (piezo "not established") for 30-40 Krag 40,000 CUP, 358 Win 52,000, 356 Win 52,000, 375 Win 52,000, 307 Win 52,000, 250 Savage 45,000, 25-20 Win 28,000, 25-35 Win 37,000, 32-20 Win 16,000, 38-40 Win 14,000, 38-55 Win 30,000 and 416 Weatherby Magnum 53,500 CUP.
-  - No SAAMI or C.I.P. Tab. I pressure found for 240, 30-378, 378, 375 or 338-378 Weatherby, 6.5 Rem Mag, 8mm Rem Mag, 338-06, 225 Win or 50 BMG in the sources on hand.
+  - SAAMI Z299.4-2025 prints CUP only for 30-40 Krag, 307/356/358/375 Win and 416 Weatherby. Per Kevin's 2026-10-30 ruling (transducer values first, CUP conversion only as last resort), C.I.P. transducer Pmax values were found for all of them, and for 240, 30-378 and 378 Weatherby, 6.5 and 8mm Rem Mag (C.I.P. Tab. III belted), 225 Win and 50 BMG. No conversions were needed. Full table for the app agent: [`comments/2026-10-30-library-pressures.md`](comments/2026-10-30-library-pressures.md).
+  - Bot-only records filled: 375-wby and 338-378-wby, C.I.P. Tab. III Pmax 4400 bar.
+  - Still nothing published: 338-06 (no C.I.P. sheet; SAAMI PDF not fetched; only a secondary-site figure).
 - 7mm Backcountry: the bot record carries no pressure and now only fills profile fields, as item 4 asks. No change needed.
 
 ## Sherman long action, 375 Yukon and forum sources (2026-10-30)

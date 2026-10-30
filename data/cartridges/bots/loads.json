@@ -2442,13 +2442,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "belted",
-      "pressure": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
       "source": {
         "name": "Pacific Tool & Gauge",
         "url": "https://www.pacifictoolandgauge.com/375-Weatherby-Magnum-SAAMI-Chamber-Reamer_p_114617.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D page has no drawing. PTG drawing PTG-11076, 375 WBY MAG SAAMI (PTG own print); groove 0.3760. Lengths are printed from the belt datum; the print gives the datum as 0.2200 min / 0.2240 max from the bolt face, so 0.2200 was added to put them on the case head: shoulder 0.4960 in at 2.1870 -> 2.4070 in; neck 0.4070 in at 2.3437 -> 2.5637 in. Body 0.5136 in (0.5140 just ahead of the belt); belt recess 0.5340 in. Weatherby radius shoulder (R.1820/R.1200, 45 deg chord printed), so no angle stored. PTG prints chamber dimensions: 2.6550 in from the datum (2.8750 from the head) is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.860 in and max COAL 3.600 in from Wikipedia (https://en.wikipedia.org/wiki/.375_Weatherby_Magnum)."
+      "note": "4D page has no drawing. PTG drawing PTG-11076, 375 WBY MAG SAAMI (PTG own print); groove 0.3760. Lengths are printed from the belt datum; the print gives the datum as 0.2200 min / 0.2240 max from the bolt face, so 0.2200 was added to put them on the case head: shoulder 0.4960 in at 2.1870 -> 2.4070 in; neck 0.4070 in at 2.3437 -> 2.5637 in. Body 0.5136 in (0.5140 just ahead of the belt); belt recess 0.5340 in. Weatherby radius shoulder (R.1820/R.1200, 45 deg chord printed), so no angle stored. PTG prints chamber dimensions: 2.6550 in from the datum (2.8750 from the head) is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.860 in and max COAL 3.600 in from Wikipedia (https://en.wikipedia.org/wiki/.375_Weatherby_Magnum). Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 375 Weath. Mag. (dated 1987-01-17, rev. 2002-05-15) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
     },
     {
       "id": "7mm-300-prc",
@@ -2593,13 +2597,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "belted",
-      "pressure": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
       "source": {
         "name": "4D Reamer Rentals",
         "url": "https://4drentals.com/product/reamer-rentals/rifle/338-378-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D drawing (low-resolution image): neck 0.3700 in at the mouth and junction; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. Max COAL 3.650 in from Wikipedia (https://en.wikipedia.org/wiki/.338-378_Weatherby_Magnum); Wikipedia case 2.905 in, 4D drawing case 2.913 kept."
+      "note": "New. 4D drawing (low-resolution image): neck 0.3700 in at the mouth and junction; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. Max COAL 3.650 in from Wikipedia (https://en.wikipedia.org/wiki/.338-378_Weatherby_Magnum); Wikipedia case 2.905 in, 4D drawing case 2.913 kept. Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 338-378 Weath. Mag (dated 1998-02-09, rev. 2009-05-05) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
     },
     {
       "id": "350-rem-mag",
