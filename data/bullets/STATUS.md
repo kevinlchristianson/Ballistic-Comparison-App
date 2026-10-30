@@ -147,3 +147,7 @@ None. The capacity questions in the comment folder are answered.
 - [`comments/2026-10-28-4d-reamer-rentals.md`](comments/2026-10-28-4d-reamer-rentals.md) is agreed, option 3. 4D's Case Cap. never fills `caseCapacityGrH2O`. A 4D profile replaces a PTG profile when both exist.
 - [`comments/2026-10-28-ptg-print-58347.md`](comments/2026-10-28-ptg-print-58347.md) is agreed. `.25 Nosler` has no profile.
 - Berger catalog versus product page, and American Copper `weightGr` 55, match the Agreed answers. See [`comments/2026-10-27-berger-catalog-vs-product-page.md`](comments/2026-10-27-berger-catalog-vs-product-page.md) and [`comments/2026-10-27-american-copper-bullets.md`](comments/2026-10-27-american-copper-bullets.md).
+
+## 2026-10-30: Barnes G7
+
+Barnes product pages keep G7 BC only in the `specsJson` spec table, not in the BigCommerce custom fields the adapter read. The Barnes adapter now fills G7 from `specsJson` by Item # (G7 only, so pack-size SKUs don't become extra rows). Barnes bullets with a G7 went from 7 to 38 of 199; the rest have no G7 on Barnes' site. Example: 30376 (.308 212 gr LRX BT Bore Rider) now has G7 0.367.
