@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-30",
   "bot": "load-data",
-  "cartridgeCount": 196,
+  "cartridgeCount": 197,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -1989,7 +1989,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1997,7 +1997,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. shoulderAngleDeg 40 from Sherman's short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/, retrieved 2026-10-30), which prints 'minimal body taper and a 40-degree shoulder' for the Sherman Short series. Parent case is null: no Sherman page prints it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "300-sherman-short",
@@ -2024,7 +2024,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2032,7 +2032,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '110' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. shoulderAngleDeg 40 from Sherman's short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/, retrieved 2026-10-30), which prints 'minimal body taper and a 40-degree shoulder' for the Sherman Short series. Parent case is null: no Sherman page prints it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "338-sherman-short",
@@ -2059,7 +2059,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2067,7 +2067,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '0.027 (as printed; other rows are in thousandths)' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder angle and parent case are null: no Sherman page prints them for this series. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 1.950\", brass max length 1.960\" (caseLength), water capacity 72 gr, bolt face printed (see below), freebore '0.027 (as printed; other rows are in thousandths)' (thousandths of an inch as printed; no schema field), action SA. SS-vs-SAUM differences and the sizing bushing are deliberately not stored as values. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. shoulderAngleDeg 40 from Sherman's short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/, retrieved 2026-10-30), which prints 'minimal body taper and a 40-degree shoulder' for the Sherman Short series. Parent case is null: no Sherman page prints it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "7mm-sherman-swc",
@@ -6294,6 +6294,40 @@
         "retrievedOn": "2026-10-30"
       },
       "note": "ESTIMATE: derived from the 33 Nosler per Kevin's ruling in the Ballistic App room, 2026-10-30 (36 Nosler is the 33 Nosler necked up). Copied from the SAAMI Z299.4-2025 33 Nosler maximum cartridge drawing, p.121: rim .534, body .5500 at .200, shoulder .5300 at 2.0163 at 35 deg, case 2.460, max COAL 3.340. ESTIMATE values: neckDiameter 0.397 is the 0.366 bullet plus the 33 Nosler's 0.031 in neck allowance (.370 neck over .339 bullet); lengthToNeck 2.1107 moves the 33 Nosler's 2.1300 neck junction back for the wider neck at the same 35 deg shoulder; neckLength is case minus lengthToNeck; max COAL is the 33 Nosler's. Not in the public Z299.4 or the C.I.P. TDCC list (checked 2026-10-29)."
+    },
+    {
+      "id": "270-sherman-short",
+      "name": "270 Sherman Short",
+      "kind": "wildcat",
+      "aliases": [
+        "270 SS",
+        "270SS",
+        "270 Sherman Shortmag",
+        "270 Sherman Short Mag"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.277,
+      "caseLength": 1.96,
+      "trimLength": 1.95,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 72,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Sherman Wildcat Cartridges",
+        "url": "https://shermanwildcatcartridges.com/cartridges/short-action/70-sherman-shortmag/",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: from the shared SS case per Sherman's 270 SS page (https://shermanwildcatcartridges.com/cartridges/short-action/70-sherman-shortmag/, retrieved 2026-10-30), which says the 270 Sherman Shortmag shares the same case as the other SS cartridges. caseLength 1.960, trimLength 1.950 and water capacity 72 gr are copied from our 7mm Sherman Short record (Sherman cheat sheet, https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923). shoulderAngleDeg 40 from Sherman's short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which prints a 40-degree shoulder for the Sherman Short series. bulletDiameter is the nominal .277 bore. Neck diameter and the other profile values are null like the sibling SS records, which have no neck value to take an allowance from; the app estimates them. Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     }
   ],
   "aliases": [

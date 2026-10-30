@@ -4,6 +4,11 @@ Last updated: 2026-10-30 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
+## Sherman Short shoulder and 270 SS (2026-10-30)
+
+- shoulderAngleDeg 40 filled on 7mm, 300 and 338 Sherman Short (they were empty), cited to Sherman's short-action page, which prints a 40-degree shoulder for the Sherman Short series. 6mm, 25 and 6.5 SS are left to the Bullet Database bot.
+- New 270 Sherman Short (ESTIMATE): Sherman's 270 SS page says it shares the same case as the other SS cartridges. Case length, trim length and capacity are copied from the 7mm SS; 40-degree shoulder. Neck diameter stays null because the sibling SS records have no neck value to take an allowance from.
+
 ## C.I.P. batch 2 and 35/36 Nosler (2026-10-30)
 
 - 84 new C.I.P. TDCC cartridges (Tab. I and Tab. II, "cartridge maxi", mm, Pmax in bar), .277 and up, none in the library or bullets.json: European rimmed and rimless (8x56 R, 8x57 IRS, 8x60 R/RS, 8x65 R/RS, 9.3x53 R, 7x75 R SE v.H., 7.62x53 R ...), Nitro Express double-rifle rounds (450 No. 2, 500/416, 500/465, 450/400 Mag 3 1/4", 400/350, 375 Flanged Mag, 416 Rigby No. 2, 350 Rigby No. 2 ...), 300 Pegasus, 300 Blacktornado, 7mm Blaser Mag, 8.5x55 Blaser, 416 TYR, 460 Steyr, 12.7x108 and more. Shoulder angle is empty (C.I.P. prints the included angle).
