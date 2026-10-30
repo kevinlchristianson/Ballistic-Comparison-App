@@ -10297,13 +10297,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "belted",
-      "pressure": null,
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
       "source": {
         "name": "4D Reamer Rentals",
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum Pressure left null: 224 Weatherby Magnum is not listed in ANSI/SAAMI Z299.4-2025 (checked 2026-10-30)."
+      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC belted-cartridge table, \"224 Weath. Mag.\", dated 1984-06-14, revised 2002-05-15 (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1); not listed in ANSI/SAAMI Z299.4-2025."
     },
     {
       "id": "219-zipper-ai",
