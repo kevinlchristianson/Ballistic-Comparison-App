@@ -54,7 +54,13 @@ describe("nominalDiameter", () => {
     [0.278, 0.277],
     [0.5122, 0.51],
     [0.224, 0.224],
+    [0.31, 0.311], // 7.62x39
+    [0.3177, 0.3185], // 8x57 J family
+    [0.3209, 0.321],
+    [0.3299, 0.33],
+    [0.3307, 0.33],
+    [0.3559, 0.356],
   ])("groups %s with %s", (d, n) => expect(nominalDiameter(d)).toBe(n));
 
-  it.each([0.287, 0.228, 0.1955, 0.3185, 0.3559])("keeps %s as listed", (d) => expect(nominalDiameter(d)).toBe(d));
+  it.each([0.287, 0.228, 0.1955, 0.298, 0.3331])("keeps %s as listed", (d) => expect(nominalDiameter(d)).toBe(d));
 });
