@@ -4,10 +4,10 @@
  * selection side by side (or overlaid) at one scale with a dimension table.
  */
 import { buildCaseProfiles, type CaseProfile, type ProfileValue } from "../../lib/caseProfile.ts";
-import { nominalDiameter } from "../../lib/calibers.ts";
+import { CALIBER_FAMILIES, caliberFamily, familyLabel, nominalDiameter } from "../../lib/calibers.ts";
 import type { Cartridge } from "../../lib/cartridges.ts";
 import { caseSvg, OVERLAY_COLORS, overlaySvg, rulerSvg } from "../caseDrawing.ts";
-import { byDiameterThenCapacity, groupLabel, matchesCartridge } from "../cartridgePicker.ts";
+import { byDiameterThenCapacity, matchesCartridge } from "../cartridgePicker.ts";
 import type { AppData } from "../data.ts";
 import { h, link, select, type Child } from "../dom.ts";
 import { capacityText } from "../estimated.ts";
@@ -73,12 +73,18 @@ export function catalogView(data: AppData): HTMLElement {
     persist();
     renderGrid();
   });
-  // Grouped by nominal size, so a C.I.P. 0.2846 sits with the 0.284 (7 mm) cartridges.
+  // Grouped by nominal size, so a C.I.P. 0.2846 sits with the 0.284 (7 mm) cartridges,
+  // and filtered by caliber family, so .318 and .323 are both 8 mm.
   const nominal = (c: Cartridge) => nominalDiameter(c.bulletDiameterIn!);
-  const key = (c: Cartridge) => nominal(c).toFixed(4);
-  const diameters = [...new Set(drawn.map(key))].sort((a, b) => Number(a) - Number(b));
-  // A filter saved before grouping (e.g. "0.284") still matches its group.
-  if (state.diameter !== "all" && !diameters.includes(state.diameter)) state.diameter = nominalDiameter(Number(state.diameter)).toFixed(4);
+  const key = (c: Cartridge) => caliberFamily(c.bulletDiameterIn!).id;
+  const present = new Set(drawn.map(key));
+  const families = CALIBER_FAMILIES.filter((f) => present.has(f.id));
+  const diameters = families.map((f) => f.id);
+  // A filter saved as a diameter (e.g. "0.2840") moves to its family.
+  if (state.diameter !== "all" && !diameters.includes(state.diameter)) {
+    const d = Number(state.diameter);
+    state.diameter = Number.isFinite(d) && present.has(caliberFamily(d).id) ? caliberFamily(d).id : "all";
+  }
   const rimTypes = ["rimless", "rebated", "belted", "semi-rimmed", "rimmed"];
   const onFilter = <K extends keyof State>(k: K) => (v: State[K]) => {
     state[k] = v;
@@ -92,7 +98,7 @@ export function catalogView(data: AppData): HTMLElement {
       "div",
       { class: "grid" },
       h("label", { class: "field" }, h("span", { class: "field-label" }, "Search"), search),
-      h("label", { class: "field" }, h("span", { class: "field-label" }, "Bullet Ø"), select(state.diameter, [["all", "Any"], ...diameters.map((d) => [d, groupLabel(Number(d))] as [string, string])], onFilter("diameter"))),
+      h("label", { class: "field" }, h("span", { class: "field-label" }, "Bullet Ø"), select(state.diameter, [["all", "Any"], ...families.map((f) => [f.id, familyLabel(f, drawn.filter((c) => key(c) === f.id).map((c) => c.bulletDiameterIn!))] as [string, string])], onFilter("diameter"))),
       h(
         "label",
         { class: "field" },

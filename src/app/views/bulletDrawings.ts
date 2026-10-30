@@ -3,7 +3,7 @@
  * Sort and filter, tap bullets to select them, and compare the selection side
  * by side (or overlaid, bases aligned) with a dimension table.
  */
-import { nominalDiameter } from "../../lib/calibers.ts";
+import { CALIBER_FAMILIES, caliberFamily, familyLabel } from "../../lib/calibers.ts";
 import { buildBulletProfile, bulletDrawable, BULLET_TYPICAL, type BulletProfile, type BulletValue } from "../../lib/bulletProfile.ts";
 import { bulletOverlaySvg, bulletSvg } from "../bulletDrawing.ts";
 import { OVERLAY_COLORS, rulerSvg } from "../caseDrawing.ts";
@@ -76,7 +76,12 @@ export function bulletDrawingsView(data: AppData): HTMLElement {
     };
   const search = h("input", { type: "search", placeholder: "Name, e.g. 140 hybrid", value: state.text, "aria-label": "Search bullets" });
   search.addEventListener("input", () => onFilter("text")(search.value));
-  const diameters = [...new Set(drawn.map((b) => nominalDiameter(b.diameterIn).toFixed(3)))].sort((a, b) => Number(a) - Number(b));
+  const present = new Set(drawn.map((b) => caliberFamily(b.diameterIn).id));
+  const families = CALIBER_FAMILIES.filter((f) => present.has(f.id));
+  if (state.diameter !== "all" && !present.has(state.diameter)) {
+    const d = Number(state.diameter);
+    state.diameter = Number.isFinite(d) && present.has(caliberFamily(d).id) ? caliberFamily(d).id : "all";
+  }
   const fld = (label: string, input: HTMLElement) => h("label", { class: "field" }, h("span", { class: "field-label" }, label), input);
   const controls = h(
     "div",
@@ -86,7 +91,7 @@ export function bulletDrawingsView(data: AppData): HTMLElement {
       { class: "grid" },
       fld("Search", search),
       fld("Maker", select(state.maker, [["all", "Any"], ...makers.map((m) => [m, m] as [string, string])], onFilter("maker"))),
-      fld("Diameter", select(state.diameter, [["all", "Any"], ...diameters.map((d) => [d, `${d}″`] as [string, string])], onFilter("diameter"))),
+      fld("Diameter", select(state.diameter, [["all", "Any"], ...families.map((f) => [f.id, familyLabel(f, drawn.filter((b) => caliberFamily(b.diameterIn).id === f.id).map((b) => b.diameterIn))] as [string, string])], onFilter("diameter"))),
       fld("Ogive", select(state.ogive, [["all", "Any"], ["tangent", "Tangent"], ["secant", "Secant"], ["hybrid", "Hybrid"], ["unknown", "Not published"]], onFilter("ogive"))),
       fld("Base", select(state.base, [["all", "Any"], ["boattail", "Boattail"], ["flat", "Flat"]], onFilter("base"))),
       fld("Drawing", select<DrawingFilter>(state.drawing, [["all", "All"], ["measured", "Fully measured"], ["estimated", "Partly estimated"]], onFilter("drawing"))),
@@ -119,7 +124,7 @@ export function bulletDrawingsView(data: AppData): HTMLElement {
       const hay = `${b.manufacturer} ${b.productLine ?? ""} ${b.name} ${b.weightGr}gr ${b.weightGr} ${b.diameterIn}`.toLowerCase();
       if (words.length && !words.every((w) => hay.includes(w))) return false;
       if (state.maker !== "all" && b.manufacturer !== state.maker) return false;
-      if (state.diameter !== "all" && nominalDiameter(b.diameterIn).toFixed(3) !== state.diameter) return false;
+      if (state.diameter !== "all" && caliberFamily(b.diameterIn).id !== state.diameter) return false;
       if (state.ogive !== "all" && (b.ogiveType ?? "unknown") !== state.ogive) return false;
       if (state.base === "boattail" && !(p.boattail.value > 0)) return false;
       if (state.base === "flat" && p.boattail.value > 0) return false;
