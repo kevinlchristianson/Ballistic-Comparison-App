@@ -43,6 +43,12 @@ export interface VelocityEstimate {
   components?: EstimateComponent[];
   /** Set when blend-v1 raised this estimate to a smaller same-bore case's published-load estimate. */
   boreFloor?: { cartridgeId: string; name: string; fromFps: number };
+  /**
+   * The pressure the estimate is made at (pressure.ts). `factoryFps` is the
+   * estimate at the factory max; the estimate itself is at `handloadPsi`
+   * when the modern handload basis is used.
+   */
+  pressure?: { factoryPsi: number; handloadPsi: number; ratio: number; factoryFps: number };
 }
 
 export type ComponentSource = "load_data" | "load_data_extended" | "similar_cartridges" | "physics";

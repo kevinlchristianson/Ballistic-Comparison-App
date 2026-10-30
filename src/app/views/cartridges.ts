@@ -3,7 +3,8 @@ import type { Cartridge } from "../../lib/cartridges.ts";
 import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { byDiameterThenCapacity } from "../cartridgePicker.ts";
-import { capacityText, pressureText } from "../estimated.ts";
+import { capacityText, factoryPsi, handloadPressureText, pressureText } from "../estimated.ts";
+import { handloadMaxPsi } from "../../lib/velocity/pressure.ts";
 import { verificationSummary } from "../labels.ts";
 import { userDataBar } from "../userdata.ts";
 import { openLoadsForCartridge } from "./loads.ts";
@@ -52,6 +53,10 @@ export function cartridgesView(data: AppData): HTMLElement {
           neck: (c) => c.neckLengthIn,
           capacity,
           pressure: (c) => data.inputs.get(c.id)?.mapPsi ?? c.mapPsi,
+          handload: (c) => {
+            const f = factoryPsi(c, data.inputs);
+            return f == null ? null : handloadMaxPsi(f);
+          },
           loads: (c) => loadCount(c.id) || null,
           data: (c) => (c.verification.status === "verified" ? "Verified" : c.kind === "user" ? "Yours" : "Unverified"),
         },
@@ -81,6 +86,7 @@ export function cartridgesView(data: AppData): HTMLElement {
             h("td", {}, fmt.in(c.neckLengthIn)),
             h("td", { class: "num" }, capacityText(c, data.inputs)),
             h("td", { class: "num" }, pressureText(c, data.inputs)),
+            h("td", { class: "num" }, handloadPressureText(c, data.inputs)),
             h("td", { class: "num" }, loadCount(c.id) ? loadCount(c.id).toLocaleString() : "—"),
             h(
               "td",
@@ -97,7 +103,7 @@ export function cartridgesView(data: AppData): HTMLElement {
       sortableHead(
         [
           ["Cartridge", "name"], ["Standard", "standard"], ["Bullet", "bullet"], ["Case", "case"], ["Max COAL", "coal"], ["Base Ø", "base"], ["Shoulder Ø", "shoulder"],
-          ["To shoulder", "toShoulder"], ["Shoulder angle", "angle"], ["Neck", "neck"], ["Capacity (gr H₂O)", "capacity"], ["Max pressure (psi)", "pressure"],
+          ["To shoulder", "toShoulder"], ["Shoulder angle", "angle"], ["Neck", "neck"], ["Capacity (gr H₂O)", "capacity"], ["Factory max (psi)", "pressure"], ["Handload max (psi)", "handload"],
           ["Loads in library", "loads"], ["Data", "data"],
         ],
         sort,

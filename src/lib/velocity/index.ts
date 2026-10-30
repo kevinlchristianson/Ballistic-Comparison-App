@@ -12,9 +12,11 @@ import { createBlendEstimator } from "./blend.ts";
 import { estimateCartridgeInputs, maxChargesFromLoads, type CartridgeInputs } from "./inputs.ts";
 import { createLoadDataEstimator, loadFitSource, tableFitSource, type FitTable, type FpsPerInch } from "./loadData.ts";
 import { createPhysicsEstimator, PHYSICS_PARAMS } from "./physics.ts";
+import { createHandloadEstimator, type PressureBasis } from "./pressure.ts";
 import type { VelocityEstimate, VelocityEstimator, VelocityQuery } from "./types.ts";
 
 export * from "./types.ts";
+export { HANDLOAD_MIN_PSI, handloadMaxPsi, type PressureBasis } from "./pressure.ts";
 
 /** Barrel-length slope (fps per inch) taken from the physics model, for adjusting published loads. */
 export function physicsFpsPerInch(physics: VelocityEstimator): FpsPerInch {
@@ -44,16 +46,22 @@ export function createDefaultEstimator(cartridges: Cartridge[], loads: Normalize
 /**
  * The estimator the web app uses. Published loads arrive as a precomputed fit
  * table, never as rows. Loads the user typed in, kept in their browser, come
- * first when they cover the query.
+ * first when they cover the query, at the pressure they were shot at.
+ *
+ * `basis` "handload" (the default) moves the published-data estimates from
+ * the factory max pressure to the modern handload max (pressure.ts);
+ * "factory" leaves them at the factory max.
  */
 export function createSiteEstimator(
   cartridges: Cartridge[],
   table: FitTable,
   userLoads: NormalizedLoad[] = [],
   inputs: Map<string, CartridgeInputs> = estimateCartridgeInputs(cartridges),
+  basis: PressureBasis = "handload",
 ): VelocityEstimator {
   const physics = createFilledPhysics(cartridges, inputs);
   let est = createBlendEstimator({ cartridges, fits: tableFitSource(table), physics, loadModel: table.model, inputs });
+  if (basis === "handload") est = createHandloadEstimator(est, cartridges, inputs);
   if (userLoads.length > 0) {
     est = combine(createLoadDataEstimator(userLoads, { fpsPerInch: physicsFpsPerInch(physics), id: USER_LOADS_MODEL }), est);
   }

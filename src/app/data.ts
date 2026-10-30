@@ -141,7 +141,10 @@ export interface AppData {
   bullets: SiteBullet[];
   /** Library plus user cartridges. */
   cartridges: Cartridge[];
+  /** Estimates at the modern handload max pressure (the site default). */
   estimator: VelocityEstimator;
+  /** Estimates at the factory (SAAMI / C.I.P.) max pressure. */
+  factoryEstimator: VelocityEstimator;
 }
 
 const USER_KEY = "bca.user.v1";
@@ -180,7 +183,9 @@ export function refresh(data: AppData): void {
   data.bullets = [...data.user.bullets.filter((b) => !sentBullets.has(b.id)), ...data.publishedBullets];
   data.cartridges = [...data.library.cartridges, ...data.user.cartridges.filter((c) => !sentCartridges.has(c.id))];
   data.inputs = estimateCartridgeInputs(data.cartridges, data.estimateInputs);
-  data.estimator = createSiteEstimator(data.cartridges, data.fits, data.user.loads.map(toNormalizedLoad), data.inputs);
+  const userLoads = data.user.loads.map(toNormalizedLoad);
+  data.estimator = createSiteEstimator(data.cartridges, data.fits, userLoads, data.inputs, "handload");
+  data.factoryEstimator = createSiteEstimator(data.cartridges, data.fits, userLoads, data.inputs, "factory");
   save(USER_KEY, data.user);
 }
 
