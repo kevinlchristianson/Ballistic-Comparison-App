@@ -11,6 +11,12 @@
  * handload pressure), so the two adjustments do not stack. It applies to
  * every estimate, including ones the bigger case's own published loads
  * answer. The estimate is raised to the smaller case's value, not past it.
+ *
+ * The smaller case must have a published pressure limit, and the bigger
+ * case's limit (published or estimated) must be at least 95% of it. A
+ * high-pressure case such as 277 SIG Fury (80,000 psi) or 7mm Backcountry
+ * (steel-head, no pressure in the library yet) is fast because of its
+ * pressure, so it never sets the floor for a bigger case at 65,000 psi.
  */
 import type { Cartridge } from "../cartridges.ts";
 import type { CartridgeInputs } from "./inputs.ts";
@@ -51,9 +57,9 @@ export function createBoreFloorEstimator(base: VelocityEstimator, o: BoreFloorOp
         const x = o.inputs.get(p.id);
         const pP = o.pressureOf(p.id);
         if (!x?.caseCapacityGrH2O || !pP || mine.caseCapacityGrH2O! < FLOOR_CAPACITY_RATIO * x.caseCapacityGrH2O) return false;
-        // An estimated pressure is a rim-type or parent-case guess, too rough to rule a case out.
-        const bothKnown = !mine.pressureEstimate && !x.pressureEstimate;
-        return !bothKnown || myP >= FLOOR_PRESSURE_RATIO * pP;
+        // A smaller case with no published pressure may be loaded far hotter (7mm Backcountry), so it never sets a floor.
+        if (x.pressureEstimate) return false;
+        return myP >= FLOOR_PRESSURE_RATIO * pP;
       });
     }
     smallerCache.set(c.id, out);

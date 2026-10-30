@@ -1,8 +1,13 @@
 {
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-10-27",
-  "cartridgeCount": 180,
+  "cartridgeCount": 181,
   "sources": {
+    "saami-7mm-backcountry-2025": {
+      "title": "SAAMI public introduction: 7mm Backcountry (2025-01-27)",
+      "url": "https://saami.org/wp-content/uploads/2025/01/Public-Introduction-7mm-Backcountry-2025-01-27.pdf",
+      "notes": "SAAMI's introduction of the 7mm Backcountry standard, which postdates the Z299.4-2025 copy behind SAAMI-CHECK.md. Not yet read by the project (saami.org is blocked from the sandbox)."
+    },
     "saami-z299.4-2025": {
       "title": "ANSI/SAAMI Z299.4-2025, Centerfire Rifle",
       "url": "https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf",
@@ -1763,6 +1768,44 @@
         "caseCapacityGrH2O": "Typical water capacity to the case mouth for commercial brass; varies by headstamp.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.45) gives bullet diameter .2845 in, tolerance -.003.",
         "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 46,000 CUP."
+      },
+      "userAdded": false
+    },
+    {
+      "id": "7mm-backcountry",
+      "name": "7mm Backcountry",
+      "kind": "saami",
+      "category": "centerfire_rifle",
+      "aliases": [
+        "7mm BC"
+      ],
+      "parentCase": ".30-06 Springfield",
+      "bulletDiameterIn": 0.284,
+      "caseLengthIn": 2.417,
+      "trimLengthIn": 2.407,
+      "maxCoalIn": 3.34,
+      "caseCapacityGrH2O": 73,
+      "mapPsi": 80000,
+      "mapMethod": "piezo",
+      "rimType": "rimless",
+      "rimDiameterIn": 0.472,
+      "shoulderAngleDeg": 30,
+      "neckLengthIn": null,
+      "verification": {
+        "status": "unverified",
+        "checkAgainst": [
+          "saami-7mm-backcountry-2025"
+        ],
+        "note": "Added 2026-10-30 at the project owner's request so the 80,000 psi limit is on file. SAAMI accepted the cartridge in 2025, after the Z299.4-2025 copy behind SAAMI-CHECK.md, so it is not yet checked against the standard. MAP from SAAMI's announcement as reported by American Hunter and by Wikipedia (citing the SAAMI datasheet); dimensions from Wikipedia and the PTG print the bots cite."
+      },
+      "fieldNotes": {
+        "mapPsi": "SAAMI MAP 80,000 psi (transducer), reported at https://www.americanhunter.org/content/saami-publishes-7mm-backcountry-cartridge-specifications and https://en.wikipedia.org/wiki/7mm_Backcountry. Federal loads it in a steel-head (Peak Alloy) case; ordinary brass must not be loaded to this pressure.",
+        "caseCapacityGrH2O": "73 gr H2O from https://en.wikipedia.org/wiki/7mm_Backcountry (not cited there). Steel case.",
+        "caseLengthIn": "2.417 in from https://en.wikipedia.org/wiki/7mm_Backcountry; the same value the bots took for their PTG-14902 record.",
+        "maxCoalIn": "3.340 in from https://en.wikipedia.org/wiki/7mm_Backcountry.",
+        "trimLengthIn": "Derived as case length minus 0.010 in (common convention).",
+        "parentCase": ".30-06 Springfield per https://en.wikipedia.org/wiki/7mm_Backcountry.",
+        "shoulderAngleDeg": "30 deg from Pacific Tool & Gauge print PTG-14902 (as recorded by the bots)."
       },
       "userAdded": false
     },
