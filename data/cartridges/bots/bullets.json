@@ -10303,7 +10303,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum"
+      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum Pressure left null: 224 Weatherby Magnum is not listed in ANSI/SAAMI Z299.4-2025 (checked 2026-10-30)."
     },
     {
       "id": "219-zipper-ai",
@@ -10361,13 +10361,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 20,
       "rimType": "rimless",
-      "pressure": null,
+      "pressure": {
+        "value": 3550,
+        "unit": "bar",
+        "method": "cip"
+      },
       "source": {
         "name": "4D Reamer Rentals",
         "url": "https://4drentals.com/product/reamer-rentals/rifle/5-45x39/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 5.45 nominal 0.221 in; no groove printed. Neck 0.2480 in. Shoulder 0.3700 in at 20 deg. Body 0.4460 in at 0.1355 in. Rim 0.4470 in, thickness 0.0570 in. 4D Case Cap. 28.78 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Bullet diameter is the 5.45 nominal 0.221 in; no groove printed. Neck 0.2480 in. Shoulder 0.3700 in at 20 deg. Body 0.4460 in at 0.1355 in. Rim 0.4470 in, thickness 0.0570 in. 4D Case Cap. 28.78 gr (printed figure, not stored as water). Pmax 3550 bar from C.I.P. TDCC sheet 5.45 x 39, https://bobp.cip-bobp.org/uploads/tdcc/tab-i/5-45-x-39-en.pdf (retrieved 2026-10-30)."
     },
     {
       "id": "240-hawk",
@@ -10671,13 +10675,17 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 22,
       "rimType": "rimless",
-      "pressure": null,
+      "pressure": {
+        "value": 2850,
+        "unit": "bar",
+        "method": "cip"
+      },
       "source": {
         "name": "4D Reamer Rentals",
         "url": "https://4drentals.com/product/reamer-rentals/rifle/6-5-x-52-carcano/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Drawing titled 6.5x52mm MC. Bullet diameter is the conventional Carcano 0.268 in; no groove printed. Neck 0.2950 in. Shoulder 0.4250 in at 22 deg. Body 0.4460 in at 0.1100 in. Rim 0.4490 in, thickness 0.0400 in. 4D Case Cap. 47.05 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Drawing titled 6.5x52mm MC. Bullet diameter is the conventional Carcano 0.268 in; no groove printed. Neck 0.2950 in. Shoulder 0.4250 in at 22 deg. Body 0.4460 in at 0.1100 in. Rim 0.4490 in, thickness 0.0400 in. 4D Case Cap. 47.05 gr (printed figure, not stored as water). Pmax 2850 bar from C.I.P. TDCC sheet 6.5 x 52 Carcano, https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-x-52-carcano-en.pdf (retrieved 2026-10-30)."
     },
     {
       "id": "6-5-280-ai",
