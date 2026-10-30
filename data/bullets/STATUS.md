@@ -163,3 +163,5 @@ Kevin OK'd forum sources (esp. Rich Sherman). Added 6.5 PRC/SI, 25 PRC/SI (Long 
 PR #283 follow-up: rebuilt data/bullets/bullets.json with scripts/bullets/normalize.py (PR #283 only updated barnes.json, so the app never saw the G7s). Barnes changes only: 38 G7s, retrievedOn 2026-10-30.
 
 2026-10-30: Filled C.I.P. Pmax on 5.45x39 (3550 bar) and 6.5x52 Carcano (2850 bar) from TDCC sheets. 224 Wby Mag pressure stays null (not in SAAMI Z299.4-2025).
+
+2026-10-30: 224-wby-mag pressure 4400 bar from the C.I.P. TDCC belted table (SAAMI does not list it).
