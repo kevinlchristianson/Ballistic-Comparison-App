@@ -66,15 +66,15 @@ export function caliberLabel(diameterIn: number): string | null {
 }
 
 /** Nominal bullet diameters (in) that cartridges are grouped under. */
-const NOMINAL = [0.172, 0.204, 0.224, 0.243, 0.257, 0.264, 0.277, 0.284, 0.308, 0.311, 0.323, 0.338, 0.358, 0.366, 0.375, 0.411, 0.416, 0.423, 0.458, 0.474, 0.51];
+const NOMINAL = [0.172, 0.204, 0.224, 0.243, 0.257, 0.264, 0.277, 0.284, 0.308, 0.311, 0.3185, 0.321, 0.323, 0.33, 0.338, 0.356, 0.358, 0.366, 0.375, 0.411, 0.416, 0.423, 0.458, 0.474, 0.51];
 
 /**
  * The nominal bullet diameter a listed diameter belongs to, e.g. 0.284 for the
  * 0.2846 in a C.I.P. sheet (C.I.P. gives the maximum groove/bullet Ø, a little
  * over the nominal size). A value up to 0.0015 under or 0.0025 over a nominal
- * size joins it, preferring the smaller size; anything else stays as listed.
+ * size joins the closest one; anything else stays as listed.
  */
 export function nominalDiameter(diameterIn: number): number {
   const fit = NOMINAL.filter((n) => diameterIn - n >= -0.0015 && diameterIn - n <= 0.0025);
-  return fit.length ? Math.min(...fit) : Math.round(diameterIn * 10000) / 10000;
+  return fit.length ? fit.reduce((a, b) => (Math.abs(diameterIn - b) < Math.abs(diameterIn - a) ? b : a)) : Math.round(diameterIn * 10000) / 10000;
 }
