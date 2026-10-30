@@ -58,3 +58,13 @@ describe("bore floor on published answers and after the pressure step", () => {
     expect(big.estimateFps!).toBeCloseTo(small.estimateFps!, 3);
   });
 });
+
+describe("bore floor and high-pressure cases", () => {
+  // The same smaller case, but rated at 80,000 psi (like 277 SIG Fury): its speed comes from pressure, not powder.
+  const hot = cartridges.map((c) => (c.id === "25-06-rem" ? { ...c, mapPsi: 80_000 } : c));
+  const est = createDefaultEstimator(hot, loads);
+  it("never lets a much hotter smaller case set the floor", () => {
+    const big = est.estimate({ cartridgeId: "257-wby", bulletWeightGr: 117, barrelLengthIn: 24 });
+    expect(big.flags).not.toContain("raised_to_smaller_case");
+  });
+});
