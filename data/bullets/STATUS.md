@@ -151,3 +151,7 @@ None. The capacity questions in the comment folder are answered.
 ## 2026-10-30: Barnes G7
 
 Barnes product pages keep G7 BC only in the `specsJson` spec table, not in the BigCommerce custom fields the adapter read. The Barnes adapter now fills G7 from `specsJson` by Item # (G7 only, so pack-size SKUs don't become extra rows). Barnes bullets with a G7 went from 7 to 38 of 199; the rest have no G7 on Barnes' site. Example: 30376 (.308 212 gr LRX BT Bore Rider) now has G7 0.367.
+
+## 2026-10-30: SS shoulders
+
+Set shoulderAngleDeg 40 on 6mm, 25 and 6.5 Sherman Short, per Sherman's short-action page (whole SS series is 40°).
