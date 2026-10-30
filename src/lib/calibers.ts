@@ -78,3 +78,47 @@ export function nominalDiameter(diameterIn: number): number {
   const fit = NOMINAL.filter((n) => diameterIn - n >= -0.0015 && diameterIn - n <= 0.0025);
   return fit.length ? fit.reduce((a, b) => (Math.abs(diameterIn - b) < Math.abs(diameterIn - a) ? b : a)) : Math.round(diameterIn * 10000) / 10000;
 }
+
+/** A caliber family for filters: bullets from `min` up to (not including) `max` inches. */
+export interface CaliberFamily {
+  id: string;
+  name: string;
+  min: number;
+  max: number;
+}
+
+/** Families wide enough to hold every size of one caliber, e.g. 8 mm takes .318 J-bore and .323 S-bore. */
+export const CALIBER_FAMILIES: CaliberFamily[] = [
+  { id: "17", name: "17 caliber", min: 0, max: 0.185 },
+  { id: "19-20", name: "19–20 caliber", min: 0.185, max: 0.212 },
+  { id: "22", name: "22 caliber", min: 0.212, max: 0.235 },
+  { id: "6mm", name: "6 mm", min: 0.235, max: 0.25 },
+  { id: "25", name: "25 caliber", min: 0.25, max: 0.26 },
+  { id: "6.5mm", name: "6.5 mm", min: 0.26, max: 0.272 },
+  { id: "270", name: "270 caliber", min: 0.272, max: 0.28 },
+  { id: "7mm", name: "7 mm", min: 0.28, max: 0.292 },
+  { id: "30", name: "30 caliber", min: 0.292, max: 0.315 },
+  { id: "8mm", name: "8 mm", min: 0.315, max: 0.327 },
+  { id: "33", name: "33 caliber", min: 0.327, max: 0.345 },
+  { id: "35", name: "35 caliber / 9 mm", min: 0.345, max: 0.362 },
+  { id: "9.3mm", name: "9.3 mm", min: 0.362, max: 0.37 },
+  { id: "375", name: "375 caliber", min: 0.37, max: 0.39 },
+  { id: "40", name: "40 caliber", min: 0.39, max: 0.413 },
+  { id: "416", name: "416–423 caliber", min: 0.413, max: 0.425 },
+  { id: "44", name: "44 caliber", min: 0.425, max: 0.44 },
+  { id: "45", name: "45 caliber", min: 0.44, max: 0.465 },
+  { id: "47", name: "470–475 caliber", min: 0.465, max: 0.49 },
+  { id: "50", name: "50 caliber", min: 0.49, max: 0.53 },
+  { id: "big", name: "Over 50 caliber", min: 0.53, max: Infinity },
+];
+
+export function caliberFamily(diameterIn: number): CaliberFamily {
+  return CALIBER_FAMILIES.find((f) => diameterIn >= f.min && diameterIn < f.max) ?? CALIBER_FAMILIES[CALIBER_FAMILIES.length - 1]!;
+}
+
+/** "7 mm (.284–.287″)": the family name and the nominal sizes present in it. */
+export function familyLabel(f: CaliberFamily, diameters: number[]): string {
+  const ds = [...new Set(diameters.map((d) => nominalDiameter(d).toFixed(3).replace(/^0/, "")))].sort();
+  const range = ds.length === 0 ? "" : ds.length === 1 ? ` (${ds[0]}″)` : ` (${ds[0]}–${ds[ds.length - 1]}″)`;
+  return `${f.name}${range}`;
+}

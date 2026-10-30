@@ -1,4 +1,4 @@
-import { diameterFromCaliber, nominalDiameter } from "../src/lib/calibers.ts";
+import { caliberFamily, diameterFromCaliber, familyLabel, nominalDiameter } from "../src/lib/calibers.ts";
 
 describe("diameterFromCaliber", () => {
   it.each([
@@ -63,4 +63,26 @@ describe("nominalDiameter", () => {
   ])("groups %s with %s", (d, n) => expect(nominalDiameter(d)).toBe(n));
 
   it.each([0.287, 0.228, 0.1955, 0.298, 0.3331])("keeps %s as listed", (d) => expect(nominalDiameter(d)).toBe(d));
+});
+
+describe("caliberFamily", () => {
+  it.each([
+    [0.2846, "7mm"],
+    [0.287, "7mm"],
+    [0.298, "30"],
+    [0.311, "30"],
+    [0.3185, "8mm"],
+    [0.323, "8mm"],
+    [0.33, "33"],
+    [0.338, "33"],
+    [0.356, "35"],
+    [0.366, "9.3mm"],
+    [0.375, "375"],
+    [0.585, "big"],
+  ])("puts %s in %s", (d, id) => expect(caliberFamily(d).id).toBe(id));
+
+  it("labels a family with the sizes in it", () => {
+    expect(familyLabel(caliberFamily(0.323), [0.3185, 0.321, 0.323])).toBe("8 mm (.319–.323″)");
+    expect(familyLabel(caliberFamily(0.264), [0.264])).toBe("6.5 mm (.264″)");
+  });
 });
