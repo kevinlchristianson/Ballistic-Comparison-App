@@ -155,3 +155,7 @@ Barnes product pages keep G7 BC only in the `specsJson` spec table, not in the B
 ## 2026-10-30: SS shoulders
 
 Set shoulderAngleDeg 40 on 6mm, 25 and 6.5 Sherman Short, per Sherman's short-action page (whole SS series is 40°).
+
+## 2026-10-30: Sherman forum rows
+
+Kevin OK'd forum sources (esp. Rich Sherman). Added 6.5 PRC/SI, 25 PRC/SI (Long Range Only, Lance Kenyon) and 6.5 Sherman long action (Long Range Hunting), all ESTIMATE. Also folded the SS shoulder citation into `note` (PR #285 had put it in a stray `notes` field). Still nothing for 6 PRC/SI, 25 Mega, 25 and 6.5 LA. bullets.json: 395.
