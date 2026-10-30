@@ -4,6 +4,13 @@ Last updated: 2026-10-30 19:45 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
+## Sherman long action, 375 Yukon and forum sources (2026-10-30)
+
+Kevin ruled on 2026-10-30 that forum posts (especially Rich Sherman's) are OK for dimensions; such values are marked ESTIMATE.
+- New: 270, 280, 300 and 338 Sherman (long action). Case 2.525, trim 2.515 from a Long Range Hunting 6.5 Sherman post that Rich Sherman endorsed; 40-degree shoulder and '06 bolt face from Sherman's long-action page; 300 Sherman water capacity 77 gr from Rich. The 338 note records the forum's ~2.495 in from Peterson 280 AI brass.
+- New: 375 Sherman Yukon. Case 2.160 (Rich: .060 longer than a WSM; matches 300 Mega brass at 2.160 on the cheat sheet), 40-degree shoulder. Sherman's 2.960 COAL is one loaded length, kept in the note, not as maxCoal.
+- 33 Sherman Magnum: note added that Rich wrote 2.550 case length (web .530, head .532, both hedged). The cheat sheet's 2.585 is kept.
+
 ## Sherman Short shoulder and 270 SS (2026-10-30)
 
 - shoulderAngleDeg 40 filled on 7mm, 300 and 338 Sherman Short (they were empty), cited to Sherman's short-action page, which prints a 40-degree shoulder for the Sherman Short series. 6mm, 25 and 6.5 SS are left to the Bullet Database bot.

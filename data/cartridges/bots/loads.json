@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-30",
   "bot": "load-data",
-  "cartridgeCount": 197,
+  "cartridgeCount": 202,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -2390,7 +2390,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '100(-250gr), 312(250gr+)' (thousandths of an inch as printed; no schema field), action LA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.575\", brass max length 2.585\" (caseLength), water capacity 97 gr, bolt face printed (see below), freebore '100(-250gr), 312(250gr+)' (thousandths of an inch as printed; no schema field), action LA. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29). Forum note (ESTIMATE, Forum sources allowed per Kevin's ruling, 2026-10-30.): Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/33-sherman-magnum.247530/page-4) wrote 'the case length on the Sherman is 2.550', and in replies on that page 'I think the web is .530' and 'I think the belt is the same diameter as the case head on the SM at .532'. Not stored: caseLength keeps the cheat sheet's 2.585, and the others are hedged and are profile values left for the app."
     },
     {
       "id": "33-nosler",
@@ -6328,6 +6328,166 @@
         "retrievedOn": "2026-10-30"
       },
       "note": "ESTIMATE: from the shared SS case per Sherman's 270 SS page (https://shermanwildcatcartridges.com/cartridges/short-action/70-sherman-shortmag/, retrieved 2026-10-30), which says the 270 Sherman Shortmag shares the same case as the other SS cartridges. caseLength 1.960, trimLength 1.950 and water capacity 72 gr are copied from our 7mm Sherman Short record (Sherman cheat sheet, https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923). shoulderAngleDeg 40 from Sherman's short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which prints a 40-degree shoulder for the Sherman Short series. bulletDiameter is the nominal .277 bore. Neck diameter and the other profile values are null like the sibling SS records, which have no neck value to take an allowance from; the app estimates them. Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+    },
+    {
+      "id": "270-sherman",
+      "name": "270 Sherman",
+      "kind": "wildcat",
+      "aliases": [
+        "270 Sherman (long action)",
+        "270 Sherman LA"
+      ],
+      "parentCase": ".270 Winchester / .280 Remington brass",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.277,
+      "caseLength": 2.525,
+      "trimLength": 2.515,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Long Range Hunting forum",
+        "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 270 page: parent case is the 270 W. (https://shermanwildcatcartridges.com/cartridges/long-action/270-sherman/). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
+    },
+    {
+      "id": "280-sherman",
+      "name": "280 Sherman",
+      "kind": "wildcat",
+      "aliases": [
+        "280 Sherman (long action)",
+        "280 Sherman LA"
+      ],
+      "parentCase": ".270 Winchester / .280 Remington brass",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.525,
+      "trimLength": 2.515,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Long Range Hunting forum",
+        "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 280 page: same parent 270/280 case, 40 degree shoulder moved forward. (https://shermanwildcatcartridges.com/cartridges/long-action/280-sherman/). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
+    },
+    {
+      "id": "300-sherman",
+      "name": "300 Sherman",
+      "kind": "wildcat",
+      "aliases": [
+        "300 Sherman (long action)",
+        "300 Sherman LA"
+      ],
+      "parentCase": ".270 Winchester / .280 Remington brass",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.525,
+      "trimLength": 2.515,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 77,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Long Range Hunting forum",
+        "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 300 page: shares the same case design as the other Sherman bore sizes, the most from an ’06 bolt face. (https://shermanwildcatcartridges.com/cartridges/long-action/300-sherman/). Water capacity about 77 gr is Rich Sherman's figure (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7: 'The 300 holds about 77 grains'). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
+    },
+    {
+      "id": "338-sherman",
+      "name": "338 Sherman",
+      "kind": "wildcat",
+      "aliases": [
+        "338 Sherman (long action)",
+        "338 Sherman LA"
+      ],
+      "parentCase": ".270 Winchester / .280 Remington brass",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.525,
+      "trimLength": 2.515,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Long Range Hunting forum",
+        "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 338 page: 270W brass (RWS, Norma) recommended. (https://shermanwildcatcartridges.com/cartridges/long-action/338-sherman/). Shane Lindsey (https://www.longrangehunting.com/threads/338-sherman.198698/page-9): Peterson 280 AI brass forms to about 2.495 in for the 338 Sherman (note only, not stored). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
+    },
+    {
+      "id": "375-sherman-yukon",
+      "name": "375 Sherman Yukon",
+      "kind": "wildcat",
+      "aliases": [
+        "375 Yukon",
+        "375 SY"
+      ],
+      "parentCase": "300 WSM (via Sherman Mega)",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 2.16,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Sherman Wildcat Cartridges",
+        "url": "https://www.longrangehunting.com/threads/375-sherman-yukon.340537/",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/375-sherman-yukon.340537/): '.060\" longer than a WSM. Longer body, longer neck, 40 degree, low taper', and 'Its my MEGA case necked up'. caseLength 2.160 is the 300 WSM's 2.100 plus .060; Sherman's cheat sheet gives 2.160 max length for 300 Mega brass, which agrees. Sherman's 375 Yukon page (https://shermanwildcatcartridges.com/cartridges/medium-action/375-yukon/) calls it a modified version of the MEGA line and gives 2.960 COAL with a 270 Shock Hammer in a 700 short action; that is one loaded length, not a maximum, so maxCoal is left empty. Neck and profile values are left empty for the app to estimate."
     }
   ],
   "aliases": [
