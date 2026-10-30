@@ -1181,6 +1181,24 @@ def _bigcommerce_bullets(url: str, manufacturer: str, rifle_only: bool) -> list[
     groups = _bc_groups(fields)
     if not groups:
         return []
+    # Barnes keeps some specs (notably G7 BC) only in the product's specsJson
+    # table, keyed by Item #, not in customFields. Fill gaps from it.
+    specs = product.get("specsJson")
+    if isinstance(specs, str):
+        try:
+            specs = json.loads(specs)
+        except ValueError:
+            specs = None
+    if isinstance(specs, dict):
+        for group in groups:
+            row = specs.get(str(group.get("Item #") or "").strip())
+            if not isinstance(row, dict):
+                continue
+            # Only G7: filling weight or G1 here would turn pack-size SKU
+            # groups into extra bullet rows.
+            value = str(row.get("G7 BC") or "").strip()
+            if value and not group.get("G7 BC"):
+                group["G7 BC"] = value
     if manufacturer == "Barnes" and re.search(
         r"vor-tx|tac-xpd|ammunition|buckshot|shotshell|t-shirt|shirt|hat",
         f"{url} {product.get('productName') or ''}",
