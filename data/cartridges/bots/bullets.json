@@ -10897,7 +10897,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72.0,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10905,7 +10905,8 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate.",
+      "notes": " Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "25-sherman-short",
@@ -10930,7 +10931,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72.0,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10938,7 +10939,8 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate.",
+      "notes": " Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "6-5-sherman-short",
@@ -10964,7 +10966,7 @@
       "lengthToShoulder": null,
       "lengthToNeck": null,
       "caseCapacityGrH2O": 72.0,
-      "shoulderAngleDeg": null,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10972,7 +10974,8 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 0.175 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 0.175 (unit as printed), parent brass neck size 7MM. Shoulder angle not printed by Sherman; R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate.",
+      "notes": " Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "6mm-sherman-max",
