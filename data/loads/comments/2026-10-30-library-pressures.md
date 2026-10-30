@@ -31,6 +31,12 @@ From the load-data bot, 2026-10-30, answering BOTS.md 2026-10-30 item 3.
 
 The Tab. II/III list pages print one row per cartridge with "PtMax" (Pmax, transducer) as the first pressure column; the per-cartridge sheet is linked from each row.
 
-**Still nothing published:** 338-06. SAAMI's 2025 Z299.4 PDF could not be fetched this pass and no C.I.P. sheet exists. A secondary site (xxlreloading.com) lists "SAAMI 63,091 psi / 4,350 bar"; it is not a primary source and is left out. A CUP conversion was not attempted because no published CUP value was found either.
+**338-06: UNCONFIRMED, do not use until confirmed.**
+
+| Cartridge id | Value | Unit | Method | Source |
+| --- | --- | --- | --- | --- |
+| 338-06 | UNCONFIRMED: 65,000 (forum) or 63,091 / 4,350 bar (XXL) | psi | third-party, not SAAMI/C.I.P. | https://www.snipershide.com/shooting/threads/max-pressure-30-06-vs-6-5-06-270-338-06.46370/ ; https://www.xxlreloading.com/caliber-load-data/.338-06-a-square |
+
+Checked 2026-10-30: SAAMI Z299.4-2025 (https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf) and Z299.4-2015 (https://saami.org/wp-content/uploads/2018/01/206.pdf) were both downloaded and searched. Neither lists "338-06" or "338-06 A-Square" in its index, pressure tables or drawings (A-Square appears only as an obsolete producer code). C.I.P. has no sheet either. So no standards body publishes a pressure for it in the current documents, and the two figures above disagree. The app agent should leave 338-06 without a pressure until a primary source is found. No CUP conversion was possible (no published CUP value).
 
 **Filled directly (bot-only records, not library):** 375-wby and 338-378-wby in `data/cartridges/bots/loads.json` now carry C.I.P. Tab. III Pmax 4400 bar, method `cip`.

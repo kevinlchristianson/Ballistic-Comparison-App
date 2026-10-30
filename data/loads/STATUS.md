@@ -11,7 +11,7 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
   - C.I.P. Tab. I Pmax (piezo at case mouth): 6.5x47 Lapua 4350 bar (tabical-en-page19), 358 Win 4050 bar (page139), 250 Savage 3650 bar (page93), 6mm BR Rem 4050 bar (page13), 6mm Norma BR 4050 bar (page12), 6 XC 4400 bar (page17), 6mm PPC-USA 4050 bar (page15), 22 PPC-USA 4050 bar (page81).
   - SAAMI Z299.4-2025 prints CUP only for 30-40 Krag, 307/356/358/375 Win and 416 Weatherby. Per Kevin's 2026-10-30 ruling (transducer values first, CUP conversion only as last resort), C.I.P. transducer Pmax values were found for all of them, and for 240, 30-378 and 378 Weatherby, 6.5 and 8mm Rem Mag (C.I.P. Tab. III belted), 225 Win and 50 BMG. No conversions were needed. Full table for the app agent: [`comments/2026-10-30-library-pressures.md`](comments/2026-10-30-library-pressures.md).
   - Bot-only records filled: 375-wby and 338-378-wby, C.I.P. Tab. III Pmax 4400 bar.
-  - Still nothing published: 338-06 (no C.I.P. sheet; SAAMI PDF not fetched; only a secondary-site figure).
+  - 338-06: UNCONFIRMED. SAAMI Z299.4-2025 and -2015 were fetched and do not list it; no C.I.P. sheet. Forum (65,000 psi) and XXL Reloading (63,091 psi / 4,350 bar) figures are listed in the comment file as not to be used until confirmed.
 - 7mm Backcountry: the bot record carries no pressure and now only fills profile fields, as item 4 asks. No change needed.
 
 ## Sherman long action, 375 Yukon and forum sources (2026-10-30)
