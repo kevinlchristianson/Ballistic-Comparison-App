@@ -1,4 +1,4 @@
-import { diameterFromCaliber } from "../src/lib/calibers.ts";
+import { diameterFromCaliber, nominalDiameter } from "../src/lib/calibers.ts";
 
 describe("diameterFromCaliber", () => {
   it.each([
@@ -42,4 +42,19 @@ describe("diameterFromCaliber", () => {
     expect(diameterFromCaliber("")).toBeNull();
     expect(diameterFromCaliber("Mystery bore")).toBeNull();
   });
+});
+
+describe("nominalDiameter", () => {
+  it.each([
+    [0.2846, 0.284], // 7mm KM, C.I.P. max groove
+    [0.285, 0.284],
+    [0.2858, 0.284],
+    [0.3091, 0.308],
+    [0.3118, 0.311],
+    [0.278, 0.277],
+    [0.5122, 0.51],
+    [0.224, 0.224],
+  ])("groups %s with %s", (d, n) => expect(nominalDiameter(d)).toBe(n));
+
+  it.each([0.287, 0.228, 0.1955, 0.3185, 0.3559])("keeps %s as listed", (d) => expect(nominalDiameter(d)).toBe(d));
 });

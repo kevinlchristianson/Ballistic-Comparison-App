@@ -3,6 +3,7 @@
  * Sort and filter, tap bullets to select them, and compare the selection side
  * by side (or overlaid, bases aligned) with a dimension table.
  */
+import { nominalDiameter } from "../../lib/calibers.ts";
 import { buildBulletProfile, bulletDrawable, BULLET_TYPICAL, type BulletProfile, type BulletValue } from "../../lib/bulletProfile.ts";
 import { bulletOverlaySvg, bulletSvg } from "../bulletDrawing.ts";
 import { OVERLAY_COLORS, rulerSvg } from "../caseDrawing.ts";
@@ -75,7 +76,7 @@ export function bulletDrawingsView(data: AppData): HTMLElement {
     };
   const search = h("input", { type: "search", placeholder: "Name, e.g. 140 hybrid", value: state.text, "aria-label": "Search bullets" });
   search.addEventListener("input", () => onFilter("text")(search.value));
-  const diameters = [...new Set(drawn.map((b) => b.diameterIn.toFixed(3)))].sort((a, b) => Number(a) - Number(b));
+  const diameters = [...new Set(drawn.map((b) => nominalDiameter(b.diameterIn).toFixed(3)))].sort((a, b) => Number(a) - Number(b));
   const fld = (label: string, input: HTMLElement) => h("label", { class: "field" }, h("span", { class: "field-label" }, label), input);
   const controls = h(
     "div",
@@ -118,7 +119,7 @@ export function bulletDrawingsView(data: AppData): HTMLElement {
       const hay = `${b.manufacturer} ${b.productLine ?? ""} ${b.name} ${b.weightGr}gr ${b.weightGr} ${b.diameterIn}`.toLowerCase();
       if (words.length && !words.every((w) => hay.includes(w))) return false;
       if (state.maker !== "all" && b.manufacturer !== state.maker) return false;
-      if (state.diameter !== "all" && b.diameterIn.toFixed(3) !== state.diameter) return false;
+      if (state.diameter !== "all" && nominalDiameter(b.diameterIn).toFixed(3) !== state.diameter) return false;
       if (state.ogive !== "all" && (b.ogiveType ?? "unknown") !== state.ogive) return false;
       if (state.base === "boattail" && !(p.boattail.value > 0)) return false;
       if (state.base === "flat" && p.boattail.value > 0) return false;

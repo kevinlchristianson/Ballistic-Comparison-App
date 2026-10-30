@@ -4,6 +4,7 @@
  * selection side by side (or overlaid) at one scale with a dimension table.
  */
 import { buildCaseProfiles, type CaseProfile, type ProfileValue } from "../../lib/caseProfile.ts";
+import { nominalDiameter } from "../../lib/calibers.ts";
 import type { Cartridge } from "../../lib/cartridges.ts";
 import { caseSvg, OVERLAY_COLORS, overlaySvg, rulerSvg } from "../caseDrawing.ts";
 import { byDiameterThenCapacity, groupLabel, matchesCartridge } from "../cartridgePicker.ts";
@@ -72,7 +73,12 @@ export function catalogView(data: AppData): HTMLElement {
     persist();
     renderGrid();
   });
-  const diameters = [...new Set(drawn.map((c) => c.bulletDiameterIn!.toFixed(3)))].sort((a, b) => Number(a) - Number(b));
+  // Grouped by nominal size, so a C.I.P. 0.2846 sits with the 0.284 (7 mm) cartridges.
+  const nominal = (c: Cartridge) => nominalDiameter(c.bulletDiameterIn!);
+  const key = (c: Cartridge) => nominal(c).toFixed(4);
+  const diameters = [...new Set(drawn.map(key))].sort((a, b) => Number(a) - Number(b));
+  // A filter saved before grouping (e.g. "0.284") still matches its group.
+  if (state.diameter !== "all" && !diameters.includes(state.diameter)) state.diameter = nominalDiameter(Number(state.diameter)).toFixed(4);
   const rimTypes = ["rimless", "rebated", "belted", "semi-rimmed", "rimmed"];
   const onFilter = <K extends keyof State>(k: K) => (v: State[K]) => {
     state[k] = v;
@@ -137,7 +143,7 @@ export function catalogView(data: AppData): HTMLElement {
       const p = profiles.get(c.id)!;
       if (!matchesCartridge(c, state.text)) return false;
       if (state.standard !== "all" && c.kind !== state.standard) return false;
-      if (state.diameter !== "all" && c.bulletDiameterIn!.toFixed(3) !== state.diameter) return false;
+      if (state.diameter !== "all" && key(c) !== state.diameter) return false;
       if (state.rim !== "all" && (c.rimType ?? "unknown") !== state.rim) return false;
       if (state.drawing === "print" && !p.fromPrint) return false;
       if (state.drawing === "estimated" && p.fromPrint) return false;
@@ -151,7 +157,8 @@ export function catalogView(data: AppData): HTMLElement {
       angle: (c) => profiles.get(c.id)!.shoulderAngleDeg,
     };
     const dir = state.desc ? -1 : 1;
-    const base = byDiameterThenCapacity(capacity);
+    const byListed = byDiameterThenCapacity(capacity);
+    const base = (a: Cartridge, b: Cartridge) => nominal(a) - nominal(b) || byListed(a, b);
     const collator = new Intl.Collator(undefined, { numeric: true, sensitivity: "base" });
     return rows.sort((a, b) => {
       if (state.sort === "diameter") return dir * base(a, b);
@@ -190,7 +197,7 @@ export function catalogView(data: AppData): HTMLElement {
           { class: `case-card${on ? " selected" : ""}`, "aria-pressed": on ? "true" : "false", title: `${c.name}. ${tip} Tap to ${on ? "remove from" : "add to"} the comparison.`, onclick: () => toggle(c.id) },
           caseSvg(p, { pxPerIn: CARD_PX_PER_IN, heightIn, widthIn, title: c.name }),
           h("span", { class: "case-name" }, c.name),
-          h("span", { class: "case-meta" }, `${c.bulletDiameterIn!.toFixed(3)}″ · ${c.caseLengthIn!.toFixed(3)}″`),
+          h("span", { class: "case-meta", title: nominal(c) !== c.bulletDiameterIn ? `Listed bullet Ø ${c.bulletDiameterIn}″` : null }, `${nominal(c).toFixed(3)}″ · ${c.caseLengthIn!.toFixed(3)}″`),
           p.fromPrint ? null : h("span", { class: "case-est" }, "≈ estimated"),
         );
       }),
@@ -274,7 +281,11 @@ export function catalogView(data: AppData): HTMLElement {
         {},
         row("Standard", ({ c }) => STANDARD_LABEL[c.kind]),
         row("Rim type", ({ p }) => (p.rimType.estimated ? h("span", { class: "estimated", title: p.rimType.note }, `≈${p.rimType.value}`) : p.rimType.value)),
-        row("Bullet Ø", ({ c }) => inch(c.bulletDiameterIn)),
+        row("Bullet Ø", ({ c }) =>
+          nominal(c) === c.bulletDiameterIn
+            ? inch(c.bulletDiameterIn)
+            : h("span", { title: "C.I.P. and some prints list the maximum groove/bullet Ø, a little over the nominal size." }, `${inch(nominal(c))} (listed ${c.bulletDiameterIn})`),
+        ),
         row("Neck Ø", ({ p }) => dimCell(p.neckDiameter)),
         row("Shoulder Ø", ({ p }) => dimCell(p.shoulderDiameter)),
         row("Base Ø", ({ p }) => dimCell(p.baseDiameter)),
