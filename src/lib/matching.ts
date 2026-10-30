@@ -17,7 +17,11 @@
  *    physics-only estimates, then by how far the estimate clears the target.
  *
  * Loads above SAAMI maximum pressure are never used (the velocity module
- * drops them), so no match depends on an above-max load.
+ * drops them), so no match depends on an above-max published load. The
+ * site's default estimator then moves each estimate from the factory max to
+ * the modern handload max (velocity/pressure.ts), which is beyond SAAMI and
+ * C.I.P. limits and labeled as such; pass the factory estimator to match at
+ * published pressure.
  */
 import type { Cartridge } from "./cartridges.ts";
 import type { VelocityEstimate, VelocityEstimator } from "./velocity/types.ts";

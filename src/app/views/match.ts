@@ -6,7 +6,8 @@ import { seatingGeometry, type GeometryResult } from "../../lib/geometry.ts";
 import { matchCartridges, STATUS_ORDER, type CartridgeMatch, type MatchStatus } from "../../lib/matching.ts";
 import type { AppData, SiteBullet } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
-import { capacityText, pressureText } from "../estimated.ts";
+import { capacityText, HANDLOAD_TIP, handloadPressureText, pressureText } from "../estimated.ts";
+import type { PressureBasis } from "../../lib/velocity/pressure.ts";
 import { componentsBlock, flagText, GEOMETRY_TEXT, modelLabel, QUIET_FLAGS, STATUS_TEXT } from "../labels.ts";
 import { bulletPicker } from "../picker.ts";
 import { load, save } from "../store.ts";
@@ -21,10 +22,12 @@ interface State {
   barrelLengthIn: number;
   magazineLengthIn: number | null;
   showShort: boolean;
+  /** Older saved states have none; they get the handload default. */
+  pressureBasis?: PressureBasis;
 }
 
 const KEY = "bca.match.v1";
-const DEFAULT: State = { bulletId: null, manual: false, diameterIn: null, weightGr: null, lengthIn: null, targetFps: 2800, barrelLengthIn: 24, magazineLengthIn: null, showShort: false };
+const DEFAULT: State = { bulletId: null, manual: false, diameterIn: null, weightGr: null, lengthIn: null, targetFps: 2800, barrelLengthIn: 24, magazineLengthIn: null, showShort: false, pressureBasis: "handload" };
 
 export function matchView(data: AppData): HTMLElement {
   const st = load<State>(KEY, { ...DEFAULT });
@@ -67,10 +70,17 @@ export function matchView(data: AppData): HTMLElement {
         { class: "grid" },
         field("Target muzzle velocity (fps)", numberInput(st.targetFps, { min: 500, max: 5000, step: 25, onInput: (v) => ((st.targetFps = v), persist(), run()) })),
         field("Barrel length (in)", numberInput(st.barrelLengthIn, { min: 10, max: 36, step: 1, onInput: (v) => ((st.barrelLengthIn = v ?? 24), persist(), run()) })),
+        field(
+          "Pressure",
+          select(st.pressureBasis ?? "handload", [["handload", "Modern handload max (≥65k psi)"], ["factory", "Factory max (SAAMI / C.I.P.)"]], (v) => ((st.pressureBasis = v as PressureBasis), persist(), run())),
+          "Handload max is beyond published specs: modern brass in a strong, modern action only",
+        ),
         field("Magazine length (in)", numberInput(st.magazineLengthIn, { min: 1.5, max: 5, step: 0.01, placeholder: "Typical for the action", onInput: (v) => ((st.magazineLengthIn = v), persist(), run()) }), "Leave blank to use the typical magazine"),
       ),
     );
   }
+
+  const handload = () => (st.pressureBasis ?? "handload") === "handload";
 
   function run(): void {
     clear(out);
@@ -82,7 +92,7 @@ export function matchView(data: AppData): HTMLElement {
       out.append(h("p", { class: "empty" }, "Choose a bullet (or enter its diameter and weight) and a target velocity."));
       return;
     }
-    const matches = matchCartridges({ bulletDiameterIn: dia, bulletWeightGr: weight, targetVelocityFps: st.targetFps, barrelLengthIn: st.barrelLengthIn }, data.cartridges, data.estimator);
+    const matches = matchCartridges({ bulletDiameterIn: dia, bulletWeightGr: weight, targetVelocityFps: st.targetFps, barrelLengthIn: st.barrelLengthIn }, data.cartridges, handload() ? data.estimator : data.factoryEstimator);
     if (matches.length === 0) {
       out.append(h("p", { class: "empty" }, `No cartridge in the library uses a ${fmt.in(dia)} bullet. You can add a wildcat on the Cartridges page.`));
       return;
@@ -94,6 +104,13 @@ export function matchView(data: AppData): HTMLElement {
         "div",
         { class: "card" },
         h("h3", {}, `${matches.length} cartridges for ${fmt.in(dia)} ${weight} gr at ${st.targetFps.toLocaleString()} fps from ${st.barrelLengthIn}″`),
+        h(
+          "p",
+          { class: handload() ? "warn" : "hint" },
+          handload()
+            ? "Estimates assume the modern handload max pressure (the factory max or 65,000 psi, whichever is higher). That is beyond SAAMI/C.I.P. specs and only for modern brass in a strong, modern action with a tight chamber. Never in old or weak actions."
+            : "Estimates assume the factory (SAAMI / C.I.P.) max pressure.",
+        ),
         h("p", { class: "chips" }, STATUS_ORDER.map((s) => h("span", { class: `badge ${s}`, title: STATUS_TEXT[s].tip }, `${STATUS_TEXT[s].label}: ${counts[s]}`))),
         length == null ? h("p", { class: "hint" }, "This bullet has no published length, so seating and magazine fit are not checked. Enter dimensions to add a measured length.") : null,
         h(
@@ -145,6 +162,13 @@ export function matchView(data: AppData): HTMLElement {
         e.estimateFps != null
           ? h("p", {}, `Estimate ${fmt.fps(e.estimateFps)}, likely range ${fmt.num(e.lowFps)}–${fmt.num(e.highFps)} fps. Margin over target: ${m.margin == null ? "—" : `${(m.margin * 100).toFixed(1)}%`}.`)
           : h("p", {}, e.reason ?? "No estimate."),
+        e.pressure && e.pressure.ratio !== 1
+          ? h(
+              "p",
+              { title: HANDLOAD_TIP },
+              `At the factory max of ${e.pressure.factoryPsi.toLocaleString()} psi: ${fmt.fps(e.pressure.factoryFps)}. Moved to the modern handload max of ${e.pressure.handloadPsi.toLocaleString()} psi: +${((e.pressure.ratio - 1) * 100).toFixed(1)}%. Beyond published specs; strong, modern action only.`,
+            )
+          : null,
         e.note ? h("p", { class: "muted" }, e.note) : null,
         componentsBlock(e),
         e.support.loadCount
@@ -163,8 +187,10 @@ export function matchView(data: AppData): HTMLElement {
           {},
           `Case ${fmt.in(c.caseLengthIn)}, max COAL ${fmt.in(c.maxCoalIn)}, capacity `,
           capacityText(c, data.inputs),
-          " gr H₂O, max pressure ",
+          " gr H₂O, factory max pressure ",
           pressureText(c, data.inputs),
+          " psi, modern handload max ",
+          handloadPressureText(c, data.inputs),
           " psi. ",
           c.verification.status !== "verified" ? h("span", { class: "warn" }, "Not yet verified against the standard.") : null,
         ),

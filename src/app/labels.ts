@@ -68,6 +68,8 @@ export function modelLabel(id: string): string {
 export const FLAG_TEXT: Record<string, string> = {
   // velocity
   assumes_max_pressure: "Assumes a load at the cartridge's maximum pressure.",
+  load_pressure_unknown: "This cartridge has no published pressure limit, so the pressure its published loads were shot at is unknown. They are shown as published, not moved up to the modern handload max.",
+  modern_handload_pressure: "Moved up from the factory max pressure to the modern handload max (at least 65,000 psi). That goes beyond SAAMI/C.I.P. specs and needs modern brass in a strong, modern action.",
   physics_estimate: "Calculated from case size and pressure, not from published loads.",
   unverified_cartridge_data: "Cartridge dimensions not yet checked against SAAMI or C.I.P.",
   different_barrel_length: "Published loads were adjusted from their test barrel to yours.",
@@ -128,7 +130,7 @@ export function flagText(f: string): string {
 }
 
 /** Flags that are background noise on every row and need not be shown each time. */
-export const QUIET_FLAGS = new Set(["physics_estimate", "assumes_max_pressure", "no_bearing_surface", "no_g1", "no_g7"]);
+export const QUIET_FLAGS = new Set(["physics_estimate", "assumes_max_pressure", "modern_handload_pressure", "no_bearing_surface", "no_g1", "no_g7"]);
 
 export const STATUS_TEXT: Record<MatchStatus, { label: string; tip: string }> = {
   comfortable: { label: "Comfortable", tip: "Even the low end of the estimate reaches the target." },

@@ -82,6 +82,14 @@ Open requests:
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
 
+## What changed on the project side (2026-10-30)
+
+No schema or format change. What the app does with `pressure` changed:
+
+1. **Two pressure limits per cartridge.** The `pressure` you send stays the *factory max* (SAAMI MAP or C.I.P. Pmax, exactly as published). The app now also shows a *modern handload max*: the factory max or 65,000 psi, whichever is higher. It is derived in `src/lib/velocity/pressure.ts`, never stored, so do not send it.
+2. **Velocity estimates now run at the modern handload max** by default (the project owner's ruling, 2026-10-30). Published loads still count only up to factory max; the estimate is moved up afterwards with the physics model's pressure term.
+3. **Please fill missing pressures.** A cartridge with no `pressure` that has its own published loads is now left at published velocity (the pressure those loads were shot at is unknown), so a missing pressure costs it the handload step. Where SAAMI or C.I.P. publishes one, please add it, with method `piezo` or `cip`. Known gaps include 7mm Backcountry (SAAMI 80,000 psi, steel-head case), the Weatherby magnums without a pressure, .30-40 Krag, .358 Winchester, 6.5x47 Lapua and 7.5x55 Swiss. Leave proprietary cartridges with no published standard (Lazzeroni, most wildcats) without one.
+
 ## What changed on the project side (2026-10-29, evening)
 
 The project owner's rulings, 2026-10-29. These replace the older rules they contradict, including the `cartridge-gaps.md` answer.
