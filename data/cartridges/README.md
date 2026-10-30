@@ -39,7 +39,7 @@ Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcat
 ## Known gaps
 
 - The 6.8 True Velocity Composite is in the SAAMI standard but not in the library yet; its case length could not be read from the text copy of the drawing.
-- Not in the SAAMI rifle standard, so still to check elsewhere: .22 Savage High-Power, 5.45x39mm, 7mm Backcountry, .338-378 Weatherby Magnum, .30 Remington, .32-40 Winchester, .375 Weatherby Magnum, .458 SOCOM, .460 Weatherby Magnum, 7.62x54R.
+- Not in the SAAMI rifle standard, so still to check elsewhere: .22 Savage High-Power, 5.45x39mm, 7mm Backcountry (added 2026-10-30 with SAAMI MAP 80,000 psi as reported by American Hunter and Wikipedia; SAAMI's own 2025 introduction is cited but not yet read), .338-378 Weatherby Magnum, .30 Remington, .32-40 Winchester, .375 Weatherby Magnum, .458 SOCOM, .460 Weatherby Magnum, 7.62x54R.
 - `neckLengthIn` is filled for only 2 cartridges and `caseCapacityGrH2O` for 65. `mapPsi` is null for 21 SAAMI entries, mostly old cartridges for which SAAMI gives only a crusher (CUP) value. The physics velocity model needs both capacity and MAP, so it answers "no data" for cartridges missing either.
 
 ## How to add or fix a cartridge
