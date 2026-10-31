@@ -51,7 +51,9 @@ Coverage is weakest on classic cartridges and some magnums. The allowed forums t
 | --- | --- | --- | --- |
 | ANSI/SAAMI Z299.4-2025, Centerfire Rifle | https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf | SAAMI dimensions and MAP (checked 2026-10-27, see `data/cartridges/SAAMI-CHECK.md`) | No |
 | C.I.P. Tables of Dimensions of Cartridges and Chambers | https://bobp.cip-bobp.org/en/tdcc | C.I.P. cartridges (verification pending) | No |
+| Nosler forum, "Case H2O Capacities" (member measurements) | https://forum.nosler.com/threads/case-h2o-capacities.31408/ | Case capacity for 36 cartridges, by headstamp (added 2026-10-31). Community source, unverified. | No |
+| American Hunter, "Hardware: 28 Nosler" | https://americanhunter.org/content/hardware-28-nosler | .28 Nosler case capacity, 100.7 gr (added 2026-10-31) | No |
 
 On 2026-10-29 the project owner allowed the bots to copy printed numbers from Z299.4 drawings and tables and from C.I.P. TDCC sheets (no drawing images), cited per cartridge, and ruled that PTG's own reamer prints titled "SAAMI" are PTG prints and may be used. Where a print gives only chamber lengths, case length comes from Wikipedia or the designer's or maker's spec, or else the chamber length minus 0.010 in, marked estimated.
 
-SAAMI cartridge dimensions and MAP were checked against Z299.4-2025 on 2026-10-27 ([`data/cartridges/SAAMI-CHECK.md`](cartridges/SAAMI-CHECK.md)). Case capacities, C.I.P. and wildcat values are still unverified. See [`data/cartridges/README.md`](cartridges/README.md).
+SAAMI cartridge dimensions and MAP were checked against Z299.4-2025 on 2026-10-27 ([`data/cartridges/SAAMI-CHECK.md`](cartridges/SAAMI-CHECK.md)). Case capacities, C.I.P. and wildcat values are still unverified. On 2026-10-31, 37 capacities that had no source were replaced or filled from the two capacity sources above, cited per cartridge in `fieldNotes`. See [`data/cartridges/README.md`](cartridges/README.md).

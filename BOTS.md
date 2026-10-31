@@ -82,6 +82,18 @@ Open requests:
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
 
+## What changed on the project side (2026-10-31)
+
+No schema or format change. Case capacity changed:
+
+1. **Library capacities now cite sources.** 37 cartridges in `data/cartridges/cartridges.json` now take their capacity from member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/) or from American Hunter, cited in `fieldNotes.caseCapacityGrH2O`. Some moved by several grains, e.g. .28 Nosler 93 → 100.7, .35 Whelen 68 → 72.7, 7mm Weatherby 92 → 87.5, .340 Weatherby 106 → 102.1, 7mm-08 56 → 52.2. 416 Rigby, .444 Marlin, .458 Win Mag, .240 Wby, .223 WSSM and .243 WSSM got a capacity for the first time.
+2. **The case-profile estimate now has a head-thickness correction.** The raw frustum volume ran high on wide cases (fatter magnum heads and webs than the fixed brass constants). The app now fits ln(raw/published) against base diameter and divides it out (leave-one-out error 4.2% → 3.5%). The 7mm Dakota estimate goes from 96 to 94 gr, the 7mm LRM from 91 to 88 gr. Your frozen `case-capacity.json` is unaffected.
+3. **Please check, and fill where you find a published figure:**
+   - **26 Nosler** (your `loads.json`, 93 gr from Nosler's page): that is the same figure the library used to carry for the .28 Nosler, and the case profile says about 100 gr. American Hunter gives the .28 Nosler 100.7 gr on the same case. Please check whether Nosler's 93 is to the base of the neck or a typo, and cite what you find.
+   - **7mm LRM**: a forum member measured 87.6 gr H₂O to the top in fired brass (https://longrangehunting.com/threads/gunwerks-7-lrm.59112/page-3). Add it if you find a manufacturer figure.
+   - **300 Dakota**: a forum member weighed about 101 gr to the mouth, unfired (https://www.longrangehunting.com/goto/post?id=914561).
+   - **7mm Dakota, 7mm-300 PRC**: no published capacity found yet.
+
 ## What changed on the project side (2026-10-30)
 
 No schema or format change. What the app does with `pressure` changed:

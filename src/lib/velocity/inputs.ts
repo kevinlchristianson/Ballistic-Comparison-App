@@ -17,7 +17,8 @@
  * 4. Case profile: when the library has a printed profile (base, shoulder and
  *    neck diameters, lengths to the shoulder and neck), the volume of a body
  *    frustum, a shoulder cone and a neck cylinder, after chamber clearance
- *    and brass are taken off. See `profileCapacity`. This is the method the
+ *    and brass are taken off, then corrected for the thicker heads of wide
+ *    cases by a fit against base diameter. See `profileCapacity`. This is the method the
  *    bullet bot used for data/bullets/estimates/case-capacity.json, handed to
  *    the app on 2026-10-28; that file is frozen and only read for cartridges
  *    this method cannot reach.
@@ -173,6 +174,8 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
 }
 
 const AI_BOOST = 1.05;
+/** Cartridges with a cited capacity and a full profile needed before the profile correction is fitted. */
+const PROFILE_FIT_MIN = 10;
 /** A heaviest-charge capacity below this fraction of the other estimates (or above its inverse) is left out. */
 const CHARGE_OUTLIER_RATIO = 0.6;
 const isImproved = (name: string): boolean => /ackley|improved|\bai\b/i.test(name);
@@ -271,14 +274,27 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
   });
   const parentSd = parentErrs.length >= 5 ? Math.max(rms(parentErrs), 0.03) : 0.1;
 
-  // Case-profile error, measured on cartridges with a cited capacity and a printed profile.
-  // The constants were picked by the bot on much the same set, so this is a little optimistic;
-  // the floor keeps it from claiming better than about 3%.
-  const profileErrs = known.flatMap((c) => {
+  // Case-profile correction and error, measured on cartridges with a cited capacity and a
+  // printed profile. The brass constants are the same for every case, but fat magnum cases have
+  // thicker heads and webs, so the raw volume runs high as the base gets wider (about 4% at a
+  // .550 in base). ln(raw / published) is fitted against base diameter and divided out. The error
+  // is leave-one-out; the floor keeps it from claiming better than about 3%.
+  const profileRows = known.flatMap((c) => {
     const v = profileCapacity(c);
-    return v ? [Math.log(v.value / c.caseCapacityGrH2O!)] : [];
+    return v && c.baseDiameterIn != null ? [{ x: [1, c.baseDiameterIn], y: Math.log(v.value / c.caseCapacityGrH2O!) }] : [];
+  });
+  const profileBias = profileRows.length >= PROFILE_FIT_MIN ? solve(profileRows.map((r) => r.x), profileRows.map((r) => r.y)) : null;
+  const profileErrs = profileRows.map((r, i) => {
+    const b = profileBias ? solve(profileRows.filter((_, j) => j !== i).map((q) => q.x), profileRows.filter((_, j) => j !== i).map((q) => q.y)) : null;
+    return r.y - (b ? dot(r.x, b) : 0);
   });
   const profileSd = profileErrs.length >= 5 ? Math.max(rms(profileErrs), 0.03) : 0.08;
+  const correctedProfile = (c: Cartridge) => {
+    const raw = profileCapacity(c);
+    if (!raw) return null;
+    const bias = profileBias && c.baseDiameterIn != null ? dot([1, c.baseDiameterIn], profileBias) : 0;
+    return { ...raw, raw: raw.value, value: raw.value / Math.exp(bias) };
+  };
 
   // Heaviest charge over capacity, across cartridges with both.
   const charges = options.maxChargeGr ?? {};
@@ -312,10 +328,12 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
       const v = pCap != null ? fromParent(c, p, pCap) : null;
       if (v) parts.push({ v, sd: Math.hypot(parentSd, pSd), m: "parent_case", note: `scaled from the parent case (${p.name})` });
     }
-    const prof = profileCapacity(c);
+    const prof = correctedProfile(c);
     if (prof) {
       const from = prof.surface === "case" ? "printed case drawing" : prof.surface === "chamber" ? "Pacific Tool & Gauge chamber print" : "printed case profile";
-      parts.push({ v: prof.value, sd: profileSd, m: "case_profile", note: `from the case profile (${from}, ${Math.round(prof.value * 10) / 10} gr)` });
+      const r1 = (x: number) => Math.round(x * 10) / 10;
+      const adj = Math.abs(prof.value - prof.raw) >= 0.05 ? `, ${r1(prof.raw)} gr before the head-thickness correction` : "";
+      parts.push({ v: prof.value, sd: profileSd, m: "case_profile", note: `from the case profile (${from}, ${r1(prof.value)} gr${adj})` });
     }
     // The bot's frozen estimate file, only where the app's own profile method cannot run.
     const bot = prof ? undefined : options.botEstimates?.[c.id];
