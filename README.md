@@ -15,6 +15,16 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 - **Load data.** Every published load in the library for a cartridge (bullet, powder, charge, velocity, barrel, pressure, COAL, source link), and your own loads with the same fields. Your loads stay in your browser, with JSON export and import, and your max loads feed that cartridge's velocity estimates. Browse by cartridge, or by bullet across every cartridge (search by name and weight, e.g. "Berger 245"), and sort by any column. Community reports (forum compilations, user submissions) carry a "community report" tag.
 - **Send to library.** Your own loads, bullets and wildcats can be sent to the public library. The button opens a prefilled GitHub issue. The **Library submission** workflow commits the owner's submissions to `data/user/submissions/` and redeploys; anyone else's wait for a maintainer to add the `approved` label.
 
+## Using it offline
+
+Open the site once with a connection. It saves itself and its bullet, cartridge and
+velocity data on the device, so later it opens with no signal. On a phone, use
+"Add to Home Screen" (Safari share menu, or Chrome's menu) to get an app icon.
+While online it still fetches fresh data first, so bot updates show up as usual; a
+bar at the top says when you are looking at saved data. Published load rows are
+large (about 48 MB in all), so only the cartridges you have opened in Load data are
+saved. The service worker is `src/app/public/sw.js`.
+
 ## How the numbers are made
 
 | What | Model | Notes |
