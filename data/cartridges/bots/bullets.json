@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "bullets",
-  "cartridgeCount": 395,
+  "cartridgeCount": 397,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -12054,6 +12054,73 @@
         "retrievedOn": "2026-10-30"
       },
       "note": "ESTIMATE. Max case length 2.525, trim 2.515 from a builder in the Long Range Hunting 6.5 Sherman thread (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), where Rich Sherman replied the cases \"came out just like they should.\" About 76 gr H2O per Rich Sherman (https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7). Formed from .270 or .280 brass, '06 bolt face, so rim .473 is the parent's. 40° shoulder per Sherman Wildcat Cartridges long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/). No print; diameters and shoulder position left for the app to estimate."
+    },
+    {
+      "id": "6-um",
+      "name": "6 UM",
+      "kind": "wildcat",
+      "aliases": [
+        "6UM",
+        "6 UM",
+        "6mm UM",
+        "6mm Unknown Munitions"
+      ],
+      "parentCase": "6.5 SAUM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.02,
+      "trimLength": 2.01,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": "rebated",
+      "pressure": null,
+      "source": {
+        "name": "Rokslide forum",
+        "url": "https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. Original 6UM: 40° shoulder, needs fireforming (Rokslide thread)."
+    },
+    {
+      "id": "6-um-30",
+      "name": "6 UM-30",
+      "kind": "wildcat",
+      "aliases": [
+        "6UM-30",
+        "6 UM-30",
+        "6mm UM-30"
+      ],
+      "parentCase": "6.5 SAUM",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.02,
+      "trimLength": 2.01,
+      "maxCoal": null,
+      "rimDiameter": 0.534,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": "rebated",
+      "pressure": null,
+      "source": {
+        "name": "Rokslide forum",
+        "url": "https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12",
+        "retrievedOn": "2026-10-30"
+      },
+      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. 6UM-30: 30° shoulder to match ADG headstamped 6UM brass, no fireforming (Rokslide thread)."
     }
   ],
   "aliases": []
