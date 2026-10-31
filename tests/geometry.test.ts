@@ -12,7 +12,7 @@ describe("actionForCoal", () => {
 });
 
 describe("seatingGeometry", () => {
-  const cm = cartridge("6-5-creedmoor"); // case 1.920, SAAMI COAL 2.825, 52.5 gr H2O, neck length not in library
+  const cm = cartridge("6-5-creedmoor"); // case 1.920, SAAMI COAL 2.825, 53.4 gr H2O, neck length not in library
   const bullet = { diameterIn: 0.264, lengthIn: 1.4, bearingSurfaceIn: 0.55, boattailLengthIn: 0.2 };
 
   it("seats a long bullet deeper to fit SAAMI COAL and shows the working", () => {
@@ -34,8 +34,8 @@ describe("seatingGeometry", () => {
   it("works out the depth window from capacity and bearing surface", () => {
     const g = seatingGeometry({ cartridge: cm, bullet });
     expect(g.minSeatingDepthIn).toBeCloseTo(0.2 + 0.264, 3);
-    // 10% of 52.5 gr below the neck: 5.25 / 252.9 / (π/4 × 0.264²) = 0.379, plus the neck.
-    expect(g.maxSeatingDepthIn).toBeCloseTo(0.264 + 5.25 / 252.9 / ((Math.PI / 4) * 0.264 ** 2), 3);
+    // 10% of the 6.5 Creedmoor capacity below the neck, plus the neck.
+    expect(g.maxSeatingDepthIn).toBeCloseTo(0.264 + (0.1 * cm.caseCapacityGrH2O!) / 252.9 / ((Math.PI / 4) * 0.264 ** 2), 3);
   });
 
   it("flags a custom chamber and computes freebore when the bullet cannot be seated short enough", () => {

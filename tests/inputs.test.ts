@@ -1,6 +1,7 @@
 import { estimateCartridgeInputs, maxChargesFromLoads, profileCapacity, profileSurface } from "../src/lib/velocity/inputs.ts";
 import type { Cartridge } from "../src/lib/cartridges.ts";
 import { cartridges, fixtureLoads } from "./helpers.ts";
+import { loadCartridgeLibrary } from "../scripts/cartridge-library.ts";
 
 describe("estimated cartridge inputs", () => {
   const inputs = estimateCartridgeInputs(cartridges);
@@ -73,6 +74,20 @@ describe("estimated cartridge inputs", () => {
     expect(e.methods).toContain("bot_profile");
     // A tight bot calibration pulls the blend close to the bot's number.
     expect(Math.abs(e.value - 19)).toBeLessThan(1.5);
+  });
+
+  it("ranks similar magnum cases by size, after the head-thickness correction", () => {
+    // The merged library: the Dakota and LRM come from the bots' cartridge files.
+    const merged = estimateCartridgeInputs(loadCartridgeLibrary().library.cartridges);
+    const cap = (id: string) => merged.get(id)!.caseCapacityGrH2O!;
+    const dakota = cap("7mm-dakota"), lrm = cap("7mm-lrm"), n28 = cap("28-nosler");
+    // The 7mm Dakota is shorter than the .28 Nosler, and fatter than the 7mm LRM.
+    expect(dakota).toBeLessThan(n28);
+    expect(lrm).toBeLessThan(dakota);
+    // Measured 7mm LRM: 87.6 gr to the top (longrangehunting.com member, fired brass).
+    expect(lrm).toBeGreaterThan(85);
+    expect(lrm).toBeLessThan(90.5);
+    expect(merged.get("7mm-dakota")!.capacityEstimate!.detail).toMatch(/head-thickness correction/);
   });
 
   it("never puts an improved case below its parent", () => {
