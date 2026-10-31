@@ -50,7 +50,7 @@
       "maxCoal": 3.34,
       "rimDiameter": null,
       "neckLength": null,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 93,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -59,7 +59,7 @@
         "url": "https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge",
         "retrievedOn": "2026-10-31"
       },
-      "note": "Capacity null (checked 2026-10-31). Nosler's 'useable case capacity of 93 grains of water' is not a typo: Nosler said it 'was measured with a 130gr AccuBond seated to max OAL (3.340\")' (https://www.longrangehunting.com/threads/26-nosler.125013/page-6), i.e. water under the bullet. Its load sheets print CASE HOLDS 96.2 (100 gr) and 90.2 (150 gr). No water-to-mouth figure found. Diameter, case and COAL copied from the library."
+      "note": "Nosler prints a useable case capacity of 93 grains of water. Checked 2026-10-31: it is not a typo but water under a seated bullet. Nosler said it 'was measured with a 130gr AccuBond seated to max OAL (3.340\")' (https://www.longrangehunting.com/threads/26-nosler.125013/page-6); load sheets print CASE HOLDS 96.2 (100 gr) and 90.2 (150 gr). No water-to-mouth figure is published. Kept because the physics calibration uses it. Diameter, case and COAL from the library."
     },
     {
       "id": "27-nosler",
