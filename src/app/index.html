@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ballistic Comparison</title>
     <meta name="description" content="Compare rifle bullets and estimate which cartridges can reach a target velocity, from published data." />
+    <meta name="theme-color" content="#2a6fdb" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Ballistics" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 C 12 22, 20 14, 28 4' stroke='%232a6fdb' stroke-width='3' fill='none'/%3E%3C/svg%3E" />
   </head>
   <body>
@@ -17,6 +23,7 @@
     <div class="safety-banner" role="note">
       <div class="wrap">Estimates are for comparison only. Load data is copied from its sources and can be out of date: confirm every charge against the source's current data before loading.</div>
     </div>
+    <div id="offline-note" class="offline-note" role="status" hidden><div class="wrap"></div></div>
     <main id="main" class="wrap"><p class="empty">Loading…</p></main>
     <footer class="wrap muted">Every number links to its source or names the model that made it. <a href="#about">About and limitations</a></footer>
     <script type="module" src="./main.ts"></script>

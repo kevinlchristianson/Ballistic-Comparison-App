@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import "./style.css";
 import { loadAppData, type AppData } from "./data.ts";
 import { clear, h } from "./dom.ts";
@@ -39,9 +40,27 @@ function render(data: AppData): void {
   window.scrollTo(0, 0);
 }
 
+// Offline support: the service worker saves the app and its data for use with no connection.
+if ("serviceWorker" in navigator && import.meta.env.PROD) {
+  navigator.serviceWorker.register("./sw.js").catch(() => {});
+}
+
+/** Tell the user when they are looking at saved data. */
+function showOfflineNote(data: AppData): void {
+  const note = document.getElementById("offline-note")!;
+  const update = () => {
+    note.hidden = navigator.onLine;
+    note.firstElementChild!.textContent = `Offline: showing data saved on ${data.meta.generatedOn}. Load data only covers cartridges you have opened before.`;
+  };
+  window.addEventListener("online", update);
+  window.addEventListener("offline", update);
+  update();
+}
+
 loadAppData()
   .then((data) => {
     render(data);
+    showOfflineNote(data);
     window.addEventListener("hashchange", () => render(data));
   })
   .catch((err: Error) => {
