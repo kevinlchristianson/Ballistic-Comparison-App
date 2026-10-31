@@ -1,8 +1,18 @@
 # Load-data bot status
 
-Last updated: 2026-10-30 22:30 UTC
+Last updated: 2026-10-31 13:58 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## Case capacity checks (BOTS.md 2026-10-31, item 3)
+
+Full findings and sources: [`comments/2026-10-31-case-capacity-checks.md`](comments/2026-10-31-case-capacity-checks.md).
+
+- `26-nosler`: capacity is now null (was 93). Nosler's 93 is water under a 130 gr AccuBond seated at 3.340 in, not a typo and not to the mouth. Its load sheets print CASE HOLDS 96.2 and 90.2. No water-to-mouth figure is published, so the library field stays empty and the profile estimate applies. The record now fills nothing.
+- `7mm-lrm`: 87.6 gr H2O, **ESTIMATE** (forum: LRH Gunwerks 7 LRM thread, page 3, fired brass filled to the top). This is a new fill-only `loads.json` record. It fills the empty field on the bullet bot's 4D record (`bullets.json` loads first). Gunwerks publishes no capacity.
+- `7mm-300-prc`: 93.6 gr H2O, maker figure (ADG "Case Volume 93.6 grains/H2O (average)"), cited at the start of the note. Source stays PTG for the profile.
+- `300-dakota`: null. Sources disagree: 101 (one member, three unfired cases to the top of the mouth), against 94.8 (the same member two days earlier, plus another member), 94 (a copied list) and 4D's calculated 94.93. Waiting on Kevin.
+- `7mm-dakota`: null. No maker figure. Forum figures (89, 90.7) disagree and give no method.
 
 ## Pressure fill request (BOTS.md 2026-10-30)
 
@@ -57,7 +67,7 @@ The bullet bot estimates capacities for cartridges that have none, in its own fi
 
 Published water capacity is filled only on cartridges in `data/cartridges/bots/loads.json`, and only from a maker or brass spec, a Lazzeroni sheet, or Hammer's printed "Case volume H20". This change adds `sources/hammer.json` and [`inputs/hammer/case-data.csv`](inputs/hammer/case-data.csv). That CSV has one row per printed cartridge name. 28 rows have a case-volume figure. A label with no number after it stays blank. Ten library cartridges that had no capacity now have Hammer's printed Case volume H20 on `loads.json`, cited to the sheet: .22-250 AI 47 gr, .22 BR 38 gr, .25-284 64.3 gr, .30-06 AI 73.3 gr, 6.5-06 67 gr, 6.5 SAUM 72.3 gr, 6mm-284 67 gr, 6mm BR Remington 37.7 gr, 6mm Dasher 42 gr, and 6mm PPC 33.2 gr. The fill rule publishes those empty library fields. 20 VarTarg is skipped (22.4 gr virgin and 23.5 gr fireformed). .25 Nosler is left alone. No other Hammer name outside the library prints both a thousandths bullet diameter and one case length. `6x6.8 SPC` does, and the bullet bot is adding it.
 
-[PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) answers [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md). A duplicate bot record still stays out of the library, and its published `caseCapacityGrH2O` fills that field when the library's is empty. `.26 Nosler` stays at 93 gr H2O and `.27 Nosler` stays at 98.4 gr H2O. Bullet diameter, case length, and max COAL on those two records are copied from the library entry. Rim, shoulder, and the drawing pressure are null, so a Z299.4 dimension is not filled.
+[PR #87](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/87) answers [`comments/2026-10-27-case-capacity-not-merged.md`](comments/2026-10-27-case-capacity-not-merged.md). A duplicate bot record still stays out of the library, and its published `caseCapacityGrH2O` fills that field when the library's is empty. `.27 Nosler` stays at 98.4 gr H2O. `.26 Nosler` no longer fills a capacity (2026-10-31: Nosler's 93 is measured under a seated bullet). Bullet diameter, case length, and max COAL on those two records are copied from the library entry. Rim, shoulder, and the drawing pressure are null, so a Z299.4 dimension is not filled.
 
 Audit, 2026-10-28: bots may not copy ANSI/SAAMI Z299.4 drawings or C.I.P. sheets. Six bot records whose only dimensions came from that PDF are removed, because the project library already has them: 33 Nosler, 22 ARC, 300 RCM, 6.5 WBY RPM, 30 Rem AR, and .338 Norma Magnum (`338-norma-mag`). The two aliases cited only to that PDF, `7mm REM SA ULTRA MAG` and `300 REM SA ULTRA MAG`, are removed. The library already carries those short names. `30 AR Remington` stays as an alias of `30-rem-ar`. `.24 Nosler` and the Lazzeroni records stay.
 
@@ -111,6 +121,7 @@ The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not 
 
 ## Recently merged
 
+- 2026-10-31, BOTS.md 2026-10-31 item 3, case capacity checks (`loads.json`, now 203 records): 7mm LRM 87.6 ESTIMATE (forum), 7mm-300 PRC 93.6 (ADG), 26 Nosler 93 removed (under-bullet figure), 300 Dakota and 7mm Dakota left null. See [`comments/2026-10-31-case-capacity-checks.md`](comments/2026-10-31-case-capacity-checks.md).
 - 2026-10-29, BOTS.md 19:45Z follow-up (STATUS.md only): checked the 23 `loads.json` records the normalizer skips as already in the library; every one fills at least one empty library field (listed under "Empty library fields filled from bot records"), so none was deleted. 35 and 36 Nosler are still not in `cartridges.json` or the public Z299.4-2025 PDF (https://saami.org/wp-content/uploads/2026/04/SAAMI-Z299.4-CFR-2025-Centerfire-Rifle-Approved-2-10-2025-2026-04-27.pdf), and no other citable SAAMI/C.I.P. source prints them, so they stay out. Removed the stale notes saying BOTS.md bans SAAMI/C.I.P. and that its Sherman/4D line is wrong.
 - 2026-10-29, held cartridge rows (`data/cartridges/bots/loads.json`, now 90 records): 7 new cartridges (375 Weatherby, 338-378 Weatherby, 350 Rem Mag, 33 XC, 7mm-300 PRC, 300 WSM AI, 404 Dakota); profile fills for library 33 Nosler and 300 Weatherby; 27 Nosler and 7mm Backcountry records replaced. Case lengths per the owner's 2026-10-29 rule: Wikipedia (27/33 Nosler, 375 Wby, 7mm Backcountry, 300 Wby), designer (33 XC, David Tubb), or PTG chamber length minus 0.010 marked ESTIMATE/PARTIAL (7mm-300 PRC, 300 WSM AI, 404 Dakota). PTG's own prints titled SAAMI used per the owner's ruling. The 13 Sherman records got the BOTS.md alias spellings (not `30 Sherman`, `25 SWC`, `27 Sherman Mag`) and no longer say BOTS.md omits Sherman. Still out: 35 and 36 Nosler (SAAMI kind needs a max COAL and none is published outside SAAMI), 7mm Sherman Short Tactical (no printed length anywhere), 300 HAM'R (fills nothing).
 
