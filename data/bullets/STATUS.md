@@ -167,3 +167,5 @@ PR #283 follow-up: rebuilt data/bullets/bullets.json with scripts/bullets/normal
 2026-10-30: 224-wby-mag pressure 4400 bar from the C.I.P. TDCC belted table (SAAMI does not list it).
 
 2026-10-30: Added 6 UM (40°) and 6 UM-30 (30°), Unknown Munitions on 6.5 SAUM, ESTIMATE from the Rokslide thread (chamber 2.030 minus .010). bullets.json: 397.
+
+2026-10-30: Added Berger 20306, the 20 cal 55 gr Long Range BT Varmint (G1 0.354, G7 0.182, OAL 0.908), from Berger's spec page and the Graf & Sons special-run listing. Berger lists it discontinued in 2018, but Graf's sells a new run, so it is not marked discontinued.
