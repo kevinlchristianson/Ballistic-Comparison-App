@@ -7284,6 +7284,77 @@
         "2026 catalog G7 BC 0.347 differs from the product page G7 BC 0.356. Kept the product page value."
       ],
       "notes": "No velocity band was published with the BCs. Not in the all-bullets table, so G1, G7, and minimum twist come from the product page. Ogive style printed as 'Elite Hunter Hybrid', stored as hybrid. Product page also prints Nose Length 0.871, Base to Ogive 0.798. Stored as noseLengthIn and baseToOgiveIn, not ogiveLengthIn."
+    },
+    {
+      "id": "berger-20306",
+      "manufacturer": "Berger",
+      "productLine": "Varmint",
+      "name": "20 Caliber 55 Grain Long Range BT Varmint",
+      "sku": "20306",
+      "alternateSkus": [],
+      "caliber": "20 Caliber",
+      "diameterIn": 0.204,
+      "weightGr": 55,
+      "bcG1": 0.354,
+      "bcG7": 0.182,
+      "ballisticCoefficients": [
+        {
+          "dragModel": "G1",
+          "bc": 0.354,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/discontinued-20-caliber-55-grain-lr-varmint/"
+        },
+        {
+          "dragModel": "G7",
+          "bc": 0.182,
+          "velocityMinFps": null,
+          "velocityMaxFps": null,
+          "label": null,
+          "source": "manufacturer",
+          "sourceUrl": "https://bergerbullets.com/product/discontinued-20-caliber-55-grain-lr-varmint/"
+        }
+      ],
+      "bcSource": "manufacturer",
+      "sectionalDensity": 0.189,
+      "lengthIn": 0.908,
+      "bearingSurfaceIn": 0.235,
+      "ogiveLengthIn": null,
+      "boattailLengthIn": 0.1,
+      "meplatIn": null,
+      "ogiveType": "tangent",
+      "discontinued": null,
+      "construction": [
+        "boattail"
+      ],
+      "material": null,
+      "intendedUse": [
+        "varmint"
+      ],
+      "twistRateInPerTurn": 8,
+      "twistRateNote": "1:8\" minimum (Graf's says 1:7 optimal)",
+      "minimumExpansionVelocityFps": null,
+      "sources": [
+        {
+          "url": "https://bergerbullets.com/product/discontinued-20-caliber-55-grain-lr-varmint/",
+          "retrievedOn": "2026-10-30",
+          "publisher": "Berger Bullets",
+          "notes": "Berger spec table (part 20306): G1, G7, form factor 1.037, twist, dimensions."
+        },
+        {
+          "url": "https://grafs.com/products/berger-20204-55gr-hpbt-bullet-varmint-100bx",
+          "retrievedOn": "2026-10-30",
+          "publisher": "Graf & Sons",
+          "notes": "Graf's-exclusive special run of the same bullet; identical technical notes."
+        }
+      ],
+      "conflicts": [],
+      "notes": "Berger lists 20306 as discontinued in 2018, but Graf & Sons sells a 2026 special run with identical specs, so it's not marked discontinued. Nose Length 0.573, Base to Ogive 0.449 are not stored as ogiveLengthIn.",
+      "bcUnlabeled": null,
+      "baseToOgiveIn": 0.449,
+      "noseLengthIn": 0.573
     }
   ]
 }
