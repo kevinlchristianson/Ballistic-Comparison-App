@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-10-30",
+  "generatedOn": "2026-10-31",
   "bot": "load-data",
-  "cartridgeCount": 202,
+  "cartridgeCount": 203,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -57,9 +57,9 @@
       "source": {
         "name": "Nosler, 26 Nosler cartridge page",
         "url": "https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge",
-        "retrievedOn": "2026-10-28"
+        "retrievedOn": "2026-10-31"
       },
-      "note": "Nosler prints a useable case capacity of 93 grains of water. Bullet diameter, case length, and max COAL are copied from the library entry so this record can carry that capacity. Z299.4 drawing dimensions are not stored."
+      "note": "Nosler prints a useable case capacity of 93 grains of water. Checked 2026-10-31: it is not a typo but water under a seated bullet. Nosler said it 'was measured with a 130gr AccuBond seated to max OAL (3.340\")' (https://www.longrangehunting.com/threads/26-nosler.125013/page-6); load sheets print CASE HOLDS 96.2 (100 gr) and 90.2 (150 gr). No water-to-mouth figure is published. Kept because the physics calibration uses it. Diameter, case and COAL from the library."
     },
     {
       "id": "27-nosler",
@@ -2475,7 +2475,7 @@
       "neckDiameter": 0.32,
       "lengthToShoulder": 2.1168,
       "lengthToNeck": 2.234,
-      "caseCapacityGrH2O": null,
+      "caseCapacityGrH2O": 93.6,
       "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
@@ -2484,7 +2484,36 @@
         "url": "https://www.pacifictoolandgauge.com/7-mm--300-Precision-Rifle-Cartridge-PRC-Match-Chamber-Reamer_p_117973.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: PTG chamber print 24035, 7mm x 300 PRC, from the bolt face; the 4D page has no drawing. Groove 0.2845, stored bullet 0.284. Body 0.5348 in at the bolt face, 0.533 in at 0.200. Shoulder 0.516 in at 30 deg at 2.1168 in. Neck 0.320 in at 2.234 in. Print case 2.585 in. Basic brass 375 R; note says it uses the 300 PRC die with a 7mm bushing. PTG prints chamber dimensions: 2.5850 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. No Wikipedia or designer case length found; caseLength 2.575 in is the PTG chamber length 2.585 minus 0.010 (owner rule 2026-10-29)."
+      "note": "ESTIMATE/PARTIAL (dimensions): capacity 93.6 is a maker figure: ADG's printed 'Case Volume 93.6 grains/H2O (average)' for its 7-300 PRC brass (https://atlasdg.com/product/7300-prc-precision-rifle-cartridge/, retrieved 2026-10-31); a forum member reports 95.7 in Lapua brass (ADG case weight 258.4 gr). PTG chamber print 24035, 7mm x 300 PRC, from the bolt face; the 4D page has no drawing. Groove 0.2845, stored bullet 0.284. Body 0.5348 in at the bolt face, 0.533 in at 0.200. Shoulder 0.516 in at 30 deg at 2.1168 in. Neck 0.320 in at 2.234 in. Print case 2.585 in. Basic brass 375 R; note says it uses the 300 PRC die with a 7mm bushing. PTG prints chamber dimensions: 2.5850 in is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. No Wikipedia or designer case length found; caseLength 2.575 in is the PTG chamber length 2.585 minus 0.010 (owner rule 2026-10-29)."
+    },
+    {
+      "id": "7mm-lrm",
+      "name": "7mm LRM",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.514,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 87.6,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "ESTIMATE: Long Range Hunting forum, member water measurement (fired brass, filled to the top)",
+        "url": "https://longrangehunting.com/threads/gunwerks-7-lrm.59112/page-3",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE (forum source, Kevin's 2026-10-30 ruling): member moombaskier measured 87.6 gr H2O filled to the top, 81.4 gr to the neck/shoulder junction, in fired brass. Fills only the empty capacity of the bullet bot's 7mm-lrm (4D profile); bullet diameter and case length copied from it. Gunwerks prints no capacity. Other forum figures: 88.1 and 87.2 (LRH 7mm Rogue thread), 89.1 once-fired ADG (LRH 7mm PRC thread)."
     },
     {
       "id": "300-wsm-ai",
