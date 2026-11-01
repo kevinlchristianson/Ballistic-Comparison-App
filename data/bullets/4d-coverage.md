@@ -13,10 +13,10 @@ Not from 4D (2026-10-29, batch 3): 17 Hornet, .223 WSSM, .243 WSSM, .25-20 Winch
 | Match | 33 | 1 | 32 |
 | .243 and 6mm | 59 | 50 | 9 |
 | .45 | 30 | 10 | 20 |
-| .264 and 6.5mm | 49 | 37 | 12 |
+| .264 and 6.5mm | 49 | 38 | 11 |
 | .30 and .308 | 76 | 57 | 19 |
 | .40 | 29 | 10 | 19 |
-| .22 | 67 | 57 | 10 |
+| .22 | 67 | 58 | 9 |
 | .280 and 7mm | 48 | 34 | 14 |
 | .25 and .257 | 33 | 27 | 6 |
 | .338 and .340 | 37 | 25 | 12 |
@@ -38,7 +38,7 @@ Not from 4D (2026-10-29, batch 3): 17 Hornet, .223 WSSM, .243 WSSM, .25-20 Winch
 | .425 | 2 | 2 | 0 |
 | .470 and .475 | 3 | 3 | 0 |
 | 5.7mm | 1 | 1 | 0 |
-| **Total** | **641** | **432** | **209** |
+| **Total** | **641** | **434** | **207** |
 
 Unique rifle and match pages in these archives: 626. A cartridge listed in two caliber archives is counted in each row, so the table total is higher.
 
@@ -111,7 +111,7 @@ Missing:
 
 ## .22
 
-67 pages. 57 on file. 10 missing.
+67 pages. 58 on file. 9 missing.
 
 On file:
 
@@ -172,6 +172,7 @@ On file:
 - 225 Comet — bullets `225-comet`
 - 225 Winchester — bullets `225-win`
 - 5.45&#215;39 — bullets `5-45x39`
+- 5.6&#215;39 Sharp Shooter — bullets `5-6x39` (PTG + Wikipedia)
 
 Missing:
 
@@ -184,7 +185,6 @@ Missing:
 - 222 Remington .250 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-250-neck/
 - 222 Remington .251 neck — https://4drentals.com/product/reamer-rentals/match/222-remington-251-neck/
 - 5.56&#215;45 NATO — https://4drentals.com/product/reamer-rentals/rifle/5-56x45-nato/
-- 5.6&#215;39 Sharp Shooter — https://4drentals.com/product/reamer-rentals/rifle/5-6x39-sharpshooter/
 
 ## .243 and 6mm
 
@@ -300,7 +300,7 @@ Missing:
 
 ## .264 and 6.5mm
 
-49 pages. 37 on file. 12 missing.
+49 pages. 38 on file. 11 missing.
 
 On file:
 
@@ -341,6 +341,7 @@ On file:
 - 6.5mm-300 RUM — bullets `65-ultracat`
 - 6.5mm-300 Weatherby — library `6-5-300-wby`
 - 6mm PRC (6-6.5mm PRC) — bullets `6mm-prc`
+- 6.5mm X 65 RWS — bullets `6-5x65-rws` (PTG, ESTIMATE)
 
 Missing:
 
@@ -351,7 +352,6 @@ Missing:
 - 6.5mm X 55 Skandinavian — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-55-skandinavian/
 - 6.5mm X 55 Zero Freebore — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-55-zfb/
 - 6.5mm x 57 Mauser (CIP) (title says C.I.P.) — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-57-mauser/
-- 6.5mm X 65 RWS — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-65-rws/
 - 6.5mm X 65R (Rimmed) RWS — https://4drentals.com/product/reamer-rentals/rifle/6-5-x-65r-rimmed-rws/
 - 6.5mm-280 RCBS 30° — https://4drentals.com/product/reamer-rentals/rifle/6-5-280-rcbs-30/
 - 6.5mm-284 Lapua — https://4drentals.com/product/reamer-rentals/rifle/6-5-284-lapua/
