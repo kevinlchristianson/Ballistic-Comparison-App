@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "bullets",
-  "cartridgeCount": 403,
+  "cartridgeCount": 405,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -12337,6 +12337,71 @@
         "retrievedOn": "2026-10-31"
       },
       "note": "New. C.I.P. TDCC Tab. I sheet, 215 (dated 92-02-27, revision 11-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.64, L1 30.0, L2 33.97, L3 39.6, L6 58.0, R1 10.0, P1 10.0, P2 9.25, H1 6.32, Pmax 3800 bar. neckLength is L3 minus L2. Cone angle alpha 40°30'36\" is the included angle, so shoulderAngleDeg is left empty."
+    },
+    {
+      "kind": "cip",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "parentCase": null,
+      "id": "6-5x65-rws",
+      "name": "6.5x65 RWS",
+      "aliases": [
+        "6,5 x 65 RWS",
+        "6.5x65mm RWS"
+      ],
+      "bulletDiameter": 0.264,
+      "caseLength": 2.5609,
+      "rimDiameter": null,
+      "neckLength": 0.2601,
+      "baseDiameter": 0.4779,
+      "shoulderDiameter": 0.4331,
+      "neckDiameter": 0.2992,
+      "lengthToShoulder": 2.1185,
+      "lengthToNeck": 2.3008,
+      "shoulderAngleDeg": 20,
+      "rimType": "rimless",
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65-x-65-RWS-CIP-Chamber-Reamer_p_117941.html",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE: caseLength is PTG chamber length minus 0.010 in. New. PTG chamber print PTG-11502, 6.5 x 65 RWS CIP chamber (origin DE, revision 02-05-15), from the bolt face; groove 0.2638, bore 0.2539. Chamber body 0.4779 in at the bolt face, 0.4752 in at 0.1260; shoulder 0.4331 in at 2.1185 in, 19 deg 59 min 53 s; headspace datum 0.3667 at 2.2096 min / 2.2135 max; neck 0.2992-0.3004 in at 2.3008 in. caseLength 2.5609 in is the PTG chamber neck-end length 2.5709 in minus 0.010 in; no published case length found on Wikipedia or the maker's site (Kevin's rule, 2026-10-29). Rim diameter not printed. Lengths and diameters are chamber values."
+    },
+    {
+      "kind": "cip",
+      "trimLength": null,
+      "maxCoal": null,
+      "caseCapacityGrH2O": null,
+      "pressure": null,
+      "lengthUnit": "in",
+      "parentCase": "7.62x39mm",
+      "id": "5-6x39",
+      "name": "5.6x39mm",
+      "aliases": [
+        ".220 Russian",
+        "5,6 x 39",
+        "5.6x39"
+      ],
+      "bulletDiameter": 0.223,
+      "caseLength": 1.524,
+      "rimDiameter": 0.447,
+      "neckLength": 0.2555,
+      "baseDiameter": 0.4529,
+      "shoulderDiameter": 0.4031,
+      "neckDiameter": 0.2476,
+      "lengthToShoulder": 1.0583,
+      "lengthToNeck": 1.2685,
+      "shoulderAngleDeg": 19.8,
+      "rimType": "rimless",
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/56-x-39-CIP-Chamber-Reamer_p_117239.html",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. PTG chamber print PTG-11470, 5.6 x 39 CIP chamber (origin RU, revision 07-05-14), from the bolt face; groove 0.2201, bore 0.2146. Chamber body 0.4529 in at the bolt face, 0.4465 in at 0.1378; shoulder 0.4031 in at 1.0583 in, 19 deg 49 min 25 s; headspace datum 0.3274 at 1.1634 min / 1.1693 max; neck 0.2476-0.2516 in at 1.2685 in; chamber neck end 1.5236 in. Published case length 1.524 in, rim 0.447 in, bullet .223 in and parent 7.62x39mm from Wikipedia, 5.6x39mm (.220 Russian), https://en.wikipedia.org/wiki/5.6%C3%9739mm, which cites the C.I.P. TDCC sheet. Diameters are chamber values. Matched to 4D's '5.6x39 Sharp Shooter' coverage entry by name; 4D has no usable drawing."
     }
   ],
   "aliases": []
