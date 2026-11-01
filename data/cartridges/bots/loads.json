@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-31",
   "bot": "load-data",
-  "cartridgeCount": 203,
+  "cartridgeCount": 207,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -6533,6 +6533,136 @@
         "retrievedOn": "2026-10-30"
       },
       "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/375-sherman-yukon.340537/): '.060\" longer than a WSM. Longer body, longer neck, 40 degree, low taper', and 'Its my MEGA case necked up'. caseLength 2.160 is the 300 WSM's 2.100 plus .060; Sherman's cheat sheet gives 2.160 max length for 300 Mega brass, which agrees. Sherman's 375 Yukon page (https://shermanwildcatcartridges.com/cartridges/medium-action/375-yukon/) calls it a modified version of the MEGA line and gives 2.960 COAL with a 270 Shock Hammer in a 700 short action; that is one loaded length, not a maximum, so maxCoal is left empty. Neck and profile values are left empty for the app to estimate."
+    },
+    {
+      "id": "416-hellfire",
+      "name": "416 Hellfire",
+      "kind": "wildcat",
+      "aliases": [
+        "416 HF",
+        ".416 Hellfire"
+      ],
+      "parentCase": "375 Hellfire",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.416,
+      "caseLength": 3.272,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.635,
+      "shoulderDiameter": 0.606,
+      "neckDiameter": 0.445,
+      "lengthToShoulder": 2.7778,
+      "lengthToNeck": 2.8808,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 38,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Manson Precision Reamers chamber print (Aaron Jones design, posted by Ray Gross on Long Range Hunting)",
+        "url": "https://cdn.longrangehunting.com/a/398069-261424599a9bcfa02a462055f01283ed/416%20Hellfire%20%28public%29.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE caseLength: 3.272 in = chamber length 3.282 (L3 / Min Chamber Len) minus 0.010; no designer case length found. Chamber print '416 Hellfire (Public)', Manson Precision Reamers, design date 11/18/2020 rev 2, drawn R Gross, print hash 1F0BBE: 'Designed by Aaron Jones, (Australia). Released to Public 11/1/2021. Based on 375 Hellfire, necked up to 416 cal. Headspace same as 375 Hellfire.' Posted in https://www.longrangehunting.com/threads/cal-416-hellfire-2022-king-of-two-miles.314074/. Chamber dimensions from the breech face: body .635 at .200, .606 at L1 2.7778, neck .445 at L2 2.8808 (.103 shoulder run, .4012 neck to 3.282), freebore .4165 x .225, leade 1 deg, then .408 and .4075; MIN headspace 2.8456 @ .500 datum; LT 3.8036; ~chamber vol .8657 in3. Shoulder 38 deg as printed: it is the .606 to .445 step over .103 (atan(.0805/.103) = 38.0 deg); the printed 15 deg is the neck-to-freebore transition and 1 deg the leade. Rim not printed. No published water capacity (a forum post gives ~189 gr H2O; not stored)."
+    },
+    {
+      "id": "375-hellfire",
+      "name": "375 Hellfire",
+      "kind": "wildcat",
+      "aliases": [
+        "375 HF",
+        ".375 Hellfire"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 3.272,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.635,
+      "shoulderDiameter": 0.606,
+      "neckDiameter": null,
+      "lengthToShoulder": 2.7778,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Manson Precision Reamers chamber print, 416 Hellfire (parent 375 Hellfire; Aaron Jones design)",
+        "url": "https://cdn.longrangehunting.com/a/398069-261424599a9bcfa02a462055f01283ed/416%20Hellfire%20%28public%29.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE: every dimension here is derived, not read from a 375 Hellfire print (no public one found). The 416 Hellfire chamber print says it is the 375 Hellfire 'necked up to 416 cal. Headspace same as 375 Hellfire', so body .635 at .200, shoulder .606 at 2.7778 (chamber dimensions) and caseLength 3.272 (416 chamber length 3.282 minus 0.010) are taken from it as estimates for the 375. Neck diameter, length to neck and shoulder angle left null because necking changes them. Designer: Aaron Jones (Australia)."
+    },
+    {
+      "id": "375-enabelr",
+      "name": "375 EnABELR",
+      "kind": "wildcat",
+      "aliases": [
+        ".375 EnABELR",
+        "375 Enabler",
+        "375 EnABLER"
+      ],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.375,
+      "caseLength": 2.77,
+      "trimLength": null,
+      "maxCoal": 4.625,
+      "rimDiameter": 0.6398,
+      "neckLength": null,
+      "baseDiameter": 0.658,
+      "shoulderDiameter": 0.636,
+      "neckDiameter": 0.4098,
+      "lengthToShoulder": 2.1409,
+      "lengthToNeck": 2.4357,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 21,
+      "rimType": "rebated",
+      "pressure": null,
+      "source": {
+        "name": "Peterson Cartridge maximum cartridge drawing (.375 EnABELR, Applied Ballistics design)",
+        "url": "https://petersoncartridge.com/files/content/updated-375-enabelr-(1).pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "Peterson Cartridge '.375 EnABELR MAXIMUM CARTRIDGE' drawing rev. 11/30/2021, linked from https://petersoncartridge.com/drawings-and-prints; the same drawing appears on Applied Ballistics' EnABELR page (https://appliedballisticsllc.com/the-375-338-enabelr-cartridges/). Case: rim .6398 -.010, extractor groove .5433, base .6580 at .200, shoulder .6360* at 2.1409*, datum .500 B at 2.3185, neck .4098* at 2.4357*, case length 2.770 -.020, max COAL 4.625, shoulder 21 deg 00' B; bullet printed .3760 -.003 (groove .3750), stored as the named .375. Diameters -.008. Pressure and water capacity not published by AB or Peterson; left null."
+    },
+    {
+      "id": "338-enabelr",
+      "name": "338 EnABELR",
+      "kind": "wildcat",
+      "aliases": [
+        ".338 EnABELR",
+        "338 Enabler",
+        "338 EnABLER"
+      ],
+      "parentCase": "375 EnABELR",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.764,
+      "trimLength": null,
+      "maxCoal": 4.625,
+      "rimDiameter": 0.6398,
+      "neckLength": null,
+      "baseDiameter": 0.6565,
+      "shoulderDiameter": 0.637,
+      "neckDiameter": 0.37,
+      "lengthToShoulder": 2.1475,
+      "lengthToNeck": 2.48,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 21,
+      "rimType": "rebated",
+      "pressure": null,
+      "source": {
+        "name": "Peterson Cartridge maximum cartridge drawing (.338 EnABELR, Applied Ballistics design)",
+        "url": "https://petersoncartridge.com/files/content/338-enabelr.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "Peterson Cartridge '.338 EnABELR MAXIMUM CARTRIDGE' drawing rev. 12/1/2020, linked from https://petersoncartridge.com/drawings-and-prints. Case: rim .6398 -.010, extractor groove .5433, base .6565 at .200, shoulder .6370* at 2.1475*, datum .500 B at 2.316, neck .3700* at 2.4800*, case length 2.764 -.020, max COAL 4.625, shoulder 21 deg 00' B; bullet printed .3390 -.003, stored as the named .338. Diameters -.008. Pressure and water capacity not published by AB or Peterson; left null."
     }
   ],
   "aliases": [
