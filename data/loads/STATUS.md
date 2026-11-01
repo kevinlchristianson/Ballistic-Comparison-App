@@ -127,6 +127,7 @@ The app is rifle only (Kevin, 2026-10-29). Hodgdon pistol and shotshell are not 
 
 Load and cartridge work from this bot, newest first:
 
+- `loads/hellfire-enabelr-2026-10-31` — Added 416 Hellfire (Manson chamber print by Aaron Jones/Ray Gross; case length ESTIMATE = 3.282 chamber − 0.010), 375 Hellfire (all dims ESTIMATE, derived from the 416 print: same body and headspace), 375 EnABELR and 338 EnABELR (Peterson Cartridge maximum cartridge drawings). Held: 338 Hellfire and 458 Hellfire (no print or published dimensions found). The 416 print's 38° is the shoulder (.606→.445 over .103); 15° is the neck-to-freebore transition.
 - `loads/cartridge-dims-2026-10-29` — 4D/PTG/Sherman cartridge dimensions .27 and up (this PR). Bullet bot's [#267](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/267) merged first; rows it already covers were dropped.
 - [#134](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/134) — Aliased `300 norm` and `6mmBR`, and added 375 CheyTac from the PTG print.
 - [#124](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/124) — Hammer water capacities for ten library cartridges. 20 VarTarg skipped. .25 Nosler left alone.
