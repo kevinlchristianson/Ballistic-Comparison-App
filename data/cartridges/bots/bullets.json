@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-31",
   "bot": "bullets",
-  "cartridgeCount": 447,
+  "cartridgeCount": 450,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -13770,6 +13770,101 @@
         "retrievedOn": "2026-10-31"
       },
       "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 256 Win. Mag. (dated 84-06-14, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.53, L1 24.98, L2 27.25, L3 32.54, L6 40.39, R1 11.18, P1 9.68, P2 9.35, H1 7.24, Pmax 3500 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 50\u00b0 is the included angle, so shoulderAngleDeg is left empty. PTG SAAMI print (https://www.pacifictoolandgauge.com/256-Winchester-Magnum-SAAMI-Chamber-Reamer_p_116044.html) not used; C.I.P. is primary."
+    },
+    {
+      "id": "264-win-mag-ai",
+      "name": "264 Winchester Magnum Ackley Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "264 Win Mag AI",
+        "264 Win Ack Imp"
+      ],
+      "parentCase": ".264 Winchester Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.514,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5122,
+      "shoulderDiameter": 0.496,
+      "neckDiameter": 0.295,
+      "lengthToShoulder": 1.9125,
+      "lengthToNeck": 2.0323,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/264-Winchester-Magnum-Ackley-Improved-Chamber-Reamer_p_118194.html",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face; the print's datum is 0.220 in, so no shift. PTG print 82467 rev A, 264 Win Ack Imp (6/30/2022), basic brass 264 Win; groove 0.264. Body 0.5122 in at 0.200 in; shoulder 0.496 in at 1.9125 in, 40deg; neck 0.295 in at 2.0323 in; chamber neck end 2.304 in from the datum (2.524 head). Parent .264 Win Mag case length 2.500 in (Wikipedia, https://en.wikipedia.org/wiki/.264_Winchester_Magnum) was not used: it is 0.024 in under the converted chamber, outside the expected 0.005-0.015 in, so caseLength 2.514 in is chamber minus 0.010 in. Shoulder 0.496 at 2.1325 head is ahead of the parent's, as expected for an Ackley."
+    },
+    {
+      "id": "6-5-257-wby",
+      "name": "6.5/257 Weatherby",
+      "kind": "wildcat",
+      "aliases": [
+        "6.5-257 Weatherby",
+        "6.5-257 Wby Mag"
+      ],
+      "parentCase": ".257 Weatherby Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.264,
+      "caseLength": 2.554,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.512,
+      "shoulderDiameter": 0.496,
+      "neckDiameter": 0.294,
+      "lengthToShoulder": 1.799,
+      "lengthToNeck": 2.01,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/65--257-Weatherby-Magnum-Chamber-Reamer_p_117935.html",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face; the print's datum is 0.220 in, so no shift. PTG print 42294 rev A, 6.5/257 Wby (7/29/2015), basic brass 257 W.M.; groove 0.264. Body 0.5120 in at 0.200 in; Weatherby radius shoulder (R0.120/R0.151, blend 0.40744 at 1.8925 in) starting 0.496 in at 1.799 in, so no angle stored; neck 0.294 in at 2.01 in; chamber neck end 2.344 in from the datum (2.564 head). Parent .257 Weatherby Magnum case length 2.545 in (Wikipedia) sits 0.019 in under the converted chamber; caseLength 2.554 in is chamber minus 0.010 in. Shoulder 0.496 in matches the 257 Wby body."
+    },
+    {
+      "id": "20-hornady-hornet",
+      "name": "20 Hornady Hornet",
+      "kind": "wildcat",
+      "aliases": [
+        "20 Hornet (17 Hornet necked up)"
+      ],
+      "parentCase": ".17 Hornet",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.204,
+      "caseLength": 1.3465,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.2992,
+      "shoulderDiameter": 0.295,
+      "neckDiameter": 0.2275,
+      "lengthToShoulder": 1.046,
+      "lengthToNeck": 1.118,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 25,
+      "rimType": "rimmed",
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/20-Hornady-Hornet-Chamber-Reamer_p_118083.html",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Rimmed: the print measures from the rim-face datum (0.065 in rim thickness, single value); 0.065 in was added to put lengths on the case head. PTG print 22400 rev A, 20 Hornady Hornet (11/3/2014), basic brass 17 Hornet; groove 0.204. Body 0.2992 in at 0.135 in from the datum; shoulder 0.295 in at 0.981 (1.046 head) in, 25deg; neck 0.2275 in at 1.053 (1.118 head) in; chamber neck end 1.2915 (1.3565 head) in. Cross-check: shoulder end 1.040 from the datum matches the 1.105 printed from the bolt face. Parent .17 Hornet case length 1.350 in (Wikipedia) sits 0.0065 in under the converted chamber, consistent."
     }
   ],
   "aliases": []
