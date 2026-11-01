@@ -11,22 +11,22 @@ Not from 4D (2026-10-29, batch 3): 17 Hornet, .223 WSSM, .243 WSSM, .25-20 Winch
 | Caliber | 4D pages | On file | Missing |
 | --- | ---: | ---: | ---: |
 | Match | 33 | 1 | 32 |
-| .243 and 6mm | 59 | 49 | 10 |
+| .243 and 6mm | 59 | 50 | 9 |
 | .45 | 30 | 10 | 20 |
-| .264 and 6.5mm | 49 | 36 | 13 |
+| .264 and 6.5mm | 49 | 37 | 12 |
 | .30 and .308 | 76 | 57 | 19 |
 | .40 | 29 | 10 | 19 |
 | .22 | 67 | 57 | 10 |
 | .280 and 7mm | 48 | 34 | 14 |
-| .25 and .257 | 33 | 25 | 8 |
+| .25 and .257 | 33 | 27 | 6 |
 | .338 and .340 | 37 | 25 | 12 |
 | .50 | 16 | 4 | 12 |
 | .375 and .38 | 28 | 19 | 9 |
 | .270 and 6.8mm | 21 | 13 | 8 |
 | .35 and 9mm | 32 | 24 | 8 |
 | .32 and 8mm | 21 | 14 | 7 |
-| .19 | 5 | 4 | 1 |
-| .17 | 14 | 10 | 4 |
+| .19 | 5 | 5 | 0 |
+| .17 | 14 | 12 | 2 |
 | .20 and .204 | 18 | 16 | 2 |
 | .366 and 9.3mm | 8 | 6 | 2 |
 | .577 | 3 | 1 | 2 |
@@ -38,13 +38,13 @@ Not from 4D (2026-10-29, batch 3): 17 Hornet, .223 WSSM, .243 WSSM, .25-20 Winch
 | .425 | 2 | 2 | 0 |
 | .470 and .475 | 3 | 3 | 0 |
 | 5.7mm | 1 | 1 | 0 |
-| **Total** | **641** | **425** | **216** |
+| **Total** | **641** | **432** | **209** |
 
 Unique rifle and match pages in these archives: 626. A cartridge listed in two caliber archives is counted in each row, so the table total is higher.
 
 ## .17
 
-14 pages. 10 on file. 4 missing.
+14 pages. 12 on file. 2 missing.
 
 On file:
 
@@ -58,17 +58,17 @@ On file:
 - 17 Remington Fireball — library `17-fireball`
 - 17-222 Remington — bullets `17-222`
 - 17-250 (17/22-250) — bullets `17-22-250`
+- 17 Ackley Bee — bullets `17-ackley-bee`
+- 4.6mm x 30 — bullets `4-6x30` (C.I.P.)
 
 Missing:
 
-- 17 Ackley Bee — https://4drentals.com/product/reamer-rentals/rifle/17-ackley-bee/
 - 17 Remington .194 neck — https://4drentals.com/product/reamer-rentals/rifle/17-remington-194-neck/
 - 17 Remington ‘0’ freebore — https://4drentals.com/product/reamer-rentals/rifle/17-remington-0-freebore/
-- 4.6mm x 30 — https://4drentals.com/product/reamer-rentals/rifle/4-6mm-x-30/
 
 ## .19
 
-5 pages. 4 on file. 1 missing.
+5 pages. 5 on file. 0 missing.
 
 On file:
 
@@ -76,10 +76,10 @@ On file:
 - 19 Hawk — bullets `19-hawk`
 - 19 Squirrel — bullets `19-squirrel`
 - 19-223 Ackley Improved — bullets `19-223-ai`
+- 4.6mm x 30 — bullets `4-6x30` (C.I.P.)
 
 Missing:
 
-- 4.6mm x 30 — https://4drentals.com/product/reamer-rentals/rifle/4-6mm-x-30/
 
 ## .20 and .204
 
@@ -188,7 +188,7 @@ Missing:
 
 ## .243 and 6mm
 
-59 pages. 49 on file. 10 missing.
+59 pages. 50 on file. 9 missing.
 
 On file:
 
@@ -241,10 +241,10 @@ On file:
 - 6mm/22-250 — bullets `243-250`
 - 6mm/22-250 Ackley Improved (AI) — bullets `6mm-22-250-ai`
 - 6mm/30-30 Ackley Improved — bullets `6mm-30-30-ai`
+- 240 NMC — bullets `240-nmc`
 
 Missing:
 
-- 240 NMC — https://4drentals.com/product/reamer-rentals/rifle/240-nmc/
 - 6mm Cheetah MK I — https://4drentals.com/product/reamer-rentals/rifle/6mm-cheetah-mk-i/
 - 6mm Competition Match — https://4drentals.com/product/reamer-rentals/match/6mm-competition-match/
 - 6mm Dasher 14x World Champion — https://4drentals.com/product/reamer-rentals/match/6mm-dasher-14x-world-champion/
@@ -257,7 +257,7 @@ Missing:
 
 ## .25 and .257
 
-33 pages. 25 on file. 8 missing.
+33 pages. 27 on file. 6 missing.
 
 On file:
 
@@ -286,21 +286,21 @@ On file:
 - 257 Roberts (Min Freebore) — library `257-roberts`
 - 257 Roberts Ackley — bullets `257-ai`
 - 257 STW — bullets `257-stw`
+- 25 GT — bullets `25-gt`
+- 25-20 Single Shot — bullets `25-20-single-shot`
 
 Missing:
 
-- 25 GT — https://4drentals.com/product/reamer-rentals/rifle/25-gt/
 - 25 Hornet — https://4drentals.com/product/reamer-rentals/rifle/25-hornet/
 - 25 Scheutzen — https://4drentals.com/product/reamer-rentals/rifle/25-scheutzen/
 - 25 Weatherby RPM — https://4drentals.com/product/reamer-rentals/rifle/25-rpm/
 - 25 Western — https://4drentals.com/product/reamer-rentals/rifle/25-western/
 - 25 x 47 Lapua — https://4drentals.com/product/reamer-rentals/rifle/25x47-lapua/
-- 25-20 Single Shot — https://4drentals.com/product/reamer-rentals/rifle/25-20-single-shot/
 - 25-375 H&H Ackley Improved — https://4drentals.com/product/reamer-rentals/rifle/25375-hh-ackley/
 
 ## .264 and 6.5mm
 
-49 pages. 36 on file. 13 missing.
+49 pages. 37 on file. 12 missing.
 
 On file:
 
@@ -340,6 +340,7 @@ On file:
 - 6.5mm-300 RSAUM — bullets `6-5-saum`
 - 6.5mm-300 RUM — bullets `65-ultracat`
 - 6.5mm-300 Weatherby — library `6-5-300-wby`
+- 6mm PRC (6-6.5mm PRC) — bullets `6mm-prc`
 
 Missing:
 
@@ -355,7 +356,6 @@ Missing:
 - 6.5mm-280 RCBS 30° — https://4drentals.com/product/reamer-rentals/rifle/6-5-280-rcbs-30/
 - 6.5mm-284 Lapua — https://4drentals.com/product/reamer-rentals/rifle/6-5-284-lapua/
 - 6.5mm-284 Winchester — https://4drentals.com/product/reamer-rentals/rifle/6-5-284-winchester/
-- 6mm PRC (6-6.5mm PRC) — https://4drentals.com/product/reamer-rentals/rifle/6-prc/
 
 ## .270 and 6.8mm
 

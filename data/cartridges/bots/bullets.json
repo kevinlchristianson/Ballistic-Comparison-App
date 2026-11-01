@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-29",
   "bot": "bullets",
-  "cartridgeCount": 397,
+  "cartridgeCount": 403,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -12121,6 +12121,222 @@
         "retrievedOn": "2026-10-30"
       },
       "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. 6UM-30: 30° shoulder to match ADG headstamped 6UM brass, no fireforming (Rokslide thread)."
+    },
+    {
+      "id": "4-6x30",
+      "name": "4.6x30mm",
+      "kind": "cip",
+      "aliases": [
+        "4,6 x 30",
+        "4.6x30 H&K",
+        "4.6 x 30"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 4.65,
+      "caseLength": 30.5,
+      "trimLength": null,
+      "maxCoal": 38.5,
+      "rimDiameter": 8.0,
+      "neckLength": 4.47,
+      "baseDiameter": 8.02,
+      "shoulderDiameter": 7.75,
+      "neckDiameter": 5.33,
+      "lengthToShoulder": 23.02,
+      "lengthToNeck": 26.03,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": {
+        "value": 4000,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/4-6x30-suhl-eng-250317.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 4.6x30mm (dated 04-05-18, revision 25-03-17, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 4.65, L1 23.02, L2 26.03, L3 30.5, L6 38.5, R1 8.0, P1 8.02, P2 7.75, H1 5.33, Pmax 4000 bar. neckLength is L3 minus L2."
+    },
+    {
+      "id": "6-5mm-dbg",
+      "name": "6.5mm D.B.G.",
+      "kind": "cip",
+      "aliases": [
+        "6,5 mm D.B.G.",
+        "6.5 DBG"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.71,
+      "caseLength": 51.9,
+      "trimLength": null,
+      "maxCoal": 72.0,
+      "rimDiameter": 13.56,
+      "neckLength": 7.71,
+      "baseDiameter": 14.0,
+      "shoulderDiameter": 13.59,
+      "neckDiameter": 7.5,
+      "lengthToShoulder": 38.92,
+      "lengthToNeck": 44.19,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rebated",
+      "pressure": {
+        "value": 4400,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-mm-d.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm D.B.G. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.92, L2 44.19, L3 51.9, L6 72.0, R1 13.56, P1 14.0, P2 13.59, H1 7.5, Pmax 4400 bar. neckLength is L3 minus L2. Cone angle alpha 60°02'18\" is the included angle, so shoulderAngleDeg is left empty."
+    },
+    {
+      "id": "6-5x55-tri",
+      "name": "6.5x55 T.R.I.",
+      "kind": "cip",
+      "aliases": [
+        "6,5 x 55 T.R.I.",
+        "6.5x55 TRI"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.7,
+      "caseLength": 54.7,
+      "trimLength": null,
+      "maxCoal": 85.0,
+      "rimDiameter": 12.13,
+      "neckLength": 7.64,
+      "baseDiameter": 12.15,
+      "shoulderDiameter": 11.52,
+      "neckDiameter": 7.51,
+      "lengthToShoulder": 43.59,
+      "lengthToNeck": 47.06,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-x-55-t.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x55 T.R.I. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 43.59, L2 47.06, L3 54.7, L6 85.0, R1 12.13, P1 12.15, P2 11.52, H1 7.51, Pmax 3800 bar. neckLength is L3 minus L2. Its own C.I.P. cartridge, not the 6.5x55 Swedish sheet. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty."
+    },
+    {
+      "id": "6mm-ppc-ita",
+      "name": "6mm PPC ITA",
+      "kind": "cip",
+      "aliases": [
+        "6 mm PPC ITA"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.17,
+      "caseLength": 37.9,
+      "trimLength": null,
+      "maxCoal": 55.7,
+      "rimDiameter": 11.18,
+      "neckLength": 6.9,
+      "baseDiameter": 11.13,
+      "shoulderDiameter": 10.92,
+      "neckDiameter": 6.63,
+      "lengthToShoulder": 27.3,
+      "lengthToNeck": 31.0,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": {
+        "value": 4050,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-ppc-ita-en.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm PPC ITA (dated 15-05-19, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 27.3, L2 31.0, L3 37.9, L6 55.7, R1 11.18, P1 11.13, P2 10.92, H1 6.63, Pmax 4050 bar. neckLength is L3 minus L2. Separate C.I.P. sheet from the library 6mm PPC. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty."
+    },
+    {
+      "id": "6x62-freres",
+      "name": "6x62 Frères",
+      "kind": "cip",
+      "aliases": [
+        "6 x 62 Frères",
+        "6x62 Freres"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 6.18,
+      "caseLength": 61.75,
+      "trimLength": null,
+      "maxCoal": 82.0,
+      "rimDiameter": 12.1,
+      "neckLength": 6.0,
+      "baseDiameter": 12.1,
+      "shoulderDiameter": 11.53,
+      "neckDiameter": 6.91,
+      "lengthToShoulder": 49.4,
+      "lengthToNeck": 55.75,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": {
+        "value": 4300,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-x-62-freres-220214-fr.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6x62 Frères (dated 84-06-14, French-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.18, L1 49.4, L2 55.75, L3 61.75, L6 82.0, R1 12.1, P1 12.1, P2 11.53, H1 6.91, Pmax 4300 bar. neckLength is L3 minus L2."
+    },
+    {
+      "id": "215-cip",
+      "name": "215",
+      "kind": "cip",
+      "aliases": [
+        "215 C.I.P.",
+        ".215"
+      ],
+      "parentCase": null,
+      "lengthUnit": "mm",
+      "bulletDiameter": 5.64,
+      "caseLength": 39.6,
+      "trimLength": null,
+      "maxCoal": 58.0,
+      "rimDiameter": 10.0,
+      "neckLength": 5.63,
+      "baseDiameter": 10.0,
+      "shoulderDiameter": 9.25,
+      "neckDiameter": 6.32,
+      "lengthToShoulder": 30.0,
+      "lengthToNeck": 33.97,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": {
+        "value": 3800,
+        "unit": "bar",
+        "method": "cip"
+      },
+      "source": {
+        "name": "C.I.P. TDCC",
+        "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/215-en.pdf",
+        "retrievedOn": "2026-10-31"
+      },
+      "note": "New. C.I.P. TDCC Tab. I sheet, 215 (dated 92-02-27, revision 11-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.64, L1 30.0, L2 33.97, L3 39.6, L6 58.0, R1 10.0, P1 10.0, P2 9.25, H1 6.32, Pmax 3800 bar. neckLength is L3 minus L2. Cone angle alpha 40°30'36\" is the included angle, so shoulderAngleDeg is left empty."
     }
   ],
   "aliases": []
