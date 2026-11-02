@@ -26,7 +26,7 @@
       "lengthToShoulder": 1.5148,
       "lengthToNeck": 1.7115,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -57,7 +57,7 @@
       "lengthToShoulder": 1.2645,
       "lengthToNeck": 1.452,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -88,7 +88,7 @@
       "lengthToShoulder": 1.4381,
       "lengthToNeck": 1.5725,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -148,7 +148,7 @@
       "lengthToShoulder": 1.161,
       "lengthToNeck": 1.29,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 32.0,
+      "shoulderAngleDeg": 32,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -179,7 +179,7 @@
       "lengthToShoulder": 1.071,
       "lengthToNeck": 1.197,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -210,7 +210,7 @@
       "lengthToShoulder": 1.075,
       "lengthToNeck": 1.275,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -635,7 +635,7 @@
       "lengthToShoulder": 1.5386,
       "lengthToNeck": 1.6502,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -666,7 +666,7 @@
       "lengthToShoulder": 1.5661,
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -697,7 +697,7 @@
       "lengthToShoulder": 0.923,
       "lengthToNeck": 1.0891,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 15.0,
+      "shoulderAngleDeg": 15,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -728,7 +728,7 @@
       "lengthToShoulder": 1.0849,
       "lengthToNeck": 1.152,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -759,7 +759,7 @@
       "lengthToShoulder": 1.363,
       "lengthToNeck": 1.497,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -788,7 +788,7 @@
       "lengthToShoulder": 1.359,
       "lengthToNeck": 1.621,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 12.0,
+      "shoulderAngleDeg": 12,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -819,7 +819,7 @@
       "lengthToShoulder": 2.1228,
       "lengthToNeck": 2.2408,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -908,7 +908,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.834,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -968,7 +968,7 @@
       "lengthToShoulder": 1.5148,
       "lengthToNeck": 1.6636,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1030,7 +1030,7 @@
       "lengthToShoulder": 1.568,
       "lengthToNeck": 1.67,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1061,7 +1061,7 @@
       "lengthToShoulder": 1.708,
       "lengthToNeck": 1.8853,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 26.0,
+      "shoulderAngleDeg": 26,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1092,7 +1092,7 @@
       "lengthToShoulder": 1.7575,
       "lengthToNeck": 1.8782,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1123,7 +1123,7 @@
       "lengthToShoulder": 1.215,
       "lengthToNeck": 1.3289,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1183,7 +1183,7 @@
       "lengthToShoulder": 1.6018,
       "lengthToNeck": 1.752,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1212,7 +1212,7 @@
       "lengthToShoulder": 1.4901,
       "lengthToNeck": 1.6658,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1243,7 +1243,7 @@
       "lengthToShoulder": 1.15,
       "lengthToNeck": 1.304,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1303,7 +1303,7 @@
       "lengthToShoulder": 1.0117,
       "lengthToNeck": 1.0382,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1332,7 +1332,7 @@
       "lengthToShoulder": 1.3893,
       "lengthToNeck": 1.515,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1421,7 +1421,7 @@
       "lengthToShoulder": 1.4038,
       "lengthToNeck": 1.6304,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 14.0,
+      "shoulderAngleDeg": 14,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1472,7 +1472,7 @@
       "parentCase": null,
       "lengthUnit": "in",
       "bulletDiameter": 0.224,
-      "caseLength": 2.0,
+      "caseLength": 2,
       "trimLength": null,
       "maxCoal": null,
       "rimDiameter": 0.473,
@@ -1483,7 +1483,7 @@
       "lengthToShoulder": 1.547,
       "lengthToNeck": 1.7,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1512,7 +1512,7 @@
       "lengthToShoulder": 1.7227,
       "lengthToNeck": 1.9057,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 21.0,
+      "shoulderAngleDeg": 21,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1575,7 +1575,7 @@
       "lengthToShoulder": 1.7227,
       "lengthToNeck": 1.8445,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1604,7 +1604,7 @@
       "lengthToShoulder": 1.0707,
       "lengthToNeck": 1.1975,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1633,7 +1633,7 @@
       "lengthToShoulder": 1.2603,
       "lengthToNeck": 1.3819,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1664,7 +1664,7 @@
       "lengthToShoulder": 1.3195,
       "lengthToNeck": 1.3833,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1693,7 +1693,7 @@
       "lengthToShoulder": 1.4636,
       "lengthToNeck": 1.5862,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1724,7 +1724,7 @@
       "lengthToShoulder": 1.5185,
       "lengthToNeck": 1.5822,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1755,7 +1755,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.914,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1784,7 +1784,7 @@
       "lengthToShoulder": 1.4862,
       "lengthToNeck": 1.5573,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1813,7 +1813,7 @@
       "lengthToShoulder": 1.4381,
       "lengthToNeck": 1.5673,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1842,7 +1842,7 @@
       "lengthToShoulder": 1.6953,
       "lengthToNeck": 1.8452,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1871,7 +1871,7 @@
       "lengthToShoulder": 1.1984,
       "lengthToNeck": 1.326,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1900,7 +1900,7 @@
       "lengthToShoulder": 1.27,
       "lengthToNeck": 1.393,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1929,7 +1929,7 @@
       "lengthToShoulder": 1.53,
       "lengthToNeck": 1.6865,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -1991,7 +1991,7 @@
       "lengthToShoulder": 1.763,
       "lengthToNeck": 1.875,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 34.0,
+      "shoulderAngleDeg": 34,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2022,7 +2022,7 @@
       "lengthToShoulder": 2.145,
       "lengthToNeck": 2.2708,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2053,7 +2053,7 @@
       "lengthToShoulder": 1.5148,
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2084,7 +2084,7 @@
       "lengthToShoulder": 1.494,
       "lengthToNeck": 1.6447,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2113,7 +2113,7 @@
       "lengthToShoulder": 1.6849,
       "lengthToNeck": 1.7932,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2175,7 +2175,7 @@
       "lengthToShoulder": 1.736,
       "lengthToNeck": 1.861,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 32.0,
+      "shoulderAngleDeg": 32,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2235,7 +2235,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.804,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2266,7 +2266,7 @@
       "lengthToShoulder": 1.231,
       "lengthToNeck": 1.384,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2295,7 +2295,7 @@
       "lengthToShoulder": 2.0845,
       "lengthToNeck": 2.1818,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2355,7 +2355,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.8397,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2386,7 +2386,7 @@
       "lengthToShoulder": 1.6205,
       "lengthToNeck": 1.6927,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2446,7 +2446,7 @@
       "lengthToShoulder": 1.4381,
       "lengthToNeck": 1.5205,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2477,7 +2477,7 @@
       "lengthToShoulder": 1.4901,
       "lengthToNeck": 1.6425,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2508,7 +2508,7 @@
       "lengthToShoulder": 2.1672,
       "lengthToNeck": 2.275,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2568,7 +2568,7 @@
       "lengthToShoulder": 1.845,
       "lengthToNeck": 1.9398,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2599,7 +2599,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7485,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2630,7 +2630,7 @@
       "lengthToShoulder": 1.56,
       "lengthToNeck": 1.784,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2752,7 +2752,7 @@
       "lengthToShoulder": 1.884,
       "lengthToNeck": 2.17,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 14.0,
+      "shoulderAngleDeg": 14,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2781,7 +2781,7 @@
       "lengthToShoulder": 1.794,
       "lengthToNeck": 1.8913,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2841,7 +2841,7 @@
       "lengthToShoulder": 2.397,
       "lengthToNeck": 2.607,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -2872,7 +2872,7 @@
       "lengthToShoulder": 2.1662,
       "lengthToNeck": 2.3308,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2901,7 +2901,7 @@
       "lengthToShoulder": 1.6722,
       "lengthToNeck": 1.7687,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2930,7 +2930,7 @@
       "lengthToShoulder": 1.5543,
       "lengthToNeck": 1.7687,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -2990,7 +2990,7 @@
       "lengthToShoulder": 2.0401,
       "lengthToNeck": 2.2459,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -3052,7 +3052,7 @@
       "lengthToShoulder": 1.4381,
       "lengthToNeck": 1.4925,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3081,7 +3081,7 @@
       "lengthToShoulder": 1.15,
       "lengthToNeck": 1.372,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3112,7 +3112,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7345,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3169,10 +3169,10 @@
       "baseDiameter": 0.471,
       "shoulderDiameter": 0.454,
       "neckDiameter": 0.308,
-      "lengthToShoulder": 2.0,
+      "lengthToShoulder": 2,
       "lengthToNeck": 2.087,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3201,7 +3201,7 @@
       "lengthToShoulder": 1.6635,
       "lengthToNeck": 1.8235,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3230,7 +3230,7 @@
       "lengthToShoulder": 1.6261,
       "lengthToNeck": 1.7562,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3261,7 +3261,7 @@
       "lengthToShoulder": 1.2344,
       "lengthToNeck": 1.293,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3292,7 +3292,7 @@
       "lengthToShoulder": 2.1662,
       "lengthToNeck": 2.3165,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3408,7 +3408,7 @@
       "lengthToShoulder": 1.7749,
       "lengthToNeck": 1.8854,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3468,7 +3468,7 @@
       "lengthToShoulder": 1.0707,
       "lengthToNeck": 1.0986,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3499,7 +3499,7 @@
       "lengthToShoulder": 1.15,
       "lengthToNeck": 1.344,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3588,7 +3588,7 @@
       "lengthToShoulder": 2.161,
       "lengthToNeck": 2.4383,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3619,7 +3619,7 @@
       "lengthToShoulder": 2.04,
       "lengthToNeck": 2.204,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -3739,7 +3739,7 @@
       "lengthToShoulder": 1.855,
       "lengthToNeck": 1.9226,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3830,7 +3830,7 @@
       "lengthToShoulder": 1.0749,
       "lengthToNeck": 1.1874,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3861,7 +3861,7 @@
       "lengthToShoulder": 2.1713,
       "lengthToNeck": 2.252,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3892,7 +3892,7 @@
       "lengthToShoulder": 2.02,
       "lengthToNeck": 2.205,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3952,7 +3952,7 @@
       "lengthToShoulder": 1.075,
       "lengthToNeck": 1.1547,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3983,7 +3983,7 @@
       "lengthToShoulder": 1.0681,
       "lengthToNeck": 1.2252,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4014,7 +4014,7 @@
       "lengthToShoulder": 1.512,
       "lengthToNeck": 1.622,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4045,7 +4045,7 @@
       "lengthToShoulder": 2.345,
       "lengthToNeck": 2.4385,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -4136,7 +4136,7 @@
       "lengthToShoulder": 2.1968,
       "lengthToNeck": 2.3125,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -4196,7 +4196,7 @@
       "lengthToShoulder": 1.892,
       "lengthToNeck": 2.1954,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4225,7 +4225,7 @@
       "lengthToShoulder": 2.1168,
       "lengthToNeck": 2.2667,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4285,7 +4285,7 @@
       "lengthToShoulder": 2.3873,
       "lengthToNeck": 2.544,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4316,7 +4316,7 @@
       "lengthToShoulder": 2.4268,
       "lengthToNeck": 2.54,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4345,7 +4345,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7035,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4376,7 +4376,7 @@
       "lengthToShoulder": 1.5585,
       "lengthToNeck": 1.6503,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4436,7 +4436,7 @@
       "lengthToShoulder": 1.984,
       "lengthToNeck": 2.1426,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -4465,7 +4465,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.8027,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4527,7 +4527,7 @@
       "lengthToShoulder": 1.3509,
       "lengthToNeck": 1.4774,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 16.0,
+      "shoulderAngleDeg": 16,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4556,7 +4556,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.7116,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4618,7 +4618,7 @@
       "lengthToShoulder": 1.4601,
       "lengthToNeck": 1.6207,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4678,7 +4678,7 @@
       "lengthToShoulder": 1.5543,
       "lengthToNeck": 1.7039,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4709,7 +4709,7 @@
       "lengthToShoulder": 1.036,
       "lengthToNeck": 1.196,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4740,7 +4740,7 @@
       "lengthToShoulder": 1.405,
       "lengthToNeck": 1.5064,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -4979,7 +4979,7 @@
       "baseDiameter": 0.4699,
       "shoulderDiameter": 0.455,
       "neckDiameter": 0.372,
-      "lengthToShoulder": 2.0,
+      "lengthToShoulder": 2,
       "lengthToNeck": 2.0495,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 40,
@@ -5044,7 +5044,7 @@
       "lengthToShoulder": 1.15,
       "lengthToNeck": 1.315,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5075,7 +5075,7 @@
       "lengthToShoulder": 1.7749,
       "lengthToNeck": 1.8547,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5104,7 +5104,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.682,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5135,7 +5135,7 @@
       "lengthToShoulder": 1.4901,
       "lengthToNeck": 1.5699,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5164,7 +5164,7 @@
       "lengthToShoulder": 2.3873,
       "lengthToNeck": 2.5215,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5195,7 +5195,7 @@
       "lengthToShoulder": 2.45,
       "lengthToNeck": 2.633,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5224,7 +5224,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.6752,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5253,7 +5253,7 @@
       "lengthToShoulder": 2.161,
       "lengthToNeck": 2.397,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5284,7 +5284,7 @@
       "lengthToShoulder": 2.274,
       "lengthToNeck": 2.393,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5315,7 +5315,7 @@
       "lengthToShoulder": 1.4578,
       "lengthToNeck": 1.5918,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5375,7 +5375,7 @@
       "lengthToShoulder": 1.5688,
       "lengthToNeck": 1.6951,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5406,7 +5406,7 @@
       "lengthToShoulder": 2.2958,
       "lengthToNeck": 2.4301,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5437,7 +5437,7 @@
       "lengthToShoulder": 2.329,
       "lengthToNeck": 2.4261,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5528,7 +5528,7 @@
       "lengthToShoulder": 2.04,
       "lengthToNeck": 2.1698,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -5619,7 +5619,7 @@
       "lengthToShoulder": 1.7749,
       "lengthToNeck": 1.8505,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5679,7 +5679,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.7957,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5710,7 +5710,7 @@
       "lengthToShoulder": 1.6875,
       "lengthToNeck": 1.7817,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5741,7 +5741,7 @@
       "lengthToShoulder": 2.1797,
       "lengthToNeck": 2.294,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5772,7 +5772,7 @@
       "lengthToShoulder": 2.395,
       "lengthToNeck": 2.4575,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -5834,7 +5834,7 @@
       "lengthToShoulder": 2.02,
       "lengthToNeck": 2.154,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -5925,7 +5925,7 @@
       "lengthToShoulder": 1.9887,
       "lengthToNeck": 2.028,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6016,7 +6016,7 @@
       "lengthToShoulder": 1.8462,
       "lengthToNeck": 1.8855,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6047,7 +6047,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.6505,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6078,7 +6078,7 @@
       "lengthToShoulder": 1.15,
       "lengthToNeck": 1.1873,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6140,7 +6140,7 @@
       "lengthToShoulder": 1.1574,
       "lengthToNeck": 1.2918,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6169,7 +6169,7 @@
       "lengthToShoulder": 2.0842,
       "lengthToNeck": 2.1935,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6200,7 +6200,7 @@
       "lengthToShoulder": 2.405,
       "lengthToNeck": 2.486,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6229,7 +6229,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.6505,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6260,7 +6260,7 @@
       "lengthToShoulder": 2.099,
       "lengthToNeck": 2.2198,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6291,7 +6291,7 @@
       "lengthToShoulder": 2.5644,
       "lengthToNeck": 2.698,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6353,7 +6353,7 @@
       "lengthToShoulder": 2.04,
       "lengthToNeck": 2.1355,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6384,7 +6384,7 @@
       "lengthToShoulder": 1.6875,
       "lengthToNeck": 1.7703,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6415,7 +6415,7 @@
       "lengthToShoulder": 1.76,
       "lengthToNeck": 1.8855,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6446,7 +6446,7 @@
       "lengthToShoulder": 1.737,
       "lengthToNeck": 1.8165,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6506,7 +6506,7 @@
       "lengthToShoulder": 2.4122,
       "lengthToNeck": 2.4976,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 15.0,
+      "shoulderAngleDeg": 15,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6537,7 +6537,7 @@
       "lengthToShoulder": 2.453,
       "lengthToNeck": 2.5844,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6568,7 +6568,7 @@
       "lengthToShoulder": 2.438,
       "lengthToNeck": 2.487,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 45.0,
+      "shoulderAngleDeg": 45,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -6599,7 +6599,7 @@
       "lengthToShoulder": 2.1787,
       "lengthToNeck": 2.275,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6628,7 +6628,7 @@
       "lengthToShoulder": 2.3573,
       "lengthToNeck": 2.4621,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6659,7 +6659,7 @@
       "lengthToShoulder": 1.9554,
       "lengthToNeck": 1.994,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6895,7 +6895,7 @@
       "lengthToShoulder": 2.3557,
       "lengthToNeck": 2.4024,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 45.0,
+      "shoulderAngleDeg": 45,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -6984,7 +6984,7 @@
       "lengthToShoulder": 2.209,
       "lengthToNeck": 2.243,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 32.0,
+      "shoulderAngleDeg": 32,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -7042,7 +7042,7 @@
       "lengthToShoulder": 0.9275,
       "lengthToNeck": 1.0169,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 4.0,
+      "shoulderAngleDeg": 4,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7073,7 +7073,7 @@
       "lengthToShoulder": 1.687,
       "lengthToNeck": 1.7168,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7195,7 +7195,7 @@
       "lengthToShoulder": 1.175,
       "lengthToNeck": 1.219,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7224,7 +7224,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.6948,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7255,7 +7255,7 @@
       "lengthToShoulder": 2.725,
       "lengthToNeck": 2.888,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 6.0,
+      "shoulderAngleDeg": 6,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7286,7 +7286,7 @@
       "lengthToShoulder": 2.725,
       "lengthToNeck": 2.925,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 6.0,
+      "shoulderAngleDeg": 6,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7317,7 +7317,7 @@
       "lengthToShoulder": 2.485,
       "lengthToNeck": 2.507,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -7377,7 +7377,7 @@
       "lengthToShoulder": 2.379,
       "lengthToNeck": 2.46,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7499,7 +7499,7 @@
       "lengthToShoulder": 1.794,
       "lengthToNeck": 1.8865,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7530,7 +7530,7 @@
       "lengthToShoulder": 1.6635,
       "lengthToNeck": 1.84,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7590,7 +7590,7 @@
       "lengthToShoulder": 1.7699,
       "lengthToNeck": 1.8967,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7650,7 +7650,7 @@
       "lengthToShoulder": 1.4901,
       "lengthToNeck": 1.6347,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7679,7 +7679,7 @@
       "lengthToShoulder": 1.145,
       "lengthToNeck": 1.265,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7708,7 +7708,7 @@
       "lengthToShoulder": 1.5648,
       "lengthToNeck": 1.7534,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7739,7 +7739,7 @@
       "lengthToShoulder": 1.7,
       "lengthToNeck": 1.91,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -7771,7 +7771,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7495,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7833,7 +7833,7 @@
       "lengthToShoulder": 1.4495,
       "lengthToNeck": 1.4942,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7862,7 +7862,7 @@
       "lengthToShoulder": 1.4047,
       "lengthToNeck": 1.5477,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7893,7 +7893,7 @@
       "lengthToShoulder": 1.531,
       "lengthToNeck": 1.703,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7924,7 +7924,7 @@
       "lengthToShoulder": 1.649,
       "lengthToNeck": 1.79,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7955,7 +7955,7 @@
       "lengthToShoulder": 1.754,
       "lengthToNeck": 1.848,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -7984,7 +7984,7 @@
       "lengthToShoulder": 1.7071,
       "lengthToNeck": 1.8518,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8015,7 +8015,7 @@
       "lengthToShoulder": 2.0374,
       "lengthToNeck": 2.382,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 15.0,
+      "shoulderAngleDeg": 15,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8044,7 +8044,7 @@
       "lengthToShoulder": 1.3012,
       "lengthToNeck": 1.4136,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 23.0,
+      "shoulderAngleDeg": 23,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8075,7 +8075,7 @@
       "lengthToShoulder": 1.3458,
       "lengthToNeck": 1.4096,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8104,7 +8104,7 @@
       "lengthToShoulder": 1.5786,
       "lengthToNeck": 1.7381,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8135,7 +8135,7 @@
       "lengthToShoulder": 2.3873,
       "lengthToNeck": 2.5901,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8226,7 +8226,7 @@
       "lengthToShoulder": 1.524,
       "lengthToNeck": 1.6289,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8257,7 +8257,7 @@
       "lengthToShoulder": 1.3893,
       "lengthToNeck": 1.4967,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8319,7 +8319,7 @@
       "lengthToShoulder": 1.794,
       "lengthToNeck": 1.8997,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8350,7 +8350,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7625,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8381,7 +8381,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.851,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8410,7 +8410,7 @@
       "lengthToShoulder": 1.7,
       "lengthToNeck": 1.934,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -8439,7 +8439,7 @@
       "lengthToShoulder": 1.7,
       "lengthToNeck": 1.93,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -8468,7 +8468,7 @@
       "lengthToShoulder": 1.12,
       "lengthToNeck": 1.2551,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8499,7 +8499,7 @@
       "lengthToShoulder": 1.1205,
       "lengthToNeck": 1.234,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8530,7 +8530,7 @@
       "lengthToShoulder": 1.1779,
       "lengthToNeck": 1.341,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8559,7 +8559,7 @@
       "lengthToShoulder": 1.4901,
       "lengthToNeck": 1.6512,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8619,7 +8619,7 @@
       "lengthToShoulder": 1.283,
       "lengthToNeck": 1.4085,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 28.0,
+      "shoulderAngleDeg": 28,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8648,7 +8648,7 @@
       "lengthToShoulder": 1.304,
       "lengthToNeck": 1.4375,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8677,7 +8677,7 @@
       "lengthToShoulder": 1.071,
       "lengthToNeck": 1.2349,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8706,7 +8706,7 @@
       "lengthToShoulder": 1.075,
       "lengthToNeck": 1.22,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8798,7 +8798,7 @@
       "lengthToShoulder": 1.474,
       "lengthToNeck": 1.53,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8829,7 +8829,7 @@
       "lengthToShoulder": 1.4435,
       "lengthToNeck": 1.555,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -8887,7 +8887,7 @@
       "lengthToShoulder": 1.615,
       "lengthToNeck": 1.739,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 22.0,
+      "shoulderAngleDeg": 22,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9042,7 +9042,7 @@
       "lengthToShoulder": 1.6547,
       "lengthToNeck": 1.7405,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9071,7 +9071,7 @@
       "lengthToShoulder": 1.5598,
       "lengthToNeck": 1.7508,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9102,7 +9102,7 @@
       "lengthToShoulder": 2.1959,
       "lengthToNeck": 2.3823,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9133,7 +9133,7 @@
       "lengthToShoulder": 1.664,
       "lengthToNeck": 1.819,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9164,7 +9164,7 @@
       "lengthToShoulder": 1.6602,
       "lengthToNeck": 1.7466,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9195,7 +9195,7 @@
       "lengthToShoulder": 2.161,
       "lengthToNeck": 2.466,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 20.0,
+      "shoulderAngleDeg": 20,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9226,7 +9226,7 @@
       "lengthToShoulder": 2.16,
       "lengthToNeck": 2.2976,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9257,7 +9257,7 @@
       "lengthToShoulder": 1.481,
       "lengthToNeck": 1.566,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 38.0,
+      "shoulderAngleDeg": 38,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9288,7 +9288,7 @@
       "lengthToShoulder": 1.965,
       "lengthToNeck": 2.132,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9319,7 +9319,7 @@
       "lengthToShoulder": 2.11,
       "lengthToNeck": 2.266,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9348,7 +9348,7 @@
       "lengthToShoulder": 1.8145,
       "lengthToNeck": 1.9875,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9379,7 +9379,7 @@
       "lengthToShoulder": 1.5648,
       "lengthToNeck": 1.7376,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9408,7 +9408,7 @@
       "lengthToShoulder": 2.0401,
       "lengthToNeck": 2.2288,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9468,7 +9468,7 @@
       "lengthToShoulder": 1.5383,
       "lengthToNeck": 1.7242,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 30.0,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9497,7 +9497,7 @@
       "lengthToShoulder": 2.389,
       "lengthToNeck": 2.572,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9528,7 +9528,7 @@
       "lengthToShoulder": 1.7018,
       "lengthToNeck": 1.8565,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 35.0,
+      "shoulderAngleDeg": 35,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9588,7 +9588,7 @@
       "lengthToShoulder": 1.7277,
       "lengthToNeck": 1.8664,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 21.0,
+      "shoulderAngleDeg": 21,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9650,7 +9650,7 @@
       "lengthToShoulder": 1.909,
       "lengthToNeck": 1.992,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 44.0,
+      "shoulderAngleDeg": 44,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9710,7 +9710,7 @@
       "lengthToShoulder": 2.0225,
       "lengthToNeck": 2.082,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9772,7 +9772,7 @@
       "lengthToShoulder": 2.04,
       "lengthToNeck": 2.192,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9801,7 +9801,7 @@
       "lengthToShoulder": 2.389,
       "lengthToNeck": 2.5302,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -9832,7 +9832,7 @@
       "lengthToShoulder": 2.3873,
       "lengthToNeck": 2.571,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 25.0,
+      "shoulderAngleDeg": 25,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9954,7 +9954,7 @@
       "lengthToShoulder": 2.2295,
       "lengthToNeck": 2.3188,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 40.0,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -9985,7 +9985,7 @@
       "lengthToShoulder": 1.819,
       "lengthToNeck": 1.883,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 17.0,
+      "shoulderAngleDeg": 17,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10107,7 +10107,7 @@
       "lengthToShoulder": 1.819,
       "lengthToNeck": 1.883,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 19.0,
+      "shoulderAngleDeg": 19,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10207,7 +10207,10 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/22-240-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Neck 0.2553 in. Shoulder 0.4320 in at 1.9920 in; Weatherby radius shoulder, no angle printed. Body 0.4530 in at 0.2190 in, belt 0.4720 in at 0.1305 in, rim read as 0.4720 in (partly obscured), thickness 0.0500 in. Drawn cartridge length 3.1000 in is not a max COAL. 4D Case Cap. 60.19 gr (printed figure, not stored as water)."
+      "note": "4D cartridge drawing, case outside from the head. Neck 0.2553 in. Shoulder 0.4320 in at 1.9920 in; Weatherby radius shoulder, no angle printed. Body 0.4530 in at 0.2190 in, belt 0.4720 in at 0.1305 in, rim read as 0.4720 in (partly obscured), thickness 0.0500 in. Drawn cartridge length 3.1000 in is not a max COAL. 4D Case Cap. 60.19 gr (printed figure, not stored as water). Shoulder style double-radius (2026-11-02): 4D cartridge drawing marks a Weatherby radius shoulder but prints no radii, so radii left blank.",
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": null,
+      "neckRadius": null
     },
     {
       "id": "22-243-ai",
@@ -10307,7 +10310,10 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/224-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC belted-cartridge table, \"224 Weath. Mag.\", dated 1984-06-14, revised 2002-05-15 (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1); not listed in ANSI/SAAMI Z299.4-2025."
+      "note": "4D cartridge drawing, case outside from the head. Neck 0.2520 in. Shoulder 0.3950 in at 1.4860 in; Weatherby radius shoulder, no angle printed. Body 0.4150 in at 0.1980 in, belt 0.4295 in at 0.1253 in, rim 0.4295 in, thickness 0.0500 in. 4D Case Cap. 35.95 gr (printed figure, not stored as water). maxCoal 2.330 in from Wikipedia, https://en.wikipedia.org/wiki/.224_Weatherby_Magnum Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC belted-cartridge table, \"224 Weath. Mag.\", dated 1984-06-14, revised 2002-05-15 (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1); not listed in ANSI/SAAMI Z299.4-2025. Shoulder style double-radius (2026-11-02): 4D cartridge drawing marks a Weatherby radius shoulder but prints no radii, so radii left blank.",
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": null,
+      "neckRadius": null
     },
     {
       "id": "219-zipper-ai",
@@ -10807,8 +10813,8 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 70.0,
-      "shoulderAngleDeg": 30.0,
+      "caseCapacityGrH2O": 70,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10841,8 +10847,8 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 70.0,
-      "shoulderAngleDeg": 30.0,
+      "caseCapacityGrH2O": 70,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10874,8 +10880,8 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 70.0,
-      "shoulderAngleDeg": 30.0,
+      "caseCapacityGrH2O": 70,
+      "shoulderAngleDeg": 30,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -10908,7 +10914,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 72.0,
+      "caseCapacityGrH2O": 72,
       "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
@@ -10917,7 +10923,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40\u00b0 per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40\u00b0 for the whole SS series."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "25-sherman-short",
@@ -10941,7 +10947,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 72.0,
+      "caseCapacityGrH2O": 72,
       "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
@@ -10950,7 +10956,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40\u00b0 per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40\u00b0 for the whole SS series."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 120 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "6-5-sherman-short",
@@ -10975,7 +10981,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 72.0,
+      "caseCapacityGrH2O": 72,
       "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
@@ -10984,7 +10990,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 0.175 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40\u00b0 per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40\u00b0 for the whole SS series."
+      "note": "Sherman Wildcat Cartridges cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): max case length 1.96 in, trim 1.95 in, 72 gr H2O, bolt face 0.54 in (not a rim diameter), freebore printed as 0.175 (unit as printed), parent brass neck size 7MM. R. Sherman on AccurateShooter compares it to the SAUM (differences only), so parentCase is left empty. Estimated profile: Sherman keeps reamer prints private, so diameters and shoulder position are left for the app to estimate. Shoulder 40° per Sherman Wildcat Cartridges short-action page (https://shermanwildcatcartridges.com/cartridges/short-action/), which gives 40° for the whole SS series."
     },
     {
       "id": "6mm-sherman-max",
@@ -11008,7 +11014,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 75.0,
+      "caseCapacityGrH2O": 75,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -11041,7 +11047,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 75.0,
+      "caseCapacityGrH2O": 75,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -11075,7 +11081,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 76.0,
+      "caseCapacityGrH2O": 76,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -11107,8 +11113,8 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 83.0,
-      "shoulderAngleDeg": 40.0,
+      "caseCapacityGrH2O": 83,
+      "shoulderAngleDeg": 40,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -11139,7 +11145,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 95.0,
+      "caseCapacityGrH2O": 95,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -11170,7 +11176,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 50.0,
+      "caseCapacityGrH2O": 50,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -11792,7 +11798,7 @@
       "maxCoal": 76.3,
       "rimDiameter": 13.56,
       "neckLength": 6.88,
-      "baseDiameter": 14.0,
+      "baseDiameter": 14,
       "shoulderDiameter": 13.58,
       "neckDiameter": 7.42,
       "lengthToShoulder": 38.96,
@@ -11810,7 +11816,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-gap-4s-190329-1-en.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5 G.A.P. 4S (dated 19-05-22, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.96, L2 44.3, L3 51.18, L6 76.3, R1 13.56, P1 14.0, P2 13.58, H1 7.42, Pmax 4400 bar. Cone angle alpha 60\u00b0 is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5 G.A.P. 4S (dated 19-05-22, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.96, L2 44.3, L3 51.18, L6 76.3, R1 13.56, P1 14.0, P2 13.58, H1 7.42, Pmax 4400 bar. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "6-5mm-lahoz",
@@ -11846,7 +11852,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-mm-lahoz-en.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm Lahoz (dated 11-05-25, origin FR), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 33.52, L2 37.3, L3 42.87, L6 57.4, R1 11.45, P1 11.41, P2 10.94, H1 7.55, Pmax 3450 bar. Cone angle alpha 48\u00b018'15\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm Lahoz (dated 11-05-25, origin FR), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 33.52, L2 37.3, L3 42.87, L6 57.4, R1 11.45, P1 11.41, P2 10.94, H1 7.55, Pmax 3450 bar. Cone angle alpha 48°18'15\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "6-5x64-brenneke",
@@ -11882,7 +11888,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-x-64-brenneke-en.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x64 Brenneke (dated 92-02-27, rev. 13-05-22, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 49.5, L2 55.4, L3 64.52, L6 84.84, R1 12.01, P1 11.97, P2 11.21, H1 7.45, Pmax 4300 bar. Cone angle alpha 35\u00b020'54\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x64 Brenneke (dated 92-02-27, rev. 13-05-22, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 49.5, L2 55.4, L3 64.52, L6 84.84, R1 12.01, P1 11.97, P2 11.21, H1 7.45, Pmax 4300 bar. Cone angle alpha 35°20'54\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "6mm-dbg",
@@ -11895,9 +11901,9 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 41.0,
+      "caseLength": 41,
       "trimLength": null,
-      "maxCoal": 58.0,
+      "maxCoal": 58,
       "rimDiameter": 10.72,
       "neckLength": 5.09,
       "baseDiameter": 10.65,
@@ -11918,7 +11924,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-dbg-en.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm D.B.G. (dated 16-05-18, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 32.82, L2 35.91, L3 41.0, L6 58.0, R1 10.72, P1 10.65, P2 10.34, H1 6.77, Pmax 4150 bar. Cone angle alpha 60\u00b0 is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm D.B.G. (dated 16-05-18, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 32.82, L2 35.91, L3 41.0, L6 58.0, R1 10.72, P1 10.65, P2 10.34, H1 6.77, Pmax 4150 bar. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "6x47-atzl",
@@ -11931,9 +11937,9 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 47.0,
+      "caseLength": 47,
       "trimLength": null,
-      "maxCoal": 63.0,
+      "maxCoal": 63,
       "rimDiameter": 9.6,
       "neckLength": 7.07,
       "baseDiameter": 9.56,
@@ -11954,7 +11960,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-x-47-atzl-en.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6x47 Atzl (dated 97-11-05, rev. 11-05-25, origin AT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 37.08, L2 39.93, L3 47.0, L6 63.0, R1 9.6, P1 9.56, P2 9.07, H1 6.65, Pmax 4050 bar. Cone angle alpha 46\u00b000'30\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6x47 Atzl (dated 97-11-05, rev. 11-05-25, origin AT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 37.08, L2 39.93, L3 47.0, L6 63.0, R1 9.6, P1 9.56, P2 9.07, H1 6.65, Pmax 4050 bar. Cone angle alpha 46°00'30\" is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "6-5-prc-si",
@@ -11978,7 +11984,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 71.0,
+      "caseCapacityGrH2O": 71,
       "shoulderAngleDeg": 40,
       "rimType": "rimless",
       "pressure": null,
@@ -11987,7 +11993,7 @@
         "url": "https://www.longrangeonly.com/forum/threads/new-test-rifle-revealed-6-5-prc-si-sherman-imp.12094/page-2",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE. Lance Kenyon (builder testing it for Rich Sherman), Long Range Only (https://www.longrangeonly.com/forum/threads/new-test-rifle-revealed-6-5-prc-si-sherman-imp.12094/page-2): 40\u00b0 shoulder, .007 less body taper than the 6.5 PRC, fire-formed cases hold 2.8 gr more water than fire-formed PRC cases (+4.11%), about 71 gr H2O (virgin Lapua PRC brass 68.2 gr). Case length is the parent 6.5 PRC's SAAMI 2.030 (cases shorten about .0125 when fire-formed), trim 2.020; rim .532 from the 6.5 PRC parent. No print; diameters and shoulder position left for the app to estimate."
+      "note": "ESTIMATE. Lance Kenyon (builder testing it for Rich Sherman), Long Range Only (https://www.longrangeonly.com/forum/threads/new-test-rifle-revealed-6-5-prc-si-sherman-imp.12094/page-2): 40° shoulder, .007 less body taper than the 6.5 PRC, fire-formed cases hold 2.8 gr more water than fire-formed PRC cases (+4.11%), about 71 gr H2O (virgin Lapua PRC brass 68.2 gr). Case length is the parent 6.5 PRC's SAAMI 2.030 (cases shorten about .0125 when fire-formed), trim 2.020; rim .532 from the 6.5 PRC parent. No print; diameters and shoulder position left for the app to estimate."
     },
     {
       "id": "25-prc-si",
@@ -12011,7 +12017,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 71.0,
+      "caseCapacityGrH2O": 71,
       "shoulderAngleDeg": 40,
       "rimType": "rimless",
       "pressure": null,
@@ -12020,7 +12026,7 @@
         "url": "https://www.longrangeonly.com/forum/threads/25prc-si-imp-40%C2%B0.15206/",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE. Lance Kenyon (builder testing it for Rich Sherman), Long Range Only (https://www.longrangeonly.com/forum/threads/25prc-si-imp-40%C2%B0.15206/): 6.5 PRC brass necked to .257, 40\u00b0 shoulder, same body as the 6.5 PRC/SI, water capacity \"right at 71\" gr. Case length is the parent 6.5 PRC's SAAMI 2.030, trim 2.020; rim .532 from the parent. No print; diameters and shoulder position left for the app to estimate."
+      "note": "ESTIMATE. Lance Kenyon (builder testing it for Rich Sherman), Long Range Only (https://www.longrangeonly.com/forum/threads/25prc-si-imp-40%C2%B0.15206/): 6.5 PRC brass necked to .257, 40° shoulder, same body as the 6.5 PRC/SI, water capacity \"right at 71\" gr. Case length is the parent 6.5 PRC's SAAMI 2.030, trim 2.020; rim .532 from the parent. No print; diameters and shoulder position left for the app to estimate."
     },
     {
       "id": "6-5-sherman",
@@ -12044,7 +12050,7 @@
       "neckDiameter": null,
       "lengthToShoulder": null,
       "lengthToNeck": null,
-      "caseCapacityGrH2O": 76.0,
+      "caseCapacityGrH2O": 76,
       "shoulderAngleDeg": 40,
       "rimType": "rimless",
       "pressure": null,
@@ -12053,7 +12059,7 @@
         "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE. Max case length 2.525, trim 2.515 from a builder in the Long Range Hunting 6.5 Sherman thread (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), where Rich Sherman replied the cases \"came out just like they should.\" About 76 gr H2O per Rich Sherman (https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7). Formed from .270 or .280 brass, '06 bolt face, so rim .473 is the parent's. 40\u00b0 shoulder per Sherman Wildcat Cartridges long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/). No print; diameters and shoulder position left for the app to estimate."
+      "note": "ESTIMATE. Max case length 2.525, trim 2.515 from a builder in the Long Range Hunting 6.5 Sherman thread (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), where Rich Sherman replied the cases \"came out just like they should.\" About 76 gr H2O per Rich Sherman (https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7). Formed from .270 or .280 brass, '06 bolt face, so rim .473 is the parent's. 40° shoulder per Sherman Wildcat Cartridges long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/). No print; diameters and shoulder position left for the app to estimate."
     },
     {
       "id": "6-um",
@@ -12087,7 +12093,7 @@
         "url": "https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. Original 6UM: 40\u00b0 shoulder, needs fireforming (Rokslide thread)."
+      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. Original 6UM: 40° shoulder, needs fireforming (Rokslide thread)."
     },
     {
       "id": "6-um-30",
@@ -12120,7 +12126,7 @@
         "url": "https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. 6UM-30: 30\u00b0 shoulder to match ADG headstamped 6UM brass, no fireforming (Rokslide thread)."
+      "note": "ESTIMATE. Unknown Munitions wildcat on the 6.5 SAUM case. Case length 2.020 is ESTIMATE: shooters in the Rokslide 6 UM reloading thread (https://rokslide.com/forums/threads/6-um-reloading-thread.314177/page-12) report a 2.030 chamber length and trim to 2.020+, so chamber minus .010. Rim .534 and rebated rim from the 6.5 SAUM parent. No published drawing found (not on 4D Reamer Rentals); diameters and shoulder position left for the app to estimate. 6UM-30: 30° shoulder to match ADG headstamped 6UM brass, no fireforming (Rokslide thread)."
     },
     {
       "id": "4-6x30",
@@ -12137,7 +12143,7 @@
       "caseLength": 30.5,
       "trimLength": null,
       "maxCoal": 38.5,
-      "rimDiameter": 8.0,
+      "rimDiameter": 8,
       "neckLength": 4.47,
       "baseDiameter": 8.02,
       "shoulderDiameter": 7.75,
@@ -12172,10 +12178,10 @@
       "bulletDiameter": 6.71,
       "caseLength": 51.9,
       "trimLength": null,
-      "maxCoal": 72.0,
+      "maxCoal": 72,
       "rimDiameter": 13.56,
       "neckLength": 7.71,
-      "baseDiameter": 14.0,
+      "baseDiameter": 14,
       "shoulderDiameter": 13.59,
       "neckDiameter": 7.5,
       "lengthToShoulder": 38.92,
@@ -12193,7 +12199,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-mm-d.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm D.B.G. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.92, L2 44.19, L3 51.9, L6 72.0, R1 13.56, P1 14.0, P2 13.59, H1 7.5, Pmax 4400 bar. neckLength is L3 minus L2. Cone angle alpha 60\u00b002'18\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5mm D.B.G. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.71, L1 38.92, L2 44.19, L3 51.9, L6 72.0, R1 13.56, P1 14.0, P2 13.59, H1 7.5, Pmax 4400 bar. neckLength is L3 minus L2. Cone angle alpha 60°02'18\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6-5x55-tri",
@@ -12208,7 +12214,7 @@
       "bulletDiameter": 6.7,
       "caseLength": 54.7,
       "trimLength": null,
-      "maxCoal": 85.0,
+      "maxCoal": 85,
       "rimDiameter": 12.13,
       "neckLength": 7.64,
       "baseDiameter": 12.15,
@@ -12229,7 +12235,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-5-x-55-t.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x55 T.R.I. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 43.59, L2 47.06, L3 54.7, L6 85.0, R1 12.13, P1 12.15, P2 11.52, H1 7.51, Pmax 3800 bar. neckLength is L3 minus L2. Its own C.I.P. cartridge, not the 6.5x55 Swedish sheet. Cone angle alpha 60\u00b0 is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6.5x55 T.R.I. (dated 15-05-19, origin IT, German-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 43.59, L2 47.06, L3 54.7, L6 85.0, R1 12.13, P1 12.15, P2 11.52, H1 7.51, Pmax 3800 bar. neckLength is L3 minus L2. Its own C.I.P. cartridge, not the 6.5x55 Swedish sheet. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6mm-ppc-ita",
@@ -12250,7 +12256,7 @@
       "shoulderDiameter": 10.92,
       "neckDiameter": 6.63,
       "lengthToShoulder": 27.3,
-      "lengthToNeck": 31.0,
+      "lengthToNeck": 31,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "rimless",
@@ -12264,14 +12270,14 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-ppc-ita-en.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm PPC ITA (dated 15-05-19, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 27.3, L2 31.0, L3 37.9, L6 55.7, R1 11.18, P1 11.13, P2 10.92, H1 6.63, Pmax 4050 bar. neckLength is L3 minus L2. Separate C.I.P. sheet from the library 6mm PPC. Cone angle alpha 60\u00b0 is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6mm PPC ITA (dated 15-05-19, origin IT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 27.3, L2 31.0, L3 37.9, L6 55.7, R1 11.18, P1 11.13, P2 10.92, H1 6.63, Pmax 4050 bar. neckLength is L3 minus L2. Separate C.I.P. sheet from the library 6mm PPC. Cone angle alpha 60° is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6x62-freres",
-      "name": "6x62 Fr\u00e8res",
+      "name": "6x62 Frères",
       "kind": "cip",
       "aliases": [
-        "6 x 62 Fr\u00e8res",
+        "6 x 62 Frères",
         "6x62 Freres"
       ],
       "parentCase": null,
@@ -12279,9 +12285,9 @@
       "bulletDiameter": 6.18,
       "caseLength": 61.75,
       "trimLength": null,
-      "maxCoal": 82.0,
+      "maxCoal": 82,
       "rimDiameter": 12.1,
-      "neckLength": 6.0,
+      "neckLength": 6,
       "baseDiameter": 12.1,
       "shoulderDiameter": 11.53,
       "neckDiameter": 6.91,
@@ -12300,7 +12306,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-x-62-freres-220214-fr.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 6x62 Fr\u00e8res (dated 84-06-14, French-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.18, L1 49.4, L2 55.75, L3 61.75, L6 82.0, R1 12.1, P1 12.1, P2 11.53, H1 6.91, Pmax 4300 bar. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 6x62 Frères (dated 84-06-14, French-language sheet), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.18, L1 49.4, L2 55.75, L3 61.75, L6 82.0, R1 12.1, P1 12.1, P2 11.53, H1 6.91, Pmax 4300 bar. neckLength is L3 minus L2."
     },
     {
       "id": "215-cip",
@@ -12315,13 +12321,13 @@
       "bulletDiameter": 5.64,
       "caseLength": 39.6,
       "trimLength": null,
-      "maxCoal": 58.0,
-      "rimDiameter": 10.0,
+      "maxCoal": 58,
+      "rimDiameter": 10,
       "neckLength": 5.63,
-      "baseDiameter": 10.0,
+      "baseDiameter": 10,
       "shoulderDiameter": 9.25,
       "neckDiameter": 6.32,
-      "lengthToShoulder": 30.0,
+      "lengthToShoulder": 30,
       "lengthToNeck": 33.97,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
@@ -12336,12 +12342,12 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/215-en.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 215 (dated 92-02-27, revision 11-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.64, L1 30.0, L2 33.97, L3 39.6, L6 58.0, R1 10.0, P1 10.0, P2 9.25, H1 6.32, Pmax 3800 bar. neckLength is L3 minus L2. Cone angle alpha 40\u00b030'36\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 215 (dated 92-02-27, revision 11-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.64, L1 30.0, L2 33.97, L3 39.6, L6 58.0, R1 10.0, P1 10.0, P2 9.25, H1 6.32, Pmax 3800 bar. neckLength is L3 minus L2. Cone angle alpha 40°30'36\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "kind": "cip",
       "trimLength": null,
-      "maxCoal": 85.0,
+      "maxCoal": 85,
       "caseCapacityGrH2O": null,
       "pressure": {
         "value": 4150,
@@ -12357,7 +12363,7 @@
         "6.5x65mm RWS"
       ],
       "bulletDiameter": 6.7,
-      "caseLength": 65.0,
+      "caseLength": 65,
       "rimDiameter": 11.95,
       "neckLength": 6.48,
       "baseDiameter": 12.04,
@@ -12372,7 +12378,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page29.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "C.I.P. TDCC Tab. I sheet, 6,5 x 65 RWS (dated 90-04-05, revision 02-05-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 53.85, L2 58.52, L3 65.0, L6 85.0, R1 11.95, P1 12.04, P2 10.97, H1 7.57, Pmax 4150 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40\u00b000'02\" is the included angle, so shoulderAngleDeg is left empty. Upgraded from the earlier ESTIMATE (PTG print PTG-11502 chamber minus 0.010 in, 2.5609 in); C.I.P. now supplies the case length."
+      "note": "C.I.P. TDCC Tab. I sheet, 6,5 x 65 RWS (dated 90-04-05, revision 02-05-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 53.85, L2 58.52, L3 65.0, L6 85.0, R1 11.95, P1 12.04, P2 10.97, H1 7.57, Pmax 4150 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40°00'02\" is the included angle, so shoulderAngleDeg is left empty. Upgraded from the earlier ESTIMATE (PTG print PTG-11502 chamber minus 0.010 in, 2.5609 in); C.I.P. now supplies the case length."
     },
     {
       "kind": "cip",
@@ -13076,7 +13082,7 @@
       "bulletDiameter": 5.7,
       "caseLength": 56.7,
       "trimLength": null,
-      "maxCoal": 69.0,
+      "maxCoal": 69,
       "rimDiameter": 11.95,
       "neckLength": 6.29,
       "baseDiameter": 11.9,
@@ -13097,7 +13103,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page5.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "C.I.P. TDCC Tab. I sheet, 5,6 x 57 (dated 84-06-14, revision 02-05-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 44.51, L2 50.41, L3 56.7, L6 69.0, R1 11.95, P1 11.9, P2 10.94, H1 7.24, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 34\u00b049'05\" is the included angle, so shoulderAngleDeg is left empty. Replaces the earlier PTG-only row (PTG print PTG-11472, https://www.pacifictoolandgauge.com/56-x-57-CIP-Chamber-Reamer_p_119392.html) and the Wikipedia 56.70 mm case length, which matches."
+      "note": "C.I.P. TDCC Tab. I sheet, 5,6 x 57 (dated 84-06-14, revision 02-05-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 44.51, L2 50.41, L3 56.7, L6 69.0, R1 11.95, P1 11.9, P2 10.94, H1 7.24, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 34°49'05\" is the included angle, so shoulderAngleDeg is left empty. Replaces the earlier PTG-only row (PTG print PTG-11472, https://www.pacifictoolandgauge.com/56-x-57-CIP-Chamber-Reamer_p_119392.html) and the Wikipedia 56.70 mm case length, which matches."
     },
     {
       "id": "6-5x65r-rws",
@@ -13110,9 +13116,9 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.7,
-      "caseLength": 65.0,
+      "caseLength": 65,
       "trimLength": null,
-      "maxCoal": 85.0,
+      "maxCoal": 85,
       "rimDiameter": 13.5,
       "neckLength": 6.48,
       "baseDiameter": 12.08,
@@ -13133,7 +13139,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page17.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 65 R RWS (dated 90-04-05, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 53.85, L2 58.52, L3 65.0, L6 85.0, R1 13.5, P1 12.08, P2 10.97, H1 7.57, Pmax 3800 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40\u00b0 is the included angle, so shoulderAngleDeg is left empty. Batch 5 held the PTG print because its lengths run from the rim datum; C.I.P. supplies the case directly."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 65 R RWS (dated 90-04-05, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 53.85, L2 58.52, L3 65.0, L6 85.0, R1 13.5, P1 12.08, P2 10.97, H1 7.57, Pmax 3800 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40° is the included angle, so shoulderAngleDeg is left empty. Batch 5 held the PTG print because its lengths run from the rim datum; C.I.P. supplies the case directly."
     },
     {
       "id": "6-5x57r",
@@ -13147,7 +13153,7 @@
       "bulletDiameter": 6.7,
       "caseLength": 56.7,
       "trimLength": null,
-      "maxCoal": 82.0,
+      "maxCoal": 82,
       "rimDiameter": 13.32,
       "neckLength": 7.4,
       "baseDiameter": 11.92,
@@ -13168,7 +13174,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page15.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 57 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 44.5, L2 49.3, L3 56.7, L6 82.0, R1 13.32, P1 11.92, P2 10.94, H1 7.65, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 37\u00b050'02\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 57 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 44.5, L2 49.3, L3 56.7, L6 82.0, R1 13.32, P1 11.92, P2 10.94, H1 7.65, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 37°50'02\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "5-6x50r-mag",
@@ -13181,13 +13187,13 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 5.7,
-      "caseLength": 50.0,
+      "caseLength": 50,
       "trimLength": null,
-      "maxCoal": 61.0,
+      "maxCoal": 61,
       "rimDiameter": 10.9,
       "neckLength": 6.77,
       "baseDiameter": 9.59,
-      "shoulderDiameter": 9.0,
+      "shoulderDiameter": 9,
       "neckDiameter": 6.48,
       "lengthToShoulder": 40.26,
       "lengthToNeck": 43.23,
@@ -13204,7 +13210,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page2.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 50 R Mag. (dated 98-02-20, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 40.26, L2 43.23, L3 50.0, L6 61.0, R1 10.9, P1 9.59, P2 9.0, H1 6.48, Pmax 3400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 45\u00b058'38\" is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/56-x-50-R-Magnum-Chamber-Reamer_p_117884.html) measures from the rim datum and was not used."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 50 R Mag. (dated 98-02-20, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 40.26, L2 43.23, L3 50.0, L6 61.0, R1 10.9, P1 9.59, P2 9.0, H1 6.48, Pmax 3400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 45°58'38\" is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/56-x-50-R-Magnum-Chamber-Reamer_p_117884.html) measures from the rim datum and was not used."
     },
     {
       "id": "5-6x57r",
@@ -13219,7 +13225,7 @@
       "bulletDiameter": 5.7,
       "caseLength": 56.7,
       "trimLength": null,
-      "maxCoal": 69.0,
+      "maxCoal": 69,
       "rimDiameter": 13.32,
       "neckLength": 6.42,
       "baseDiameter": 11.94,
@@ -13240,7 +13246,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page4.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 57 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 44.37, L2 50.28, L3 56.7, L6 69.0, R1 13.32, P1 11.94, P2 10.94, H1 7.24, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 34\u00b049'05\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 57 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 44.37, L2 50.28, L3 56.7, L6 69.0, R1 13.32, P1 11.94, P2 10.94, H1 7.24, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 34°49'05\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6-5x68r",
@@ -13255,7 +13261,7 @@
       "caseLength": 67.5,
       "trimLength": null,
       "maxCoal": 87.5,
-      "rimDiameter": 15.0,
+      "rimDiameter": 15,
       "neckLength": 6.97,
       "baseDiameter": 13.34,
       "shoulderDiameter": 12.18,
@@ -13275,11 +13281,11 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page18.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 68 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 51.78, L2 60.53, L3 67.5, L6 87.5, R1 15.0, P1 13.34, P2 12.18, H1 7.6, Pmax 3900 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 29\u00b019'59\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 68 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 51.78, L2 60.53, L3 67.5, L6 87.5, R1 15.0, P1 13.34, P2 12.18, H1 7.6, Pmax 3900 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 29°19'59\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6x62r-freres",
-      "name": "6x62R Fr\u00e8res",
+      "name": "6x62R Frères",
       "kind": "cip",
       "aliases": [
         "6 x 62 R Freres",
@@ -13290,9 +13296,9 @@
       "bulletDiameter": 6.18,
       "caseLength": 61.75,
       "trimLength": null,
-      "maxCoal": 82.0,
+      "maxCoal": 82,
       "rimDiameter": 13.5,
-      "neckLength": 6.0,
+      "neckLength": 6,
       "baseDiameter": 12.12,
       "shoulderDiameter": 11.53,
       "neckDiameter": 6.91,
@@ -13311,7 +13317,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page10.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 62 R Freres (dated 92-02-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.18, L1 49.4, L2 55.75, L3 61.75, L6 82.0, R1 13.5, P1 12.12, P2 11.53, H1 6.91, Pmax 4300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 39\u00b058'50\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 62 R Freres (dated 92-02-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.18, L1 49.4, L2 55.75, L3 61.75, L6 82.0, R1 13.5, P1 12.12, P2 11.53, H1 6.91, Pmax 4300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 39°58'50\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "5-6x61r-vom-hofe",
@@ -13324,15 +13330,15 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 5.76,
-      "caseLength": 61.0,
+      "caseLength": 61,
       "trimLength": null,
-      "maxCoal": 80.0,
+      "maxCoal": 80,
       "rimDiameter": 13.6,
       "neckLength": 7.95,
       "baseDiameter": 12.22,
       "shoulderDiameter": 11.6,
       "neckDiameter": 6.75,
-      "lengthToShoulder": 44.0,
+      "lengthToShoulder": 44,
       "lengthToNeck": 53.05,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
@@ -13347,7 +13353,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page5.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 61 R SE v. H. (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.76, L1 44.0, L2 53.05, L3 61.0, L6 80.0, R1 13.6, P1 12.22, P2 11.6, H1 6.75, Pmax 3800 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 30\u00b0 is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 61 R SE v. H. (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.76, L1 44.0, L2 53.05, L3 61.0, L6 80.0, R1 13.6, P1 12.22, P2 11.6, H1 6.75, Pmax 3800 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 30° is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6x70r",
@@ -13359,15 +13365,15 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 70.0,
+      "caseLength": 70,
       "trimLength": null,
-      "maxCoal": 87.0,
+      "maxCoal": 87,
       "rimDiameter": 10.7,
       "neckLength": 9.31,
-      "baseDiameter": 9.0,
+      "baseDiameter": 9,
       "shoulderDiameter": 7.52,
       "neckDiameter": 7.01,
-      "lengthToShoulder": 60.0,
+      "lengthToShoulder": 60,
       "lengthToNeck": 60.69,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
@@ -13382,7 +13388,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page11.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 70 R (dated 00-06-28, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 60.0, L2 60.69, L3 70.0, L6 87.0, R1 10.7, P1 9.0, P2 7.52, H1 7.01, Pmax 2600 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40\u00b033'54\" is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/6-x-70-R-CIP-Chamber-Reamer_p_117911.html) not used; C.I.P. is primary."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 70 R (dated 00-06-28, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 60.0, L2 60.69, L3 70.0, L6 87.0, R1 10.7, P1 9.0, P2 7.52, H1 7.01, Pmax 2600 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40°33'54\" is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/6-x-70-R-CIP-Chamber-Reamer_p_117911.html) not used; C.I.P. is primary."
     },
     {
       "id": "5-6x70r",
@@ -13394,9 +13400,9 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 5.7,
-      "caseLength": 70.0,
+      "caseLength": 70,
       "trimLength": null,
-      "maxCoal": 87.0,
+      "maxCoal": 87,
       "rimDiameter": 10.7,
       "neckLength": 8.88,
       "baseDiameter": 9.03,
@@ -13417,7 +13423,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page6.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 70 R (dated 08-04-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 59.84, L2 61.12, L3 70.0, L6 87.0, R1 10.7, P1 9.03, P2 7.52, H1 6.59, Pmax 2600 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40\u00b0 is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/56-x-70-R-CIP-Chamber-Reamer-_p_120223.html) not used; C.I.P. is primary."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 70 R (dated 08-04-15, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.7, L1 59.84, L2 61.12, L3 70.0, L6 87.0, R1 10.7, P1 9.03, P2 7.52, H1 6.59, Pmax 2600 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 40° is the included angle, so shoulderAngleDeg is left empty. PTG print (https://www.pacifictoolandgauge.com/56-x-70-R-CIP-Chamber-Reamer-_p_120223.html) not used; C.I.P. is primary."
     },
     {
       "id": "6-5x70r",
@@ -13429,16 +13435,16 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.64,
-      "caseLength": 70.0,
+      "caseLength": 70,
       "trimLength": null,
-      "maxCoal": 90.0,
+      "maxCoal": 90,
       "rimDiameter": 10.7,
-      "neckLength": 10.0,
-      "baseDiameter": 9.0,
+      "neckLength": 10,
+      "baseDiameter": 9,
       "shoulderDiameter": null,
       "neckDiameter": 7.52,
       "lengthToShoulder": null,
-      "lengthToNeck": 60.0,
+      "lengthToNeck": 60,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "rimmed",
@@ -13466,9 +13472,9 @@
       "bulletDiameter": 6.64,
       "caseLength": 58.5,
       "trimLength": null,
-      "maxCoal": 78.0,
+      "maxCoal": 78,
       "rimDiameter": 12.75,
-      "neckLength": 11.0,
+      "neckLength": 11,
       "baseDiameter": 11.1,
       "shoulderDiameter": null,
       "neckDiameter": 7.57,
@@ -13499,13 +13505,13 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 50.0,
+      "caseLength": 50,
       "trimLength": null,
-      "maxCoal": 69.0,
+      "maxCoal": 69,
       "rimDiameter": 10.9,
       "neckLength": 7.13,
       "baseDiameter": 9.59,
-      "shoulderDiameter": 9.0,
+      "shoulderDiameter": 9,
       "neckDiameter": 6.78,
       "lengthToShoulder": 40.26,
       "lengthToNeck": 42.87,
@@ -13522,7 +13528,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page7.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 50 R Scheiring (dated 87-09-29, origin AT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 40.26, L2 42.87, L3 50.0, L6 69.0, R1 10.9, P1 9.59, P2 9.0, H1 6.78, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 46\u00b004'44\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 50 R Scheiring (dated 87-09-29, origin AT), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 40.26, L2 42.87, L3 50.0, L6 69.0, R1 10.9, P1 9.59, P2 9.0, H1 6.78, Pmax 4400 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 46°04'44\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6x52r-bb2",
@@ -13534,9 +13540,9 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 52.0,
+      "caseLength": 52,
       "trimLength": null,
-      "maxCoal": 69.0,
+      "maxCoal": 69,
       "rimDiameter": 12.5,
       "neckLength": 7.6,
       "baseDiameter": 10.62,
@@ -13557,7 +13563,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page8.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 52 R BB2 (dated 05-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 40.83, L2 44.4, L3 52.0, L6 69.0, R1 12.5, P1 10.62, P2 9.2, H1 6.88, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 36\u00b0 is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 52 R BB2 (dated 05-05-25, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 40.83, L2 44.4, L3 52.0, L6 69.0, R1 12.5, P1 10.62, P2 9.2, H1 6.88, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 36° is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6x52r-bretschneider",
@@ -13569,7 +13575,7 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.17,
-      "caseLength": 52.0,
+      "caseLength": 52,
       "trimLength": null,
       "maxCoal": 68.5,
       "rimDiameter": 12.5,
@@ -13592,7 +13598,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page9.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 52 R Bretschneider (dated 98-01-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 35.04, L2 40.73, L3 52.0, L6 68.5, R1 12.5, P1 10.62, P2 9.2, H1 6.78, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 24\u00b000'38\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6 x 52 R Bretschneider (dated 98-01-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.17, L1 35.04, L2 40.73, L3 52.0, L6 68.5, R1 12.5, P1 10.62, P2 9.2, H1 6.78, Pmax 3300 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 24°00'38\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6-5x50r",
@@ -13606,7 +13612,7 @@
       "bulletDiameter": 6.7,
       "caseLength": 49.5,
       "trimLength": null,
-      "maxCoal": 68.0,
+      "maxCoal": 68,
       "rimDiameter": 10.9,
       "neckLength": 6.27,
       "baseDiameter": 9.59,
@@ -13627,7 +13633,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page12.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 50 R (dated 92-02-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 41.97, L2 43.23, L3 49.5, L6 68.0, R1 10.9, P1 9.59, P2 9.4, H1 7.28, Pmax 3650 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 80\u00b008'44\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 50 R (dated 92-02-27, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.7, L1 41.97, L2 43.23, L3 49.5, L6 68.0, R1 10.9, P1 9.59, P2 9.4, H1 7.28, Pmax 3650 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 80°08'44\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6-5x52r",
@@ -13639,16 +13645,16 @@
       "parentCase": null,
       "lengthUnit": "mm",
       "bulletDiameter": 6.58,
-      "caseLength": 52.0,
+      "caseLength": 52,
       "trimLength": null,
       "maxCoal": 64.5,
       "rimDiameter": 12.6,
-      "neckLength": 12.0,
+      "neckLength": 12,
       "baseDiameter": 10.6,
       "shoulderDiameter": 9.2,
       "neckDiameter": 7.18,
-      "lengthToShoulder": 35.0,
-      "lengthToNeck": 40.0,
+      "lengthToShoulder": 35,
+      "lengthToNeck": 40,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "rimmed",
@@ -13662,7 +13668,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page14.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 52 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.58, L1 35.0, L2 40.0, L3 52.0, L6 64.5, R1 12.6, P1 10.6, P2 9.2, H1 7.18, Pmax 2450 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 22\u00b050'24\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 52 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.58, L1 35.0, L2 40.0, L3 52.0, L6 64.5, R1 12.6, P1 10.6, P2 9.2, H1 7.18, Pmax 2450 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 22°50'24\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "6-5x52r-ks",
@@ -13697,7 +13703,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/6-5-x-52-r-k-s-en.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 52 R K&S (dated 12-05-30, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.72, L1 42.32, L2 44.18, L3 51.8, L6 71.12, R1 12.85, P1 10.72, P2 10.42, H1 7.3, Pmax 3250 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 80\u00b0 is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 6,5 x 52 R K&S (dated 12-05-30, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.72, L1 42.32, L2 44.18, L3 51.8, L6 71.12, R1 12.85, P1 10.72, P2 10.42, H1 7.3, Pmax 3250 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 80° is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "5-6x35r",
@@ -13718,8 +13724,8 @@
       "baseDiameter": 7.55,
       "shoulderDiameter": 7.05,
       "neckDiameter": 6.35,
-      "lengthToShoulder": 20.0,
-      "lengthToNeck": 25.0,
+      "lengthToShoulder": 20,
+      "lengthToNeck": 25,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": "rimmed",
@@ -13733,7 +13739,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page1.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 35 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.63, L1 20.0, L2 25.0, L3 35.5, L6 43.5, R1 8.85, P1 7.55, P2 7.05, H1 6.35, Pmax 2700 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 8\u00b000'29\" is the included angle, so shoulderAngleDeg is left empty."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 5,6 x 35 R (dated 84-06-14, origin DE), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 5.63, L1 20.0, L2 25.0, L3 35.5, L6 43.5, R1 8.85, P1 7.55, P2 7.05, H1 6.35, Pmax 2700 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 8°00'29\" is the included angle, so shoulderAngleDeg is left empty."
     },
     {
       "id": "256-win-mag",
@@ -13769,7 +13775,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/256-win-mag-en.pdf",
         "retrievedOn": "2026-10-31"
       },
-      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 256 Win. Mag. (dated 84-06-14, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.53, L1 24.98, L2 27.25, L3 32.54, L6 40.39, R1 11.18, P1 9.68, P2 9.35, H1 7.24, Pmax 3500 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 50\u00b0 is the included angle, so shoulderAngleDeg is left empty. PTG SAAMI print (https://www.pacifictoolandgauge.com/256-Winchester-Magnum-SAAMI-Chamber-Reamer_p_116044.html) not used; C.I.P. is primary."
+      "note": "New. C.I.P. TDCC Tab. II (rimmed) sheet, 256 Win. Mag. (dated 84-06-14, origin US), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 6.53, L1 24.98, L2 27.25, L3 32.54, L6 40.39, R1 11.18, P1 9.68, P2 9.35, H1 7.24, Pmax 3500 bar (transducer). neckLength is L3 minus L2. Cone angle alpha 50° is the included angle, so shoulderAngleDeg is left empty. PTG SAAMI print (https://www.pacifictoolandgauge.com/256-Winchester-Magnum-SAAMI-Chamber-Reamer_p_116044.html) not used; C.I.P. is primary."
     },
     {
       "id": "264-win-mag-ai",
@@ -13833,7 +13839,10 @@
         "url": "https://www.pacifictoolandgauge.com/65--257-Weatherby-Magnum-Chamber-Reamer_p_117935.html",
         "retrievedOn": "2026-10-31"
       },
-      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face; the print's datum is 0.220 in, so no shift. PTG print 42294 rev A, 6.5/257 Wby (7/29/2015), basic brass 257 W.M.; groove 0.264. Body 0.5120 in at 0.200 in; Weatherby radius shoulder (R0.120/R0.151, blend 0.40744 at 1.8925 in) starting 0.496 in at 1.799 in, so no angle stored; neck 0.294 in at 2.01 in; chamber neck end 2.344 in from the datum (2.564 head). Parent .257 Weatherby Magnum case length 2.545 in (Wikipedia) sits 0.019 in under the converted chamber; caseLength 2.554 in is chamber minus 0.010 in. Shoulder 0.496 in matches the 257 Wby body."
+      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face; the print's datum is 0.220 in, so no shift. PTG print 42294 rev A, 6.5/257 Wby (7/29/2015), basic brass 257 W.M.; groove 0.264. Body 0.5120 in at 0.200 in; Weatherby radius shoulder (R0.120/R0.151, blend 0.40744 at 1.8925 in) starting 0.496 in at 1.799 in, so no angle stored; neck 0.294 in at 2.01 in; chamber neck end 2.344 in from the datum (2.564 head). Parent .257 Weatherby Magnum case length 2.545 in (Wikipedia) sits 0.019 in under the converted chamber; caseLength 2.554 in is chamber minus 0.010 in. Shoulder 0.496 in matches the 257 Wby body. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print 42294 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.151. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md.",
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.151
     },
     {
       "id": "20-hornady-hornet",

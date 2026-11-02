@@ -32,6 +32,8 @@ Batch 8 (2026-10-31, datum conversion of held PTG prints, following Load Data Da
 
 Comment 2026-11-02: `comments/2026-11-02-radius-shoulder-small-bore.md`, radius-shoulder Weatherbys in .17-.264 (addendum to PR #317: `data/loads/comments/2026-11-02-radius-shoulder-capacity.md`).
 
+- 2026-11-02: shoulderStyle double-radius on 224 Wby Mag, 22/240 Wby (radii not printed on 4D) and 6.5/257 Wby (R0.120/R0.151, PTG 42294). Library rows 240/257/6.5-300 Wby already double-radius; 6.5 Wby RPM left to library.
+
 ## In progress
 
 The .17–.264 pass from `4d-coverage.md` is done; the remaining .17–.264 missing pages are the skips above.
