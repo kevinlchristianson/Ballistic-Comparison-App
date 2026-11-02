@@ -127,18 +127,24 @@ describe("double-radius (Weatherby) shoulders", () => {
   it("follows two tangent arcs: flat at both ends, halfway at the middle", () => {
     const L = 0.218, h = 0.1035;
     expect(shoulderCurve("double-radius", 0, L, h)).toBeCloseTo(0, 6);
-    expect(shoulderCurve("double-radius", 0.5, L, h)).toBeCloseTo(0.5, 6);
+    expect(shoulderCurve("double-radius", 0.5, L, h, 0.5)).toBeCloseTo(0.5, 6);
     expect(shoulderCurve("double-radius", 1, L, h)).toBeCloseTo(1, 6);
     // Convex off the body: behind the straight line early, ahead of it late.
     expect(shoulderCurve("double-radius", 0.25, L, h)).toBeLessThan(0.25);
     expect(shoulderCurve("double-radius", 0.75, L, h)).toBeGreaterThan(0.75);
     expect(shoulderCurve("cone", 0.3, L, h)).toBe(0.3);
+    // Unequal radii (R_b 0.120, R_n 0.182 on the .300 Wby print): the arcs meet at R_b/(R_b+R_n) of the way.
+    const share = 0.12 / 0.302;
+    expect(shoulderCurve("double-radius", share, L, h, share)).toBeCloseTo(share, 6);
+    expect(shoulderCurve("double-radius", 1, L, h, share)).toBeCloseTo(1, 6);
   });
 
   it("marks Weatherby magnums double-radius, but not the RPM line", () => {
     expect(shoulderStyleOf({ name: ".300 Weatherby Magnum" }).style).toBe("double-radius");
     expect(shoulderStyleOf({ name: "6.5 Weatherby RPM" }).style).toBe("cone");
     expect(shoulderStyleOf({ name: ".308 Winchester" }).style).toBe("cone");
+    // A recorded single angle means a cone (50-460 Wby: 15° per its PTG print).
+    expect(shoulderStyleOf({ name: "50-460 Wby", shoulderAngleDeg: 15 }).style).toBe("cone");
     expect(shoulderStyleOf({ name: "6.5 Weatherby RPM", shoulderStyle: "double-radius" })).toEqual({ style: "double-radius", inferred: false });
   });
 

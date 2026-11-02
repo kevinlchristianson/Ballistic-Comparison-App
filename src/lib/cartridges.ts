@@ -14,28 +14,45 @@ const WEATHERBY_NAME = /\b(weatherby|wby)\b/i;
 
 /**
  * The shoulder style, from the record when it says, otherwise inferred:
- * a cartridge named for a Weatherby magnum (not an RPM) has the Weatherby
- * double-radius shoulder.
+ * a cartridge named for a Weatherby magnum (not an RPM) with no single
+ * shoulder angle on record has the Weatherby double-radius shoulder.
  */
-export function shoulderStyleOf(c: Pick<Cartridge, "name" | "shoulderStyle">): { style: ShoulderStyle; inferred: boolean } {
+export function shoulderStyleOf(c: Pick<Cartridge, "name" | "shoulderStyle"> & { shoulderAngleDeg?: number | null }): { style: ShoulderStyle; inferred: boolean } {
   if (c.shoulderStyle) return { style: c.shoulderStyle, inferred: false };
-  return { style: WEATHERBY_NAME.test(c.name) && !/\brpm\b/i.test(c.name) ? "double-radius" : "cone", inferred: true };
+  // A record with a single shoulder angle has a cone (the 50-460 Wby's 15°, per the load bot's PTG check).
+  const radius = WEATHERBY_NAME.test(c.name) && !/\brpm\b/i.test(c.name) && c.shoulderAngleDeg == null;
+  return { style: radius ? "double-radius" : "cone", inferred: true };
+}
+
+/**
+ * Share of a double-radius shoulder taken by the convex body-to-shoulder arc,
+ * R_b / (R_b + R_n), when a record gives no radii: R_b 0.120 in and R_n about
+ * 0.163 in (mean of 0.150–0.182), from the load bot's reading of 11 PTG
+ * Weatherby prints (data/loads/comments/2026-11-02-radius-shoulder-capacity.md).
+ */
+export const TYPICAL_BODY_ARC_SHARE = 0.12 / (0.12 + 0.163);
+
+/** R_b / (R_b + R_n) for a cartridge: from its radii when both are given, otherwise typical. */
+export function bodyArcShare(c: Pick<Cartridge, "shoulderRadiusIn" | "neckRadiusIn">): number {
+  const b = c.shoulderRadiusIn, n = c.neckRadiusIn;
+  return b != null && n != null && b > 0 && n > 0 ? b / (b + n) : TYPICAL_BODY_ARC_SHARE;
 }
 
 /**
  * Fraction of the way across a shoulder (0 at the body tangent point, 1 at the
  * neck), for position t from 0 to 1. A cone is a straight line. A double-radius
- * shoulder is two equal circular arcs, convex then concave, meeting at the
- * middle, each tangent to the body or neck: for a shoulder of length L and drop
- * h, each arc has radius (L² + h²) / 4h.
+ * shoulder is two tangent circular arcs with no straight flank, convex off the
+ * body and concave into the neck, tangent to each. For a shoulder of length L
+ * and drop h the two radii sum to S = (L² + h²) / 2h; the convex arc takes the
+ * share `share` of S and meets the concave one at that same fraction of L and h.
+ * Printed radii are scaled to fit the printed tangent points, keeping their ratio.
  */
-export function shoulderCurve(style: ShoulderStyle, t: number, L: number, h: number): number {
-  if (style === "cone" || h <= 0 || L <= h) return t;
-  const R = (L * L + h * h) / (4 * h);
-  const x = (t <= 0.5 ? t : 1 - t) * L;
-  const y = R - Math.sqrt(Math.max(R * R - x * x, 0));
-  const f = y / h;
-  return t <= 0.5 ? f : 1 - f;
+export function shoulderCurve(style: ShoulderStyle, t: number, L: number, h: number, share = TYPICAL_BODY_ARC_SHARE): number {
+  if (style === "cone" || h <= 0 || L <= h || share <= 0 || share >= 1) return t;
+  const S = (L * L + h * h) / (2 * h);
+  const arc = (R: number, x: number) => R - Math.sqrt(Math.max(R * R - x * x, 0));
+  if (t <= share) return arc(share * S, t * L) / h;
+  return 1 - arc((1 - share) * S, (1 - t) * L) / h;
 }
 
 export interface CartridgeVerification {
@@ -73,6 +90,9 @@ export interface Cartridge {
    * unless `shoulderStyleOf` infers otherwise from the name.
    */
   shoulderStyle?: ShoulderStyle | null;
+  /** Double-radius only: convex body-to-shoulder radius R_b and concave shoulder-to-neck radius R_n (in), as printed. */
+  shoulderRadiusIn?: number | null;
+  neckRadiusIn?: number | null;
   neckLengthIn: number | null;
   /** Case profile from a chamber or case drawing (bot cartridge schema 1.1.0). Absent when unknown. */
   baseDiameterIn?: number | null;

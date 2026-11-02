@@ -41,6 +41,9 @@ export interface BotCartridgeRecord {
   shoulderAngleDeg: number | null;
   /** Optional: "double-radius" for a Weatherby-style shoulder with no single angle, "cone" otherwise. */
   shoulderStyle?: "cone" | "double-radius" | null;
+  /** Optional, double-radius only, in `lengthUnit`: convex body-to-shoulder radius R_b and concave shoulder-to-neck radius R_n. */
+  shoulderRadius?: number | null;
+  neckRadius?: number | null;
   rimType: RimType | null;
   /** Maximum average pressure as printed. `cip` is C.I.P. Pmax (piezo at the case mouth). */
   pressure: { value: number; unit: "psi" | "bar"; method: "piezo" | "cup" | "cip" } | null;
@@ -90,6 +93,8 @@ export const FILLABLE_FIELDS = [
   "neckDiameterIn",
   "lengthToShoulderIn",
   "lengthToNeckIn",
+  "shoulderRadiusIn",
+  "neckRadiusIn",
 ] as const;
 export type FillableField = (typeof FILLABLE_FIELDS)[number];
 
@@ -149,6 +154,8 @@ export function botRecordToCartridge(r: BotCartridgeRecord, bot: string, file: s
     neckDiameterIn: toIn(r.neckDiameter, "neckDiameterIn", 0.1, 1.1),
     lengthToShoulderIn: toIn(r.lengthToShoulder, "lengthToShoulderIn", 0.3, 5),
     lengthToNeckIn: toIn(r.lengthToNeck, "lengthToNeckIn", 0.3, 5),
+    shoulderRadiusIn: toIn(r.shoulderRadius, "shoulderRadiusIn", 0.01, 1),
+    neckRadiusIn: toIn(r.neckRadius, "neckRadiusIn", 0.01, 1),
   };
   for (const [k, v] of Object.entries(lengths)) if (v === "bad") return `${k.replace(/In$/, "")} is not a number in range`;
   const L = lengths as Record<keyof typeof lengths, number | null>;

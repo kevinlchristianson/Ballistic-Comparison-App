@@ -15,7 +15,7 @@
  * The rim thickness, extractor groove and belt are not in the data. They are
  * drawn to typical proportions (HEAD below) and labelled as such.
  */
-import { buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type RimType, type ShoulderStyle } from "./cartridges.ts";
+import { bodyArcShare, buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type RimType, type ShoulderStyle } from "./cartridges.ts";
 import { PROFILE_CONSTANTS, profileSurface } from "./velocity/inputs.ts";
 
 export interface ProfileValue {
@@ -324,21 +324,21 @@ function buildCaseProfile(c: Cartridge, known: Map<string, Known>, index: Return
     source,
     fromPrint: ![base, shoulder, neck, toShoulder, toNeck].some((v) => v.estimated),
     estimatedFields,
-    segments: segments(rimType.value, rim, base, shoulder, neck, toShoulder, toNeck, len, style.style),
+    segments: segments(rimType.value, rim, base, shoulder, neck, toShoulder, toNeck, len, style.style, bodyArcShare(c)),
   };
 }
 
 /** The shoulder outline: a straight line for a cone, or the double-radius S-curve. */
-function shoulderPoints(style: ShoulderStyle, ls: number, rs: number, ln: number, rn: number): [number, number][] {
+function shoulderPoints(style: ShoulderStyle, ls: number, rs: number, ln: number, rn: number, share: number): [number, number][] {
   if (style === "cone") return [[ls, rs], [ln, rn]];
   const n = 16;
   return Array.from({ length: n + 1 }, (_, i) => {
     const t = i / n;
-    return [r4(ls + (ln - ls) * t), r4(rs - (rs - rn) * shoulderCurve(style, t, ln - ls, rs - rn))] as [number, number];
+    return [r4(ls + (ln - ls) * t), r4(rs - (rs - rn) * shoulderCurve(style, t, ln - ls, rs - rn, share))] as [number, number];
   });
 }
 
-function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: ProfileValue, nk: ProfileValue, ls: ProfileValue, ln: ProfileValue, len: number, style: ShoulderStyle = "cone"): CaseSegment[] {
+function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: ProfileValue, nk: ProfileValue, ls: ProfileValue, ln: ProfileValue, len: number, style: ShoulderStyle = "cone", share = 0.5): CaseSegment[] {
   const R = rim.value / 2;
   const B = base.value / 2;
   const t = HEAD.rimThickness[rimType];
@@ -368,7 +368,7 @@ function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: P
   return [
     { part: "head", points: head, estimated: rim.estimated || base.estimated },
     { part: "body", points: [[bodyStart, B], [ls.value, sh.value / 2]], estimated: base.estimated || sh.estimated || ls.estimated },
-    { part: "shoulder", points: shoulderPoints(style, ls.value, sh.value / 2, ln.value, nk.value / 2), estimated: sh.estimated || nk.estimated || ls.estimated || ln.estimated },
+    { part: "shoulder", points: shoulderPoints(style, ls.value, sh.value / 2, ln.value, nk.value / 2, share), estimated: sh.estimated || nk.estimated || ls.estimated || ln.estimated },
     { part: "neck", points: [[ln.value, nk.value / 2], [len, nk.value / 2], [len, mouth]], estimated: nk.estimated || ln.estimated },
   ];
 }

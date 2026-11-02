@@ -34,7 +34,7 @@
  * Values in the library are never replaced. Estimated values are always
  * labelled as estimates.
  */
-import { buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type ShoulderStyle } from "../cartridges.ts";
+import { bodyArcShare, buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type ShoulderStyle } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
 
 export type CapacityMethod = "parent_case" | "heaviest_charge" | "case_size" | "case_profile" | "bot_profile";
@@ -169,7 +169,7 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
   if (Math.min(baseId, shId, nkId) <= 0.05 || nkId >= Math.min(baseId, shId) - 0.005) return null;
   const frustum = (l: number, a: number, b: number) => (Math.PI / 12) * l * (a * a + a * b + b * b);
   const style = shoulderStyleOf(c).style;
-  const in3 = frustum(body, baseId, shId) + shoulderVolume(style, shoulder, shId, nkId) + (Math.PI / 4) * nkId * nkId * neck;
+  const in3 = frustum(body, baseId, shId) + shoulderVolume(style, shoulder, shId, nkId, bodyArcShare(c)) + (Math.PI / 4) * nkId * nkId * neck;
   const value = in3 * WATER_GR_PER_IN3;
   return value >= 1 && value <= 500 ? { value, surface } : null;
 }
@@ -179,13 +179,13 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
  * frustum; a double-radius shoulder follows `shoulderCurve`, integrated by
  * Simpson's rule (the outside drop sets the arc radius; the inside follows the same curve).
  */
-function shoulderVolume(style: ShoulderStyle, l: number, a: number, b: number): number {
+function shoulderVolume(style: ShoulderStyle, l: number, a: number, b: number, share: number): number {
   if (style === "cone") return (Math.PI / 12) * l * (a * a + a * b + b * b);
   const n = 64;
   const h = (a - b) / 2;
   let sum = 0;
   for (let i = 0; i <= n; i++) {
-    const d = a - (a - b) * shoulderCurve(style, i / n, l, h);
+    const d = a - (a - b) * shoulderCurve(style, i / n, l, h, share);
     sum += (i === 0 || i === n ? 1 : i % 2 ? 4 : 2) * d * d;
   }
   return (Math.PI / 4) * (l / (3 * n)) * sum;
