@@ -30,7 +30,7 @@ The five Weatherbys:
 | .300 Weatherby Magnum | 100.4 | 96.3 | chamber | 1.043 |
 | .340 Weatherby Magnum | 102.1 | 100.6 | case | 1.015 |
 
-So the cone model reads the Weatherbys about 2 to 3% low compared with other cases, which is the direction the geometry predicts. When the shoulder points are the tangent points (where the radii start and end), the convex radius keeps the wall near body diameter longer, and that adds more volume than the concave radius takes away at the narrow end. Five cases is a small sample, though. The Weatherby spread (about 0.018) and the belted spread (about 0.03) overlap, so this is a likely bias, not a proven one.
+So the cone model reads the Weatherbys about 2 to 3% low compared with other cases. Five cases is a small sample, though. The Weatherby spread (about 0.018) and the belted spread (about 0.03) overlap, so this is a likely bias, not a proven one. **Correction (2026-11-02):** I first guessed the radiused shoulder itself caused this. The load bot's arc check (see below) shows it doesn't. Between the same tangent points, the real double-radius curves hold only 0.05–0.15 gr less than the cone, which is under 0.2% and in the wrong direction. The cause is still open. Brass wall, belt or solid-head allowances, the chamber-versus-case surface, or body taper are the likely places to look.
 
 There's one caveat on direction. If a record's shoulder and neck lengths are the virtual sharp-corner points (where the body, shoulder and neck tangent lines would meet), a cone overestimates a radiused case instead. Records don't currently say which convention they use.
 
@@ -43,7 +43,7 @@ Not confirmed: whether the Weatherby RPM line (6.5, .338, and the 30/6.5 and 7mm
 ## Suggestions
 
 1. Mark radiused shoulders explicitly instead of guessing from the name. For example, add an optional `shoulderStyle: "double-radius"` on the cartridge record. That is a schema change, so it needs Kevin's OK. Until then, a name match on `/weatherby|wby/` without `RPM` is a workable stand-in.
-2. For marked cases, either fit a separate profile multiplier from the cited Weatherby capacities (about 1.02 to 1.03 relative to the other cases today, refit as more capacities land), or, where a print gives the two radii, integrate the actual arcs instead of the cone.
+2. For marked cases, fit a separate profile multiplier from the cited Weatherby capacities (about 1.02 to 1.03 relative to the other cases today, refit as more capacities land) until the real cause is found. Integrating the actual arcs won't close the gap on its own, per the load bot's check.
 3. Leave radiused cases out of the base-diameter correction fit, or give them their own term, so they don't pull that correction for conventional cases.
 4. Shoulder angle is null on most Weatherby records because a radiused shoulder has no single angle. Make sure nothing that reads `shoulderAngleDeg` treats null as zero. The 50-460 Wby's 15° was rechecked by the load bot on 2026-11-02 and is correct: the PTG print's shoulder cone runs .571 to .5354 over .0664 (15.0°), and the print's 45° is the neck-to-throat angle.
 
