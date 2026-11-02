@@ -44,11 +44,11 @@ export interface PhysicsParams {
  * data, the cartridge library or the model changes much.
  */
 export const PHYSICS_PARAMS: PhysicsParams = {
-  k: 215.0761,
-  p: 0.607,
-  n: 0.1753,
+  k: 218.8355,
+  p: 0.5266,
+  n: 0.1711,
   chargeFraction: 0.85,
-  residualSd: 0.0421,
+  residualSd: 0.041,
 };
 
 const GRAINS_WATER_PER_CUBIC_INCH = 252.9;
@@ -80,8 +80,8 @@ export function physicsVelocity(x: PhysicsInputs, params: PhysicsParams = PHYSIC
 }
 
 /** Bullet weight per grain of water capacity beyond which the model is not trusted. */
-const MAX_WEIGHT_PER_CAPACITY = 5;
-const MIN_WEIGHT_PER_CAPACITY = 0.5;
+export const MAX_WEIGHT_PER_CAPACITY = 5;
+export const MIN_WEIGHT_PER_CAPACITY = 0.5;
 /** Widest range the physics model reports, relative. */
 const MAX_PHYSICS_SPREAD = 0.35;
 

@@ -35,13 +35,19 @@ import type { NormalizedEnvelope, NormalizedLoad } from "../src/lib/normalize/ty
 import { physicsFpsPerInch } from "../src/lib/velocity/index.ts";
 import { estimateCartridgeInputs } from "../src/lib/velocity/inputs.ts";
 import { estimateFromFit, fitLoads } from "../src/lib/velocity/loadData.ts";
-import { createPhysicsEstimator, PHYSICS_PARAMS, physicsVelocity, type PhysicsParams } from "../src/lib/velocity/physics.ts";
+import { createPhysicsEstimator, MAX_WEIGHT_PER_CAPACITY, MIN_WEIGHT_PER_CAPACITY, PHYSICS_PARAMS, physicsVelocity, type PhysicsParams } from "../src/lib/velocity/physics.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
 
 const BARREL = 24;
 const OUT = "data/calibration/physics-calibration.json";
 const PAIR_WEIGHT = 10;
 const SUBSONIC_FPS = 1400;
+/**
+ * Cartridges whose library capacity is not water to the case mouth, left out
+ * of the fit. 26 Nosler: Nosler's 93 gr was measured under a seated 130 gr
+ * bullet (Kevin's ruling 2026-11-02, data/loads/comments/2026-11-02-26-nosler-recalibration.md).
+ */
+const CAPACITY_NOT_TO_MOUTH = new Set(["26-nosler"]);
 /** Huber loss: squared within this log error, linear beyond, so a few odd cartridges do not steer the fit. */
 const HUBER = 0.08;
 const huber = (r: number) => (Math.abs(r) <= HUBER ? r * r : 2 * HUBER * Math.abs(r) - HUBER * HUBER);
@@ -68,7 +74,7 @@ function calibrationPoints(params: PhysicsParams): CalibrationPoint[] {
   const fpsPerInch = physicsFpsPerInch(createPhysicsEstimator(cartridges, params, { inputs, extrapolate: true }));
   const points: CalibrationPoint[] = [];
   for (const c of cartridges) {
-  if (c.kind === "user" || !c.caseCapacityGrH2O || !c.mapPsi || !c.bulletDiameterIn || !c.caseLengthIn) continue;
+  if (c.kind === "user" || CAPACITY_NOT_TO_MOUTH.has(c.id) || !c.caseCapacityGrH2O || !c.mapPsi || !c.bulletDiameterIn || !c.caseLengthIn) continue;
   const own = byCartridge.get(c.id);
   const fit = own ? fitLoads(c.id, own, BARREL, fpsPerInch) : null;
   if (!fit || fit.support.sources.length < 2 || fit.support.loadCount < 4) continue;
@@ -76,6 +82,9 @@ function calibrationPoints(params: PhysicsParams): CalibrationPoint[] {
   for (const w of weights) {
     const v = estimateFromFit(fit, w).estimateFps;
     // Subsonic loads (300 Blackout and the like) are not maximum-pressure loads.
+    // Weights outside the model's trusted bullet-to-capacity range are left out (e.g. a 510 gr bullet in the .458 Win Mag).
+    const ratio = w / c.caseCapacityGrH2O;
+    if (ratio > MAX_WEIGHT_PER_CAPACITY || ratio < MIN_WEIGHT_PER_CAPACITY) continue;
     if (v && v >= SUBSONIC_FPS) points.push({ cartridgeId: c.id, bulletWeightGr: w, velocityFps: Math.round(v), barrelLengthIn: BARREL, loadCount: fit.support.loadCount, sources: fit.support.sources.map((s) => s.name) });
   }
   }
@@ -107,7 +116,7 @@ const pairs: BarrelPair[] = [];
     const lo = sorted[0]!;
     const hi = sorted[sorted.length - 1]!;
     const c = byId.get(lo.cartridgeId);
-    if (hi.barrelLengthIn! - lo.barrelLengthIn! < 2 || !c?.caseCapacityGrH2O || !c.mapPsi || !c.bulletDiameterIn || !c.caseLengthIn) continue;
+    if (hi.barrelLengthIn! - lo.barrelLengthIn! < 2 || CAPACITY_NOT_TO_MOUTH.has(lo.cartridgeId) || !c?.caseCapacityGrH2O || !c.mapPsi || !c.bulletDiameterIn || !c.caseLengthIn) continue;
     pairs.push({ cartridgeId: c.id, source: lo.source.name, bulletWeightGr: lo.bulletWeightGr, powder: lo.powder!, chargeGr: lo.chargeGr!, shortIn: lo.barrelLengthIn!, longIn: hi.barrelLengthIn!, shortFps: lo.velocityFps!, longFps: hi.velocityFps! });
   }
 }

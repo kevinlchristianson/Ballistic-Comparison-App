@@ -14,7 +14,7 @@
  * and the physics calibration sit at or below it) and then moved to the
  * handload max with the physics model's pressure term. Energy goes as
  * pressure^p (physics.ts), so velocity goes as pressure^(p/2), about
- * pressure^0.30: 51,000 to 65,000 psi is about +7.6% velocity.
+ * pressure^0.26 (half of p = 0.527): 51,000 to 65,000 psi is about +6.6% velocity.
  */
 import type { Cartridge } from "../cartridges.ts";
 import type { CartridgeInputs } from "./inputs.ts";
@@ -59,7 +59,7 @@ export function createHandloadEstimator(base: VelocityEstimator, cartridges: Car
     limitations: [
       ...base.limitations,
       `Modern handload pressure goes beyond SAAMI and C.I.P. limits. It assumes modern brass in a strong action with a tight chamber; old actions (Krag, Trapdoor, 1893/95 Mausers, rear-locking lever guns) are not suitable.`,
-      "The step up from factory pressure uses the physics model's pressure exponent (velocity ∝ pressure^0.30), which was fitted across cartridges, not measured by raising pressure in one case.",
+      "The step up from factory pressure uses the physics model's pressure exponent (velocity ∝ pressure^0.26), which was fitted across cartridges, not measured by raising pressure in one case.",
     ],
     estimate(q: VelocityQuery): VelocityEstimate {
       const e = base.estimate(q);

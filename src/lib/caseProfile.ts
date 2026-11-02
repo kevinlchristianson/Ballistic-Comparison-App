@@ -15,7 +15,7 @@
  * The rim thickness, extractor groove and belt are not in the data. They are
  * drawn to typical proportions (HEAD below) and labelled as such.
  */
-import { buildAliasIndex, resolveCartridge, type Cartridge, type RimType } from "./cartridges.ts";
+import { bodyArcShare, buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type RimType, type ShoulderStyle } from "./cartridges.ts";
 import { PROFILE_CONSTANTS, profileSurface } from "./velocity/inputs.ts";
 
 export interface ProfileValue {
@@ -48,7 +48,10 @@ export interface CaseProfile {
   headToNeck: ProfileValue;
   /** Derived from the values above. */
   neckLengthIn: number;
+  /** For a double-radius shoulder, the angle of the straight line between its tangent points. */
   shoulderAngleDeg: number;
+  /** Cone or double radius; `inferred` when the library does not say and it was read from the name. */
+  shoulderStyle: { value: ShoulderStyle; inferred: boolean };
   /** "chamber" for reamer prints, "case" for case drawings, null when not known. */
   surface: "chamber" | "case" | null;
   /** The cartridge estimates were borrowed from, if any. */
@@ -306,6 +309,7 @@ function buildCaseProfile(c: Cartridge, known: Map<string, Known>, index: Return
   if (rimType.estimated) estimatedFields.unshift("Rim type");
 
   const shoulderLen = toNeck.value - toShoulder.value;
+  const style = shoulderStyleOf(c);
   return {
     id: c.id,
     caseLengthIn: len,
@@ -314,16 +318,27 @@ function buildCaseProfile(c: Cartridge, known: Map<string, Known>, index: Return
     ...dims,
     neckLengthIn: r4(len - toNeck.value),
     shoulderAngleDeg: Math.round(deg(Math.atan((shoulder.value - neck.value) / 2 / shoulderLen)) * 10) / 10,
+    shoulderStyle: { value: style.style, inferred: style.inferred },
     surface,
     donor: d && estimatedFields.length ? { id: d.c.id, name: d.c.name, reason: donorPick!.reason } : null,
     source,
     fromPrint: ![base, shoulder, neck, toShoulder, toNeck].some((v) => v.estimated),
     estimatedFields,
-    segments: segments(rimType.value, rim, base, shoulder, neck, toShoulder, toNeck, len),
+    segments: segments(rimType.value, rim, base, shoulder, neck, toShoulder, toNeck, len, style.style, bodyArcShare(c)),
   };
 }
 
-function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: ProfileValue, nk: ProfileValue, ls: ProfileValue, ln: ProfileValue, len: number): CaseSegment[] {
+/** The shoulder outline: a straight line for a cone, or the double-radius S-curve. */
+function shoulderPoints(style: ShoulderStyle, ls: number, rs: number, ln: number, rn: number, share: number): [number, number][] {
+  if (style === "cone") return [[ls, rs], [ln, rn]];
+  const n = 16;
+  return Array.from({ length: n + 1 }, (_, i) => {
+    const t = i / n;
+    return [r4(ls + (ln - ls) * t), r4(rs - (rs - rn) * shoulderCurve(style, t, ln - ls, rs - rn, share))] as [number, number];
+  });
+}
+
+function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: ProfileValue, nk: ProfileValue, ls: ProfileValue, ln: ProfileValue, len: number, style: ShoulderStyle = "cone", share = 0.5): CaseSegment[] {
   const R = rim.value / 2;
   const B = base.value / 2;
   const t = HEAD.rimThickness[rimType];
@@ -353,7 +368,7 @@ function segments(rimType: RimType, rim: ProfileValue, base: ProfileValue, sh: P
   return [
     { part: "head", points: head, estimated: rim.estimated || base.estimated },
     { part: "body", points: [[bodyStart, B], [ls.value, sh.value / 2]], estimated: base.estimated || sh.estimated || ls.estimated },
-    { part: "shoulder", points: [[ls.value, sh.value / 2], [ln.value, nk.value / 2]], estimated: sh.estimated || nk.estimated || ls.estimated || ln.estimated },
+    { part: "shoulder", points: shoulderPoints(style, ls.value, sh.value / 2, ln.value, nk.value / 2, share), estimated: sh.estimated || nk.estimated || ls.estimated || ln.estimated },
     { part: "neck", points: [[ln.value, nk.value / 2], [len, nk.value / 2], [len, mouth]], estimated: nk.estimated || ln.estimated },
   ];
 }

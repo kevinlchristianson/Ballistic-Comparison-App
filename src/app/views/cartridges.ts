@@ -1,5 +1,5 @@
 /** Cartridge library, the user's wildcats, and the user's own loads. */
-import type { Cartridge } from "../../lib/cartridges.ts";
+import { shoulderStyleOf, type Cartridge } from "../../lib/cartridges.ts";
 import { newId, refresh, type AppData } from "../data.ts";
 import { clear, field, fmt, h, link, numberInput, select } from "../dom.ts";
 import { byDiameterThenCapacity } from "../cartridgePicker.ts";
@@ -82,7 +82,7 @@ export function cartridgesView(data: AppData): HTMLElement {
             h("td", {}, fmt.in(c.baseDiameterIn)),
             h("td", {}, fmt.in(c.shoulderDiameterIn)),
             h("td", {}, fmt.in(c.lengthToShoulderIn)),
-            h("td", {}, c.shoulderAngleDeg != null ? `${c.shoulderAngleDeg}°` : "—"),
+            h("td", {}, shoulderStyleOf(c).style === "double-radius" ? h("span", { title: "Weatherby double-radius shoulder: no single angle." }, c.shoulderAngleDeg != null ? `Double radius (lists ${c.shoulderAngleDeg}°)` : "Double radius") : c.shoulderAngleDeg != null ? `${c.shoulderAngleDeg}°` : "—"),
             h("td", {}, fmt.in(c.neckLengthIn)),
             h("td", { class: "num" }, capacityText(c, data.inputs)),
             h("td", { class: "num" }, pressureText(c, data.inputs)),

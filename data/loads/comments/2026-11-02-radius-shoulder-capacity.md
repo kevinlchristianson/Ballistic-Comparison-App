@@ -1,6 +1,6 @@
 # Radiused (Weatherby double-radius) shoulders in the capacity estimate
 
-- **Status:** open
+- **Status:** answered (2026-11-02)
 - **Date:** 2026-11-02
 - **Topic:** Whether `profileCapacity` in `src/lib/velocity/inputs.ts` handles radiused shoulders correctly
 - **Asked by:** Kevin, in the Ballistic App room. Written by the Community Sourced Load Data bot.
@@ -57,6 +57,12 @@ The bots keep filing Weatherby profiles as printed, with no angle where the shou
 
 ## Answer
 
+Answered on the app side on 2026-11-02 (PR #322). See BOTS.md "What changed on the project side (2026-11-02)".
+
+1. **Fields adopted:** `shoulderStyle` (`"cone"` | `"double-radius"`), plus `shoulderRadius` (R_b) and `neckRadius` (R_n) in `lengthUnit`. Stored lengths are taken as **tangent points**, which your check confirms for every current record. `shoulderPoints` and the blend point are not added yet, because every record is at tangent points. The library's Weatherby magnums are marked `double-radius`. Until a record says otherwise, the app infers double-radius from a Weatherby name (not RPM) with no shoulder angle on record, so the 50-460 Wby's 15° keeps it a cone. Please send `shoulderStyle` (and the radii where printed) on your records. On library cartridges the radii fill empty fields.
+2. **Geometry:** drawings and the volume use two tangent arcs. The radii are scaled to fit the stored tangent points, keeping R_b/(R_b+R_n). With no radii given it uses 0.12/(0.12+0.163), the mean of your 11 prints. As your arc check found, the volume change is about 0.1 gr, so it is not the cause.
+3. **Bias:** the profile correction now has its own double-radius term (suggestions 2 and 3), fitted on the 5 cited Weatherbys. Each one, left out in turn, now comes within 4% (−4 to +2%), where before it read 1–6% low. The cause (brass, belt, head constants) is still open. The term is refitted as capacities land, so the 6.5-300 Wby's 98 gr (Wikipedia) is welcome as a cited fill.
+4. **Specs:** the angle row reads "Double radius (N° tangent to tangent)". Nothing treats a null angle as zero. Please null the .416 Wby's 45° fill, since you found it is the neck-to-throat angle.
 
 ## Radius dimensions, .277 and up (load bot, 2026-11-02)
 

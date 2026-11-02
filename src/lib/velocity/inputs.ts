@@ -34,7 +34,7 @@
  * Values in the library are never replaced. Estimated values are always
  * labelled as estimates.
  */
-import { buildAliasIndex, resolveCartridge, type Cartridge } from "../cartridges.ts";
+import { bodyArcShare, buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type ShoulderStyle } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
 
 export type CapacityMethod = "parent_case" | "heaviest_charge" | "case_size" | "case_profile" | "bot_profile";
@@ -168,14 +168,40 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
   const nkId = nk - clear.neck - 2 * K.neckWall;
   if (Math.min(baseId, shId, nkId) <= 0.05 || nkId >= Math.min(baseId, shId) - 0.005) return null;
   const frustum = (l: number, a: number, b: number) => (Math.PI / 12) * l * (a * a + a * b + b * b);
-  const in3 = frustum(body, baseId, shId) + frustum(shoulder, shId, nkId) + (Math.PI / 4) * nkId * nkId * neck;
+  const style = shoulderStyleOf(c).style;
+  const in3 = frustum(body, baseId, shId) + shoulderVolume(style, shoulder, shId, nkId, bodyArcShare(c)) + (Math.PI / 4) * nkId * nkId * neck;
   const value = in3 * WATER_GR_PER_IN3;
   return value >= 1 && value <= 500 ? { value, surface } : null;
+}
+
+/**
+ * Inside volume of a shoulder of length l from diameter a to b (in³). A cone is a
+ * frustum; a double-radius shoulder follows `shoulderCurve`, integrated by
+ * Simpson's rule (the outside drop sets the arc radius; the inside follows the same curve).
+ */
+function shoulderVolume(style: ShoulderStyle, l: number, a: number, b: number, share: number): number {
+  if (style === "cone") return (Math.PI / 12) * l * (a * a + a * b + b * b);
+  const n = 64;
+  const h = (a - b) / 2;
+  let sum = 0;
+  for (let i = 0; i <= n; i++) {
+    const d = a - (a - b) * shoulderCurve(style, i / n, l, h, share);
+    sum += (i === 0 || i === n ? 1 : i % 2 ? 4 : 2) * d * d;
+  }
+  return (Math.PI / 4) * (l / (3 * n)) * sum;
 }
 
 const AI_BOOST = 1.05;
 /** Cartridges with a cited capacity and a full profile needed before the profile correction is fitted. */
 const PROFILE_FIT_MIN = 10;
+/** Double-radius cases with a cited capacity needed before they get their own term. */
+const RADIUS_FIT_MIN = 4;
+/** Inputs to the profile correction: a constant, base Ø, and (when fitted) 1 for a double-radius shoulder. */
+const profileFeatures = (c: Cartridge, withRadius: boolean): number[] => {
+  const f = [1, c.baseDiameterIn!];
+  if (withRadius) f.push(shoulderStyleOf(c).style === "double-radius" ? 1 : 0);
+  return f;
+};
 /** A heaviest-charge capacity below this fraction of the other estimates (or above its inverse) is left out. */
 const CHARGE_OUTLIER_RATIO = 0.6;
 const isImproved = (name: string): boolean => /ackley|improved|\bai\b/i.test(name);
@@ -279,9 +305,12 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
   // thicker heads and webs, so the raw volume runs high as the base gets wider (about 4% at a
   // .550 in base). ln(raw / published) is fitted against base diameter and divided out. The error
   // is leave-one-out; the floor keeps it from claiming better than about 3%.
+  // Double-radius (Weatherby) cases get their own term once enough of them have a cited capacity.
+  const radiusKnown = known.filter((c) => profileCapacity(c) && c.baseDiameterIn != null && shoulderStyleOf(c).style === "double-radius").length;
+  const withRadius = radiusKnown >= RADIUS_FIT_MIN;
   const profileRows = known.flatMap((c) => {
     const v = profileCapacity(c);
-    return v && c.baseDiameterIn != null ? [{ x: [1, c.baseDiameterIn], y: Math.log(v.value / c.caseCapacityGrH2O!) }] : [];
+    return v && c.baseDiameterIn != null ? [{ x: profileFeatures(c, withRadius), y: Math.log(v.value / c.caseCapacityGrH2O!) }] : [];
   });
   const profileBias = profileRows.length >= PROFILE_FIT_MIN ? solve(profileRows.map((r) => r.x), profileRows.map((r) => r.y)) : null;
   const profileErrs = profileRows.map((r, i) => {
@@ -292,7 +321,7 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
   const correctedProfile = (c: Cartridge) => {
     const raw = profileCapacity(c);
     if (!raw) return null;
-    const bias = profileBias && c.baseDiameterIn != null ? dot([1, c.baseDiameterIn], profileBias) : 0;
+    const bias = profileBias && c.baseDiameterIn != null ? dot(profileFeatures(c, withRadius), profileBias) : 0;
     return { ...raw, raw: raw.value, value: raw.value / Math.exp(bias) };
   };
 

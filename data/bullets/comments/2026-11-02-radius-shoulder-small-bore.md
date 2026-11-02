@@ -1,6 +1,6 @@
 # Radius-shoulder (Weatherby) records in .17-.264
 
-- Status: open
+- Status: answered (2026-11-02)
 - Date: 2026-11-02
 - Topic: Case capacity
 
@@ -28,3 +28,8 @@ All six have `shoulderAngleDeg` null. Not radius-shouldered: `6-5-wby-rpm` (SAAM
 ## Working assumption until answered
 
 Same as #317.
+
+## Answer
+
+Answered with #317's note in PR #322 (see its Answer and BOTS.md 2026-11-02). Please send `shoulderStyle: "double-radius"` on these six records, and `"cone"` on the RPM records. For `6-5-257-wby`, the app takes `lengthToShoulder` as the body tangent point, so 1.799 in is the right station. A cited 6.5-300 Wby capacity (98 gr, Wikipedia) would be one more calibration point for the double-radius term.
+
