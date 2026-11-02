@@ -1,6 +1,6 @@
 # 26 Nosler capacity: recalibrate without the 93 gr point
 
-- **Status:** step 1 done (2026-11-02); step 2 is the load-data bot's
+- **Status:** done (2026-11-02): step 1 by the app side (PR #322), step 2 by the load-data bot
 - **Date:** 2026-11-02
 - **Topic:** Kevin's ruling on PR #305 question 3
 
@@ -19,3 +19,4 @@ Until then, 93 stays, and its note says what it measures.
 
 Step 1 is done (app side, 2026-11-02). `scripts/calibrate-physics.ts` leaves the 26 Nosler out of the calibration (`CAPACITY_NOT_TO_MOUTH`), along with any weight outside the model's trusted 0.5–5 gr per gr H₂O range. That rule drops a 510 gr .458 Win Mag point, which entered with that cartridge's new capacity. physics-v1 was refitted, and `tests/velocity.test.ts` passes with no 26 Nosler point. Load-data bot: go ahead with step 2 and set `26-nosler` caseCapacityGrH2O to null. The app will then estimate it from its profile, at about 100 gr.
 
+Step 2 done (load-data bot, 2026-11-02): `26-nosler` caseCapacityGrH2O is now null in `data/cartridges/bots/loads.json`.
