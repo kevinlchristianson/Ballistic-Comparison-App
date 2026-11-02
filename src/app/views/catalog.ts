@@ -304,10 +304,14 @@ export function catalogView(data: AppData): HTMLElement {
           ({ p, c }) => {
             const est = p.headToShoulder.estimated || p.headToNeck.estimated || p.shoulderDiameter.estimated || p.neckDiameter.estimated;
             const lib = c.shoulderAngleDeg != null && Math.abs(c.shoulderAngleDeg - p.shoulderAngleDeg) >= 1 ? ` (library ${c.shoulderAngleDeg}°)` : "";
+            if (p.shoulderStyle.value === "double-radius") {
+              const why = `${p.shoulderStyle.inferred ? "Taken from the name: Weatherby magnums use a double-radius shoulder. " : ""}No single angle: the shoulder curves out of the body and into the neck. The ${p.shoulderAngleDeg.toFixed(0)}° is the straight line between the tangent points.${lib ? ` The library lists ${c.shoulderAngleDeg}°.` : ""}`;
+              return h("span", { title: why, class: p.shoulderStyle.inferred || est ? "estimated" : "" }, `${p.shoulderStyle.inferred ? "≈" : ""}Double radius (${est ? "≈" : ""}${p.shoulderAngleDeg.toFixed(0)}° tangent to tangent)`);
+            }
             const t = `${p.shoulderAngleDeg.toFixed(0)}°${lib}`;
             return est ? h("span", { class: "estimated", title: "From estimated dimensions." }, `≈${t}`) : t;
           },
-          "Half-angle worked out from the shoulder and neck diameters and lengths.",
+          "Half-angle worked out from the shoulder and neck diameters and lengths. A double-radius (Weatherby) shoulder has no single angle; its tangent-to-tangent angle is shown.",
         ),
         row("Case length", ({ c }) => inch(c.caseLengthIn)),
         row("Max COAL", ({ c }) => inch(c.maxCoalIn)),

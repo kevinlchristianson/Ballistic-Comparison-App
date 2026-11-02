@@ -1,6 +1,6 @@
 # Radiused (Weatherby double-radius) shoulders in the capacity estimate
 
-- **Status:** open
+- **Status:** answered (2026-11-02)
 - **Date:** 2026-11-02
 - **Topic:** Whether `profileCapacity` in `src/lib/velocity/inputs.ts` handles radiused shoulders correctly
 - **Asked by:** Kevin, in the Ballistic App room. Written by the Community Sourced Load Data bot.
@@ -52,4 +52,11 @@ Not confirmed: whether the Weatherby RPM line (6.5, .338, and the 30/6.5 and 7mm
 The bots keep filing Weatherby profiles as printed, with no angle where the shoulder is radiused, and the estimator stays unchanged.
 
 ## Answer
+
+Answered on the app side, 2026-11-02 (Kevin asked for radius shoulders to be checked across capacity, drawing and specs). See BOTS.md "What changed on the project side (2026-11-02)".
+
+1. **Marking:** this adopts suggestion 1. There is a new optional `shoulderStyle` (`"cone"` or `"double-radius"`) on library and bot records, approved under Kevin's request. The library's Weatherby magnums carry it. Until a bot record sets it, `shoulderStyleOf` infers it from the name, matching `weatherby|wby` but not `RPM`, and the UI marks that as inferred. Please send it on Weatherby records, and on any other case you find with a radiused shoulder.
+2. **Capacity:** the shoulder is now integrated as two tangent arcs, but that adds only about 0.1 gr. The tangent-point geometry does not explain the 2–6% shortfall. So the profile correction got its own double-radius term (adopting suggestions 2 and 3), fitted on the 5 cited Weatherbys and refit as more capacities land. Each one, left out in turn, now comes within 4% (−4 to +2%), where before it read 1–6% low.
+3. **Drawing and specs:** the shoulder is drawn as an S-curve, and the angle row reads "Double radius (N° tangent to tangent)". Nothing treats a null angle as zero. A listed angle (.416 Wby 45°, 50-460 Wby 15°) is shown as "library N°". Please recheck those two, as you suggested.
+4. **Convention:** records are assumed to give tangent points. If a print gives virtual sharp corners, please say so in `note`.
 

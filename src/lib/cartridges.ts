@@ -7,6 +7,36 @@ export const CARTRIDGE_SCHEMA_VERSION = "1.0.0" as const;
 
 export type CartridgeKind = "saami" | "cip" | "wildcat" | "user";
 export type RimType = "rimless" | "rimmed" | "semi-rimmed" | "belted" | "rebated";
+export type ShoulderStyle = "cone" | "double-radius";
+
+/** Weatherby magnums (not the RPM line, which has a conventional shoulder) and wildcats named for them. */
+const WEATHERBY_NAME = /\b(weatherby|wby)\b/i;
+
+/**
+ * The shoulder style, from the record when it says, otherwise inferred:
+ * a cartridge named for a Weatherby magnum (not an RPM) has the Weatherby
+ * double-radius shoulder.
+ */
+export function shoulderStyleOf(c: Pick<Cartridge, "name" | "shoulderStyle">): { style: ShoulderStyle; inferred: boolean } {
+  if (c.shoulderStyle) return { style: c.shoulderStyle, inferred: false };
+  return { style: WEATHERBY_NAME.test(c.name) && !/\brpm\b/i.test(c.name) ? "double-radius" : "cone", inferred: true };
+}
+
+/**
+ * Fraction of the way across a shoulder (0 at the body tangent point, 1 at the
+ * neck), for position t from 0 to 1. A cone is a straight line. A double-radius
+ * shoulder is two equal circular arcs, convex then concave, meeting at the
+ * middle, each tangent to the body or neck: for a shoulder of length L and drop
+ * h, each arc has radius (L² + h²) / 4h.
+ */
+export function shoulderCurve(style: ShoulderStyle, t: number, L: number, h: number): number {
+  if (style === "cone" || h <= 0 || L <= h) return t;
+  const R = (L * L + h * h) / (4 * h);
+  const x = (t <= 0.5 ? t : 1 - t) * L;
+  const y = R - Math.sqrt(Math.max(R * R - x * x, 0));
+  const f = y / h;
+  return t <= 0.5 ? f : 1 - f;
+}
 
 export interface CartridgeVerification {
   /** `unverified` until each value is checked against the governing source. */
@@ -36,6 +66,13 @@ export interface Cartridge {
   rimType: RimType | null;
   rimDiameterIn: number | null;
   shoulderAngleDeg: number | null;
+  /**
+   * "double-radius" for a shoulder with no straight cone: a convex radius off the
+   * body and a concave one into the neck (Weatherby). Its shoulder and neck
+   * lengths are the tangent points. Absent or null means a straight (cone) shoulder,
+   * unless `shoulderStyleOf` infers otherwise from the name.
+   */
+  shoulderStyle?: ShoulderStyle | null;
   neckLengthIn: number | null;
   /** Case profile from a chamber or case drawing (bot cartridge schema 1.1.0). Absent when unknown. */
   baseDiameterIn?: number | null;

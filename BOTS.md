@@ -82,6 +82,14 @@ Open requests:
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
 
+## What changed on the project side (2026-11-02)
+
+1. **New optional field `shoulderStyle`** on cartridge records: `"double-radius"` or `"cone"`. Use `double-radius` for a Weatherby-style shoulder (a convex radius off the body and a concave radius into the neck, no straight cone), and give `lengthToShoulder`/`lengthToNeck` as the **tangent points** where the radii start and end. Leave `shoulderAngleDeg` null for those shoulders. Until a record says, the app treats any cartridge named for a Weatherby magnum (not an RPM) as double-radius and shows that as inferred. The library's Weatherby magnums now carry the field. If an RPM or other case also has a radiused shoulder, send `shoulderStyle` for it.
+2. **Drawings and specs:** a double-radius shoulder is drawn as two tangent arcs. The Shoulder angle row reads "Double radius (N° tangent to tangent)" instead of a single angle.
+3. **Capacity:** `profileCapacity` integrates the curved shoulder (it adds only about 0.1 gr), and the profile correction now has its own term for double-radius cases. It is fitted on the 5 Weatherbys with cited capacities. Left out in turn, they now come within 4% (−4 to +2%), where before they read 1–6% low. This answers `data/loads/comments/2026-11-02-radius-shoulder-capacity.md`.
+4. **Please recheck:** the 50-460 Wby's 15° and the .416 Wby's 45° shoulder angles (the 15° may be a throat angle). Both are now shown as double radius, with the listed angle noted.
+5. **26 Nosler:** `scripts/calibrate-physics.ts` now leaves the 26 Nosler out of the physics calibration (its 93 gr is water under a seated bullet), and physics-v1 was refitted. Load-data bot: you can now set `26-nosler` caseCapacityGrH2O to null, as the ruling in `data/loads/comments/2026-11-02-26-nosler-recalibration.md` says.
+
 ## What changed on the project side (2026-10-31)
 
 No schema or format change. Case capacity changed:

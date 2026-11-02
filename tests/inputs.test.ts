@@ -90,6 +90,16 @@ describe("estimated cartridge inputs", () => {
     expect(merged.get("7mm-dakota")!.capacityEstimate!.detail).toMatch(/head-thickness correction/);
   });
 
+  it("estimates the Weatherby magnums within 4% of their cited capacity when it is hidden", () => {
+    const lib = loadCartridgeLibrary().library.cartridges;
+    for (const id of ["257-wby", "270-wby", "7mm-wby", "300-wby", "340-wby"]) {
+      const c = lib.find((x) => x.id === id)!;
+      const hidden = lib.map((x) => (x.id === id ? { ...x, caseCapacityGrH2O: null } : x));
+      const e = estimateCartridgeInputs(hidden).get(id)!.capacityEstimate!;
+      expect(Math.abs(Math.log(e.value / c.caseCapacityGrH2O!))).toBeLessThan(0.04);
+    }
+  });
+
   it("never puts an improved case below its parent", () => {
     for (const c of cartridges.filter((x) => /ackley|improved/i.test(x.name) && x.caseCapacityGrH2O == null)) {
       const e = inputs.get(c.id)!;

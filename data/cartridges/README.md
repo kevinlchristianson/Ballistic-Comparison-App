@@ -32,6 +32,7 @@ Scope, agreed 2026-10-27: SAAMI centerfire rifle cartridges plus popular wildcat
 | `rimType` | `rimless`, `rimmed`, `semi-rimmed`, `belted`, `rebated` | |
 | `rimDiameterIn` | in | Sets the bolt face. |
 | `shoulderAngleDeg` | degrees | |
+| `shoulderStyle` | `cone`, `double-radius` | Optional. `double-radius` for the Weatherby shoulder, which curves out of the body and into the neck with no single angle; its shoulder and neck lengths are the tangent points. When absent, a cartridge named for a Weatherby magnum (not an RPM) is treated as double-radius and shown as inferred. Added 2026-11-02. |
 | `neckLengthIn` | in | Mostly null for now. Needed for seating-depth estimates. |
 | `verification` | object | `status`, the source keys to check against, and a note. |
 | `fieldNotes` | object | Per-field caveats. |

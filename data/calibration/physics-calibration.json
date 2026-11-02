@@ -1,20 +1,20 @@
 {
   "schemaVersion": "2.0.0",
-  "generatedOn": "2026-10-28",
+  "generatedOn": "2026-11-02",
   "description": "Calibration points for the physics-v1 velocity model, built by scripts/calibrate-physics.ts from published maximum loads (the loglog-v1 fit at 24 in for each library cartridge with a cited case capacity and pressure limit and loads from 2+ sources). Derived values, not load data.",
   "params": {
-    "k": 215.0761,
-    "p": 0.607,
-    "n": 0.1753,
+    "k": 218.8355,
+    "p": 0.5266,
+    "n": 0.1711,
     "chargeFraction": 0.85,
-    "residualSd": 0.0421
+    "residualSd": 0.041
   },
-  "inSampleRms": 0.0391,
-  "leaveOneCartridgeOutRms": 0.0421,
+  "inSampleRms": 0.0381,
+  "leaveOneCartridgeOutRms": 0.041,
   "barrelPairRms": 0.0098,
   "barrelPairCount": 91,
-  "pointCount": 191,
-  "cartridgeCount": 64,
+  "pointCount": 201,
+  "cartridgeCount": 69,
   "points": [
     {
       "cartridgeId": "17-rem",
@@ -130,10 +130,11 @@
     {
       "cartridgeId": "222-rem",
       "bulletWeightGr": 30,
-      "velocityFps": 3961,
+      "velocityFps": 3962,
       "barrelLengthIn": 24,
-      "loadCount": 37,
+      "loadCount": 38,
       "sources": [
+        "Community Berger 22 Caliber 52 Grain FB Varmint",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -143,10 +144,11 @@
     {
       "cartridgeId": "222-rem",
       "bulletWeightGr": 50,
-      "velocityFps": 3315,
+      "velocityFps": 3316,
       "barrelLengthIn": 24,
-      "loadCount": 37,
+      "loadCount": 38,
       "sources": [
+        "Community Berger 22 Caliber 52 Grain FB Varmint",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -156,10 +158,11 @@
     {
       "cartridgeId": "222-rem",
       "bulletWeightGr": 83,
-      "velocityFps": 2778,
+      "velocityFps": 2779,
       "barrelLengthIn": 24,
-      "loadCount": 37,
+      "loadCount": 38,
       "sources": [
+        "Community Berger 22 Caliber 52 Grain FB Varmint",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -169,10 +172,22 @@
     {
       "cartridgeId": "223-rem",
       "bulletWeightGr": 30,
-      "velocityFps": 4325,
+      "velocityFps": 4500,
       "barrelLengthIn": 24,
-      "loadCount": 75,
+      "loadCount": 133,
       "sources": [
+        "Community Berger 22 Caliber 75 Grain VLD Target",
+        "Community Berger 22 Caliber 80.5 Grain FULLBORE Target",
+        "Community Berger 22 Caliber 70 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Sierra 22 Caliber 80 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 90 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
+        "Hammer Bullets",
+        "Hammer Bullets",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -181,34 +196,94 @@
     },
     {
       "cartridgeId": "223-rem",
+      "bulletWeightGr": 53,
+      "velocityFps": 3386,
+      "barrelLengthIn": 24,
+      "loadCount": 133,
+      "sources": [
+        "Community Berger 22 Caliber 75 Grain VLD Target",
+        "Community Berger 22 Caliber 80.5 Grain FULLBORE Target",
+        "Community Berger 22 Caliber 70 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Sierra 22 Caliber 80 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 90 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
+        "Hammer Bullets",
+        "Hammer Bullets",
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Shooters World",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "223-rem",
+      "bulletWeightGr": 95,
+      "velocityFps": 2529,
+      "barrelLengthIn": 24,
+      "loadCount": 133,
+      "sources": [
+        "Community Berger 22 Caliber 75 Grain VLD Target",
+        "Community Berger 22 Caliber 80.5 Grain FULLBORE Target",
+        "Community Berger 22 Caliber 70 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Berger 22 Caliber 90 Grain VLD Target",
+        "Community Sierra 22 Caliber 80 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 90 Grain HPBT MatchKing",
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
+        "Hammer Bullets",
+        "Hammer Bullets",
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Shooters World",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "223-wssm",
+      "bulletWeightGr": 33,
+      "velocityFps": 4666,
+      "barrelLengthIn": 24,
+      "loadCount": 30,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "223-wssm",
       "bulletWeightGr": 52,
-      "velocityFps": 3394,
+      "velocityFps": 3986,
       "barrelLengthIn": 24,
-      "loadCount": 75,
+      "loadCount": 30,
       "sources": [
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
-        "Shooters World",
         "Vihtavuori"
       ]
     },
     {
-      "cartridgeId": "223-rem",
-      "bulletWeightGr": 90,
-      "velocityFps": 2666,
+      "cartridgeId": "223-wssm",
+      "bulletWeightGr": 83,
+      "velocityFps": 3389,
       "barrelLengthIn": 24,
-      "loadCount": 75,
+      "loadCount": 30,
       "sources": [
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
-        "Shooters World",
         "Vihtavuori"
       ]
     },
     {
       "cartridgeId": "22-250-rem",
       "bulletWeightGr": 33,
-      "velocityFps": 4615,
+      "velocityFps": 4616,
       "barrelLengthIn": 24,
       "loadCount": 46,
       "sources": [
@@ -269,7 +344,7 @@
     {
       "cartridgeId": "220-swift",
       "bulletWeightGr": 83,
-      "velocityFps": 3344,
+      "velocityFps": 3343,
       "barrelLengthIn": 24,
       "loadCount": 25,
       "sources": [
@@ -280,10 +355,11 @@
     {
       "cartridgeId": "224-valkyrie",
       "bulletWeightGr": 33,
-      "velocityFps": 4420,
+      "velocityFps": 4435,
       "barrelLengthIn": 24,
-      "loadCount": 45,
+      "loadCount": 46,
       "sources": [
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -292,11 +368,12 @@
     },
     {
       "cartridgeId": "224-valkyrie",
-      "bulletWeightGr": 54,
-      "velocityFps": 3466,
+      "bulletWeightGr": 56,
+      "velocityFps": 3405,
       "barrelLengthIn": 24,
-      "loadCount": 45,
+      "loadCount": 46,
       "sources": [
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -305,11 +382,12 @@
     },
     {
       "cartridgeId": "224-valkyrie",
-      "bulletWeightGr": 90,
-      "velocityFps": 2694,
+      "bulletWeightGr": 95,
+      "velocityFps": 2615,
       "barrelLengthIn": 24,
-      "loadCount": 45,
+      "loadCount": 46,
       "sources": [
+        "Community Sierra 22 Caliber 95 Grain HPBT MatchKing",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -404,11 +482,47 @@
       ]
     },
     {
+      "cartridgeId": "243-wssm",
+      "bulletWeightGr": 55,
+      "velocityFps": 4138,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "243-wssm",
+      "bulletWeightGr": 76,
+      "velocityFps": 3631,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "243-wssm",
+      "bulletWeightGr": 104,
+      "velocityFps": 3199,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
       "cartridgeId": "6mm-creedmoor",
       "bulletWeightGr": 55,
-      "velocityFps": 4141,
+      "velocityFps": 4136,
       "barrelLengthIn": 24,
-      "loadCount": 56,
+      "loadCount": 60,
       "sources": [
         "Community Berger 6 mm 108 Grain Elite Hunter",
         "Community Berger 6 mm 108 Grain Elite Hunter",
@@ -421,6 +535,9 @@
         "Community Berger 6 mm 105 Grain Hybrid Target",
         "Community Berger 6 mm 109 Grain Long Range Hybrid Target",
         "Community Berger 6 mm 120 Grain Long Range Hybrid Target",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -430,9 +547,9 @@
     {
       "cartridgeId": "6mm-creedmoor",
       "bulletWeightGr": 81,
-      "velocityFps": 3478,
+      "velocityFps": 3479,
       "barrelLengthIn": 24,
-      "loadCount": 56,
+      "loadCount": 60,
       "sources": [
         "Community Berger 6 mm 108 Grain Elite Hunter",
         "Community Berger 6 mm 108 Grain Elite Hunter",
@@ -445,6 +562,9 @@
         "Community Berger 6 mm 105 Grain Hybrid Target",
         "Community Berger 6 mm 109 Grain Long Range Hybrid Target",
         "Community Berger 6 mm 120 Grain Long Range Hybrid Target",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -454,9 +574,9 @@
     {
       "cartridgeId": "6mm-creedmoor",
       "bulletWeightGr": 120,
-      "velocityFps": 2913,
+      "velocityFps": 2919,
       "barrelLengthIn": 24,
-      "loadCount": 56,
+      "loadCount": 60,
       "sources": [
         "Community Berger 6 mm 108 Grain Elite Hunter",
         "Community Berger 6 mm 108 Grain Elite Hunter",
@@ -469,6 +589,9 @@
         "Community Berger 6 mm 105 Grain Hybrid Target",
         "Community Berger 6 mm 109 Grain Long Range Hybrid Target",
         "Community Berger 6 mm 120 Grain Long Range Hybrid Target",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Hunting",
+        "Community Berger 6 mm 115 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -478,7 +601,7 @@
     {
       "cartridgeId": "6mm-arc",
       "bulletWeightGr": 55,
-      "velocityFps": 3685,
+      "velocityFps": 3686,
       "barrelLengthIn": 24,
       "loadCount": 44,
       "sources": [
@@ -565,7 +688,7 @@
     {
       "cartridgeId": "257-wby",
       "bulletWeightGr": 59,
-      "velocityFps": 4200,
+      "velocityFps": 4199,
       "barrelLengthIn": 24,
       "loadCount": 32,
       "sources": [
@@ -576,7 +699,7 @@
     {
       "cartridgeId": "257-wby",
       "bulletWeightGr": 89,
-      "velocityFps": 3698,
+      "velocityFps": 3697,
       "barrelLengthIn": 24,
       "loadCount": 32,
       "sources": [
@@ -598,10 +721,11 @@
     {
       "cartridgeId": "6-5-creedmoor",
       "bulletWeightGr": 80,
-      "velocityFps": 3779,
+      "velocityFps": 3780,
       "barrelLengthIn": 24,
-      "loadCount": 93,
+      "loadCount": 96,
       "sources": [
+        "Community Berger 6.5 mm 135 Grain Classic Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
@@ -617,6 +741,8 @@
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 153.5 Grain Long Range Hybrid Target",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -626,10 +752,11 @@
     {
       "cartridgeId": "6-5-creedmoor",
       "bulletWeightGr": 113,
-      "velocityFps": 3143,
+      "velocityFps": 3142,
       "barrelLengthIn": 24,
-      "loadCount": 93,
+      "loadCount": 96,
       "sources": [
+        "Community Berger 6.5 mm 135 Grain Classic Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
@@ -645,6 +772,8 @@
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 153.5 Grain Long Range Hybrid Target",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -654,10 +783,11 @@
     {
       "cartridgeId": "6-5-creedmoor",
       "bulletWeightGr": 160,
-      "velocityFps": 2611,
+      "velocityFps": 2608,
       "barrelLengthIn": 24,
-      "loadCount": 93,
+      "loadCount": 96,
       "sources": [
+        "Community Berger 6.5 mm 135 Grain Classic Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
         "Community Berger 6.5 mm 140 Grain Elite Hunter",
@@ -673,6 +803,8 @@
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 144 Grain Long Range Hybrid Target",
         "Community Berger 6.5 mm 153.5 Grain Long Range Hybrid Target",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -745,7 +877,7 @@
     {
       "cartridgeId": "6-5x55-swedish",
       "bulletWeightGr": 160,
-      "velocityFps": 2624,
+      "velocityFps": 2625,
       "barrelLengthIn": 24,
       "loadCount": 52,
       "sources": [
@@ -757,10 +889,13 @@
     {
       "cartridgeId": "260-rem",
       "bulletWeightGr": 80,
-      "velocityFps": 3712,
+      "velocityFps": 3708,
       "barrelLengthIn": 24,
-      "loadCount": 64,
+      "loadCount": 69,
       "sources": [
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -772,8 +907,11 @@
       "bulletWeightGr": 113,
       "velocityFps": 3105,
       "barrelLengthIn": 24,
-      "loadCount": 64,
+      "loadCount": 69,
       "sources": [
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -783,10 +921,13 @@
     {
       "cartridgeId": "260-rem",
       "bulletWeightGr": 160,
-      "velocityFps": 2594,
+      "velocityFps": 2598,
       "barrelLengthIn": 24,
-      "loadCount": 64,
+      "loadCount": 69,
       "sources": [
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 130 Grain AR Hybrid OTM Tactical",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -796,7 +937,7 @@
     {
       "cartridgeId": "6-5-prc",
       "bulletWeightGr": 80,
-      "velocityFps": 3982,
+      "velocityFps": 3983,
       "barrelLengthIn": 24,
       "loadCount": 83,
       "sources": [
@@ -1000,12 +1141,15 @@
     {
       "cartridgeId": "270-win",
       "bulletWeightGr": 85,
-      "velocityFps": 3827,
+      "velocityFps": 3824,
       "barrelLengthIn": 24,
-      "loadCount": 47,
+      "loadCount": 51,
       "sources": [
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
+        "Community Berger 270 Caliber 130 Grain VLD Hunting",
+        "Community Berger 270 Caliber 140 Grain VLD Hunting",
+        "Community Berger 270 Caliber 150 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1015,12 +1159,15 @@
     {
       "cartridgeId": "270-win",
       "bulletWeightGr": 124,
-      "velocityFps": 3240,
+      "velocityFps": 3238,
       "barrelLengthIn": 24,
-      "loadCount": 47,
+      "loadCount": 51,
       "sources": [
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
+        "Community Berger 270 Caliber 130 Grain VLD Hunting",
+        "Community Berger 270 Caliber 140 Grain VLD Hunting",
+        "Community Berger 270 Caliber 150 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1030,12 +1177,15 @@
     {
       "cartridgeId": "270-win",
       "bulletWeightGr": 180,
-      "velocityFps": 2750,
+      "velocityFps": 2748,
       "barrelLengthIn": 24,
-      "loadCount": 47,
+      "loadCount": 51,
       "sources": [
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
+        "Community Berger 270 Caliber 130 Grain VLD Hunting",
+        "Community Berger 270 Caliber 140 Grain VLD Hunting",
+        "Community Berger 270 Caliber 150 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1045,10 +1195,12 @@
     {
       "cartridgeId": "270-wsm",
       "bulletWeightGr": 85,
-      "velocityFps": 4000,
+      "velocityFps": 3999,
       "barrelLengthIn": 24,
-      "loadCount": 34,
+      "loadCount": 36,
       "sources": [
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Hammer Bullets",
@@ -1059,10 +1211,12 @@
     {
       "cartridgeId": "270-wsm",
       "bulletWeightGr": 120,
-      "velocityFps": 3511,
+      "velocityFps": 3504,
       "barrelLengthIn": 24,
-      "loadCount": 34,
+      "loadCount": 36,
       "sources": [
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Hammer Bullets",
@@ -1073,10 +1227,12 @@
     {
       "cartridgeId": "270-wsm",
       "bulletWeightGr": 170,
-      "velocityFps": 3078,
+      "velocityFps": 3067,
       "barrelLengthIn": 24,
-      "loadCount": 34,
+      "loadCount": 36,
       "sources": [
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
+        "Community Berger 270 Caliber 140 Grain Classic Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Community Berger 270 Caliber 170 Grain EOL Elite Hunter",
         "Hammer Bullets",
@@ -1087,7 +1243,7 @@
     {
       "cartridgeId": "270-wby",
       "bulletWeightGr": 85,
-      "velocityFps": 3910,
+      "velocityFps": 3909,
       "barrelLengthIn": 24,
       "loadCount": 28,
       "sources": [
@@ -1099,7 +1255,7 @@
     {
       "cartridgeId": "270-wby",
       "bulletWeightGr": 117,
-      "velocityFps": 3518,
+      "velocityFps": 3517,
       "barrelLengthIn": 24,
       "loadCount": 28,
       "sources": [
@@ -1159,10 +1315,15 @@
     {
       "cartridgeId": "7mm-08-rem",
       "bulletWeightGr": 90,
-      "velocityFps": 3628,
+      "velocityFps": 3620,
       "barrelLengthIn": 24,
-      "loadCount": 53,
+      "loadCount": 58,
       "sources": [
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1172,10 +1333,15 @@
     {
       "cartridgeId": "7mm-08-rem",
       "bulletWeightGr": 127,
-      "velocityFps": 3076,
+      "velocityFps": 3070,
       "barrelLengthIn": 24,
-      "loadCount": 53,
+      "loadCount": 58,
       "sources": [
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1185,10 +1351,15 @@
     {
       "cartridgeId": "7mm-08-rem",
       "bulletWeightGr": 180,
-      "velocityFps": 2602,
+      "velocityFps": 2597,
       "barrelLengthIn": 24,
-      "loadCount": 53,
+      "loadCount": 58,
       "sources": [
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
+        "Community Berger 7 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1198,7 +1369,7 @@
     {
       "cartridgeId": "7x57-mauser",
       "bulletWeightGr": 77,
-      "velocityFps": 3788,
+      "velocityFps": 3787,
       "barrelLengthIn": 24,
       "loadCount": 36,
       "sources": [
@@ -1210,7 +1381,7 @@
     {
       "cartridgeId": "7x57-mauser",
       "bulletWeightGr": 116,
-      "velocityFps": 3169,
+      "velocityFps": 3168,
       "barrelLengthIn": 24,
       "loadCount": 36,
       "sources": [
@@ -1222,7 +1393,7 @@
     {
       "cartridgeId": "7x57-mauser",
       "bulletWeightGr": 175,
-      "velocityFps": 2650,
+      "velocityFps": 2649,
       "barrelLengthIn": 24,
       "loadCount": 36,
       "sources": [
@@ -1232,17 +1403,52 @@
       ]
     },
     {
+      "cartridgeId": "7mm-backcountry",
+      "bulletWeightGr": 90,
+      "velocityFps": 4101,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center"
+      ]
+    },
+    {
+      "cartridgeId": "7mm-backcountry",
+      "bulletWeightGr": 132,
+      "velocityFps": 3517,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center"
+      ]
+    },
+    {
+      "cartridgeId": "7mm-backcountry",
+      "bulletWeightGr": 195,
+      "velocityFps": 3007,
+      "barrelLengthIn": 24,
+      "loadCount": 21,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center"
+      ]
+    },
+    {
       "cartridgeId": "7mm-rem-mag",
       "bulletWeightGr": 100,
-      "velocityFps": 3729,
+      "velocityFps": 3732,
       "barrelLengthIn": 24,
-      "loadCount": 52,
+      "loadCount": 55,
       "sources": [
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 180 Grain Hybrid Target",
         "Community Berger 7 mm 190 Grain Long Range Hybrid Target",
+        "Community Berger 7 mm 180 Grain VLD Hunting",
+        "Community Berger 7 mm 168 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1254,13 +1460,15 @@
       "bulletWeightGr": 140,
       "velocityFps": 3268,
       "barrelLengthIn": 24,
-      "loadCount": 52,
+      "loadCount": 55,
       "sources": [
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 180 Grain Hybrid Target",
         "Community Berger 7 mm 190 Grain Long Range Hybrid Target",
+        "Community Berger 7 mm 180 Grain VLD Hunting",
+        "Community Berger 7 mm 168 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1270,15 +1478,17 @@
     {
       "cartridgeId": "7mm-rem-mag",
       "bulletWeightGr": 195,
-      "velocityFps": 2870,
+      "velocityFps": 2868,
       "barrelLengthIn": 24,
-      "loadCount": 52,
+      "loadCount": 55,
       "sources": [
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 195 Grain EOL Elite Hunter",
         "Community Berger 7 mm 180 Grain Hybrid Target",
         "Community Berger 7 mm 190 Grain Long Range Hybrid Target",
+        "Community Berger 7 mm 180 Grain VLD Hunting",
+        "Community Berger 7 mm 168 Grain VLD Target",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1288,10 +1498,12 @@
     {
       "cartridgeId": "7mm-wsm",
       "bulletWeightGr": 90,
-      "velocityFps": 3935,
+      "velocityFps": 3946,
       "barrelLengthIn": 24,
-      "loadCount": 40,
+      "loadCount": 42,
       "sources": [
+        "Community Berger 7 mm 150 Grain Classic Hunter",
+        "Community Berger 7 mm 168 Grain Classic Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Hammer Bullets",
@@ -1302,10 +1514,12 @@
     {
       "cartridgeId": "7mm-wsm",
       "bulletWeightGr": 125,
-      "velocityFps": 3466,
+      "velocityFps": 3465,
       "barrelLengthIn": 24,
-      "loadCount": 40,
+      "loadCount": 42,
       "sources": [
+        "Community Berger 7 mm 150 Grain Classic Hunter",
+        "Community Berger 7 mm 168 Grain Classic Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Hammer Bullets",
@@ -1316,10 +1530,12 @@
     {
       "cartridgeId": "7mm-wsm",
       "bulletWeightGr": 175,
-      "velocityFps": 3044,
+      "velocityFps": 3032,
       "barrelLengthIn": 24,
-      "loadCount": 40,
+      "loadCount": 42,
       "sources": [
+        "Community Berger 7 mm 150 Grain Classic Hunter",
+        "Community Berger 7 mm 168 Grain Classic Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Community Berger 7 mm 175 Grain Elite Hunter",
         "Hammer Bullets",
@@ -1330,7 +1546,7 @@
     {
       "cartridgeId": "7mm-wby",
       "bulletWeightGr": 100,
-      "velocityFps": 3915,
+      "velocityFps": 3916,
       "barrelLengthIn": 24,
       "loadCount": 24,
       "sources": [
@@ -1428,7 +1644,7 @@
     {
       "cartridgeId": "7mm-rum",
       "bulletWeightGr": 195,
-      "velocityFps": 3010,
+      "velocityFps": 3011,
       "barrelLengthIn": 24,
       "loadCount": 34,
       "sources": [
@@ -1501,7 +1717,7 @@
     {
       "cartridgeId": "284-win",
       "bulletWeightGr": 100,
-      "velocityFps": 3603,
+      "velocityFps": 3604,
       "barrelLengthIn": 24,
       "loadCount": 39,
       "sources": [
@@ -1549,7 +1765,7 @@
     {
       "cartridgeId": "28-nosler",
       "bulletWeightGr": 101,
-      "velocityFps": 3947,
+      "velocityFps": 3945,
       "barrelLengthIn": 24,
       "loadCount": 38,
       "sources": [
@@ -1566,7 +1782,7 @@
     {
       "cartridgeId": "28-nosler",
       "bulletWeightGr": 140,
-      "velocityFps": 3480,
+      "velocityFps": 3478,
       "barrelLengthIn": 24,
       "loadCount": 38,
       "sources": [
@@ -1583,7 +1799,7 @@
     {
       "cartridgeId": "28-nosler",
       "bulletWeightGr": 195,
-      "velocityFps": 3062,
+      "velocityFps": 3060,
       "barrelLengthIn": 24,
       "loadCount": 38,
       "sources": [
@@ -1613,7 +1829,7 @@
     {
       "cartridgeId": "30-30-win",
       "bulletWeightGr": 136,
-      "velocityFps": 2510,
+      "velocityFps": 2511,
       "barrelLengthIn": 24,
       "loadCount": 22,
       "sources": [
@@ -1639,12 +1855,17 @@
     {
       "cartridgeId": "308-win",
       "bulletWeightGr": 57,
-      "velocityFps": 4999,
+      "velocityFps": 4985,
       "barrelLengthIn": 24,
-      "loadCount": 135,
+      "loadCount": 152,
       "sources": [
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
+        "Community Berger 30 Caliber 185 Grain Classic Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
         "Community Berger 30 cal 155 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
@@ -1667,6 +1888,15 @@
         "Community Berger 30 cal 208 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain Long Range BT Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain VLD Hunting",
+        "Community Berger 30 Caliber 210 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1676,12 +1906,17 @@
     {
       "cartridgeId": "308-win",
       "bulletWeightGr": 112,
-      "velocityFps": 3429,
+      "velocityFps": 3428,
       "barrelLengthIn": 24,
-      "loadCount": 135,
+      "loadCount": 152,
       "sources": [
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
+        "Community Berger 30 Caliber 185 Grain Classic Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
         "Community Berger 30 cal 155 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
@@ -1704,6 +1939,15 @@
         "Community Berger 30 cal 208 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain Long Range BT Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain VLD Hunting",
+        "Community Berger 30 Caliber 210 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1713,12 +1957,17 @@
     {
       "cartridgeId": "308-win",
       "bulletWeightGr": 220,
-      "velocityFps": 2352,
+      "velocityFps": 2357,
       "barrelLengthIn": 24,
-      "loadCount": 135,
+      "loadCount": 152,
       "sources": [
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
+        "Community Berger 30 Caliber 185 Grain Classic Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
+        "Community Berger 30 Caliber 155.5 Grain FULLBORE Target",
         "Community Berger 30 cal 155 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
         "Community Berger 30 cal 168 Grain Hybrid Target",
@@ -1741,6 +1990,15 @@
         "Community Berger 30 cal 208 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut Target",
+        "Community Berger 30 Caliber 175 Grain Long Range BT Target",
+        "Community Berger 30 Caliber 175 Grain OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain Juggernaut OTM Tactical",
+        "Community Berger 30 Caliber 185 Grain VLD Hunting",
+        "Community Berger 30 Caliber 210 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1750,11 +2008,13 @@
     {
       "cartridgeId": "30-06",
       "bulletWeightGr": 57,
-      "velocityFps": 4719,
+      "velocityFps": 4717,
       "barrelLengthIn": 24,
-      "loadCount": 97,
+      "loadCount": 99,
       "sources": [
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 155 Grain VLD Hunting",
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1764,11 +2024,13 @@
     {
       "cartridgeId": "30-06",
       "bulletWeightGr": 117,
-      "velocityFps": 3396,
+      "velocityFps": 3394,
       "barrelLengthIn": 24,
-      "loadCount": 97,
+      "loadCount": 99,
       "sources": [
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 155 Grain VLD Hunting",
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1778,11 +2040,13 @@
     {
       "cartridgeId": "30-06",
       "bulletWeightGr": 240,
-      "velocityFps": 2445,
+      "velocityFps": 2443,
       "barrelLengthIn": 24,
-      "loadCount": 97,
+      "loadCount": 99,
       "sources": [
         "Community Berger 30 cal 215 Grain Hybrid Target",
+        "Community Berger 30 Caliber 155 Grain VLD Hunting",
+        "Community Berger 30 Caliber 168 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Shooters World",
@@ -1854,7 +2118,7 @@
       "bulletWeightGr": 100,
       "velocityFps": 4052,
       "barrelLengthIn": 24,
-      "loadCount": 80,
+      "loadCount": 81,
       "sources": [
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 205 Grain Elite Hunter",
@@ -1865,6 +2129,7 @@
         "Community Berger 30 cal 220 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
+        "Community Berger 30 Caliber 190 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -1873,9 +2138,9 @@
     {
       "cartridgeId": "300-wsm",
       "bulletWeightGr": 155,
-      "velocityFps": 3281,
+      "velocityFps": 3279,
       "barrelLengthIn": 24,
-      "loadCount": 80,
+      "loadCount": 81,
       "sources": [
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 205 Grain Elite Hunter",
@@ -1886,6 +2151,7 @@
         "Community Berger 30 cal 220 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
+        "Community Berger 30 Caliber 190 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -1894,9 +2160,9 @@
     {
       "cartridgeId": "300-wsm",
       "bulletWeightGr": 240,
-      "velocityFps": 2658,
+      "velocityFps": 2655,
       "barrelLengthIn": 24,
-      "loadCount": 80,
+      "loadCount": 81,
       "sources": [
         "Community Berger 30 Caliber 180 Grain Elite Hunter",
         "Community Berger 30 Caliber 205 Grain Elite Hunter",
@@ -1907,6 +2173,7 @@
         "Community Berger 30 cal 220 Grain Long Range Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
         "Community Berger 30 cal 230 Grain Hybrid Target",
+        "Community Berger 30 Caliber 190 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -2065,20 +2332,7 @@
     {
       "cartridgeId": "300-blackout",
       "bulletWeightGr": 100,
-      "velocityFps": 2921,
-      "barrelLengthIn": 24,
-      "loadCount": 43,
-      "sources": [
-        "Hammer Bullets",
-        "Hodgdon Reloading Data Center",
-        "Shooters World",
-        "Vihtavuori"
-      ]
-    },
-    {
-      "cartridgeId": "300-blackout",
-      "bulletWeightGr": 163,
-      "velocityFps": 1846,
+      "velocityFps": 2918,
       "barrelLengthIn": 24,
       "loadCount": 43,
       "sources": [
@@ -2124,7 +2378,7 @@
     {
       "cartridgeId": "8x57-mauser",
       "bulletWeightGr": 120,
-      "velocityFps": 3266,
+      "velocityFps": 3265,
       "barrelLengthIn": 24,
       "loadCount": 28,
       "sources": [
@@ -2205,17 +2459,6 @@
       "cartridgeId": "338-federal",
       "bulletWeightGr": 196,
       "velocityFps": 2728,
-      "barrelLengthIn": 24,
-      "loadCount": 29,
-      "sources": [
-        "Hammer Bullets",
-        "Hodgdon Reloading Data Center"
-      ]
-    },
-    {
-      "cartridgeId": "338-federal",
-      "bulletWeightGr": 300,
-      "velocityFps": 1963,
       "barrelLengthIn": 24,
       "loadCount": 29,
       "sources": [
@@ -2307,13 +2550,14 @@
     {
       "cartridgeId": "338-rum",
       "bulletWeightGr": 128,
-      "velocityFps": 3966,
+      "velocityFps": 3961,
       "barrelLengthIn": 24,
-      "loadCount": 29,
+      "loadCount": 30,
       "sources": [
         "Community Berger 338 Caliber 250 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
+        "Community Berger 338 Caliber 250 Grain Hybrid OTM Tactical",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center"
       ]
@@ -2321,13 +2565,14 @@
     {
       "cartridgeId": "338-rum",
       "bulletWeightGr": 196,
-      "velocityFps": 3309,
+      "velocityFps": 3313,
       "barrelLengthIn": 24,
-      "loadCount": 29,
+      "loadCount": 30,
       "sources": [
         "Community Berger 338 Caliber 250 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
+        "Community Berger 338 Caliber 250 Grain Hybrid OTM Tactical",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center"
       ]
@@ -2335,13 +2580,14 @@
     {
       "cartridgeId": "338-rum",
       "bulletWeightGr": 300,
-      "velocityFps": 2761,
+      "velocityFps": 2771,
       "barrelLengthIn": 24,
-      "loadCount": 29,
+      "loadCount": 30,
       "sources": [
         "Community Berger 338 Caliber 250 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
         "Community Berger 338 Caliber 300 Grain Elite Hunter",
+        "Community Berger 338 Caliber 250 Grain Hybrid OTM Tactical",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center"
       ]
@@ -2349,7 +2595,7 @@
     {
       "cartridgeId": "340-wby",
       "bulletWeightGr": 128,
-      "velocityFps": 4033,
+      "velocityFps": 4034,
       "barrelLengthIn": 24,
       "loadCount": 25,
       "sources": [
@@ -2360,7 +2606,7 @@
     {
       "cartridgeId": "340-wby",
       "bulletWeightGr": 191,
-      "velocityFps": 3293,
+      "velocityFps": 3295,
       "barrelLengthIn": 24,
       "loadCount": 25,
       "sources": [
@@ -2371,7 +2617,7 @@
     {
       "cartridgeId": "340-wby",
       "bulletWeightGr": 285,
-      "velocityFps": 2690,
+      "velocityFps": 2691,
       "barrelLengthIn": 24,
       "loadCount": 25,
       "sources": [
@@ -2473,7 +2719,7 @@
     {
       "cartridgeId": "375-ruger",
       "bulletWeightGr": 357,
-      "velocityFps": 2525,
+      "velocityFps": 2524,
       "barrelLengthIn": 24,
       "loadCount": 23,
       "sources": [
@@ -2482,11 +2728,83 @@
       ]
     },
     {
+      "cartridgeId": "416-rigby",
+      "bulletWeightGr": 300,
+      "velocityFps": 2922,
+      "barrelLengthIn": 24,
+      "loadCount": 11,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "416-rigby",
+      "bulletWeightGr": 367,
+      "velocityFps": 2582,
+      "barrelLengthIn": 24,
+      "loadCount": 11,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "416-rigby",
+      "bulletWeightGr": 450,
+      "velocityFps": 2278,
+      "barrelLengthIn": 24,
+      "loadCount": 11,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "444-marlin",
+      "bulletWeightGr": 200,
+      "velocityFps": 2650,
+      "barrelLengthIn": 24,
+      "loadCount": 14,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "444-marlin",
+      "bulletWeightGr": 245,
+      "velocityFps": 2370,
+      "barrelLengthIn": 24,
+      "loadCount": 14,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
+      "cartridgeId": "444-marlin",
+      "bulletWeightGr": 300,
+      "velocityFps": 2121,
+      "barrelLengthIn": 24,
+      "loadCount": 14,
+      "sources": [
+        "Hammer Bullets",
+        "Hodgdon Reloading Data Center",
+        "Vihtavuori"
+      ]
+    },
+    {
       "cartridgeId": "45-70-govt",
       "bulletWeightGr": 250,
-      "velocityFps": 2411,
+      "velocityFps": 2472,
       "barrelLengthIn": 24,
-      "loadCount": 23,
+      "loadCount": 25,
       "sources": [
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
@@ -2495,28 +2813,26 @@
       ]
     },
     {
-      "cartridgeId": "45-70-govt",
-      "bulletWeightGr": 354,
-      "velocityFps": 1909,
+      "cartridgeId": "458-win-mag",
+      "bulletWeightGr": 250,
+      "velocityFps": 3116,
       "barrelLengthIn": 24,
-      "loadCount": 23,
+      "loadCount": 19,
       "sources": [
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
-        "Shooters World",
         "Vihtavuori"
       ]
     },
     {
-      "cartridgeId": "45-70-govt",
-      "bulletWeightGr": 500,
-      "velocityFps": 1515,
+      "cartridgeId": "458-win-mag",
+      "bulletWeightGr": 357,
+      "velocityFps": 2380,
       "barrelLengthIn": 24,
-      "loadCount": 23,
+      "loadCount": 19,
       "sources": [
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
-        "Shooters World",
         "Vihtavuori"
       ]
     },
@@ -2525,11 +2841,12 @@
       "bulletWeightGr": 80,
       "velocityFps": 3747,
       "barrelLengthIn": 24,
-      "loadCount": 60,
+      "loadCount": 61,
       "sources": [
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -2538,13 +2855,14 @@
     {
       "cartridgeId": "6-5-284-norma",
       "bulletWeightGr": 113,
-      "velocityFps": 3239,
+      "velocityFps": 3238,
       "barrelLengthIn": 24,
-      "loadCount": 60,
+      "loadCount": 61,
       "sources": [
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -2553,13 +2871,14 @@
     {
       "cartridgeId": "6-5-284-norma",
       "bulletWeightGr": 160,
-      "velocityFps": 2796,
+      "velocityFps": 2795,
       "barrelLengthIn": 24,
-      "loadCount": 60,
+      "loadCount": 61,
       "sources": [
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
         "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
+        "Community Berger 6.5 mm 140 Grain VLD Hunting",
         "Hammer Bullets",
         "Hodgdon Reloading Data Center",
         "Vihtavuori"
@@ -2704,42 +3023,6 @@
         "Hodgdon Reloading Data Center",
         "Shooters World",
         "Vihtavuori"
-      ]
-    },
-    {
-      "cartridgeId": "26-nosler",
-      "bulletWeightGr": 80,
-      "velocityFps": 4094,
-      "barrelLengthIn": 24,
-      "loadCount": 30,
-      "sources": [
-        "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
-        "Hammer Bullets",
-        "Hodgdon Reloading Data Center"
-      ]
-    },
-    {
-      "cartridgeId": "26-nosler",
-      "bulletWeightGr": 112,
-      "velocityFps": 3659,
-      "barrelLengthIn": 24,
-      "loadCount": 30,
-      "sources": [
-        "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
-        "Hammer Bullets",
-        "Hodgdon Reloading Data Center"
-      ]
-    },
-    {
-      "cartridgeId": "26-nosler",
-      "bulletWeightGr": 156,
-      "velocityFps": 3275,
-      "barrelLengthIn": 24,
-      "loadCount": 30,
-      "sources": [
-        "Community Berger 6.5 mm 156 Grain EOL Elite Hunter",
-        "Hammer Bullets",
-        "Hodgdon Reloading Data Center"
       ]
     },
     {

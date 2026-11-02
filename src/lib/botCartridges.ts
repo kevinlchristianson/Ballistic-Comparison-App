@@ -39,6 +39,8 @@ export interface BotCartridgeRecord {
   lengthToNeck?: number | null;
   caseCapacityGrH2O: number | null;
   shoulderAngleDeg: number | null;
+  /** Optional: "double-radius" for a Weatherby-style shoulder with no single angle, "cone" otherwise. */
+  shoulderStyle?: "cone" | "double-radius" | null;
   rimType: RimType | null;
   /** Maximum average pressure as printed. `cip` is C.I.P. Pmax (piezo at the case mouth). */
   pressure: { value: number; unit: "psi" | "bar"; method: "piezo" | "cup" | "cip" } | null;
@@ -164,6 +166,7 @@ export function botRecordToCartridge(r: BotCartridgeRecord, bot: string, file: s
   if (capacity != null && (capacity < 1 || capacity > 500)) return "caseCapacityGrH2O out of range";
   const shoulder = finite(r.shoulderAngleDeg);
   if (shoulder != null && (shoulder < 0 || shoulder > 90)) return "shoulderAngleDeg out of range";
+  if (r.shoulderStyle != null && r.shoulderStyle !== "cone" && r.shoulderStyle !== "double-radius") return `unknown shoulderStyle ${JSON.stringify(r.shoulderStyle)}`;
   const rimTypes: RimType[] = ["rimless", "rimmed", "semi-rimmed", "belted", "rebated"];
   if (r.rimType != null && !rimTypes.includes(r.rimType)) return `unknown rimType ${JSON.stringify(r.rimType)}`;
 
@@ -200,6 +203,7 @@ export function botRecordToCartridge(r: BotCartridgeRecord, bot: string, file: s
     mapMethod,
     rimType: r.rimType ?? null,
     shoulderAngleDeg: shoulder,
+    ...(r.shoulderStyle ? { shoulderStyle: r.shoulderStyle } : {}),
     verification: {
       status: "unverified",
       checkAgainst: standard ? [standard] : [],

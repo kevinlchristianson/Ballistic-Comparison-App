@@ -861,9 +861,11 @@
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
         "kind": "Labelled SAAMI, but not in the current Z299.4-2025 standard.",
-        "caseCapacityGrH2O": "63.1 gr H2O: 63.1 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified."
+        "caseCapacityGrH2O": "63.1 gr H2O: 63.1 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "25-20-win",
@@ -1117,9 +1119,11 @@
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "caseCapacityGrH2O": "85.6 gr H2O: 85.6 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified. Replaced an uncited 84.0 gr on 2026-10-31.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.82) gives bullet diameter .2573 in, tolerance -.003.",
-        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 53,500 CUP."
+        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 53,500 CUP.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "6-5-creedmoor",
@@ -1418,9 +1422,11 @@
       "fieldNotes": {
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.40) gives bullet diameter .2644 in, tolerance -.003.",
-        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28."
+        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "6-8-western",
@@ -1606,9 +1612,11 @@
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "caseCapacityGrH2O": "85.3 gr H2O: 85.3 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified. Replaced an uncited 84.0 gr on 2026-10-31.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.87) gives bullet diameter .2773 in, tolerance -.003.",
-        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 53,500 CUP."
+        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 53,500 CUP.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "277-sig-fury",
@@ -1952,9 +1960,11 @@
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "caseCapacityGrH2O": "87.5 gr H2O: 87.5 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified. Replaced an uncited 92.0 gr on 2026-10-31.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.50) gives bullet diameter .2843 in, tolerance -.003.",
-        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28."
+        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "7mm-stw",
@@ -2547,9 +2557,11 @@
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "caseCapacityGrH2O": "100.4 gr H2O: 100.4 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified. Replaced an uncited 100.0 gr on 2026-10-31.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.111) gives bullet diameter .3083 in, tolerance -.003.",
-        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28."
+        "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "300-rum",
@@ -2657,9 +2669,11 @@
       },
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
-        "kind": "Labelled SAAMI, but not in the current Z299.4-2025 standard."
+        "kind": "Labelled SAAMI, but not in the current Z299.4-2025 standard.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "300-prc",
@@ -3322,9 +3336,11 @@
         "caseCapacityGrH2O": "102.1 gr H2O: 102.1 gr Wby, member measurements on the Nosler forum (https://forum.nosler.com/threads/case-h2o-capacities.31408/). Varies by headstamp. Single community source, unverified. Replaced an uncited 106.0 gr on 2026-10-31.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.130) gives bullet diameter .3383 in, tolerance -.003.",
         "mapPsi": "SAAMI transducer MAP, Z299.4-2025 pp.11-28. Crusher MAP 53,500 CUP.",
-        "maxCoalIn": "The SAAMI drawing (p.130) prints 3.585-3.700 in but 87.63-91.44 mm (3.450-3.600 in). The inch values are used here; check a current drawing from saami.org."
+        "maxCoalIn": "The SAAMI drawing (p.130) prints 3.585-3.700 in but 87.63-91.44 mm (3.450-3.600 in). The inch values are used here; check a current drawing from saami.org.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "35-rem",
@@ -3639,9 +3655,11 @@
       },
       "fieldNotes": {
         "trimLengthIn": "Derived as case length minus 0.010 in (common convention), not read from a drawing.",
-        "kind": "Labelled SAAMI, but not in the current Z299.4-2025 standard."
+        "kind": "Labelled SAAMI, but not in the current Z299.4-2025 standard.",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "405-win",
@@ -6218,9 +6236,11 @@
         "trimLengthIn": "Derived as SAAMI maximum case length minus 0.010 in (common convention); the standard does not give a trim length.",
         "bulletDiameterIn": "Nominal. SAAMI Z299.4-2025 drawing (p.151) gives bullet diameter .416 in, tolerance -.003.",
         "mapPsi": "SAAMI Z299.4-2025 establishes only a crusher MAP of 53,500 CUP for this cartridge, with no transducer (psi) value. CUP does not convert to psi, so this is left null.",
-        "rimType": "From reference knowledge (rimmed and belted ones agree with the rim or belt headspace on the drawing)."
+        "rimType": "From reference knowledge (rimmed and belted ones agree with the rim or belt headspace on the drawing).",
+        "shoulderStyle": "Weatherby double-radius shoulder: it curves from the body to the neck, tangent to each, with no straight cone (https://en.wikipedia.org/wiki/.257_Weatherby_Magnum describes it for the .257; the other Weatherby magnums share the design). Shoulder and neck lengths are the tangent points. Not checked against each drawing."
       },
-      "userAdded": false
+      "userAdded": false,
+      "shoulderStyle": "double-radius"
     },
     {
       "id": "44-rem-mag",

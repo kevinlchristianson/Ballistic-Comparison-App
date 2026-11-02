@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { loadCartridgeLibrary } from "../scripts/cartridge-library.ts";
 import { buildCaseProfiles, halfOutline, type CaseProfile } from "../src/lib/caseProfile.ts";
-import type { Cartridge } from "../src/lib/cartridges.ts";
-import { cartridge } from "./helpers.ts";
+import { shoulderCurve, shoulderStyleOf, type Cartridge } from "../src/lib/cartridges.ts";
+import { cartridge, cartridges } from "./helpers.ts";
 
 const PTG = "From the bullets bot: Pacific Tool & Gauge (https://example.com/ptg), retrieved 2026-10-28. Not checked by the project.";
 const D4 = "From the bullets bot: 4D Reamer Rentals (https://example.com/4d), retrieved 2026-10-28. Not checked by the project.";
@@ -120,5 +120,34 @@ describe("case profiles", () => {
     // Every complete, consistent print in the library is drawn without body estimates.
     const printed = [...profiles.values()].filter((p) => p.fromPrint);
     expect(printed.length).toBeGreaterThan(150);
+  });
+});
+
+describe("double-radius (Weatherby) shoulders", () => {
+  it("follows two tangent arcs: flat at both ends, halfway at the middle", () => {
+    const L = 0.218, h = 0.1035;
+    expect(shoulderCurve("double-radius", 0, L, h)).toBeCloseTo(0, 6);
+    expect(shoulderCurve("double-radius", 0.5, L, h)).toBeCloseTo(0.5, 6);
+    expect(shoulderCurve("double-radius", 1, L, h)).toBeCloseTo(1, 6);
+    // Convex off the body: behind the straight line early, ahead of it late.
+    expect(shoulderCurve("double-radius", 0.25, L, h)).toBeLessThan(0.25);
+    expect(shoulderCurve("double-radius", 0.75, L, h)).toBeGreaterThan(0.75);
+    expect(shoulderCurve("cone", 0.3, L, h)).toBe(0.3);
+  });
+
+  it("marks Weatherby magnums double-radius, but not the RPM line", () => {
+    expect(shoulderStyleOf({ name: ".300 Weatherby Magnum" }).style).toBe("double-radius");
+    expect(shoulderStyleOf({ name: "6.5 Weatherby RPM" }).style).toBe("cone");
+    expect(shoulderStyleOf({ name: ".308 Winchester" }).style).toBe("cone");
+    expect(shoulderStyleOf({ name: "6.5 Weatherby RPM", shoulderStyle: "double-radius" })).toEqual({ style: "double-radius", inferred: false });
+  });
+
+  it("draws the .257 Weatherby shoulder as a curve between the printed tangent points", () => {
+    const p = buildCaseProfiles(cartridges).get("257-wby")!;
+    expect(p.shoulderStyle).toEqual({ value: "double-radius", inferred: false });
+    const pts = p.segments.find((s) => s.part === "shoulder")!.points;
+    expect(pts.length).toBeGreaterThan(2);
+    expect(pts[0]).toEqual([p.headToShoulder.value, p.shoulderDiameter.value / 2]);
+    expect(pts[pts.length - 1]![0]).toBeCloseTo(p.headToNeck.value, 4);
   });
 });
