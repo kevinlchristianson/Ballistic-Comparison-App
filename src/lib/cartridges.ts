@@ -102,6 +102,15 @@ export interface Cartridge {
   lengthToShoulderIn?: number | null;
   /** Head to the shoulder/neck junction. */
   lengthToNeckIn?: number | null;
+  /**
+   * Throat, from a chamber (reamer) print (bot cartridge schema 1.1.0, optional).
+   * Freebore is the cylindrical throat ahead of the chamber neck; the leade
+   * angle is per side. Absent when unknown; the chamber visualizer then estimates them.
+   */
+  freeboreIn?: number | null;
+  throatDiameterIn?: number | null;
+  leadeAngleDeg?: number | null;
+  boreDiameterIn?: number | null;
   verification: CartridgeVerification;
   /** Per-field caveats, keyed by field name. */
   fieldNotes: Record<string, string>;

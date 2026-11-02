@@ -8,6 +8,8 @@ Every push and pull request merges these files into the project's [`cartridges.j
 
 Schema 1.1.0 (2026-10-28) adds five optional case-profile lengths to each cartridge record, in `lengthUnit` like the others: `baseDiameter`, `shoulderDiameter`, `neckDiameter`, `lengthToShoulder` (head to the body/shoulder junction) and `lengthToNeck` (head to the shoulder/neck junction). Leave them out or `null` when the source does not print them. Files marked 1.0.0 are still read.
 
+Also optional in 1.1.0 (added 2026-11-02), from a chamber (reamer) print: `freebore` (throat cylinder from the end of the chamber neck to the leade; `0` allowed), `throatDiameter` and `boreDiameter` in `lengthUnit`, and `leadeAngleDeg` per side (halve an included angle and say so in `note`). Throat Ø must be at least the bullet Ø and bore Ø below it. They fill empty library fields.
+
 ```json
 {
   "schemaVersion": "1.1.0",

@@ -6,6 +6,7 @@ import { bulletsView } from "./views/bullets.ts";
 import { bulletDrawingsView } from "./views/bulletDrawings.ts";
 import { cartridgesView } from "./views/cartridges.ts";
 import { catalogView } from "./views/catalog.ts";
+import { chamberView } from "./views/chamber.ts";
 import { compareView } from "./views/compare.ts";
 import { loadsView } from "./views/loads.ts";
 import { matchView } from "./views/match.ts";
@@ -17,6 +18,7 @@ const ROUTES: { id: string; label: string; view: (d: AppData) => HTMLElement }[]
   { id: "bullet-drawings", label: "Bullet drawings", view: bulletDrawingsView },
   { id: "cartridges", label: "Cartridges", view: cartridgesView },
   { id: "catalog", label: "Case drawings", view: catalogView },
+  { id: "chamber", label: "Chamber", view: chamberView },
   { id: "loads", label: "Load data", view: loadsView },
   { id: "about", label: "About", view: aboutView },
 ];

@@ -171,4 +171,18 @@ describe("bot cartridges", () => {
     const { library } = loadCartridgeLibrary();
     expect(checkCartridgeLibrary(library)).toEqual([]);
   });
+  it("reads throat fields from a chamber print and rejects impossible ones", () => {
+    const ok = mergeBotCartridges(lib, [
+      { file: "data/cartridges/bots/loads.json", data: file([record({ lengthUnit: "mm", bulletDiameter: 6.17, caseLength: 44.7, maxCoal: 57.4, rimDiameter: 12.0, freebore: 1.27, throatDiameter: 6.2, boreDiameter: 6.0, leadeAngleDeg: 1.5 })]) },
+    ]);
+    const c = ok.library.cartridges.find((x) => x.id === "24-nosler")!;
+    expect(c.freeboreIn).toBeCloseTo(0.05, 4);
+    expect(c.throatDiameterIn).toBeCloseTo(0.2441, 4);
+    expect(c.leadeAngleDeg).toBe(1.5);
+    expect(c.fieldNotes.freeboreIn).toContain("1.27 mm");
+    const bad = mergeBotCartridges(lib, [{ file: "data/cartridges/bots/loads.json", data: file([record({ throatDiameter: 0.24 })]) }]);
+    expect(bad.reports[0]!.rejected[0]!.reason).toContain("throatDiameter");
+    const angle = mergeBotCartridges(lib, [{ file: "data/cartridges/bots/loads.json", data: file([record({ leadeAngleDeg: 60 })]) }]);
+    expect(angle.reports[0]!.rejected[0]!.reason).toContain("leadeAngleDeg");
+  });
 });

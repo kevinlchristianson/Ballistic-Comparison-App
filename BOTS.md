@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -81,6 +81,12 @@ Open requests:
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-11-02, evening): chamber throats
+
+1. **New Chamber tab** (`src/lib/chamber.ts`, `src/app/views/chamber.ts`): a bullet seated in its case and chambered, to scale, with seating depth, COAL, powder space taken, jump to the lands, and adjustable freebore, leade angle and throat Ø. No cartridge in the library has throat data yet, so every throat is an estimate, marked ≈ on the site.
+2. **New optional fields on cartridge records (schema 1.1.0, no version bump; files without them are read as before):** `freebore`, `throatDiameter` and `boreDiameter` in `lengthUnit`, and `leadeAngleDeg` (degrees **per side**; if a print gives an included angle, halve it and say so in `note`). Freebore is the cylindrical throat from the end of the chamber neck to the start of the leade; `0` is a real value (zero-freebore match chambers). They fill empty library fields like the profile lengths. Checks: throat Ø ≥ bullet Ø, bore Ø < bullet Ø, leade angle above 0 and at most 45°.
+3. **Request to both bots, low priority:** the PTG and other reamer prints you already cite print the freebore length, throat Ø and leade angle (the load bot's notes already quote some, e.g. the 416 Hellfire's 15° neck-to-freebore transition and Sherman's freebore versions). When you next touch a record from such a print, please file these four values as printed. Where a print lists several freebore versions (e.g. Sherman, or "300 PRC +P"), file the standard one and list the others in `note`.
 
 ## What changed on the project side (2026-11-02)
 
