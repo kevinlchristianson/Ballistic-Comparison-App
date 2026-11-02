@@ -1,14 +1,21 @@
 # Load-data bot status
 
-Last updated: 2026-11-02 21:15 UTC
+Last updated: 2026-11-02 23:10 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## Shoulder style and radii (BOTS.md 2026-11-02)
+
+- `shoulderStyle: "double-radius"` with `shoulderRadius` (R_b) and `neckRadius` (R_n) from the PTG chamber prints on 270, 7mm, 300, 340, 375, 378, 338-378, 416 and 270-300 Wby. Stored lengths are the tangent points.
+- `7mm-300-wby`: `double-radius`, radii empty (no print shows them).
+- `shoulderStyle: "cone"` on 338 Wby RPM, 25 RPM and 50-460 Wby.
+- `416-wby`: `shoulderAngleDeg` nulled (the 45 deg is the neck-to-throat angle), as BOTS.md item 4 asks.
 
 ## Case capacity checks (BOTS.md 2026-10-31, item 3)
 
 Full findings and sources: [`comments/2026-10-31-case-capacity-checks.md`](comments/2026-10-31-case-capacity-checks.md).
 
-- `26-nosler`: kept at 93, and the note now says what it measures. Nosler's 93 is water under a 130 gr AccuBond seated at 3.340 in. It is not a typo and not to the mouth; Nosler's load sheets print CASE HOLDS 96.2 and 90.2. No water-to-mouth figure is published. Setting it to null broke `tests/velocity.test.ts`: RMS was 13.1%, because `physics-calibration.json` has three 26 Nosler points fitted with 93. That is left to the app side: null it and recalibrate, or keep it.
+- `26-nosler`: caseCapacityGrH2O set to null on 2026-11-02, per Kevin's ruling, after the app side refitted physics-v1 without the 93 gr point (PR #322). Nosler's 93 is water under a 130 gr AccuBond seated at 3.340 in, not to the mouth; the note keeps that history. The app now estimates it from the profile.
 - `7mm-lrm`: 87.6 gr H2O, **ESTIMATE** (forum: LRH Gunwerks 7 LRM thread, page 3, fired brass filled to the top). This is a new fill-only `loads.json` record. It fills the empty field on the bullet bot's 4D record (`bullets.json` loads first). Gunwerks publishes no capacity.
 - `7mm-300-prc`: 93.6 gr H2O, maker figure (ADG "Case Volume 93.6 grains/H2O (average)"), cited at the start of the note. Source stays PTG for the profile.
 - `300-dakota`: 94.8 gr H2O, **ESTIMATE** (forum, filled to the mouth). Kevin ruled 2026-11-02 to use 94.8 over the 101 unfired-to-top figure. New fill-only `loads.json` record.
@@ -167,9 +174,7 @@ Of 93,291 resolved load rows, 1,934 sit on 32 cartridges that have only one sour
 
 ## Open questions
 
-- [`comments/2026-11-02-radius-shoulder-capacity.md`](comments/2026-11-02-radius-shoulder-capacity.md) (app agent / Kevin): the load bot added radius dimensions for the .277+ Weatherby line from PTG prints (11 prints with radii). Stored lengths are at the tangent points. Real arcs differ from the cone by only 0.05 to 0.15 gr, so the Weatherby capacity bias has another cause. Suggested fields: `shoulderStyle`, `shoulderRadiusIn`, `neckRadiusIn`, `shoulderPoints`.
-
-- [`comments/2026-11-02-26-nosler-recalibration.md`](comments/2026-11-02-26-nosler-recalibration.md) (app agent): Kevin approved recalibrating `physics-v1` without the 26 Nosler 93 gr point (water under a seated 130 AccuBond). The bots null it after that.
+Both 2026-11-02 comment files (radius-shoulder capacity, 26 Nosler recalibration) are answered and done (PR #322 and this PR).
 
 No load-bot question is still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) is answered: part 24486 is `berger-24486` after bullet-bot [PR #104](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/104), and the 6 mm 120 gr community file is the harvest for it. [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md) is the community bot's own status, not a question for this bot.
 

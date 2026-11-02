@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-10-31",
+  "generatedOn": "2026-11-02",
   "bot": "load-data",
   "cartridgeCount": 248,
   "aliasCount": 176,
@@ -51,7 +51,7 @@
       "maxCoal": 3.34,
       "rimDiameter": null,
       "neckLength": null,
-      "caseCapacityGrH2O": 93,
+      "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
       "rimType": null,
       "pressure": null,
@@ -60,7 +60,7 @@
         "url": "https://www.nosler.com/explore/nosler-cartridges/26-nosler-rifle-cartridge",
         "retrievedOn": "2026-10-31"
       },
-      "note": "Nosler prints a useable case capacity of 93 grains of water. Checked 2026-10-31: it is not a typo but water under a seated bullet. Nosler said it 'was measured with a 130gr AccuBond seated to max OAL (3.340\")' (https://www.longrangehunting.com/threads/26-nosler.125013/page-6); load sheets print CASE HOLDS 96.2 (100 gr) and 90.2 (150 gr). No water-to-mouth figure is published. Kept because the physics calibration uses it. Diameter, case and COAL from the library."
+      "note": "Nosler prints a useable case capacity of 93 grains of water. Checked 2026-10-31: it is not a typo but water under a seated bullet. Nosler said it 'was measured with a 130gr AccuBond seated to max OAL (3.340\")' (https://www.longrangehunting.com/threads/26-nosler.125013/page-6); load sheets print CASE HOLDS 96.2 (100 gr) and 90.2 (150 gr). No water-to-mouth figure is published. Set to null 2026-11-02 per Kevin's ruling, after the app side refitted physics-v1 without it (PR #322); the app now estimates capacity from the profile. Diameter, case and COAL from the library."
     },
     {
       "id": "27-nosler",
@@ -500,6 +500,7 @@
       "lengthToNeck": null,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35,
+      "shoulderStyle": "cone",
       "rimType": "rebated",
       "pressure": null,
       "source": {
@@ -507,7 +508,7 @@
         "url": "https://www.pacifictoolandgauge.com/25-Weatherby-Rebated-Precision-Magnum-RPM-SAAMI-Chamber-Reamer_p_120561.html",
         "retrievedOn": "2026-10-28"
       },
-      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2910. .2576 is forward of the neck and is not stored. The title prints REBATED. Bolt-face rim diameter is (0.5037). A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0"
+      "note": "PTG print labels GROOVE SIZE .2570, BASIC BRASS 25 WBY RPM, and 35 degrees. Body .5010, shoulder .4790, neck .2910. .2576 is forward of the neck and is not stored. The title prints REBATED. Bolt-face rim diameter is (0.5037). A 30 degree angle is also printed forward of the shoulder. Hammer prints Case 2.570\" and SAAMI COAL 3.340\". https://docs.google.com/spreadsheets/d/1krHc78Om7SJJa6MGGF3ZpeDEIsZr-8tGyCjuJ9A65g4/edit?pli=1&gid=0#gid=0 Shoulder style cone (2026-11-02): PTG-15431 prints a 35 deg shoulder; RPM cases are cones, per BOTS.md 2026-11-02."
     },
     {
       "id": "25-prc",
@@ -1178,6 +1179,9 @@
       "lengthToNeck": 2.221,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.15,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -1185,7 +1189,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/270-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 270-wby. 4D cartridge drawing from the head: neck 0.3050 in, shoulder 0.4920 in (Weatherby radius shoulder, no angle printed), body 0.5120 in at 0.2190 in, belt 0.5315 in at 0.1372 in, rim 0.5315 in. Library case length and other values stay. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks."
+      "note": "Fills the empty profile of library 270-wby. 4D cartridge drawing from the head: neck 0.3050 in, shoulder 0.4920 in (Weatherby radius shoulder, no angle printed), body 0.5120 in at 0.2190 in, belt 0.5315 in at 0.1372 in, rim 0.5315 in. Library case length and other values stay. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-10951 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.150 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "7mm-wby",
@@ -1207,6 +1211,9 @@
       "lengthToNeck": 2.218,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.151,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -1214,7 +1221,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 7mm-wby. 4D drawing: neck 0.3120 in, shoulder 0.4920 in (radius shoulder, no angle printed), body 0.5120 in at 0.2190 in, belt 0.5315 in, rim 0.5315 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks."
+      "note": "Fills the empty profile of library 7mm-wby. 4D drawing: neck 0.3120 in, shoulder 0.4920 in (radius shoulder, no angle printed), body 0.5120 in at 0.2190 in, belt 0.5315 in, rim 0.5315 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print BOP-10804 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.151 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "7-30-waters",
@@ -1425,6 +1432,7 @@
       "lengthToNeck": 2.504,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -1432,7 +1440,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/7mm300-weatherby/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D drawing. Neck 0.3120 in; shoulder 0.4920 in (radius shoulder, no angle printed). Body above the belt printed as 0.5315 in at 0.2190 in, belt 0.5315 in, rim 0.5315 in; copied as printed. Drawn length 3.560 in not stored."
+      "note": "4D drawing. Neck 0.3120 in; shoulder 0.4920 in (radius shoulder, no angle printed). Body above the belt printed as 0.5315 in at 0.2190 in, belt 0.5315 in, rim 0.5315 in; copied as printed. Drawn length 3.560 in not stored. Shoulder style double-radius (2026-11-02): Weatherby radius shoulder; stored lengths are the 4D tangent points. Radii are not printed on the only drawing, so shoulderRadius and neckRadius stay empty (the 300 Wby parent's R.120/R.182 is likely but not cited)."
     },
     {
       "id": "30-ackley-magnum-2",
@@ -1575,6 +1583,9 @@
       "lengthToNeck": 2.4865,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.182,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -1582,7 +1593,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/340-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 340-wby. 4D drawing: neck 0.3660 in; shoulder 0.4920 in (Weatherby radius shoulder, no angle printed); body 0.5122 in at 0.2190 in; belt 0.5315 in at 0.1372 in; rim 0.5315 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks."
+      "note": "Fills the empty profile of library 340-wby. 4D drawing: neck 0.3660 in; shoulder 0.4920 in (Weatherby radius shoulder, no angle printed); body 0.5122 in at 0.2190 in; belt 0.5315 in at 0.1372 in; rim 0.5315 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-11050 rev B prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.182 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "338-wby-rpm",
@@ -1604,6 +1615,7 @@
       "lengthToNeck": 2.238,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 35,
+      "shoulderStyle": "cone",
       "rimType": "rebated",
       "pressure": null,
       "source": {
@@ -1611,7 +1623,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/338-weatherby-rpm/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 338-wby-rpm. 4D drawing: neck 0.3640 in; shoulder 0.4739 in at 35 deg; body 0.5000 in at 0.1487 in; rim 0.4730 in, thickness 0.0540 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks."
+      "note": "Fills the empty profile of library 338-wby-rpm. 4D drawing: neck 0.3640 in; shoulder 0.4739 in at 35 deg; body 0.5000 in at 0.1487 in; rim 0.4730 in, thickness 0.0540 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks. Shoulder style cone (2026-11-02): PTG-13526 shows a conventional 35 deg cone with small fillets (R.100 at the body, R.030 max at the neck), not a Weatherby double radius."
     },
     {
       "id": "378-wby",
@@ -1633,6 +1645,9 @@
       "lengthToNeck": 2.54,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.152,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -1640,7 +1655,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/378-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 378-wby. 4D drawing: neck 0.4030 in; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks."
+      "note": "Fills the empty profile of library 378-wby. 4D drawing: neck 0.4030 in; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. maxCoal copied from the library entry so the record passes the fill checks. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-11082 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.152 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "470-ne",
@@ -2442,6 +2457,9 @@
       "lengthToNeck": 2.3437,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.182,
       "rimType": "belted",
       "pressure": {
         "value": 4400,
@@ -2453,7 +2471,7 @@
         "url": "https://www.pacifictoolandgauge.com/375-Weatherby-Magnum-SAAMI-Chamber-Reamer_p_114617.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "4D page has no drawing. PTG drawing PTG-11076, 375 WBY MAG SAAMI (PTG own print); groove 0.3760. Lengths are printed from the belt datum; the print gives the datum as 0.2200 min / 0.2240 max from the bolt face, stored datum-based (shoulder 0.4960 in at 2.1870 in; neck 0.4070 in at 2.3437 in) because the app adds its own 0.220 belt datum for belted chamber records; corrected 2026-10-31 from head-based 2.4070/2.5637, which double-counted the belt. Body 0.5136 in (0.5140 just ahead of the belt); belt recess 0.5340 in. Weatherby radius shoulder (R.1820/R.1200, 45 deg chord printed), so no angle stored. PTG prints chamber dimensions: 2.6550 in from the datum (2.8750 from the head) is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.860 in and max COAL 3.600 in from Wikipedia (https://en.wikipedia.org/wiki/.375_Weatherby_Magnum). Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 375 Weath. Mag. (dated 1987-01-17, rev. 2002-05-15) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
+      "note": "4D page has no drawing. PTG drawing PTG-11076, 375 WBY MAG SAAMI (PTG own print); groove 0.3760. Lengths are printed from the belt datum; the print gives the datum as 0.2200 min / 0.2240 max from the bolt face, stored datum-based (shoulder 0.4960 in at 2.1870 in; neck 0.4070 in at 2.3437 in) because the app adds its own 0.220 belt datum for belted chamber records; corrected 2026-10-31 from head-based 2.4070/2.5637, which double-counted the belt. Body 0.5136 in (0.5140 just ahead of the belt); belt recess 0.5340 in. Weatherby radius shoulder (R.1820/R.1200, 45 deg chord printed), so no angle stored. PTG prints chamber dimensions: 2.6550 in from the datum (2.8750 from the head) is the chamber length to the neck end, not a case length, so it is not stored as the case length; the print gives no case trim length. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.860 in and max COAL 3.600 in from Wikipedia (https://en.wikipedia.org/wiki/.375_Weatherby_Magnum). Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 375 Weath. Mag. (dated 1987-01-17, rev. 2002-05-15) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-11076 rev IR prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.182 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "7mm-300-prc",
@@ -2626,6 +2644,9 @@
       "lengthToNeck": 2.5567,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.153,
       "rimType": "belted",
       "pressure": {
         "value": 4400,
@@ -2637,7 +2658,7 @@
         "url": "https://4drentals.com/product/reamer-rentals/rifle/338-378-weatherby-magnum/",
         "retrievedOn": "2026-10-29"
       },
-      "note": "New. 4D drawing (low-resolution image): neck 0.3700 in at the mouth and junction; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. Max COAL 3.650 in from Wikipedia (https://en.wikipedia.org/wiki/.338-378_Weatherby_Magnum); Wikipedia case 2.905 in, 4D drawing case 2.913 kept. Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 338-378 Weath. Mag (dated 1998-02-09, rev. 2009-05-05) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3."
+      "note": "New. 4D drawing (low-resolution image): neck 0.3700 in at the mouth and junction; shoulder 0.5610 in (Weatherby radius shoulder, no angle printed); body 0.5820 in at 0.2520 in; belt 0.6035 in at 0.1662 in; rim 0.5790 in, thickness 0.0630 in. 4D printed capacity not stored. Max COAL 3.650 in from Wikipedia (https://en.wikipedia.org/wiki/.338-378_Weatherby_Magnum); Wikipedia case 2.905 in, 4D drawing case 2.913 kept. Pressure: C.I.P. Pmax 4400 bar (transducer) from the C.I.P. TDCC Tab. III belted-cartridge list, 338-378 Weath. Mag (dated 1998-02-09, rev. 2009-05-05) (https://bobp.cip-bobp.org/en/tdcc_public?cartridge_type_id=3&page=1, retrieved 2026-10-30), added per BOTS.md 2026-10-30 item 3. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-11048 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.153 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "350-rem-mag",
@@ -2688,6 +2709,9 @@
       "lengthToNeck": 2.2875,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.182,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -2695,7 +2719,7 @@
         "url": "https://www.pacifictoolandgauge.com/300-Weatherby-Magnum-SAAMI-Chamber-Reamer_p_114615.html",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty profile of library 300-wby. The 4D 300 Weatherby page has no drawing. PTG drawing PTG-10997 rev A, 300 WBY MAG SAAMI (PTG own print), lengths from the belt datum. GROOVE SIZE .3080. Body 0.5137 in past the belt (0.5340 belt). Shoulder (0.4960) and neck 0.3400 in at (2.0857) and (2.2875) in, PTG reference dims; Weatherby radius shoulder, no angle printed. 2.6240 in is the chamber neck end measured from the belt datum, not a case length. lengthToShoulder 2.0857 and lengthToNeck 2.2875 in are filled 2026-10-31 as stored datum-based values; the print puts the belt datum 0.2200 min / 0.2240 max from the bolt face, and the app adds the belt offset for belted chamber records. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.825 in and max COAL 3.562 in from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum)."
+      "note": "Fills the empty profile of library 300-wby. The 4D 300 Weatherby page has no drawing. PTG drawing PTG-10997 rev A, 300 WBY MAG SAAMI (PTG own print), lengths from the belt datum. GROOVE SIZE .3080. Body 0.5137 in past the belt (0.5340 belt). Shoulder (0.4960) and neck 0.3400 in at (2.0857) and (2.2875) in, PTG reference dims; Weatherby radius shoulder, no angle printed. 2.6240 in is the chamber neck end measured from the belt datum, not a case length. lengthToShoulder 2.0857 and lengthToNeck 2.2875 in are filled 2026-10-31 as stored datum-based values; the print puts the belt datum 0.2200 min / 0.2240 max from the bolt face, and the app adds the belt offset for belted chamber records. PTG's own reamer print used although titled SAAMI (owner ruling 2026-10-29). caseLength 2.825 in and max COAL 3.562 in from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum). Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-10997 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.182 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "aliases": [
@@ -3375,7 +3399,10 @@
       "lengthToShoulder": 2.345,
       "lengthToNeck": 2.521,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": 45,
+      "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.174,
       "rimType": null,
       "pressure": null,
       "source": {
@@ -3383,7 +3410,7 @@
         "url": "https://saami.org/wp-content/uploads/2025/02/ANSI-SAAMI-Z299.4-CFR-Approved-2025-02-10-Posting-Copy.pdf",
         "retrievedOn": "2026-10-29"
       },
-      "note": "Fills the empty library profile. SAAMI Z299.4-2025 maximum cartridge drawing, p.151, inches; SAAMI copying allowed per Kevin, 2026-10-29. Belted; belt .6035 not stored. Body .5817 at .280 (belt front), shoulder .5642 at 2.345, neck .444 at 2.521 (intersections), lengths from the head, shoulder 45 deg basic, rim .579, case 2.913, COAL 3.650 min to 3.750 max. Neck .028 over the .416 bullet. neckLength is case length minus the length to the neck."
+      "note": "Fills the empty library profile. SAAMI Z299.4-2025 maximum cartridge drawing, p.151, inches; SAAMI copying allowed per Kevin, 2026-10-29. Belted; belt .6035 not stored. Body .5817 at .280 (belt front), shoulder .5642 at 2.345, neck .444 at 2.521 (intersections), lengths from the head, shoulder 45 deg basic, rim .579, case 2.913, COAL 3.650 min to 3.750 max. Neck .028 over the .416 bullet. neckLength is case length minus the length to the neck. Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG-11114 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.174 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md. 2026-11-02: shoulderAngleDeg set to null per BOTS.md 2026-11-02 item 4. PTG-11114 shows the shoulder is a Weatherby double radius and the 45 deg is the neck-to-throat angle, not the shoulder."
     },
     {
       "id": "7x33-sako",
@@ -7389,6 +7416,9 @@
       "lengthToNeck": 2.2887,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": null,
+      "shoulderStyle": "double-radius",
+      "shoulderRadius": 0.12,
+      "neckRadius": 0.151,
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -7396,7 +7426,7 @@
         "url": "https://www.pacifictoolandgauge.com/270--300-Weatherby-Magnum-Chamber-Reamer_p_118203.html",
         "retrievedOn": "2026-10-31"
       },
-      "note": "Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face. PTG print 16326, 270/300 WBY. Body 0.5123 in at 0.200 in; shoulder 0.496 in at 2.085 in; neck 0.3115 in at 2.2887 in; Weatherby radius shoulder, no angle stored; chamber neck end 2.624 in from the datum. caseLength 2.825 in is the parent 300 Wby length from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum)."
+      "note": "Belted: lengths stored from the belt datum, which the app places 0.220 in ahead of the bolt face. PTG print 16326, 270/300 WBY. Body 0.5123 in at 0.200 in; shoulder 0.496 in at 2.085 in; neck 0.3115 in at 2.2887 in; Weatherby radius shoulder, no angle stored; chamber neck end 2.624 in from the datum. caseLength 2.825 in is the parent 300 Wby length from Wikipedia (https://en.wikipedia.org/wiki/.300_Weatherby_Magnum). Shoulder style double-radius (2026-11-02): Pacific Tool & Gauge chamber print PTG print 16326 rev A prints body-to-shoulder radius R0.120 and shoulder-to-neck radius R0.151 in (chamber values); stored lengthToShoulder/lengthToNeck are the tangent points. Details in data/loads/comments/2026-11-02-radius-shoulder-capacity.md."
     },
     {
       "id": "338-26-nosler",
@@ -7505,6 +7535,7 @@
       "lengthToNeck": 1.5144,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 15,
+      "shoulderStyle": "cone",
       "rimType": "belted",
       "pressure": null,
       "source": {
@@ -7512,7 +7543,7 @@
         "url": "https://www.pacifictoolandgauge.com/50--460-Weatherby-Mag-Chamber-Reamer_p_118513.html",
         "retrievedOn": "2026-10-31"
       },
-      "note": "Belted: this print puts the belt datum 0.253 in from the bolt face; the app assumes 0.220, so 0.033 in was added to the datum lengths. PTG print 24251 rev B, 50/460 Wby Mag. Body 0.584 in at 0.100 in; shoulder 0.571 in at 1.415 in, 15deg; neck 0.5354 in at 1.4814 in; chamber neck end 1.892 in from the datum. caseLength 2.140 in from the note on the same PTG print (\"Brass is 2.140 OAL\")."
+      "note": "Belted: this print puts the belt datum 0.253 in from the bolt face; the app assumes 0.220, so 0.033 in was added to the datum lengths. PTG print 24251 rev B, 50/460 Wby Mag. Body 0.584 in at 0.100 in; shoulder 0.571 in at 1.415 in, 15deg; neck 0.5354 in at 1.4814 in; chamber neck end 1.892 in from the datum. caseLength 2.140 in from the note on the same PTG print (\"Brass is 2.140 OAL\"). Shoulder style cone (2026-11-02): the 15 deg cone is confirmed by the app side (BOTS.md 2026-11-02); PTG 24251 shows a 0.060 fillet."
     },
     {
       "id": "338-405-win",
