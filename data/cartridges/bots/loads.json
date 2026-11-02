@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-10-31",
   "bot": "load-data",
-  "cartridgeCount": 247,
+  "cartridgeCount": 248,
   "aliasCount": 176,
   "cartridges": [
     {
@@ -14,26 +14,27 @@
       ],
       "parentCase": null,
       "lengthUnit": "in",
-      "bulletDiameter": 0.2435,
-      "caseLength": 1.6,
+      "bulletDiameter": 0.243,
+      "caseLength": 1.602,
       "trimLength": null,
       "maxCoal": 2.26,
-      "rimDiameter": 0.378,
+      "rimDiameter": null,
       "neckLength": null,
+      "baseDiameter": 0.4217,
+      "shoulderDiameter": 0.4045,
+      "neckDiameter": 0.27,
+      "lengthToShoulder": 1.1855,
+      "lengthToNeck": 1.3011,
       "caseCapacityGrH2O": null,
-      "shoulderAngleDeg": null,
-      "rimType": null,
-      "pressure": {
-        "value": 55000,
-        "unit": "psi",
-        "method": "piezo"
-      },
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
       "source": {
-        "name": "The Ballistic Assistant, SAAMI Rifle Cartridge Catalog",
-        "url": "https://www.theballisticassistant.com/saami-rifle-cartridge-catalog/",
-        "retrievedOn": "2026-10-27"
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/24-Nosler-Chamber-Reamer_p_114538.html",
+        "retrievedOn": "2026-11-02"
       },
-      "note": "That page prints bullet diameter .2435 to .2415, max case 1.600, COAL 2.135 to 2.260, head diameter .378, and MAP 55,000 psi (not CUP). Trim is printed there as 1.580, but Hodgdon prints 1.590 and Handloader prints a trim-to of 1.590, so trimLength is null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Nosler CASE HOLDS under the bullet differs by sheet: 55 gr 29.0, 70 gr 28.8, 80 gr 27.1, 85/90 gr 26.5, 105 gr 25.8."
+      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. Re-sourced 2026-11-02 so nothing cites the earlier third-party catalog page; rimDiameter (0.378) and pressure (55,000 psi) came only from that page and are now null. ANSI/SAAMI Z299.4-2025 has no 24 Nosler drawing. Profile from PTG drawing BOP-11366, 24 Nosler Chamber SAAMI: body 0.4217 in at 0.2000 in; shoulder 0.4045 in at 1.1855 in, 30deg; neck 0.2700 in at 1.3011 in; chamber neck end 1.6120 in; groove 0.2430. bulletDiameter 0.243 from Nosler's load sheet header \"6mm (.243\\\")\" and the PTG groove. maxCoal 2.260 in is \"MAXIMUM SAAMI O.A.C.L.\" on Nosler's 24 Nosler load sheet (https://www.nosler.com/media/load_data_assets/pdfs/24-Nosler-55gr-version-9-0.pdf). Nosler CASE HOLDS under the bullet differs by sheet: 55 gr 29.0, 70 gr 28.8, 80 gr 27.1, 85/90 gr 26.5, 105 gr 25.8; capacity not stored."
     },
     {
       "id": "26-nosler",
@@ -7835,6 +7836,35 @@
         "retrievedOn": "2026-10-31"
       },
       "note": "New. C.I.P. TDCC Tab. II sheet, 7 x 72 R (dated 84-06-14, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 7.25, L1 52.00, L2 60.00, L3 72.00, L6 92.00, R1 12.35, P1 10.85, P2 8.60, H1 7.95, Pmax 2800 bar. Neck 0.70 mm over the bullet. Long, shallow shoulder (P2 8.60 at L1 to H1 7.95 at L2). Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+    },
+    {
+      "id": "300-dakota",
+      "name": ".300 Dakota",
+      "kind": "wildcat",
+      "aliases": [],
+      "parentCase": null,
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.55,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 94.8,
+      "shoulderAngleDeg": null,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "ESTIMATE: Long Range Hunting forum, member water measurements (filled to the mouth)",
+        "url": "https://www.longrangehunting.com/threads/26-nosler.125013/page-6",
+        "retrievedOn": "2026-11-02"
+      },
+      "note": "ESTIMATE (forum source; Kevin ruled 2026-11-02 to use 94.8 over 101). 94.8 gr H2O filled to the mouth: OKIE2 and MontanaRifleman (Jan 27, 2014), LRH 26 Nosler thread (https://www.longrangehunting.com/threads/26-nosler.125013/page-6). Kevin chose this over MontanaRifleman's later 101 gr (three unfired cases filled to the top of the mouth, Jan 29, 2014, https://www.longrangehunting.com/goto/post?id=914561). Fills only the empty capacity of the bullet bot's 300-dakota (4D profile); bullet diameter and case length copied from it."
     }
   ],
   "aliases": [
