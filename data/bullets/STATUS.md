@@ -30,6 +30,8 @@ Batch 7 (2026-10-31, PTG finish for .17-.264): added 19 rimmed metric/rimmed rou
 
 Batch 8 (2026-10-31, datum conversion of held PTG prints, following Load Data Database PRs #310/#312): added 264 Win Mag Ackley Improved and 6.5/257 Weatherby (belted, stored from the belt datum because the app adds 0.220 in for belted chamber records; both prints use a 0.220 datum, so no shift) and 20 Hornady Hornet (rimmed, single printed 0.065 rim thickness added to put lengths on the head). All three are ESTIMATE case lengths (chamber minus 0.010); parent lengths were checked and not used for the 264 AI (0.024 in short of the chamber). Still held: 20 Ackley Improved Hornet, 20 K-Hornet, 17 K-Hornet (rim thickness printed only as a 0.065-0.072 range); 17 Bumble Bee (datum- and bolt-face lengths disagree by 0.011 in); 6.5x54R (neck station 1.295 in is behind the 1.500 in shoulder); 220 Wby Rocket (datum value cut off on the print, and basic brass is 220 Swift, not belted); 228 Ackley (title mismatch); 20 Tactical Improved (lengths cut off).
 
+Comment 2026-11-02: `comments/2026-11-02-radius-shoulder-small-bore.md`, radius-shoulder Weatherbys in .17-.264 (addendum to PR #317: `data/loads/comments/2026-11-02-radius-shoulder-capacity.md`).
+
 ## In progress
 
 The .17–.264 pass from `4d-coverage.md` is done; the remaining .17–.264 missing pages are the skips above.
