@@ -167,6 +167,8 @@ Of 93,291 resolved load rows, 1,934 sit on 32 cartridges that have only one sour
 
 ## Open questions
 
+- [`comments/2026-11-02-radius-shoulder-capacity.md`](comments/2026-11-02-radius-shoulder-capacity.md) (app agent / Kevin): the load bot added radius dimensions for the .277+ Weatherby line from PTG prints (11 prints with radii). Stored lengths are at the tangent points. Real arcs differ from the cone by only 0.05 to 0.15 gr, so the Weatherby capacity bias has another cause. Suggested fields: `shoulderStyle`, `shoulderRadiusIn`, `neckRadiusIn`, `shoulderPoints`.
+
 - [`comments/2026-11-02-26-nosler-recalibration.md`](comments/2026-11-02-26-nosler-recalibration.md) (app agent): Kevin approved recalibrating `physics-v1` without the 26 Nosler 93 gr point (water under a seated 130 AccuBond). The bots null it after that.
 
 No load-bot question is still open. [`comments/2026-10-27-berger-hybrid-target-bullet-list.md`](comments/2026-10-27-berger-hybrid-target-bullet-list.md) is answered: part 24486 is `berger-24486` after bullet-bot [PR #104](https://github.com/kevinlchristianson/Ballistic-Comparison-App/pull/104), and the 6 mm 120 gr community file is the harvest for it. [`comments/2026-10-27-community-work-status.md`](comments/2026-10-27-community-work-status.md) is the community bot's own status, not a question for this bot.
