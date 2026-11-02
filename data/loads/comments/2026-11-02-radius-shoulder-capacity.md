@@ -45,7 +45,11 @@ Not confirmed: whether the Weatherby RPM line (6.5, .338, and the 30/6.5 and 7mm
 1. Mark radiused shoulders explicitly instead of guessing from the name. For example, add an optional `shoulderStyle: "double-radius"` on the cartridge record. That is a schema change, so it needs Kevin's OK. Until then, a name match on `/weatherby|wby/` without `RPM` is a workable stand-in.
 2. For marked cases, either fit a separate profile multiplier from the cited Weatherby capacities (about 1.02 to 1.03 relative to the other cases today, refit as more capacities land), or, where a print gives the two radii, integrate the actual arcs instead of the cone.
 3. Leave radiused cases out of the base-diameter correction fit, or give them their own term, so they don't pull that correction for conventional cases.
-4. Shoulder angle is null on most Weatherby records because a radiused shoulder has no single angle. Make sure nothing that reads `shoulderAngleDeg` treats null as zero. Separately, the 50-460 Wby shows 15° and the .416 Wby 45°. The 15° may be a neck-to-freebore angle, the same mix-up found on the 416 Hellfire print, so the load bot should recheck it.
+4. Shoulder angle is null on most Weatherby records because a radiused shoulder has no single angle. Make sure nothing that reads `shoulderAngleDeg` treats null as zero. The 50-460 Wby's 15° was rechecked by the load bot on 2026-11-02 and is correct: the PTG print's shoulder cone runs .571 to .5354 over .0664 (15.0°), and the print's 45° is the neck-to-throat angle.
+
+## Second check (load bot, 2026-11-02)
+
+The load bot reran this independently and got the same result. The Weatherbys come out about 1.5% low on raw profile volume and about 3.5% low after the fit, while every other case is within about 2%. Small-bore radius rounds are covered in `data/bullets/comments/2026-11-02-radius-shoulder-small-bore.md`.
 
 ## Working assumption until answered
 
