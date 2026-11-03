@@ -4,7 +4,7 @@
   "bot": "bullets",
   "actionCount": 0,
   "magazineCount": 16,
-  "modificationCount": 7,
+  "modificationCount": 8,
   "buildCount": 0,
   "actions": [],
   "magazines": [
@@ -472,7 +472,7 @@
       "lengthUnit": "in",
       "coalGain": null,
       "resultingMaxCoal": null,
-      "gunsmithRequired": null,
+      "gunsmithRequired": true,
       "reversible": false,
       "requires": [],
       "effect": "Lengthens the receiver's magazine opening at the rear just enough for a Wyatt's extended box to fit.",
@@ -482,8 +482,15 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
-      "fieldSources": {},
-      "note": "Wyatt's: 'Mill magazine box mortice rearward ... just long enough for the extended box to fit.' Gunsmith not stated on this page (Product Info says only the Baney box 'requires a gunsmith for installation')."
+      "fieldSources": {
+        "gunsmithRequired": {
+          "name": "Red Hawk Rifles, Wyatt's extended center feed magazine boxes",
+          "url": "https://redhawkrifles.com/wyatts-extended-center-feed-magazine-boxes/",
+          "retrievedOn": "2026-11-03",
+          "kind": "retailer"
+        }
+      },
+      "note": "Wyatt's: 'Mill magazine box mortice rearward ... just long enough for the extended box to fit.' Gunsmith not stated on this page (Product Info says only the Baney box 'requires a gunsmith for installation'). gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
     },
     {
       "id": "wyatts-r700-bolt-stop-shorten-110",
@@ -496,7 +503,7 @@
       "lengthUnit": "in",
       "coalGain": 0.11,
       "resultingMaxCoal": null,
-      "gunsmithRequired": null,
+      "gunsmithRequired": true,
       "reversible": false,
       "requires": [
         "wyatts-r700-mortise-mill-rearward"
@@ -508,8 +515,15 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
-      "fieldSources": {},
-      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. reversible false unless the bolt stop is replaced; not stated by the source."
+      "fieldSources": {
+        "gunsmithRequired": {
+          "name": "Red Hawk Rifles, Wyatt's extended center feed magazine boxes",
+          "url": "https://redhawkrifles.com/wyatts-extended-center-feed-magazine-boxes/",
+          "retrievedOn": "2026-11-03",
+          "kind": "retailer"
+        }
+      },
+      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. reversible false unless the bolt stop is replaced; not stated by the source. gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
     },
     {
       "id": "wyatts-box-lips-remove-ultra-mag",
@@ -592,7 +606,7 @@
       "lengthUnit": "in",
       "coalGain": null,
       "resultingMaxCoal": 4.0,
-      "gunsmithRequired": null,
+      "gunsmithRequired": true,
       "reversible": false,
       "requires": [
         "wyatts-r700-mortise-mill-rearward",
@@ -605,8 +619,15 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
-      "fieldSources": {},
-      "note": "Wyatt's CFE-09: 'The receiver, bolt stop, and ejection port, must be altered'; resultingMaxCoal is the box's 'approx. 4.000\"'. How much the port is lengthened is not printed."
+      "fieldSources": {
+        "gunsmithRequired": {
+          "name": "Red Hawk Rifles, Wyatt's extended center feed magazine boxes",
+          "url": "https://redhawkrifles.com/wyatts-extended-center-feed-magazine-boxes/",
+          "retrievedOn": "2026-11-03",
+          "kind": "retailer"
+        }
+      },
+      "note": "Wyatt's CFE-09: 'The receiver, bolt stop, and ejection port, must be altered'; resultingMaxCoal is the box's 'approx. 4.000\"'. How much the port is lengthened is not printed. gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.' Wild Side Precision's Rem 700 extended-box install lists 'Lengthening of ejection port' and says the receiver 'will require refinishing on machined parts'."
     },
     {
       "id": "wyatts-win70-receiver-bolt-stop-ejector-alter",
@@ -628,8 +649,40 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
+      "fieldSources": {
+        "effect": {
+          "name": "Long Rifles, Inc., Gunsmithing services: install extended length magazine box",
+          "url": "https://www.longriflesinc.com/product/gunsmithing-services-install-extended-length-magazine-box/",
+          "retrievedOn": "2026-11-03",
+          "kind": "gunsmith"
+        }
+      },
+      "note": "Wyatt's MBE-08: 'The receiver, bolt stop, and ejector, must be altered to use this box.' resultingMaxCoal is the page's 'approx. 3.825\"'. Long Rifles, Inc.: 'The bolt stop and ejector blade must follow the magazine as it moves rearward.'"
+    },
+    {
+      "id": "lri-win70-ejection-port-bridge-undercut",
+      "name": "Lengthen the Win. M70 ejection port at the rear and undercut the inside of the bridge",
+      "kind": "ejection-port",
+      "appliesToFootprints": [
+        "winchester-70-long"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": null,
+      "requires": [
+        "wyatts-win70-receiver-bolt-stop-ejector-alter"
+      ],
+      "effect": "Lets live and fired cases of a cartridge such as the 300 PRC eject from a Win. M70 fitted with an extended Wyatt's box.",
+      "source": {
+        "name": "Long Rifles, Inc., Gunsmithing services: install extended length magazine box",
+        "url": "https://www.longriflesinc.com/product/gunsmithing-services-install-extended-length-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "gunsmith"
+      },
       "fieldSources": {},
-      "note": "Wyatt's MBE-08: 'The receiver, bolt stop, and ejector, must be altered to use this box.' resultingMaxCoal is the page's 'approx. 3.825\"'."
+      "note": "Long Rifles, Inc. gunsmithing service page: longer ejection port at the rear plus 'an undercut to the inside of the bridge feature', which 'allow for cartridges such as the 300 PRC to function without issue as both live and fired cases eject'. No lengths printed."
     }
   ],
   "builds": []
