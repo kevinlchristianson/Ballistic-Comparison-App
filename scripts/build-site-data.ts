@@ -28,6 +28,7 @@ import { PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
 import { mergeSubmissions, type SubmissionFile } from "../src/app/submission.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
+import { loadActionDb } from "./action-library.ts";
 import type { DensityFile } from "../src/lib/powders.ts";
 
 const OUT = "src/app/public/data";
@@ -193,6 +194,8 @@ if (existsSync(POWDERS)) {
   const d = readJson<DensityFile>(POWDERS);
   write("powders.json", { schemaVersion: d.schemaVersion, sources: d.sources, rows: d.rows.filter((r) => r.grPerGrH2O != null).map(({ powderKey, brand, powder, type, source, grPerGrH2O }) => ({ powderKey, brand, label: powder, type, source, grPerGrH2O })) });
 }
+// Rifle actions for the Chamber tab's Show Actions (loaded on demand by the site).
+write("actions.json", loadActionDb(lib.cartridges).db);
 write("velocity-fits.json", fits);
 write("estimate-inputs.json", estimateInputs);
 write("meta.json", meta);

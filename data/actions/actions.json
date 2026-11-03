@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-11-03",
+  "bot": "project",
+  "actionCount": 0,
+  "magazineCount": 0,
+  "modificationCount": 1,
+  "buildCount": 1,
+  "actions": [],
+  "magazines": [],
+  "modifications": [
+    {
+      "id": "r700-feed-lip-milling",
+      "name": "Mill back the receiver feed lips",
+      "kind": "feed-lips",
+      "appliesToFootprints": [
+        "remington-700-long",
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": true,
+      "reversible": false,
+      "requires": [],
+      "effect": "The rear of the cartridge rises out of the box sooner, so a long bullet's tip doesn't hang on the chamber or action faces while feeding.",
+      "source": {
+        "name": "Community report: project owner's own rifle (Kevin, project thread 2026-11-03)",
+        "url": null,
+        "retrievedOn": "2026-11-03",
+        "kind": "community"
+      },
+      "fieldSources": {},
+      "note": "Filed by the project from the owner's report; no maker or gunsmith page with this step found yet."
+    }
+  ],
+  "builds": [
+    {
+      "id": "kevin-r700-long-wyatts-28-nosler",
+      "actionId": "remington-700-long",
+      "magazineId": "wyatts-mbe-02",
+      "modificationIds": [
+        "r700-feed-lip-milling"
+      ],
+      "cartridge": "28 Nosler",
+      "lengthUnit": "in",
+      "coal": 3.705,
+      "feeds": "magazine",
+      "source": {
+        "name": "Community report: project owner's own rifle (Kevin, project thread 2026-11-03)",
+        "url": null,
+        "retrievedOn": "2026-11-03",
+        "kind": "community"
+      },
+      "fieldSources": {},
+      "note": "Factory Remington 700 long action with a Wyatt's extended magazine box (the owner believes it is the MBE-2) and the feed lips milled back. COAL about 3.705 in."
+    }
+  ]
+}
