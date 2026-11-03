@@ -18,6 +18,7 @@ import { bulletLabel, type AppData, type SiteBullet } from "../data.ts";
 import { append, clear, h, link, type Child } from "../dom.ts";
 import { capacityText } from "../estimated.ts";
 import { bulletPicker } from "../picker.ts";
+import { actionsPanel } from "./actionsPanel.ts";
 import { load, save } from "../store.ts";
 
 interface ManualBullet {
@@ -116,6 +117,7 @@ export function chamberView(data: AppData): HTMLElement {
   const powderCard = h("div", { class: "card" });
   const fillOut = h("div", { class: "fill-out" });
   const workCard = h("details", { class: "card" });
+  const actions = actionsPanel();
   root.append(
     h(
       "div",
@@ -138,6 +140,7 @@ export function chamberView(data: AppData): HTMLElement {
     seatCard,
     powderCard,
     outCard,
+    actions.el,
     workCard,
   );
 
@@ -765,6 +768,7 @@ export function chamberView(data: AppData): HTMLElement {
     ]);
 
     renderResults(c, r, ch, capacity, bp);
+    actions.update(c, r.coalIn);
     renderFill(r);
     renderWorking(c, cp, ch, p, bp.noseEstimated, bp.source);
   }

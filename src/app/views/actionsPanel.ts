@@ -54,6 +54,18 @@ function routeRow(r: Route, coalIn: number) {
   );
 }
 
+/** When the factory magazine already reaches, aftermarket parts are noise: show the factory route and reported builds only. */
+function shownRoutes(m: ActionMatch): Route[] {
+  if (m.status === "fits") return m.routes.filter((r) => (r.kind === "factory" && r.reaches) || r.build);
+  const reach = m.routes.filter((r) => r.reaches || r.build).sort((a, b) => Number(!!b.build) - Number(!!a.build));
+  return reach.length ? reach : m.routes.slice(0, 1);
+}
+
+/** The reaching route with the least work, then the shortest limit: the one to name in the summary. */
+function simplest(m: ActionMatch): Route | undefined {
+  return m.routes.filter((r) => r.reaches && !r.build).sort((a, b) => a.modifications.length - b.modifications.length || a.maxCoalIn - b.maxCoalIn)[0] ?? m.routes.find((r) => r.reaches);
+}
+
 function faceText(m: ActionMatch, c: Cartridge): string | null {
   const rim = c.rimDiameterIn != null ? ` (case head ${inch(c.rimDiameterIn)})` : "";
   switch (m.face.fit) {
@@ -68,13 +80,13 @@ function faceText(m: ActionMatch, c: Cartridge): string | null {
   }
 }
 
-function actionItem(m: ActionMatch, c: Cartridge, coalIn: number) {
+function actionItem(m: ActionMatch, c: Cartridge, coalIn: number, open: boolean) {
   const a = m.action;
   const s = STATUS_TEXT[m.status];
   const title = `${a.maker} ${a.model}${a.variant ? ` ${a.variant}` : ""}`;
   return h(
     "details",
-    { class: "action-item", open: m.status !== "unknown" && m.status !== "too-short" && m.face.fit !== "too-small" && m.face.fit !== "too-large" },
+    { class: "action-item", open },
     h(
       "summary",
       {},
@@ -82,9 +94,10 @@ function actionItem(m: ActionMatch, c: Cartridge, coalIn: number) {
       a.addedBy !== "project" ? h("span", { class: "tag", title: `Added by the ${a.addedBy} bot. Not checked by the project.` }, "bot") : null,
       " · ",
       h("span", { class: s.cls }, s.text),
+      m.status === "fits-with-parts" || m.status === "single-feed" ? h("span", { class: "muted" }, ` (${simplest(m)!.label})`) : null,
     ),
     h("p", { class: m.face.fit === "fits" ? "hint" : "hint warn" }, faceText(m, c)),
-    m.routes.length ? h("ul", { class: "action-routes" }, m.routes.map((r) => routeRow(r, coalIn))) : h("p", { class: "hint" }, "No magazine or single-feed length on record for this action yet."),
+    m.routes.length ? h("ul", { class: "action-routes" }, shownRoutes(m).map((r) => routeRow(r, coalIn))) : h("p", { class: "hint" }, "No magazine or single-feed length on record for this action yet."),
     m.related.length
       ? h(
           "div",
@@ -122,7 +135,7 @@ export function actionsPanel(): { el: HTMLElement; update: (c: Cartridge, coalIn
         const ok = matches.filter((m) => m.status !== "too-short" && m.status !== "unknown" && m.face.fit !== "too-small" && m.face.fit !== "too-large");
         append(list, [
           h("p", {}, `${c.name} at COAL ${inch(coalIn)}: `, h("strong", {}, `${ok.length} of ${matches.length}`), " actions on record can feed it, counting magazines and modifications."),
-          matches.length ? matches.map((m) => actionItem(m, c, coalIn)) : h("p", { class: "hint" }, "No actions on record yet."),
+          matches.length ? matches.map((m, i) => actionItem(m, c, coalIn, i < 3 && ok.includes(m))) : h("p", { class: "hint" }, "No actions on record yet."),
           h(
             "p",
             { class: "hint" },

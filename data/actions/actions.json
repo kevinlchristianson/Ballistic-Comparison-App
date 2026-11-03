@@ -2,264 +2,13 @@
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-11-03",
   "bot": "project",
-  "actionCount": 2,
-  "magazineCount": 7,
-  "modificationCount": 2,
+  "actionCount": 0,
+  "magazineCount": 0,
+  "modificationCount": 1,
   "buildCount": 1,
-  "actions": [
-    {
-      "id": "remington-700-long",
-      "maker": "Remington",
-      "model": "700",
-      "variant": "Long action",
-      "lengthClass": "long",
-      "footprint": "remington-700-long",
-      "cloneOf": null,
-      "lengthUnit": "in",
-      "boltFaces": [],
-      "boltTravel": null,
-      "ejectionPortLength": null,
-      "receiverLength": null,
-      "magazineIds": [],
-      "maxCoalMagazine": null,
-      "maxCoalSingleFeed": null,
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "Placeholder so magazines and builds have an action to attach to. Bolt faces and factory limits are waiting on the bots (BOTS.md, 2026-11-03)."
-    },
-    {
-      "id": "remington-700-short",
-      "maker": "Remington",
-      "model": "700",
-      "variant": "Short action",
-      "lengthClass": "short",
-      "footprint": "remington-700-short",
-      "cloneOf": null,
-      "lengthUnit": "in",
-      "boltFaces": [],
-      "boltTravel": null,
-      "ejectionPortLength": null,
-      "receiverLength": null,
-      "magazineIds": [],
-      "maxCoalMagazine": null,
-      "maxCoalSingleFeed": null,
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "Placeholder so magazines and builds have an action to attach to. Bolt faces and factory limits are waiting on the bots (BOTS.md, 2026-11-03)."
-    }
-  ],
-  "magazines": [
-    {
-      "id": "wyatts-mbe-2",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE-2 extended box, R700 long action (standard and belted magnums)",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-long"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 3.825,
-      "maxCoal": 3.825,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": null
-    },
-    {
-      "id": "wyatts-mbe-3",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE-3 extended box, R700 long action (Ultra Mags, windowed)",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-long"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 3.825,
-      "maxCoal": 3.825,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "Window for wide case bodies."
-    },
-    {
-      "id": "wyatts-mbe-la-300-prc",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE LA 300 PRC extended box, R700 long action",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-long"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 3.83,
-      "maxCoal": 3.83,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": null
-    },
-    {
-      "id": "wyatts-mbe-5",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE-5 extended box, R700 short action (standard cartridges)",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-short"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 2.995,
-      "maxCoal": 2.995,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": null
-    },
-    {
-      "id": "wyatts-mbe-4",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE-4 extended box, R700 short action (WSM / SAUM, windowed)",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-short"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 2.995,
-      "maxCoal": 3.0,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "Retailer lists 2.995 in internal length and 3.000 in COAL."
-    },
-    {
-      "id": "wyatts-mbe-sa-6-5-prc",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE SA 6.5 PRC extended box, R700 short action",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-short"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 2.985,
-      "maxCoal": 2.985,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": null
-    },
-    {
-      "id": "wyatts-mbe-sa-3100",
-      "maker": "Wyatt's Outdoor",
-      "name": "MBE SA 3.100 COAL extra-extended box, R700 short action",
-      "type": "internal-box",
-      "fitsFootprints": [
-        "remington-700-short"
-      ],
-      "lengthUnit": "in",
-      "internalLength": 3.1,
-      "maxCoal": 3.1,
-      "maxCaseHeadDiameter": null,
-      "capacityRounds": null,
-      "requiresModificationIds": [
-        "wyatts-r700-install"
-      ],
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "On a clone receiver the bolt stop must move rearward so the bolt nose clears the cartridge base (retailer)."
-    }
-  ],
+  "actions": [],
+  "magazines": [],
   "modifications": [
-    {
-      "id": "wyatts-r700-install",
-      "name": "Fit a Wyatt's extended box: modify receiver, bolt stop and stock",
-      "kind": "magazine-well",
-      "appliesToFootprints": [
-        "remington-700-long",
-        "remington-700-short"
-      ],
-      "lengthUnit": "in",
-      "coalGain": null,
-      "resultingMaxCoal": null,
-      "gunsmithRequired": true,
-      "reversible": null,
-      "requires": [],
-      "effect": "Lets the longer Wyatt's box fit. Retailers say it needs modification to the receiver and bolt (Red Hawk) or to the stock, receiver and bolt stop (Brownells), by a competent gunsmith. Not compatible with AICS-pattern detachable bottom metal.",
-      "source": {
-        "name": "Red Hawk Rifles, Wyatt's extended magazine boxes",
-        "url": "https://redhawkrifles.com/wyatts-extended-magazine-boxes/",
-        "retrievedOn": "2026-11-03",
-        "kind": "retailer"
-      },
-      "fieldSources": {},
-      "note": "Brownells describes the extended box as giving about .110 in additional length."
-    },
     {
       "id": "r700-feed-lip-milling",
       "name": "Mill back the receiver feed lips",
@@ -282,16 +31,15 @@
         "kind": "community"
       },
       "fieldSources": {},
-      "note": null
+      "note": "Filed by the project from the owner's report; no maker or gunsmith page with this step found yet."
     }
   ],
   "builds": [
     {
       "id": "kevin-r700-long-wyatts-28-nosler",
       "actionId": "remington-700-long",
-      "magazineId": "wyatts-mbe-2",
+      "magazineId": "wyatts-mbe-02",
       "modificationIds": [
-        "wyatts-r700-install",
         "r700-feed-lip-milling"
       ],
       "cartridge": "28 Nosler",

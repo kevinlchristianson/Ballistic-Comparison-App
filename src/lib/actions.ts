@@ -433,6 +433,16 @@ function srcOf(rec: Common, field: string): ActionSource {
   return rec.fieldSources[field] ?? rec.source;
 }
 
+function uniqueSources(list: ActionSource[]): ActionSource[] {
+  const seen = new Set<string>();
+  return list.filter((s) => {
+    const k = `${s.name}|${s.url ?? ""}`;
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+}
+
 export interface MatchInput {
   cartridge: Pick<Cartridge, "id" | "rimDiameterIn">;
   coalIn: number;
@@ -447,11 +457,12 @@ export function matchActions(db: ActionDb, input: MatchInput): ActionMatch[] {
   const { coalIn } = input;
   const modsById = new Map(db.modifications.map((m) => [m.id, m]));
   const magsById = new Map(db.magazines.map((m) => [m.id, m]));
+  const partOfMagazine = new Set(db.magazines.flatMap((m) => m.requiresModificationIds));
   const out: ActionMatch[] = [];
   for (const a of db.actions) {
     const fp = a.footprint ?? a.id;
     const routes: Route[] = [];
-    const push = (r: Omit<Route, "reaches">) => routes.push({ ...r, reaches: r.maxCoalIn >= coalIn - 1e-6 });
+    const push = (r: Omit<Route, "reaches">) => routes.push({ ...r, sources: uniqueSources(r.sources), reaches: r.maxCoalIn >= coalIn - 1e-6 });
 
     // Factory magazine.
     const factoryMags = a.magazineIds.map((id) => magsById.get(id)).filter((m): m is Magazine => !!m);
@@ -475,16 +486,18 @@ export function matchActions(db: ActionDb, input: MatchInput): ActionMatch[] {
       push({ kind: "magazine", label: `${m.maker} ${m.name}`, maxCoalIn: lim.coal, fromInsideLength: lim.inside, magazine: m, modifications: mods, build: null, sources: [s, ...mods.map((x) => x.source)], community: s.kind === "community" });
     }
 
-    // Modifications with a stated limit or gain.
+    // Modifications with a stated limit or gain. Work a magazine needs is shown with that magazine, not on its own.
     const related: Modification[] = [];
     for (const m of db.modifications) {
       if (!m.appliesToFootprints.includes(fp)) continue;
+      if (partOfMagazine.has(m.id)) continue;
       const coal = m.resultingMaxCoalIn ?? (m.coalGainIn != null && Number.isFinite(factoryLimit) ? factoryLimit + m.coalGainIn : null);
       if (coal == null) {
         related.push(m);
         continue;
       }
-      push({ kind: "modification", label: m.name, maxCoalIn: coal, fromInsideLength: false, magazine: null, modifications: [m], build: null, sources: [srcOf(m, m.resultingMaxCoalIn != null ? "resultingMaxCoal" : "coalGain")], community: false });
+      const needs = [...m.requires.map((id) => modsById.get(id)).filter((x): x is Modification => !!x), m];
+      push({ kind: "modification", label: m.name, maxCoalIn: coal, fromInsideLength: false, magazine: null, modifications: needs, build: null, sources: [srcOf(m, m.resultingMaxCoalIn != null ? "resultingMaxCoal" : "coalGain"), ...needs.slice(0, -1).map((x) => x.source)], community: false });
     }
 
     // Reported builds on this action with this cartridge.

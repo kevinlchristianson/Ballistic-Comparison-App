@@ -4,4 +4,4 @@
 
 Normalization merges both and lists left-out records under **Rifle actions** in its report. The Chamber tab's **Show Actions** button uses the result (`src/lib/actions.ts`).
 
-The project file is a seed: two Remington 700 placeholders (no numbers until the bots file them), the Wyatt's boxes a retailer lists with their COAL, the work they need, and the owner's own 28 Nosler build (MBE-2 box, per the owner).
+The project file holds what the bots can't file: feed-lip milling (only forum and owner reports so far, so it carries no numbers) and the owner's own 28 Nosler build (Remington 700 long action, Wyatt's MBE-02 box, feed lips milled, COAL about 3.705 in). Actions, magazines and the Wyatt's installation work come from the bots.

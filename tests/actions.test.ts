@@ -158,6 +158,13 @@ describe("matchActions", () => {
     expect(matchActions(db, { cartridge: c308, coalIn: 3.85 })[0]!.status).toBe("single-feed");
     expect(matchActions(db, { cartridge: c308, coalIn: 4.0 })[0]!.status).toBe("too-short");
   });
+  it("shows work a magazine needs with that magazine, not as its own route", () => {
+    const f = file() as { modifications: Record<string, unknown>[] };
+    const data = file({ modifications: [{ ...f.modifications[0]!, coalGain: 0.11 }] });
+    const db2 = mergeActionFiles([{ file: "x", data }], cartridges).db;
+    const [m] = matchActions(db2, { cartridge: c308, coalIn: 3.65 });
+    expect(m!.routes.some((r) => r.kind === "modification")).toBe(false);
+  });
   it("applies a modification's COAL gain to the factory limit", () => {
     const f = file() as { modifications: Record<string, unknown>[] };
     const data = file({ magazines: [], modifications: [{ ...f.modifications[0]!, id: "gain", coalGain: 0.1 }] });
@@ -169,9 +176,10 @@ describe("matchActions", () => {
 });
 
 describe("project action file", () => {
-  it("passes its own rules", () => {
-    const { reports } = mergeActionFiles([{ file: "data/actions/actions.json", data: projectFile, addedBy: "project" }], cartridges);
-    expect(reports[0]!.rejected).toEqual([]);
+  it("passes its own rules, and its build links to the bots' records", () => {
+    expect(mergeActionFiles([{ file: "data/actions/actions.json", data: projectFile, addedBy: "project" }], cartridges).db.modifications).toHaveLength(1);
+    const { reports } = loadActionDb(cartridges);
+    expect(reports.find((r) => r.file === "data/actions/actions.json")!.rejected).toEqual([]);
   });
 
   it("describes the owner's 28 Nosler: R700 LA reaches 3.705 in with a Wyatt's box, and the build is listed", () => {
@@ -179,7 +187,7 @@ describe("project action file", () => {
     const m = matchActions(db, { cartridge: cartridge("28-nosler"), coalIn: 3.705 }).find((x) => x.action.id === "remington-700-long")!;
     expect(m.status).toBe("fits-with-parts");
     expect(m.routes.some((r) => r.kind === "build" && r.community)).toBe(true);
-    expect(m.routes.find((r) => r.magazine?.id === "wyatts-mbe-3")?.reaches).toBe(true);
+    expect(m.routes.find((r) => r.kind === "magazine" && r.magazine?.id === "wyatts-mbe-02")?.reaches).toBe(true);
     expect(m.related.map((x) => x.id)).toContain("r700-feed-lip-milling");
   });
 });

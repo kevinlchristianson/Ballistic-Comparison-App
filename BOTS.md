@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-11-03, new request: a rifle action and modification database in `data/actions/bots/` (see below); earlier the same day, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-11-03, Show Actions live and answers on the action files (see below); earlier, new request: a rifle action and modification database in `data/actions/bots/` (see below); earlier the same day, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -97,6 +97,18 @@ The project owner asked for a database of rifle actions and the modifications th
 3. **Every value cites a source** (`source`, plus `fieldSources` when one record's numbers come from different pages). Maker and gunsmith pages first; forum posts are allowed for `builds` and tagged as community reports. Numbers only, as printed, `null` when unknown, never a typical value. Check each site's terms first and note them in a comment file.
 4. **Split the work** however suits you (for example, one bot takes actions, the other magazines and modifications) and say which in a comment file. Start with the Remington 700 and its clones, then the priority list in the README.
 5. **The reader is in** (`src/lib/actions.ts`): every Check run lists your action files under **Rifle actions** in the normalization report, with each left-out record and why. The project's own seed is `data/actions/actions.json` (two Remington 700 placeholders, the Wyatt's boxes Red Hawk Rifles lists, the work they need, and the owner's 28 Nosler build); it is read first, so don't reuse its ids. Please fill the R700 records' bolt faces and factory limits from your own sources under new ids, or say in a comment file if you'd rather the project replace its placeholders with yours.
+
+## What changed on the project side (2026-11-03, later): Show Actions is live
+
+Thanks to both bots for the first action files (PRs #330, #332, #333). The Chamber tab's **Show Actions** button now lists every action with its bolt-face fit and each way it reaches the chosen COAL: factory magazine, an aftermarket box with the work it needs, a modification with a stated new limit, a reported build, or single feed.
+
+1. **Project seed trimmed.** `data/actions/actions.json` now holds only what you couldn't file: `r700-feed-lip-milling` (owner's report, no numbers) and the owner's build `kevin-r700-long-wyatts-28-nosler` (Rem 700 LA, `wyatts-mbe-02`, feed lips milled, 3.705 in). Your `remington-700-long`/`-short` records and the Wyatt's boxes are used as filed.
+2. **Footprint ids confirmed** (bullet bot's question): `remington-700-long`, `remington-700-short` and `winchester-70-long` are right. Load-data bot, please add the Winchester 70 long action so the MBE-08 has an action to attach to.
+3. **Medium footprint** (load-data bot's question): use `zermatt-medium` for the shared industry medium inletting, since most medium records already do. Move the BAT Vesper M to it unless BAT says its inletting differs, and say so in `note` if it does.
+4. **Link the ids now.** The bullet bot's magazine and modification ids are fixed, so please fill `magazineIds` on actions and `magazineId`/`modificationIds` on builds (the 3.740 in MBE-3 build: `wyatts-mbe-03`). Unlinked ids still load; linked ones show the box and its work on the build.
+5. **How work is shown:** a modification a magazine lists in `requiresModificationIds` is shown only with that magazine, not as its own route, and a modification's `requires` are listed with it. A `coalGain` is added to the action's factory limit, so it only counts once the action has a factory figure.
+6. **Feed-rail milling, bolt-face opening and single feed** stay as you held them; the project filed feed-lip milling from the owner's own report. File maker or gunsmith pages for them when you find any.
+7. **Site terms** (JAWBONE, Go Big Tactical, American Rifle Co.): the owner's ruling will be recorded here. Until then, keep the records as filed.
 
 ## What changed on the project side (2026-11-03): powder bulk density
 
@@ -327,6 +339,7 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 | `2026-10-27-units-from-labels.md` | Agreed. Units taken from the page's column labels are published units. |
 | `2026-10-27-harvest-stopped.md` (PR #5) | Agreed. It stays stopped unless written permission is recorded here. |
 | `2026-10-27-source-terms-survey.md` | Working assumption agreed: commit a manufacturer table that is public without an account when no terms page forbids copying it, quote any terms page you find, and leave out login walls, 404s and empty shells. Vihtavuori: see the project decision above. Hodgdon: go ahead, and keep looking for its terms page. Shooters World: wait until the units are confirmed, as you proposed. |
+| `2026-11-03-rifle-actions.md` (loads) and `2026-11-03-actions-magazines-modifications.md` (bullets) | Answered in **What changed on the project side (2026-11-03, later)**. |
 | `2026-11-02-powder-bulk-density.md` (PR #327) | Accepted; used for fill % in the Chamber tab. See **What changed on the project side (2026-11-03)** for missing powders and rows to recheck. |
 
 ## How changes to this file work
