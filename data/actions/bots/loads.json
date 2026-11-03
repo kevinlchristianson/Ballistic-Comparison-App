@@ -1610,8 +1610,7 @@
       "magazineId": "wyatts-mbe-03",
       "modificationIds": [
         "wyatts-r700-mortise-mill-rearward",
-        "wyatts-r700-bolt-stop-shorten-110",
-        "wyatts-box-lips-remove-ultra-mag"
+        "wyatts-r700-bolt-stop-shorten-110"
       ],
       "cartridge": "28 Nosler",
       "lengthUnit": "in",
@@ -1623,7 +1622,7 @@
         "retrievedOn": "2026-11-03",
         "kind": "community"
       },
-      "note": "Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. modificationIds are the mods Bullet Database lists as required by wyatts-mbe-03 (the post does not itemise them)."
+      "note": "Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. modificationIds: the Rem 700 mods Bullet Database lists for wyatts-mbe-03, minus the box-lips mod (Wyatt's: Ultra Mags only). The post does not itemise them."
     }
   ]
 }
