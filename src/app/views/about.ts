@@ -4,6 +4,7 @@ import { h, link } from "../dom.ts";
 import { verificationSummary } from "../labels.ts";
 
 export const KNOWN_LIMITATIONS: string[] = [
+  "Powder fill (Chamber tab) uses bulk densities from the Lee volume-measure chart, Vihtavuori and ammoreference.com. Sources differ by a few percent and up to about 10%, and settling and lots move it further, so fill is a range. It is volume only, not a pressure or safety limit.",
   "Chamber tab: no cartridge has a printed throat yet, so freebore, throat Ø, bore Ø and leade angle are estimates (marked ≈). Freebore is set so a typical spitzer seated to max COAL just touches the lands (3/8 in for Weatherby magnums). Jump depends on your reamer, throat wear and the bullet's real ogive; measure to the lands in your rifle.",
   "Cartridge values not yet checked against SAAMI or C.I.P. documents are marked unverified on the Cartridges tab. Case capacity is not part of either standard and is a typical figure.",
   "The physics velocity model is fitted to published maximum loads for 64 cartridges and assumes a maximum-pressure load with a suitable powder. It does not model powder burn rate. Real rifles vary by 2–5% or more.",

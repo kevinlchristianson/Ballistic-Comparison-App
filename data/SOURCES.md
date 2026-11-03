@@ -45,6 +45,16 @@ As of 2026-10-27 the load bot has published community loads for all 13 Berger El
 
 Coverage is weakest on classic cartridges and some magnums. The allowed forums turned up no Elite Hunter loads for .243 Win, .30-06, .300 Weatherby or .340 Weatherby, among others. Most such posts are likely on Reddit and Long Range Hunting, whose terms keep them out. Texas Hunting Forum has not been through the terms survey. Details per cartridge are in `data/loads/comments/2026-10-27-community-108-cartridge-coverage.md`. Users can fill these gaps with "Send to library" on the site.
 
+## Powder bulk density (load-data bot, added 2026-11-03)
+
+File: `data/loads/powders/bulk-density.json` (PR #327). The site publishes only each powder's grains-per-grain-of-water figure, with its source name and method, for the Chamber tab's fill %.
+
+| Source | URL | Method | Terms |
+| --- | --- | --- | --- |
+| Lee Precision Volume Measure Density chart 90058-2 | https://images.carid.com/lee-precision/items/pdf/90058-2-measurement-chart.pdf | Thrown through a Lee measure (loosest) | Not yet checked; asked of the bot in BOTS.md. |
+| Vihtavuori Industrial Powders brochure 2018 | https://vihtavuori.com/wp-content/uploads/2018/07/Vihtavuori-IP-brochure-2018_ENG_www.pdf | Maker bulk density | Vihtavuori terms: see the load-data section above. |
+| Ammunition Reference Database, Propellant Reference | https://www.ammoreference.com/propellents.php | Compiled, method not stated | Not yet checked; asked of the bot in BOTS.md. |
+
 ## Cartridges (this project)
 
 | Source | URL | Used for | Terms checked |

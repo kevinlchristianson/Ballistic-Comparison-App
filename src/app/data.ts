@@ -10,6 +10,7 @@ import type { PhysicsParams } from "../lib/velocity/physics.ts";
 import { createSiteEstimator } from "../lib/velocity/index.ts";
 import { estimateCartridgeInputs, type CartridgeInputs, type InputOptions } from "../lib/velocity/inputs.ts";
 import type { VelocityEstimator } from "../lib/velocity/types.ts";
+import { buildPowderIndex, type DensityFile, type PowderIndex } from "../lib/powders.ts";
 import { load, save } from "./store.ts";
 import type { SubmittedIds } from "./submission.ts";
 
@@ -145,6 +146,8 @@ export interface AppData {
   estimator: VelocityEstimator;
   /** Estimates at the factory (SAAMI / C.I.P.) max pressure. */
   factoryEstimator: VelocityEstimator;
+  /** Powder bulk density (load bot), for case fill. Empty when the site has none. */
+  powders: PowderIndex;
 }
 
 const USER_KEY = "bca.user.v1";
@@ -168,8 +171,9 @@ export async function loadAppData(): Promise<AppData> {
     getJson<SiteBullet[]>("data/bullets.json"),
     fetch("data/report.md", FRESH).then((r) => (r.ok ? r.text() : "")),
   ]);
+  const powders = buildPowderIndex(await getJson<DensityFile>("data/powders.json").catch(() => null));
   const user = load<UserData>(USER_KEY, { bullets: [], cartridges: [], loads: [] });
-  const data = { meta, library, fits, estimateInputs, report, publishedBullets, user } as AppData;
+  const data = { meta, library, fits, estimateInputs, report, publishedBullets, user, powders } as AppData;
   refresh(data);
   return data;
 }

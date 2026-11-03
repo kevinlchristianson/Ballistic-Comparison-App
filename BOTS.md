@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-11-03, powder bulk density files (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-11-03, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -11,10 +11,9 @@ Last updated: 2026-11-03, powder bulk density files (see below); 2026-11-02 even
 | `data/bullets/` and `scripts/bullets/` | Bullet bot | The app reads these files and never edits them by hand. |
 | `data/loads/` and `scripts/loads/` | Load-data bot | The app reads these files and never edits them by hand. |
 | `data/bullets/comments/` and `data/loads/comments/` | The bot that owns the folder | Notes and questions for the project, one file per topic, in the format of each folder's `README.md`. The project reads these at each audit and answers in the **Answers** section of this file. The project does not edit the bots' comment files; a bot may copy an answer into its file's `Answer` section and set it to `answered`. |
-| `data/powders/bots/` | Both bots (`loads.json` for the load-data bot, `bullets.json` for the bullet bot) | Powder bulk density records. Format in [`data/powders/README.md`](data/powders/README.md). |
 | `data/cartridges/bots/` | Both bots (one file each: `loads.json` for the load-data bot, `bullets.json` for the bullet bot) | Cartridges and cartridge names the bots add to the library. Format and rules are in [`data/cartridges/bots/README.md`](data/cartridges/bots/README.md). The project's own `cartridges.json` always wins; clashing or unsourced records are left out and listed in the normalization report. |
 | `data/user/` | This project (written by the **Library submission** workflow) | Entries people send from the site. Bots should not write here or copy from here. |
-| Everything else (`BOTS.md`, `data/cartridges/` and `data/powders/` outside `bots/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
+| Everything else (`BOTS.md`, `data/cartridges/` outside `bots/`, `data/powders/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
 
 If bot data needs fixing, the app does not patch it. Bad records are quarantined in the app's normalization step and listed in its report. The fix goes back to the bot as a request in this file.
 
@@ -85,14 +84,15 @@ Open requests:
 
 ## What changed on the project side (2026-11-03): powder bulk density
 
-The owner has the bots looking for how many grains of each powder fill one grain of water's space. The app will use it with case capacity and the seated bullet's volume (from the Chamber tab) to show a fill ratio for any cartridge, bullet, seating depth and charge, and to flag compressed loads.
+Thanks to the load-data bot for `data/loads/powders/bulk-density.json` (PR #327): 606 rows, 338 powders, from the Lee VMD chart, the Vihtavuori 2018 brochure and ammoreference.com.
 
-1. **Where to file it:** `data/powders/bots/loads.json` (load-data bot) and `data/powders/bots/bullets.json` (bullet bot), schema 1.0.0, format in [`data/powders/README.md`](data/powders/README.md). Record density **as printed**, with unit and method (`poured`, `settled`, `measured` or `unspecified`). The app converts it to grains per grain of water (bulk density ÷ 0.9982 g/cm³ for water at 20 °C).
-2. **Match the load data's names:** [`data/powders/load-data-powder-names.tsv`](data/powders/load-data-powder-names.tsv) lists the 584 powder strings in the load files, with row counts (e.g. "IMR 4350", "Hodg VARGET" and "Varget" are separate strings). Put them in each record's `aliases`. Start with the most-used names.
-3. **Method matters.** Poured and settled densities can differ by several percent, which is about the margin that separates a full case from a compressed one. Don't mix them silently.
-4. **Not from QuickLOAD or GRT databases** (licensed data). Values someone published openly are fine, cited, with their origin in `note`. Forum measurements are community reports; give lot and method when known.
-5. **Check against the load data:** 12,918 load rows are already marked compressed. A density that makes many of them look underfilled is suspect; the normalization report will list them once the app reads the files. If you find a source that prints a "100% fill" or "max case fill" charge per cartridge instead of density, file it in a comment, because it is a useful cross-check too.
-6. **Questions** go in `data/loads/comments/` or `data/bullets/comments/` as usual.
+1. **Path and format accepted as filed.** The app reads `data/loads/powders/bulk-density.json` and uses `grPerGrH2O`. Ignore the `data/powders/bots/` layout this section first proposed. The bullet bot doesn't need to file density; send any extra sources to the load-data bot's file.
+2. **Chamber tab uses it now:** pick a powder and charge, and it shows fill % of the powder space left under the seated bullet (case water capacity less the bullet's volume, from the bullet drawing, not seating depth × bore area). Fill is a range from the densest to the loosest figure. "Compressed" means over 100% at every figure; over 100% at only the loosest is shown as "about full". A full-case figure is shown as a volume, never as a charge to load.
+3. **Name matching** (`resolvePowder` in `src/lib/powders.ts`, project-owned): 96.6% of load rows now find a density. No action needed for spelling variants. **Powders in the load data with no density row yet**, by rows: Hodgdon data's "Magnum" (622), "Grand" (534) and "High Country" (477); plain IMR 7828 (376, not the SSC); Alliant RL 10x (248), RL TS 15.5 (71), Reloder 11 / TS 11; Shooters World "Precision Rifle" (126), "The Creed" (70), "The Patriot" (39) and "BMG"; H4831SC (≈140 across spellings; a short-cut grain packs denser than H4831, so it needs its own row); Hodgdon H4350 Extreme, H355, H332, BL-C; Vihtavuori N125; Accurate No. 9; Alliant 2000-MR. Please add them when a source prints them, as a `powderKey` like the others, and say which maker "Magnum", "Grand" and "High Country" are in Hodgdon's data.
+4. **Rows to recheck.** A Lee VMD figure is thrown, the loosest fill, so it should not be denser than a maker or compiled figure for the same powder. These are more than 5% denser, which suggests a misread chart row or a mismatched name: Hodgdon CFE Pistol (Lee 0.859 vs 0.638), IMR Red and Green (0.585 / 0.578 vs 0.491), Accurate No. 2 (0.773 vs 0.65) and No. 5 (1.04 vs 0.95), Winchester 296 (0.988 vs 0.86), Vihtavuori 3N38 (0.859 vs 0.73), Vectan BA9 (0.705 vs 0.638), Hodgdon LEVERevolution (0.992 vs 0.92). Somchem MS200 (0.611 vs 0.979) and MP200 (0.726 vs 0.977) disagree by 35–60%. Vihtavuori N320 has two ammoreference rows. Fix or note them; until then the app shows every figure and the range.
+5. **Your outlier note** (H4350 and AR2209 at 0.99 compiled) stands: the app shows those as the dense end of the range rather than dropping them. If you can find a maker figure for either, it will narrow the range.
+6. **Water:** your conversion takes water as 1.000 g/cc. At 20 °C it is 0.9982, which moves `grPerGrH2O` by 0.2%. That is well inside the spread between sources, so no change is needed.
+7. **Licensing:** please add ammoreference.com's terms (or that none were found) to your comment file, as for the other sources.
 
 ## What changed on the project side (2026-11-02, evening): chamber throats
 
@@ -311,6 +311,7 @@ Answers to open questions in the bots' comment folders. Where an answer says "ag
 | `2026-10-27-units-from-labels.md` | Agreed. Units taken from the page's column labels are published units. |
 | `2026-10-27-harvest-stopped.md` (PR #5) | Agreed. It stays stopped unless written permission is recorded here. |
 | `2026-10-27-source-terms-survey.md` | Working assumption agreed: commit a manufacturer table that is public without an account when no terms page forbids copying it, quote any terms page you find, and leave out login walls, 404s and empty shells. Vihtavuori: see the project decision above. Hodgdon: go ahead, and keep looking for its terms page. Shooters World: wait until the units are confirmed, as you proposed. |
+| `2026-11-02-powder-bulk-density.md` (PR #327) | Accepted; used for fill % in the Chamber tab. See **What changed on the project side (2026-11-03)** for missing powders and rows to recheck. |
 
 ## How changes to this file work
 
