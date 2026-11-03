@@ -68,6 +68,8 @@ export interface Throat {
   leadeAngleDeg: ThroatValue;
   /** Bore (land) diameter, in. */
   boreDiameterIn: ThroatValue;
+  /** Groove diameter, in: taken as the bullet Ø. */
+  grooveDiameterIn: ThroatValue;
   /** Head to the end of the chamber neck, in. */
   chamberNeckEndIn: ThroatValue;
 }
@@ -79,6 +81,8 @@ export interface ThroatDims {
   leadeAngleDeg: number;
   boreDiameterIn: number;
   chamberNeckEndIn: number;
+  /** Groove Ø; the drawing takes the bullet Ø when absent. */
+  grooveDiameterIn?: number;
 }
 
 export const throatDims = (t: Throat): ThroatDims => ({
@@ -87,6 +91,7 @@ export const throatDims = (t: Throat): ThroatDims => ({
   leadeAngleDeg: t.leadeAngleDeg.value,
   boreDiameterIn: t.boreDiameterIn.value,
   chamberNeckEndIn: t.chamberNeckEndIn.value,
+  grooveDiameterIn: t.grooveDiameterIn.value,
 });
 
 const r4 = (x: number) => Math.round(x * 10000) / 10000;
@@ -105,6 +110,17 @@ export const leadeStartIn = (t: ThroatDims) => t.chamberNeckEndIn + t.freeboreIn
 /** Where the leade reaches the bore (the rifling is full height), from the bolt face. */
 export function leadeEndIn(t: ThroatDims): number {
   return leadeStartIn(t) + (t.throatDiameterIn - t.boreDiameterIn) / 2 / Math.tan(rad(t.leadeAngleDeg));
+}
+
+/**
+ * Where the rifling starts (the origin of rifling), from the bolt face: where the
+ * leade cone comes down to the groove Ø and starts cutting into the lands.
+ */
+export function landsStartIn(t: ThroatDims, grooveDiameterIn = t.grooveDiameterIn): number {
+  const s = leadeStartIn(t);
+  if (grooveDiameterIn == null || grooveDiameterIn >= t.throatDiameterIn) return s;
+  const g = Math.max(grooveDiameterIn, t.boreDiameterIn);
+  return s + (t.throatDiameterIn - g) / 2 / Math.tan(rad(t.leadeAngleDeg));
 }
 
 /** Chamber radius at distance z from the bolt face, ahead of the chamber neck. */
@@ -212,6 +228,7 @@ export function standardThroat(c: Cartridge): Throat | null {
     est(d + T.throatClearanceIn, `bullet Ø + ${T.throatClearanceIn} in, a typical factory throat`);
   const boreD = fromRecord(c.boreDiameterIn, "boreDiameterIn") ?? est(typicalBoreDiameter(d), "bullet (groove) Ø less two typical land heights");
   const angle = fromRecord(c.leadeAngleDeg, "leadeAngleDeg") ?? est(T.leadeAngleDeg, `${T.leadeAngleDeg}° per side (1°30′), a common factory leade`);
+  const groove = est(d, "taken as the bullet Ø (a barrel's groove Ø is about its bullet Ø); slug your bore for the real value");
   const neckEnd = est(caseLen + T.chamberNeckExtraIn, `max case length + ${T.chamberNeckExtraIn} in, as on typical reamer prints`);
 
   // Zero freebore is a real value (some match chambers), so only null means unknown here.
@@ -230,7 +247,7 @@ export function standardThroat(c: Cartridge): Throat | null {
       );
     } else freebore = est(T.fallbackFreeboreIn, "a typical freebore; there is no max COAL to estimate from");
   }
-  return { freeboreIn: freebore, throatDiameterIn: throatD, leadeAngleDeg: angle, boreDiameterIn: boreD, chamberNeckEndIn: neckEnd };
+  return { freeboreIn: freebore, throatDiameterIn: throatD, leadeAngleDeg: angle, boreDiameterIn: boreD, grooveDiameterIn: groove, chamberNeckEndIn: neckEnd };
 }
 
 /** Volume of a bullet from its base up to `x` (in from the base), cubic inches. */

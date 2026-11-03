@@ -8,10 +8,11 @@ import { buildBulletProfile, bulletDrawable, type BulletDims, type BulletProfile
 import { buildCaseProfiles, type CaseProfile } from "../../lib/caseProfile.ts";
 import { nominalDiameter } from "../../lib/calibers.ts";
 import type { Cartridge } from "../../lib/cartridges.ts";
-import { seatBullet, standardThroat, throatDims, touchPoint, type SeatingFlag, type SeatingResult, type Throat, type ThroatDims } from "../../lib/chamber.ts";
+import { landsStartIn, seatBullet, standardThroat, THROAT_TYPICAL, throatDims, touchPoint, type SeatingFlag, type SeatingResult, type Throat, type ThroatDims } from "../../lib/chamber.ts";
 import { bulletHalfOutline } from "../../lib/bulletProfile.ts";
-import { caseFill, resolvePowder, type PowderDensity } from "../../lib/powders.ts";
-import { chamberSvg, throatCloseupSvg } from "../chamberDrawing.ts";
+import { caseFill, resolvePowder, type Fill, type PowderDensity } from "../../lib/powders.ts";
+import { chamberSvg, throatCloseupSvg, type ChamberScene } from "../chamberDrawing.ts";
+import type { SheetInfo } from "../chamberPdf.ts";
 import { cartridgePicker } from "../cartridgePicker.ts";
 import { bulletLabel, type AppData, type SiteBullet } from "../data.ts";
 import { append, clear, h, link, type Child } from "../dom.ts";
@@ -66,6 +67,8 @@ function caseProfiles(cartridges: Cartridge[]): Map<string, CaseProfile> {
 const drawWidth = () => Math.round(Math.min(900, Math.max(320, (document.documentElement.clientWidth || 900) - 64)));
 
 const inch = (x: number | null | undefined, places = 3) => (x == null ? "—" : `${x.toFixed(places)}″`);
+/** "0.020″ jump", or "a 0.010″ jam" when the bullet is wanted into the lands. */
+const jumpPhrase = (x: number) => (x < 0 ? `a ${(-x).toFixed(3)}″ jam` : `${x.toFixed(3)}″ jump`);
 
 function siteBulletDims(b: SiteBullet): { dims: BulletDims; noseEstimated: boolean } | null {
   if (b.lengthIn == null) return null;
@@ -86,9 +89,9 @@ function siteBulletDims(b: SiteBullet): { dims: BulletDims; noseEstimated: boole
 }
 
 const FLAG_TEXT: Record<SeatingFlag, { text: string; level: "bad" | "warn" }> = {
-  jams_standard: { text: "Into the lands in a standard chamber: at this COAL the bullet hits the leade of the (estimated) SAAMI/C.I.P. throat. Seat deeper or use a longer freebore.", level: "bad" },
-  jams_custom: { text: "Into the lands in your chamber: the bullet is jammed at this COAL.", level: "bad" },
-  over_max_coal: { text: "Longer than the max COAL. It won't fit a standard magazine and may not chamber in a standard rifle.", level: "warn" },
+  jams_standard: { text: "Jammed into the lands of a standard chamber: at this COAL the bullet is pushed into the leade of the (estimated) SAAMI/C.I.P. throat. Seat deeper or use a longer freebore.", level: "bad" },
+  jams_custom: { text: "Jammed into the lands of your chamber at this COAL.", level: "bad" },
+  over_max_coal: { text: "Longer than the book max COAL. It won't fit a standard magazine and may not chamber in a standard rifle.", level: "warn" },
   too_short_in_neck: { text: "The neck holds less than one caliber of the bullet's shank (bearing surface). Neck tension may not hold it.", level: "warn" },
   ogive_in_neck: { text: "The ogive is inside the neck: the case mouth grips the curve of the nose, not the shank.", level: "warn" },
   base_below_neck: { text: "The bullet's base is below the neck, in the shoulder or body, so it takes powder space.", level: "warn" },
@@ -193,7 +196,7 @@ export function chamberView(data: AppData): HTMLElement {
     return { std, use, stdDims, custom: st.freeboreIn != null || st.leadeAngleDeg != null || st.throatDiameterIn != null };
   }
 
-  /** A sensible starting COAL: the target jump in the standard chamber, but no longer than max COAL. */
+  /** A sensible starting COAL: the desired jump in the standard chamber, but no longer than the book max COAL. */
   function defaultCoal(c: Cartridge, p: BulletProfile, t: ThroatDims): number {
     const touch = touchPoint(bulletHalfOutline(p), p.lengthIn, t);
     const options = [c.caseLengthIn! + p.lengthIn - p.boattail.value - Math.min(p.diameterIn, p.bearing.value)];
@@ -289,8 +292,8 @@ export function chamberView(data: AppData): HTMLElement {
     return h("label", { class: "field" }, h("span", { class: "field-label" }, `${label} (in)`), input, h("span", { class: "hint" }, hint));
   }
 
-  // ---- sliders
-  interface SliderOpts {
+  // ---- number controls with up/down buttons
+  interface StepperOpts {
     label: string;
     value: number;
     min: number;
@@ -301,47 +304,76 @@ export function chamberView(data: AppData): HTMLElement {
     hint?: Child;
     onChange: (v: number) => void;
   }
-  interface Slider {
+  interface Stepper {
     el: HTMLElement;
     set: (v: number) => void;
   }
-  function slider(o: SliderOpts): Slider {
-    const range = h("input", { type: "range", min: o.min, max: o.max, step: o.step, value: o.value, "aria-label": o.label });
-    const num = h("input", { type: "number", inputmode: "decimal", step: o.step, value: o.value.toFixed(o.places), class: "slider-num", "aria-label": `${o.label} value` });
-    // Last value applied, so a blur that re-fires "change" with the same value does nothing
-    // (re-rendering then would swallow a click on a button).
+  /**
+   * A number with up/down buttons. A click steps once; holding a button repeats,
+   * faster after a moment. Typed values apply on change.
+   */
+  function stepper(o: StepperOpts): Stepper {
+    const num = h("input", { type: "number", inputmode: "decimal", step: o.step, min: o.min, max: o.max, value: o.value.toFixed(o.places), class: "step-num", "aria-label": o.label });
     let last = o.value;
-    range.addEventListener("input", () => {
-      num.value = Number(range.value).toFixed(o.places);
-      last = Number(range.value);
-      o.onChange(last);
-    });
+    const grid = (v: number) => Number((Math.round(v / o.step) * o.step).toFixed(o.places));
+    const apply = (v: number) => {
+      const x = grid(Math.min(Math.max(v, o.min), o.max));
+      num.value = x.toFixed(o.places);
+      if (Math.abs(x - last) < 1e-9) return;
+      last = x;
+      o.onChange(x);
+    };
     num.addEventListener("change", () => {
       const v = Number(num.value);
-      if (num.value === "" || !Number.isFinite(v) || Math.abs(v - last) < 1e-9) return;
-      range.value = String(v);
-      last = v;
-      o.onChange(v);
+      if (num.value === "" || !Number.isFinite(v)) return;
+      apply(v);
     });
+    const button = (dir: 1 | -1) => {
+      const b = h("button", { type: "button", class: "step-btn", "aria-label": `${dir > 0 ? "Increase" : "Decrease"} ${o.label}` }, dir > 0 ? "▲" : "▼");
+      let timer: number | undefined;
+      let n = 0;
+      const stop = () => {
+        window.clearTimeout(timer);
+        timer = undefined;
+      };
+      const tick = () => {
+        n++;
+        apply(last + dir * o.step * (n > 15 ? 5 : 1));
+        timer = window.setTimeout(tick, 70);
+      };
+      b.addEventListener("pointerdown", (e) => {
+        if (e.button !== 0) return;
+        e.preventDefault();
+        b.focus();
+        n = 0;
+        apply(last + dir * o.step);
+        timer = window.setTimeout(tick, 400);
+      });
+      for (const ev of ["pointerup", "pointerleave", "pointercancel", "blur"]) b.addEventListener(ev, stop);
+      // Keyboard (Enter or Space) clicks have no pointer; step once.
+      b.addEventListener("click", (e) => {
+        if (e.detail === 0) apply(last + dir * o.step);
+      });
+      return b;
+    };
     const el = h(
       "div",
-      { class: "field slider" },
+      { class: "field stepper" },
       h("span", { class: "field-label" }, o.label),
-      h("div", { class: "slider-row" }, range, num, h("span", { class: "muted" }, o.unit)),
+      h("div", { class: "stepper-row" }, button(-1), num, button(1), h("span", { class: "muted" }, o.unit)),
       o.hint ? h("span", { class: "hint" }, o.hint) : null,
     );
     return {
       el,
       set: (v: number) => {
         last = v;
-        if (document.activeElement !== range) range.value = String(v);
         if (document.activeElement !== num) num.value = v.toFixed(o.places);
       },
     };
   }
 
   // ---- seating and throat controls
-  const sliders: Partial<Record<"coal" | "depth" | "jump" | "freebore" | "angle" | "throat", Slider>> = {};
+  const controls: Partial<Record<"coal" | "depth" | "jump" | "freebore" | "angle" | "throat", Stepper>> = {};
   const seatActions = h("div", { class: "actions" });
   const throatActions = h("div", { class: "actions" });
   const throatTag = h("span", { class: "tag" });
@@ -359,8 +391,8 @@ export function chamberView(data: AppData): HTMLElement {
     const minCoal = r3(caseLen + 0.15 * p.lengthIn);
     const maxCoal = r3(caseLen + p.lengthIn - 0.05);
     const std = ch.std;
-    sliders.coal = slider({ label: "COAL (base to tip)", value: st.coalIn!, min: minCoal, max: maxCoal, step: 0.001, places: 3, unit: "in", onChange: setCoal });
-    sliders.depth = slider({
+    controls.coal = stepper({ label: "COAL (base to tip)", value: st.coalIn!, min: minCoal, max: maxCoal, step: 0.001, places: 3, unit: "in", hint: "Moves with the seating depth.", onChange: setCoal });
+    controls.depth = stepper({
       label: "Seating depth (base below the mouth)",
       value: caseLen + p.lengthIn - st.coalIn!,
       min: 0.05,
@@ -370,22 +402,22 @@ export function chamberView(data: AppData): HTMLElement {
       unit: "in",
       onChange: (v) => setCoal(caseLen + p.lengthIn - v),
     });
-    sliders.jump = slider({
-      label: "Target jump to the lands",
+    controls.jump = stepper({
+      label: "Desired Jump",
       value: st.targetJumpIn,
-      min: -0.02,
-      max: 0.15,
+      min: -0.05,
+      max: 0.3,
       step: 0.001,
       places: 3,
       unit: "in",
-      hint: "Negative is a jam into the lands.",
+      hint: "To the lands. Negative is a jam into them.",
       onChange: (v) => {
         st.targetJumpIn = v;
         persist();
         update();
       },
     });
-    sliders.freebore = slider({
+    controls.freebore = stepper({
       label: "Freebore (throat length)",
       value: ch.use.freeboreIn,
       min: 0,
@@ -400,7 +432,7 @@ export function chamberView(data: AppData): HTMLElement {
         update();
       },
     });
-    sliders.angle = slider({
+    controls.angle = stepper({
       label: "Leade angle (per side)",
       value: ch.use.leadeAngleDeg,
       min: 0.25,
@@ -416,7 +448,7 @@ export function chamberView(data: AppData): HTMLElement {
       },
     });
     const d = c.bulletDiameterIn!;
-    sliders.throat = slider({
+    controls.throat = stepper({
       label: "Throat (freebore) Ø",
       value: ch.use.throatDiameterIn,
       min: Math.round((d + 0.0001) * 10000) / 10000,
@@ -433,11 +465,12 @@ export function chamberView(data: AppData): HTMLElement {
     });
     seatCard.append(
       h("h3", {}, "Seating"),
-      h("div", { class: "slider-grid" }, sliders.coal.el, sliders.depth.el, sliders.jump.el),
+      h("div", { class: "stepper-grid" }, controls.jump.el),
       seatActions,
+      h("div", { class: "stepper-grid" }, controls.depth.el, controls.coal.el),
       h("h3", {}, "Chamber throat ", throatTag),
-      h("div", { class: "slider-grid" }, sliders.freebore.el, sliders.angle.el, sliders.throat.el),
       throatActions,
+      h("div", { class: "stepper-grid" }, controls.freebore.el, controls.angle.el, controls.throat.el),
     );
   }
 
@@ -479,6 +512,54 @@ export function chamberView(data: AppData): HTMLElement {
   }
   buildPowderCard();
 
+  /** The fill for the powder and charge entered, or null. */
+  function chargeFill(r: SeatingResult): { powder: PowderDensity; fill: Fill } | null {
+    const p = findPowder(st.powderText);
+    const space = r.powderSpaceGrH2O;
+    if (!p || !st.chargeGr || st.chargeGr <= 0 || space == null || space <= 0) return null;
+    return { powder: p, fill: caseFill(st.chargeGr, space, p) };
+  }
+
+  /** Title block and spec table for the PDF. ≈ marks an estimate. */
+  function chamberSheet(c: Cartridge, cp: CaseProfile, r: SeatingResult, ch: NonNullable<ReturnType<typeof chamber>>, bp: { p: BulletProfile; label: string; source: SiteBullet | null }): SheetInfo {
+    const e = (estimated: boolean, s: string) => (estimated ? `≈${s}` : s);
+    const u = ch.use;
+    const std = ch.std;
+    const t4 = (x: number) => x.toFixed(4);
+    const t3 = (x: number) => x.toFixed(3);
+    const lands = landsStartIn(u, std.grooveDiameterIn.value);
+    const rows: [string, string][] = [
+      ["Chamber neck Ø", e(true, t4(cp.neckDiameter.value + 2 * THROAT_TYPICAL.chamberClearanceIn))],
+      ["Chamber neck end (from bolt face)", e(true, t3(u.chamberNeckEndIn))],
+      ["Freebore length (cylinder past the neck)", e(st.freeboreIn == null && std.freeboreIn.estimated, t3(u.freeboreIn))],
+      ["Freebore Ø", e(st.throatDiameterIn == null && std.throatDiameterIn.estimated, t4(u.throatDiameterIn))],
+      ["Leade angle (per side)", e(st.leadeAngleDeg == null && std.leadeAngleDeg.estimated, `${u.leadeAngleDeg.toFixed(2)}° (${(2 * u.leadeAngleDeg).toFixed(2)}° included)`)],
+      ["Lands start (from bolt face)", e(true, t3(lands))],
+      ["Groove Ø", e(std.grooveDiameterIn.estimated, t4(std.grooveDiameterIn.value))],
+      ["Land (bore) Ø", e(std.boreDiameterIn.estimated, t4(u.boreDiameterIn))],
+      ["Case length", t3(c.caseLengthIn!)],
+      ["Loaded COAL", t3(r.coalIn)],
+      ["Seating depth", t3(r.seatingDepthIn)],
+      ["COAL touching the lands", r.touch ? e(true, t3(r.touch.coalIn)) : "—"],
+      [r.jumpIn != null && r.jumpIn < 0 ? "Jam into the lands" : "Jump to the lands", r.jumpIn != null ? e(true, t3(Math.abs(r.jumpIn))) : "—"],
+    ];
+    if (c.maxCoalIn != null) rows.push(["Book Max COAL", t3(c.maxCoalIn)]);
+    const b = bp.source;
+    return {
+      title: `${c.name} chamber`,
+      subtitle: bp.label,
+      bullet: b ? `${b.diameterIn.toFixed(3)}″ × ${b.lengthIn?.toFixed(3) ?? "—"}″, ${b.weightGr} gr` : `${bp.p.diameterIn.toFixed(3)}″ × ${bp.p.lengthIn.toFixed(3)}″`,
+      chamber: ch.custom ? "Custom throat (your values)" : std.freeboreIn.estimated ? "Standard throat, estimated (≈)" : "Standard throat, from the record",
+      rows,
+      notes: [
+        "Inches. Values marked ≈ are estimates, not from a reamer print.",
+        "Freebore is the cylinder ahead of the chamber neck; the lands start where the leade cone reaches the groove Ø.",
+        "Measure the rifle's distance to the lands with this bullet and confirm against the reamer print before cutting.",
+      ],
+      fileName: `${c.id}-${(b?.id ?? "bullet").slice(0, 40)}-chamber.pdf`,
+    };
+  }
+
   function renderFill(r: SeatingResult): void {
     clear(fillOut);
     if (!powderList.length) return;
@@ -509,7 +590,7 @@ export function chamberView(data: AppData): HTMLElement {
       h(
         "p",
         {},
-        `The ${space.toFixed(1)} gr H₂O of powder space under this bullet holds about ${range(space * p.min, space * p.max, (x) => x.toFixed(1))} gr of it, level full. `,
+        `The ${space.toFixed(1)} gr H₂O of powder space under and around this bullet holds about ${range(space * p.min, space * p.max, (x) => x.toFixed(1))} gr of it, level full. `,
         h("span", { class: "muted small" }, "A volume, not a load: pressure, not fill, sets a safe charge."),
       ),
     ];
@@ -575,41 +656,82 @@ export function chamberView(data: AppData): HTMLElement {
     });
 
     // Drawings
-    const scene = { caseProfile: cp, bullet: p, coalIn: st.coalIn, throat: ch.use, standard: ch.stdDims, touch: r.touch, maxCoalIn: c.maxCoalIn };
+    const fill = chargeFill(r);
+    const scene: ChamberScene = {
+      caseProfile: cp,
+      bullet: p,
+      coalIn: st.coalIn,
+      throat: ch.use,
+      standard: ch.stdDims,
+      touch: r.touch,
+      maxCoalIn: c.maxCoalIn,
+      fill: fill ? { low: fill.fill.low, high: fill.fill.high } : null,
+      estimated: {
+        freebore: st.freeboreIn == null && ch.std.freeboreIn.estimated,
+        throat: st.throatDiameterIn == null && ch.std.throatDiameterIn.estimated,
+        angle: st.leadeAngleDeg == null && ch.std.leadeAngleDeg.estimated,
+        bore: ch.std.boreDiameterIn.estimated,
+        groove: ch.std.grooveDiameterIn.estimated,
+        neck: true,
+      },
+    };
+    const pdfButton = h("button", { class: "primary" }, "Generate Chamber Drawing");
+    const pdfNote = h("span", { class: "muted small" }, "A one-page PDF of both drawings with the bullet, the throat dimensions and the seating, for your gunsmith.");
+    pdfButton.addEventListener("click", async () => {
+      pdfButton.setAttribute("disabled", "");
+      pdfNote.textContent = "Making the PDF…";
+      try {
+        const { downloadChamberPdf } = await import("../chamberPdf.ts");
+        await downloadChamberPdf(scene, chamberSheet(c, cp, r, ch, bp));
+        pdfNote.textContent = "Saved. Check your downloads.";
+      } catch (e) {
+        pdfNote.textContent = `Couldn't make the PDF here: ${e instanceof Error ? e.message : String(e)}`;
+      } finally {
+        pdfButton.removeAttribute("disabled");
+      }
+    });
+    const lsq = (cls: string, text: string) => h("span", {}, h("span", { class: `swatch ${cls}` }), text);
     drawCard.append(
       h("div", { class: "chamber-head" }, h("strong", {}, c.name), h("span", { class: "muted" }, ` · ${bp.label}`)),
       chamberSvg(scene, drawWidth()),
-      h("h4", {}, "Throat close-up"),
+      h("h4", {}, "Throat detail"),
       throatCloseupSvg(scene, drawWidth()),
       h(
         "div",
         { class: "case-legend small muted" },
-        h("span", {}, h("span", { class: "swatch steel" }), "Barrel"),
-        h("span", {}, h("span", { class: "swatch brass" }), "Case"),
-        h("span", {}, h("span", { class: "swatch powder" }), "Powder space"),
-        h("span", {}, h("span", { class: "swatch copper" }), "Bullet"),
+        lsq("steel", "Barrel (cut)"),
+        lsq("land", "Lands"),
+        h("span", {}, h("span", { class: "line-key groove" }), "Groove bottom"),
+        lsq("brass", "Case"),
+        lsq("primer", "Primer"),
+        fill ? lsq("powder", "Powder") : lsq("powder", "Powder space"),
+        fill ? lsq("air", "Air space") : null,
+        fill && fill.fill.high > 1 ? h("span", {}, h("span", { class: "line-key loose" }), "Powder level before seating") : null,
+        lsq("copper", "Bullet"),
         h("span", {}, h("span", { class: "line-key touch" }), "Bullet touching the lands"),
         ch.custom ? h("span", {}, h("span", { class: "line-key std" }), "Standard throat ≈") : null,
       ),
+      h("p", { class: "hint" }, "The inside of the case (dished floor over the primer, wall thinning toward the shoulder) and the primer pocket are typical proportions, not measured."),
+      h("div", { class: "actions pdf-actions" }, pdfButton, pdfNote),
     );
 
-    // Seating and throat controls: built once per cartridge and bullet, so a slider
-    // being dragged is never replaced; later changes only move the other sliders.
+    // Seating and throat controls: built once per cartridge and bullet, so a button
+    // being held is never replaced; later changes only update the numbers.
     const key = `${c.id}|${st.bulletMode}|${bp.label}|${p.lengthIn}|${p.bearing.value}|${p.boattail.value}`;
     if (key !== builtKey) buildControls(c, p, ch);
     builtKey = key;
-    sliders.coal!.set(st.coalIn);
-    sliders.depth!.set(r.seatingDepthIn);
-    sliders.jump!.set(st.targetJumpIn);
-    sliders.freebore!.set(ch.use.freeboreIn);
-    sliders.angle!.set(ch.use.leadeAngleDeg);
-    sliders.throat!.set(ch.use.throatDiameterIn);
+    controls.coal!.set(st.coalIn);
+    controls.depth!.set(r.seatingDepthIn);
+    controls.jump!.set(st.targetJumpIn);
+    controls.freebore!.set(ch.use.freeboreIn);
+    controls.angle!.set(ch.use.leadeAngleDeg);
+    controls.throat!.set(ch.use.throatDiameterIn);
     clear(throatTag);
     throatTag.append(ch.custom ? "custom" : ch.std.freeboreIn.estimated ? "≈ standard" : "standard");
     clear(seatActions);
     append(seatActions, [
-      r.coalForTargetJumpIn != null ? h("button", { class: "primary", onclick: () => setCoal(r.coalForTargetJumpIn!) }, `Seat for ${inch(st.targetJumpIn)} jump (COAL ${inch(r.coalForTargetJumpIn)})`) : null,
-      c.maxCoalIn != null ? h("button", { onclick: () => setCoal(c.maxCoalIn!) }, `Seat to max COAL (${inch(c.maxCoalIn)})`) : null,
+      r.coalForTargetJumpIn != null ? h("button", { class: "primary", onclick: () => setCoal(r.coalForTargetJumpIn!) }, `Seat for ${jumpPhrase(st.targetJumpIn)} (COAL ${inch(r.coalForTargetJumpIn)})`) : null,
+      c.maxCoalIn != null ? h("button", { onclick: () => setCoal(c.maxCoalIn!) }, `Seat to Book Max COAL (${inch(c.maxCoalIn)})`) : null,
     ]);
     clear(throatActions);
     append(throatActions, [
@@ -624,7 +746,7 @@ export function chamberView(data: AppData): HTMLElement {
                 update();
               },
             },
-            `Set freebore for ${inch(st.targetJumpIn)} jump at this COAL (${inch(r.freeboreForTargetJumpIn)})`,
+            `Set freebore for ${jumpPhrase(st.targetJumpIn)} at this COAL (${inch(r.freeboreForTargetJumpIn)})`,
           )
         : null,
       ch.custom
@@ -649,13 +771,14 @@ export function chamberView(data: AppData): HTMLElement {
 
   function renderResults(c: Cartridge, r: SeatingResult, ch: NonNullable<ReturnType<typeof chamber>>, capacity: number | null, bp: { p: BulletProfile }): void {
     const jumpText = (j: number | null) => (j == null ? "—" : j < 0 ? h("span", { class: "danger" }, `${(-j).toFixed(3)}″ into the lands`) : `${j.toFixed(3)}″`);
+    const jumpOrJam = (j: number | null) => (j != null && j < 0 ? "Jam" : "Jump");
     const stdLabel = (ch.std.freeboreIn.estimated ? "≈ " : "") + "standard chamber";
     const rows: [string, Child, string?][] = [
-      ["COAL", inch(r.coalIn), r.maxCoalIn != null ? `Max COAL ${inch(r.maxCoalIn)}. ${r.action.label} (magazine about ${Number.isFinite(r.action.magazineLengthIn) ? inch(r.action.magazineLengthIn, 2) : "—"}).` : `${r.action.label}.`],
+      ["COAL", inch(r.coalIn), `${r.maxCoalIn != null ? `Book Max COAL ${inch(r.maxCoalIn)}. ` : ""}${r.action.label}${Number.isFinite(r.action.magazineLengthIn) ? ` (magazine about ${inch(r.action.magazineLengthIn, 2)})` : ""}.`],
       ["Seating depth", inch(r.seatingDepthIn), `Shank held by the neck ${inch(r.shankInNeckIn)} of a ${inch(r.neckLengthIn)} neck.`],
-      [`Jump, ${ch.custom ? "your chamber" : stdLabel}`, jumpText(r.jumpIn), r.touch ? `Touches the lands at COAL ${inch(r.touch.coalIn)}, where the ogive is ${inch(r.touch.contactDiameterIn, 4)} Ø.` : ""],
+      [`${jumpOrJam(r.jumpIn)}, ${ch.custom ? "your chamber" : stdLabel}`, jumpText(r.jumpIn), r.touch ? `Touches the lands at COAL ${inch(r.touch.coalIn)}, where the ogive is ${inch(r.touch.contactDiameterIn, 4)} Ø.` : ""],
     ];
-    if (ch.custom) rows.push([`Jump, ${stdLabel}`, jumpText(r.standardJumpIn), r.standardTouch ? `Touches at COAL ${inch(r.standardTouch.coalIn)}.` : ""]);
+    if (ch.custom) rows.push([`${jumpOrJam(r.standardJumpIn)}, ${stdLabel}`, jumpText(r.standardJumpIn), r.standardTouch ? `Touches at COAL ${inch(r.standardTouch.coalIn)}.` : ""]);
     rows.push(
       ["Bullet volume in the case", `${r.displacedGrH2O.toFixed(1)} gr H₂O`, `${r.displacedBelowNeckGrH2O.toFixed(1)} gr of it below the neck (${inch(r.belowNeckIn)} of bullet below the neck).`],
       [
@@ -665,16 +788,20 @@ export function chamberView(data: AppData): HTMLElement {
       ],
     );
     const fb = r.freeboreAddedIn;
+    const stdJ = r.standardJumpIn;
+    const overMax = r.flags.includes("over_max_coal") ? ", but it is longer than the book max COAL" : "";
     const verdict: Child =
-      r.standardJumpIn == null
+      stdJ == null
         ? null
-        : r.standardJumpIn >= st.targetJumpIn - 1e-4
-          ? h("p", { class: "ok" }, `Fits the ${stdLabel} with ${r.standardJumpIn.toFixed(3)}″ jump${r.flags.includes("over_max_coal") ? ", but it is longer than max COAL" : ""}.`)
+        : stdJ >= st.targetJumpIn - 1e-4
+          ? stdJ >= 0
+            ? h("p", { class: "ok" }, `Fits the ${stdLabel} with ${stdJ.toFixed(3)}″ jump to the lands${overMax}.`)
+            : h("p", { class: "warn" }, `Jammed ${(-stdJ).toFixed(3)}″ into the lands of the ${stdLabel}: your Desired Jump is a jam${overMax}.`)
           : h(
               "p",
-              { class: r.standardJumpIn < 0 ? "danger" : "warn" },
-              `${r.standardJumpIn < 0 ? "Won't fit" : "Less jump than you want in"} the ${stdLabel} at this COAL. `,
-              fb != null ? `To get ${inch(st.targetJumpIn)} jump, the freebore needs to be about ${inch(fb)} longer than standard (${inch(ch.stdDims.freeboreIn + fb)} in all): a custom chamber.` : "",
+              { class: stdJ < 0 ? "danger" : "warn" },
+              stdJ < 0 ? `Jammed ${(-stdJ).toFixed(3)}″ into the lands of the ${stdLabel} at this COAL. ` : `Only ${stdJ.toFixed(3)}″ jump in the ${stdLabel} at this COAL, less than your Desired Jump. `,
+              fb != null ? `For ${jumpPhrase(st.targetJumpIn)}, the freebore needs to be about ${inch(fb)} longer than standard (${inch(ch.stdDims.freeboreIn + fb)} in all): a custom chamber.` : "",
             );
     append(outCard, [
       h("h3", {}, "Result"),
@@ -682,7 +809,7 @@ export function chamberView(data: AppData): HTMLElement {
         ? h(
             "p",
             { class: r.jumpIn < 0 ? "danger" : "ok" },
-            r.jumpIn < 0 ? `Into the lands by ${(-r.jumpIn).toFixed(3)}″ in your chamber.` : `Your chamber: ${r.jumpIn.toFixed(3)}″ jump (freebore ${inch(ch.use.freeboreIn)}, leade ${ch.use.leadeAngleDeg}°).`,
+            r.jumpIn < 0 ? `Your chamber: jammed ${(-r.jumpIn).toFixed(3)}″ into the lands.` : `Your chamber: ${r.jumpIn.toFixed(3)}″ jump to the lands (freebore ${inch(ch.use.freeboreIn)}, leade ${ch.use.leadeAngleDeg}°).`,
           )
         : null,
       verdict,
@@ -692,7 +819,7 @@ export function chamberView(data: AppData): HTMLElement {
         h(
           "tbody",
           {},
-          rows.map(([k, v, note]) => h("tr", {}, h("th", { scope: "row" }, k), h("td", { class: "num" }, v), h("td", { class: "muted small" }, note ?? ""))),
+          rows.map(([k, v, note]) => h("tr", {}, h("th", { scope: "row" }, k), h("td", { class: "num" }, v), h("td", { class: "muted small note" }, note ?? ""))),
         ),
       ),
       r.flags.length

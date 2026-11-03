@@ -34,6 +34,7 @@
  * Values in the library are never replaced. Estimated values are always
  * labelled as estimates.
  */
+import { caseHeadInside, filletCornerVolume } from "../caseHead.ts";
 import { bodyArcShare, buildAliasIndex, resolveCartridge, shoulderCurve, shoulderStyleOf, type Cartridge, type ShoulderStyle } from "../cartridges.ts";
 import type { NormalizedLoad } from "../normalize/types.ts";
 
@@ -139,8 +140,10 @@ export const PROFILE_CONSTANTS = {
   wallAtHead: 0.03,
   wallAtShoulder: 0.017,
   neckWall: 0.016,
-  /** Solid head taken off the body length (in). */
-  solidHead: 0.18,
+  /**
+   * The head is modelled with a dished floor (see caseHead.ts): flat over the primer
+   * pocket, then a radius up to the wall. Before 2026-11-03 it was a flat 0.18 in.
+   */
   /** Belted chamber prints measure from the belt datum, 0.220 in ahead of the bolt face (.300 and .264 Win Mag drawings). */
   beltDatum: 0.22,
 } as const;
@@ -157,9 +160,11 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
   if (!(ls < ln && ln < len)) return null;
   const surface = profileSurface(c);
   const clear = surface === "case" ? { body: 0, neck: 0 } : surface === "chamber" ? K.chamberClearance : K.unknownClearance;
-  // A belted chamber print measures from the belt datum, already ahead of the solid head.
   const beltedChamber = c.rimType === "belted" && surface !== "case";
-  const body = beltedChamber ? ls : ls - K.solidHead;
+  // Lengths on a belted chamber print start at the belt datum, not the head.
+  const datum = beltedChamber ? K.beltDatum : 0;
+  const head = caseHeadInside({ baseDiameterIn: base, caseLengthIn: len, rimType: c.rimType, wallAtHeadIn: K.wallAtHead });
+  const body = ls + datum - head.floorIn;
   const neck = c.neckLengthIn ?? (beltedChamber ? len - K.beltDatum - ln : len - ln);
   const shoulder = ln - ls;
   if (neck <= 0 || body < 0.05 || shoulder < 0.02) return null;
@@ -169,7 +174,7 @@ export function profileCapacity(c: Cartridge): { value: number; surface: "chambe
   if (Math.min(baseId, shId, nkId) <= 0.05 || nkId >= Math.min(baseId, shId) - 0.005) return null;
   const frustum = (l: number, a: number, b: number) => (Math.PI / 12) * l * (a * a + a * b + b * b);
   const style = shoulderStyleOf(c).style;
-  const in3 = frustum(body, baseId, shId) + shoulderVolume(style, shoulder, shId, nkId, bodyArcShare(c)) + (Math.PI / 4) * nkId * nkId * neck;
+  const in3 = frustum(body, baseId, shId) - filletCornerVolume(head) + shoulderVolume(style, shoulder, shId, nkId, bodyArcShare(c)) + (Math.PI / 4) * nkId * nkId * neck;
   const value = in3 * WATER_GR_PER_IN3;
   return value >= 1 && value <= 500 ? { value, surface } : null;
 }
@@ -302,8 +307,8 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
 
   // Case-profile correction and error, measured on cartridges with a cited capacity and a
   // printed profile. The brass constants are the same for every case, but fat magnum cases have
-  // thicker heads and webs, so the raw volume runs high as the base gets wider (about 4% at a
-  // .550 in base). ln(raw / published) is fitted against base diameter and divided out. The error
+  // thicker heads and webs, so the raw volume runs high as the base gets wider (about 1.5% at a
+  // .550 in base with the dished head of caseHead.ts; about 4% with the old flat floor). ln(raw / published) is fitted against base diameter and divided out. The error
   // is leave-one-out; the floor keeps it from claiming better than about 3%.
   // Double-radius (Weatherby) cases get their own term once enough of them have a cited capacity.
   const radiusKnown = known.filter((c) => profileCapacity(c) && c.baseDiameterIn != null && shoulderStyleOf(c).style === "double-radius").length;
