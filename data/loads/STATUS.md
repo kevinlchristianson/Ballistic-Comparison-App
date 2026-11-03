@@ -1,8 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-11-03 00:30 UTC
+Last updated: 2026-11-03 18:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## Rifle actions (2026-11-03)
+
+- `data/actions/bots/loads.json` (schema actions 1.0.0): 54 actions, 1 community build. Magazines and modifications are the bullet bot's. Notes, site terms, gaps: [`comments/2026-11-03-rifle-actions.md`](comments/2026-11-03-rifle-actions.md).
 
 ## Powder bulk density (2026-11-02)
 
