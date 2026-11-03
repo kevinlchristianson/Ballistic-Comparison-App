@@ -49,8 +49,7 @@
       "capacityRounds": null,
       "requiresModificationIds": [
         "wyatts-r700-mortise-mill-rearward",
-        "wyatts-r700-bolt-stop-shorten-110",
-        "wyatts-box-lips-remove-ultra-mag"
+        "wyatts-r700-bolt-stop-shorten-110"
       ],
       "source": {
         "name": "Wyatt's Outdoor product page (mbe-03-magazine-box)",
@@ -59,7 +58,7 @@
         "kind": "maker"
       },
       "fieldSources": {},
-      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page: 'Designed to feed the RUM type cartridges when seating out past factory lengths. It will also accommodate the Nosler style cartridges.' The box-lip removal applies to Ultra Mag calibers ('may be necessary')."
+      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page: 'Designed to feed the RUM type cartridges when seating out past factory lengths. It will also accommodate the Nosler style cartridges.' Ultra Mag calibers only: removing the box lips 'may be necessary' (wyatts-box-lips-remove-ultra-mag); not required otherwise."
     },
     {
       "id": "wyatts-300-prc-extended",
@@ -473,7 +472,7 @@
       "coalGain": null,
       "resultingMaxCoal": null,
       "gunsmithRequired": true,
-      "reversible": false,
+      "reversible": null,
       "requires": [],
       "effect": "Lengthens the receiver's magazine opening at the rear just enough for a Wyatt's extended box to fit.",
       "source": {
@@ -504,7 +503,7 @@
       "coalGain": 0.11,
       "resultingMaxCoal": null,
       "gunsmithRequired": true,
-      "reversible": false,
+      "reversible": null,
       "requires": [
         "wyatts-r700-mortise-mill-rearward"
       ],
@@ -523,7 +522,7 @@
           "kind": "retailer"
         }
       },
-      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. reversible false unless the bolt stop is replaced; not stated by the source. gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
+      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
     },
     {
       "id": "wyatts-box-lips-remove-ultra-mag",
@@ -536,7 +535,7 @@
       "coalGain": null,
       "resultingMaxCoal": null,
       "gunsmithRequired": null,
-      "reversible": false,
+      "reversible": null,
       "requires": [],
       "effect": "Exposes more receiver rail so cartridges are not ratcheted out of the box when the bolt is worked quickly.",
       "source": {
@@ -560,7 +559,7 @@
       "coalGain": null,
       "resultingMaxCoal": null,
       "gunsmithRequired": null,
-      "reversible": false,
+      "reversible": null,
       "requires": [],
       "effect": "Lets an extended box sit on top of factory bottom metal instead of in its mortise.",
       "source": {
@@ -607,7 +606,7 @@
       "coalGain": null,
       "resultingMaxCoal": 4.0,
       "gunsmithRequired": true,
-      "reversible": false,
+      "reversible": null,
       "requires": [
         "wyatts-r700-mortise-mill-rearward",
         "wyatts-r700-bolt-stop-shorten-110"
@@ -640,7 +639,7 @@
       "coalGain": null,
       "resultingMaxCoal": 3.825,
       "gunsmithRequired": null,
-      "reversible": false,
+      "reversible": null,
       "requires": [],
       "effect": "Lets the Winchester M-70 long action feed from the 3.825 in MBE-08 box.",
       "source": {
