@@ -32,4 +32,4 @@
 - Linked to `bullets.json` ids. `remington-700-short` has 7 boxes and `remington-700-long` has 8 (every box whose `fitsFootprints` lists that footprint). New `winchester-70-long` has `wyatts-mbe-08`. The 28 Nosler build points to `wyatts-mbe-03` plus the 3 mods Bullet Database lists as required for that box. Clones are not linked: Wyatt's names only the Remington M-700.
 - Added a `winchester-70-long` action from Winchester's Model 70 Featherweight page, which prints "Long Action" but no dimensions, so its numbers are null.
 - Medium footprint: `zermatt-medium` is the single id for the industry-standard medium (already used by 7 records). The BAT Vesper M moved from `remington-700-medium` to it. Remington makes no 700 medium, so that id is retired.
-- `build_actions_db.py` was not updated in this PR, so regenerating it would undo these edits; it needs syncing in a later PR.
+- `build_actions_db.py` now reproduces loads.json exactly (synced in a later PR). The 28 Nosler build no longer lists `wyatts-box-lips-remove-ultra-mag`: Bullet Database confirmed Wyatt's says it is for Ultra Mags only.
