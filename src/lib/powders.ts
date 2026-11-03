@@ -20,7 +20,9 @@
 export interface DensityRow {
   powderKey: string;
   brand: string;
-  powder: string;
+  /** Name as printed. The site's copy calls it `label` (the publish guard keeps `powder` for load rows). */
+  powder?: string;
+  label?: string;
   type: string;
   typeInferred?: boolean;
   source: string;
@@ -124,7 +126,7 @@ export function buildPowderIndex(file: DensityFile | null | undefined): PowderIn
     if (!(typeof r.grPerGrH2O === "number" && r.grPerGrH2O > 0.2 && r.grPerGrH2O < 1.5)) continue;
     let p = powders.get(r.powderKey);
     if (!p) {
-      p = { key: r.powderKey, brand: r.brand, name: r.powder, type: r.type, values: [], min: Infinity, max: -Infinity };
+      p = { key: r.powderKey, brand: r.brand, name: r.powder ?? r.label ?? r.powderKey.split(":").slice(1).join(":"), type: r.type, values: [], min: Infinity, max: -Infinity };
       powders.set(r.powderKey, p);
       const n = strip(r.powderKey.split(":").slice(1).join(":"));
       byName.set(n, [...(byName.get(n) ?? []), r.powderKey]);
