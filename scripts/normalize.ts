@@ -17,6 +17,8 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join } from "node:path";
 import { checkCartridgeLibrary } from "../src/lib/cartridges.ts";
 import { botCartridgeReportMarkdown, loadCartridgeLibrary } from "./cartridge-library.ts";
+import { loadActionDb } from "./action-library.ts";
+import { actionReportMarkdown } from "../src/lib/actions.ts";
 import { normalizeBullets, type RawBulletCatalog } from "../src/lib/normalize/bullets.ts";
 import { normalizeLoads, type RawLoadFile } from "../src/lib/normalize/loads.ts";
 import {
@@ -55,6 +57,9 @@ if (cartridgeIssues.length) {
   for (const i of cartridgeIssues) console.error(`  ${i.id}: ${i.problem}`);
   process.exit(1);
 }
+
+// Rifle actions (data/actions/): rejects are reported, never fatal.
+const actionDb = loadActionDb(cartridgeLib.cartridges);
 
 // Bullets
 let bulletFile = "data/bullets/bullets.json";
@@ -130,6 +135,9 @@ ${table(
 ## Cartridges added by bots
 
 ${botCartridgeReportMarkdown(botCartridgeReports)}
+## Rifle actions
+
+${actionReportMarkdown(actionDb.reports)}
 ## Bullet flags
 
 ${table(flagCounts(bulletResult.bullets), "Flag")}
@@ -156,5 +164,6 @@ console.log(
   `bullets: ${bulletResult.bullets.length} kept, ${bulletResult.rejects.length} rejected (${bulletDataset})\n` +
     `loads: ${loads.length} kept, ${rejects.filter((r) => r.kind === "load").length} rejected (${loadDataset}, ${loadFiles.length} file(s))\n` +
     `cartridges: ${cartridgeLib.cartridges.length} (${cartridgeLib.cartridges.length - baseCartridgeLib.cartridges.length} from bots)\n` +
+    `actions: ${actionDb.db.actions.length} actions, ${actionDb.db.magazines.length} magazines, ${actionDb.db.modifications.length} modifications, ${actionDb.db.builds.length} builds (${actionDb.reports.reduce((n, r) => n + r.rejected.length, 0)} left out)\n` +
     `wrote ${OUT}/`,
 );

@@ -40,6 +40,8 @@ A static web app for comparing rifle bullets and estimating which cartridges can
 | `data/loads/` | Load-data bot | Published load data, schema 1.0.0 |
 | `data/*/comments/` | Bots | The bots' questions, answered in [`BOTS.md`](BOTS.md) |
 | `data/cartridges/` | This project | Cartridge library and aliases. Every entry is still **unverified** against SAAMI/C.I.P. |
+| `data/actions/actions.json` | This project | Seed rifle actions, magazines, modifications and builds for the Chamber tab's Show Actions ([`data/actions/README.md`](data/actions/README.md)) |
+| `data/actions/bots/` | Both bots | Rifle actions, magazines, modifications and reported builds, schema actions 1.0.0 ([format](data/actions/bots/README.md)) |
 | `data/calibration/` | This project | Factory velocities the physics model is fitted to |
 | `data/site-config.json` | This project | Which load sources the site may use, which count as community reports, and the barrel range for precomputed fits |
 | `data/user/submissions/` | Library submission workflow | Entries people sent from the site, one file per GitHub issue |

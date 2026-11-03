@@ -335,3 +335,10 @@ table.data.chamber-table td.num { white-space: nowrap; min-width: 0; }
 .fill-bar .fill-range { position: absolute; top: 0; bottom: 0; background: var(--powder); opacity: 0.45; min-width: 3px; }
 .fill-bar .fill-full { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--danger); }
 .chamber p.ok, .chamber p.warn, .chamber p.danger { margin: 6px 0; }
+
+/* Chamber tab: Show Actions */
+.action-list { margin-top: 10px; }
+.action-item { border-top: 1px solid var(--border); padding: 6px 0; }
+.action-item summary { cursor: pointer; }
+.action-routes { margin: 4px 0 4px 0; padding-left: 18px; }
+.action-routes li { margin: 4px 0; }
