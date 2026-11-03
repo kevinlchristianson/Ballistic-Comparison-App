@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-11-03, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-11-03, new request: a rifle action and modification database in `data/actions/bots/` (see below); earlier the same day, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -11,6 +11,7 @@ Last updated: 2026-11-03, powder bulk density (PR #327) answered and used in the
 | `data/bullets/` and `scripts/bullets/` | Bullet bot | The app reads these files and never edits them by hand. |
 | `data/loads/` and `scripts/loads/` | Load-data bot | The app reads these files and never edits them by hand. |
 | `data/bullets/comments/` and `data/loads/comments/` | The bot that owns the folder | Notes and questions for the project, one file per topic, in the format of each folder's `README.md`. The project reads these at each audit and answers in the **Answers** section of this file. The project does not edit the bots' comment files; a bot may copy an answer into its file's `Answer` section and set it to `answered`. |
+| `data/actions/bots/` | Both bots (one file each: `loads.json` for the load-data bot, `bullets.json` for the bullet bot) | Rifle actions, magazines, action modifications and reported builds. Format and rules are in [`data/actions/bots/README.md`](data/actions/bots/README.md). |
 | `data/cartridges/bots/` | Both bots (one file each: `loads.json` for the load-data bot, `bullets.json` for the bullet bot) | Cartridges and cartridge names the bots add to the library. Format and rules are in [`data/cartridges/bots/README.md`](data/cartridges/bots/README.md). The project's own `cartridges.json` always wins; clashing or unsourced records are left out and listed in the normalization report. |
 | `data/user/` | This project (written by the **Library submission** workflow) | Entries people send from the site. Bots should not write here or copy from here. |
 | Everything else (`BOTS.md`, `data/cartridges/` outside `bots/`, `data/powders/`, `data/calibration/`, `data/site-config.json`, `data/SOURCES.md`, `src/`, `scripts/*.ts`, `tests/`, `.github/`) | This project | Bots should not write here. |
@@ -81,6 +82,16 @@ Open requests:
 - Centerfire rifle only for now.
 - The project's `cartridges.json` always wins. An id or name that already belongs to a library cartridge is left out, so check `REPORT.md` ("Cartridges added by bots" and "Cartridge names not in the library") in your PR's Check run.
 - Bot-added cartridges are shown as unverified with a "bot" tag and a source link. The project may later move a checked entry into `cartridges.json`; your record for it is then left out as a duplicate, and you can drop it.
+
+## What changed on the project side (2026-11-03): rifle action database (new request)
+
+The project owner asked for a database of rifle actions and the modifications that let a standard action run a longer COAL. It will drive a "Show Actions" button on the Chamber tab: for the chosen cartridge and COAL, which actions fit, and which magazines and modifications make the others fit.
+
+1. **Please build it, both bots.** Write to `data/actions/bots/` (load-data bot: `loads.json`, bullet bot: `bullets.json`), schema **actions 1.0.0**, in the format and rules of [`data/actions/bots/README.md`](data/actions/bots/README.md). Four record types: `actions` (maker, model, length class, footprint, bolt faces, bolt travel, port length, factory max COAL), `magazines` (internal and detachable boxes, extended boxes such as Wyatt's, bottom metal, with the longest cartridge each holds), `modifications` (feed-lip milling, opening the magazine well or bottom metal, bolt-stop relief, ejection port, bolt face, stock inletting, single feed) and `builds` (a reported working action + magazine + modifications + cartridge + COAL).
+2. **The case it must describe:** the owner runs a 28 Nosler at about 3.705 in COAL in a factory Remington 700 long action with a Wyatt's extended magazine box and the feed lips milled back, so the case rear pops up sooner and the long bullet tip doesn't hang on the chamber or action faces. The project files that build itself.
+3. **Every value cites a source** (`source`, plus `fieldSources` when one record's numbers come from different pages). Maker and gunsmith pages first; forum posts are allowed for `builds` and tagged as community reports. Numbers only, as printed, `null` when unknown, never a typical value. Check each site's terms first and note them in a comment file.
+4. **Split the work** however suits you (for example, one bot takes actions, the other magazines and modifications) and say which in a comment file. Start with the Remington 700 and its clones, then the priority list in the README.
+5. The app doesn't read this folder yet; the project is building the reader and the Chamber tab button now, so a first file is welcome any time and will be checked in its PR's Check run once the reader lands.
 
 ## What changed on the project side (2026-11-03): powder bulk density
 
