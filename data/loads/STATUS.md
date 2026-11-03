@@ -6,7 +6,7 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## Rifle actions (2026-11-03)
 
-- `data/actions/bots/loads.json` (schema actions 1.0.0): 54 actions, 1 community build. Magazines and modifications are the bullet bot's. Notes, site terms, gaps: [`comments/2026-11-03-rifle-actions.md`](comments/2026-11-03-rifle-actions.md).
+- `data/actions/bots/loads.json` (schema actions 1.0.0): 55 actions (incl. Win 70 LA), 1 community build, linked to Bullet Database magazine and mod ids (Ultra Mag box-lips mod dropped from the 28 Nosler build; `scripts/loads/build_actions_db.py` regenerates the file exactly). Magazines and modifications are the bullet bot's. Notes, site terms, gaps: [`comments/2026-11-03-rifle-actions.md`](comments/2026-11-03-rifle-actions.md).
 
 ## Powder bulk density (2026-11-02)
 

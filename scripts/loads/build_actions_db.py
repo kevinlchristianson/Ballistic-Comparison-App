@@ -88,7 +88,7 @@ acts=[
  # Curtis
  A("curtis-axiom-short","Curtis Custom","Axiom","Short action","short",R7S,"cur",faces=bf((".223/300blk",.390),("Valkyrie",.420),("ARC",.450),(".308",.480),("magnum",.540)),note="Listed as discontinued."),
  # BAT
- A("bat-vesper-m-medium","BAT Machine","Vesper M","Medium action","medium","remington-700-medium","bat-vm",port=3.36,faces=bf(("Standard",.485),("Magnum",.55),("338 Lapua",.60)),note="'Magazine Port: Standard (3.4\")'. Made for Unknown Munitions."),
+ A("bat-vesper-m-medium","BAT Machine","Vesper M","Medium action","medium","zermatt-medium","bat-vm",port=3.36,faces=bf(("Standard",.485),("Magnum",.55),("338 Lapua",.60)),note="'Magazine Port: Standard (3.4\")'. Made for Unknown Munitions."),
  A("bat-vesper-s-short","BAT Machine","Vesper S","Short","short",R7S,"bat"),
  A("bat-vesper-long","BAT Machine","Vesper","Long","long",R7L,"bat"),
  A("bat-igniter-short","BAT Machine","Igniter","Short","short",R7S,"bat",note="Takes all Rem 700 SA bottom metal incl. extended boxes."),
@@ -105,6 +105,18 @@ acts=[
 builds=[{"id":"r700-long-mbe3-28-nosler-berger-195","actionId":"remington-700-long","magazineId":None,"modificationIds":None,"cartridge":"28 Nosler","lengthUnit":"in","coal":3.740,"feeds":"magazine",
  "source":src("Community: Long Range Hunting - 28 Nosler COAL problem","https://www.longrangehunting.com/threads/28-nosler-coal-problem.185900/","community"),
  "note":"Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. magazineId/modificationIds null: bullet bot ids not fixed yet."}]
+# Links to Bullet Database (bullets.json) ids, Win 70 LA (added after #332/#333).
+SA_BOXES=["wyatts-mbe-04","wyatts-mbe-05","wyatts-6-5-prc-extended","wyatts-cfe-05","wyatts-cfe-06","wyatts-sa-3-100-baney","wyatts-223-extended"]
+LA_BOXES=["wyatts-mbe-02","wyatts-mbe-03","wyatts-300-prc-extended","wyatts-cfe-12","wyatts-cfe-09","wyatts-cfe-13","wyatts-rem-700-la-factory","wyatts-rum-factory"]
+for _a in acts:
+    if _a["id"] in ("remington-700-short","remington-700-long"):
+        _a["magazineIds"]=SA_BOXES if _a["id"].endswith("short") else LA_BOXES
+        _a["note"]='Reference footprint record; no Remington spec page found. Factory box length left null (only community figures found). magazineIds: every Bullet Database (bullets.json) box whose fitsFootprints lists this footprint.'
+acts.append({'id': 'winchester-70-long', 'maker': 'Winchester', 'model': 'Model 70', 'variant': 'Long action', 'lengthClass': 'long', 'footprint': 'winchester-70-long', 'cloneOf': None, 'lengthUnit': 'in', 'boltFaces': [], 'boltTravel': None, 'ejectionPortLength': None, 'receiverLength': None, 'magazineIds': ['wyatts-mbe-08'], 'maxCoalMagazine': None, 'maxCoalSingleFeed': None, 'source': {'name': 'Winchester - Model 70 Featherweight', 'url': 'https://www.winchesterguns.com/products/rifles/model-70/model-70-featherweight.html', 'retrievedOn': '2026-11-03', 'kind': 'maker'}, 'fieldSources': {}, 'note': "Maker page prints 'Action Length Long Action' and 'Magazine Type Hinged Floorplate' but no box, port or receiver dimensions, so numbers are null. Footprint id matches Bullet Database's winchester-70-long records; magazineIds from bullets.json."})
+builds[0]["magazineId"]="wyatts-mbe-03"
+builds[0]["modificationIds"]=['wyatts-r700-mortise-mill-rearward', 'wyatts-r700-bolt-stop-shorten-110']
+builds[0]["note"]="Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. modificationIds: the Rem 700 mods Bullet Database lists for wyatts-mbe-03, minus the box-lips mod (Wyatt's: Ultra Mags only). The post does not itemise them."
+
 out={"schemaVersion":"1.0.0","generatedOn":D,"bot":"load-data","actionCount":len(acts),"magazineCount":0,"modificationCount":0,"buildCount":len(builds),"actions":acts,"magazines":[],"modifications":[],"builds":builds}
 p=pathlib.Path(__file__).resolve().parents[2]/"data/actions/bots/loads.json"
-p.write_text(json.dumps(out,indent=2)+"\n"); print(len(acts),len(builds))
+p.write_text(json.dumps(out,indent=2,ensure_ascii=False)+"\n"); print(len(acts),len(builds))

@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "generatedOn": "2026-11-03",
   "bot": "load-data",
-  "actionCount": 54,
+  "actionCount": 55,
   "magazineCount": 0,
   "modificationCount": 0,
   "buildCount": 1,
@@ -20,7 +20,15 @@
       "boltTravel": null,
       "ejectionPortLength": null,
       "receiverLength": null,
-      "magazineIds": null,
+      "magazineIds": [
+        "wyatts-mbe-04",
+        "wyatts-mbe-05",
+        "wyatts-6-5-prc-extended",
+        "wyatts-cfe-05",
+        "wyatts-cfe-06",
+        "wyatts-sa-3-100-baney",
+        "wyatts-223-extended"
+      ],
       "maxCoalMagazine": null,
       "maxCoalSingleFeed": null,
       "source": {
@@ -30,7 +38,7 @@
         "kind": "maker"
       },
       "fieldSources": {},
-      "note": "Reference footprint record; no Remington spec page found. Source is Defiance's page relating its lengths to Rem SA/LA. magazineIds null: the bullet bot files magazines and its ids are not fixed yet."
+      "note": "Reference footprint record; no Remington spec page found. Factory box length left null (only community figures found). magazineIds: every Bullet Database (bullets.json) box whose fitsFootprints lists this footprint."
     },
     {
       "id": "remington-700-long",
@@ -45,7 +53,16 @@
       "boltTravel": null,
       "ejectionPortLength": null,
       "receiverLength": null,
-      "magazineIds": null,
+      "magazineIds": [
+        "wyatts-mbe-02",
+        "wyatts-mbe-03",
+        "wyatts-300-prc-extended",
+        "wyatts-cfe-12",
+        "wyatts-cfe-09",
+        "wyatts-cfe-13",
+        "wyatts-rem-700-la-factory",
+        "wyatts-rum-factory"
+      ],
       "maxCoalMagazine": null,
       "maxCoalSingleFeed": null,
       "source": {
@@ -55,7 +72,7 @@
         "kind": "maker"
       },
       "fieldSources": {},
-      "note": "Reference footprint record; no Remington spec page found. Factory box length left null (only community figures found). magazineIds null: the bullet bot files magazines and its ids are not fixed yet."
+      "note": "Reference footprint record; no Remington spec page found. Factory box length left null (only community figures found). magazineIds: every Bullet Database (bullets.json) box whose fitsFootprints lists this footprint."
     },
     {
       "id": "zermatt-origin-short",
@@ -1274,7 +1291,7 @@
       "model": "Vesper M",
       "variant": "Medium action",
       "lengthClass": "medium",
-      "footprint": "remington-700-medium",
+      "footprint": "zermatt-medium",
       "cloneOf": null,
       "lengthUnit": "in",
       "boltFaces": [
@@ -1555,6 +1572,33 @@
       },
       "fieldSources": {},
       "note": "ARC terms of use bar collecting product text; numbers withheld pending Kevin."
+    },
+    {
+      "id": "winchester-70-long",
+      "maker": "Winchester",
+      "model": "Model 70",
+      "variant": "Long action",
+      "lengthClass": "long",
+      "footprint": "winchester-70-long",
+      "cloneOf": null,
+      "lengthUnit": "in",
+      "boltFaces": [],
+      "boltTravel": null,
+      "ejectionPortLength": null,
+      "receiverLength": null,
+      "magazineIds": [
+        "wyatts-mbe-08"
+      ],
+      "maxCoalMagazine": null,
+      "maxCoalSingleFeed": null,
+      "source": {
+        "name": "Winchester - Model 70 Featherweight",
+        "url": "https://www.winchesterguns.com/products/rifles/model-70/model-70-featherweight.html",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Maker page prints 'Action Length Long Action' and 'Magazine Type Hinged Floorplate' but no box, port or receiver dimensions, so numbers are null. Footprint id matches Bullet Database's winchester-70-long records; magazineIds from bullets.json."
     }
   ],
   "magazines": [],
@@ -1563,8 +1607,11 @@
     {
       "id": "r700-long-mbe3-28-nosler-berger-195",
       "actionId": "remington-700-long",
-      "magazineId": null,
-      "modificationIds": null,
+      "magazineId": "wyatts-mbe-03",
+      "modificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
       "cartridge": "28 Nosler",
       "lengthUnit": "in",
       "coal": 3.74,
@@ -1575,7 +1622,7 @@
         "retrievedOn": "2026-11-03",
         "kind": "community"
       },
-      "note": "Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. magazineId/modificationIds null: bullet bot ids not fixed yet."
+      "note": "Trued Rem 700 BDL, Wyatt MBE-3 (3.825 in interior). Poster: 'I have yet to shoot this rifle' - fit only, feeding not reported. modificationIds: the Rem 700 mods Bullet Database lists for wyatts-mbe-03, minus the box-lips mod (Wyatt's: Ultra Mags only). The post does not itemise them."
     }
   ]
 }
