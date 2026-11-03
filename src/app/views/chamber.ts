@@ -10,6 +10,7 @@ import { nominalDiameter } from "../../lib/calibers.ts";
 import type { Cartridge } from "../../lib/cartridges.ts";
 import { seatBullet, standardThroat, throatDims, touchPoint, type SeatingFlag, type SeatingResult, type Throat, type ThroatDims } from "../../lib/chamber.ts";
 import { bulletHalfOutline } from "../../lib/bulletProfile.ts";
+import { caseFill, resolvePowder, type PowderDensity } from "../../lib/powders.ts";
 import { chamberSvg, throatCloseupSvg } from "../chamberDrawing.ts";
 import { cartridgePicker } from "../cartridgePicker.ts";
 import { bulletLabel, type AppData, type SiteBullet } from "../data.ts";
@@ -31,6 +32,9 @@ interface State {
   manual: ManualBullet;
   coalIn: number | null;
   targetJumpIn: number;
+  /** Powder as typed, and the charge, for the fill %. */
+  powderText?: string;
+  chargeGr?: number | null;
   /** Null means the standard (estimated or printed) value. */
   freeboreIn: number | null;
   leadeAngleDeg: number | null;
@@ -106,6 +110,8 @@ export function chamberView(data: AppData): HTMLElement {
   const drawCard = h("div", { class: "card chamber-draw" });
   const seatCard = h("div", { class: "card" });
   const outCard = h("div", { class: "card" });
+  const powderCard = h("div", { class: "card" });
+  const fillOut = h("div", { class: "fill-out" });
   const workCard = h("details", { class: "card" });
   root.append(
     h(
@@ -127,6 +133,7 @@ export function chamberView(data: AppData): HTMLElement {
     setupCard,
     drawCard,
     seatCard,
+    powderCard,
     outCard,
     workCard,
   );
@@ -434,6 +441,103 @@ export function chamberView(data: AppData): HTMLElement {
     );
   }
 
+  // ---- powder and charge (built once; the fill readout updates with the rest)
+  const powderList = [...data.powders.powders.values()].sort((a, b) => (a.type === "rifle" ? 0 : 1) - (b.type === "rifle" ? 0 : 1) || `${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`));
+  const powderLabel = (p: PowderDensity) => `${p.brand} ${p.name}`;
+  const byLabel = new Map(powderList.map((p) => [powderLabel(p).toLowerCase(), p]));
+  const findPowder = (text: string | undefined): PowderDensity | null => (text ? byLabel.get(text.trim().toLowerCase()) ?? resolvePowder(text, data.powders) : null);
+  function buildPowderCard(): void {
+    clear(powderCard);
+    if (!powderList.length) {
+      powderCard.append(h("h3", {}, "Powder fill"), h("p", { class: "muted" }, "No powder density data on the site yet."));
+      return;
+    }
+    const listId = "chamber-powders";
+    const powderIn = h("input", { type: "search", list: listId, placeholder: "e.g. H4350, Varget, N560, RL 26", value: st.powderText ?? "", autocomplete: "off", "aria-label": "Powder" });
+    const chargeIn = h("input", { type: "number", inputmode: "decimal", step: 0.1, min: 0, value: st.chargeGr ?? "", placeholder: "grains", "aria-label": "Charge" });
+    powderIn.addEventListener("input", () => {
+      st.powderText = powderIn.value;
+      persist();
+      update();
+    });
+    chargeIn.addEventListener("input", () => {
+      st.chargeGr = chargeIn.value === "" ? null : Number(chargeIn.value);
+      persist();
+      update();
+    });
+    powderCard.append(
+      h("h3", {}, "Powder fill"),
+      h(
+        "div",
+        { class: "grid" },
+        h("label", { class: "field" }, h("span", { class: "field-label" }, `Powder (${powderList.length} with a bulk density)`), powderIn),
+        h("label", { class: "field" }, h("span", { class: "field-label" }, "Charge (gr)"), chargeIn, h("span", { class: "hint" }, "Your charge from a published manual. Fill is volume only.")),
+      ),
+      h("datalist", { id: listId }, powderList.map((p) => h("option", { value: powderLabel(p) }))),
+      fillOut,
+    );
+  }
+  buildPowderCard();
+
+  function renderFill(r: SeatingResult): void {
+    clear(fillOut);
+    if (!powderList.length) return;
+    const p = findPowder(st.powderText);
+    if (!st.powderText?.trim()) return;
+    if (!p) {
+      fillOut.append(h("p", { class: "muted" }, "No bulk density for that powder yet. Pick one from the list."));
+      return;
+    }
+    const space = r.powderSpaceGrH2O;
+    if (space == null || space <= 0) {
+      fillOut.append(h("p", { class: "muted" }, "No case capacity for this cartridge, so fill can't be worked out."));
+      return;
+    }
+    const range = (a: number, b: number, f: (x: number) => string) => (f(a) === f(b) ? f(a) : `${f(a)}–${f(b)}`);
+    const pct = (x: number) => `${Math.round(x * 100)}%`;
+    const src = p.values.map((v) => `${data.powders.sources[v.source]?.name ?? v.source} (${v.method}): ${v.grPerGrH2O.toFixed(3)}`).join("; ");
+    const blocks: Child[] = [
+      h(
+        "p",
+        {},
+        h("strong", {}, powderLabel(p)),
+        `: ${range(p.min, p.max, (x) => x.toFixed(3))} gr per gr of water space`,
+        p.values.length > 1 ? ` across ${p.values.length} sources` : "",
+        ". ",
+        h("span", { class: "muted small" }, src),
+      ),
+      h(
+        "p",
+        {},
+        `The ${space.toFixed(1)} gr H₂O of powder space under this bullet holds about ${range(space * p.min, space * p.max, (x) => x.toFixed(1))} gr of it, level full. `,
+        h("span", { class: "muted small" }, "A volume, not a load: pressure, not fill, sets a safe charge."),
+      ),
+    ];
+    if (st.chargeGr && st.chargeGr > 0) {
+      const f = caseFill(st.chargeGr, space, p);
+      const cls = f.state === "compressed" ? "danger" : f.state === "maybe" ? "warn" : "ok";
+      const text =
+        f.state === "compressed"
+          ? `Compressed: ${range(f.low, f.high, pct)} of the powder space by every source.`
+          : f.state === "maybe"
+            ? `About full: ${range(f.low, f.high, pct)}. Compressed by the loosest (thrown) figure, not by the densest; it depends on how the powder settles.`
+            : `${range(f.low, f.high, pct)} full, not compressed.`;
+      const w = Math.min(f.high, 1.3);
+      blocks.unshift(
+        h("p", { class: cls }, `${st.chargeGr} gr: ${text}`),
+        h(
+          "div",
+          { class: "fill-bar", role: "img", "aria-label": `Fill ${range(f.low, f.high, pct)}` },
+          h("span", { class: "fill-solid", style: { width: `${(Math.min(f.low, 1.3) / 1.3) * 100}%` } }),
+          h("span", { class: "fill-range", style: { left: `${(Math.min(f.low, 1.3) / 1.3) * 100}%`, width: `${((w - Math.min(f.low, 1.3)) / 1.3) * 100}%` } }),
+          h("span", { class: "fill-full", style: { left: `${(1 / 1.3) * 100}%` } }),
+        ),
+      );
+    }
+    blocks.push(h("p", { class: "hint" }, "Fill = charge ÷ (powder space × density). Sources measure density differently (thrown through a measure is loosest, maker bulk density denser), so fill is shown as a range. Seating deeper takes powder space and raises fill."));
+    append(fillOut, blocks);
+  }
+
   // ---- everything that changes with the numbers
   function update(): void {
     clear(drawCard);
@@ -539,6 +643,7 @@ export function chamberView(data: AppData): HTMLElement {
     ]);
 
     renderResults(c, r, ch, capacity, bp);
+    renderFill(r);
     renderWorking(c, cp, ch, p, bp.noseEstimated, bp.source);
   }
 

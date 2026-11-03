@@ -28,6 +28,7 @@ import { PHYSICS_PARAMS } from "../src/lib/velocity/physics.ts";
 import type { LoadRowIndex, SiteBullet, SiteLoadRow, SiteMeta } from "../src/app/data.ts";
 import { mergeSubmissions, type SubmissionFile } from "../src/app/submission.ts";
 import { loadCartridgeLibrary } from "./cartridge-library.ts";
+import type { DensityFile } from "../src/lib/powders.ts";
 
 const OUT = "src/app/public/data";
 const readJson = <T>(p: string): T => JSON.parse(readFileSync(p, "utf8")) as T;
@@ -185,6 +186,12 @@ mkdirSync(OUT, { recursive: true });
 const write = (name: string, data: unknown) => writeFileSync(join(OUT, name), JSON.stringify(data));
 write("bullets.json", bullets);
 write("cartridges.json", lib);
+// Powder bulk density from the load bot (gr powder per gr of water space), for the Chamber tab's fill %.
+const POWDERS = "data/loads/powders/bulk-density.json";
+if (existsSync(POWDERS)) {
+  const d = readJson<DensityFile>(POWDERS);
+  write("powders.json", { schemaVersion: d.schemaVersion, sources: d.sources, rows: d.rows.filter((r) => r.grPerGrH2O != null).map(({ powderKey, brand, powder, type, source, grPerGrH2O }) => ({ powderKey, brand, powder, type, source, grPerGrH2O })) });
+}
 write("velocity-fits.json", fits);
 write("estimate-inputs.json", estimateInputs);
 write("meta.json", meta);
