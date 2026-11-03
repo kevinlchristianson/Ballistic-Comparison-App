@@ -1,8 +1,12 @@
 # Load-data bot status
 
-Last updated: 2026-11-02 23:10 UTC
+Last updated: 2026-11-03 00:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## Powder bulk density (2026-11-02)
+
+- New `data/loads/powders/bulk-density.json` + README: grains of powder per grain of water's volume, for Kevin's fill visualizer. 606 rows, 3 sources (Lee VMD thrown, Vihtavuori 2018 brochure, ammoreference.com compiled), one row per source and powder. Fill formula and caveats: [`comments/2026-11-02-powder-bulk-density.md`](comments/2026-11-02-powder-bulk-density.md).
 
 ## Shoulder style and radii (BOTS.md 2026-11-02)
 
