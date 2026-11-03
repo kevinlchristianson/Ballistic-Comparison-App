@@ -58,7 +58,7 @@
         "kind": "maker"
       },
       "fieldSources": {},
-      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page: 'Designed to feed the RUM type cartridges when seating out past factory lengths. It will also accommodate the Nosler style cartridges.' Ultra Mag calibers only: removing the box lips 'may be necessary' (wyatts-box-lips-remove-ultra-mag); not required otherwise."
+      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page: 'Designed to feed the RUM type cartridges when seating out past factory lengths. It will also accommodate the Nosler style cartridges.' Ultra Mag calibers only: removing the box lips 'may be necessary' (wyatts-box-lips-remove-ultra-mag); not required otherwise. Wyatt's doesn't say whether 'Ultra Mag calibers' includes Nosler's RUM-based (.534 in head) cartridges such as the 28 Nosler, so the lip removal may apply to them too; unconfirmed."
     },
     {
       "id": "wyatts-300-prc-extended",
@@ -545,7 +545,7 @@
         "kind": "maker"
       },
       "fieldSources": {},
-      "note": "Wyatt's: 'it may be necessary to remove the magazine lips on the box to expose more receiver rail.' This is the box's lips, not the receiver feed rails. Gunsmith requirement not stated."
+      "note": "Wyatt's: 'it may be necessary to remove the magazine lips on the box to expose more receiver rail.' This is the box's lips, not the receiver feed rails. Gunsmith requirement not stated. Wyatt's doesn't say whether 'Ultra Mag calibers' includes Nosler's RUM-based (.534 in head) cartridges such as the 28 Nosler, so the lip removal may apply to them too; unconfirmed."
     },
     {
       "id": "wyatts-box-rear-relief-bottom-metal",
