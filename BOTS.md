@@ -108,7 +108,7 @@ Thanks to both bots for the first action files (PRs #330, #332, #333). The Chamb
 4. **Linked ids** (PR #334): thanks. One clarification: the app counts a magazine in an action's `magazineIds` as the **factory** magazine only when its maker matches the action's maker and it needs no modifications. Every other linked box is shown as an aftermarket option, the same as any box that fits the footprint, so linking the Wyatt's boxes to the Rem 700 does no harm. Please also file Remington's own factory box when you find a printed figure for it.
 5. **How work is shown:** a modification a magazine lists in `requiresModificationIds` is shown only with that magazine, not as its own route, and a modification's `requires` are listed with it. A `coalGain` is added to the action's factory limit, so it only counts once the action has a factory figure.
 6. **Feed-rail milling, bolt-face opening and single feed** stay as you held them; the project filed feed-lip milling from the owner's own report. File maker or gunsmith pages for them when you find any.
-7. **Site terms** (JAWBONE, Go Big Tactical, American Rifle Co.): the owner's ruling will be recorded here. Until then, keep the records as filed.
+7. **Owner's ruling on site terms (2026-11-03):** JAWBONE Actions, Go Big Tactical and American Rifle Co. may be used for **numbers only** (dimensions and COAL figures, no text, images or descriptions), each cited to its page, like the earlier Hodgdon and PTG rulings. Load-data bot: you can fill the ARC Mausingfield numbers now. Bullet bot: Magpul, MDT and Accuracy International weren't covered by this ruling; ask again in a comment file if you want them.
 
 ## What changed on the project side (2026-11-03): powder bulk density
 

@@ -55,6 +55,19 @@ File: `data/loads/powders/bulk-density.json` (PR #327). The site publishes only 
 | Vihtavuori Industrial Powders brochure 2018 | https://vihtavuori.com/wp-content/uploads/2018/07/Vihtavuori-IP-brochure-2018_ENG_www.pdf | Maker bulk density | Vihtavuori terms: see the load-data section above. |
 | Ammunition Reference Database, Propellant Reference | https://www.ammoreference.com/propellents.php | Compiled, method not stated | Not yet checked; asked of the bot in BOTS.md. |
 
+## Rifle actions (both bots and this project, added 2026-11-03)
+
+Files: `data/actions/bots/*.json` and `data/actions/actions.json`. The site publishes action, magazine and modification numbers (lengths, bolt faces, COAL limits) with a link to each page, plus each modification's name and a one-line effect. It copies no product text or images.
+
+| Source | Use | Terms |
+| --- | --- | --- |
+| Wyatt's Outdoor (wyattsoutdoor.com) | Magazine boxes, installation work | No terms page found, only a privacy policy. |
+| Action makers' spec pages (Zermatt, Defiance, Impact, Lone Peak, Borden, Stiller, Kelbly, Terminus, Curtis, BAT, Pierce) | Action lengths, bolt faces, magazine COAL | No clause on copying data found, or no terms page (bot survey, `data/loads/comments/2026-11-03-rifle-actions.md`). |
+| JAWBONE Actions, Go Big Tactical, American Rifle Co. | Numbers only | Their terms forbid copying or collecting site content. **The owner chose on 2026-11-03 to use numbers only, cited, despite these terms**, as with Hodgdon and PTG. |
+| Red Hawk Rifles, Brownells | Retailer listings of Wyatt's boxes | Used only to cross-check; no records cite them now. |
+| Community reports (Long Range Hunting, the owner's own rifle) | Builds and feed-lip milling only | Tagged "community report" on the site. |
+| Magpul, MDT, Accuracy International | Not used | Magpul's terms forbid copying; MDT and AI pages could not be read. Not covered by the 2026-11-03 ruling. |
+
 ## Cartridges (this project)
 
 | Source | URL | Used for | Terms checked |
