@@ -1,0 +1,636 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-11-03",
+  "bot": "bullets",
+  "actionCount": 0,
+  "magazineCount": 16,
+  "modificationCount": 7,
+  "buildCount": 0,
+  "actions": [],
+  "magazines": [
+    {
+      "id": "wyatts-mbe-02",
+      "maker": "Wyatt's Outdoor",
+      "name": "MBE-02 magazine box (staggered feed), Rem. M-700 BDL long action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.825,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-02-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-02-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page lists it for 30-06-based cartridges, 7 Rem Mag and 300 Win Mag up to 7 STW. Box may need its back relieved to sit on factory bottom metal (wyatts-box-rear-relief-bottom-metal)."
+    },
+    {
+      "id": "wyatts-mbe-03",
+      "maker": "Wyatt's Outdoor",
+      "name": "MBE-03 magazine box (staggered feed), Rem. M-700 BDL long action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.825,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110",
+        "wyatts-box-lips-remove-ultra-mag"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-03-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-03-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.910 in. No max COAL printed. Product Info page: 'Designed to feed the RUM type cartridges when seating out past factory lengths. It will also accommodate the Nosler style cartridges.' The box-lip removal applies to Ultra Mag calibers ('may be necessary')."
+    },
+    {
+      "id": "wyatts-300-prc-extended",
+      "maker": "Wyatt's Outdoor",
+      "name": "Extended length 300 PRC box, long action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": null,
+      "maxCoal": 3.83,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (300-prc-box)",
+        "url": "https://wyattsoutdoor.com/product/300-prc-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "requiresModificationIds": {
+          "name": "Wyatt's Outdoor Magazine Box Reference Guide",
+          "url": "https://wyattsoutdoor.com/product/magazine-box-reference-guide/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Page: 'allows a cartridge overall length of 3.830\"'; similar to the MBE-3 with the window moved for the PRC. Mortise and bolt-stop work from the reference guide: extended boxes need the receiver and bolt stop altered."
+    },
+    {
+      "id": "wyatts-cfe-12",
+      "maker": "Wyatt's Outdoor",
+      "name": "CFE-12 magazine box (center feed), Rem. M-700 long action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.825,
+      "maxCoal": 3.825,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-12-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-12-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'allows for a cartridge overall length of approx. 3.825\"'; outside 3.910 in; 'The receiver and bolt stop must be altered ... same as used on the MBE-3 box.' Product Info: feeds RUMs, Noslers and Normas, and can accommodate 338 Lapua and .378 Weatherby based cartridges."
+    },
+    {
+      "id": "wyatts-cfe-09",
+      "maker": "Wyatt's Outdoor",
+      "name": "CFE-09 magazine box (center feed), Rem. M-700 extra long",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.99,
+      "maxCoal": 4.0,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110",
+        "wyatts-ejection-port-lengthen"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-09-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-09-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'allows for an O.A.L. of approx. 4.000\"'; outside 4.070 in; 'The receiver, bolt stop, and ejection port, must be altered'. Reference guide: 'MOST CLONES WILL NOT ACCEPT THESE LONGER EXTENDED BOXES.'"
+    },
+    {
+      "id": "wyatts-cfe-13",
+      "maker": "Wyatt's Outdoor",
+      "name": "CFE-13 magazine box (center feed), Rem. M-700 long action, factory length",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.71,
+      "maxCoal": 3.71,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [],
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-13-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-13-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'allows for a cartridge overall length of approx. 3.710\"'; outside 3.795 in. Listed under factory-length boxes; for belted magnums and larger cases."
+    },
+    {
+      "id": "wyatts-rem-700-la-factory",
+      "maker": "Wyatt's Outdoor",
+      "name": "Remington M-700 LA factory length box",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.7,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [],
+      "source": {
+        "name": "Wyatt's Outdoor product page (remington-m-700-la-box)",
+        "url": "https://wyattsoutdoor.com/product/remington-m-700-la-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "internalLength": {
+          "name": "Wyatt's Outdoor Product Info page",
+          "url": "https://wyattsoutdoor.com/product-info/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Product page prints no length. internalLength from Product Info: 'RLA – Internal Dimension 3.7”' (rounded as printed)."
+    },
+    {
+      "id": "wyatts-rum-factory",
+      "maker": "Wyatt's Outdoor",
+      "name": "Factory length RUM box",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.7,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [],
+      "source": {
+        "name": "Wyatt's Outdoor product page (rum-box)",
+        "url": "https://wyattsoutdoor.com/product/rum-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "internalLength": {
+          "name": "Wyatt's Outdoor Product Info page",
+          "url": "https://wyattsoutdoor.com/product-info/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Product page prints no length. internalLength from Product Info: 'RUM – Internal Dimension 3.7”'; 'will feed Nosler style cartridges provided seating depths do not exceed factory length box.'"
+    },
+    {
+      "id": "wyatts-mbe-04",
+      "maker": "Wyatt's Outdoor",
+      "name": "MBE-04 magazine box (staggered feed), Rem. M-700 short action (WSM/RSAUM)",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 2.995,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-04-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-04-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'extends the O.A.L. of the ctg. approx. .110\"'; outside 3.070 in. No max COAL printed."
+    },
+    {
+      "id": "wyatts-mbe-05",
+      "maker": "Wyatt's Outdoor",
+      "name": "MBE-05 magazine box (staggered feed), Rem. M-700 BDL short action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 2.995,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-05-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-05-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'extends the O.A.L. of the ctg. by approx. .110\"'; outside 3.070 in; lips altered for 6.5 Creedmoor. No max COAL printed."
+    },
+    {
+      "id": "wyatts-6-5-prc-extended",
+      "maker": "Wyatt's Outdoor",
+      "name": "Extended length 6.5 PRC box, short action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": null,
+      "maxCoal": 2.985,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (6-5-prc-box)",
+        "url": "https://wyattsoutdoor.com/product/6-5-prc-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "requiresModificationIds": {
+          "name": "Wyatt's Outdoor Magazine Box Reference Guide",
+          "url": "https://wyattsoutdoor.com/product/magazine-box-reference-guide/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Page: 'allows a cartridge overall length of 2.985\"'; similar to the MBE-4 with the window moved for the PRC. Mortise and bolt-stop work from the reference guide: extended boxes need the receiver and bolt stop altered."
+    },
+    {
+      "id": "wyatts-cfe-05",
+      "maker": "Wyatt's Outdoor",
+      "name": "CFE-05 magazine box (center feed), short action extended",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": null,
+      "maxCoal": 3.0,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-05-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-05-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "requiresModificationIds": {
+          "name": "Wyatt's Outdoor Magazine Box Reference Guide",
+          "url": "https://wyattsoutdoor.com/product/magazine-box-reference-guide/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Page: 'Cartridge overall length allowed is 3.00\"'; 'does not play well with non-magnum cartridges.'"
+    },
+    {
+      "id": "wyatts-cfe-06",
+      "maker": "Wyatt's Outdoor",
+      "name": "CFE-06 magazine box (center feed), short action factory length",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 2.865,
+      "maxCoal": null,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [],
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-06-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-06-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: outside 2.950 in, inside 2.865 in; for WSM and RSAUM. (Product Info rounds it to 'Internal Dimension 2.8”'; the product page figure is kept.)"
+    },
+    {
+      "id": "wyatts-sa-3-100-baney",
+      "maker": "Wyatt's Outdoor",
+      "name": "SA 3.100\" COAL (Baney) box, Rem. M-700 short action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": null,
+      "maxCoal": 3.1,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (sa-3-100%e2%80%b3-coal-box-new)",
+        "url": "https://wyattsoutdoor.com/product/sa-3-100%e2%80%b3-coal-box-new/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "requiresModificationIds": {
+          "name": "Wyatt's Outdoor Magazine Box Reference Guide",
+          "url": "https://wyattsoutdoor.com/product/magazine-box-reference-guide/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Page: 'The box allows a COAL of 3.100\"'; outside 3.200 in. 'CAUTION: If attempting to install on a clone receiver, make sure the bolt stop can be moved far enough to the rear'. Reference guide: receivers and bolt stops must be altered; most clones will not accept it."
+    },
+    {
+      "id": "wyatts-223-extended",
+      "maker": "Wyatt's Outdoor",
+      "name": "Extended length .223 box, Rem. .223 action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "internalLength": null,
+      "maxCoal": 2.43,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [],
+      "source": {
+        "name": "Wyatt's Outdoor product page (223-box)",
+        "url": "https://wyattsoutdoor.com/product/223-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {
+        "fitsFootprints": {
+          "name": "Wyatt's Outdoor Product Info page",
+          "url": "https://wyattsoutdoor.com/product-info/",
+          "retrievedOn": "2026-11-03",
+          "kind": "maker"
+        }
+      },
+      "note": "Page: 'We've moved the block back to allow a COAL of 2.430\"'. Footprint is the R700 short-action cut; Product Info: 'Designed to still fit a factory length short action cutout'."
+    },
+    {
+      "id": "wyatts-mbe-08",
+      "maker": "Wyatt's Outdoor",
+      "name": "MBE-08 magazine box, Win. M-70 long action",
+      "type": "internal-box",
+      "fitsFootprints": [
+        "winchester-70-long"
+      ],
+      "lengthUnit": "in",
+      "internalLength": 3.825,
+      "maxCoal": 3.825,
+      "maxCaseHeadDiameter": null,
+      "capacityRounds": null,
+      "requiresModificationIds": [
+        "wyatts-win70-receiver-bolt-stop-ejector-alter"
+      ],
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-08-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-08-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Page: 'allows for an O.A.L. of approx. 3.825\"'; outside 3.910 in; 'The receiver, bolt stop, and ejector, must be altered to use this box.'"
+    }
+  ],
+  "modifications": [
+    {
+      "id": "wyatts-r700-mortise-mill-rearward",
+      "name": "Mill the receiver magazine-box mortise rearward for an extended box",
+      "kind": "magazine-well",
+      "appliesToFootprints": [
+        "remington-700-long",
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [],
+      "effect": "Lengthens the receiver's magazine opening at the rear just enough for a Wyatt's extended box to fit.",
+      "source": {
+        "name": "Wyatt's Outdoor installation instructions (MBE-02 page)",
+        "url": "https://wyattsoutdoor.com/product/mbe-02-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's: 'Mill magazine box mortice rearward ... just long enough for the extended box to fit.' Gunsmith not stated on this page (Product Info says only the Baney box 'requires a gunsmith for installation')."
+    },
+    {
+      "id": "wyatts-r700-bolt-stop-shorten-110",
+      "name": "Shorten the face of the bolt stop .110 in",
+      "kind": "bolt-stop",
+      "appliesToFootprints": [
+        "remington-700-long",
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "coalGain": 0.11,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [
+        "wyatts-r700-mortise-mill-rearward"
+      ],
+      "effect": "Lets the bolt travel further back so the bolt nose clears the base of the longer cartridge in the extended box.",
+      "source": {
+        "name": "Wyatt's Outdoor installation instructions (MBE-02 page)",
+        "url": "https://wyattsoutdoor.com/product/mbe-02-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. reversible false unless the bolt stop is replaced; not stated by the source."
+    },
+    {
+      "id": "wyatts-box-lips-remove-ultra-mag",
+      "name": "Remove the magazine box lips (staggered-feed extended box, Ultra Mag calibers)",
+      "kind": "feed-lips",
+      "appliesToFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [],
+      "effect": "Exposes more receiver rail so cartridges are not ratcheted out of the box when the bolt is worked quickly.",
+      "source": {
+        "name": "Wyatt's Outdoor installation instructions (MBE-02 page)",
+        "url": "https://wyattsoutdoor.com/product/mbe-02-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's: 'it may be necessary to remove the magazine lips on the box to expose more receiver rail.' This is the box's lips, not the receiver feed rails. Gunsmith requirement not stated."
+    },
+    {
+      "id": "wyatts-box-rear-relief-bottom-metal",
+      "name": "Relieve the back of the magazine box to sit on the bottom metal",
+      "kind": "bottom-metal",
+      "appliesToFootprints": [
+        "remington-700-long",
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [],
+      "effect": "Lets an extended box sit on top of factory bottom metal instead of in its mortise.",
+      "source": {
+        "name": "Wyatt's Outdoor installation instructions (MBE-02 page)",
+        "url": "https://wyattsoutdoor.com/product/mbe-02-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's: 'The extended boxes may or may not fit the factory bottom metal. The easiest cure is to relieve the back of the magazine box ... Most of our boxes are allready cut for this.'"
+    },
+    {
+      "id": "wyatts-adl-stock-well-blocks",
+      "name": "Block the stock magazine well to use a BDL box in an ADL stock",
+      "kind": "stock-inletting",
+      "appliesToFootprints": [
+        "remington-700-long",
+        "remington-700-short"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": null,
+      "gunsmithRequired": null,
+      "reversible": null,
+      "requires": [],
+      "effect": "Corner blocks glued or glassed into the stock well keep a BDL box from falling away from the receiver in an ADL (blind box) rifle. No COAL change.",
+      "source": {
+        "name": "Wyatt's Outdoor Magazine Box Reference Guide",
+        "url": "https://wyattsoutdoor.com/product/magazine-box-reference-guide/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's makes no ADL box: 'The BDL boxes may be used, but the stock well will need to be adjusted'. Gunsmith requirement and reversibility not stated."
+    },
+    {
+      "id": "wyatts-ejection-port-lengthen",
+      "name": "Alter (lengthen) the ejection port for the CFE-9 box",
+      "kind": "ejection-port",
+      "appliesToFootprints": [
+        "remington-700-long"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": 4.0,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [
+        "wyatts-r700-mortise-mill-rearward",
+        "wyatts-r700-bolt-stop-shorten-110"
+      ],
+      "effect": "Opens the port so a cartridge of about 4.000 in can be loaded and ejected.",
+      "source": {
+        "name": "Wyatt's Outdoor product page (cfe-09-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/cfe-09-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's CFE-09: 'The receiver, bolt stop, and ejection port, must be altered'; resultingMaxCoal is the box's 'approx. 4.000\"'. How much the port is lengthened is not printed."
+    },
+    {
+      "id": "wyatts-win70-receiver-bolt-stop-ejector-alter",
+      "name": "Alter the receiver, bolt stop and ejector for the MBE-08 box (Win. M-70 long action)",
+      "kind": "other",
+      "appliesToFootprints": [
+        "winchester-70-long"
+      ],
+      "lengthUnit": "in",
+      "coalGain": null,
+      "resultingMaxCoal": 3.825,
+      "gunsmithRequired": null,
+      "reversible": false,
+      "requires": [],
+      "effect": "Lets the Winchester M-70 long action feed from the 3.825 in MBE-08 box.",
+      "source": {
+        "name": "Wyatt's Outdoor product page (mbe-08-magazine-box)",
+        "url": "https://wyattsoutdoor.com/product/mbe-08-magazine-box/",
+        "retrievedOn": "2026-11-03",
+        "kind": "maker"
+      },
+      "fieldSources": {},
+      "note": "Wyatt's MBE-08: 'The receiver, bolt stop, and ejector, must be altered to use this box.' resultingMaxCoal is the page's 'approx. 3.825\"'."
+    }
+  ],
+  "builds": []
+}
