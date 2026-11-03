@@ -433,6 +433,13 @@ function srcOf(rec: Common, field: string): ActionSource {
   return rec.fieldSources[field] ?? rec.source;
 }
 
+const makerKey = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+function sameMaker(a: string, b: string): boolean {
+  const x = makerKey(a);
+  const y = makerKey(b);
+  return !!x && !!y && (x.startsWith(y) || y.startsWith(x));
+}
+
 function uniqueSources(list: ActionSource[]): ActionSource[] {
   const seen = new Set<string>();
   return list.filter((s) => {
@@ -465,7 +472,10 @@ export function matchActions(db: ActionDb, input: MatchInput): ActionMatch[] {
     const push = (r: Omit<Route, "reaches">) => routes.push({ ...r, sources: uniqueSources(r.sources), reaches: r.maxCoalIn >= coalIn - 1e-6 });
 
     // Factory magazine.
-    const factoryMags = a.magazineIds.map((id) => magsById.get(id)).filter((m): m is Magazine => !!m);
+    // Factory magazines: linked from the action and made by the action's maker. A linked aftermarket box
+    // (another maker, or one that needs work) is an aftermarket route like any box for the footprint.
+    const isFactory = (m: Magazine) => a.magazineIds.includes(m.id) && m.requiresModificationIds.length === 0 && sameMaker(m.maker, a.maker);
+    const factoryMags = a.magazineIds.map((id) => magsById.get(id)).filter((m): m is Magazine => !!m && isFactory(m));
     if (a.maxCoalMagazineIn != null) {
       push({ kind: "factory", label: "Factory magazine", maxCoalIn: a.maxCoalMagazineIn, fromInsideLength: false, magazine: null, modifications: [], build: null, sources: [srcOf(a, "maxCoalMagazine")], community: false });
     } else {
@@ -478,7 +488,7 @@ export function matchActions(db: ActionDb, input: MatchInput): ActionMatch[] {
 
     // Aftermarket magazines for this footprint.
     for (const m of db.magazines) {
-      if (a.magazineIds.includes(m.id) || !m.fitsFootprints.includes(fp)) continue;
+      if (isFactory(m) || !(m.fitsFootprints.includes(fp) || a.magazineIds.includes(m.id))) continue;
       const lim = magLimit(m);
       if (!lim) continue;
       const mods = m.requiresModificationIds.map((id) => modsById.get(id)).filter((x): x is Modification => !!x);

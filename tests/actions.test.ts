@@ -165,6 +165,13 @@ describe("matchActions", () => {
     const [m] = matchActions(db2, { cartridge: c308, coalIn: 3.65 });
     expect(m!.routes.some((r) => r.kind === "modification")).toBe(false);
   });
+  it("treats a linked box from another maker as aftermarket, not factory", () => {
+    const f = file() as { actions: Record<string, unknown>[]; magazines: Record<string, unknown>[] };
+    const data = file({ actions: [{ ...f.actions[0]!, maxCoalMagazine: null, magazineIds: ["example-ext"] }], magazines: [{ ...f.magazines[0]!, requiresModificationIds: [] }] });
+    const [m] = matchActions(mergeActionFiles([{ file: "x", data }], cartridges).db, { cartridge: c308, coalIn: 3.75 });
+    expect(m!.status).toBe("fits-with-parts");
+    expect(m!.routes[0]!.kind).toBe("magazine");
+  });
   it("applies a modification's COAL gain to the factory limit", () => {
     const f = file() as { modifications: Record<string, unknown>[] };
     const data = file({ magazines: [], modifications: [{ ...f.modifications[0]!, id: "gain", coalGain: 0.1 }] });
