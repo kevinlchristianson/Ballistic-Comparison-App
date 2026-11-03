@@ -179,7 +179,8 @@ X=[
  A("browning-xbolt2-long","Browning","X-Bolt 2","Long action","long","browning-xbolt-long","xb2"),
  # Savage
  A("savage-110-short","Savage Arms","110","Short action","short","savage-110-short","sav-al",rlen=8.40),
- A("savage-110-long","Savage Arms","110","Long action","long","savage-110-long","sav-al",rlen=9.25,mag=3.500,fs={"maxCoalMagazine":"lrh"},note=LRHN+"'Savage 112 7MM RM 3.505', '114 LA-Magnum 3.500', '116 LA-Magnum 3.518'; conservative 3.500 copied."),
+ # LRH row removed from pending set: chart gives 'Savage 112 7MM RM 3.505', '114 LA-Magnum 3.500', '116 LA-Magnum 3.518' (more than one figure).
+ A("savage-110-long","Savage Arms","110","Long action","long","savage-110-long","sav-al",rlen=9.25),
  A("savage-axis-short","Savage Arms","Axis","Short action","short","savage-axis","sav-al",rlen=6.961,mag=2.998,fs={"maxCoalMagazine":"lrh"},note=LRHN+"'Savage Axis 6.5CM 2.998' / '.243 Win 2.998'. Blog: Axis receiver 6.961 for both lengths."),
  A("savage-axis-long","Savage Arms","Axis","Long action","long","savage-axis","sav-al",rlen=6.961),
  # Weatherby
@@ -219,9 +220,10 @@ LRH_ON=False
 def _off(a):
   if not LRH_ON and "maxCoalMagazine" in a["fieldSources"]: a.update(maxCoalMagazine=None,fieldSources={},note=a["note"].split(" "+LRHN)[0].split(LRHN)[0] or None)
 for _a in acts:
-  if _a["id"]=="remington-700-short": _a.update(maxCoalMagazine=2.850,fieldSources={"maxCoalMagazine":S["lrh"]}); _a["note"]+=" "+LRHN+"'Remington 700 SA 2.850'."
-  if _a["id"]=="remington-700-long": _a.update(maxCoalMagazine=3.710,fieldSources={"maxCoalMagazine":S["lrh"]}); _a["note"]+=" "+LRHN+"'Remington 700 LA-Magnum 3.710', '7MM RM 3.710 ADL & BDL'."
-  if _a["id"]=="winchester-70-long": _a.update(maxCoalMagazine=3.400,fieldSources={"maxCoalMagazine":S["lrh"]}); _a["note"]+=" "+LRHN+"'Winchester 70 LA 3.400', 'LA-Magnum 3.600 7 STW, 300 WBY 375 H&H are 3.6'; conservative 3.400 copied (maker prints 375 H&H as Long Action)."
+  # LRH row removed from pending set (remington-700-short): chart gives 'Remington 700 SA 2.850', '700 308 Win 2.845', '700 300WSM Accurate - 2.95' (more than one figure).
+  # LRH row removed from pending set (remington-700-long): chart gives 'Remington 700 LA-Magnum 3.710', '700 7MM RM 3.710 ADL & BDL', '700-HS Precision LA 3.695' (more than one figure).
+  # LRH row removed from pending set (winchester-70-long): chart gives 'Winchester 70 LA 3.400', '70 LA-Magnum 3.600 7 STW, 300 WBY 375 H&H are 3.6' (more than one figure).
+  pass
 
 for _a in acts: _off(_a)
 
