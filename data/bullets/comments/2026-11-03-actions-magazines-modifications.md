@@ -18,6 +18,9 @@ None blocking. This file records the split and the terms checks. Please confirm 
   - mdttac.com: magazine pages return 404 to my fetches and the support site returns 403, so I could not verify MDT's own figures or terms. Held; only retailer copies seen.
   - Accuracy International: no maker page printing max COAL found. Held.
   - Hawkins Precision returns 403. Bottom-metal systems (Badger, Hawkins, CDI, MDT), Tikka, Savage and CIP-length mags are not in this batch.
+  - Not used, per their terms (CSLD's check, 2026-11-03): JAWBONE Actions and Go Big Tactical say not to copy their sites; American Rifle Co. bars collecting product data.
+  - No community charts are used on magazine or modification records.
+- **Footprints vs LDD's actions (PR #330, merged):** `remington-700-long` and `remington-700-short` match LDD's footprints. `winchester-70-long` (MBE-08 and its M-70 modification) has no LDD action yet.
 - **Held modifications:** receiver feed-rail milling, opening the bolt face, and single feed have only forum sources so far; the README allows community sources only in builds and on `maxCoal`, so I did not file them.
 
 ## Working assumption until answered
