@@ -289,7 +289,7 @@
     {
       "id": "kevin-r700-long-wyatts-28-nosler",
       "actionId": "remington-700-long",
-      "magazineId": null,
+      "magazineId": "wyatts-mbe-2",
       "modificationIds": [
         "wyatts-r700-install",
         "r700-feed-lip-milling"
@@ -305,7 +305,7 @@
         "kind": "community"
       },
       "fieldSources": {},
-      "note": "Factory Remington 700 long action with a Wyatt's extended magazine box (model not stated) and the feed lips milled back. COAL about 3.705 in."
+      "note": "Factory Remington 700 long action with a Wyatt's extended magazine box (the owner believes it is the MBE-2) and the feed lips milled back. COAL about 3.705 in."
     }
   ]
 }
