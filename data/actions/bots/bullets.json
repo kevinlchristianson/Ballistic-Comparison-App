@@ -471,7 +471,7 @@
       "lengthUnit": "in",
       "coalGain": null,
       "resultingMaxCoal": null,
-      "gunsmithRequired": true,
+      "gunsmithRequired": null,
       "reversible": null,
       "requires": [],
       "effect": "Lengthens the receiver's magazine opening at the rear just enough for a Wyatt's extended box to fit.",
@@ -481,15 +481,8 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
-      "fieldSources": {
-        "gunsmithRequired": {
-          "name": "Red Hawk Rifles, Wyatt's extended center feed magazine boxes",
-          "url": "https://redhawkrifles.com/wyatts-extended-center-feed-magazine-boxes/",
-          "retrievedOn": "2026-11-03",
-          "kind": "retailer"
-        }
-      },
-      "note": "Wyatt's: 'Mill magazine box mortice rearward ... just long enough for the extended box to fit.' Gunsmith not stated on this page (Product Info says only the Baney box 'requires a gunsmith for installation'). gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
+      "fieldSources": {},
+      "note": "Wyatt's: 'Mill magazine box mortice rearward ... just long enough for the extended box to fit.' Gunsmith not stated on this page (Product Info says only the Baney box 'requires a gunsmith for installation'). Gunsmith: 'Installation requires modification to the receiver and bolt, done by a competent gunsmith' is for CFE boxes per Red Hawk; not stated for MBE."
     },
     {
       "id": "wyatts-r700-bolt-stop-shorten-110",
@@ -502,7 +495,7 @@
       "lengthUnit": "in",
       "coalGain": 0.11,
       "resultingMaxCoal": null,
-      "gunsmithRequired": true,
+      "gunsmithRequired": null,
       "reversible": null,
       "requires": [
         "wyatts-r700-mortise-mill-rearward"
@@ -514,15 +507,8 @@
         "retrievedOn": "2026-11-03",
         "kind": "maker"
       },
-      "fieldSources": {
-        "gunsmithRequired": {
-          "name": "Red Hawk Rifles, Wyatt's extended center feed magazine boxes",
-          "url": "https://redhawkrifles.com/wyatts-extended-center-feed-magazine-boxes/",
-          "retrievedOn": "2026-11-03",
-          "kind": "retailer"
-        }
-      },
-      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. gunsmithRequired from Red Hawk Rifles (Wyatt's center feed boxes): 'Installation requires modification to the receiver and bolt, done by a competent gunsmith.'"
+      "fieldSources": {},
+      "note": "Wyatt's: 'Shorten face of bolt stop .110\" ... to accomodate extra box length.' coalGain is the box page's 'approx. .110\"' O.A.L. extension. Gunsmith: 'Installation requires modification to the receiver and bolt, done by a competent gunsmith' is for CFE boxes per Red Hawk; not stated for MBE."
     },
     {
       "id": "wyatts-box-lips-remove-ultra-mag",
