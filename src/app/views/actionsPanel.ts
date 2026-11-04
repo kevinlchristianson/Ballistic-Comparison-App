@@ -8,7 +8,7 @@ import type { Cartridge } from "../../lib/cartridges.ts";
 import { append, clear, h } from "../dom.ts";
 
 let dbPromise: Promise<ActionDb> | null = null;
-function loadActions(): Promise<ActionDb> {
+export function loadActions(): Promise<ActionDb> {
   dbPromise ??= fetch("data/actions.json", { cache: "no-cache" })
     .then((r) => {
       if (!r.ok) throw new Error(`Could not load the action list (${r.status}).`);
@@ -140,6 +140,9 @@ export function actionsPanel(): { el: HTMLElement; update: (c: Cartridge, coalIn
             "p",
             { class: "hint" },
             "Lengths are as the maker, gunsmith or retailer states them, linked to each source; community reports are tagged. The database is still being filled, so an action missing here may still work. Check feeding with dummy rounds and confirm any modification with a gunsmith.",
+            " ",
+            h("a", { href: "#actions" }, "Browse and filter all actions"),
+            ".",
           ),
         ]);
       },

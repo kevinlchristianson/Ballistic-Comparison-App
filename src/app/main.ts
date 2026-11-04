@@ -2,6 +2,7 @@ import "./style.css";
 import { loadAppData, type AppData } from "./data.ts";
 import { clear, h } from "./dom.ts";
 import { aboutView } from "./views/about.ts";
+import { actionsView } from "./views/actions.ts";
 import { bulletsView } from "./views/bullets.ts";
 import { bulletDrawingsView } from "./views/bulletDrawings.ts";
 import { cartridgesView } from "./views/cartridges.ts";
@@ -19,6 +20,7 @@ const ROUTES: { id: string; label: string; view: (d: AppData) => HTMLElement }[]
   { id: "cartridges", label: "Cartridges", view: cartridgesView },
   { id: "catalog", label: "Case drawings", view: catalogView },
   { id: "chamber", label: "Chamber", view: chamberView },
+  { id: "actions", label: "Actions", view: actionsView },
   { id: "loads", label: "Load data", view: loadsView },
   { id: "about", label: "About", view: aboutView },
 ];
@@ -36,7 +38,7 @@ function render(data: AppData): void {
   clear(nav);
   nav.append(...ROUTES.map((r) => h("a", { href: `#${r.id}`, class: r.id === id ? "active" : "", "aria-current": r.id === id ? "page" : null }, r.label)));
   clear(main);
-  main.classList.toggle("wide", id === "loads");
+  main.classList.toggle("wide", id === "loads" || id === "actions");
   main.append(ROUTES.find((r) => r.id === id)!.view(data));
   window.scrollTo(0, 0);
 }

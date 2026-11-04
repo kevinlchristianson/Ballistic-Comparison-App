@@ -104,6 +104,17 @@ The owner's own rifle is the case this has to describe: a **28 Nosler loaded to 
 
 The example values are placeholders, not checked data (the 28 Nosler build is the owner's own description of their rifle, which the project files itself).
 
+### Optional action fields (schema 1.1.0, 2026-11-04)
+
+For the Actions tab. Files at 1.0.0 are still read; set `schemaVersion` to `"1.1.0"` once a file carries these, with every key on every action (`null` when unknown):
+
+- `weight` + `weightUnit` (`oz`, `lb`, `g`, `kg`, as printed): bare action weight (receiver and bolt; say in `note` whether the recoil lug or scope rail is included). Never a rifle weight. 4 oz to 10 lb.
+- `lugCount`: locking lugs, a whole number 1 to 12.
+- `boltDiameter`, `receiverDiameter`: in `lengthUnit`; `receiverDiameter` is for round receivers only.
+- `material`: as printed, short.
+
+Per-field sources go in `fieldSources` under the same key. Community sources are not allowed for these fields.
+
 ### Fields
 
 - **Ids** are lowercase slugs (letters, digits, dots, hyphens), unique across the four arrays of both files. Records point at each other by id.
