@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-11-02",
+  "generatedOn": "2026-11-05",
   "bot": "load-data",
   "cartridgeCount": 248,
-  "aliasCount": 176,
+  "aliasCount": 32,
   "cartridges": [
     {
       "id": "24-nosler",
@@ -2248,7 +2248,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.155\", brass max length 2.165\" (caseLength), water capacity 84 gr, bolt face printed (see below), freebore '146(MA),205(LA), FCLASS 235' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. 4D lists 7 Mega 146/205/235 freebore variants. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.155\", brass max length 2.165\" (caseLength), water capacity 84 gr, bolt face printed (see below), freebore '146(MA),205(LA), FCLASS 235' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40\u00b0 from https://shermanwildcatcartridges.com/cartridges/medium-action/. 4D lists 7 Mega 146/205/235 freebore variants. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40\u00b0 and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "300-sherman-mega",
@@ -2279,7 +2279,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.150\", brass max length 2.160\" (caseLength), water capacity 85 gr, bolt face printed (see below), freebore '149(MA), 180(LA)' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.150\", brass max length 2.160\" (caseLength), water capacity 85 gr, bolt face printed (see below), freebore '149(MA), 180(LA)' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40\u00b0 from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40\u00b0 and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "338-sherman-mega",
@@ -2310,7 +2310,7 @@
         "url": "https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923",
         "retrievedOn": "2026-10-29"
       },
-      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.140\", brass max length 2.150\" (caseLength), water capacity 86 gr, bolt face printed (see below), freebore '270 MA & LA' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40° from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40° and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
+      "note": "ESTIMATE/PARTIAL: Sherman publishes no case drawing; only the fields set here are printed, the rest are null for the app's parent-case estimate (owner decision 2026-10-29). bulletDiameter is the nominal bore for the caliber in the name, not separately printed. Cheat sheet (https://img1.wsimg.com/blobby/go/b4083d55-887e-47d6-93bd-312cd4a323d2/downloads/be7b4f83-d5be-47f7-9510-265b52df4a76/SHERMAN%20CHEAT%20SHEET.xlsx?ver=1770751055923): brass trim length 2.140\", brass max length 2.150\" (caseLength), water capacity 86 gr, bolt face printed (see below), freebore '270 MA & LA' (thousandths of an inch as printed; no schema field), action MA, LA. Shoulder 40\u00b0 from https://shermanwildcatcartridges.com/cartridges/medium-action/. maxCoal 3.2 from https://shermanwildcatcartridges.com/cartridges/medium-action/sherman-mega/ (3.3 with the long-freebore option), cross-checked from Community Sourced Load Data's dims.json. Bolt face 0.54 in (Sherman cheat sheet) is the bolt recess, not the case rim; rimDiameter left null. Shoulder 40\u00b0 and WSM parent case from https://shermanwildcatcartridges.com/cartridges/ Mega page; owner decision 2026-10-29 that all Megas share it. Freebore is in notes only (no schema field). Sherman Wildcat Cartridges is listed in BOTS.md (2026-10-29)."
     },
     {
       "id": "28-sherman-mag",
@@ -4217,10 +4217,10 @@
     },
     {
       "id": "12-7x70-schuler",
-      "name": "12.7x70 (500 Schüler)",
+      "name": "12.7x70 (500 Sch\u00fcler)",
       "kind": "cip",
       "aliases": [
-        "12,7 x 70 (500 Schüler)"
+        "12,7 x 70 (500 Sch\u00fcler)"
       ],
       "parentCase": null,
       "lengthUnit": "mm",
@@ -4248,7 +4248,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page75.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 12,7 x 70 (500 Schüler) (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 12.96, L1 59.00, L2 61.30, L3 70.00, L6 88.00, R1 14.65, P1 15.73, P2 15.32, H1 13.65, Pmax 3300 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 12,7 x 70 (500 Sch\u00fcler) (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 12.96, L1 59.00, L2 61.30, L3 70.00, L6 88.00, R1 14.65, P1 15.73, P2 15.32, H1 13.65, Pmax 3300 bar. Neck 0.69 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "12-7x108",
@@ -4827,7 +4827,7 @@
     },
     {
       "id": "375-holderlin",
-      "name": "375 Hölderlin",
+      "name": "375 H\u00f6lderlin",
       "kind": "cip",
       "aliases": [],
       "parentCase": null,
@@ -4856,7 +4856,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-en-page141.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. I sheet, 375 Hölderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 13.00, P1 13.30, P2 12.15, H1 10.40, Pmax 3800 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. I sheet, 375 H\u00f6lderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 13.00, P1 13.30, P2 12.15, H1 10.40, Pmax 3800 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "416-tyr",
@@ -5452,7 +5452,7 @@
       "name": "8mm-348 Winchester",
       "kind": "cip",
       "aliases": [
-        "8 mm – 348 Win."
+        "8 mm \u2013 348 Win."
       ],
       "parentCase": null,
       "lengthUnit": "mm",
@@ -5480,7 +5480,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page43.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. II sheet, 8 mm – 348 Win. (dated 99-03-16, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 41.91, L2 46.88, L3 57.28, L6 82.00, R1 15.49, P1 14.05, P2 12.32, H1 8.88, Pmax 3000 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. II sheet, 8 mm \u2013 348 Win. (dated 99-03-16, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 8.22, L1 41.91, L2 46.88, L3 57.28, L6 82.00, R1 15.49, P1 14.05, P2 12.32, H1 8.88, Pmax 3000 bar. Neck 0.66 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "8-2x53r",
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "375r-holderlin",
-      "name": "375 R Hölderlin",
+      "name": "375 R H\u00f6lderlin",
       "kind": "cip",
       "aliases": [],
       "parentCase": null,
@@ -6032,7 +6032,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page95.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. II sheet, 375 R Hölderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 14.95, P1 13.34, P2 12.15, H1 10.40, Pmax 3600 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. II sheet, 375 R H\u00f6lderlin (dated 07-05-14), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 9.55, L1 53.20, L2 56.57, L3 67.50, L6 87.00, R1 14.95, P1 13.34, P2 12.15, H1 10.40, Pmax 3600 bar. Neck 0.85 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "375r-verney-carron",
@@ -6107,7 +6107,7 @@
       "name": "416 Rigby No. 2",
       "kind": "cip",
       "aliases": [
-        "416 Rigby N°2"
+        "416 Rigby N\u00b02"
       ],
       "parentCase": null,
       "lengthUnit": "mm",
@@ -6135,14 +6135,14 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/416rigbyn2-180516-en.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. II sheet, 416 Rigby N°2 (dated 18-05-16), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 59.73, L2 60.92, L3 73.66, L6 95.25, R1 17.00, P1 14.99, P2 13.72, H1 11.35, Pmax 3250 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. II sheet, 416 Rigby N\u00b02 (dated 18-05-16), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 59.73, L2 60.92, L3 73.66, L6 95.25, R1 17.00, P1 14.99, P2 13.72, H1 11.35, Pmax 3250 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "450-no2-ne",
       "name": "450 No. 2 Nitro Express 3 1/2\"",
       "kind": "cip",
       "aliases": [
-        "450 N° 2 N.E. 3“1/2 Eley"
+        "450 N\u00b0 2 N.E. 3\u201c1/2 Eley"
       ],
       "parentCase": null,
       "lengthUnit": "mm",
@@ -6170,7 +6170,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page116.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. II sheet, 450 N° 2 N.E. 3“1/2 Eley (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 11.63, L1 72.39, L2 77.47, L3 88.90, L6 109.98, R1 16.76, P1 14.35, P2 13.97, H1 12.24, Pmax 2800 bar. Neck 0.61 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. II sheet, 450 N\u00b0 2 N.E. 3\u201c1/2 Eley (dated 98-01-27, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 11.63, L1 72.39, L2 77.47, L3 88.90, L6 109.98, R1 16.76, P1 14.35, P2 13.97, H1 12.24, Pmax 2800 bar. Neck 0.61 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "450-400-mag-ne-3-1-4",
@@ -6245,7 +6245,7 @@
       "name": "500/416 Nitro Express 3 1/4\"",
       "kind": "cip",
       "aliases": [
-        "500/416 N.E. 3“1/4"
+        "500/416 N.E. 3\u201c1/4"
       ],
       "parentCase": null,
       "lengthUnit": "mm",
@@ -6273,7 +6273,7 @@
         "url": "https://bobp.cip-bobp.org/uploads/tdcc/tab-ii/tabiical-en-page124.pdf",
         "retrievedOn": "2026-10-30"
       },
-      "note": "New. C.I.P. TDCC Tab. II sheet, 500/416 N.E. 3“1/4 (dated 96-12-20, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 60.96, L2 65.00, L3 82.55, L6 101.09, R1 16.64, P1 14.55, P2 13.49, H1 11.35, Pmax 3150 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
+      "note": "New. C.I.P. TDCC Tab. II sheet, 500/416 N.E. 3\u201c1/4 (dated 96-12-20, rev. 02-05-15), cartridge maxi, mm; C.I.P. copying allowed per Kevin, 2026-10-29. G1 10.57, L1 60.96, L2 65.00, L3 82.55, L6 101.09, R1 16.64, P1 14.55, P2 13.49, H1 11.35, Pmax 3150 bar. Neck 0.78 mm over the bullet. Cone angle alpha is the included angle, so shoulderAngleDeg is left empty. neckLength is L3 minus L2."
     },
     {
       "id": "500-465-ne",
@@ -6496,7 +6496,7 @@
         "url": "https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2",
         "retrievedOn": "2026-10-30"
       },
-      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 300 page: shares the same case design as the other Sherman bore sizes, the most from an ’06 bolt face. (https://shermanwildcatcartridges.com/cartridges/long-action/300-sherman/). Water capacity about 77 gr is Rich Sherman's figure (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7: 'The 300 holds about 77 grains'). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
+      "note": "ESTIMATE: Forum sources allowed per Kevin's ruling, 2026-10-30. Max case length 2.525 and trim 2.515 are from Korhil78's 6.5 Sherman post (https://www.longrangehunting.com/threads/my-6-5-sherman-rifle-and-load-development-thread.174905/page-2), which Rich Sherman (elkaholic) answered 'Sounds like they came out just like they should'. Rich Sherman (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7): the 6.5 and 300 Sherman are 'identical except for neck diameter' and are formed from .270 or .280 cases. Shoulder 40 deg and '06 bolt face from Sherman's long-action page (https://shermanwildcatcartridges.com/cartridges/long-action/): the series has 40 degree shoulders on the '06 bolt face. Sherman 300 page: shares the same case design as the other Sherman bore sizes, the most from an \u201906 bolt face. (https://shermanwildcatcartridges.com/cartridges/long-action/300-sherman/). Water capacity about 77 gr is Rich Sherman's figure (elkaholic, https://www.longrangehunting.com/threads/new-30-375-wildcat.80853/page-7: 'The 300 holds about 77 grains'). Bullet diameter is the nominal bore. Neck and profile values are left empty for the app to estimate, as on the other Sherman records."
     },
     {
       "id": "338-sherman",
@@ -7578,30 +7578,42 @@
       "id": "8-6-blk",
       "name": "8.6 Blackout",
       "kind": "saami",
-      "aliases": [],
-      "parentCase": "300 Blackout",
+      "aliases": [
+        "8.6 BLK",
+        "8.6mm Blackout",
+        ".338 Blackout"
+      ],
+      "parentCase": "6.5 Creedmoor",
       "lengthUnit": "in",
       "bulletDiameter": 0.338,
-      "caseLength": 1.68,
+      "caseLength": 1.685,
       "trimLength": null,
-      "maxCoal": null,
-      "rimDiameter": null,
-      "neckLength": null,
-      "baseDiameter": 0.4727,
-      "shoulderDiameter": 0.4649,
-      "neckDiameter": 0.368,
-      "lengthToShoulder": 1.2692,
-      "lengthToNeck": 1.3527,
+      "maxCoal": 2.81,
+      "rimDiameter": 0.472,
+      "neckLength": 0.3305,
+      "baseDiameter": 0.4703,
+      "shoulderDiameter": 0.4635,
+      "neckDiameter": 0.366,
+      "lengthToShoulder": 1.2701,
+      "lengthToNeck": 1.3545,
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30,
       "rimType": "rimless",
-      "pressure": null,
-      "source": {
-        "name": "Pacific Tool & Gauge",
-        "url": "https://www.pacifictoolandgauge.com/86-Blackout-86-BLK-SAAMI-Chamber-Reamer_p_114417.html",
-        "retrievedOn": "2026-10-31"
+      "pressure": {
+        "value": 62000,
+        "unit": "psi",
+        "method": "piezo"
       },
-      "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in; no designer or Wikipedia case length found. PTG drawing PTG-13492 rev A, 8.6 BLK chamber. Body 0.4727 in at 0.2000 in; shoulder 0.4649 in at 1.2692 in, 30deg; neck 0.3680 in at 1.3527 in; chamber neck end 1.6900 in; groove 0.3380."
+      "boreDiameter": 0.33,
+      "throatDiameter": 0.3389,
+      "leadeAngleDeg": 1.5,
+      "freebore": null,
+      "source": {
+        "name": "SAAMI Public Introduction \u2013 8.6 BLACKOUT maximum cartridge drawing",
+        "url": "https://saami.org/wp-content/uploads/2026/04/Public-Introduction-8.6-BLACKOUT-2026-04-07.pdf",
+        "retrievedOn": "2026-11-05"
+      },
+      "note": "Re-sourced 2026-11-05 from the SAAMI Public Introduction maximum cartridge / minimum chamber drawing (issued 01/19/2026; MAP 62,000 psi, crusher not established), replacing the earlier PTG chamber-print ESTIMATE. SAAMI copying allowed per Kevin, 2026-10-29. Maximum cartridge, inches: rim .472 -.010; body .4703 at .200; shoulder .4635 (intersection) at 1.2701; neck .366 CYL at 1.3545 (intersection); shoulder 30 deg basic; case 1.685 -.020; COAL 2.560 min to 2.810 max; bullet .339 -.003 (groove .338 stored as bulletDiameter). Neck 0.028 in over the .338 groove. neckLength is case length minus lengthToNeck. Parent case is 6.5 Creedmoor (Q, LLC; was wrongly listed as 300 Blackout on the PTG record). Chamber drawing (same sheet): bore .330, groove .338, freebore/throat .3389 CYL, leade 1 deg 30 min basic per side; freebore length not filed (chamber neck end 1.690, next reference 1.7041 \u2014 length left null rather than derived). caseCapacityGrH2O null (no printed water capacity on the SAAMI sheet)."
     },
     {
       "id": "8x60-j",
