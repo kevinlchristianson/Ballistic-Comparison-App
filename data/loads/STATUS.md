@@ -1,8 +1,14 @@
 # Load-data bot status
 
-Last updated: 2026-11-03 18:30 UTC
+Last updated: 2026-11-05 17:30 UTC
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
+
+## 8.6 Blackout re-sourced to SAAMI (2026-11-05)
+
+- `8-6-blk` was already in `data/cartridges/bots/loads.json` from the 2026-10-31 PTG chamber print (case length ESTIMATE, no max COAL, no pressure, wrong parent 300 Blackout).
+- Replaced with the [SAAMI Public Introduction – 8.6 BLACKOUT](https://saami.org/wp-content/uploads/2026/04/Public-Introduction-8.6-BLACKOUT-2026-04-07.pdf) maximum cartridge drawing (issued 01/19/2026): case 1.685 in, max COAL 2.810 in, MAP 62,000 psi (piezo; crusher not established), full profile, parent 6.5 Creedmoor, aliases `8.6 BLK` / `8.6mm Blackout` / `.338 Blackout`. Chamber sheet also filled bore .330, throat .3389, leade 1.5 deg; freebore length and case capacity left null.
+- No C.I.P. TDCC sheet found. Envelope `aliasCount` corrected to match the aliases array length (was 176, array is 32).
 
 ## Rifle actions (2026-11-03)
 
@@ -103,7 +109,7 @@ Owner decision 2026-10-29: `5.56 NATO` (420), `5.56x45mm NATO` (98), and `223 Wy
 
 Aliases to records already on main: `6.5x54 Mann.-Scho.` (314) to `6-5x54-ms`, `22 Cheetah Mark II` (202) to `22-cheetah-mk2`, `6.5 x 50mm Japanese` (70) to `6-5x50-arisaka`, `7.62 x 39mm Russian` (145) to `7-62x39`, and the Hodgdon sections `45-70 Government (HP)*` (175) and `45-70 Government (Trapdoor Rifles)*` (91) to `45-70-govt`.
 
-Rifle names still unmatched, largest first, with no allowed bullet-diameter and case-length source found in this pass: 7mm BR Remington (432), 223 Wylde (420), 5.56 NATO (420), 6.5 BeanMore (258), 8.6 Blackout (250), 6.5 Gibbs (248), 6.5x57 (232), 338-378 Wby. Mag (230) and 338-378 Weatherby Magnum (166), 350 Remington Mag. (216) and 350 Remington Magnum (56), 300 Lapua Mag. (212), M1 Garand Service Rifle (186), 338 ARC (179), 25 Remington (168), 6x6.8 SPC (164), 375 Socom (148), 20 Tactical (126), 7,62 x 53R (7,62 Russian) (112), 224 Weatherby Mag. (104) and 224 Weatherby Magnum (66), 5.56x45mm NATO (98), 20 BR (90). 5.56 is not aliased to .223. 223 Wylde is a chamber. 7,62 x 53R is not 7.62x54R.
+Rifle names still unmatched, largest first, with no allowed bullet-diameter and case-length source found in this pass: 7mm BR Remington (432), 223 Wylde (420), 5.56 NATO (420), 6.5 BeanMore (258), 8.6 Blackout (250; now in loads.json from SAAMI, 2026-11-05), 6.5 Gibbs (248), 6.5x57 (232), 338-378 Wby. Mag (230) and 338-378 Weatherby Magnum (166), 350 Remington Mag. (216) and 350 Remington Magnum (56), 300 Lapua Mag. (212), M1 Garand Service Rifle (186), 338 ARC (179), 25 Remington (168), 6x6.8 SPC (164), 375 Socom (148), 20 Tactical (126), 7,62 x 53R (7,62 Russian) (112), 224 Weatherby Mag. (104) and 224 Weatherby Magnum (66), 5.56x45mm NATO (98), 20 BR (90). 5.56 is not aliased to .223. 223 Wylde is a chamber. 7,62 x 53R is not 7.62x54R.
 
 `6x47`, `6X47 Lapua`, and `6X47 L` now resolve to `6x47-lapua`, not to `6x47-lapua-ai`.
 
