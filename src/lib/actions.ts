@@ -12,7 +12,8 @@
  */
 import { buildAliasIndex, resolveCartridge, type Cartridge } from "./cartridges.ts";
 
-export const ACTION_SCHEMA_VERSIONS = ["1.0.0"] as const;
+/** 1.1.0 adds optional action fields (weight, weightUnit, lugCount, boltDiameter, receiverDiameter, material); 1.0.0 files read as before. */
+export const ACTION_SCHEMA_VERSIONS = ["1.0.0", "1.1.0"] as const;
 export const ACTION_PROJECT_FILE = "data/actions/actions.json";
 export const ACTION_BOT_DIR = "data/actions/bots";
 
@@ -62,7 +63,19 @@ export interface RifleAction extends Common {
   magazineIds: string[];
   maxCoalMagazineIn: number | null;
   maxCoalSingleFeedIn: number | null;
+  /** Bare action weight as printed, converted to ounces (schema 1.1.0). */
+  weightOz: number | null;
+  /** The unit the source printed the weight in, for display. */
+  weightUnit: WeightUnit | null;
+  lugCount: number | null;
+  boltDiameterIn: number | null;
+  /** Outside diameter of a round receiver (null for flat-bottom or unknown). */
+  receiverDiameterIn: number | null;
+  material: string | null;
 }
+
+export type WeightUnit = "oz" | "lb" | "g" | "kg";
+const OZ_PER: Record<WeightUnit, number> = { oz: 1, lb: 16, g: 1 / 28.349523125, kg: 1000 / 28.349523125 };
 
 export interface Magazine extends Common {
   maker: string;
@@ -192,8 +205,22 @@ function toAction(r: Raw, file: string, addedBy: string): RifleAction | string {
   if (!maker || !model) return "action needs maker and model";
   const bad = communityMisuse(c, []);
   if (bad) return bad;
-  const L = lengths(r, c.unit, ["boltTravel", "ejectionPortLength", "receiverLength", "maxCoalMagazine", "maxCoalSingleFeed"]);
+  const L = lengths(r, c.unit, ["boltTravel", "ejectionPortLength", "receiverLength", "maxCoalMagazine", "maxCoalSingleFeed", "boltDiameter", "receiverDiameter"]);
   if (typeof L === "string") return L;
+  let weightOz: number | null = null;
+  let weightUnit: WeightUnit | null = null;
+  if (r.weight != null) {
+    if (typeof r.weight !== "number" || !Number.isFinite(r.weight) || r.weight <= 0) return "weight must be a positive number or null";
+    if (!(typeof r.weightUnit === "string" && r.weightUnit in OZ_PER)) return "weightUnit must be oz, lb, g or kg when weight is given";
+    weightUnit = r.weightUnit as WeightUnit;
+    weightOz = Math.round(r.weight * OZ_PER[weightUnit] * 100) / 100;
+    if (weightOz < 4 || weightOz > 160) return "weight out of range for a bare action (4 oz to 10 lb)";
+  }
+  let lugCount: number | null = null;
+  if (r.lugCount != null) {
+    if (typeof r.lugCount !== "number" || !Number.isInteger(r.lugCount) || r.lugCount < 1 || r.lugCount > 12) return "lugCount must be a whole number 1–12 or null";
+    lugCount = r.lugCount;
+  }
   const faces: RifleAction["boltFaces"] = [];
   for (const f of Array.isArray(r.boltFaces) ? r.boltFaces : []) {
     const label = text((f as Raw)?.label, 40);
@@ -218,6 +245,12 @@ function toAction(r: Raw, file: string, addedBy: string): RifleAction | string {
     magazineIds: ids(r.magazineIds),
     maxCoalMagazineIn: L.maxCoalMagazine,
     maxCoalSingleFeedIn: L.maxCoalSingleFeed,
+    weightOz,
+    weightUnit,
+    lugCount,
+    boltDiameterIn: L.boltDiameter,
+    receiverDiameterIn: L.receiverDiameter,
+    material: text(r.material, 60),
   };
 }
 
@@ -554,4 +587,155 @@ export function actionReportMarkdown(reports: ActionFileReport[]): string {
   const rej = reports.flatMap((r) => r.rejected.map((x) => `- \`${r.file}\` ${x.item}: ${x.reason}`));
   if (rej.length) out.push("", "Left out:", "", ...rej);
   return out.join("\n") + "\n";
+}
+
+// ---------------------------------------------------------------------------
+// The Actions tab: one row per action with its specs and limits, and filters.
+
+/** Bolt-face groups by case head: small (.223/PPC/ARC, ≤ .45 in), standard (.308/30-06, .473), magnum (belted and RUM-class, .53–.56) and large (.338 Lapua and up). */
+export type FaceFamily = "small" | "standard" | "magnum" | "large";
+export const FACE_FAMILIES: [FaceFamily, string][] = [
+  ["small", "Small (.223 / PPC / ARC)"],
+  ["standard", "Standard (.308 / 30-06)"],
+  ["magnum", "Magnum (belted / RUM)"],
+  ["large", "Large (.338 Lapua and up)"],
+];
+
+function familyOfDiameter(d: number): FaceFamily {
+  return d <= 0.455 ? "small" : d <= 0.5 ? "standard" : d <= 0.565 ? "magnum" : "large";
+}
+
+/** The bolt-face group for a face: from its diameter, or else from the label as printed. Null when neither says. */
+export function faceFamily(f: { label: string; diameterIn: number | null }): FaceFamily | null {
+  if (f.diameterIn != null) return familyOfDiameter(f.diameterIn);
+  const l = f.label.toLowerCase();
+  const num = l.match(/^\.?(\d{3})$/);
+  if (num) return familyOfDiameter(Number(num[1]) / 1000);
+  if (/lapua|bmg|cheytac|\.5[89]\d/.test(l)) return "large";
+  if (/mag|wsm|ultra|rum|prc/.test(l)) return "magnum";
+  if (/308|30-06|standard|std|\.473/.test(l)) return "standard";
+  if (/223|222|ppc|arc|valk|blk|\.378|\.44\d/.test(l)) return "small";
+  return null;
+}
+
+/** A length limit with where it came from. */
+export interface Limit {
+  coalIn: number;
+  label: string;
+  sources: ActionSource[];
+  fromInsideLength: boolean;
+  community: boolean;
+}
+
+export interface ActionRow {
+  action: RifleAction;
+  faceFamilies: FaceFamily[];
+  /** Longest COAL from the factory magazine, as stated. */
+  factory: Limit | null;
+  /** Longest COAL with any aftermarket magazine or modification on record (or factory, if longer). */
+  withParts: Limit | null;
+  /** The magazines and modifications behind `withParts`, when it isn't the factory figure. */
+  withPartsNeeds: string[];
+  singleFeed: Limit | null;
+  /** Reported builds on this action, any cartridge, longest first. */
+  builds: Build[];
+  /** Every route with a number, for the detail view. */
+  routes: Route[];
+  related: Modification[];
+}
+
+function toLimit(r: Route): Limit {
+  return { coalIn: r.maxCoalIn, label: r.label, sources: r.sources, fromInsideLength: r.fromInsideLength, community: r.community };
+}
+const longest = (rs: Route[]) => rs.reduce<Route | null>((b, r) => (!b || r.maxCoalIn > b.maxCoalIn ? r : b), null);
+
+/** One row per action, with its factory, with-parts and single-feed limits. */
+export function actionRows(db: ActionDb): ActionRow[] {
+  // A COAL of 0 makes every route "reach"; no cartridge id, so builds come in below instead.
+  const matches = matchActions(db, { cartridge: { id: "", rimDiameterIn: null }, coalIn: 0 });
+  return matches.map((m) => {
+    const factory = longest(m.routes.filter((r) => r.kind === "factory"));
+    const parts = longest(m.routes.filter((r) => r.kind === "factory" || r.kind === "magazine" || r.kind === "modification"));
+    const single = longest(m.routes.filter((r) => r.kind === "single-feed"));
+    const needs = parts && parts.kind !== "factory" ? [parts.magazine ? `${parts.magazine.maker} ${parts.magazine.name}` : null, ...parts.modifications.map((x) => x.name)].filter((x): x is string => !!x) : [];
+    return {
+      action: m.action,
+      faceFamilies: [...new Set(m.action.boltFaces.map(faceFamily).filter((x): x is FaceFamily => !!x))],
+      factory: factory && toLimit(factory),
+      withParts: parts && toLimit(parts),
+      withPartsNeeds: needs,
+      singleFeed: single && toLimit(single),
+      builds: db.builds.filter((b) => b.actionId === m.action.id).sort((a, b) => b.coalIn - a.coalIn),
+      routes: m.routes,
+      related: m.related,
+    };
+  });
+}
+
+export type CoalMode = "factory" | "parts" | "any";
+
+export interface ActionFilter {
+  text: string;
+  makers: string[];
+  /** Length classes to show; "none" is an action with no class on record. Empty = all. */
+  classes: (LengthClass | "none")[];
+  /** Bolt-face groups to show (an action matches if it offers any). Empty = all. */
+  faces: FaceFamily[];
+  footprint: string;
+  /** Show only actions that feed at least this COAL (inches). */
+  needCoalIn: number | null;
+  /** Which limit `needCoalIn` is checked against: factory magazine, with parts, or any way (single feed, reported builds). */
+  coalMode: CoalMode;
+  weightMinOz: number | null;
+  weightMaxOz: number | null;
+  /** With a weight range set, keep actions whose weight isn't on record. */
+  keepNoWeight: boolean;
+}
+
+export const NO_FILTER: ActionFilter = { text: "", makers: [], classes: [], faces: [], footprint: "", needCoalIn: null, coalMode: "parts", weightMinOz: null, weightMaxOz: null, keepNoWeight: false };
+
+/** The COAL limit a row is held to under a mode, or null if none is on record. */
+export function rowCoal(r: ActionRow, mode: CoalMode): number | null {
+  const vals = mode === "factory" ? [r.factory?.coalIn] : mode === "parts" ? [r.withParts?.coalIn] : [r.withParts?.coalIn, r.singleFeed?.coalIn, ...r.builds.map((b) => b.coalIn)];
+  const known = vals.filter((v): v is number => v != null);
+  return known.length ? Math.max(...known) : null;
+}
+
+export function filterActions(rows: ActionRow[], f: ActionFilter): ActionRow[] {
+  const words = f.text.toLowerCase().split(/\s+/).filter(Boolean);
+  const weightSet = f.weightMinOz != null || f.weightMaxOz != null;
+  return rows.filter((r) => {
+    const a = r.action;
+    if (words.length) {
+      const hay = `${a.maker} ${a.model} ${a.variant ?? ""} ${a.footprint ?? ""} ${a.material ?? ""}`.toLowerCase();
+      if (!words.every((w) => hay.includes(w))) return false;
+    }
+    if (f.makers.length && !f.makers.includes(a.maker)) return false;
+    if (f.classes.length && !f.classes.includes(a.lengthClass ?? "none")) return false;
+    if (f.faces.length && !r.faceFamilies.some((x) => f.faces.includes(x))) return false;
+    if (f.footprint && a.footprint !== f.footprint) return false;
+    if (f.needCoalIn != null) {
+      const c = rowCoal(r, f.coalMode);
+      if (c == null || c < f.needCoalIn - 1e-6) return false;
+    }
+    if (weightSet) {
+      if (a.weightOz == null) return f.keepNoWeight;
+      if (f.weightMinOz != null && a.weightOz < f.weightMinOz - 1e-6) return false;
+      if (f.weightMaxOz != null && a.weightOz > f.weightMaxOz + 1e-6) return false;
+    }
+    return true;
+  });
+}
+
+/** How many rows have each field on record, for the coverage line. */
+export function actionCoverage(rows: ActionRow[]) {
+  const n = (p: (r: ActionRow) => unknown) => rows.filter((r) => p(r) != null && p(r) !== false).length;
+  return {
+    total: rows.length,
+    weight: n((r) => r.action.weightOz),
+    factoryCoal: n((r) => r.factory),
+    withParts: n((r) => r.withParts),
+    boltFace: n((r) => r.action.boltFaces.length > 0 || null),
+    receiverLength: n((r) => r.action.receiverLengthIn),
+  };
 }

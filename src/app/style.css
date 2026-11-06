@@ -342,3 +342,30 @@ table.data.chamber-table td.num { white-space: nowrap; min-width: 0; }
 .action-item summary { cursor: pointer; }
 .action-routes { margin: 4px 0 4px 0; padding-left: 18px; }
 .action-routes li { margin: 4px 0; }
+
+/* Actions tab */
+.missing { display: inline-block; font-size: 11px; padding: 0 6px; border-radius: 10px; border: 1px dashed var(--warn); color: var(--warn); }
+.chip { padding: 4px 10px; border-radius: 14px; font-size: 13px; }
+.chip.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.actions-filters { margin: 8px 0; }
+.actions-view .table-frame { padding: 0; }
+table.data.actions-table tr.action-row { cursor: pointer; }
+table.data.actions-table tr.action-row:hover td, table.data.actions-table tr.action-row.open td { background: rgba(127,127,127,0.08); }
+table.data.actions-table td.text { min-width: 90px; }
+table.data.actions-table td:first-child { white-space: normal; min-width: 170px; }
+.action-detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 14px; margin: 0 0 8px; }
+.action-detail dt { color: var(--muted); }
+.action-detail dd { margin: 0; }
+@media (max-width: 600px) {
+  /* Phones: each action is a card, labels beside values. Sort with the Sort by menu. */
+  .actions-view .table-frame { max-height: none; overflow: visible; border: 0; padding: 0; background: none; }
+  table.data.actions-table thead, table.data.actions-table td.blank { display: none !important; }
+  table.data.actions-table, table.data.actions-table tbody { display: block; }
+  table.data.actions-table tr.action-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2px 10px; padding: 10px 12px; margin: 8px 0; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+  table.data.actions-table tr.action-row td { border: 0; padding: 1px 0; text-align: left; white-space: normal; min-width: 0; max-width: none; }
+  table.data.actions-table tr.action-row td::before { content: attr(data-label); display: block; font-size: 11px; color: var(--muted); }
+  table.data.actions-table tr.action-row td:first-child { grid-column: 1 / -1; font-size: 15px; }
+  table.data.actions-table tr.action-row td:first-child::before { display: none; }
+  table.data.actions-table tr.detail, table.data.actions-table tr.detail td { display: block; padding: 8px 12px; border: 0; }
+  .action-detail dl { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); }
+}

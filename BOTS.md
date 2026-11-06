@@ -2,7 +2,7 @@
 
 This file is for the two bots that feed this repo, and for anyone reviewing their pull requests. It says which paths each bot owns, what format we expect, what we are asking each bot to change, and the project's answers to the bots' questions. Read it before opening a PR.
 
-Last updated: 2026-11-03, Show Actions live and answers on the action files (see below); earlier, new request: a rifle action and modification database in `data/actions/bots/` (see below); earlier the same day, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
+Last updated: 2026-11-04, new Actions tab and optional action fields for weight and receiver specs, schema actions 1.1.0 (see below); 2026-11-03, Show Actions live and answers on the action files (see below); earlier, new request: a rifle action and modification database in `data/actions/bots/` (see below); earlier the same day, powder bulk density (PR #327) answered and used in the Chamber tab (see below); 2026-11-02 evening, optional throat fields for the Chamber tab (see below); 2026-10-29 evening, the owner's rulings on SAAMI and C.I.P. sheets, case lengths, PTG prints titled SAAMI, and Sherman dimensions (see below); earlier the same day, Sherman Wildcat Cartridges added as a load source; earlier, the Bullet drawings tab (2026-10-28 late), PR #87 (velocity estimates for every cartridge) and the owner's decision on Pacific Tool & Gauge. See **What changed on the project side** below.
 
 ## Who owns what
 
@@ -97,6 +97,22 @@ The project owner asked for a database of rifle actions and the modifications th
 3. **Every value cites a source** (`source`, plus `fieldSources` when one record's numbers come from different pages). Maker and gunsmith pages first; forum posts are allowed for `builds` and tagged as community reports. Numbers only, as printed, `null` when unknown, never a typical value. Check each site's terms first and note them in a comment file.
 4. **Split the work** however suits you (for example, one bot takes actions, the other magazines and modifications) and say which in a comment file. Start with the Remington 700 and its clones, then the priority list in the README.
 5. **The reader is in** (`src/lib/actions.ts`): every Check run lists your action files under **Rifle actions** in the normalization report, with each left-out record and why. The project's own seed is `data/actions/actions.json` (two Remington 700 placeholders, the Wyatt's boxes Red Hawk Rifles lists, the work they need, and the owner's 28 Nosler build); it is read first, so don't reuse its ids. Please fill the R700 records' bolt faces and factory limits from your own sources under new ids, or say in a comment file if you'd rather the project replace its placeholders with yours.
+
+## What changed on the project side (2026-11-04): Actions tab, action weight (schema actions 1.1.0)
+
+The owner asked for a tab listing every action with its **weight**, max COAL and other specs, with filters. It is live as the **Actions** tab (`src/app/views/actions.ts`). It shows each action's factory max COAL, the longest COAL with an aftermarket box or modification, single-feed length, bolt faces, receiver length, bolt travel, ejection port, footprint and reported builds, every number linked to its source. A value with no cited figure shows as **missing**; nothing is guessed.
+
+1. **Request to the load-data bot (actions), please: file action weights.** None of the 125 actions has one yet, and weight is the first column the owner asked for. Maker spec pages print it for nearly every custom action (Defiance, Zermatt/Bighorn, Stiller, Impact, Lone Peak, Kelbly, Surgeon, Terminus, BAT, Borden, ARC, Curtis). Factory rifles rarely print a bare action weight; leave those `null`, never a rifle weight.
+2. **New optional action fields, schema `actions 1.1.0`** (the app reads both 1.0.0 and 1.1.0; set `schemaVersion` to `1.1.0` once you add any of them, and put every key on every record, `null` when unknown):
+   - `weight` and `weightUnit` (`oz`, `lb`, `g` or `kg`, as printed): the **bare action** (receiver, bolt, and recoil lug if the maker includes it; say what is included in `note`). Not the rifle. Checked range 4 oz to 10 lb.
+   - `lugCount`: locking lugs on the bolt (whole number).
+   - `boltDiameter` (in `lengthUnit`): bolt body diameter as printed.
+   - `receiverDiameter` (in `lengthUnit`): outside diameter of a round receiver; `null` for flat-bottom or when not printed.
+   - `material`: as printed, short (`"416R stainless"`, `"17-4 stainless"`, `"titanium"`, `"chrome-moly"`).
+   If a number comes from a different page than `source`, cite it in `fieldSources` under the same key (e.g. `fieldSources.weight`). Community sources are not allowed for these.
+3. **Still thin:** factory max COAL (29 of 125), bolt faces (26), receiver length (26), bolt travel and single-feed length (none). Any printed figure helps both the Actions tab and Show Actions.
+4. **Bullet bot:** no change asked; magazines and modifications are shown as filed. Detachable magazines (AICS, MDT, Magpul, AI) would let the tab show lengths for the many actions with none yet, once the owner rules on those sites' terms.
+5. **Terms:** as before, numbers only for JAWBONE, Go Big Tactical, American Rifle Co., Hodgdon and PTG; the tab shows numbers and links, no text from those sites.
 
 ## What changed on the project side (2026-11-03, later): Show Actions is live
 
