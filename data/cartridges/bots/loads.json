@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-11-05",
   "bot": "load-data",
-  "cartridgeCount": 248,
+  "cartridgeCount": 249,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -7908,6 +7908,40 @@
         "retrievedOn": "2026-11-02"
       },
       "note": "ESTIMATE (forum source; Kevin ruled 2026-11-02 to use 94.8 over 101). 94.8 gr H2O filled to the mouth: OKIE2 and MontanaRifleman (Jan 27, 2014), LRH 26 Nosler thread (https://www.longrangehunting.com/threads/26-nosler.125013/page-6). Kevin chose this over MontanaRifleman's later 101 gr (three unfired cases filled to the top of the mouth, Jan 29, 2014, https://www.longrangehunting.com/goto/post?id=914561). Fills only the empty capacity of the bullet bot's 300-dakota (4D profile); bullet diameter and case length copied from it."
+    },
+    {
+      "id": "338-norma-ack-40",
+      "name": "338 Norma Magnum Ackley Improved 40\u00b0",
+      "kind": "wildcat",
+      "aliases": [
+        "338 Norma Ack 40",
+        "338 Norma Ackley Improved",
+        "338 Norma Mag Ackley Improved",
+        "338 NMI 40"
+      ],
+      "parentCase": "338 Norma Mag",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.492,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5889,
+      "shoulderDiameter": 0.577,
+      "neckDiameter": 0.3704,
+      "lengthToShoulder": 2.0256,
+      "lengthToNeck": 2.148,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338-Norma-Mag-Ack-Imp-Bore-Rider-Finish-Chamber-Reamer_p_118280.html",
+        "retrievedOn": "2026-11-05"
+      },
+      "note": "New. PTG print #68499 rev C (9/27/2016), '338 Norma Ack 40\u00b0 Bore Rider', chamber drawing from the bolt face, read from the product image (https://www.pacifictoolandgauge.com/assets/images/chamber-reamers/338-norma-ai-br.jpg). Basic brass 338 Norma; groove .338, bore .33. Bolt-face body .5889, .5878 at .200; shoulder .577 at 2.0256 at 40 deg; datum .450 at 2.1012 min / 2.1052 max; chamber neck .3704 at 2.148; chamber length 2.502; freebore/lead dims .223 and .950 printed. Die-reamer note: base .5818, .5712 at 1.8256, neck .364. caseLength 2.492 is ESTIMATE: PTG chamber length 2.502 minus .010 (owner rule 2026-10-29), no designer case spec found. Rim, capacity and max COAL not printed. Separate design from the 35 deg Wheeler/AW and 30 deg 300 Jazz variants."
     }
   ],
   "aliases": [
