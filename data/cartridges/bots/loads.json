@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-11-05",
   "bot": "load-data",
-  "cartridgeCount": 249,
+  "cartridgeCount": 250,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -7942,6 +7942,40 @@
         "retrievedOn": "2026-11-05"
       },
       "note": "New. PTG print #68499 rev C (9/27/2016), '338 Norma Ack 40\u00b0 Bore Rider', chamber drawing from the bolt face, read from the product image (https://www.pacifictoolandgauge.com/assets/images/chamber-reamers/338-norma-ai-br.jpg). Basic brass 338 Norma; groove .338, bore .33. Bolt-face body .5889, .5878 at .200; shoulder .577 at 2.0256 at 40 deg; datum .450 at 2.1012 min / 2.1052 max; chamber neck .3704 at 2.148; chamber length 2.502; freebore/lead dims .223 and .950 printed. Die-reamer note: base .5818, .5712 at 1.8256, neck .364. caseLength 2.492 is ESTIMATE: PTG chamber length 2.502 minus .010 (owner rule 2026-10-29), no designer case spec found. Rim, capacity and max COAL not printed. Separate design from the 35 deg Wheeler/AW and 30 deg 300 Jazz variants."
+    },
+    {
+      "id": "7mm-nmi-40",
+      "name": "7mm Norma Magnum Improved 40\u00b0",
+      "kind": "wildcat",
+      "aliases": [
+        "7mm NMI 40",
+        "7mm NMI",
+        "284 NMI 40",
+        "7mm Norma Ackley Improved 40"
+      ],
+      "parentCase": "338 Norma Mag",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.492,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.5889,
+      "shoulderDiameter": 0.577,
+      "neckDiameter": 0.319,
+      "lengthToShoulder": 2.0256,
+      "lengthToNeck": 2.1793,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": null,
+      "pressure": null,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/338-Norma-Mag-Ack-Imp-Bore-Rider-Finish-Chamber-Reamer_p_118280.html",
+        "retrievedOn": "2026-11-05"
+      },
+      "note": "ESTIMATE: inferred 7mm sibling of the 338 Norma Ackley 40\u00b0 (owner rule 2026-11-05: NMI body taper and shoulder diameter, then the chosen shoulder angle to the neck). Body and shoulder from PTG print #68499 rev C '338 Norma Ack 40\u00b0 Bore Rider': bolt-face body .5889, .5878 at .200, shoulder .577 at 2.0256 at 40 deg. Neck .319 copied from PTG print #82552 '284 JAZZ' (the printed chamber neck for a .284 groove on this case family; https://www.pacifictoolandgauge.com/284-Jazz-284338-Norma-Chamber-Reamer_p_119456.html). lengthToNeck 2.1793 is ESTIMATE: 2.0256 + (.577 \u2212 .319) / (2 \u00d7 tan 40\u00b0). caseLength 2.492 is ESTIMATE: PTG chamber length 2.502 minus .010 (owner rule 2026-10-29). Rim, capacity and max COAL not printed. Separate from the 30\u00b0 284 Jazz."
     }
   ],
   "aliases": [
