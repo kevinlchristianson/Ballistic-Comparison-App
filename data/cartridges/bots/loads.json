@@ -8083,7 +8083,7 @@
         "243 Crague",
         "6mm Cragoe"
       ],
-      "parentCase": ".243 Winchester",
+      "parentCase": ".277 SIG Fury",
       "lengthUnit": "in",
       "bulletDiameter": 0.243,
       "caseLength": 2.045,
@@ -8099,7 +8099,11 @@
       "caseCapacityGrH2O": null,
       "shoulderAngleDeg": 30,
       "rimType": "rimless",
-      "pressure": null,
+      "pressure": {
+        "value": 80000,
+        "unit": "psi",
+        "method": "piezo"
+      },
       "throatDiameter": 0.2435,
       "boreDiameter": 0.236,
       "source": {
@@ -8107,7 +8111,7 @@
         "url": null,
         "retrievedOn": "2026-11-10"
       },
-      "note": "ESTIMATE: caseLength 2.045 is the printed chamber length 2.0550 minus .010 (owner rule 2026-10-29); no designer case length published. Chamber print supplied directly by Kevin on 2026-11-10 (no public URL), basic brass 243 Win, caliber 6mm, groove .2430, bore .2360, N&T tolerance +.0005, angles +10 min. Read from the print: bolt-face body .4738 (EO .4772), .4714 at .200; shoulder .4540 at 1.6366 at 30 deg; neck .2770 at 1.7907 (30 deg check: 1.6366 + (.454 - .277)/(2 tan 30) = 1.7899); chamber neck end 2.0550; headspace 1.7050 min at the .375 datum; 45 deg neck-to-throat; throat .2435 (2.0710 to 2.2310); leade 1-30-0. Freebore and leade angle left null (not printed as single values; 1-30-0 not marked per side or included). Rim, capacity, max COAL and pressure not printed. Designer name printed 'Hayden Crague' while the title reads '243 CRAGOE'."
+      "note": "ESTIMATE: caseLength 2.045 is the printed chamber length 2.0550 minus .010 (owner rule 2026-10-29); no designer case length published. Chamber print supplied directly by Kevin on 2026-11-10 (no public URL), basic brass 243 Win, caliber 6mm, groove .2430, bore .2360, N&T tolerance +.0005, angles +10 min. Read from the print: bolt-face body .4738 (EO .4772), .4714 at .200; shoulder .4540 at 1.6366 at 30 deg; neck .2770 at 1.7907 (30 deg check: 1.6366 + (.454 - .277)/(2 tan 30) = 1.7899); chamber neck end 2.0550; headspace 1.7050 min at the .375 datum; 45 deg neck-to-throat; throat .2435 (2.0710 to 2.2310); leade 1-30-0. Freebore and leade angle left null (not printed as single values; 1-30-0 not marked per side or included). Rim, capacity, max COAL and pressure not printed. Designer name printed 'Hayden Crague' while the title reads '243 CRAGOE'. Owner (Kevin, Ballistic App room, 2026-11-10): the Cragoe uses a SIG Fury (.277 SIG Fury hybrid) case and runs 80,000 psi; parent case and pressure set from that statement (method taken as piezo, as for the .277 SIG Fury). The print's 'basic brass 243 Win' line is superseded by his statement."
     }
   ],
   "aliases": [

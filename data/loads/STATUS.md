@@ -6,7 +6,7 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## 243 Cragoe (2026-11-10)
 
-- Added `243-cragoe` from the chamber print Kevin supplied in chat (rev A 08/13/26, designer Hayden Crague; no public URL): 30 deg shoulder .4540 at 1.6366, neck .2770 at 1.7907, body .4738/.4714 at .200, throat .2435, bore .2360; case 2.045 ESTIMATE (chamber 2.0550 minus .010). It's a 6mm, filed here because Kevin sent it to this bot.
+- Added `243-cragoe` from the chamber print Kevin supplied in chat (rev A 08/13/26, designer Hayden Crague; no public URL): 30 deg shoulder .4540 at 1.6366, neck .2770 at 1.7907, body .4738/.4714 at .200, throat .2435, bore .2360; case 2.045 ESTIMATE (chamber 2.0550 minus .010). It's a 6mm, filed here because Kevin sent it to this bot. Kevin then said it uses a SIG Fury case at 80,000 psi; parent and pressure updated (piezo assumed).
 
 ## WTO and Jarrett wildcats (2026-11-10)
 
