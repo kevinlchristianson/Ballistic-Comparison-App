@@ -167,5 +167,17 @@ describe("estimated cartridge inputs", () => {
       expect(e.methods).not.toContain("bot_profile");
       expect(Math.abs(e.value - 56)).toBeLessThan(3);
     });
+
+    it("names Pacific Tool & Gauge only for its own prints", () => {
+      const detail = (fieldNotes: Record<string, string>, addedBy?: unknown) => {
+        const hidden = cartridges.map((x) => (x.id === "308-win" ? ({ ...win308(x), caseCapacityGrH2O: null, fieldNotes, addedBy } as Cartridge) : x));
+        return estimateCartridgeInputs(hidden).get("308-win")!.capacityEstimate!.detail;
+      };
+      expect(detail(src("Pacific Tool & Gauge"))).toContain("Pacific Tool & Gauge chamber print");
+      // A designer's chamber print supplied by the owner, as for the 243 Cragoe.
+      const own = detail({}, { bot: "load-data", file: "x", source: { name: "Chamber print '243 Cragoe' rev A", url: null } });
+      expect(own).toContain("chamber print");
+      expect(own).not.toContain("Pacific Tool");
+    });
   });
 });
