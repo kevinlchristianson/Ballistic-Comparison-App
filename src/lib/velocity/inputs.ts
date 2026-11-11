@@ -364,7 +364,9 @@ export function estimateCartridgeInputs(cartridges: Cartridge[], options: InputO
     }
     const prof = correctedProfile(c);
     if (prof) {
-      const from = prof.surface === "case" ? "printed case drawing" : prof.surface === "chamber" ? "Pacific Tool & Gauge chamber print" : "printed case profile";
+      // Name Pacific Tool & Gauge only when the profile came from one of its prints; other chamber prints (a designer's own) are just "chamber print".
+      const ptg = /Pacific Tool/i.test(`${c.fieldNotes?.baseDiameterIn ?? ""} ${c.addedBy?.source.name ?? ""}`);
+      const from = prof.surface === "case" ? "printed case drawing" : prof.surface === "chamber" ? (ptg ? "Pacific Tool & Gauge chamber print" : "chamber print") : "printed case profile";
       const r1 = (x: number) => Math.round(x * 10) / 10;
       const adj = Math.abs(prof.value - prof.raw) >= 0.05 ? `, ${r1(prof.raw)} gr before the head-thickness correction` : "";
       parts.push({ v: prof.value, sd: profileSd, m: "case_profile", note: `from the case profile (${from}, ${r1(prof.value)} gr${adj})` });
