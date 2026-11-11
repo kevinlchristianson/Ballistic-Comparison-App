@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-11-10",
   "bot": "load-data",
-  "cartridgeCount": 254,
+  "cartridgeCount": 256,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -8116,6 +8116,69 @@
         "retrievedOn": "2026-11-10"
       },
       "note": "ESTIMATE: caseLength 2.045 is the printed chamber length 2.0550 minus .010 (owner rule 2026-10-29); no designer case length published. Chamber print supplied directly by Kevin on 2026-11-10 (no public URL), basic brass 243 Win, caliber 6mm, groove .2430, bore .2360, N&T tolerance +.0005, angles +10 min. Read from the print: bolt-face body .4738 (EO .4772), .4714 at .200; shoulder .4540 at 1.6366 at 30 deg; neck .2770 at 1.7907 (30 deg check: 1.6366 + (.454 - .277)/(2 tan 30) = 1.7899); chamber neck end 2.0550; headspace 1.7050 min at the .375 datum; 45 deg neck-to-throat; throat .2435 (2.0710 to 2.2310); leade 1-30-0. Freebore and leade angle left null (not printed as single values; 1-30-0 not marked per side or included). Rim, capacity, max COAL and pressure not printed. Designer name printed 'Hayden Crague' while the title reads '243 CRAGOE'. Owner (Kevin, Ballistic App room, 2026-11-10): the Cragoe uses a SIG Fury (.277 SIG Fury hybrid) case and runs 80,000 psi; parent case and pressure set from that statement (method taken as piezo, as for the .277 SIG Fury). The print's 'basic brass 243 Win' line is superseded by his statement."
+    },
+    {
+      "id": "284-jarrett",
+      "name": ".284 Jarrett",
+      "kind": "wildcat",
+      "aliases": [
+        "284 Jarrett",
+        "7mm Jarrett"
+      ],
+      "parentCase": ".300 Winchester Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.62,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Jarrett Rifles, Ammunition Services",
+        "url": "https://jarrettrifles.com/custom-handloaded-ammunition/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength 2.620 is the parent .300 Winchester Magnum's (SAAMI); no Jarrett print or published case length found at PTG, 4D, JGS, Manson or Jarrett. Filed on the parent length at the owner's direction (Kevin, Ballistic App room, 2026-11-10: 'Go ahead and estimate the Jarrett's'). Jarrett's page: built by reducing a .300 Win Mag to 7mm, traditional 35 deg shoulder, throat leade for 140 and 160 gr bullets. LRH forum (https://www.longrangehunting.com/threads/jarrett-barrels.4091/): volume to the base of the neck 85.5 gr (not to the mouth, so not stored). Profile null for the app's parent-case estimate."
+    },
+    {
+      "id": "338-jarrett",
+      "name": ".338 Jarrett",
+      "kind": "wildcat",
+      "aliases": [
+        "338 Jarrett"
+      ],
+      "parentCase": "8mm Remington Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.338,
+      "caseLength": 2.85,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 40,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Long Range Hunting forum, .338 STA thread page 2",
+        "url": "https://www.longrangehunting.com/threads/338-sta.366829/page-2",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength 2.850 is the parent 8mm Remington Magnum's (SAAMI; https://en.wikipedia.org/wiki/8mm_Remington_Magnum); no Jarrett print or published case length found. Filed on the parent length at the owner's direction (Kevin, Ballistic App room, 2026-11-10). 40 deg shoulder is forum ESTIMATE: an owner reports Jarrett's staff confirmed the case matches their print with a 40 deg shoulder (forum sources allowed per owner, 2026-10-30); another poster recalled 35 deg. Parent 8mm Rem Mag per forum posts (LRH 'Which .338' thread page 4: blown-out, improved, necked-up 8mm Rem Mag; Jarrett also sells Norma brass). Jarrett's own page (https://jarrettrifles.com/custom-handloaded-ammunition/) prints no dimensions. Profile null for the app's parent-case estimate."
     }
   ],
   "aliases": [
