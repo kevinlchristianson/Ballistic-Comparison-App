@@ -10,6 +10,8 @@ This file is for the app's coding agent. Questions and decisions stay in [`comme
 
 ## WTO and Jarrett wildcats (2026-11-10)
 
+- Profiles filled 2026-11-10 from WTO-hosted prints: `7mm-saw` from the Manson SAW II print (SAW II only), `7mm-300-norma-improved` from the JGS '7/300 Norma Bore Rider WTO' print. No print exists at PTG, 4D, JGS, Manson or Jarrett for the Jarretts.
+
 - Added `7mm-saw` (WTO FAQ: max case 2.010, parent .308 Win Lapua Palma, small rifle primer; headspace 1.627 GO at .375 datum in the note), `300-jarrett` (ESTIMATE: Jarrett load sheet quoted on 24hourcampfire, case 2.850 / trim 2.840 / max OAL 3.640; 35 deg and 8mm Rem Mag parent from jarrettrifles.com) and `7mm-300-norma-improved` (WTO: 30 deg, .588 head, about 107 gr fireformed capacity in the note; case 2.492 ESTIMATE from the parent per the 2026-11-05 Norma Improved rule). Profiles are null for the app's parent-case estimate.
 - Not filed: `.284 Jarrett` (300 Win Mag necked to 7mm, 35 deg) and `.338 Jarrett` (8mm Rem Mag; 40 deg only per an LRH forum owner) have no printed case length anywhere I could reach, and case length is required. 22/25 SAW and .25-7PRC are the bullet bot's. 6.5x280 AI is already in `bullets.json`.
 
