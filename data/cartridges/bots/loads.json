@@ -2,7 +2,7 @@
   "schemaVersion": "1.1.0",
   "generatedOn": "2026-11-10",
   "bot": "load-data",
-  "cartridgeCount": 253,
+  "cartridgeCount": 254,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -8074,6 +8074,40 @@
         "retrievedOn": "2026-11-10"
       },
       "note": "ESTIMATE: caseLength 2.492 is the parent .300 Norma Magnum's (SAAMI Z299.4-2025), kept per the owner's Norma Improved rule (2026-11-05); the designer prints no case length. Designer prints a 30 deg improved shoulder, .588 in case head, and a fireformed capacity of about 107 grains (water not stated, so not stored); feeds from AICS .338 CIP magazines. Not the same case as the 40 deg 7mm NMI (7mm-nmi-40) or the 30 deg 284 Jazz on 338 Norma brass; profile not printed."
+    },
+    {
+      "id": "243-cragoe",
+      "name": "243 Cragoe",
+      "kind": "wildcat",
+      "aliases": [
+        "243 Crague",
+        "6mm Cragoe"
+      ],
+      "parentCase": ".243 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 2.045,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": 0.4738,
+      "shoulderDiameter": 0.454,
+      "neckDiameter": 0.277,
+      "lengthToShoulder": 1.6366,
+      "lengthToNeck": 1.7907,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
+      "throatDiameter": 0.2435,
+      "boreDiameter": 0.236,
+      "source": {
+        "name": "Chamber print '243 Cragoe' rev A (08/13/26), designer Hayden Crague, supplied by Kevin Christianson",
+        "url": null,
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength 2.045 is the printed chamber length 2.0550 minus .010 (owner rule 2026-10-29); no designer case length published. Chamber print supplied directly by Kevin on 2026-11-10 (no public URL), basic brass 243 Win, caliber 6mm, groove .2430, bore .2360, N&T tolerance +.0005, angles +10 min. Read from the print: bolt-face body .4738 (EO .4772), .4714 at .200; shoulder .4540 at 1.6366 at 30 deg; neck .2770 at 1.7907 (30 deg check: 1.6366 + (.454 - .277)/(2 tan 30) = 1.7899); chamber neck end 2.0550; headspace 1.7050 min at the .375 datum; 45 deg neck-to-throat; throat .2435 (2.0710 to 2.2310); leade 1-30-0. Freebore and leade angle left null (not printed as single values; 1-30-0 not marked per side or included). Rim, capacity, max COAL and pressure not printed. Designer name printed 'Hayden Crague' while the title reads '243 CRAGOE'."
     }
   ],
   "aliases": [
