@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-11-05",
+  "generatedOn": "2026-11-10",
   "bot": "load-data",
-  "cartridgeCount": 250,
+  "cartridgeCount": 253,
   "aliasCount": 32,
   "cartridges": [
     {
@@ -7976,6 +7976,104 @@
         "retrievedOn": "2026-11-05"
       },
       "note": "ESTIMATE: inferred 7mm sibling of the 338 Norma Ackley 40\u00b0 (owner rule 2026-11-05: NMI body taper and shoulder diameter, then the chosen shoulder angle to the neck). Body and shoulder from PTG print #68499 rev C '338 Norma Ack 40\u00b0 Bore Rider': bolt-face body .5889, .5878 at .200, shoulder .577 at 2.0256 at 40 deg. Neck .319 copied from PTG print #82552 '284 JAZZ' (the printed chamber neck for a .284 groove on this case family; https://www.pacifictoolandgauge.com/284-Jazz-284338-Norma-Chamber-Reamer_p_119456.html). lengthToNeck 2.1793 is ESTIMATE: 2.0256 + (.577 \u2212 .319) / (2 \u00d7 tan 40\u00b0). caseLength 2.492 is ESTIMATE: PTG chamber length 2.502 minus .010 (owner rule 2026-10-29). Rim, capacity and max COAL not printed. Separate from the 30\u00b0 284 Jazz."
+    },
+    {
+      "id": "7mm-saw",
+      "name": "7mm SAW",
+      "kind": "wildcat",
+      "aliases": [
+        "7 SAW",
+        "7mm SAW I",
+        "7mm SAW II"
+      ],
+      "parentCase": ".308 Winchester",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.01,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": null,
+      "rimType": "rimless",
+      "pressure": null,
+      "source": {
+        "name": "West Texas Ordnance, 7mm SAW General FAQ's",
+        "url": "https://westtexordnance.com/7mm-saw-general-faqs/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "Designer (West Texas Ordnance) prints max case length 2.010 in and headspace 1.627 in GO / 1.632 in NO-GO at the .375 in shoulder datum (FAQ). Cartridge page (https://westtexordnance.com/home-extended/special-cartridges/7mm-saw/): developed on Lapua .308 Palma brass (small rifle primer), formed in one pass, no fireforming; SAW II chamber .150 in freebore gives about 3.090 in OAL with the 183 SMK, SAW I has a .045 in throat. Shoulder angle, profile, capacity, max COAL and pressure are not printed by the designer and are left null."
+    },
+    {
+      "id": "300-jarrett",
+      "name": ".300 Jarrett",
+      "kind": "wildcat",
+      "aliases": [
+        "300 Jarrett"
+      ],
+      "parentCase": "8mm Remington Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.308,
+      "caseLength": 2.85,
+      "trimLength": 2.84,
+      "maxCoal": 3.64,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 35,
+      "rimType": "belted",
+      "pressure": null,
+      "source": {
+        "name": "Jarrett Rifles load sheet, quoted on 24hourcampfire",
+        "url": "https://www.24hourcampfire.com/ubbthreads/ubbthreads.php/topics/331207/300-jarrett-question",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: case 2.850, trim 2.840 and max OAL 3.640 are from Jarrett Rifles' load sheet as posted by a forum member (2004), not a print. 35 deg shoulder and 8mm Remington Magnum parent case from Jarrett's own page (https://jarrettrifles.com/custom-handloaded-ammunition/). Handloader (https://www.handloadermagazine.com/wildcat-cartridges-45) reported an early fireformed case came out at 30 deg; Jarrett's current spec of 35 deg is used. Handloader measured about 106.5 gr gross capacity with BL-C(2) powder, not water, so capacity is not stored. Norma makes Jarrett-headstamped brass."
+    },
+    {
+      "id": "7mm-300-norma-improved",
+      "name": "7mm-300 Norma Improved",
+      "kind": "wildcat",
+      "aliases": [
+        "7-300 Norma Improved",
+        "7mm-300 NMI",
+        "7-300 NMI",
+        "7mm-300 Norma Mag Improved"
+      ],
+      "parentCase": ".300 Norma Magnum",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.284,
+      "caseLength": 2.492,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": null,
+      "neckLength": null,
+      "baseDiameter": null,
+      "shoulderDiameter": null,
+      "neckDiameter": null,
+      "lengthToShoulder": null,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
+      "source": {
+        "name": "West Texas Ordnance, 7mm-300 Norma Improved",
+        "url": "https://westtexordnance.com/home-extended/special-cartridges/7mm-300-norma-improved/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength 2.492 is the parent .300 Norma Magnum's (SAAMI Z299.4-2025), kept per the owner's Norma Improved rule (2026-11-05); the designer prints no case length. Designer prints a 30 deg improved shoulder, .588 in case head, and a fireformed capacity of about 107 grains (water not stated, so not stored); feeds from AICS .338 CIP magazines. Not the same case as the 40 deg 7mm NMI (7mm-nmi-40) or the 30 deg 284 Jazz on 338 Norma brass; profile not printed."
     }
   ],
   "aliases": [
