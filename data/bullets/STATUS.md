@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-10-29
+Last updated: 2026-11-10
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -145,6 +145,10 @@ PTG-only case lengths (Kevin's rule, 2026-10-29): a PTG print gives only chamber
 3. Same drawing exclusions as before: Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip 4D drawings labeled chamber. SAAMI and C.I.P. are cited from the standard or TDCC sheet itself (allowed per Kevin, 2026-10-29), never as PTG. Skip a shared image, a title that names a different cartridge, segment lengths, a straight case with no shoulder, or an Ackley shoulder that is not about 40° and larger than the parent.
 4. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
 5. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
+
+## 2026-11-10: WTO special cartridges
+
+Filed 22 SAW, 25 SAW and 25-7 PRC in `data/cartridges/bots/bullets.json` (count 450 to 453) from West Texas Ordnance pages and the reamer prints attached on the finishing-reamers product page. 6.5-280 AI already on file, left alone. 22 LRV skipped: WTO lists it as a reamer option but attaches no print and has no cartridge page; no 4D or PTG print found. Terms: see `comments/2026-11-10-wto-special-cartridges.md`.
 
 ## Blocked
 
