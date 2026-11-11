@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-10-31",
+  "generatedOn": "2026-11-10",
   "bot": "bullets",
-  "cartridgeCount": 450,
+  "cartridgeCount": 453,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -13874,6 +13874,115 @@
         "retrievedOn": "2026-10-31"
       },
       "note": "ESTIMATE: caseLength is the PTG chamber neck end minus 0.010 in. New. Rimmed: the print measures from the rim-face datum (0.065 in rim thickness, single value); 0.065 in was added to put lengths on the case head. PTG print 22400 rev A, 20 Hornady Hornet (11/3/2014), basic brass 17 Hornet; groove 0.204. Body 0.2992 in at 0.135 in from the datum; shoulder 0.295 in at 0.981 (1.046 head) in, 25deg; neck 0.2275 in at 1.053 (1.118 head) in; chamber neck end 1.2915 (1.3565 head) in. Cross-check: shoulder end 1.040 from the datum matches the 1.105 printed from the bolt face. Parent .17 Hornet case length 1.350 in (Wikipedia) sits 0.0065 in under the converted chamber, consistent."
+    },
+    {
+      "id": "22-saw",
+      "name": "22 SAW",
+      "kind": "wildcat",
+      "aliases": [
+        ".22 SAW",
+        "22 SAW WTO"
+      ],
+      "parentCase": "7mm SAW",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.224,
+      "caseLength": 2.015,
+      "trimLength": 2.015,
+      "maxCoal": null,
+      "rimDiameter": 0.473,
+      "neckLength": 0.2973,
+      "baseDiameter": 0.471,
+      "shoulderDiameter": 0.4545,
+      "neckDiameter": 0.262,
+      "lengthToShoulder": 1.561,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 53.0,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
+      "freebore": 0.12,
+      "throatDiameter": 0.2248,
+      "boreDiameter": 0.218,
+      "leadeAngleDeg": 1.5,
+      "source": {
+        "name": "West Texas Ordnance",
+        "url": "https://westtexordnance.com/home-extended/special-cartridges/22saw/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "WTO 22 SAW page: Case trim length 2.015 in; Case capacity 53.0 gr H2O to overflow; Bolt face .473 (Standard). caseLength is that published trim length; trimLength is the same figure. Parent is WTO's 7mm SAW (page: based on the 7mm SAW design, neck reduced to .22 caliber). Manson reamer print 448C5E, 5/8/2024, titled Proprietary 22 SAW, attached on WTO's finishing-reamers page, https://wtord.wpenginepowered.com/wp-content/uploads/2026/01/22-SAW-448C5E-Proprietary.pdf (also https://westtexordnance.com/product/finishing-reamers-for-wto-custom-cartridges/); print: West Texas Ordinance, 7 SAW neck down to 22 Cal; headspace gage 7mm SAW. Title matches; not a shared print. From the breech face: body 0.471 in at P1 (0.4703 also printed just ahead); shoulder 0.4545 in at P2 (0.4575 also printed at the junction); neck 0.262 in; L1 length to shoulder 1.5610 in; neck length 0.2973 in; L3 / Min Chamber Len 2.025 in (0.010 over the published trim). Length to neck is not a single from-breech callout, so left blank; the print also shows a shoulder length of 0.1667 in. Shoulder 30 deg. Free bore 0.120 in; throat 0.2248 in; bore 0.2180 in; leade 1 deg 30 min per side as drawn (stored 1.5). The print's 45 deg is the neck-to-throat angle, not the shoulder. Table figures that look calculated (chamber volume, Body TPI, A3+m1, Breech Face Dia 0.473425) are not stored; rim is the page's 0.473. No cartridge max COAL on the page (only per-bullet Max OAL on https://westtexordnance.com/22-saw-load-data/)."
+    },
+    {
+      "id": "25-saw",
+      "name": "25 SAW",
+      "kind": "wildcat",
+      "aliases": [
+        ".25 SAW",
+        "25 SAW WTO"
+      ],
+      "parentCase": "7mm SAW",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.0,
+      "trimLength": null,
+      "maxCoal": 2.96,
+      "rimDiameter": null,
+      "neckLength": 0.307,
+      "baseDiameter": 0.471,
+      "shoulderDiameter": 0.4545,
+      "neckDiameter": 0.292,
+      "lengthToShoulder": 1.561,
+      "lengthToNeck": null,
+      "caseCapacityGrH2O": 54.2,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
+      "freebore": 0.142,
+      "throatDiameter": 0.2575,
+      "boreDiameter": null,
+      "leadeAngleDeg": 1.5,
+      "source": {
+        "name": "West Texas Ordnance",
+        "url": "https://westtexordnance.com/25-saw-the-ultimate-hunter-match-cartridge/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength is the Manson chamber print's minimum chamber length 2.010 in minus 0.010 in; no published case length found. New. WTO 25 SAW article: maximum COAL 2.960 in; H2O case capacity 54.2 gr to overflow; based on the 7mm SAW case necked to .257. Standard freebore 0.142 in from the page's standard .25 SAW .142 in Freebore reamer (chamber neck 0.292 in there). Earlier freebore 0.112 in is on the development article, https://westtexordnance.com/25-saw-cartridge-development/ (test rifle .292 in neck / .112 in freebore, and prototype reamer .292 in neck diameter of a .112 in freebore length); not stored as freebore. Manson print titled 25 SAW, customer West Texas Ordnance, date 7/19, rev 1, altered 10/19, attached on WTO's finishing-reamers page, https://wtord.wpenginepowered.com/wp-content/uploads/2026/01/Manson-25SAW.pdf (also https://westtexordnance.com/product/finishing-reamers-for-wto-custom-cartridges/). Title matches; not a shared print. Handwritten Rimless, shouldered with neck. Base 0.471 in; shoulder 0.4545 in; neck 0.292 in; freebore diameter 0.2575 in; freebore length 0.142 in (starred; the 10/19 alteration). Shoulder 30 deg. Leade 1 deg 30 min per side as drawn (stored 1.5). Length to shoulder 1.561 in (1.561 REF on the print's gauge view; the profile also prints 0.200 in then 1.361 in Base to Shoulder). Neck length 0.307 in. Minimum chamber length 2.010 in; length to neck is not a single from-breech callout, so left blank. Pilot diameter 0.2495 in, not stored as bore. 0.075 R is a body-shoulder fillet, not a double-radius shoulder. Headspace Go 1.6082 in, No-Go 1.6142 in at a 0.400 in datum, not stored as a case length."
+    },
+    {
+      "id": "25-7-prc",
+      "name": "25-7 PRC",
+      "kind": "wildcat",
+      "aliases": [
+        ".25-7 PRC",
+        ".25-7PRC",
+        "25/7 PRC"
+      ],
+      "parentCase": "7mm PRC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.257,
+      "caseLength": 2.28,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.5419,
+      "neckLength": null,
+      "baseDiameter": 0.5365,
+      "shoulderDiameter": 0.5182,
+      "neckDiameter": 0.293,
+      "lengthToShoulder": 1.8145,
+      "lengthToNeck": 2.01,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 30,
+      "rimType": "rimless",
+      "pressure": null,
+      "freebore": 0.14,
+      "throatDiameter": 0.258,
+      "boreDiameter": 0.25,
+      "leadeAngleDeg": 1.5,
+      "source": {
+        "name": "West Texas Ordnance",
+        "url": "https://westtexordnance.com/home-extended/special-cartridges/25-7prc/",
+        "retrievedOn": "2026-11-10"
+      },
+      "note": "ESTIMATE: caseLength is the JGS print's T 2.2900 in (end of the chamber neck) minus 0.010 in; no published 25-7 case length found (the development article's 2.280 in is the PRC's 2.280 in case length, the parent). New. Parent 7mm PRC necked down (WTO 25-7 PRC page; development article https://westtexordnance.com/25-7-prc-cartridge-development-and-test-results/; print: basic brass 7mm PRC, Use standard 7mm PRC (3440) headspace gauge). JGS print titled 25/7 PRC WTO, print # 25/7 PRC WTO, designer West Texas Ordnance, drawn 08/13/25, revisions 09/19/22 and Updated Pilot 08/11/25, attached on WTO's finishing-reamers page, https://wtord.wpenginepowered.com/wp-content/uploads/2026/01/25x7-PRC-WTO.pdf (also https://westtexordnance.com/product/finishing-reamers-for-wto-custom-cartridges/). Title matches; not a shared 7mm PRC print. Form: RIMLESS OR REBATED RIFLE, MINIMUM CHAMBER; ED 0.5419 in at the bolt face is larger than the body, so rimType is rimless. Caliber 25, groove 0.2570 in, bore 0.2500 in. From the bolt face: rim ED 0.5419 in; body A 0.5365 in (B 0.5345 in also printed); shoulder K 0.5182 in; neck N and H 0.2930 in (the development article describes an earlier current-reamer neck of 0.289 in; the 08/13/25 print is 0.2930); throat G and I 0.2580 in. Shoulder 30 deg 0 min 0 sec. Leade 1 deg 30 min 0 sec per side as drawn (stored 1.5). The 45 deg is the neck-to-throat angle. Q 1.8145 in at the shoulder; S 2.0100 in at the neck; T 2.2900 in at the end of the chamber neck; headspace R 1.9000 min / 1.9100 max at the 0.4200 in datum; freebore 0.1400 in (U and V; the development article also says a very similar .140 in freebore length). T to V is printed 0.1575 in. Neck length is not a single callout, so left blank. Comment: Throat datum .255 X 2.505 from bolt face. No cartridge max COAL or water capacity on the WTO pages (only per-bullet max COALs on the development article)."
     }
   ],
   "aliases": []
