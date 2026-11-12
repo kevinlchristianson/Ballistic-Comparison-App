@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import projectFile from "../data/actions/actions.json";
 import { loadActionDb } from "../scripts/action-library.ts";
-import { boltFaceFit, matchActions, mergeActionFiles, type RifleAction } from "../src/lib/actions.ts";
+import { NO_FILTER, actionCoverage, actionRows, boltFaceFit, faceFamily, filterActions, matchActions, mergeActionFiles, rowCoal, type RifleAction } from "../src/lib/actions.ts";
 import { cartridge, cartridges } from "./helpers.ts";
 
 const src = { name: "Example Arms spec page", url: "https://example.com/action", retrievedOn: "2026-11-03", kind: "maker" };
@@ -196,5 +196,89 @@ describe("project action file", () => {
     expect(m.routes.some((r) => r.kind === "build" && r.community)).toBe(true);
     expect(m.routes.find((r) => r.kind === "magazine" && r.magazine?.id === "wyatts-mbe-02")?.reaches).toBe(true);
     expect(m.related.map((x) => x.id)).toContain("r700-feed-lip-milling");
+  });
+});
+
+describe("schema 1.1.0 action fields", () => {
+  const base = (file() as { actions: Record<string, unknown>[] }).actions[0]!;
+  it("reads weight in its printed unit as ounces, plus lugs, bolt and receiver diameter", () => {
+    const data = file({
+      schemaVersion: "1.1.0",
+      actions: [
+        { ...base, weight: 1.5, weightUnit: "lb", lugCount: 2, boltDiameter: 0.7, receiverDiameter: 1.355, material: "stainless steel" },
+        { ...base, id: "metric", lengthUnit: "mm", boltFaces: [], maxCoalMagazine: 91.44, maxCoalSingleFeed: null, weight: 680, weightUnit: "g" },
+      ],
+    });
+    const { db, reports } = mergeActionFiles([{ file: "x.json", data }], cartridges);
+    expect(reports[0]!.rejected).toEqual([]);
+    expect(db.actions[0]).toMatchObject({ weightOz: 24, weightUnit: "lb", lugCount: 2, boltDiameterIn: 0.7, receiverDiameterIn: 1.355, material: "stainless steel" });
+    expect(db.actions[1]!.weightOz).toBeCloseTo(23.99, 1);
+    expect(db.actions[1]!.maxCoalMagazineIn).toBeCloseTo(3.6, 4);
+  });
+  it("leaves missing weight null and rejects a weight with no unit or out of range", () => {
+    const data = file({ actions: [base, { ...base, id: "no-unit", weight: 20 }, { ...base, id: "heavy", weight: 40, weightUnit: "lb" }, { ...base, id: "lugs", lugCount: 2.5 }] });
+    const { db, reports } = mergeActionFiles([{ file: "x.json", data }], cartridges);
+    expect(db.actions.map((a) => a.id)).toEqual(["example-long"]);
+    expect(db.actions[0]!.weightOz).toBeNull();
+    expect(reports[0]!.rejected.map((r) => r.item)).toEqual(["action no-unit", "action heavy", "action lugs"]);
+  });
+});
+
+describe("Actions tab rows and filters", () => {
+  const base = (file() as { actions: Record<string, unknown>[] }).actions[0]!;
+  const data = file({
+    actions: [
+      { ...base, weight: 22, weightUnit: "oz" },
+      { ...base, id: "example-short", variant: "Short", lengthClass: "short", footprint: "example-short", boltFaces: [{ label: ".223", diameter: null }], maxCoalMagazine: 2.82, maxCoalSingleFeed: null, weight: 20, weightUnit: "oz" },
+      { ...base, id: "example-mystery", maker: "Other Co", lengthClass: null, footprint: null, boltFaces: [], maxCoalMagazine: null, maxCoalSingleFeed: null },
+    ],
+    builds: [{ id: "b1", actionId: "example-long", magazineId: null, modificationIds: [], cartridge: "28 Nosler", lengthUnit: "in", coal: 3.95, feeds: "single", source: community, note: null }],
+  });
+  const { db } = mergeActionFiles([{ file: "x.json", data }], cartridges);
+  const rows = actionRows(db);
+  const row = (id: string) => rows.find((r) => r.action.id === id)!;
+
+  it("gives factory, with-parts and single-feed limits, and builds on any cartridge", () => {
+    const r = row("example-long");
+    expect(r.factory?.coalIn).toBe(3.6);
+    expect(r.withParts?.coalIn).toBeCloseTo(3.8, 4);
+    expect(r.withPartsNeeds).toEqual(["Box Co Extended box", "Bolt stop relief"]);
+    expect(r.singleFeed?.coalIn).toBe(3.9);
+    expect(r.builds.map((b) => b.id)).toEqual(["b1"]);
+    expect(rowCoal(r, "factory")).toBe(3.6);
+    expect(rowCoal(r, "any")).toBe(3.95);
+    expect(row("example-mystery").factory).toBeNull();
+  });
+
+  it("groups bolt faces by case head, from the diameter or the label", () => {
+    expect(row("example-long").faceFamilies).toEqual(["standard", "magnum"]);
+    expect(row("example-short").faceFamilies).toEqual(["small"]);
+    expect(faceFamily({ label: "Lapua", diameterIn: null })).toBe("large");
+    expect(faceFamily({ label: ".550", diameterIn: null })).toBe("magnum");
+    expect(faceFamily({ label: "6-lug", diameterIn: null })).toBeNull();
+  });
+
+  it("filters by class, face, maker, COAL needed and weight", () => {
+    const ids = (f: Partial<typeof NO_FILTER>) => filterActions(rows, { ...NO_FILTER, ...f }).map((r) => r.action.id);
+    expect(ids({})).toHaveLength(3);
+    expect(ids({ classes: ["short"] })).toEqual(["example-short"]);
+    expect(ids({ classes: ["none"] })).toEqual(["example-mystery"]);
+    expect(ids({ faces: ["magnum"] })).toEqual(["example-long"]);
+    expect(ids({ makers: ["Other Co"] })).toEqual(["example-mystery"]);
+    expect(ids({ text: "x1 short" })).toEqual(["example-short"]);
+    expect(ids({ needCoalIn: 3.7, coalMode: "factory" })).toEqual([]);
+    expect(ids({ needCoalIn: 3.7, coalMode: "parts" })).toEqual(["example-long"]);
+    expect(ids({ needCoalIn: 3.92, coalMode: "parts" })).toEqual([]);
+    expect(ids({ needCoalIn: 3.92, coalMode: "any" })).toEqual(["example-long"]);
+    expect(ids({ weightMaxOz: 21 })).toEqual(["example-short"]);
+    expect(ids({ weightMinOz: 21, keepNoWeight: true })).toEqual(["example-long", "example-mystery"]);
+  });
+
+  it("counts coverage, and the real data has rows for every action", () => {
+    expect(actionCoverage(rows)).toMatchObject({ total: 3, weight: 2, factoryCoal: 2 });
+    const real = actionRows(loadActionDb(cartridges).db);
+    expect(real.length).toBeGreaterThan(100);
+    const r700 = real.find((r) => r.action.id === "remington-700-long")!;
+    expect(r700.withParts!.coalIn).toBeGreaterThanOrEqual(3.825);
   });
 });
