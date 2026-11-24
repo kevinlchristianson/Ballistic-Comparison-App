@@ -1,6 +1,6 @@
 # Bullet bot status
 
-Last updated: 2026-11-10
+Last updated: 2026-11-24
 
 This file is for the app's coding agent. Questions and decisions stay in [`comments/`](comments/). `BOTS.md` does not name a different status path.
 
@@ -142,7 +142,7 @@ PTG-only case lengths (Kevin's rule, 2026-10-29): a PTG print gives only chamber
 
 1. The other missing 4D pages in [`4d-coverage.md`](4d-coverage.md), the calibers with the most gaps first, about 10 per batch. Same drawing checks. Every new record includes rim diameter when printed, rim type only when a belt is printed, and neck length from that drawing.
 2. Cited profiles for the cartridges that are still partly estimated on the Case drawings tab, the ones in `cartridges.json` first. Every new profile includes `neckLength`. A neck diameter is stored only when it is 0.015–0.045 in over the bullet diameter, or the print is read again and the shoulder geometry agrees. A 4D case drawing is used when its title matches, its image is not shared, and the shoulder geometry agrees. PTG chamber prints are the fallback, measured from the belt datum when the case is belted. The record uses the library id so it fills only empty fields. New wildcats wait until those library profiles are in.
-3. Same drawing exclusions as before: Hammer wildcats, 300 SAM, 6x6.8 SPC, 6 WOA, and `.25 Nosler`. Skip 4D drawings labeled chamber. SAAMI and C.I.P. are cited from the standard or TDCC sheet itself (allowed per Kevin, 2026-10-29), never as PTG. Skip a shared image, a title that names a different cartridge, segment lengths, a straight case with no shoulder, or an Ackley shoulder that is not about 40° and larger than the parent.
+3. Same drawing exclusions as before: Hammer wildcats, 300 SAM, 6 WOA, and `.25 Nosler`. 6x6.8 SPC is on file (2026-11-24). Skip 4D drawings labeled chamber. SAAMI and C.I.P. are cited from the standard or TDCC sheet itself (allowed per Kevin, 2026-10-29), never as PTG. Skip a shared image, a title that names a different cartridge, segment lengths, a straight case with no shoulder, or an Ackley shoulder that is not about 40° and larger than the parent.
 4. Hornady's obsolete Dakota drawings print a full labeled dimension set for 7mm, 300, 330, 375, and 416 Dakota. They are not in the library yet. The 404 Dakota and 450 Dakota filenames on that host returned 404.
 5. ADG brass pages print brand-specific water volumes and say their brass differs from other makers. Those volumes were not applied.
 
@@ -150,10 +150,14 @@ PTG-only case lengths (Kevin's rule, 2026-10-29): a PTG print gives only chamber
 
 Filed 22 SAW, 25 SAW and 25-7 PRC in `data/cartridges/bots/bullets.json` (count 450 to 453) from West Texas Ordnance pages and the reamer prints attached on the finishing-reamers product page. 6.5-280 AI already on file, left alone. 22 LRV skipped: WTO lists it as a reamer option but attaches no print and has no cartridge page; no 4D or PTG print found. Terms: see `comments/2026-11-10-wto-special-cartridges.md`.
 
+## 2026-11-24: 6x6.8 SPC
+
+Filed `6x6-8-spc` (6x6.8 SPC / 6mm SPC / 6mm-6.8 SPC) in `data/cartridges/bots/bullets.json` (count 453 to 454) from Pacific Tool & Gauge print PTG-12439. ESTIMATE caseLength 1.6864 in (chamber neck end 1.6964 minus 0.010). 4D's 6mm-6.8 page was not used: its drawing is titled 6.8x43 Rem SPC (parent). 6 WOA, 6mm ARC, 6mm Hagar and other 6.8-based 6mm wildcats are not aliases. See `comments/2026-10-27-6-woa.md`.
+
 ## Blocked
 
 - Copy-banned or terms-blocked sources stay skipped: Speer, Federal, Remington, Alliant, Norma, RWS, Peregrine, Warner, North Fork, GECO, Rottweil, Fiocchi, Winchester, Hodgdon Reloading Data Center, 6mmBR.com diagrams, The Ballistic Assistant, Peterson, Alpha Munitions, Manson, Whidden, Starline, Nosler website-use policy, Weatherby, Barnes, LoadDevelopment, and Zima. Vihtavuori and Lapua table numbers were not copied. Wikipedia case lengths are used only for PTG-only cartridges under Kevin's 2026-10-29 rule, cited in the note. PTG reamer numbers are allowed. 4D Reamer Rentals numbers are allowed. ANSI/SAAMI Z299.4 drawings and tables and C.I.P. TDCC sheets are allowed per Kevin, 2026-10-29 (numbers only, cited per cartridge). Drawing images and other page text are not copied.
-- 6 WOA and 6x6.8 SPC stay out. See [`comments/2026-10-27-6-woa.md`](comments/2026-10-27-6-woa.md).
+- 6x6.8 SPC is now on file from PTG-12439 (2026-11-24). 6 WOA stays out and is not an alias; see [`comments/2026-10-27-6-woa.md`](comments/2026-10-27-6-woa.md).
 - `.25 Nosler` stays without a profile. See [`comments/2026-10-28-ptg-print-58347.md`](comments/2026-10-28-ptg-print-58347.md).
 - 4D pages whose drawing is labeled SAAMI or C.I.P. were not copied: 6.8 Western and 6mm ARC. 277 SIG Fury has no dimension drawing on its page. .25-06 Remington is not the 25-06 Niedner page.
 

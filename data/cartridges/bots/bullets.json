@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedOn": "2026-11-10",
+  "generatedOn": "2026-11-24",
   "bot": "bullets",
-  "cartridgeCount": 453,
+  "cartridgeCount": 454,
   "aliasCount": 0,
   "cartridges": [
     {
@@ -13983,6 +13983,44 @@
         "retrievedOn": "2026-11-10"
       },
       "note": "ESTIMATE: caseLength is the JGS print's T 2.2900 in (end of the chamber neck) minus 0.010 in; no published 25-7 case length found (the development article's 2.280 in is the PRC's 2.280 in case length, the parent). New. Parent 7mm PRC necked down (WTO 25-7 PRC page; development article https://westtexordnance.com/25-7-prc-cartridge-development-and-test-results/; print: basic brass 7mm PRC, Use standard 7mm PRC (3440) headspace gauge). JGS print titled 25/7 PRC WTO, print # 25/7 PRC WTO, designer West Texas Ordnance, drawn 08/13/25, revisions 09/19/22 and Updated Pilot 08/11/25, attached on WTO's finishing-reamers page, https://wtord.wpenginepowered.com/wp-content/uploads/2026/01/25x7-PRC-WTO.pdf (also https://westtexordnance.com/product/finishing-reamers-for-wto-custom-cartridges/). Title matches; not a shared 7mm PRC print. Form: RIMLESS OR REBATED RIFLE, MINIMUM CHAMBER; ED 0.5419 in at the bolt face is larger than the body, so rimType is rimless. Caliber 25, groove 0.2570 in, bore 0.2500 in. From the bolt face: rim ED 0.5419 in; body A 0.5365 in (B 0.5345 in also printed); shoulder K 0.5182 in; neck N and H 0.2930 in (the development article describes an earlier current-reamer neck of 0.289 in; the 08/13/25 print is 0.2930); throat G and I 0.2580 in. Shoulder 30 deg 0 min 0 sec. Leade 1 deg 30 min 0 sec per side as drawn (stored 1.5). The 45 deg is the neck-to-throat angle. Q 1.8145 in at the shoulder; S 2.0100 in at the neck; T 2.2900 in at the end of the chamber neck; headspace R 1.9000 min / 1.9100 max at the 0.4200 in datum; freebore 0.1400 in (U and V; the development article also says a very similar .140 in freebore length). T to V is printed 0.1575 in. Neck length is not a single callout, so left blank. Comment: Throat datum .255 X 2.505 from bolt face. No cartridge max COAL or water capacity on the WTO pages (only per-bullet max COALs on the development article)."
+    },
+    {
+      "id": "6x6-8-spc",
+      "name": "6x6.8 SPC",
+      "kind": "wildcat",
+      "aliases": [
+        "6mm SPC",
+        "6mm-6.8 SPC",
+        "6mm-6.8 Remington SPC",
+        "6 X 6.8mm Remington SPC"
+      ],
+      "parentCase": "6.8mm Remington SPC",
+      "lengthUnit": "in",
+      "bulletDiameter": 0.243,
+      "caseLength": 1.6864,
+      "trimLength": null,
+      "maxCoal": null,
+      "rimDiameter": 0.422,
+      "neckLength": 0.2391,
+      "baseDiameter": 0.4255,
+      "shoulderDiameter": 0.4028,
+      "neckDiameter": 0.274,
+      "lengthToShoulder": 1.2956,
+      "lengthToNeck": 1.4473,
+      "caseCapacityGrH2O": null,
+      "shoulderAngleDeg": 23,
+      "rimType": "rimless",
+      "pressure": null,
+      "freebore": 0.0606,
+      "throatDiameter": 0.2435,
+      "boreDiameter": 0.237,
+      "leadeAngleDeg": 1.5,
+      "source": {
+        "name": "Pacific Tool & Gauge",
+        "url": "https://www.pacifictoolandgauge.com/6--68-mm-Remington-SPC-Chamber-Reamer_p_118456.html",
+        "retrievedOn": "2026-11-24"
+      },
+      "note": "ESTIMATE: caseLength is the PTG chamber neck-end length 1.6964 in minus 0.010 in; no published 6x6.8 case length found. New. Pacific Tool & Gauge print PTG-12439, title 6 X 6.8mm Remington SPC / 6 X 6.8mm REM SPC, rev IR, old print 100438 rev A, Midway 123745, from the bolt face, on https://www.pacifictoolandgauge.com/6--68-mm-Remington-SPC-Chamber-Reamer_p_118456.html (image https://www.pacifictoolandgauge.com/assets/images/chamber-reamers/ptg-123745.jpg), retrieved 2026-11-24. Title matches; not shared with the 6.8 SPC SAAMI reamer page (that page uses 68-spc-saami.jpg). Basic brass 6.8 SPC. Groove 0.2430 in (stored as bullet diameter); bore 0.2370 in; pilot 0.2368 in. The print's table also says Caliber 6.8mm, left as a parent leftover; groove and title are 6x6.8. Chamber body 0.4255 in at 0.2000 in; rim 0.4220 in; shoulder 0.4028 in at 1.2956 in (that length is printed in parentheses), 23 deg; neck 0.2740 in at both ends at 1.4473 in (also in parentheses); chamber neck end 1.6964 in. Diameters are chamber, not case. Neck length is caseLength minus length to neck. Headspace 1.3460 min / 1.3560 max at a 0.3600 in datum, not stored as a case length. Freebore 0.0606 in (the print's throat cylinder from 1.6964 to 1.7570); throat 0.2435 in; leade 1 deg 30 min per side as drawn (stored 1.5). The 45 deg is the neck-to-throat angle. R.125 and R.030 are fillets, not a double-radius shoulder. A 0.2330 in min diameter and lengths 1.7117, 1.8811 and 1.9575 in are on the leade/throat and are not stored as case lengths. 4D has a 6mm-6.8 Remington SPC rental page (https://4drentals.com/product/reamer-rentals/rifle/6mm-68-remington-spc/) with 6mm pilots, but the attached drawing is titled 6.8x43 Rem SPC and shows a 0.3060 in neck (the parent 6.8 SPC drawing, a different file from the 6.8 SPC II page); it was not used. Not the same cartridge as 6 WOA (forum posts: 30 deg shoulder moved back; no 6 WOA alias), 6mm ARC (library; 0.441 in head, case 1.490 in, Grendel/PPC parent), 6mm Hagar (already on file, .30 Remington parent, case 1.775 in), 6mm DTI, 6 GPC / 24 Varminter, or TAC6. Those other 6.8-based 6mm wildcats were not given their own rows here. No cartridge max COAL or water capacity printed on the PTG page."
     }
   ],
   "aliases": []
